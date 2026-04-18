@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Run all Kalshi category downloaders with the same market limit."""
+"""Run all Kalshi category metadata downloaders with the same market limit."""
 
 from __future__ import annotations
 
 import argparse
 import csv
+import math
 import subprocess
 import sys
 from pathlib import Path
@@ -31,14 +32,14 @@ CATEGORY_DOWNLOADERS = [
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Download Kalshi market CSVs for every configured category.",
+        description="Download Kalshi market metadata CSVs for every configured category.",
     )
     parser.add_argument(
         "x",
         nargs="?",
         type=int,
         default=DEFAULT_MAX_MARKETS,
-        help="Maximum number of market CSVs to generate per category. Default: 150.",
+        help="Maximum number of market rows to generate per category. Default: 150.",
     )
     parser.add_argument(
         "--max-markets",
@@ -55,22 +56,16 @@ def build_parser() -> argparse.ArgumentParser:
         help="Optional per-request sleep override passed to each downloader.",
     )
     parser.add_argument(
-        "--period-interval",
-        type=int,
-        default=None,
-        help="Optional candlestick period interval override passed to each downloader.",
-    )
-    parser.add_argument(
-        "--chunk-minutes",
-        type=int,
-        default=None,
-        help="Optional candlestick request chunk size override passed to each downloader.",
-    )
-    parser.add_argument(
         "--series-limit",
         type=int,
         default=None,
         help="Optional series discovery limit passed to each downloader.",
+    )
+    parser.add_argument(
+        "--min-volume",
+        type=float,
+        default=None,
+        help="Only include markets whose market volume_fp is at least this value.",
     )
     parser.add_argument(
         "--full-history-scan",
@@ -80,12 +75,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Discover target markets without downloading candlestick CSVs.",
-    )
-    parser.add_argument(
-        "--fail-fast",
-        action="store_true",
-        help="Pass through to each downloader so a market-level download error stops that category.",
+        help="Discover target markets without writing CSVs.",
     )
     parser.add_argument(
         "--stop-on-category-error",
@@ -95,7 +85,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--clean-output",
         action="store_true",
-        help="Delete existing CSV files in each category output folder before downloading.",
+        help="Delete existing CSV files in each category output folder before writing.",
     )
     return parser
 
@@ -110,26 +100,25 @@ def pass_through_args(args: argparse.Namespace, limit: int) -> list[str]:
         ("--start-date", args.start_date),
         ("--end-date", args.end_date),
         ("--request-sleep", args.request_sleep),
-        ("--period-interval", args.period_interval),
-        ("--chunk-minutes", args.chunk_minutes),
         ("--series-limit", args.series_limit),
+        ("--min-volume", args.min_volume),
     ]
     for flag, value in optional_pairs:
         if value is not None:
             passthrough.extend([flag, str(value)])
-    for flag in ("--full-history-scan", "--dry-run", "--fail-fast"):
+    for flag in ("--full-history-scan", "--dry-run"):
         if getattr(args, flag.removeprefix("--").replace("-", "_")):
             passthrough.append(flag)
     return passthrough
 
 
-def count_successful_manifest_rows(output_dir: Path) -> int | None:
-    manifest_path = output_dir / "markets_index.csv"
-    if not manifest_path.exists():
+def count_market_rows(output_dir: Path) -> int | None:
+    markets_path = output_dir / "markets.csv"
+    if not markets_path.exists():
         return None
-    with manifest_path.open(newline="", encoding="utf-8") as handle:
+    with markets_path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
-        return sum(1 for row in reader if row.get("csv_path") and not row.get("error"))
+        return sum(1 for _ in reader)
 
 
 def clean_output_csvs(output_dir: Path) -> None:
@@ -144,6 +133,8 @@ def main() -> int:
     limit = market_limit(args)
     if limit < 0:
         raise SystemExit("market limit must be zero or positive")
+    if args.min_volume is not None and (not math.isfinite(args.min_volume) or args.min_volume < 0):
+        raise SystemExit("--min-volume must be a finite number greater than or equal to zero")
 
     repo_root = Path(__file__).resolve().parent
     failures: list[tuple[str, int]] = []
@@ -157,9 +148,9 @@ def main() -> int:
         command = [sys.executable, script, *shared_args]
         print(f"\n=== {category}: {' '.join(command)} ===", file=sys.stderr, flush=True)
         result = subprocess.run(command, cwd=repo_root, check=False)
-        count = None if args.dry_run else count_successful_manifest_rows(output_path)
+        count = None if args.dry_run else count_market_rows(output_path)
         if count is not None:
-            print(f"{category}: {count} successful market CSVs recorded in {output_dir}", file=sys.stderr)
+            print(f"{category}: {count} market rows recorded in {output_dir}/markets.csv", file=sys.stderr)
 
         if result.returncode != 0:
             failures.append((category, result.returncode))

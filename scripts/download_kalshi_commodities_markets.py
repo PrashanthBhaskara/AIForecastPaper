@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download Kalshi Commodities market candlesticks to Research/CommoditiesMarkets."""
+"""Download Kalshi Commodities market metadata to Research/CommoditiesMarkets."""
 
 from download_kalshi_climate_markets import main
 

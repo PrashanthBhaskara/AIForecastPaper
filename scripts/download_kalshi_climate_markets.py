@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Download Kalshi market candlesticks to CSV.
+"""Download Kalshi resolved/closed market metadata to CSV.
 
-Defaults are intentionally set for the proof window requested:
+Defaults are set for the revised research window:
 
     python scripts/download_kalshi_climate_markets.py
 
-The Climate script keeps its original defaults, while small wrapper scripts can
+This writes one market-level CSV to the category output folder. Wrapper scripts
 reuse this module with different Kalshi categories and output folders.
 """
 
@@ -14,7 +14,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-import re
+import math
 import sys
 import time
 import urllib.error
@@ -28,11 +28,9 @@ from typing import Any
 
 DEFAULT_BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 DEFAULT_CATEGORY = "Climate and Weather"
-DEFAULT_START_DATE = "2026-01-01"
-DEFAULT_END_DATE = "2026-02-01"
+DEFAULT_START_DATE = "2024-02-01"
+DEFAULT_END_DATE = "2024-09-01"
 DEFAULT_OUTPUT_DIR = "Research/ClimateMarkets"
-DEFAULT_PERIOD_INTERVAL_MINUTES = 1
-DEFAULT_CHUNK_MINUTES = 4_999
 DEFAULT_LIMIT = 1_000
 
 CLOSED_OR_RESOLVED_STATUSES = {
@@ -42,65 +40,30 @@ CLOSED_OR_RESOLVED_STATUSES = {
     "finalized",
 }
 
-CANDLE_COLUMNS = [
+MARKET_COLUMNS = [
+    "category",
     "market_ticker",
     "series_ticker",
     "event_ticker",
-    "market_title",
-    "market_status",
-    "market_result",
-    "market_close_time",
-    "market_settlement_ts",
-    "source_endpoint",
-    "end_period_ts",
-    "end_period_time_utc",
-    "yes_bid_open",
-    "yes_bid_low",
-    "yes_bid_high",
-    "yes_bid_close",
-    "yes_ask_open",
-    "yes_ask_low",
-    "yes_ask_high",
-    "yes_ask_close",
-    "price_open",
-    "price_low",
-    "price_high",
-    "price_close",
-    "price_mean",
-    "price_previous",
-    "price_min",
-    "price_max",
-    "volume",
-    "open_interest",
-]
-
-MANIFEST_COLUMNS = [
-    "market_ticker",
-    "series_ticker",
-    "event_ticker",
-    "market_title",
-    "market_status",
-    "market_result",
+    "title",
+    "resolution",
+    "status",
     "open_time",
     "close_time",
     "settlement_ts",
-    "source_endpoint",
-    "candlestick_count",
-    "csv_path",
-    "error",
+    "volume",
 ]
 
 
 @dataclass
 class KalshiClient:
     base_url: str = DEFAULT_BASE_URL
-    request_sleep: float = 0.06
+    request_sleep: float = 0.02
     timeout: int = 30
     max_retries: int = 5
     _last_request_at: float = field(default=0.0, init=False, repr=False)
 
     def get(self, path: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
-        """GET JSON from Kalshi with light pacing and retry handling."""
         params = params or {}
         query = urllib.parse.urlencode(params)
         url = f"{self.base_url.rstrip('/')}{path}"
@@ -113,7 +76,7 @@ class KalshiClient:
                 url,
                 headers={
                     "Accept": "application/json",
-                    "User-Agent": "AIForecastPaper-KalshiMarketDownloader/1.0",
+                    "User-Agent": "AIForecastPaper-KalshiMarketMetadataDownloader/1.0",
                 },
             )
             try:
@@ -173,10 +136,35 @@ def unix_seconds(dt: datetime) -> int:
     return int(dt.astimezone(timezone.utc).timestamp())
 
 
-def timestamp_to_utc(ts: Any) -> str:
-    if ts in (None, ""):
-        return ""
-    return datetime.fromtimestamp(int(ts), tz=timezone.utc).isoformat().replace("+00:00", "Z")
+def parse_numeric(value: Any) -> float | None:
+    if value in (None, ""):
+        return None
+    try:
+        parsed = float(str(value).replace(",", ""))
+    except ValueError:
+        return None
+    return parsed if math.isfinite(parsed) else None
+
+
+def format_number(value: float | int) -> str:
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    return f"{value:g}"
+
+
+def market_volume(market: dict[str, Any]) -> float | None:
+    for key in ("volume_fp", "volume", "volume_dollars"):
+        parsed = parse_numeric(market.get(key))
+        if parsed is not None:
+            return parsed
+    return None
+
+
+def market_passes_volume_filter(market: dict[str, Any], min_volume: float | None) -> bool:
+    if min_volume is None:
+        return True
+    volume = market_volume(market)
+    return volume is not None and volume >= min_volume
 
 
 def paginate(
@@ -225,7 +213,13 @@ def get_series_for_category(client: KalshiClient, category: str) -> list[dict[st
         },
     )
     series = data.get("series") or []
-    return sorted(series, key=lambda item: item.get("ticker", ""))
+    return sorted(
+        series,
+        key=lambda item: (
+            -(market_volume(item) or 0),
+            item.get("ticker", ""),
+        ),
+    )
 
 
 def is_closed_or_resolved(market: dict[str, Any]) -> bool:
@@ -256,6 +250,8 @@ def fetch_historical_markets_for_series(
     series_ticker: str,
     start: datetime,
     end: datetime,
+    max_matches: int | None,
+    min_volume: float | None,
     full_history_scan: bool,
 ) -> list[dict[str, Any]]:
     matches: list[dict[str, Any]] = []
@@ -275,11 +271,19 @@ def fetch_historical_markets_for_series(
         ]
 
         for market in page:
-            if market_closes_in_window(market, start, end) and is_closed_or_resolved(market):
-                matches.append(annotate_market(market, series_ticker, "historical"))
+            if not market_closes_in_window(market, start, end):
+                continue
+            if not is_closed_or_resolved(market):
+                continue
+            if not market_passes_volume_filter(market, min_volume):
+                continue
+            matches.append(annotate_market(market, series_ticker, "historical"))
+            if max_matches is not None and len(matches) >= max_matches:
+                return matches
 
-        # Historical markets appear newest-first by close_time. This keeps the
-        # January proof run from walking years of old markets for every series.
+        # Historical markets appear newest-first by close_time. Once the newest
+        # market on a page is older than the requested start, later pages cannot
+        # contain in-window markets for this series.
         if not full_history_scan and page_close_times and max(page_close_times) < start:
             break
 
@@ -291,6 +295,8 @@ def fetch_live_markets_for_series(
     series_ticker: str,
     start: datetime,
     end: datetime,
+    max_matches: int | None,
+    min_volume: float | None,
 ) -> list[dict[str, Any]]:
     start_ts = unix_seconds(start)
     end_exclusive_ts = unix_seconds(end)
@@ -308,11 +314,19 @@ def fetch_live_markets_for_series(
             "limit": DEFAULT_LIMIT,
         },
     )
-    return [
-        annotate_market(market, series_ticker, "live")
-        for market in markets
-        if market_closes_in_window(market, start, end) and is_closed_or_resolved(market)
-    ]
+
+    matches: list[dict[str, Any]] = []
+    for market in markets:
+        if not market_closes_in_window(market, start, end):
+            continue
+        if not is_closed_or_resolved(market):
+            continue
+        if not market_passes_volume_filter(market, min_volume):
+            continue
+        matches.append(annotate_market(market, series_ticker, "live"))
+        if max_matches is not None and len(matches) >= max_matches:
+            break
+    return matches
 
 
 def discover_markets(
@@ -320,9 +334,12 @@ def discover_markets(
     category: str,
     start: datetime,
     end: datetime,
+    max_markets: int | None,
+    min_volume: float | None,
     series_limit: int | None,
     requested_series_tickers: list[str] | None,
     full_history_scan: bool,
+    historical_cutoff: datetime | None,
 ) -> list[dict[str, Any]]:
     if requested_series_tickers:
         series = [{"ticker": ticker} for ticker in sorted(set(requested_series_tickers))]
@@ -333,186 +350,104 @@ def discover_markets(
     if not series:
         raise RuntimeError(f"No Kalshi series found for category {category!r}")
 
-    markets_by_ticker: dict[str, dict[str, Any]] = {}
+    markets: list[dict[str, Any]] = []
+    seen_tickers: set[str] = set()
+
+    def add_market(market: dict[str, Any]) -> None:
+        ticker = market.get("ticker")
+        if ticker and ticker not in seen_tickers:
+            seen_tickers.add(ticker)
+            markets.append(market)
+
+    def remaining() -> int | None:
+        if max_markets is None:
+            return None
+        return max(max_markets - len(markets), 0)
+
+    use_historical = historical_cutoff is None or start < historical_cutoff
+    use_live = historical_cutoff is None or end > historical_cutoff
+
     for index, series_item in enumerate(series, start=1):
+        if max_markets is not None and len(markets) >= max_markets:
+            break
+
         series_ticker = series_item["ticker"]
         print(
             f"[{index}/{len(series)}] Discovering markets for {series_ticker}",
             file=sys.stderr,
             flush=True,
         )
-        for market in fetch_historical_markets_for_series(
-            client,
-            series_ticker,
-            start,
-            end,
-            full_history_scan=full_history_scan,
-        ):
-            markets_by_ticker[market["ticker"]] = market
-        for market in fetch_live_markets_for_series(client, series_ticker, start, end):
-            # Prefer historical copies when both endpoints can see a market.
-            markets_by_ticker.setdefault(market["ticker"], market)
 
-    return sorted(
-        markets_by_ticker.values(),
-        key=lambda item: (
-            item.get("close_time") or "",
-            item.get("_series_ticker") or "",
-            item.get("ticker") or "",
-        ),
-    )
+        if use_historical:
+            historical_end = min(end, historical_cutoff) if historical_cutoff else end
+            for market in fetch_historical_markets_for_series(
+                client=client,
+                series_ticker=series_ticker,
+                start=start,
+                end=historical_end,
+                max_matches=remaining(),
+                min_volume=min_volume,
+                full_history_scan=full_history_scan,
+            ):
+                add_market(market)
 
+        if use_live and (max_markets is None or len(markets) < max_markets):
+            live_start = max(start, historical_cutoff) if historical_cutoff else start
+            for market in fetch_live_markets_for_series(
+                client=client,
+                series_ticker=series_ticker,
+                start=live_start,
+                end=end,
+                max_matches=remaining(),
+                min_volume=min_volume,
+            ):
+                add_market(market)
 
-def choose_candlestick_path(market: dict[str, Any]) -> tuple[str, str]:
-    ticker = market["ticker"]
-    if market.get("_source_endpoint") == "historical":
-        return "historical", f"/historical/markets/{urllib.parse.quote(ticker)}/candlesticks"
-
-    series_ticker = market["_series_ticker"]
-    return (
-        "live",
-        f"/series/{urllib.parse.quote(series_ticker)}/markets/{urllib.parse.quote(ticker)}/candlesticks",
-    )
+    return markets
 
 
-def fetch_candlesticks(
-    client: KalshiClient,
-    market: dict[str, Any],
-    start: datetime,
-    end: datetime,
-    period_interval_minutes: int,
-    chunk_minutes: int,
-) -> list[dict[str, Any]]:
-    global_start_ts = unix_seconds(start)
-    global_end_inclusive_ts = unix_seconds(end) - (period_interval_minutes * 60)
+def market_resolution(market: dict[str, Any]) -> str:
+    result = market.get("result")
+    if result not in (None, ""):
+        return str(result)
 
-    open_time = maybe_parse_utc_datetime(market.get("open_time"))
-    close_time = maybe_parse_utc_datetime(market.get("close_time"))
-    market_start_ts = unix_seconds(open_time) if open_time else global_start_ts
-    market_end_ts = unix_seconds(close_time) if close_time else global_end_inclusive_ts
+    settlement_value = market.get("settlement_value_dollars")
+    if settlement_value not in (None, ""):
+        if str(settlement_value) == "1.0000":
+            return "yes"
+        if str(settlement_value) == "0.0000":
+            return "no"
+        return str(settlement_value)
 
-    start_ts = max(global_start_ts, market_start_ts)
-    end_ts = min(global_end_inclusive_ts, market_end_ts)
-    if end_ts < start_ts:
-        return []
-
-    source_endpoint, path = choose_candlestick_path(market)
-    chunk_seconds = chunk_minutes * 60
-    step_seconds = period_interval_minutes * 60
-    candles_by_ts: dict[int, dict[str, Any]] = {}
-    chunk_start = start_ts
-
-    while chunk_start <= end_ts:
-        chunk_end = min(end_ts, chunk_start + chunk_seconds)
-        data = client.get(
-            path,
-            {
-                "start_ts": chunk_start,
-                "end_ts": chunk_end,
-                "period_interval": period_interval_minutes,
-            },
-        )
-        for candle in data.get("candlesticks") or []:
-            candle["_source_endpoint"] = source_endpoint
-            candle_ts = candle.get("end_period_ts")
-            if candle_ts is not None:
-                candles_by_ts[int(candle_ts)] = candle
-        chunk_start = chunk_end + step_seconds
-
-    return [candles_by_ts[key] for key in sorted(candles_by_ts)]
+    expiration_value = market.get("expiration_value")
+    return "" if expiration_value in (None, "") else str(expiration_value)
 
 
-def nested_value(container: dict[str, Any], *keys: str) -> Any:
-    for key in keys:
-        if key in container:
-            return container[key]
-    return ""
-
-
-def flatten_candle(market: dict[str, Any], candle: dict[str, Any]) -> dict[str, Any]:
-    yes_bid = candle.get("yes_bid") or {}
-    yes_ask = candle.get("yes_ask") or {}
-    price = candle.get("price") or {}
-    end_period_ts = candle.get("end_period_ts")
-
+def market_row(category: str, market: dict[str, Any]) -> dict[str, Any]:
+    volume = market_volume(market)
     return {
+        "category": category,
         "market_ticker": market.get("ticker", ""),
         "series_ticker": market.get("_series_ticker", ""),
         "event_ticker": market.get("event_ticker", ""),
-        "market_title": market.get("title", ""),
-        "market_status": market.get("status", ""),
-        "market_result": market.get("result", ""),
-        "market_close_time": market.get("close_time", ""),
-        "market_settlement_ts": market.get("settlement_ts", ""),
-        "source_endpoint": candle.get("_source_endpoint", market.get("_source_endpoint", "")),
-        "end_period_ts": end_period_ts,
-        "end_period_time_utc": timestamp_to_utc(end_period_ts),
-        "yes_bid_open": nested_value(yes_bid, "open", "open_dollars"),
-        "yes_bid_low": nested_value(yes_bid, "low", "low_dollars"),
-        "yes_bid_high": nested_value(yes_bid, "high", "high_dollars"),
-        "yes_bid_close": nested_value(yes_bid, "close", "close_dollars"),
-        "yes_ask_open": nested_value(yes_ask, "open", "open_dollars"),
-        "yes_ask_low": nested_value(yes_ask, "low", "low_dollars"),
-        "yes_ask_high": nested_value(yes_ask, "high", "high_dollars"),
-        "yes_ask_close": nested_value(yes_ask, "close", "close_dollars"),
-        "price_open": nested_value(price, "open", "open_dollars"),
-        "price_low": nested_value(price, "low", "low_dollars"),
-        "price_high": nested_value(price, "high", "high_dollars"),
-        "price_close": nested_value(price, "close", "close_dollars"),
-        "price_mean": nested_value(price, "mean", "mean_dollars"),
-        "price_previous": nested_value(price, "previous", "previous_dollars"),
-        "price_min": nested_value(price, "min", "min_dollars"),
-        "price_max": nested_value(price, "max", "max_dollars"),
-        "volume": nested_value(candle, "volume", "volume_fp"),
-        "open_interest": nested_value(candle, "open_interest", "open_interest_fp"),
-    }
-
-
-def safe_csv_name(ticker: str) -> str:
-    safe_ticker = re.sub(r"[^A-Za-z0-9_.-]+", "_", ticker)
-    return f"{safe_ticker}.csv"
-
-
-def write_market_csv(output_dir: Path, market: dict[str, Any], candles: list[dict[str, Any]]) -> Path:
-    csv_path = output_dir / safe_csv_name(market["ticker"])
-    with csv_path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=CANDLE_COLUMNS)
-        writer.writeheader()
-        for candle in candles:
-            writer.writerow(flatten_candle(market, candle))
-    return csv_path
-
-
-def manifest_row(
-    market: dict[str, Any],
-    csv_path: Path | None,
-    candlestick_count: int,
-    error: str = "",
-) -> dict[str, Any]:
-    return {
-        "market_ticker": market.get("ticker", ""),
-        "series_ticker": market.get("_series_ticker", ""),
-        "event_ticker": market.get("event_ticker", ""),
-        "market_title": market.get("title", ""),
-        "market_status": market.get("status", ""),
-        "market_result": market.get("result", ""),
+        "title": market.get("title", ""),
+        "resolution": market_resolution(market),
+        "status": market.get("status", ""),
         "open_time": market.get("open_time", ""),
         "close_time": market.get("close_time", ""),
         "settlement_ts": market.get("settlement_ts", ""),
-        "source_endpoint": market.get("_source_endpoint", ""),
-        "candlestick_count": candlestick_count,
-        "csv_path": str(csv_path) if csv_path else "",
-        "error": error,
+        "volume": "" if volume is None else format_number(volume),
     }
 
 
-def write_manifest(output_dir: Path, rows: list[dict[str, Any]]) -> Path:
-    manifest_path = output_dir / "markets_index.csv"
-    with manifest_path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=MANIFEST_COLUMNS)
+def write_markets_csv(output_dir: Path, category: str, markets: list[dict[str, Any]]) -> Path:
+    csv_path = output_dir / "markets.csv"
+    with csv_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=MARKET_COLUMNS)
         writer.writeheader()
-        writer.writerows(rows)
-    return manifest_path
+        for market in markets:
+            writer.writerow(market_row(category, market))
+    return csv_path
 
 
 def build_parser(
@@ -520,16 +455,25 @@ def build_parser(
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
 ) -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description=f"Download 1-minute Kalshi {default_category} closed/resolved market candlesticks.",
+        description=f"Download Kalshi {default_category} market metadata.",
     )
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
     parser.add_argument("--category", default=default_category)
     parser.add_argument("--start-date", default=DEFAULT_START_DATE)
     parser.add_argument("--end-date", default=DEFAULT_END_DATE)
     parser.add_argument("--output-dir", default=default_output_dir)
-    parser.add_argument("--period-interval", type=int, default=DEFAULT_PERIOD_INTERVAL_MINUTES)
-    parser.add_argument("--chunk-minutes", type=int, default=DEFAULT_CHUNK_MINUTES)
-    parser.add_argument("--max-markets", type=int, default=None)
+    parser.add_argument(
+        "--max-markets",
+        type=int,
+        default=None,
+        help="Maximum market rows to write.",
+    )
+    parser.add_argument(
+        "--min-volume",
+        type=float,
+        default=None,
+        help="Only include markets whose market volume_fp is at least this value.",
+    )
     parser.add_argument("--series-limit", type=int, default=None)
     parser.add_argument(
         "--series-ticker",
@@ -537,10 +481,9 @@ def build_parser(
         default=[],
         help="Optional series ticker to restrict discovery. Can be repeated or comma-separated.",
     )
-    parser.add_argument("--request-sleep", type=float, default=0.06)
+    parser.add_argument("--request-sleep", type=float, default=0.02)
     parser.add_argument("--full-history-scan", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--fail-fast", action="store_true")
     return parser
 
 
@@ -556,16 +499,17 @@ def main(
     end = parse_utc_datetime(args.end_date)
     if end <= start:
         raise SystemExit("--end-date must be after --start-date")
-    if args.period_interval not in {1, 60, 1440}:
-        raise SystemExit("--period-interval must be one of 1, 60, or 1440")
-    if args.chunk_minutes <= 0:
-        raise SystemExit("--chunk-minutes must be positive")
+    if args.max_markets is not None and args.max_markets < 0:
+        raise SystemExit("--max-markets must be zero or positive")
+    if args.min_volume is not None and (not math.isfinite(args.min_volume) or args.min_volume < 0):
+        raise SystemExit("--min-volume must be a finite number greater than or equal to zero")
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     client = KalshiClient(base_url=args.base_url, request_sleep=args.request_sleep)
     cutoff = client.get("/historical/cutoff")
+    historical_cutoff = maybe_parse_utc_datetime(cutoff.get("market_settled_ts"))
     print(f"Kalshi historical cutoff: {cutoff}", file=sys.stderr)
 
     requested_series_tickers = [
@@ -579,55 +523,32 @@ def main(
         category=args.category,
         start=start,
         end=end,
+        max_markets=args.max_markets,
+        min_volume=args.min_volume,
         series_limit=args.series_limit,
         requested_series_tickers=requested_series_tickers,
         full_history_scan=args.full_history_scan,
+        historical_cutoff=historical_cutoff,
     )
-    if args.max_markets is not None:
-        markets = markets[: args.max_markets]
 
     print(
-        f"Discovered {len(markets)} closed/resolved markets in {args.category!r} "
+        f"Selected {len(markets)} closed/resolved markets in {args.category!r} "
         f"from {start.isoformat()} to {end.isoformat()}",
         file=sys.stderr,
     )
 
     if args.dry_run:
         for market in markets:
+            row = market_row(args.category, market)
             print(
-                f"{market.get('ticker')} {market.get('_series_ticker')} {market.get('close_time')}",
+                f"{row['market_ticker']} {row['series_ticker']} {row['close_time']} {row['resolution']}",
                 file=sys.stdout,
             )
         return 0
 
-    manifest_rows: list[dict[str, Any]] = []
-    errors = 0
-    for index, market in enumerate(markets, start=1):
-        print(f"[{index}/{len(markets)}] Downloading {market['ticker']}", file=sys.stderr, flush=True)
-        try:
-            candles = fetch_candlesticks(
-                client=client,
-                market=market,
-                start=start,
-                end=end,
-                period_interval_minutes=args.period_interval,
-                chunk_minutes=args.chunk_minutes,
-            )
-            csv_path = write_market_csv(output_dir, market, candles)
-            manifest_rows.append(manifest_row(market, csv_path, len(candles)))
-        except Exception as exc:  # noqa: BLE001 - keep batch runs moving by default.
-            errors += 1
-            message = str(exc)
-            manifest_rows.append(manifest_row(market, None, 0, error=message))
-            print(f"ERROR for {market.get('ticker')}: {message}", file=sys.stderr)
-            if args.fail_fast:
-                break
-
-    manifest_path = write_manifest(output_dir, manifest_rows)
-    print(f"Wrote manifest: {manifest_path}", file=sys.stderr)
-    print(f"Wrote {len(manifest_rows) - errors} market CSVs to {output_dir}", file=sys.stderr)
-
-    return 1 if errors else 0
+    csv_path = write_markets_csv(output_dir, args.category, markets)
+    print(f"Wrote {len(markets)} market rows to {csv_path}", file=sys.stderr)
+    return 0
 
 
 if __name__ == "__main__":
