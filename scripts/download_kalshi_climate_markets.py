@@ -28,7 +28,7 @@ from typing import Any
 
 DEFAULT_BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 DEFAULT_CATEGORY = "Climate and Weather"
-DEFAULT_START_DATE = "2024-02-01"
+DEFAULT_START_DATE = "2020-08-01"
 DEFAULT_END_DATE = "2024-09-01"
 DEFAULT_OUTPUT_DIR = "Research/ClimateMarkets"
 DEFAULT_LIMIT = 1_000
@@ -335,6 +335,7 @@ def discover_markets(
     start: datetime,
     end: datetime,
     max_markets: int | None,
+    max_markets_per_series: int | None,
     min_volume: float | None,
     series_limit: int | None,
     requested_series_tickers: list[str] | None,
@@ -352,17 +353,38 @@ def discover_markets(
 
     markets: list[dict[str, Any]] = []
     seen_tickers: set[str] = set()
+    series_counts: dict[str, int] = {}
 
     def add_market(market: dict[str, Any]) -> None:
         ticker = market.get("ticker")
-        if ticker and ticker not in seen_tickers:
-            seen_tickers.add(ticker)
-            markets.append(market)
+        series_ticker = market.get("_series_ticker")
+        if not ticker or ticker in seen_tickers:
+            return
+        if (
+            max_markets_per_series is not None
+            and series_ticker
+            and series_counts.get(series_ticker, 0) >= max_markets_per_series
+        ):
+            return
+        seen_tickers.add(ticker)
+        markets.append(market)
+        if series_ticker:
+            series_counts[series_ticker] = series_counts.get(series_ticker, 0) + 1
 
     def remaining() -> int | None:
         if max_markets is None:
             return None
         return max(max_markets - len(markets), 0)
+
+    def remaining_for_series(series_ticker: str) -> int | None:
+        total_remaining = remaining()
+        if max_markets_per_series is None:
+            return total_remaining
+
+        series_remaining = max(max_markets_per_series - series_counts.get(series_ticker, 0), 0)
+        if total_remaining is None:
+            return series_remaining
+        return min(total_remaining, series_remaining)
 
     use_historical = historical_cutoff is None or start < historical_cutoff
     use_live = historical_cutoff is None or end > historical_cutoff
@@ -379,26 +401,32 @@ def discover_markets(
         )
 
         if use_historical:
+            historical_remaining = remaining_for_series(series_ticker)
+            if historical_remaining == 0:
+                continue
             historical_end = min(end, historical_cutoff) if historical_cutoff else end
             for market in fetch_historical_markets_for_series(
                 client=client,
                 series_ticker=series_ticker,
                 start=start,
                 end=historical_end,
-                max_matches=remaining(),
+                max_matches=historical_remaining,
                 min_volume=min_volume,
                 full_history_scan=full_history_scan,
             ):
                 add_market(market)
 
         if use_live and (max_markets is None or len(markets) < max_markets):
+            live_remaining = remaining_for_series(series_ticker)
+            if live_remaining == 0:
+                continue
             live_start = max(start, historical_cutoff) if historical_cutoff else start
             for market in fetch_live_markets_for_series(
                 client=client,
                 series_ticker=series_ticker,
                 start=live_start,
                 end=end,
-                max_matches=remaining(),
+                max_matches=live_remaining,
                 min_volume=min_volume,
             ):
                 add_market(market)
@@ -453,20 +481,29 @@ def write_markets_csv(output_dir: Path, category: str, markets: list[dict[str, A
 def build_parser(
     default_category: str = DEFAULT_CATEGORY,
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
+    default_start_date: str = DEFAULT_START_DATE,
+    default_end_date: str = DEFAULT_END_DATE,
+    default_max_markets_per_series: int | None = None,
 ) -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=f"Download Kalshi {default_category} market metadata.",
     )
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
     parser.add_argument("--category", default=default_category)
-    parser.add_argument("--start-date", default=DEFAULT_START_DATE)
-    parser.add_argument("--end-date", default=DEFAULT_END_DATE)
+    parser.add_argument("--start-date", default=default_start_date)
+    parser.add_argument("--end-date", default=default_end_date)
     parser.add_argument("--output-dir", default=default_output_dir)
     parser.add_argument(
         "--max-markets",
         type=int,
         default=None,
         help="Maximum market rows to write.",
+    )
+    parser.add_argument(
+        "--max-markets-per-series",
+        type=int,
+        default=default_max_markets_per_series,
+        help="Optional cap on how many market rows can come from a single series ticker.",
     )
     parser.add_argument(
         "--min-volume",
@@ -490,10 +527,16 @@ def build_parser(
 def main(
     default_category: str = DEFAULT_CATEGORY,
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
+    default_start_date: str = DEFAULT_START_DATE,
+    default_end_date: str = DEFAULT_END_DATE,
+    default_max_markets_per_series: int | None = None,
 ) -> int:
     args = build_parser(
         default_category=default_category,
         default_output_dir=default_output_dir,
+        default_start_date=default_start_date,
+        default_end_date=default_end_date,
+        default_max_markets_per_series=default_max_markets_per_series,
     ).parse_args()
     start = parse_utc_datetime(args.start_date)
     end = parse_utc_datetime(args.end_date)
@@ -501,6 +544,8 @@ def main(
         raise SystemExit("--end-date must be after --start-date")
     if args.max_markets is not None and args.max_markets < 0:
         raise SystemExit("--max-markets must be zero or positive")
+    if args.max_markets_per_series is not None and args.max_markets_per_series <= 0:
+        raise SystemExit("--max-markets-per-series must be positive")
     if args.min_volume is not None and (not math.isfinite(args.min_volume) or args.min_volume < 0):
         raise SystemExit("--min-volume must be a finite number greater than or equal to zero")
 
@@ -524,6 +569,7 @@ def main(
         start=start,
         end=end,
         max_markets=args.max_markets,
+        max_markets_per_series=args.max_markets_per_series,
         min_volume=args.min_volume,
         series_limit=args.series_limit,
         requested_series_tickers=requested_series_tickers,
@@ -552,4 +598,4 @@ def main(
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(main(default_max_markets_per_series=6))

@@ -68,6 +68,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Only include markets whose market volume_fp is at least this value.",
     )
     parser.add_argument(
+        "--max-markets-per-series",
+        type=int,
+        default=None,
+        help="Optional cap on how many market rows can come from a single series ticker.",
+    )
+    parser.add_argument(
         "--full-history-scan",
         action="store_true",
         help="Pass through to each downloader to scan all historical pages.",
@@ -102,6 +108,7 @@ def pass_through_args(args: argparse.Namespace, limit: int) -> list[str]:
         ("--request-sleep", args.request_sleep),
         ("--series-limit", args.series_limit),
         ("--min-volume", args.min_volume),
+        ("--max-markets-per-series", args.max_markets_per_series),
     ]
     for flag, value in optional_pairs:
         if value is not None:
@@ -135,6 +142,8 @@ def main() -> int:
         raise SystemExit("market limit must be zero or positive")
     if args.min_volume is not None and (not math.isfinite(args.min_volume) or args.min_volume < 0):
         raise SystemExit("--min-volume must be a finite number greater than or equal to zero")
+    if args.max_markets_per_series is not None and args.max_markets_per_series <= 0:
+        raise SystemExit("--max-markets-per-series must be positive")
 
     repo_root = Path(__file__).resolve().parent
     failures: list[tuple[str, int]] = []
