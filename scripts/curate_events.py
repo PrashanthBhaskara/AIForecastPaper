@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Iterable
 
 
-DEFAULT_INPUT_GLOB = "Research/*/markets.csv"
+DEFAULT_INPUT_GLOB = "Research/*/markets2.csv"
 DEFAULT_OUTPUT_PATH = "Research/curated_events.csv"
 DEFAULT_DOMAINS = [
     "Economics",

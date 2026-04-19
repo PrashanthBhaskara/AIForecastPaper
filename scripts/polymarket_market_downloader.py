@@ -342,7 +342,7 @@ def market_row(category: str, market: dict[str, Any]) -> dict[str, Any]:
 
 
 def write_markets_csv(output_dir: Path, category: str, markets: list[dict[str, Any]]) -> Path:
-    csv_path = output_dir / "markets.csv"
+    csv_path = output_dir / "markets2.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=MARKET_COLUMNS)
         writer.writeheader()

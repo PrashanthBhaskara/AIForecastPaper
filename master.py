@@ -113,7 +113,7 @@ def pass_through_args(args: argparse.Namespace, limit: int) -> list[str]:
 
 
 def count_market_rows(output_dir: Path) -> int | None:
-    markets_path = output_dir / "markets.csv"
+    markets_path = output_dir / "markets2.csv"
     if not markets_path.exists():
         return None
     with markets_path.open(newline="", encoding="utf-8") as handle:
@@ -150,7 +150,7 @@ def main() -> int:
         result = subprocess.run(command, cwd=repo_root, check=False)
         count = None if args.dry_run else count_market_rows(output_path)
         if count is not None:
-            print(f"{category}: {count} market rows recorded in {output_dir}/markets.csv", file=sys.stderr)
+            print(f"{category}: {count} market rows recorded in {output_dir}/markets2.csv", file=sys.stderr)
 
         if result.returncode != 0:
             failures.append((category, result.returncode))
