@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run all Kalshi category metadata downloaders with the same market limit."""
+"""Run all Polymarket category metadata downloaders with the same market limit."""
 
 from __future__ import annotations
 
@@ -14,17 +14,17 @@ from pathlib import Path
 DEFAULT_MAX_MARKETS = 150
 
 CATEGORY_DOWNLOADERS = [
-    ("Climate and Weather", "scripts/download_kalshi_climate_markets.py", "Research/ClimateMarkets"),
-    ("Elections", "scripts/download_kalshi_elections_markets.py", "Research/ElectionsMarkets"),
-    ("Politics", "scripts/download_kalshi_politics_markets.py", "Research/PoliticsMarkets"),
-    ("Entertainment", "scripts/download_kalshi_entertainment_markets.py", "Research/EntertainmentMarkets"),
-    ("Commodities", "scripts/download_kalshi_commodities_markets.py", "Research/CommoditiesMarkets"),
-    ("Economics", "scripts/download_kalshi_economics_markets.py", "Research/EconomicsMarkets"),
-    ("Companies", "scripts/download_kalshi_companies_markets.py", "Research/CompaniesMarkets"),
-    ("Financials", "scripts/download_kalshi_financials_markets.py", "Research/FinancialsMarkets"),
+    ("Climate and Weather", "scripts/download_polymarket_climate_markets.py", "Research/ClimateMarkets"),
+    ("Elections", "scripts/download_polymarket_elections_markets.py", "Research/ElectionsMarkets"),
+    ("Politics", "scripts/download_polymarket_politics_markets.py", "Research/PoliticsMarkets"),
+    ("Entertainment", "scripts/download_polymarket_entertainment_markets.py", "Research/EntertainmentMarkets"),
+    ("Commodities", "scripts/download_polymarket_commodities_markets.py", "Research/CommoditiesMarkets"),
+    ("Economics", "scripts/download_polymarket_economics_markets.py", "Research/EconomicsMarkets"),
+    ("Companies", "scripts/download_polymarket_companies_markets.py", "Research/CompaniesMarkets"),
+    ("Financials", "scripts/download_polymarket_financials_markets.py", "Research/FinancialsMarkets"),
     (
         "Science and Technology",
-        "scripts/download_kalshi_tech_and_science_markets.py",
+        "scripts/download_polymarket_tech_and_science_markets.py",
         "Research/ScienceTechnologyMarkets",
     ),
 ]
@@ -32,7 +32,7 @@ CATEGORY_DOWNLOADERS = [
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Download Kalshi market metadata CSVs for every configured category.",
+        description="Download Polymarket market metadata CSVs for every configured category.",
     )
     parser.add_argument(
         "x",
@@ -65,7 +65,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--min-volume",
         type=float,
         default=None,
-        help="Only include markets whose market volume_fp is at least this value.",
+        help="Only include markets whose total USD volume is at least this value.",
     )
     parser.add_argument(
         "--full-history-scan",

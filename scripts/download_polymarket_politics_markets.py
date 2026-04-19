@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Download Kalshi Politics market metadata to Research/PoliticsMarkets."""
+"""Download Polymarket Politics market metadata to Research/PoliticsMarkets."""
 
-from kalshi_market_downloader import main
+from polymarket_market_downloader import main
 
 
 if __name__ == "__main__":
     raise SystemExit(
         main(
             default_category="Politics",
+            default_tags=("Politics",),
             default_output_dir="Research/PoliticsMarkets",
         )
     )
