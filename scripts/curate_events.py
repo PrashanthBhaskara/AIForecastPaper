@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Curate raw Kalshi market CSVs into a benchmark event table.
+"""Curate raw Polymarket market CSVs into a benchmark event table.
 
 This script consolidates category-level market dumps under ``Research/`` into a
 single CSV suitable for evaluation experiments. It filters by domain/date,
@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Iterable
 
 
-DEFAULT_INPUT_GLOB = "Research/*/markets.csv"
+DEFAULT_INPUT_GLOB = "Research/*/markets2.csv"
 DEFAULT_OUTPUT_PATH = "Research/curated_events.csv"
 DEFAULT_DOMAINS = [
     "Economics",
@@ -36,9 +36,9 @@ OUTPUT_COLUMNS = [
     "benchmark_id",
     "phase",
     "domain",
-    "market_ticker",
-    "series_ticker",
-    "event_ticker",
+    "market_slug",
+    "event_slug",
+    "condition_id",
     "title",
     "resolution",
     "status",
@@ -54,9 +54,9 @@ OUTPUT_COLUMNS = [
 @dataclass(frozen=True)
 class MarketRow:
     category: str
-    market_ticker: str
-    series_ticker: str
-    event_ticker: str
+    market_slug: str
+    event_slug: str
+    condition_id: str
     title: str
     resolution: str
     status: str
@@ -87,7 +87,7 @@ class MarketRow:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Curate benchmark events from category-level Kalshi market CSVs.",
+        description="Curate benchmark events from category-level Polymarket market CSVs.",
     )
     parser.add_argument(
         "--input-glob",
@@ -181,9 +181,9 @@ def load_market_rows(input_glob: str) -> list[MarketRow]:
                 rows.append(
                     MarketRow(
                         category=raw.get("category", ""),
-                        market_ticker=raw.get("market_ticker", ""),
-                        series_ticker=raw.get("series_ticker", ""),
-                        event_ticker=raw.get("event_ticker", ""),
+                        market_slug=raw.get("market_slug", ""),
+                        event_slug=raw.get("event_slug", ""),
+                        condition_id=raw.get("condition_id", ""),
                         title=raw.get("title", ""),
                         resolution=raw.get("resolution", ""),
                         status=raw.get("status", ""),
@@ -217,11 +217,14 @@ def filter_rows(
 
 
 def deduplicate_rows(rows: Iterable[MarketRow]) -> list[MarketRow]:
-    best_by_ticker: dict[str, MarketRow] = {}
+    best_by_slug: dict[str, MarketRow] = {}
     for row in rows:
-        current = best_by_ticker.get(row.market_ticker)
+        key = row.condition_id or row.market_slug
+        if not key:
+            continue
+        current = best_by_slug.get(key)
         if current is None:
-            best_by_ticker[row.market_ticker] = row
+            best_by_slug[key] = row
             continue
         replacement_key = (
             row.numeric_volume,
@@ -236,8 +239,8 @@ def deduplicate_rows(rows: Iterable[MarketRow]) -> list[MarketRow]:
             current.source_csv,
         )
         if replacement_key > current_key:
-            best_by_ticker[row.market_ticker] = row
-    return list(best_by_ticker.values())
+            best_by_slug[key] = row
+    return list(best_by_slug.values())
 
 
 def phase_for_row(row: MarketRow, cutoff_date: date) -> str:
@@ -250,7 +253,7 @@ def sort_rows(rows: Iterable[MarketRow]) -> list[MarketRow]:
         key=lambda row: (
             -row.numeric_volume,
             row.close_time,
-            row.market_ticker,
+            row.market_slug,
         ),
     )
 
@@ -311,7 +314,7 @@ def write_output(
                     item[0],
                     -item[1].numeric_volume,
                     item[1].close_time,
-                    item[1].market_ticker,
+                    item[1].market_slug,
                 ),
             )
             for phase, row in ordered_rows:
@@ -321,9 +324,9 @@ def write_output(
                         "benchmark_id": benchmark_id(domain, phase, phase_counts[phase]),
                         "phase": phase,
                         "domain": domain,
-                        "market_ticker": row.market_ticker,
-                        "series_ticker": row.series_ticker,
-                        "event_ticker": row.event_ticker,
+                        "market_slug": row.market_slug,
+                        "event_slug": row.event_slug,
+                        "condition_id": row.condition_id,
                         "title": row.title,
                         "resolution": row.resolution,
                         "status": row.status,
