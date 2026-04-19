@@ -8,7 +8,7 @@ if __name__ == "__main__":
     raise SystemExit(
         main(
             default_category="Climate and Weather",
-            default_tags=("Weather", "Climate"),
+            default_tags=("Weather", "Climate", "Global Temp"),
             default_output_dir="Research/ClimateMarkets",
             default_start_date="2023-01-01",
             default_end_date="2025-01-01",
