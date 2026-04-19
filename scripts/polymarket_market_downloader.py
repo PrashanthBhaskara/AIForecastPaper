@@ -367,6 +367,8 @@ def build_parser(
     default_category: str = DEFAULT_CATEGORY,
     default_tags: tuple[str, ...] = DEFAULT_TAGS,
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
+    default_start_date: str = DEFAULT_START_DATE,
+    default_end_date: str = DEFAULT_END_DATE,
 ) -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=f"Download Polymarket {default_category} market metadata via the Dome API.",
@@ -382,8 +384,8 @@ def build_parser(
             f"Defaults to: {', '.join(default_tags)}"
         ),
     )
-    parser.add_argument("--start-date", default=DEFAULT_START_DATE)
-    parser.add_argument("--end-date", default=DEFAULT_END_DATE)
+    parser.add_argument("--start-date", default=default_start_date)
+    parser.add_argument("--end-date", default=default_end_date)
     parser.add_argument("--output-dir", default=default_output_dir)
     parser.add_argument(
         "--max-markets",
@@ -414,6 +416,7 @@ def build_parser(
     # Accepted-but-ignored flags kept for master.py compatibility with the
     # previous Kalshi-era interface.
     parser.add_argument("--series-limit", type=int, default=None, help=argparse.SUPPRESS)
+    parser.add_argument("--max-markets-per-series", type=int, default=None, help=argparse.SUPPRESS)
     parser.add_argument("--full-history-scan", action="store_true", help=argparse.SUPPRESS)
     return parser
 
@@ -422,11 +425,15 @@ def main(
     default_category: str = DEFAULT_CATEGORY,
     default_tags: tuple[str, ...] = DEFAULT_TAGS,
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
+    default_start_date: str = DEFAULT_START_DATE,
+    default_end_date: str = DEFAULT_END_DATE,
 ) -> int:
     args = build_parser(
         default_category=default_category,
         default_tags=default_tags,
         default_output_dir=default_output_dir,
+        default_start_date=default_start_date,
+        default_end_date=default_end_date,
     ).parse_args()
     start = parse_utc_datetime(args.start_date)
     end = parse_utc_datetime(args.end_date)
