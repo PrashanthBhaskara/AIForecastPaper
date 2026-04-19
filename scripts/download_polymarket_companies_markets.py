@@ -14,5 +14,7 @@ if __name__ == "__main__":
             default_category="Companies",
             default_tags=("Business",),
             default_output_dir="Research/CompaniesMarkets",
+            default_start_date="2023-01-01",
+            default_end_date="2025-01-01",
         )
     )
