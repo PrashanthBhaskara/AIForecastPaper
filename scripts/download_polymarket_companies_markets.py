@@ -16,6 +16,19 @@ if __name__ == "__main__":
             default_output_dir="Research/CompaniesMarkets",
             default_start_date="2023-01-01",
             default_end_date="2025-01-01",
-            default_exclude_keywords=("luigi mangione", "manifesto"),
+            default_exclude_keywords=(
+                "luigi mangione",
+                "manifesto",
+                "jobs in",
+                "capital gains",
+                "unrealized gains",
+                "bank failure",
+                "fed rate",
+                "fomc",
+                "powell",
+                "inflation",
+                "interest rate",
+                "unemployment",
+            ),
         )
     )

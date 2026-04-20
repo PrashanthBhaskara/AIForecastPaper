@@ -12,5 +12,12 @@ if __name__ == "__main__":
             default_output_dir="Research/ScienceTechnologyMarkets",
             default_start_date="2023-01-01",
             default_end_date="2025-01-01",
+            default_exclude_keywords=(
+                "tsunami",
+                "megaquake",
+                "earthquake",
+                "volcanic eruption",
+                "hurricane",
+            ),
         )
     )
