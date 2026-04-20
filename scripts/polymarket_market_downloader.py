@@ -271,6 +271,41 @@ def title_is_excluded(market: dict[str, Any], exclude_keywords: tuple[str, ...])
     return any(keyword in title for keyword in exclude_keywords)
 
 
+def load_sibling_market_keys(research_root: Path, skip: Path) -> set[str]:
+    """Collect condition_id and market_slug values from every Research/*/markets.csv
+    except the file at ``skip`` (typically the current run's output). Used so one
+    market is never counted in more than one category."""
+
+    keys: set[str] = set()
+    if not research_root.exists():
+        return keys
+    skip_resolved = skip.resolve() if skip.exists() else skip
+    for csv_path in sorted(research_root.glob("*/markets.csv")):
+        if csv_path.resolve() == skip_resolved:
+            continue
+        try:
+            with csv_path.open(newline="", encoding="utf-8") as handle:
+                reader = csv.DictReader(handle)
+                for row in reader:
+                    for field in ("condition_id", "market_slug"):
+                        value = (row.get(field) or "").strip()
+                        if value:
+                            keys.add(value)
+        except OSError:
+            continue
+    return keys
+
+
+def market_matches_keys(market: dict[str, Any], keys: set[str]) -> bool:
+    if not keys:
+        return False
+    for field in ("condition_id", "market_slug"):
+        value = str(market.get(field) or "").strip()
+        if value and value in keys:
+            return True
+    return False
+
+
 def discover_markets(
     client: DomeClient,
     category: str,
@@ -283,6 +318,7 @@ def discover_markets(
     max_pages: int,
     search: str | None,
     exclude_keywords: tuple[str, ...] = (),
+    exclude_identifiers: set[str] | None = None,
 ) -> list[dict[str, Any]]:
     params: list[tuple[str, Any]] = [
         ("limit", page_limit),
@@ -315,6 +351,8 @@ def discover_markets(
             if not market_passes_volume_filter(market, min_volume):
                 continue
             if title_is_excluded(market, exclude_keywords):
+                continue
+            if exclude_identifiers and market_matches_keys(market, exclude_identifiers):
                 continue
             identifier = market.get("condition_id") or market.get("market_slug")
             if not identifier or identifier in seen_ids:
@@ -486,6 +524,14 @@ def main(
     )
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    target_csv = output_dir / "markets.csv"
+    sibling_keys = load_sibling_market_keys(output_dir.parent, skip=target_csv)
+    if sibling_keys:
+        print(
+            f"Excluding {len(sibling_keys)} identifiers already recorded in sibling "
+            f"{output_dir.parent}/*/markets.csv files",
+            file=sys.stderr,
+        )
 
     client = DomeClient(
         api_key=api_key,
@@ -510,6 +556,7 @@ def main(
         max_pages=args.max_pages,
         search=args.search,
         exclude_keywords=exclude_keywords,
+        exclude_identifiers=sibling_keys,
     )
 
     print(
