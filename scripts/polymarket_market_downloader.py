@@ -264,6 +264,13 @@ def annotate_market(market: dict[str, Any], category: str, tags: tuple[str, ...]
     return annotated
 
 
+def title_is_excluded(market: dict[str, Any], exclude_keywords: tuple[str, ...]) -> bool:
+    if not exclude_keywords:
+        return False
+    title = str(market.get("title") or "").lower()
+    return any(keyword in title for keyword in exclude_keywords)
+
+
 def discover_markets(
     client: DomeClient,
     category: str,
@@ -275,6 +282,7 @@ def discover_markets(
     page_limit: int,
     max_pages: int,
     search: str | None,
+    exclude_keywords: tuple[str, ...] = (),
 ) -> list[dict[str, Any]]:
     params: list[tuple[str, Any]] = [
         ("limit", page_limit),
@@ -305,6 +313,8 @@ def discover_markets(
             if not market_closes_in_window(market, start, end):
                 continue
             if not market_passes_volume_filter(market, min_volume):
+                continue
+            if title_is_excluded(market, exclude_keywords):
                 continue
             identifier = market.get("condition_id") or market.get("market_slug")
             if not identifier or identifier in seen_ids:
@@ -342,7 +352,7 @@ def market_row(category: str, market: dict[str, Any]) -> dict[str, Any]:
 
 
 def write_markets_csv(output_dir: Path, category: str, markets: list[dict[str, Any]]) -> Path:
-    csv_path = output_dir / "markets2.csv"
+    csv_path = output_dir / "markets.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=MARKET_COLUMNS)
         writer.writeheader()
@@ -369,6 +379,7 @@ def build_parser(
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
     default_start_date: str = DEFAULT_START_DATE,
     default_end_date: str = DEFAULT_END_DATE,
+    default_exclude_keywords: tuple[str, ...] = (),
 ) -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=f"Download Polymarket {default_category} market metadata via the Dome API.",
@@ -404,6 +415,20 @@ def build_parser(
         default=None,
         help="Optional fuzzy search across market titles/descriptions (overrides tag filter).",
     )
+    parser.add_argument(
+        "--exclude-keyword",
+        action="append",
+        default=[],
+        help=(
+            "Case-insensitive substring to exclude from market titles. Can be repeated "
+            "or comma-separated. "
+            + (
+                f"Defaults to: {', '.join(default_exclude_keywords)}"
+                if default_exclude_keywords
+                else "No defaults."
+            )
+        ),
+    )
     parser.add_argument("--request-sleep", type=float, default=0.1)
     parser.add_argument("--page-limit", type=int, default=DEFAULT_PAGE_LIMIT)
     parser.add_argument(
@@ -427,6 +452,7 @@ def main(
     default_output_dir: str = DEFAULT_OUTPUT_DIR,
     default_start_date: str = DEFAULT_START_DATE,
     default_end_date: str = DEFAULT_END_DATE,
+    default_exclude_keywords: tuple[str, ...] = (),
 ) -> int:
     args = build_parser(
         default_category=default_category,
@@ -434,6 +460,7 @@ def main(
         default_output_dir=default_output_dir,
         default_start_date=default_start_date,
         default_end_date=default_end_date,
+        default_exclude_keywords=default_exclude_keywords,
     ).parse_args()
     start = parse_utc_datetime(args.start_date)
     end = parse_utc_datetime(args.end_date)
@@ -453,6 +480,10 @@ def main(
         raise SystemExit("DOME_API_KEY not found in environment or .env file")
 
     tags = parse_tag_arguments(args.tag, default_tags)
+    exclude_keywords = tuple(
+        kw.lower()
+        for kw in parse_tag_arguments(args.exclude_keyword, default_exclude_keywords)
+    )
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -478,6 +509,7 @@ def main(
         page_limit=args.page_limit,
         max_pages=args.max_pages,
         search=args.search,
+        exclude_keywords=exclude_keywords,
     )
 
     print(
