@@ -20,17 +20,25 @@ from typing import Iterable
 
 
 DEFAULT_INPUT_GLOB = "Research/*/markets.csv"
+DEFAULT_PHASE_I_GLOB = "Research/*/markets.csv"
+DEFAULT_PHASE_II_GLOB = "Research/*/newmarkets.csv"
 DEFAULT_OUTPUT_PATH = "Research/curated_events.csv"
 DEFAULT_DOMAINS = [
+    "Climate and Weather",
+    "Commodities",
+    "Companies",
     "Economics",
+    "Elections",
     "Entertainment",
+    "Financials",
     "Politics",
+    "Science and Technology",
 ]
 DEFAULT_START_DATE = "2024-01-01"
 DEFAULT_END_DATE = "2024-12-31"
 DEFAULT_TRAINING_CUTOFF_DATE = "2024-07-01"
-DEFAULT_PHASE_I_COUNT = 100
-DEFAULT_PHASE_II_COUNT = 50
+DEFAULT_PHASE_I_COUNT = 300
+DEFAULT_PHASE_II_COUNT = 300
 
 OUTPUT_COLUMNS = [
     "benchmark_id",
@@ -71,8 +79,9 @@ class MarketRow:
         return self.category
 
     @property
-    def close_date(self) -> date:
-        return parse_timestamp(self.close_time).date()
+    def close_date(self) -> date | None:
+        parsed = parse_timestamp(self.close_time)
+        return None if parsed is None else parsed.date()
 
     @property
     def numeric_volume(self) -> float:
@@ -93,6 +102,24 @@ def parse_args() -> argparse.Namespace:
         "--input-glob",
         default=DEFAULT_INPUT_GLOB,
         help=f"Glob of input CSVs. Default: {DEFAULT_INPUT_GLOB}",
+    )
+    parser.add_argument(
+        "--phase-i-glob",
+        default=None,
+        help=(
+            "Optional explicit Phase I input glob. When set together with --phase-ii-glob, "
+            "the script uses the two globs directly instead of splitting a single input family "
+            f"by training cutoff. Suggested default: {DEFAULT_PHASE_I_GLOB}"
+        ),
+    )
+    parser.add_argument(
+        "--phase-ii-glob",
+        default=None,
+        help=(
+            "Optional explicit Phase II input glob. When set together with --phase-i-glob, "
+            "the script uses the two globs directly instead of splitting a single input family "
+            f"by training cutoff. Suggested default: {DEFAULT_PHASE_II_GLOB}"
+        ),
     )
     parser.add_argument(
         "--output",
@@ -150,8 +177,10 @@ def parse_date(value: str) -> date:
     return date.fromisoformat(value)
 
 
-def parse_timestamp(value: str) -> datetime:
+def parse_timestamp(value: str) -> datetime | None:
     normalized = value.strip()
+    if not normalized:
+        return None
     if normalized.endswith("Z"):
         normalized = f"{normalized[:-1]}+00:00"
     parsed = datetime.fromisoformat(normalized)
@@ -210,6 +239,8 @@ def filter_rows(
         if row.domain not in domains:
             continue
         close_date = row.close_date
+        if close_date is None:
+            continue
         if close_date < start_date or close_date > end_date:
             continue
         filtered.append(row)
@@ -244,6 +275,8 @@ def deduplicate_rows(rows: Iterable[MarketRow]) -> list[MarketRow]:
 
 
 def phase_for_row(row: MarketRow, cutoff_date: date) -> str:
+    if row.close_date is None:
+        raise ValueError(f"row {row.market_slug!r} has no close_date")
     return "phase_i" if row.close_date < cutoff_date else "phase_ii"
 
 
@@ -288,6 +321,19 @@ def select_rows_for_domain(
     if shortages and not allow_incomplete_domains:
         raise ValueError("; ".join(shortages))
     return selected
+
+
+def select_rows_for_explicit_phase(
+    rows: Iterable[MarketRow],
+    phase: str,
+    target_count: int,
+    allow_incomplete_domains: bool,
+) -> list[tuple[str, MarketRow]]:
+    ordered = sort_rows(rows)
+    chosen = ordered[:target_count]
+    if len(chosen) < target_count and not allow_incomplete_domains:
+        raise ValueError(f"{phase}: needed {target_count}, found {len(chosen)}")
+    return [(phase, row) for row in chosen]
 
 
 def benchmark_id(domain: str, phase: str, index: int) -> str:
@@ -363,28 +409,70 @@ def main() -> int:
 
     domain_order = requested_domains(args.domain)
     domain_set = set(domain_order)
-
-    raw_rows = load_market_rows(args.input_glob)
-    filtered_rows = filter_rows(raw_rows, domain_set, start_date, end_date)
-    unique_rows = deduplicate_rows(filtered_rows)
-
-    rows_by_domain: dict[str, list[MarketRow]] = defaultdict(list)
-    for row in unique_rows:
-        rows_by_domain[row.domain].append(row)
-
     selected_by_domain: dict[str, list[tuple[str, MarketRow]]] = {}
     errors: list[str] = []
-    for domain in domain_order:
-        try:
-            selected_by_domain[domain] = select_rows_for_domain(
-                rows=rows_by_domain.get(domain, []),
-                cutoff_date=cutoff_date,
-                phase_i_count=args.phase_i_count,
-                phase_ii_count=args.phase_ii_count,
-                allow_incomplete_domains=args.allow_incomplete_domains,
-            )
-        except ValueError as exc:
-            errors.append(f"{domain}: {exc}")
+
+    if bool(args.phase_i_glob) != bool(args.phase_ii_glob):
+        raise SystemExit("set both --phase-i-glob and --phase-ii-glob together, or neither")
+
+    if args.phase_i_glob and args.phase_ii_glob:
+        phase_i_rows = deduplicate_rows(
+            filter_rows(load_market_rows(args.phase_i_glob), domain_set, start_date, end_date)
+        )
+        phase_ii_rows = deduplicate_rows(
+            filter_rows(load_market_rows(args.phase_ii_glob), domain_set, start_date, end_date)
+        )
+        phase_rows_by_domain: dict[str, dict[str, list[MarketRow]]] = {
+            "phase_i": defaultdict(list),
+            "phase_ii": defaultdict(list),
+        }
+        for row in phase_i_rows:
+            phase_rows_by_domain["phase_i"][row.domain].append(row)
+        for row in phase_ii_rows:
+            phase_rows_by_domain["phase_ii"][row.domain].append(row)
+
+        for domain in domain_order:
+            selections: list[tuple[str, MarketRow]] = []
+            try:
+                selections.extend(
+                    select_rows_for_explicit_phase(
+                        rows=phase_rows_by_domain["phase_i"].get(domain, []),
+                        phase="phase_i",
+                        target_count=args.phase_i_count,
+                        allow_incomplete_domains=args.allow_incomplete_domains,
+                    )
+                )
+                selections.extend(
+                    select_rows_for_explicit_phase(
+                        rows=phase_rows_by_domain["phase_ii"].get(domain, []),
+                        phase="phase_ii",
+                        target_count=args.phase_ii_count,
+                        allow_incomplete_domains=args.allow_incomplete_domains,
+                    )
+                )
+                selected_by_domain[domain] = selections
+            except ValueError as exc:
+                errors.append(f"{domain}: {exc}")
+    else:
+        raw_rows = load_market_rows(args.input_glob)
+        filtered_rows = filter_rows(raw_rows, domain_set, start_date, end_date)
+        unique_rows = deduplicate_rows(filtered_rows)
+
+        rows_by_domain: dict[str, list[MarketRow]] = defaultdict(list)
+        for row in unique_rows:
+            rows_by_domain[row.domain].append(row)
+
+        for domain in domain_order:
+            try:
+                selected_by_domain[domain] = select_rows_for_domain(
+                    rows=rows_by_domain.get(domain, []),
+                    cutoff_date=cutoff_date,
+                    phase_i_count=args.phase_i_count,
+                    phase_ii_count=args.phase_ii_count,
+                    allow_incomplete_domains=args.allow_incomplete_domains,
+                )
+            except ValueError as exc:
+                errors.append(f"{domain}: {exc}")
 
     if errors:
         raise SystemExit(
