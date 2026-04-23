@@ -26,7 +26,7 @@ from typing import Any
 
 DEFAULT_BASE_URL = "https://gamma-api.polymarket.com"
 DEFAULT_START_DATE = "2026-09-01"
-DEFAULT_END_DATE = "2028-01-01"
+DEFAULT_END_DATE = "2030-01-01"
 DEFAULT_MARKET_LIMIT = 300
 DEFAULT_OUTPUT_FILENAME = "newmarkets.csv"
 DEFAULT_PAGE_LIMIT = 100
@@ -63,9 +63,6 @@ CATEGORY_CONFIGS = {
         category="Climate and Weather",
         tag_slugs=("weather", "climate", "global-temp", "global-warming", "hurricane", "hurricanes"),
         output_dir="Research/ClimateMarkets",
-        # The strict late-2026-through-2027 slice currently has only ~50 markets
-        # in this domain, so we widen Climate to all of 2026 to keep 300 rows feasible.
-        start_date="2026-01-01",
     ),
     "elections": CategoryConfig(
         key="elections",

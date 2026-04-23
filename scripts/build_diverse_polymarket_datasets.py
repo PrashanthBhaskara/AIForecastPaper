@@ -128,8 +128,7 @@ PHASE_CONFIGS = {
         output_filename="newmarkets.csv",
         is_closed=False,
         windows=(
-            PhaseWindow("2026-09-01", "2028-01-01"),
-            PhaseWindow("2026-01-01", "2028-01-01"),
+            PhaseWindow("2026-09-01", "2030-01-01"),
         ),
         max_event_cap=6,
         max_family_cap=32,
@@ -225,6 +224,12 @@ CATEGORY_CONFIGS = (
             "silver",
             "copper",
             "uranium",
+            "crypto",
+            "cryptocurrency",
+            "bitcoin",
+            "ethereum",
+            "solana",
+            "altcoins",
             "finance",
             "business",
             "news",
@@ -249,13 +254,22 @@ CATEGORY_CONFIGS = (
             "metals": ("gold", "silver", "copper", "metal", "lithium", "uranium", "steel"),
             "agriculture": ("wheat", "corn", "soy", "coffee", "cocoa", "sugar"),
             "shipping": ("strait of hormuz", "tanker", "transit", "ships"),
+            "crypto": (
+                "bitcoin",
+                "ethereum",
+                "solana",
+                "crypto",
+                "cryptocurrency",
+                "token",
+                "stablecoin",
+                "altcoin",
+                "airdrop",
+                "dogecoin",
+                "btc",
+                "eth",
+            ),
         },
         hard_exclude_keywords=(
-            "bitcoin",
-            "ethereum",
-            "solana",
-            "crypto",
-            "airdrop",
             "election",
             "primary",
             "ipo",
@@ -271,7 +285,6 @@ CATEGORY_CONFIGS = (
             "earthquake",
             "tweet",
             "sentenced",
-            "market cap",
             "airdrop",
             "farcaster",
             "robinhood",
@@ -777,6 +790,15 @@ def parse_utc_datetime(value: str) -> datetime:
     return parsed.astimezone(timezone.utc)
 
 
+def parse_optional_utc_datetime(value: Any) -> datetime | None:
+    if value in (None, ""):
+        return None
+    try:
+        return parse_utc_datetime(str(value))
+    except ValueError:
+        return None
+
+
 def isoformat_z(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -910,6 +932,15 @@ def build_text_blob(market: dict[str, Any], source_tag: str) -> str:
     return " ".join(part for part in parts if part).lower()
 
 
+def market_matches_window(market: dict[str, Any], window: PhaseWindow) -> bool:
+    window_start = parse_utc_datetime(window.start_date)
+    window_end = parse_utc_datetime(window.end_date)
+    close_time = parse_optional_utc_datetime(market_close_time(market))
+    if close_time is None or not (window_start <= close_time < window_end):
+        return False
+    return True
+
+
 def count_keyword_hits(text: str, keywords: tuple[str, ...]) -> int:
     total = 0
     for keyword in keywords:
@@ -1033,6 +1064,11 @@ def collect_phase_candidates(
                 if not markets:
                     continue
                 for market in markets:
+                    if not market_matches_window(
+                        market,
+                        window,
+                    ):
+                        continue
                     candidate = build_candidate(
                         phase_name=phase_name,
                         config=config,

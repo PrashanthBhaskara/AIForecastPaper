@@ -71,8 +71,8 @@ def global_duplicate_count(rows_by_category: dict[str, list[dict[str, str]]]) ->
     return duplicates
 
 
-def date_span(rows: Iterable[dict[str, str]]) -> tuple[str, str]:
-    values = sorted(row["close_time"] for row in rows if row.get("close_time"))
+def date_span(rows: Iterable[dict[str, str]], column: str) -> tuple[str, str]:
+    values = sorted(row[column] for row in rows if row.get(column))
     if not values:
         return ("", "")
     return values[0], values[-1]
@@ -116,7 +116,8 @@ def main() -> int:
 
             events = Counter(event_key(row) for row in rows if event_key(row))
             families = Counter(family_key(row) for row in rows if row.get("condition_id"))
-            start, end = date_span(rows)
+            open_start, open_end = date_span(rows, "open_time")
+            close_start, close_end = date_span(rows, "close_time")
             top_family, top_family_count = ("", 0)
             if families:
                 top_family, top_family_count = families.most_common(1)[0]
@@ -129,7 +130,8 @@ def main() -> int:
             status = "; ".join(status_bits) if status_bits else "ok"
             print(
                 f"- {config.category}: rows={len(rows)} unique_events={len(events)} "
-                f"date_span={start or 'n/a'}..{end or 'n/a'} "
+                f"open_span={open_start or 'n/a'}..{open_end or 'n/a'} "
+                f"close_span={close_start or 'n/a'}..{close_end or 'n/a'} "
                 f"top_family={top_family or 'n/a'}:{top_family_count} status={status}"
             )
 
