@@ -82,6 +82,8 @@ class CategoryConfig:
     topic_keywords: dict[str, tuple[str, ...]]
     hard_exclude_keywords: tuple[str, ...]
     allow_tag_fallback: bool = True
+    historical_related_tag_slugs: tuple[str, ...] = ()
+    future_related_tag_slugs: tuple[str, ...] = ()
 
 
 @dataclass
@@ -137,6 +139,13 @@ PHASE_CONFIGS = {
 
 ALL_PHASE_NAMES = tuple(PHASE_CONFIGS)
 
+GLOBAL_EXCLUDE_KEYWORDS = (
+    "luigi mangione",
+    "manifesto",
+    "brian thompson",
+    "brian-thompson",
+)
+
 
 CATEGORY_CONFIGS = (
     CategoryConfig(
@@ -157,6 +166,9 @@ CATEGORY_CONFIGS = (
             "temperature",
             "snow",
             "science",
+            "climate-science",
+            "climate-weather",
+            "disaster",
             "news",
             "current-events",
         ),
@@ -171,6 +183,11 @@ CATEGORY_CONFIGS = (
             "wildfire",
             "volcano",
             "temperature",
+            "science",
+            "climate-science",
+            "climate-weather",
+            "disaster",
+            "disease",
         ),
         topic_keywords={
             "temperature": ("temperature", "hottest", "heat", "warming", "celsius", "fahrenheit", "hot"),
@@ -205,6 +222,8 @@ CATEGORY_CONFIGS = (
             "playoff",
             "miami heat",
         ),
+        historical_related_tag_slugs=("weather", "climate", "science", "climate-science"),
+        future_related_tag_slugs=("weather", "climate", "science", "climate-science"),
     ),
     CategoryConfig(
         key="commodities",
@@ -248,6 +267,11 @@ CATEGORY_CONFIGS = (
             "silver",
             "copper",
             "uranium",
+            "crypto",
+            "bitcoin",
+            "ethereum",
+            "solana",
+            "cryptocurrency",
         ),
         topic_keywords={
             "energy": ("oil", "crude", "gas", "lng", "opec", "barrel", "reserves", "diesel", "gasoline", "refinery"),
@@ -622,6 +646,11 @@ CATEGORY_CONFIGS = (
             "nasa",
             "space",
             "gaming",
+            "big-tech",
+            "anthropic",
+            "claude",
+            "disease",
+            "google",
         ),
         topic_keywords={
             "ai": ("ai", "artificial intelligence", "openai", "anthropic", "gpt", "model", "benchmark", "llm"),
@@ -649,6 +678,7 @@ CATEGORY_CONFIGS = (
             "oscar",
             "grammy",
         ),
+        future_related_tag_slugs=("tech", "science", "ai", "big-tech"),
     ),
 )
 
@@ -739,8 +769,17 @@ class GammaClient:
         window: PhaseWindow,
         page_limit: int,
         max_pages: int,
+        related_tags: bool = False,
     ) -> list[dict[str, Any]]:
-        cache_key = (phase_name, tag_slug, window.start_date, window.end_date, page_limit, max_pages)
+        cache_key = (
+            phase_name,
+            tag_slug,
+            window.start_date,
+            window.end_date,
+            page_limit,
+            max_pages,
+            related_tags,
+        )
         if cache_key in self.market_cache:
             return self.market_cache[cache_key]
 
@@ -763,6 +802,8 @@ class GammaClient:
                 ("order", "volume"),
                 ("ascending", "false"),
             ]
+            if related_tags:
+                params.append(("related_tags", "true"))
             if phase.is_closed:
                 params.append(("closed", "true"))
             else:
@@ -961,6 +1002,8 @@ def build_candidate(
         return None
 
     text = build_text_blob(market, source_tag)
+    if count_keyword_hits(text, GLOBAL_EXCLUDE_KEYWORDS):
+        return None
     if count_keyword_hits(text, config.hard_exclude_keywords):
         return None
 
@@ -1052,14 +1095,19 @@ def collect_phase_candidates(
 
     for config in categories:
         windows = phase.windows
+        direct_tags = config.historical_tags if phase.is_closed else config.future_tags
+        related_tags = (
+            config.historical_related_tag_slugs if phase.is_closed else config.future_related_tag_slugs
+        )
         for window_index, window in enumerate(windows, start=1):
-            for tag_slug in dict.fromkeys(config.historical_tags if phase.is_closed else config.future_tags):
+            for tag_slug in dict.fromkeys(direct_tags):
                 markets = client.fetch_markets_for_tag(
                     phase_name=phase_name,
                     tag_slug=tag_slug,
                     window=window,
                     page_limit=page_limit,
                     max_pages=max_pages,
+                    related_tags=False,
                 )
                 if not markets:
                     continue
@@ -1068,6 +1116,33 @@ def collect_phase_candidates(
                         market,
                         window,
                     ):
+                        continue
+                    candidate = build_candidate(
+                        phase_name=phase_name,
+                        config=config,
+                        source_tag=tag_slug,
+                        market=market,
+                    )
+                    if candidate is None:
+                        continue
+                    existing = by_category[config.key].get(candidate.key)
+                    if existing is None or candidate.score > existing.score or (
+                        candidate.score == existing.score and candidate.volume > existing.volume
+                    ):
+                        by_category[config.key][candidate.key] = candidate
+            for tag_slug in dict.fromkeys(related_tags):
+                markets = client.fetch_markets_for_tag(
+                    phase_name=phase_name,
+                    tag_slug=tag_slug,
+                    window=window,
+                    page_limit=page_limit,
+                    max_pages=max_pages,
+                    related_tags=True,
+                )
+                if not markets:
+                    continue
+                for market in markets:
+                    if not market_matches_window(market, window):
                         continue
                     candidate = build_candidate(
                         phase_name=phase_name,
@@ -1098,12 +1173,21 @@ def assign_global_ownership(
     phase_name: str,
     candidates_by_category: dict[str, list[Candidate]],
 ) -> dict[str, list[Candidate]]:
+    owned, _, _ = assign_global_ownership_details(phase_name, candidates_by_category)
+    return owned
+
+
+def assign_global_ownership_details(
+    phase_name: str,
+    candidates_by_category: dict[str, list[Candidate]],
+) -> tuple[dict[str, list[Candidate]], dict[str, list[Candidate]], dict[str, str]]:
     by_market_key: dict[str, list[Candidate]] = defaultdict(list)
     for candidates in candidates_by_category.values():
         for candidate in candidates:
             by_market_key[candidate.key].append(candidate)
 
     owned: dict[str, list[Candidate]] = {key: [] for key in candidates_by_category}
+    owner_by_market: dict[str, str] = {}
     multi_category_count = 0
     for market_key, options in by_market_key.items():
         if len(options) > 1:
@@ -1119,6 +1203,7 @@ def assign_global_ownership(
             ),
         )[0]
         owned[winner.category_key].append(winner)
+        owner_by_market[market_key] = winner.category_key
 
     print(
         f"{phase_name}: assigned {len(by_market_key)} unique markets; "
@@ -1126,7 +1211,75 @@ def assign_global_ownership(
         file=sys.stderr,
         flush=True,
     )
-    return owned
+    return owned, by_market_key, owner_by_market
+
+
+def rebalance_minimum_counts(
+    *,
+    owned_by_category: dict[str, list[Candidate]],
+    by_market_key: dict[str, list[Candidate]],
+    owner_by_market: dict[str, str],
+    minimum_count: int,
+) -> None:
+    if minimum_count <= 0:
+        return
+
+    progress = True
+    while progress:
+        progress = False
+        counts = {category_key: len(candidates) for category_key, candidates in owned_by_category.items()}
+        for category_key, count in sorted(counts.items(), key=lambda item: (item[1], item[0])):
+            if count >= minimum_count:
+                continue
+
+            best_transfer: tuple[tuple[Any, ...], str, str, Candidate] | None = None
+            for market_key, options in by_market_key.items():
+                current_owner = owner_by_market.get(market_key)
+                if current_owner in (None, category_key):
+                    continue
+                if counts.get(current_owner, 0) <= minimum_count:
+                    continue
+
+                target_option: Candidate | None = None
+                current_option: Candidate | None = None
+                for option in options:
+                    if option.category_key == category_key and (
+                        target_option is None
+                        or option.score > target_option.score
+                        or (option.score == target_option.score and option.volume > target_option.volume)
+                    ):
+                        target_option = option
+                    if option.category_key == current_owner and (
+                        current_option is None
+                        or option.score > current_option.score
+                        or (option.score == current_option.score and option.volume > current_option.volume)
+                    ):
+                        current_option = option
+
+                if target_option is None or current_option is None:
+                    continue
+
+                rank = (
+                    target_option.score - current_option.score,
+                    len(target_option.topic_scores),
+                    target_option.score,
+                    counts[current_owner],
+                    target_option.volume,
+                    market_key,
+                )
+                if best_transfer is None or rank > best_transfer[0]:
+                    best_transfer = (rank, market_key, current_owner, target_option)
+
+            if best_transfer is None:
+                continue
+
+            _, market_key, donor_key, target_option = best_transfer
+            owned_by_category[donor_key] = [
+                candidate for candidate in owned_by_category[donor_key] if candidate.key != market_key
+            ]
+            owned_by_category[category_key].append(target_option)
+            owner_by_market[market_key] = category_key
+            progress = True
 
 
 def select_diverse_candidates(
@@ -1274,6 +1427,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--category", action="append", default=[], help="Optional category filter.")
     parser.add_argument("--phase", action="append", default=[], help="Optional phase filter: historical,future")
     parser.add_argument("--target-count", type=int, default=DEFAULT_TARGET_PER_CATEGORY)
+    parser.add_argument(
+        "--minimum-count",
+        type=int,
+        default=150,
+        help="Try to rebalance overlapping markets so every category reaches at least this many rows when possible.",
+    )
     parser.add_argument("--page-limit", type=int, default=DEFAULT_PAGE_LIMIT)
     parser.add_argument("--max-pages", type=int, default=DEFAULT_MAX_PAGES)
     parser.add_argument("--request-sleep", type=float, default=DEFAULT_REQUEST_SLEEP)
@@ -1285,6 +1444,8 @@ def main() -> int:
     args = build_parser().parse_args()
     if args.target_count <= 0:
         raise SystemExit("--target-count must be positive")
+    if args.minimum_count < 0:
+        raise SystemExit("--minimum-count must be non-negative")
     if not 1 <= args.page_limit <= 100:
         raise SystemExit("--page-limit must be between 1 and 100")
     if args.max_pages <= 0:
@@ -1304,7 +1465,13 @@ def main() -> int:
             page_limit=args.page_limit,
             max_pages=args.max_pages,
         )
-        owned = assign_global_ownership(phase_name, candidates_by_category)
+        owned, by_market_key, owner_by_market = assign_global_ownership_details(phase_name, candidates_by_category)
+        rebalance_minimum_counts(
+            owned_by_category=owned,
+            by_market_key=by_market_key,
+            owner_by_market=owner_by_market,
+            minimum_count=args.minimum_count,
+        )
         selected_by_category: dict[str, list[Candidate]] = {}
 
         for config in categories:

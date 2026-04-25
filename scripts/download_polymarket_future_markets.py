@@ -31,6 +31,12 @@ DEFAULT_MARKET_LIMIT = 300
 DEFAULT_OUTPUT_FILENAME = "newmarkets.csv"
 DEFAULT_PAGE_LIMIT = 100
 DEFAULT_MAX_PAGES_PER_TAG = 10
+GLOBAL_EXCLUDE_KEYWORDS = (
+    "luigi mangione",
+    "manifesto",
+    "brian thompson",
+    "brian-thompson",
+)
 
 MARKET_COLUMNS = [
     "category",
@@ -297,6 +303,15 @@ def event_slug(market: dict[str, Any]) -> str:
     return "" if value in (None, "") else str(value)
 
 
+def market_text_blob(market: dict[str, Any], source_tag_slug: str) -> str:
+    parts = [
+        str(market.get("question") or market.get("title") or ""),
+        event_slug(market),
+        source_tag_slug,
+    ]
+    return " ".join(part for part in parts if part).lower()
+
+
 def annotate_market(market: dict[str, Any], category: str, source_tag_slug: str) -> dict[str, Any]:
     annotated = dict(market)
     annotated["_category"] = category
@@ -359,6 +374,8 @@ def discover_markets(
                 if not isinstance(market, dict):
                     continue
                 if not market_in_window(market, start, end):
+                    continue
+                if any(keyword in market_text_blob(market, tag_slug) for keyword in GLOBAL_EXCLUDE_KEYWORDS):
                     continue
                 key = market_key(market)
                 if not key or key in seen_by_key:
