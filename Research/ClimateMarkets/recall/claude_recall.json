@@ -1,0 +1,130 @@
+[
+  {
+    "condition_id": "0xb9a94d946986a43351b7008a254b7459fb75dd2d7b2cff793f13bfc736c085fc",
+    "market_slug": "iceland-volcanic-eruption-by-nov-15",
+    "event_slug": "iceland-volcanic-eruption-by-nov-15",
+    "title": "Iceland volcanic eruption by Nov 15?",
+    "category": "Climate and Weather",
+    "close_time": "2023-11-15T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "48285.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this event from late 2023. Iceland experienced significant seismic activity near Grindavík in November 2023, with thousands of earthquakes and ground deformation indicating magma movement. However, the actual volcanic eruption did not occur until December 18, 2023, after this question's close date of November 15, 2023.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Sundhnúkur crater eruption near Grindavík occurred on December 18, 2023, after the November 15 close date",
+          "In early November 2023, there was intense seismic activity with thousands of earthquakes and evacuations from Grindavík, but no eruption occurred before November 15, 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x90253525b201c9b7257bca40036c5cc9afb9ae709c4badfe99cc0ff5fae9dce7",
+    "market_slug": "will-the-chopsticks-catch-spacexs-super-heavy",
+    "event_slug": "will-the-chopsticks-catch-spacexs-super-heavy",
+    "title": "Will the chopsticks catch SpaceX's Super Heavy?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "604511",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this event referring to SpaceX's first successful Super Heavy booster catch attempt using the 'chopsticks' (mechanical arms) at Starbase. This historic achievement occurred during Starflight 5 on October 13, 2024, before the close time of November 18, 2024.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "SpaceX successfully caught the Super Heavy booster with the launch tower's mechanical arms ('Mechazilla') on October 13, 2024, during the fifth integrated flight test (IFT-5/Starflight 5)",
+          "The catch occurred at the Starbase facility in Boca Chica, Texas, marking the first time such a maneuver was attempted and successfully executed with the ~70-meter tall booster",
+          "The event happened approximately one month before the close time of November 18, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc0b0c6d7795453a6c2da700496583354384f012b79c53e98bc2d7fa91586348e",
+    "market_slug": "will-the-november-2024-temperature-increase-be-less-than-1pt20c",
+    "event_slug": "november-2024-temperature-increase-c",
+    "title": "Will the November 2024 temperature increase be less than 1.20°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "595329",
+    "status": "ok",
+    "forecast": {
+      "rationale": "This question asks about November 2024 global temperature anomaly relative to a baseline. My training data includes information through April 2024, so I do not have access to actual November 2024 temperature data. I cannot genuinely recall this specific event's resolution.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8b22d7d3402b9823aca8ba68fa9beee749049bf67b8efa0935fcb8963d5d357",
+    "market_slug": "will-there-be-less-than-16-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season-2024",
+    "title": "Will there be less than 16 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.61894e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this event relates to the 2024 Atlantic Hurricane Season. The season runs June 1 - November 30, with the close time of December 1, 2024 allowing final tallying. I recall the 2024 season had significantly more than 16 named storms.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 Atlantic Hurricane Season produced 18 named storms total",
+          "Notable storms included Hurricanes Beryl, Debby, Francine, Helene, and Milton, with Helene and Milton causing catastrophic damage in late September and early October 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x43905da101b102a1867fcb36b15b41b29282b568202f079152933e021cc2b8cf",
+    "market_slug": "global-heat-increase-between-1pt22c-and-1pt24c-for-2024",
+    "event_slug": "global-heat-increase-2024",
+    "title": "Global heat increase between 1.22°C and 1.24°C for 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9.46687e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "This question asks about 2024's global temperature anomaly falling in a specific narrow range (1.22-1.24°C). Based on climate monitoring data, 2024 was indeed one of the warmest years on record, with global temperature anomalies around 1.5°C above pre-industrial levels, exceeding this range.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 was confirmed as the warmest year on record with global temperature anomaly approximately 1.5°C above pre-industrial baseline",
+          "Multiple monitoring agencies (NASA, NOAA, Copernicus) reported 2024 temperatures exceeded 1.4°C above pre-industrial levels, surpassing the 1.22-1.24°C range"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  }
+]
