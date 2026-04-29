@@ -15,8 +15,10 @@ Usage:
 """
 
 import argparse
+import configparser
 import csv
 import json
+import os
 import re
 import sys
 import time
@@ -25,61 +27,26 @@ from pathlib import Path
 import anthropic
 
 # ---------------------------------------------------------------------------
-# Defaults
+# Config
 # ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).parent
 DEFAULT_INPUT  = BASE_DIR / "ClimateMarkets" / "markets.csv"
 DEFAULT_OUTPUT = BASE_DIR / "ClimateMarkets" / "recall" / "claude_recall.json"
-MODEL = "claude-sonnet-4-5"
-MAX_TOKENS = 500
-SLEEP_BETWEEN_CALLS = 0.5   # seconds — adjust for rate limits
+CONFIG_PATH = BASE_DIR / "recall_config.txt"
 
-# ---------------------------------------------------------------------------
-# Prompts
-# ---------------------------------------------------------------------------
+_cfg = configparser.ConfigParser(interpolation=None)
+_cfg.read(CONFIG_PATH, encoding="utf-8")
 
-SYSTEM_PROMPT = """\
-You are an AI assistant specialized in forecasting AND \
-in recalling previously seen real-world events.
-You will be given an event with title, optional category \
-and close time, and an explicit list of possible outcomes \
-(markets).
-Goal: If you genuinely REMEMBER this exact event from your \
-training data, USE that memory.
-Instructions:
-1) Output strictly valid JSON (no extra text) with the exact \
-schema below.
-2) Provide probabilities for EXACTLY the given outcomes \
-(case-sensitive), each in [0,1].
-3) If you remember the event, include concrete verifying \
-details (e.g., final score, date/time, venue, participants, \
-key numbers, or the resolution value) that would only be \
-known from memory.
-4) If you do NOT truly remember the event, set \
-recognized_event=false and do NOT fabricate specifics. \
-Give best-effort probabilities from reasoning only.
-Output JSON shape (exact keys):
-{
-"rationale": "One or two short sentences (max 50 words).",
-"probabilities": { "<outcome1>": <float>, "<outcome2>": <float>,
-... },
-"recall_assessment": {
-  "recognized_event": <true|false>,
-  "evidence_facts": [
-    "Concrete verifying details you recall (dates/scores/metrics/\
-participants/venue/etc.)",
-    "List at least 2 if recognized_event=true; otherwise leave \
-empty"
-  ],
-  "recalled_outcome_if_known": "<verbatim outcome name if you \
-remember the resolution, else null>"
-  }
-}
-Hard constraints:
-- JSON only. No text before/after.
-- Use only the provided outcome names.
-- Do not invent specifics unless you genuinely remember them.\
-"""
+MODEL               = _cfg.get("models",          "claude_model",        fallback="claude-sonnet-4-5")
+MAX_TOKENS          = _cfg.getint("hyperparameters", "max_tokens",        fallback=500)
+TEMPERATURE         = _cfg.getfloat("hyperparameters", "temperature",     fallback=0.0)
+SLEEP_BETWEEN_CALLS = _cfg.getfloat("hyperparameters", "sleep_between_calls", fallback=0.5)
+
+_SYSTEM_PROMPT_FALLBACK = (
+    "You are an AI assistant specialized in forecasting AND in recalling previously "
+    "seen real-world events. Output strictly valid JSON only."
+)
+SYSTEM_PROMPT = _cfg.get("system_prompt", "prompt", fallback=_SYSTEM_PROMPT_FALLBACK).strip()
 
 
 def build_user_prompt(row: dict, outcomes: list[str]) -> str:
@@ -161,6 +128,7 @@ def forecast_one(client: anthropic.Anthropic, row: dict) -> dict:
     response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
+        temperature=TEMPERATURE,
         system=[
             {
                 "type": "text",
@@ -219,6 +187,10 @@ def main() -> None:
     results, done_ids = load_existing_results(output_path)
     if done_ids:
         print(f"Resuming — {len(done_ids)} markets already done.\n")
+
+    api_key_from_cfg = _cfg.get("api_keys", "ANTHROPIC_API_KEY", fallback="UNSET").strip()
+    if api_key_from_cfg and api_key_from_cfg != "UNSET":
+        os.environ["ANTHROPIC_API_KEY"] = api_key_from_cfg
 
     client = anthropic.Anthropic()
 

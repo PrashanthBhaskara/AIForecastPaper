@@ -21,6 +21,7 @@ Typical usage:
 from __future__ import annotations
 
 import argparse
+import configparser
 import csv
 import json
 import os
@@ -33,33 +34,21 @@ from typing import Any
 BASE_DIR = Path(__file__).parent
 DEFAULT_INPUT = BASE_DIR / "ClimateMarkets" / "markets.csv"
 DEFAULT_OUTPUT = BASE_DIR / "ClimateMarkets" / "recall" / "gemini_recall.json"
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-DEFAULT_MAX_OUTPUT_TOKENS = 500
-DEFAULT_TEMPERATURE = 0.0
-DEFAULT_SLEEP_BETWEEN_CALLS = 0.5
+CONFIG_PATH = BASE_DIR / "recall_config.txt"
 
+_cfg = configparser.ConfigParser(interpolation=None)
+_cfg.read(CONFIG_PATH, encoding="utf-8")
 
-SYSTEM_PROMPT = """\
-You are an AI assistant specialized in forecasting AND in recalling previously
-seen real-world events.
-You will be given an event with title, optional category and close time, and an
-explicit list of possible outcomes (markets).
-Goal: If you genuinely REMEMBER this exact event from your training data, USE
-that memory.
-Instructions:
-1) Output strictly valid JSON with the required schema.
-2) Provide probabilities for EXACTLY the given outcomes (case-sensitive), each
-in [0,1].
-3) If you remember the event, include concrete verifying details (e.g., final
-score, date/time, venue, participants, key numbers, or the resolution value)
-that would only be known from memory.
-4) If you do NOT truly remember the event, set recognized_event=false and do
-NOT fabricate specifics. Give best-effort probabilities from reasoning only.
-Hard constraints:
-- JSON only.
-- Use only the provided outcome names.
-- Do not invent specifics unless you genuinely remember them.
-"""
+DEFAULT_MODEL               = _cfg.get("models",          "gemini_model",        fallback=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"))
+DEFAULT_MAX_OUTPUT_TOKENS   = _cfg.getint("hyperparameters", "max_tokens",        fallback=500)
+DEFAULT_TEMPERATURE         = _cfg.getfloat("hyperparameters", "temperature",     fallback=0.0)
+DEFAULT_SLEEP_BETWEEN_CALLS = _cfg.getfloat("hyperparameters", "sleep_between_calls", fallback=0.5)
+
+_SYSTEM_PROMPT_FALLBACK = (
+    "You are an AI assistant specialized in forecasting AND in recalling previously "
+    "seen real-world events. Output strictly valid JSON only."
+)
+SYSTEM_PROMPT = _cfg.get("system_prompt", "prompt", fallback=_SYSTEM_PROMPT_FALLBACK).strip()
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -106,11 +95,14 @@ def build_user_prompt(row: dict[str, str], outcomes: list[str]) -> str:
     close_time = row.get("close_time") or row.get("close_date", "")
 
     rule_text = (
-        f"Resolves Yes if the condition in the title is met before "
-        f"the close time; resolves No otherwise."
+        "Resolves Yes if the condition in the title is met before "
+        "the close time; resolves No otherwise."
     )
 
-    outcomes_block = "\n".join(f"- {outcome}" for outcome in outcomes)
+    outcomes_block = "\n".join(f"- {o}" for o in outcomes)
+    probs_template = "\n".join(
+        f'        "{o}": <probability_value_from_0_to_1>,' for o in outcomes
+    )
 
     return f"""\
 This is the event: {title}
@@ -120,6 +112,21 @@ Example market meaning (rules):
 - {title}: {rule_text}
 Possible outcomes (provide probabilities for exactly these):
 {outcomes_block}
+Your JSON must look like:
+{{
+    "rationale": "<short 2-3 sentence rationale>",
+    "probabilities": {{
+{probs_template}
+    }},
+    "recall_assessment": {{
+        "recognized_event": <true|false>,
+        "evidence_facts": [
+            "<verifying detail 1>",
+            "<verifying detail 2>"
+        ],
+        "recalled_outcome_if_known": "<outcome name if you remember the resolution, else null>"
+    }}
+}}\
 """
 
 
@@ -460,8 +467,12 @@ def main() -> None:
             print(f"First pending market: {sample.get('title', '')}")
         return
 
+    api_key_from_cfg = _cfg.get("api_keys", "GEMINI_API_KEY", fallback="UNSET").strip()
+    if api_key_from_cfg and api_key_from_cfg != "UNSET":
+        os.environ["GEMINI_API_KEY"] = api_key_from_cfg
+
     if "GEMINI_API_KEY" not in os.environ:
-        raise SystemExit("GEMINI_API_KEY is not set (checked env and .env).")
+        raise SystemExit("GEMINI_API_KEY is not set (checked env, .env, and recall_config.txt).")
 
     genai, genai_types = require_genai_module()
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])

@@ -1,0 +1,78 @@
+# ============================================================
+# Shared configuration for AI Recall Comparative Study
+# Applies identically to: claude_recall.py, chatgpt_recall.py,
+#                          gemini_recall.py
+#
+# Format: standard INI (Python configparser, interpolation=None).
+# Continuation lines must be indented by at least one space.
+# ============================================================
+
+
+[api_keys]
+# Set a key here to override the corresponding environment variable.
+# Leave as UNSET to fall back to the environment instead
+# (e.g. export ANTHROPIC_API_KEY=sk-...).
+ANTHROPIC_API_KEY = ENTER
+OPENAI_API_KEY    = ENTER
+GEMINI_API_KEY    = ENTER
+
+
+[models]
+# One model identifier per provider.
+# Change these to swap model versions across all three scripts at once.
+claude_model = claude-sonnet-4-5
+openai_model = gpt-4o-2024-08-06
+gemini_model = gemini-2.5-flash
+
+
+[hyperparameters]
+# Generation parameters kept identical across all providers.
+temperature         = 0.0
+max_tokens          = 500
+sleep_between_calls = 0.5
+
+
+[system_prompt]
+# Shared system prompt — word-for-word identical across all three models.
+# Edit here to update all models simultaneously.
+# Every continuation line must begin with exactly one space.
+prompt = You are an AI assistant specialized in forecasting AND
+ in recalling previously seen real-world events.
+ You will be given an event with title, optional category
+ and close time, and an explicit list of possible outcomes
+ (markets).
+ Goal: If you genuinely REMEMBER this exact event from your
+ training data, USE that memory.
+ Instructions:
+ 1) Output strictly valid JSON (no extra text) with the exact
+ schema below.
+ 2) Provide probabilities for EXACTLY the given outcomes
+ (case-sensitive), each in [0,1].
+ 3) If you remember the event, include concrete verifying
+ details (e.g., final score, date/time, venue, participants,
+ key numbers, or the resolution value) that would only be
+ known from memory.
+ 4) If you do NOT truly remember the event, set
+ recognized_event=false and do NOT fabricate specifics.
+ Give best-effort probabilities from reasoning only.
+ Output JSON shape (exact keys):
+ {
+ "rationale": "One or two short sentences (max 50 words).",
+ "probabilities": { "<outcome1>": <float>, "<outcome2>": <float>,
+ ... },
+ "recall_assessment": {
+ "recognized_event": <true|false>,
+ "evidence_facts": [
+ "Concrete verifying details you recall (dates/scores/metrics/
+ participants/venue/etc.)",
+ "List at least 2 if recognized_event=true; otherwise leave
+ empty"
+ ],
+ "recalled_outcome_if_known": "<verbatim outcome name if you
+ remember the resolution, else null>"
+ }
+ }
+ Hard constraints:
+ - JSON only. No text before/after.
+ - Use only the provided outcome names.
+ - Do not invent specifics unless you genuinely remember them.
