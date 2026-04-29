@@ -17,7 +17,6 @@ Typical usage once credentials are configured:
     export OPENAI_API_KEY=sk-...
     python Research/chatgpt_recall.py --input Research/curated_events.csv
 """
-
 from __future__ import annotations
 
 import argparse
@@ -194,7 +193,7 @@ def response_schema(outcomes: list[str]) -> dict[str, Any]:
                     },
                     "recalled_outcome_if_known": {
                         "type": ["string", "null"],
-                        "enum": list(outcomes),
+                        "enum": [*outcomes, None],
                         "description": "Verbatim outcome name if the resolution is remembered.",
                     },
                 },
@@ -377,10 +376,11 @@ def main() -> None:
             sample = pending_rows[0]
             print(f"First pending market: {sample.get('title', '')}")
         return
-
+    
+    #IMPORTANT LINE HERE
+    # os.environ["OPENAI_API_KEY"] = "SET API KEY HERE"
     if "OPENAI_API_KEY" not in os.environ:
         raise SystemExit("OPENAI_API_KEY is not set.")
-
     OpenAI = require_openai_client_class()
     client = OpenAI()
 
