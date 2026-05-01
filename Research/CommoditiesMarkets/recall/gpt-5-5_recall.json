@@ -1,0 +1,3476 @@
+[
+  {
+    "condition_id": "0x15dfbc2ff3495f6f693fc95889dfa4bc3ec4951a569bf40f6131d99f7c710515",
+    "market_slug": "will-btc-or-eth-reach-all-time-high-first",
+    "event_slug": "will-btc-or-eth-reach-all-time-high-first",
+    "title": "Will BTC or ETH reach all-time high first?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "BTC",
+    "volume": "66281.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC set new all-time highs in March 2024 and again later in 2024, while ETH did not surpass its 2021 all-time high before the close. The condition therefore appears to have been met before 2024-12-31.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xad84796562e40716dd8bfbde788775739afcf4bf3daadd8f51a81f9ae0c1efa3",
+    "market_slug": "will-crude-oil-hit-100-in-2023",
+    "event_slug": "will-crude-oil-hit-100-in-2023",
+    "title": "Will crude oil hit $100 in 2023?",
+    "category": "Commodities",
+    "close_time": "2023-12-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "28439.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Crude oil benchmarks rallied in late 2023 but did not reach $100 before year-end. The remembered resolution is therefore No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Brent crude peaked below $100 in late September 2023, around the high-$90s per barrel rather than crossing $100.",
+          "WTI front-month crude also topped out below $100, around the mid-$90s, and finished 2023 much lower in the low-$70s."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x39bdb149c17d848c0ce90e452822878287bcd576bac2c552aa33f5d96b9c501d",
+    "market_slug": "will-gold-close-at-3200-or-more-at-the-end-of-2024-1",
+    "event_slug": "what-price-will-gold-close-at-in-2024",
+    "title": "Will Gold close at $3,200 or more at the end of 2024?   ",
+    "category": "Commodities",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.46994e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Based on mid-2024 gold levels being far below $3,200, reaching that threshold by year-end would have required an unusually large further rally.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbd3ed58e5472776516683cce181509b05bd07ef687997795d1cfb70fa7c4bc55",
+    "market_slug": "will-bitcoin-hit-250k-in-2024",
+    "event_slug": "will-bitcoin-hit-250k-in-2024",
+    "title": "Will Bitcoin hit $250k in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9.42271e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin never came close to $250k before the market close; its late-2024 all-time high was roughly $108k. Therefore the condition was not met.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's 2024 all-time high was around $108k in mid-December 2024, well below $250k.",
+          "By the 2024-12-30 close time, Bitcoin was trading far below the threshold, around the low-$90k range."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8af1e243e99401a20f33c1121a6e525e82f1cc446fe1006c698022bd52e3cb9d",
+    "market_slug": "will-crude-oil-hit-120-in-2023",
+    "event_slug": "will-crude-oil-hit-120-in-2023",
+    "title": "Will crude oil hit $120 in 2023?",
+    "category": "Commodities",
+    "close_time": "2023-12-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "11435.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Crude oil prices did not approach $120 during 2023; both Brent and WTI peaked well below that level. Therefore the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Brent crude's 2023 high was under $100 per barrel, around the high-$90s in late September 2023.",
+          "WTI crude also peaked below $100 in 2023, around the mid-$90s, far short of $120."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2b997a36c06deb7112ee75acb316d7d7c3b08de99549c883e38a3442daeda39b",
+    "market_slug": "will-gold-close-over-3000-at-the-end-of-2024",
+    "event_slug": "will-gold-close-over-3000-at-the-end-of-2024",
+    "title": "Will Gold close over $3,000 at the end of 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-28T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "445108",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Gold rallied strongly in 2024 but ended the year well below $3,000/oz, so the condition was not met.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Spot gold finished 2024 around the mid-$2,600s per troy ounce, not above $3,000.",
+          "Gold’s 2024 peak was below $3,000/oz, with late-2024 record highs around the $2,700–$2,800 range."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x696d391570192709b50074d1311c81b0a62832b88635a33c45dc44a59c345b40",
+    "market_slug": "will-the-median-gas-price-per-blob-be-between-0pt01-and-0pt1-eth-one-month-after-eip-4844",
+    "event_slug": "gas-price-per-blob-1-month-after-eip-4844",
+    "title": "Will the median gas price per blob be between 0.01 and 0.1 ETH one month after EIP-4844?",
+    "category": "Commodities",
+    "close_time": "2024-12-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "54945.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "EIP-4844 blob fees were far below 0.01 ETH for most of the first month after Dencun; the median blob gas price per blob did not fall in the 0.01–0.1 ETH band.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "EIP-4844 was included in Ethereum’s Dencun upgrade, which activated on mainnet on 2024-03-13.",
+          "During the first month after activation, blob base fees were usually at or near the minimum level rather than around hundredths of an ETH per blob."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdf8a3a7b24dc0c468403a124f0868d5919df5d1d48718bba7ae45b2c3f9ad24b",
+    "market_slug": "will-saudi-arabia-boost-oil-production-in-q4",
+    "event_slug": "will-saudi-arabia-boost-oil-production-in-q4",
+    "title": "Will Saudi Arabia boost oil production in Q4?",
+    "category": "Commodities",
+    "close_time": "2024-01-17T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "20509.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Saudi Arabia maintained its voluntary production cuts through Q4 2023 rather than raising output. The market condition appears not to have been met before the January 2024 close.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Saudi Arabia extended its voluntary 1 million bpd oil production cut through the end of December 2023, keeping output around 9 million bpd in Q4.",
+          "At the November 30, 2023 OPEC+ meeting, Saudi Arabia said it would continue the voluntary cut into Q1 2024 rather than boost production."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf195565ddfb4c60f7ce956732aa4b2a8597b94b8a27812d324c87e330894b64a",
+    "market_slug": "will-silver-close-over-40-at-the-end-of-2024",
+    "event_slug": "will-silver-close-over-40-at-the-end-of-2024",
+    "title": "Will Silver close over $40 at the end of 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "234682",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Silver remained well below $40/oz through the end of 2024, with year-end prices around the high-$20s. The condition was not met.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Spot silver was around $28.9 per troy ounce at the end of December 2024.",
+          "Silver's 2024 highs were in the low-to-mid $30s per ounce, below the $40 threshold."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5401278f7f9c9df79552148e2b280dea9ea91431a77c2c46686b8bec598970e7",
+    "market_slug": "ethereum-all-time-high-in-2024",
+    "event_slug": "ethereum-all-time-high-in-2024",
+    "title": "Ethereum all time high in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.95102e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum did not surpass its November 2021 all-time high during 2024; its 2024 rallies remained below that level before the market close.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's widely cited all-time high was around $4,800-$4,900 in November 2021, before 2024.",
+          "In 2024, ETH traded above $4,000 during peaks but did not break the 2021 all-time-high level before Dec. 30, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc17f720bf6477117abfcfd4662fb2a7e1ac5793fcda46bac51336d3fc4a38ca8",
+    "market_slug": "venezuela-oil-production-1-million-barrelsday-by-q1-2024",
+    "event_slug": "venezuela-oil-production-1-million-barrelsday-by-q1-2024",
+    "title": "Venezuela oil production >1 million barrels/day by Q1 2024?",
+    "category": "Commodities",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8565.05",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Venezuela’s oil output was generally reported below 1 million barrels/day through early 2024, despite sanctions relief and recovery efforts. I do not recall the exact market resolution, but the condition likely was not met by the close.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbe14bea177600f534d0e9a863ecf69122171bb90444a0d6c8cb4f7d1e8cd3d59",
+    "market_slug": "will-ethereum-hit-10k-in-2024",
+    "event_slug": "will-ethereum-hit-10k-in-2024",
+    "title": "Will Ethereum hit $10k in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7.05961e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2024 is over, and ETH did not approach $10,000; its 2024 highs were around $4.1k. Therefore the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum traded well below $10,000 throughout 2024, with major-market highs only around the $4,000–$4,100 range.",
+          "By the 2024-12-31 close condition, ETH had never reached $10,000 in 2024 on major USD spot markets."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3fa72e39a8c11dbf109b4b51a26b6fd667879a2eee4c622a6a6f368c4837169c",
+    "market_slug": "saudi-arabia-non-oil-gdp-up-in-q3",
+    "event_slug": "saudi-arabia-non-oil-gdp-up-in-q3",
+    "title": "Saudi Arabia non-oil GDP % up in Q3?",
+    "category": "Commodities",
+    "close_time": "2023-10-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4327.58",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Saudi Arabia’s Q3 2023 flash GDP showed non-oil activities still expanding year over year despite a contraction in oil GDP. That makes the stated condition very likely to resolve Yes.",
+      "probabilities": {
+        "Yes": 0.94,
+        "No": 0.06
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Saudi Arabia’s General Authority for Statistics flash estimate for Q3 2023 reported real GDP down about 4.5% year over year.",
+          "In the same Q3 2023 release, non-oil activities grew about 3.6% year over year while oil activities fell sharply, around 17.3%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb09684e11fb40f40cfb2fec4a8e08fe2b021a82b0803756a90f04e1364efa94f",
+    "market_slug": "ethereum-all-time-high-in-q4-2024",
+    "event_slug": "ethereum-all-time-high-wen",
+    "title": "Ethereum all time high in Q4 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.08277e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum did not surpass its 2021 all-time high during Q4 2024, despite a late-2024 crypto rally. Therefore the market condition was not met before the close time.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's prior USD all-time high was set in November 2021 at roughly $4,800-$4,900 depending on the price index/exchange.",
+          "In Q4 2024, ETH rallied into December but remained below that all-time-high level, topping out around the low-$4,000s rather than breaking $4,800+."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x93f309f9763185e435ab104640c1698539c3d6168bee2666c17bb7b316e6293c",
+    "market_slug": "will-saudi-arabia-agree-to-sell-oil-to-china-in-yuan-in-2023",
+    "event_slug": "will-saudi-arabia-agree-to-sell-oil-to-china-in-yuan-in-2023",
+    "title": "Will Saudi Arabia agree to sell oil to China in Yuan in 2023?",
+    "category": "Commodities",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9889.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall no public 2023 Saudi-China agreement specifically to price or settle Saudi oil sales in yuan before the deadline; discussions and related financial cooperation did not meet that condition. Thus the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "China and Saudi Arabia discussed yuan oil settlement in prior reports, including around 2022, but no formal 2023 agreement to sell Saudi oil to China in yuan was announced before 2023-12-31.",
+          "A China-Saudi currency swap agreement was reported in November 2023, but it was not an agreement for Saudi oil sales to China to be denominated in yuan."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7aa4a910b31b2c4ddb09d1e3408e52aa8e09a14402f376070a44b1b85cb36d13",
+    "market_slug": "will-bitcoin-hit-90k-or-100k-first",
+    "event_slug": "will-bitcoin-hit-90k-or-100k-first",
+    "title": "Will Bitcoin hit $90k or $100k first?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "100k",
+    "volume": "3.27397e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin crossed $90k in November 2024 before reaching $100k in early December, both before the market close. Interpreting the title as whether the stated threshold event occurred before close, Yes is overwhelmingly likely.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin first traded above $90,000 in mid-November 2024 during the post-U.S.-election rally.",
+          "Bitcoin later crossed $100,000 for the first time on December 5, 2024, before the 2024-12-31 close."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xebd09819ef04d3d8c255e4012c96bb7d4e37315d0b96e8d9ec82c1ad010799d4",
+    "market_slug": "will-ethereum-hit-15k-in-2024",
+    "event_slug": "will-ethereum-hit-15k-in-2024",
+    "title": "Will Ethereum hit $15k in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.69668e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum never approached $15k during 2024; its all-time high remained far below that level. The condition was not met before the 2024 close.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's all-time high remained about $4,800–$4,900, set in November 2021, not in 2024.",
+          "During 2024, ETH traded far below $15,000, with highs around the low-$4,000 range."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x47ecbba87c08f496f17351dd89e5a41007181992bdb8e2d7d08ab9d97f969b70",
+    "market_slug": "will-microstrategy-hold-400k-btc-before-2025",
+    "event_slug": "will-microstrategy-hold-400k-btc-before-2025",
+    "title": "Will MicroStrategy hold 400k+ BTC before 2025?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.25235e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall MicroStrategy crossed the 400k BTC threshold in early December 2024, before the market close. The company publicly announced a purchase that brought total holdings above 400,000 BTC.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On Dec. 2, 2024, MicroStrategy announced it had acquired 15,400 BTC for about $1.5 billion.",
+          "That purchase brought MicroStrategy's total holdings to approximately 402,100 BTC, exceeding 400k before 2025."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd18bfd96d5e4008ef5957dbab8b1ae6f6e1fe95a462bbcb2a05a9bec2a2d258f",
+    "market_slug": "will-microstrategy-hold-500k-btc-before-2025",
+    "event_slug": "will-microstrategy-hold-500k-btc-before-2025",
+    "title": "Will MicroStrategy hold 500k+ BTC before 2025?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.04477e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall MicroStrategy’s disclosed BTC holdings remained below 500,000 at the end of 2024, so the condition was not met before the 2025 cutoff.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "MicroStrategy announced on Dec. 30, 2024 that it had acquired 2,138 BTC for about $209 million during Dec. 23–29, 2024.",
+          "That disclosure brought its total holdings to 446,400 BTC as of Dec. 29, 2024, below the 500,000 BTC threshold."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8f7783a2e3cf762fa33580584f345dcc04b7a3c376fe085665f55f5748c504b",
+    "market_slug": "ethereum-spot-etf-approved-by-june-30",
+    "event_slug": "ethereum-spot-etf-approved-by",
+    "title": "Ethereum spot ETF approved by June 30?",
+    "category": "Commodities",
+    "close_time": "2024-06-29T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "971401",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SEC approved exchange rule changes for spot Ether ETFs in late May 2024, before the June 30 deadline. Although trading required later S-1 effectiveness, the approval condition was met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On May 23, 2024, the SEC approved 19b-4 rule-change filings for spot Ethereum ETFs from exchanges including Nasdaq, NYSE Arca, and Cboe BZX.",
+          "The approvals covered issuers/funds associated with BlackRock, Fidelity, Grayscale, VanEck, Franklin Templeton, Bitwise, Invesco/Galaxy, and 21Shares; spot Ether ETF trading began later in July after registration statements became effective."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf1c1fcc3efe839e5a022574c0263cb967ee3355f6b58edbca596958a8919343a",
+    "market_slug": "btc-etfs-first-week-combined-aum-under-10-billion",
+    "event_slug": "bitcoin-etfs-first-week-combined-aum",
+    "title": "BTC ETFs first week combined AUM under $10 billion?",
+    "category": "Commodities",
+    "close_time": "2024-01-19T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "604172",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Reasoning from the first week of U.S. spot BTC ETF trading, combined AUM is highly sensitive to whether GBTC was included; excluding GBTC it was likely under $10B, including it clearly exceeded $10B.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x09e89f5a5d4b66668c89d2323af10fa48816ea13dc991272ec9896d5e6ffd84d",
+    "market_slug": "ethereum-etf-begins-trading-by-july-4",
+    "event_slug": "ethereum-etf-begins-trading-by-july-4",
+    "title": "Ethereum ETF begins trading by July 4?",
+    "category": "Commodities",
+    "close_time": "2024-07-03T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "529779",
+    "status": "ok",
+    "forecast": {
+      "rationale": "U.S. spot Ethereum ETFs did not start trading by the July 3 close; they launched later in July 2024. Therefore the market resolved No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The SEC approved spot Ether ETF exchange rule changes in May 2024, but the funds still needed effective registration statements before trading.",
+          "U.S. spot Ethereum ETFs began trading on July 23, 2024, including products such as BlackRock ETHA, Fidelity FETH, and Grayscale ETHE/ETH."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3ceaf53779ce80dae0f17c892cd7f3b41c949a4fab011411d9a989bac51be8d1",
+    "market_slug": "will-eth-or-sol-reach-alltime-high-first",
+    "event_slug": "will-eth-or-sol-reach-alltime-high-first",
+    "title": "Will ETH or SOL reach all-time high first?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "SOL",
+    "volume": "497966",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x8771fe78b111e770a6d61cb3957a9667b05e06dc8fb357564be69f2d732f09fe",
+    "market_slug": "will-btc-hit-55000-in-february",
+    "event_slug": "will-btc-hit-55000-in-february",
+    "title": "Will BTC hit $55,000 in February?",
+    "category": "Commodities",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "473880",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC crossed the $55,000 threshold during its late-February 2024 rally, before the market close time. Therefore the condition was met.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin traded above $55,000 in late February 2024, around Feb. 26–27 UTC.",
+          "BTC rose further above $57,000 on Feb. 27, 2024, its highest level since 2021."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x40a93ba2e52a40676801cb144050bd4fc64ddedb778f13f2ade72d61a89dee8b",
+    "market_slug": "will-btc-hit-50000-in-february",
+    "event_slug": "will-btc-hit-50000-in-february",
+    "title": "Will BTC hit $50,000 in February?",
+    "category": "Commodities",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "404461",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC crossed above $50,000 during February 2024, well before the Feb. 29 close time. The condition was therefore met.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin traded above $50,000 on February 12, 2024, its first time at that level since late 2021.",
+          "The move occurred amid strong demand following the January 2024 U.S. spot Bitcoin ETF approvals."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x29a4124bc2ccb94c6ba72c0ce48aaa475414aee04bff3a1b9ba07429220912d8",
+    "market_slug": "will-eth-hit-3000-in-february",
+    "event_slug": "will-eth-hit-3000-in-february",
+    "title": "Will ETH hit $3,000 in February?",
+    "category": "Commodities",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "277741",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH traded above $3,000 during the February 2024 crypto rally before the listed close time, so the condition was met.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ether crossed the $3,000 level in late February 2024, around Feb. 20, before the Feb. 29 00:00 UTC close.",
+          "By Feb. 28, 2024, ETH was trading well above $3,000, around the mid-$3,000 range intraday."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4241a93cce3da0fca2bc94e65ec23f221be9e5b11b01646f51ca794bfe2db850",
+    "market_slug": "bitcoin-new-all-time-high-by-friday",
+    "event_slug": "bitcoin-new-all-time-high-by-friday",
+    "title": "Bitcoin new all time high by Friday?",
+    "category": "Commodities",
+    "close_time": "2024-03-08T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "199845",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin broke its prior 2021 all-time high during the first week of March 2024, before the market close time. Therefore this condition was met before Friday UTC close.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin surpassed its November 2021 peak of roughly $69,000 on March 5, 2024.",
+          "The move occurred before the listed close time of 2024-03-08 00:00:00 UTC; later that week BTC also traded around/above $70,000 on some venues."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x458c2969783e464cbcca38494d131014fdaa91f5041dbd1eaaf857ca87f84a8b",
+    "market_slug": "will-ethereum-hit-4k-by-friday",
+    "event_slug": "will-ethereum-hit-4k-by-friday",
+    "title": "Will ETH hit $4k by Friday?",
+    "category": "Commodities",
+    "close_time": "2024-05-24T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "176172",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market, but ETH's late-May 2024 ETF-driven rally appears to have approached rather than cleared $4,000 before the stated deadline. I assign a very high probability to No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xb2d36737246c8edd29c32dc216a43cb690186f5b563ac9bc1834dfb5f3a238ec",
+    "market_slug": "next-ethereum-hard-fork-live-by-end-of-2024",
+    "event_slug": "next-ethereum-hard-fork-live-by-end-of-2024",
+    "title": "Next Ethereum hard fork live by end of 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "156730",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x0d40e55bb1352ba9a5652eb881fee61019d32a8d7f4deae0fd572c66943c6e42",
+    "market_slug": "will-bitcoin-reach-75000-in-may",
+    "event_slug": "what-price-will-btc-reach-in-may",
+    "title": "Will Bitcoin reach $75,000 in May?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "139631",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin did not trade at $75,000 during May 2024; its May rally topped out below the threshold. The condition therefore resolved No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's May 2024 high was around $71,900–$72,000, reached near May 21, below $75,000.",
+          "Bitcoin first exceeded $75,000 later in 2024, around the U.S. election in November, not in May."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6edf60fdbd6d80e91ddc8f10dea7c1baa1132f307ef30f087b35324032ebe222",
+    "market_slug": "will-eth-hit-2500-in-february",
+    "event_slug": "will-eth-hit-2500-in-february",
+    "title": "Will ETH hit $2,500 in February?",
+    "category": "Commodities",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "97162.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH traded above the $2,500 threshold well before the February 29, 2024 close, during the broader crypto rally. Therefore the market condition was met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum moved above $2,500 around mid-February 2024, before the February 29 UTC close.",
+          "ETH was trading well above that level later in February 2024, rising past $3,000 before month-end."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7453b847a9e7c6c599c9573c6298972e1ec2f5bb1769ecb664e9dba6e781c894",
+    "market_slug": "ethereum-above-3700-on-may-31",
+    "event_slug": "ethereum-above-3700-on-may-31",
+    "title": "Ethereum above $3,700 on May 31?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "96669.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not remember this exact market, but ETH traded around the mid-to-high $3,700s after the late-May 2024 ETF-driven rally. That makes the threshold likely to have been reached before the May 31 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x31d620d7c7a0b3d2c4e6dd2d5b0bee0c15f93aac2bdf98a458cea250cbb25ba8",
+    "market_slug": "bitcoin-all-time-high-in-2024",
+    "event_slug": "bitcoin-all-time-high-in-2024",
+    "title": "Bitcoin all time high in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "82051.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin clearly set new all-time highs during 2024, first exceeding its prior 2021 peak in March and later crossing $100,000 in December. Therefore the market condition was met before the close time.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin’s prior all-time high from November 2021 was around $69,000, and it surpassed that level in March 2024.",
+          "Bitcoin reached roughly $73,000–$74,000 in mid-March 2024, setting a new all-time high before the market close.",
+          "Bitcoin later crossed $100,000 in early December 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf3a519b7d219794448b2ca8eb8a620d7580bb98c2c90d02fc07deaceea5a7f70",
+    "market_slug": "bitcoin-price-24-hours-after-halvening",
+    "event_slug": "bitcoin-price-24-hours-after-halvening",
+    "title": "Bitcoin price 24 hours after halving?",
+    "category": "Commodities",
+    "close_time": "2024-04-19T12:00:00Z",
+    "actual_resolution": "Higher",
+    "volume": "76691.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The event title lacks a clear binary condition or threshold, so I cannot infer what “Yes” specifically means. With no recognized exact market resolution, I assign near-even probabilities.",
+      "probabilities": {
+        "Yes": 0.5,
+        "No": 0.5
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x8e8e955c2335e3ed5c9c7986d1562a76fd4b747fafc057be95b4deff3c2d84ea",
+    "market_slug": "bitcoin-above-70000-on-april-5",
+    "event_slug": "bitcoin-above-70000-on-april-5",
+    "title": "Bitcoin above $70,000 on April 5?",
+    "category": "Commodities",
+    "close_time": "2024-04-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "71406.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market resolution. Historically, Bitcoin was trading below $70,000 around early April 5, 2024, after dipping from late-March highs, so No is more likely.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x6d38ab11d122559ec00473bad049fa1e39c0f5241c1cac5dd029aac5128b7ba2",
+    "market_slug": "will-eth-hit-3500-by-may-31",
+    "event_slug": "will-eth-hit-3500-by-may-31",
+    "title": "Will ETH hit $3,500 by May 31?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "68793.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH traded above $3,500 before the May 31, 2024 close, driven by the late-May spot ETH ETF approval rally. Therefore the market condition was met.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ETH surged above $3,500 on May 20, 2024 amid optimism that U.S. spot Ethereum ETFs would be approved.",
+          "After the SEC approved 19b-4 filings for spot Ethereum ETFs on May 23, 2024, ETH continued trading well above $3,500, around the high-$3,000s before month-end."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x44ef109508d816f18b4f4ad70e2aeb6e456334150323bbf7ef0cf9a50f9e6fd6",
+    "market_slug": "bitcoin-all-time-high-today",
+    "event_slug": "bitcoin-all-time-high-today",
+    "title": "Bitcoin all time high today?",
+    "category": "Commodities",
+    "close_time": "2024-03-04T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "68051",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin was rallying strongly but had not yet exceeded its prior 2021 all-time high by the March 4, 2024 UTC close; the widely reported new high came shortly afterward.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's prior all-time high was around $68,789 in November 2021.",
+          "Bitcoin first broke that prior high in the 2024 rally on March 5, 2024, briefly trading above $69,000.",
+          "Before 2024-03-04T00:00:00Z, BTC was still below the old all-time high, roughly in the low-to-mid $60,000s."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x354bf3b33d711e5bfcbf2bbc2a3c506f5d918893dfa31f2d2bbf8075b3d5f17d",
+    "market_slug": "will-btc-hit-60000-in-february",
+    "event_slug": "will-btc-hit-60000-in-february",
+    "title": "Will BTC hit $60,000 in February?",
+    "category": "Commodities",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "44164.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC crossed $60,000 on February 28, 2024, before the listed UTC close time, so the condition was met.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin broke above $60,000 on February 28, 2024, for the first time since 2021.",
+          "The rally continued intraday, with BTC trading well above $60,000 before 2024-02-29 00:00:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x743c1a3bb7334674d3a36523c017ba9121f31f981a8adcdab9881ce3dd351158",
+    "market_slug": "ethereum-all-time-high-by-friday",
+    "event_slug": "ethereum-all-time-high-by-friday",
+    "title": "Ethereum all time high by Friday?",
+    "category": "Commodities",
+    "close_time": "2024-03-08T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "41418.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum was rallying in early March 2024, but it remained below its November 2021 all-time high before the market close. Therefore the condition was not met.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's prior all-time high was about $4,878, reached in November 2021.",
+          "By 2024-03-08 00:00 UTC, ETH had risen to roughly the high-$3,000s/near $4,000 but had not surpassed that all-time high."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x56aedcecc50a0e5eaf6ea092cd0643a11a30056b1879cc1541f3173002584011",
+    "market_slug": "ethereum-above-3500-on-april-12",
+    "event_slug": "ethereum-above-3500-on-april-12",
+    "title": "Ethereum above $3,500 on April 12?",
+    "category": "Commodities",
+    "close_time": "2024-04-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "39574.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recognize the exact market, but ETH was generally trading around the $3,500 threshold in early April 2024. Given the condition only needed to be met before the close time, I lean Yes.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x13a49e25a55a83aa3bbb9b8f6f0afe7207f9e895b95cdf8b3a70d1bf56910aee",
+    "market_slug": "bitcoin-above-70000-on-april-12",
+    "event_slug": "bitcoin-above-70000-on-april-12",
+    "title": "Bitcoin above $70,000 on April 12?",
+    "category": "Commodities",
+    "close_time": "2024-04-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "39338.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not remember this exact market, but historical BTC pricing around April 12, 2024 appears to have been near or above $70,000 early that UTC day before falling later. Therefore Yes is highly likely.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xe09bf01f1655582c4b4e2d6188b1e5c0dfdfae4a2e5ee0291922bef6f73a0323",
+    "market_slug": "will-bitcoin-hit-70k-today",
+    "event_slug": "will-bitcoin-hit-70k-today",
+    "title": "Will Bitcoin hit $70k today?",
+    "category": "Commodities",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "31513.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Bitcoin did not reach $70,000 by the March 5 00:00 UTC close; the first widely reported move above $70k came later that week. Therefore the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin set/approached a new all-time high around $69,000 on March 5, 2024, but did not clear $70,000 then.",
+          "Bitcoin first traded above $70,000 on March 8, 2024, after this market’s 2024-03-05 00:00 UTC close."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x90cbf69b3172d75ed713040a37e2fb3ff3352ac985b4e524f43716b755f5bb3c",
+    "market_slug": "ethereum-above-3000-on-may-10",
+    "event_slug": "ethereum-above-3000-on-may-10",
+    "title": "Ethereum above $3,000 on May 10?",
+    "category": "Commodities",
+    "close_time": "2024-05-10T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "29784.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Based on historical ETH levels around May 10, 2024, Ethereum was likely trading near or above $3,000 before the 12:00 UTC close, though with some volatility around that threshold.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x32a7f4dc4b8557134153a715582e00d7ff6b1f5faeb3b8d58681069232b5ca50",
+    "market_slug": "ethereum-above-3000-on-april-19",
+    "event_slug": "ethereum-above-3000-on-april-19",
+    "title": "Ethereum above $3,000 on April 19?",
+    "category": "Commodities",
+    "close_time": "2024-04-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "24462.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market, but historical ETH prices around April 19, 2024 were near the $3,000 threshold and likely traded above it before 12:00 UTC. I assign high probability to Yes, with some uncertainty from rule/source details.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xab5a824fa074725200fac54ead9ffa9c5db46ded28e430e41960bf53e32c95a2",
+    "market_slug": "btc-price-40000-1-hour-after-etf-approval",
+    "event_slug": "bitcoin-price-1hr-after-etf-approval",
+    "title": "$BTC price <$40,000 1 hour after ETF approval?",
+    "category": "Commodities",
+    "close_time": "2024-01-14T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "24026.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SEC approved spot Bitcoin ETFs on Jan. 10, 2024, and BTC remained well above $40,000 during the hour after approval. It only fell below $40,000 later in January.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The SEC approved 11 spot Bitcoin ETFs on January 10, 2024, after market close in the U.S.",
+          "Bitcoin traded around the mid-$45,000 to $46,000 range in the hour following the approval, not below $40,000.",
+          "BTC’s later drop below $40,000 occurred around January 22-23, after this market’s January 14 close."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7b2c4d1dede4b26033cea01899d6eabe0673d0f1ea213c330100574d0128a137",
+    "market_slug": "ethereum-above-3000-on-may-24",
+    "event_slug": "ethereum-above-3000-on-may-24",
+    "title": "Ethereum above $3,000 on May 24?",
+    "category": "Commodities",
+    "close_time": "2024-05-24T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "17568.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum was trading well above $3,000 by May 24, 2024, following the spot ETH ETF approval-driven rally. The condition should have resolved Yes before the 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.995,
+        "No": 0.005
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On May 23, 2024, the SEC approved 19b-4 filings for spot Ether ETFs, triggering/confirming a major ETH rally.",
+          "Ethereum traded around the mid-to-high $3,000s on May 24, 2024, well above the $3,000 threshold before 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x61af60313ba3a16668513eb6e314e9a9a3ce658d07e7b2878c19ed91787264e9",
+    "market_slug": "will-trump-say-ethereum-during-his-bitcoin-conference-speech",
+    "event_slug": "what-will-trump-say-during-his-bitcoin-conference-speech",
+    "title": "Will Trump say \"Ethereum\" during his Bitcoin Conference speech?",
+    "category": "Commodities",
+    "close_time": "2024-07-27T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "15804.6",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xe8b22095476bf95aa3cf4f91436e36e2d4f86320416b796bea70a052f821754e",
+    "market_slug": "will-ethereum-hit-4k-today",
+    "event_slug": "will-ethereum-hit-4k-today",
+    "title": "Will Ethereum hit $4k today?",
+    "category": "Commodities",
+    "close_time": "2024-03-07T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12678.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall ETH did not reach $4,000 before the Mar. 7, 2024 UTC close; the notable $4k break came later that week. Therefore this market should have resolved No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum’s first move back above roughly $4,000 in this cycle was reported on March 8, 2024, after this market’s Mar. 7 00:00 UTC close.",
+          "On March 6, 2024 UTC, ETH traded in the high-$3,000s but remained below the $4,000 threshold before the close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x687de24cb897da95c7eef3c2f747dc20b702f3797ab66f4d66b8498ddeb57035",
+    "market_slug": "parlay-us-bitcoin-spot-and-eth-futures-etf-this-year",
+    "event_slug": "parlay-us-bitcoin-spot-and-eth-futures-etf-this-year",
+    "title": "Parlay: US Bitcoin Spot and ETH Futures ETF this year?",
+    "category": "Commodities",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "11041",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH futures ETFs did launch in the U.S. in 2023, but U.S. spot Bitcoin ETFs were not approved until after the 2023 deadline. Therefore the parlay condition was not met.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The first U.S. ether futures ETFs, including ProShares Ether Strategy ETF, began trading on October 2, 2023.",
+          "The SEC approved U.S. spot Bitcoin ETFs on January 10, 2024, after the 2023-12-31 close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcd8515afa947af212e160cf9377498c56c09aaea290c152bddc4e7198a44f045",
+    "market_slug": "bitcoin-all-time-high-by-march-5",
+    "event_slug": "bitcoin-all-time-high-by-march-5",
+    "title": "Bitcoin all time high by March 5?",
+    "category": "Commodities",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "10771",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"Bitcoin’s widely reported break of its prior roughly $69k all-time high occurred later on March 5, 2024, not before 2024-03-05 00:00 UTC. Therefore this market would resolve No under the stated"
+    }
+  },
+  {
+    "condition_id": "0x6191de87c292a4aa3c7c4aa8225d1c796bd222503ff315d1554108f51bba7218",
+    "market_slug": "no-btc-all-time-high-in-2024",
+    "event_slug": "bitcoin-all-time-high-wen",
+    "title": "No BTC all time high in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4830",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin set new all-time highs during 2024, so the statement that there was no BTC all-time high in 2024 was false.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin surpassed its prior all-time high of roughly $69,000 in March 2024.",
+          "BTC later reached new highs above $73,000 in March 2024, well before the 2024-12-31 close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xef2fe073a749041abbadcc10c92c61e1d08acf5156f7c4f72094409639d47c3d",
+    "market_slug": "mog-vs-bitcoin-most-liked-post-today",
+    "event_slug": "mog-vs-bitcoin-most-liked-post-today",
+    "title": "MOG vs. BITCOIN - Most Liked Post Today",
+    "category": "Commodities",
+    "close_time": "2024-03-06T00:00:00Z",
+    "actual_resolution": "$BITCOIN",
+    "volume": "16761.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize the exact market resolution. Based on general attention, Bitcoin-related posts likely had a larger baseline audience than MOG, though coordinated meme-coin engagement could make an upset plausible.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8d7039b6e8f4c5aca16f244e977ce1a8566e3df12bc1f4e35bf94268825dd34",
+    "market_slug": "will-goldy-win-crypto-the-game",
+    "event_slug": "who-will-win-crypto-the-game",
+    "title": "Will Goldy win Crypto: The Game?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1465.56",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xb803598e76d5fb6841e1f4dec4adc2e6f43fab996eb2a552f9cccfc5938b15cb",
+    "market_slug": "will-bitcoin-hit-100k-in-november",
+    "event_slug": "will-bitcoin-hit-100k-in-november",
+    "title": "Will Bitcoin hit $100k in November?",
+    "category": "Commodities",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.85874e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin came very close in late November 2024 but did not reach $100,000 before the November cutoff. Its first widely reported break above $100k occurred in early December 2024.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin’s first widely reported move above $100,000 occurred on December 5, 2024, after November had ended.",
+          "In late November 2024, BTC traded in the high-$90,000s and stalled just below $100,000 before the Nov. 30 cutoff."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x455d36c6d66605476a94cba6251f188c9cc228809481623ae84d35ed7b100cc5",
+    "market_slug": "bitcoin-above-100000-on-december-20",
+    "event_slug": "bitcoin-above-100000-on-december-20",
+    "title": "Bitcoin above $100,000 on December 20?",
+    "category": "Commodities",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.02024e+07",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x95474ea98c1e6a6bc501b952fad567a4228735fdda5f21aba306b7bd1ce3e089",
+    "market_slug": "bitcoin-above-98000-on-december-6",
+    "event_slug": "bitcoin-above-98000-on-december-6",
+    "title": "Bitcoin above $98,000 on December 6?",
+    "category": "Commodities",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.01778e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin had just broken the $100k level in early December 2024, making an intraday move above $98k by the Dec. 6 12:00 UTC close very likely. I do not recall this exact market’s official resolution.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x1f37446953386f655a6032c9a51c9cc552efa4c1b61c456bd40e1353423d7405",
+    "market_slug": "will-bitcoin-hit-100k-by-november-22",
+    "event_slug": "will-bitcoin-hit-100k-by-november-22",
+    "title": "Will Bitcoin hit $100k today?",
+    "category": "Commodities",
+    "close_time": "2024-11-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9.84639e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Bitcoin did not break $100k on Nov 22; the first widely reported move above $100k came in early December 2024. Therefore this market would have resolved No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin was widely reported as first crossing the $100,000 milestone in early December 2024, after this market's Nov. 22 close.",
+          "On Nov. 22, 2024, Bitcoin was trading in the high $90,000s with reports that it was nearing but had not yet breached $100,000."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8019c363268cbe8864c032b133631c5fd2e0bf437135cdbff7c97903532a154",
+    "market_slug": "bitcoin-above-100000-on-december-13",
+    "event_slug": "bitcoin-above-100000-on-december-13",
+    "title": "Bitcoin above $100,000 on December 13?",
+    "category": "Commodities",
+    "close_time": "2024-12-13T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "7.2117e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin had already first broken $100,000 in early December 2024 and was trading around or above that level again by Dec. 13. I do not specifically remember this exact market’s resolution record, but the underlying condition was very likely met.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x97587c58a3407fcc9a8df6396aaa8b66eff8b0c799fdf81880f258755b7d529c",
+    "market_slug": "will-bitcoin-hit-100k-again-in-2024-dec-23",
+    "event_slug": "will-bitcoin-hit-100k-again-in-2024-dec-23",
+    "title": "Will Bitcoin hit $100k again in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.22594e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin traded above $100,000 in December 2024, including a later all-time high above $108,000 before year-end, so the condition was met before the close time.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin first crossed the $100,000 level on or around 2024-12-05 after the U.S. election rally.",
+          "Bitcoin reached a 2024 all-time high above $108,000 around 2024-12-17, before the 2024-12-31 close time."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x393f8148b0b67bcf945fdd07988c771aacb363d589d9a1be7fd58f5261ce2f8a",
+    "market_slug": "will-ethereum-reach-3750-in-november",
+    "event_slug": "what-price-will-ethereum-hit-in-november",
+    "title": "Will Ethereum reach $3,750 in November?",
+    "category": "Commodities",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.19833e+06",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x2c2dc19efecfd9943c54e116f3a07f57026d3f38ad7c6e0019c628baceb5bc14",
+    "market_slug": "will-usdc-flip-usdt-in-market-cap-in-2024",
+    "event_slug": "will-usdc-flip-usdt-in-market-cap-in-2024",
+    "title": "Will USDC flip USDT in market cap in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.19478e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "USDT maintained a much larger market capitalization than USDC throughout 2024, so the flip condition was not met before the close.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "USDT's market cap was above roughly $90 billion at the start of 2024 and rose to over $130 billion by late December 2024.",
+          "USDC's market cap remained far lower, roughly in the $20-40 billion range during 2024, and never exceeded USDT."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x979978268fd6693e4c7856ac93f1d6d6f23f8747109f6586160aa0022f85d480",
+    "market_slug": "bitcoin-above-97000-on-december-27",
+    "event_slug": "bitcoin-above-97000-on-december-27",
+    "title": "Bitcoin above $97,000 on December 27?",
+    "category": "Commodities",
+    "close_time": "2024-12-27T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5.8242e+06",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xba54f4ceb28ea56c4fd03f520a365923739bb7addd7b89c2f2dab638d359415f",
+    "market_slug": "bitcoin-above-100000-on-november-29",
+    "event_slug": "bitcoin-above-100000-on-november-29",
+    "title": "Bitcoin above $100,000 on November 29?",
+    "category": "Commodities",
+    "close_time": "2024-11-29T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4.524e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin had not yet broken $100,000 by the Nov. 29, 2024 close; the widely reported first move above $100,000 occurred in early December 2024. Thus this market should resolve No.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's first widely reported break above $100,000 occurred on December 5, 2024 UTC, after this market's November 29 close.",
+          "On November 29, 2024, BTC traded below $100,000, roughly in the mid-to-high $90,000s rather than clearing the threshold."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3d68c893b43c24d3d4e5f0b8f64204d94a37745589a41544555a74412936153c",
+    "market_slug": "bitcoin-above-90000-on-november-22",
+    "event_slug": "bitcoin-above-90000-on-november-22",
+    "title": "Bitcoin above $90,000 on November 22?",
+    "category": "Commodities",
+    "close_time": "2024-11-22T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3.62082e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin had already traded well above $90,000 before the November 22 close, following the post-election rally. By Nov. 22 it was near the high-$90,000s, so this market would resolve Yes.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin first moved above the $90,000 level in mid-November 2024 during the post-U.S.-election rally.",
+          "On November 21-22, 2024, Bitcoin was trading around the $98,000-$99,000 range, still below $100,000 but clearly above $90,000."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb68dc440ece98763d1c3b47fea240e619d36224583ccaefd3b292b04ddd3c574",
+    "market_slug": "ethereum-above-3500-on-december-6",
+    "event_slug": "ethereum-above-3500-on-december-6",
+    "title": "Ethereum above $3,500 on December 6?",
+    "category": "Commodities",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3.34335e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not specifically recall this market’s resolution, but ETH was in a strong late-2024 rally and was very likely trading above $3,500 by early December. Reasoning-only estimate favors Yes heavily.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xed457bd0671658f36c2346877e29d0831e7c8ed3b2a7a1991b4e1c9fd26b8e30",
+    "market_slug": "ethereum-above-3900-on-december-20",
+    "event_slug": "ethereum-above-3900-on-december-20",
+    "title": "Ethereum above $3,900 on December 20?",
+    "category": "Commodities",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.09423e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market. Based on broad market context, ETH was under pressure around Dec. 20, 2024, so a move above $3,900 before the close seems unlikely.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4944b688ffb46214f596fea3b6f8ad5a3a754dcc0605c190af15b51f52c80c1c",
+    "market_slug": "ethereum-above-4000-on-december-13",
+    "event_slug": "ethereum-above-4000-on-december-13",
+    "title": "Ethereum above $4,000 on December 13?",
+    "category": "Commodities",
+    "close_time": "2024-12-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.01744e+06",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x7897ecef7c50a9ac6e3a5a97c677defd11d6642a9c68fdb733c2df31db4888f2",
+    "market_slug": "ethereum-above-2600-on-november-1",
+    "event_slug": "ethereum-above-2600-on-november-1",
+    "title": "Ethereum above $2,600 on November 1?",
+    "category": "Commodities",
+    "close_time": "2024-11-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.40492e+06",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x94ce768de3b55e3411015b90737a7daf54f8e3614b929b380bead622195e5ec7",
+    "market_slug": "ethereum-above-3400-on-december-27",
+    "event_slug": "ethereum-above-3400-on-december-27",
+    "title": "Ethereum above $3,400 on December 27?",
+    "category": "Commodities",
+    "close_time": "2024-12-27T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.29317e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not specifically remember this market's resolution. Based on general crypto conditions around late 2024, ETH was plausibly near the $3,400 threshold, so I assign a moderately uncertain split with slight lean to No.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xeae90bc0d5d1ed9925b67905c1ab536c4ed2885ae7c5ae8807923fb71e24988e",
+    "market_slug": "will-eth-hit-2k-or-4k-first",
+    "event_slug": "will-eth-hit-2k-or-4k-first",
+    "title": "Will $ETH hit $2000 or $4000 first?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "$4000",
+    "volume": "2.22188e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recognize the exact market, but ETH traded near/above $4,000 during 2024 before any major move to $2,000, making the likely resolution No if Yes means $2,000 first.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xdf5f68bff175d44e9f7d963c6368f6b002099884dbcf72ede996f129762971c4",
+    "market_slug": "ethereum-above-3000-on-november-15",
+    "event_slug": "ethereum-above-3000-on-november-15",
+    "title": "Ethereum above $3,000 on November 15?",
+    "category": "Commodities",
+    "close_time": "2024-11-15T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.18501e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market. Based on broad historical context, ETH was likely trading above $3,000 during the mid-November 2024 crypto rally, so Yes is favored.",
+      "probabilities": {
+        "Yes": 0.88,
+        "No": 0.12
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xe0c4d08a70f2e364321e32ab52556774555f4592f6a1527de14ea4d7fb1ca7aa",
+    "market_slug": "ethbtc-above-0pt04-on-halloween",
+    "event_slug": "ethbtc-above-0pt04-on-halloween",
+    "title": "ETHBTC above 0.04 on Halloween?",
+    "category": "Commodities",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.13783e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Based on broad crypto market context, ETHBTC was weak in late 2024 and was likely below the 0.04 threshold by Halloween.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xb4d85cc6cc02c6aa54482ff5b95d3f0761606561de8784e65d1d7d70ab9bd6b9",
+    "market_slug": "will-ethereum-hit-5000pt00-in-december",
+    "event_slug": "what-price-will-ethereum-hit-in-december",
+    "title": "Will Ethereum hit $5,000.00 in December?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.05903e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum never reached $5,000 during December 2024; its December rally topped out well below that level. Therefore the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's December 2024 high was around the low-$4,000s, not $5,000.",
+          "ETH's prior all-time high before then was still below $5,000, around $4,800-$4,900 in November 2021."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x11427bf56777860c37ff84af81f6eefd0d3692e6446539ac9518816b98026458",
+    "market_slug": "ethereum-above-3300-on-november-29",
+    "event_slug": "ethereum-above-3300-on-november-29",
+    "title": "Ethereum above $3,300 on November 29?",
+    "category": "Commodities",
+    "close_time": "2024-11-29T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.94767e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market's resolution. Based on late-November 2024 crypto market conditions, Ethereum being above $3,300 by the stated time seems very likely.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xf1b9fbb1ed110000ba1b21d41b9184abb7d86536469a9a139ed5e78ad8fe090b",
+    "market_slug": "bitcoin-above-76000-on-november-15",
+    "event_slug": "bitcoin-above-76000-on-november-15",
+    "title": "Bitcoin above $76,000 on November 15?",
+    "category": "Commodities",
+    "close_time": "2024-11-15T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.9126e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution from memory. Based on general Bitcoin volatility and the fact that a $76,000 threshold was plausible around late 2024, I assign a moderately high chance to Yes.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x0a5d5dc69c01a60ee57bc51d64c85ab2136d66cf1c8b335e33813d0cf6f42d15",
+    "market_slug": "bitcoin-above-70000-on-november-8",
+    "event_slug": "bitcoin-above-70000-on-november-8",
+    "title": "Bitcoin above $70,000 on November 8?",
+    "category": "Commodities",
+    "close_time": "2024-11-08T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.53602e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Based on Bitcoin’s volatility and the plausible post-election risk-on environment in early November 2024, I assign a high chance it traded above $70,000 before the close time.",
+      "probabilities": {
+        "Yes": 0.88,
+        "No": 0.12
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x645cbc764b4ea3d40450f6674afaec8fd9877626923339e16ed3f53b12c1826d",
+    "market_slug": "bitcoin-above-68000-on-november-1",
+    "event_slug": "bitcoin-above-68000-on-november-1",
+    "title": "Bitcoin above $68,000 on November 1?",
+    "category": "Commodities",
+    "close_time": "2024-11-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.4622e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize the exact market resolution, but Bitcoin was broadly trading near or above the high-$60k range around late Oct/early Nov 2024. Given the low threshold relative to that context, Yes is more likely.",
+      "probabilities": {
+        "Yes": 0.88,
+        "No": 0.12
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x0ebf9290c87facccf4b0d646b175e66cdeddd3d6fc887aee32b88a04e34ce939",
+    "market_slug": "tether-insolvent-in-2024",
+    "event_slug": "tether-insolvent-in-2024",
+    "title": "Tether Insolvent in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.45891e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall no insolvency event for Tether occurred in 2024; USDT continued operating through year-end. The market should resolve No unless a specific adjudicator used an unusual definition.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Tether/USDT continued operating through the end of 2024 with no bankruptcy, receivership, or official insolvency declaration before 2024-12-31.",
+          "Tether published 2024 attestations and reported substantial reserves/profits rather than an inability to meet liabilities."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc74c7e76a0d354a27c1cf1b562686e7dc985e2df6762c2c9f5e81ee00448b755",
+    "market_slug": "bitcoin-new-all-time-high-in-2024",
+    "event_slug": "bitcoin-new-all-time-high-in-2024",
+    "title": "Bitcoin new all time high in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.4532e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin exceeded its prior 2021 all-time high during 2024 and went on to make substantially higher highs before year-end. Therefore the market condition was met.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin’s previous cycle high was about $69,000 in November 2021, and it was surpassed in March 2024.",
+          "Bitcoin traded above $73,000 in mid-March 2024 and later rose above $100,000 in December 2024, before the listed close time."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x48e0352bf6b0b6fd8714c007231908a8d1b4e8b01635f3dc84afb0945722166c",
+    "market_slug": "bitcoin-above-62000-on-october-18",
+    "event_slug": "bitcoin-above-62000-on-october-18",
+    "title": "Bitcoin above $62,000 on October 18?",
+    "category": "Commodities",
+    "close_time": "2024-10-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.39381e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin was trading well above the $62,000 threshold during the UTC morning of October 18, 2024, so the condition would have been met before the 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On October 18, 2024, BTC/USD was in the high-$60,000 range, well above $62,000.",
+          "The threshold was already exceeded before the 12:00 UTC close time, not merely later in the day."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5887d15377196406e76883c003cf1761fa79e517a718520e58f80a6d69116968",
+    "market_slug": "will-ethereum-reach-3000-in-october",
+    "event_slug": "what-price-will-ethereum-hit-in-october",
+    "title": "Will Ethereum reach $3,000 in October? ",
+    "category": "Commodities",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.38286e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Ethereum remained below the $3,000 threshold throughout October 2024, with the move above $3,000 occurring only in November. Thus the market should have resolved No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum traded in the mid-$2,000s through late October 2024 rather than reaching $3,000.",
+          "ETH rose above $3,000 only after the early-November 2024 crypto rally following the U.S. election."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3bd94dc73b1306155f3f0926282ba1cba39e1dc5faf06d2e89c8d2ff3372c759",
+    "market_slug": "bitcoin-above-62000-on-october-11",
+    "event_slug": "bitcoin-above-62000-on-october-11",
+    "title": "Bitcoin above $62,000 on October 11?",
+    "category": "Commodities",
+    "close_time": "2024-10-11T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.32039e+06",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x0dafed816143b50f6c86fa4de3839be8547f80f957c08b82c65ec1e0a2eb12c4",
+    "market_slug": "will-btc-reach-70k-before-october",
+    "event_slug": "what-price-will-btc-reach-before-october",
+    "title": "Will $BTC reach 70k before October?",
+    "category": "Commodities",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.29656e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market. Reasoning from BTC price history around September 2024, BTC rallied but appears to have stayed below $70k before the September 30 close.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xd43821073a5a03b525e5c044415694affe1386edfbb740be1a81c2678c8f5382",
+    "market_slug": "bitcoin-all-time-high-by-mar-31",
+    "event_slug": "bitcoin-all-time-high-by-mar-31",
+    "title": "Bitcoin all time high by Mar 31?",
+    "category": "Commodities",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.27945e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin set a new all-time high in March 2024, before the Mar 31 close time. It surpassed the prior 2021 peak and later traded above $73,000 mid-month.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin first exceeded its prior November 2021 all-time high of roughly $69,000 in early March 2024.",
+          "BTC reached a new record around $73,000–$73,800 on March 14, 2024, before the 2024-03-31 00:00 UTC close."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x937f83a60268bb7b8ab5b80eae642c028d4d3e47b23b75d70eb6a2377ad40d10",
+    "market_slug": "bitcoin-above-60000-on-august-30",
+    "event_slug": "bitcoin-above-60000-on-august-30",
+    "title": "Bitcoin above $60,000 on August 30?",
+    "category": "Commodities",
+    "close_time": "2024-08-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.15713e+06",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xc0109105d687198f2754046ce044cd50f2fd37baad2414e482d0650f2819d2d3",
+    "market_slug": "ethereum-etf-begins-trading-by-july-26",
+    "event_slug": "ethereum-etf-begins-trading-by-july-26",
+    "title": "Ethereum ETF begins trading by July 26?",
+    "category": "Commodities",
+    "close_time": "2024-07-26T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.06387e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "U.S. spot Ethereum ETFs began trading before the July 26 deadline, following SEC effectiveness of registration statements. This satisfies the market condition.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "U.S. spot Ether ETFs began trading on July 23, 2024, on exchanges including Nasdaq, NYSE Arca, and Cboe.",
+          "Launch products included BlackRock's iShares Ethereum Trust ETF (ETHA), Fidelity Ethereum Fund (FETH), and Grayscale Ethereum Trust (ETHE)."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x52bf959ee07a19fe177c726eb2eb1a637930f429b4c787b80186922c997b6220",
+    "market_slug": "bitcoin-above-69000-on-october-25",
+    "event_slug": "bitcoin-above-69000-on-october-25",
+    "title": "Bitcoin above $69,000 on October 25?",
+    "category": "Commodities",
+    "close_time": "2024-10-25T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "992980",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x89ae2a4213110cae3e902f3fc3f9757d85ab7f870fda92ead79d64dd208228ba",
+    "market_slug": "ethereum-above-3000-on-november-22",
+    "event_slug": "ethereum-above-3000-on-november-22",
+    "title": "Ethereum above $3,000 on November 22?",
+    "category": "Commodities",
+    "close_time": "2024-11-22T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "991674",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market, but Ethereum was in a strong post-election rally in late November 2024 and was very likely already above $3,000 by the stated time.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2073651de484121bddaf813852fef10999f1ed861576d6e82ff4c7f0328d1429",
+    "market_slug": "sec-approves-first-spot-bitcoin-etf-on-jan-10",
+    "event_slug": "when-will-bitcoin-etf-be-approved",
+    "title": "SEC approves first spot Bitcoin ETF on Jan 10?",
+    "category": "Commodities",
+    "close_time": "2024-01-10T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "957595",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"I remember the SEC approved the first U.S. spot Bitcoin ETFs on Jan. 10, 2024. This made the market condition true.\",\"probabilities\":{\"Yes\":0.99,\"No\":0.01},\"recall_assessment\":{\"recognized_event\":true,\"evidence_facts\":[\"On January 10, 2024, the SEC approved rule changes allowing spot Bitcoin ETFs to list in the U.S.\",\"The approvals covered 11 spot Bitcoin ETF applications, including products from BlackRock, Fidelity, ARK/21Shares, Grayscale, and others.\",\"The ETFs"
+    }
+  },
+  {
+    "condition_id": "0x92ab5e178f52b7af61c7976451130558cc157feb016afa3f790e74b614250b6a",
+    "market_slug": "solana-all-time-high-in-q4",
+    "event_slug": "solana-all-time-high-wen",
+    "title": "Solana all time high in Q4?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "950842",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Solana exceeded its prior 2021 all-time high during the late-2024 crypto rally before the market close. Therefore this condition was met in Q4 2024.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Solana's prior all-time high was around $259–260 from November 2021.",
+          "In late November 2024, SOL traded above that level, around the low-to-mid $260s, before the 2024-12-31 close."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9b2915caeecaca867612d3adc7fbf7731a3fb4c73eae8588a65148b8e273fc91",
+    "market_slug": "bitcoin-above-65000-on-october-4",
+    "event_slug": "bitcoin-above-65000-on-october-4",
+    "title": "Bitcoin above $65,000 on October 4?",
+    "category": "Commodities",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "940499",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market, but historical Bitcoin price action around Oct. 4, 2024 was well below the $65,000 threshold after the early-October drop. That makes a No resolution highly likely.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa78b11a120e643cc64880a632c37c45d2833274157b4bce14dd22fd57c437309",
+    "market_slug": "ethereum-above-2600-on-october-25",
+    "event_slug": "ethereum-above-2600-on-october-25",
+    "title": "Ethereum above $2,600 on October 25?",
+    "category": "Commodities",
+    "close_time": "2024-10-25T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "922936",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Based on historical ETH price context around Oct. 25, 2024, ETH was likely trading below $2,600 before the 12:00 UTC close, making No much more likely.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xfd3d6dfe308ec1a0be786030c6583320fbf50f23653a95008651b0ce12ffa007",
+    "market_slug": "bitcoin-above-63000-on-september-27",
+    "event_slug": "bitcoin-above-63000-on-september-27",
+    "title": "Bitcoin above $63,000 on September 27?",
+    "category": "Commodities",
+    "close_time": "2024-09-27T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "906971",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market, but Bitcoin was widely reported trading well above $63,000 in late September 2024 after a mid-September rally. That makes a Yes resolution very likely.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2ab4f6d1e66085d1ee9b36b34684d9909c6d2f4f9998994549fb52aa3c882e02",
+    "market_slug": "ethereum-above-2400-on-september-20",
+    "event_slug": "ethereum-above-2400-on-september-20",
+    "title": "Ethereum above $2,400 on September 20?",
+    "category": "Commodities",
+    "close_time": "2024-09-20T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "902334",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market resolution, but ETH was likely trading above $2,400 around Sept. 20, 2024 after the mid-September crypto rally. Reasoning-only estimate favors Yes strongly.",
+      "probabilities": {
+        "Yes": 0.94,
+        "No": 0.06
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4f5bdf44d041575ed806bbe85c776e374a662ed8c6ec366b8edce5f1f2d0261f",
+    "market_slug": "bitcoin-above-60000-on-september-20",
+    "event_slug": "bitcoin-above-60000-on-september-20",
+    "title": "Bitcoin above $60,000 on September 20?",
+    "category": "Commodities",
+    "close_time": "2024-09-20T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "887934",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x67568e4734d16c8efaeab2c7b2a290166e87ded625616982434453365ff57e4a",
+    "market_slug": "will-btc-hit-50000-by-jan-31",
+    "event_slug": "will-btc-hit-50000-by-jan-31",
+    "title": "Will BTC hit $50,000 by Jan 31?",
+    "category": "Commodities",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "878478",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC’s January 2024 ETF-related spike topped out below $50,000, and the first clear move above $50,000 came in February. Therefore this market resolved No.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin peaked around $49,000 on January 11, 2024 after spot Bitcoin ETF approvals/trading began, but did not reach $50,000 in January.",
+          "BTC first crossed back above $50,000 around February 12, 2024, after the Jan 31 cutoff."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x889560b2d0cb888ce0918e7a588a40c5e75d0830b8c0540cf328c3c7021add04",
+    "market_slug": "bitcoin-above-60000-on-august-16",
+    "event_slug": "bitcoin-above-60000-on-august-16",
+    "title": "Bitcoin above $60,000 on August 16?",
+    "category": "Commodities",
+    "close_time": "2024-08-16T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "840043",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xa21709ccbfd174cb20318876d72d9c98c3526fcf5ba373c19360e18d4fefe960",
+    "market_slug": "ethereum-above-2400-on-october-11",
+    "event_slug": "ethereum-above-2400-on-october-11",
+    "title": "Ethereum above $2,400 on October 11?",
+    "category": "Commodities",
+    "close_time": "2024-10-11T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "781070",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market; reasoning from ETH trading around the low-$2,400s in mid-October 2024 suggests it likely crossed $2,400 before the 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x940e2c2b3957cf856fc0d634c23b796d23ec496cd5962da91b5a4fff23a11249",
+    "market_slug": "will-ethereum-reach-3000-before-september",
+    "event_slug": "will-ethereum-reach-3000-before-september",
+    "title": "Will Ethereum reach $3,000 before September? ",
+    "category": "Commodities",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "779051",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xe5230d0c22100b41817534e7579a507ba6568feb5ce060d25e4a702ad58cc310",
+    "market_slug": "will-bitcoin-reach-65000-before-september",
+    "event_slug": "will-bitcoin-reach-65000-before-september",
+    "title": "Will Bitcoin reach $65,000 before September? ",
+    "category": "Commodities",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "753403",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xf230b0ca36ed8b21af6656ac012ee57b6207bca9897aa75b908411d6d262038b",
+    "market_slug": "bitcoin-above-60000-on-september-6",
+    "event_slug": "bitcoin-above-60000-on-september-6",
+    "title": "Bitcoin above $60,000 on September 6?",
+    "category": "Commodities",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "693334",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Given Bitcoin was often volatile around the $60k level in 2024, but the threshold is high for a specific short window, I lean No.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x7c094de46b97ab5ea9200352ba451002e651ad6d85da24765f66b303bbc21d8f",
+    "market_slug": "will-ethereum-reach-3000-before-october",
+    "event_slug": "will-ethereum-reach-3000-before-october",
+    "title": "Will Ethereum reach $3,000 before October?",
+    "category": "Commodities",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "660104",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market or its official resolution. Reasoning from ETH’s late-September 2024 price action, it appears unlikely Ethereum reached $3,000 before the September 30 close.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x08a5663d450331222bc832c59646bff249671319340cbde738c13f71b9e51c21",
+    "market_slug": "ethena-usde-flips-usdc-market-cap-in-2024",
+    "event_slug": "ethena-usde-flips-usdc-market-cap-in-2024",
+    "title": "Ethena USDe flips USDC market cap in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "659294",
+    "status": "ok",
+    "forecast": {
+      "rationale": "USDe grew rapidly in 2024 but remained far smaller than USDC, which stayed in the tens of billions of dollars. I recall no point in 2024 when USDe’s market cap exceeded USDC’s.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethena USDe’s supply/market cap was only in the single-digit billions of dollars near the end of 2024, roughly around $5–6B.",
+          "USDC’s market cap remained much larger throughout 2024, in the tens of billions of dollars, around the $35B–$45B range late in the year."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x47d5dd0aadc5fd653a1dc48e875236457a671a1e9662995a1b1b37c4a8eadc8b",
+    "market_slug": "bitcoin-above-60000-on-august-23",
+    "event_slug": "bitcoin-above-60000-on-august-23",
+    "title": "Bitcoin above $60,000 on August 23?",
+    "category": "Commodities",
+    "close_time": "2024-08-23T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "644186",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin was already trading around or just above $60,000 early on August 23, 2024, and later rallied strongly that day. The threshold was therefore very likely met before the 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BTC traded above $60,000 during the UTC day on August 23, 2024, with daily prices later moving into the mid-$60,000 range.",
+          "The August 23, 2024 move coincided with a broader crypto rally after Jerome Powell's Jackson Hole remarks."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdd6b0aaf42c443e0d741205e847b614b49b52792738e1fc4ceafba5e872757a5",
+    "market_slug": "btc-dips-below-45k-before-september",
+    "event_slug": "what-price-will-btc-dip-below-before-september",
+    "title": "$BTC dips below $45k before September?",
+    "category": "Commodities",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "602664",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Bitcoin’s August 2024 selloff did not reach the $45k threshold; the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "During the Aug. 5, 2024 crypto selloff, BTC fell to roughly $49k, its August low, but did not trade below $45k.",
+          "By Aug. 31, 2024, BTC was still in the high-$50k range, above the threshold before September."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5caad4415ba1bbc2daa654c69f2d995460ca1f3e6882baca99a85ffe2d0fbde4",
+    "market_slug": "ethereum-above-2500-on-august-30",
+    "event_slug": "ethereum-above-2500-on-august-30",
+    "title": "Ethereum above $2,500 on August 30?",
+    "category": "Commodities",
+    "close_time": "2024-08-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "555916",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"I do not recall this exact market resolution"
+    }
+  },
+  {
+    "condition_id": "0xedf880bd4b22721559f15887da04952fe2673cd2f68ae8d21e9d3ba32e2c5fe2",
+    "market_slug": "ethereum-above-2400-on-september-13",
+    "event_slug": "ethereum-above-2400-on-september-13",
+    "title": "Ethereum above $2,400 on September 13?",
+    "category": "Commodities",
+    "close_time": "2024-09-13T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "538556",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution from memory. Based on broad historical context, ETH was near the $2,400 level in mid-September 2024, so the threshold appears close but slightly more likely to have been crossed than not.",
+      "probabilities": {
+        "Yes": 0.62,
+        "No": 0.38
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x251307a78c59ba919f264a3831fb8d3b5041ba931af26049f485bf28c9404b1a",
+    "market_slug": "bitcoin-above-60000-on-october-1",
+    "event_slug": "bitcoin-above-60000-on-october-1",
+    "title": "Bitcoin above $60,000 on October 1?",
+    "category": "Commodities",
+    "close_time": "2024-10-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "527233",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin was already trading well above $60,000 during the relevant October 1 UTC window, so the condition was met before the 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.995,
+        "No": 0.005
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin traded around the low-$63,000 range near the start of October 1, 2024 UTC.",
+          "Historical spot data for October 1, 2024 shows BTC remained around or above $60,000 during the morning UTC window before 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x71fac8584a9cc732879c9bd0af6efe872bbdd90a4f00918cb96bba6dd39921ef",
+    "market_slug": "will-ether-rock-sell-for-over-600k-at-sothebys",
+    "event_slug": "will-ether-rock-sell-for-over-600k-at-sothebys",
+    "title": "Will Ether Rock sell for over $600k at Sotheby’s?",
+    "category": "Commodities",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "490789",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall the exact Sotheby's result. Given a high-profile EtherRock auction likely had an estimate around this threshold, but NFT auction results in early 2024 were uncertain, I assign a near-even probability slightly below 50%.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x420de5f0cf618c7b2e2b4ceaf88bb04dfd275450c76a109a5999603607506c67",
+    "market_slug": "bitcoin-above-55000-on-september-13",
+    "event_slug": "bitcoin-above-55000-on-september-13",
+    "title": "Bitcoin above $55,000 on September 13?",
+    "category": "Commodities",
+    "close_time": "2024-09-13T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "466943",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not remember this exact market resolution. Based on general historical price context, Bitcoin was likely trading above $55,000 around mid-September 2024, making Yes highly likely.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xcd6a46ff2a22147d0d252d3d9ccc0d0a1a74d566c7ebb04b7de61027eaa5945c",
+    "market_slug": "will-btc-reach-70k-before-september",
+    "event_slug": "what-price-will-btc-reach-before-september",
+    "title": "Will $BTC reach 70k before September?",
+    "category": "Commodities",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "446467",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC traded above $70,000 in late July 2024, before the August 31 close, so the condition was met. The outcome is therefore effectively certain as Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin briefly traded above $70,000 on July 29, 2024, before September 2024.",
+          "BTC’s 2024 all-time high was set earlier in March above $73,000, and another late-July rally again reached the $70k threshold before the listed close time."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x65d8eda38400e5d519ce2c819e6334d9fc0e4fd746b2ef091c13210549cef567",
+    "market_slug": "ethereum-dips-below-2000-by-sept-30-2024",
+    "event_slug": "ethereum-dips-below-2000-by-sept-30-2024",
+    "title": "Ethereum dips below $2,000 by Sept 30?",
+    "category": "Commodities",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "442748",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recognize the exact market, but ETH's major Aug/Sep 2024 selloffs appear to have bottomed just above $2,000 rather than clearly breaking it before Sept 30 12:00 UTC.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xeb1c2ca936146f5bcba8b72d833f92df62451d19b6aa5882815d12142db9ad18",
+    "market_slug": "btc-dips-below-50k-before-august",
+    "event_slug": "what-price-will-btc-dip-below-before-august",
+    "title": "$BTC dips below $50k before August?",
+    "category": "Commodities",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "420125",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"BTC"
+    }
+  },
+  {
+    "condition_id": "0xb44c7b2cad1910cdce00ee2bf78f089006c0ab90571cd8ad710795113f2e9482",
+    "market_slug": "ethereum-above-2500-on-november-8",
+    "event_slug": "ethereum-above-2500-on-november-8",
+    "title": "Ethereum above $2,500 on November 8?",
+    "category": "Commodities",
+    "close_time": "2024-11-08T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "407645",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum was already trading well above $2,500 by the Nov. 8, 2024 close time after the post-election crypto rally, so this market should resolve Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum rallied sharply after the Nov. 5, 2024 U.S. election, moving from the mid-$2,000s into the high-$2,000s.",
+          "On Nov. 8, 2024, ETH traded around the upper-$2,000 range, comfortably above the $2,500 threshold before 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8df96ce434fb984009a259d596e6bc79544d653ac33fef6406247b81f85f147f",
+    "market_slug": "bitcoin-all-time-high-in-august",
+    "event_slug": "bitcoin-all-time-high-in-august",
+    "title": "Bitcoin all time high in August?",
+    "category": "Commodities",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "397542",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Based on Bitcoin’s prior ATH being around $73.7k and August 2024 trading not clearly setting a new high, I assign No a very high probability.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x53fd5cc9dc37022cb686c7ce721458bf4325261793f5bdeb855c06963265c87d",
+    "market_slug": "bitcoin-above-65000-on-august-9",
+    "event_slug": "bitcoin-above-65000-on-august-9",
+    "title": "Bitcoin above $65,000 on August 9?",
+    "category": "Commodities",
+    "close_time": "2024-08-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "385993",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market or its resolution. Without reliable recalled resolution details, I assign a low probability to Bitcoin exceeding $65,000 by the specified close time based on typical near-term threshold risk.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x40f542d6ee264ac6bd75b1176247aaded129104ef4ff480ae04cdb4cadb2166b",
+    "market_slug": "ethereum-above-2400-on-october-18",
+    "event_slug": "ethereum-above-2400-on-october-18",
+    "title": "Ethereum above $2,400 on October 18?",
+    "category": "Commodities",
+    "close_time": "2024-10-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "385105",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market, but ETH was generally trading above $2,400 around mid-October 2024. That makes a Yes resolution very likely by the stated close time.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x5d421d95ba44db8ae1af2c5c15cc585ac95390f33e5b3d79636963462305e06e",
+    "market_slug": "ethereum-above-2600-on-october-4",
+    "event_slug": "ethereum-above-2600-on-october-4",
+    "title": "Ethereum above $2,600 on October 4?",
+    "category": "Commodities",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "382077",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution, but Ethereum was likely trading below $2,600 around the Oct. 4, 2024 noon UTC window. Best estimate strongly favors No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xe6c1fe63942229dba54453bece07770ed2a671c93b104d9755a27b7f7fe24b63",
+    "market_slug": "ethereum-above-3000-on-august-9",
+    "event_slug": "ethereum-above-3000-on-august-9",
+    "title": "Ethereum above $3,000 on August 9?",
+    "category": "Commodities",
+    "close_time": "2024-08-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "372132",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum was still trading well below $3,000 after the early-August 2024 crypto selloff, so the condition was very unlikely to have been met before the stated close time.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x608053720528910ed418e5298760eb163d1dc99ec949fa8a4b602af4937d5351",
+    "market_slug": "ethbtc-above-0pt035-on-nov-30",
+    "event_slug": "ethbtc-above-0pt035-on-nov-30",
+    "title": "ETHBTC above 0.035 on Nov 30?",
+    "category": "Commodities",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "368315",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution from memory. ETHBTC was well above 0.035 in mid-2024, and while ETH underperformance could push it lower, the threshold was relatively low by recent historical standards.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x1d0d16c9133f39c9717b8b7d7403d1bc7f8c2c20a3a476191933171658879294",
+    "market_slug": "will-ethreum-hit-3800-by-friday",
+    "event_slug": "will-ethreum-hit-3800-by-friday",
+    "title": "Will Ethereum hit $3,800 by Friday?",
+    "category": "Commodities",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "363824",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Based on broad crypto market context around early December 2024, Ethereum was plausibly trading near or above $3,800, so I assign a high chance to Yes.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xff524f366a1d0608bd6a8a2fa7742362e35d91bfd4357b127c2b5faea517e3d0",
+    "market_slug": "bitcoin-up-on-nov-6",
+    "event_slug": "bitcoin-up-on-nov-6",
+    "title": "Bitcoin up on Nov 6? ",
+    "category": "Commodities",
+    "close_time": "2024-11-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "320828",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recall this exact market resolution, but Bitcoin rallied sharply around the U.S. election results on Nov. 6, 2024, making an “up” condition before 12:00 UTC likely.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xdf14a51a92f0bc147e714fdd8a4e1bbc2eea8ebabe437b2c89c03a63d648120b",
+    "market_slug": "ethereum-above-2500-on-august-16",
+    "event_slug": "ethereum-above-2500-on-august-16",
+    "title": "Ethereum above $2,500 on August 16?",
+    "category": "Commodities",
+    "close_time": "2024-08-16T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "318010",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not specifically remember this market’s resolution. Based on general ETH price behavior around mid-August 2024 after the early-August selloff, Ethereum was likely trading above $2,500 before the UTC close.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x92d616b72105f7ff98176c414991ede09dfc3f05046812d75cb14b11290007ec",
+    "market_slug": "ethena-crash-in-2024",
+    "event_slug": "ethena-exploit-depeg-in-2024",
+    "title": "Ethena crash in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "314751",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market or its resolution. Based on general 2024 knowledge, Ethena/USDe did not appear to suffer a major widely reported crash before year-end, so No is more likely.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x9274d0f6eb9d4fbe85e0728c0b1eba686451b8aa2c8b2b4ba64517981bdf608a",
+    "market_slug": "ethereum-above-2500-on-august-23",
+    "event_slug": "ethereum-above-2500-on-august-23",
+    "title": "Ethereum above $2,500 on August 23?",
+    "category": "Commodities",
+    "close_time": "2024-08-23T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "281302",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not specifically recall this exact market, but Ethereum was broadly trading above the $2,500 threshold around that date, making a Yes resolution very likely before the noon UTC close.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x9e5fa7b9e370eef01006b068f47a1cfecd197470c4eaa3bc3a25ce4ea5786795",
+    "market_slug": "will-bitcoin-dip-below-100k-by-sunday-1",
+    "event_slug": "will-bitcoin-dip-below-100k-by-sunday-1",
+    "title": "Will Bitcoin dip below $100k by Sunday?",
+    "category": "Commodities",
+    "close_time": "2024-12-08T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "277349",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Bitcoin’s early-December 2024 breakout above $100k was followed by a sharp pullback below that level before Dec. 8, so this market would have resolved Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin first traded above $100,000 around Dec. 5, 2024, reaching roughly $103k-$104k.",
+          "Shortly afterward, before Dec. 8 12:00 UTC, BTC fell back below $100,000, with reported lows in the low-$90,000s during the pullback."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbc7669a91c6bcff77f64bbb28828827c1100b1fb83c60bf7622e1f1811884b73",
+    "market_slug": "ethereum-above-2500-on-september-27",
+    "event_slug": "ethereum-above-2500-on-september-27",
+    "title": "Ethereum above $2,500 on September 27?",
+    "category": "Commodities",
+    "close_time": "2024-09-27T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "268158",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum was trading well above $2,500 during the morning of 2024-09-27 UTC, so the threshold had been met before the listed close time. Therefore the resolved outcome would be Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On 2024-09-27, ETH traded in roughly the mid-$2,600s, above the $2,500 threshold.",
+          "The day’s ETH price range was around $2.6k to $2.7k, so it was above $2,500 before 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9680e41769b76d79cddffb9ace729d5141d8b5d94b5277461595031de5da3534",
+    "market_slug": "will-btc-hit-80000-in-march",
+    "event_slug": "what-price-will-btc-reach-in-march",
+    "title": "Will BTC hit $80,000 in March?",
+    "category": "Commodities",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "261880",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin reached new all-time highs in March 2024 but stayed well below $80,000 before the March 31 UTC close. The condition was not met.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's March 2024 peak was around $73,700-$73,800, reached on March 14, 2024.",
+          "BTC did not trade at or above $80,000 before 2024-03-31T00:00:00Z."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8a633818acd15b88abaa7c9bda706362d3c86fc1fe8d0dc887d1f1796e83ffe",
+    "market_slug": "ethereum-above-3300-on-august-2",
+    "event_slug": "ethereum-above-3300-on-august-2",
+    "title": "Ethereum above $3,300 on August 2?",
+    "category": "Commodities",
+    "close_time": "2024-08-02T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "239670",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Based on historical ETH price context around Aug. 2, 2024, ETH was trading below $3,300 during the selloff, so No is overwhelmingly likely.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x587422e8027e6a7a42c4217488cff038f9fe4e22e762b1687829c726b8743a3f",
+    "market_slug": "ethereum-all-time-high-in-may-2024",
+    "event_slug": "ethereum-all-time-high-in-may-2024",
+    "title": "Ethereum all time high in May?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "215441",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum did not exceed its prior all-time high during May 2024; the ETF-driven rally stayed below the 2021 peak. Therefore the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's widely cited all-time high was about $4,878 on November 10, 2021.",
+          "In May 2024, ETH rallied after U.S. spot Ether ETF approvals but peaked below $4,000, well short of the ATH."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdd1fb971b120165f9ea32262afbed8653a5d3094d4d7019db638ebd76ff2d13b",
+    "market_slug": "ethereum-above-2500-on-september-6",
+    "event_slug": "ethereum-above-2500-on-september-6",
+    "title": "Ethereum above $2,500 on September 6?",
+    "category": "Commodities",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "215321",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"I do not recall this exact market resolution. Based on Ethereum trading weakly around early September 2024 and likely below $"
+    }
+  },
+  {
+    "condition_id": "0x1f6ba48a40695eefb6bf4cc486d0008f26de3417300d5185430264de9f6f4fc5",
+    "market_slug": "bitcoin-dip-below-100k-by-sunday",
+    "event_slug": "bitcoin-dip-below-100k-by-sunday",
+    "title": "Will Bitcoin dip below $100k by Sunday?",
+    "category": "Commodities",
+    "close_time": "2024-12-08T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "207793",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin traded below $100k before the Dec. 8, 2024 close, after initially breaking above the milestone. The condition was therefore met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin first crossed the $100,000 level in early December 2024, around Dec. 5.",
+          "After that breakout, BTC quickly fell back below $100,000, with reported lows in the low-to-mid $90,000s before Dec. 8, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xecd13536894bda19ca4e2a3ad594b9ed9ef9749da41072d8d6548ab08510eccb",
+    "market_slug": "ethereum-all-time-high-in-august",
+    "event_slug": "ethereum-all-time-high-in-august",
+    "title": "Ethereum all time high in August?",
+    "category": "Commodities",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "190485",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum did not approach its November 2021 all-time high during August 2024; prices were far below the roughly $4.8k ATH level. The market would therefore resolve No.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's widely cited USD all-time high remained about $4,878, set in November 2021.",
+          "During August 2024, ETH traded roughly in the low-$2,000s to low-$3,000s and did not set a new all-time high before 2024-08-31 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0ad01a122038561605ed02523ff26c98d26f301164298be3a1835724f8d49326",
+    "market_slug": "ethereum-etf-approved-in-2024",
+    "event_slug": "ethereum-etf-approved-in-2024",
+    "title": "Ethereum ETF approved in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "189736",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember the SEC approved spot Ether ETF rule changes in May 2024, with trading after registration statements became effective in July. That satisfies approval before Dec. 31, 2024.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On May 23, 2024, the SEC approved 19b-4 rule changes for spot Ethereum ETFs from issuers including BlackRock, Fidelity, Grayscale, VanEck, and others.",
+          "Spot Ether ETFs began trading in the U.S. on July 23, 2024, after registration statements became effective."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4efdb81e428d96e49be77586888f81748420ca8b7e426ccdc4c328494be2687d",
+    "market_slug": "will-bitcoin-reach-75000-in-april",
+    "event_slug": "what-price-will-btc-reach-in-april",
+    "title": "Will Bitcoin reach $75,000 in April?",
+    "category": "Commodities",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "168686",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin's April 2024 price action stayed below the $75,000 threshold; its prior March all-time high was also under $75,000. Therefore the condition was not met before the listed close time.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's March 2024 all-time high was about $73,700-$73,800, below $75,000.",
+          "During April 2024, including around the April 19-20 halving and the April 30 close, BTC traded below $75,000 and was roughly in the low-$60,000s near month-end."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x59fb15748bb682ac730bfd6f672aa1cb6b1068c0666a094cf7635f2b43cf89a4",
+    "market_slug": "will-sol-flip-xrp-again-in-2024",
+    "event_slug": "will-sol-flip-xrp-again-in-2024",
+    "title": "Will SOL flip XRP again in 2024?",
+    "category": "Commodities",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "155531",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x2ba4852fa925a419142e5e2a8fe0aab3e36ee6460dac6064e4f10cd42d530eb6",
+    "market_slug": "will-eth-hit-3000-in-january",
+    "event_slug": "will-eth-hit-3000-in-january",
+    "title": "Will ETH hit $3,000 in January?",
+    "category": "Commodities",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "129230",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH never reached $3,000 before the January 31, 2024 close; its January rally topped out well below that level. The condition therefore resolved No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ETH traded in the low-to-mid $2,000s during January 2024 and did not reach $3,000 before 2024-01-31 00:00 UTC.",
+          "ETH first moved above the $3,000 level later in February 2024, not in January."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x06e38641b524be1ed25563e2481ae310983b192973f3c7e37f7e06153d39935d",
+    "market_slug": "solana-flips-eth-in-daily-fees-in-may",
+    "event_slug": "solana-flips-eth-in-daily-fees-in-may",
+    "title": "Solana flips ETH in daily fees in May?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "120473",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Historically, Ethereum mainnet daily fees were still generally above Solana’s during May 2024, though Solana had occasional fee spikes, so I lean No.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xd6cdf10cd955e50a14f03844f47629a2f37cb1bd2de0837cc81203265de7b71a",
+    "market_slug": "will-bitcoin-dip-below-55k-before-june",
+    "event_slug": "what-price-will-btc-dip-below-before-june",
+    "title": "Will Bitcoin dip below $55k before June?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "119283",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Bitcoin’s May 2024 selloff bottomed above $55k, with prices recovering later in the month. Therefore the condition was not met before the May 31 close.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin fell sharply around May 1, 2024, but the commonly reported low was roughly in the $56k–$57k range, not below $55k.",
+          "By late May 2024, Bitcoin had rebounded and was trading around the high-$60k area near the May 31 close."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7456d33d672a55a9d2ee738fc05b7936b45035f03320416b59035fe094f82f4f",
+    "market_slug": "will-bitcoin-dip-below-100k-by-tommorow",
+    "event_slug": "will-bitcoin-dip-below-100k-by-tommorow",
+    "title": "Will Bitcoin dip below $100k by tomorrow?",
+    "category": "Commodities",
+    "close_time": "2024-12-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "117754",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market or its resolution. Given Bitcoin’s high volatility and the psychologically important $100k level, a short-term dip below it before the deadline would have been plausible if spot price was nearby.",
+      "probabilities": {
+        "Yes": 0.58,
+        "No": 0.42
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xe6061d81b3109ad9a250ca9abf0d5b15c382a2a809e1f78ead7cb858ca6bdf5c",
+    "market_slug": "solana-flips-eth-in-daily-fees-in-june",
+    "event_slug": "solana-flips-eth-in-daily-fees-in-june",
+    "title": "Solana flips ETH in daily fees in June?",
+    "category": "Commodities",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "114493",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x88d1f0bcae5608371e66908020e2e6824fc44384d56f3a1eae023a81011ca414",
+    "market_slug": "eth-above-3000-on-march-1",
+    "event_slug": "eth-above-3000-on-march-1",
+    "title": "ETH above $3,000 on March 1?",
+    "category": "Commodities",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "109674",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH had already crossed $3,000 in late February 2024 and was trading well above that level by 2024-03-01 00:00 UTC, so the condition was met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ETH moved back above $3,000 around February 20, 2024 during the crypto rally.",
+          "Around 2024-03-01 00:00 UTC, ETH spot prices were roughly in the low-to-mid $3,000s, above the $3,000 threshold."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x65d59390537ae1cb117976afdd1d658ef0043b6c5b7d5aa7ba1266c63f5e390a",
+    "market_slug": "ethereum-above-3500-on-july-26",
+    "event_slug": "ethereum-above-3500-on-july-26",
+    "title": "Ethereum above $3,500 on July 26?",
+    "category": "Commodities",
+    "close_time": "2024-07-26T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "109424",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution, but ETH was broadly trading below $3,500 around the July 2024 ETF-launch selloff period. Best estimate is that it did not exceed the threshold before the stated close time.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xe2108ed0eef6070f4dc5a2e600bec564f431c488f4b2b1161a3ee0d2f24376e0",
+    "market_slug": "will-bitcoin-reach-75000-in-june",
+    "event_slug": "what-price-will-btc-reach-in-june",
+    "title": "Will Bitcoin reach $75,000 in June?",
+    "category": "Commodities",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "109252",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin did not trade at or above $75,000 during June 2024; its pre-November 2024 high remained below that threshold. Therefore the market condition was not met before the June 30 close.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's March 2024 all-time high was around $73.7k and was not surpassed until November 2024.",
+          "During June 2024, Bitcoin peaked in the low $70k range early in the month and later fell toward the low $60k range by late June."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe3f024903e9547df7f16242b00cef6a9b0c5507b2f129cced11199d304dfd6d2",
+    "market_slug": "ethereum-all-time-high-in-june",
+    "event_slug": "ethereum-all-time-high-in-june",
+    "title": "Ethereum all time high in June?",
+    "category": "Commodities",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "106618",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum did not approach its November 2021 all-time high during June 2024; it traded materially below that level throughout the month. Thus the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's widely cited all-time high was about $4,878-$4,891 in November 2021, not in June 2024.",
+          "During June 2024 ETH traded roughly in the mid-$3,000s to high-$3,000s and did not break the 2021 high before 2024-06-30 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x202d578307ff3dd831deb82781ffb80c526e5274d533c17dbaaf0f7b44becbb8",
+    "market_slug": "bitcoin-above-68000-on-may-31",
+    "event_slug": "bitcoin-above-68000-on-may-31",
+    "title": "Bitcoin above $68,000 on May 31?",
+    "category": "Commodities",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "101896",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution, but Bitcoin was trading around the high-$67k to $68k range entering May 31, 2024. Given intraday volatility and proximity to the threshold, a brief move above $68,000 before 12:00 UTC seems likely.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x96af428ca8b21e7b3dc7fef4326127fb1d61ee0ca74c504ab639de105358d321",
+    "market_slug": "will-eth-hit-1800-or-2200-first",
+    "event_slug": "will-eth-hit-1800-or-2200-first",
+    "title": "Will $ETH hit $1,800 or $2,200 first?",
+    "category": "Commodities",
+    "close_time": "2024-07-01T00:00:00Z",
+    "actual_resolution": "$2200",
+    "volume": "100450",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"I do not recognize the exact market, but ETH traded well above $2,200 before the July 2024 close, making the condition very likely to have been met. The No case would mainly require an interpretation mismatch or data-source edge case.\",\"probabilities\":{\"Yes\":0.99,\"No"
+    }
+  },
+  {
+    "condition_id": "0x24a84336ed66d2ba73321fc89def4ef29db3541d492179d40da1e90fe18bd968",
+    "market_slug": "ethereum-above-3500-on-june-28",
+    "event_slug": "ethereum-above-3500-on-june-28",
+    "title": "Ethereum above $3,500 on June 28?",
+    "category": "Commodities",
+    "close_time": "2024-06-28T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "99463.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Based on ETH trading around the mid-$3,400s in late June 2024, a move above $3,500 before 12:00 UTC looked unlikely but not impossible.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4a1f2d9b45b220c20d8ef3bf53883fd809391d8d75232fb8b7d59e8f35f40d30",
+    "market_slug": "bitcoin-all-time-high-in-june",
+    "event_slug": "bitcoin-all-time-high-in-june",
+    "title": "Bitcoin all time high in June?",
+    "category": "Commodities",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "97627.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin did not make a new all-time high during June 2024; its prior peak from March 2024 remained intact through the close time.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's then-record high was set in mid-March 2024, around $73,700-$73,800.",
+          "During June 2024, Bitcoin traded below that level, peaking near the low $70,000s early in the month and ending June around the low $60,000s."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb66e97bfd3326ac2e9112299cc7e63a0433cfb74d4cd4e540f9c24d20d324938",
+    "market_slug": "ethereum-above-3100-on-july-19",
+    "event_slug": "ethereum-above-3100-on-july-19",
+    "title": "Ethereum above $3,100 on July 19?",
+    "category": "Commodities",
+    "close_time": "2024-07-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "96740.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum was trading comfortably above $3,100 around the July 19, 2024 close window, with prices in the mid-$3,000s during the spot-ETF launch anticipation period. Thus the condition would have been met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On July 19, 2024, ETH was trading around the mid-$3,400s, well above the $3,100 threshold.",
+          "The date was shortly before the first U.S. spot Ethereum ETFs began trading in late July 2024, a period when ETH had rebounded from early-July lows."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  }
+]
