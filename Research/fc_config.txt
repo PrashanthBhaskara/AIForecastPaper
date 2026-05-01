@@ -1,0 +1,66 @@
+# ============================================================
+# Shared configuration for AI Forecasting Comparative Study
+# Applies identically to: claude_fc.py, chatgpt_fc.py,
+#                          gemini_fc.py
+#
+# Format: standard INI (Python configparser, interpolation=None).
+# Continuation lines must be indented by at least one space.
+# ============================================================
+
+
+[api_keys]
+# Set a key here to override the corresponding environment variable.
+# Leave as UNSET to fall back to the environment instead
+# (e.g. export ANTHROPIC_API_KEY=sk-...).
+ANTHROPIC_API_KEY = ENTER
+OPENAI_API_KEY    = ENTER
+GEMINI_API_KEY    = ENTER
+
+
+[models]
+# One model identifier per provider.
+# Change these to swap model versions across all three scripts at once.
+claude_model = claude-sonnet-4-6
+openai_model = gpt-5.5
+gemini_model = gemini-3-flash-preview
+
+
+[hyperparameters]
+# Generation parameters kept identical across all providers.
+temperature         = 0.0
+max_tokens          = 1000
+sleep_between_calls = 0.5
+
+
+[paths]
+market = ElectionsMarkets
+
+
+[system_prompt]
+# Shared system prompt — word-for-word identical across all three models.
+# Edit here to update all models simultaneously.
+# Every continuation line must begin with exactly one space.
+prompt = You are an AI assistant specialized in analyzing and predicting real-world events.
+ Event: <event title>
+ Close Time (UTC): <close_time>
+ Example market rule:
+ - <market_name>: <rule text>
+ Possible outcomes (provide probabilities for exactly these):
+ - <outcome_1>
+ - <outcome_2>
+ - <outcome_3>
+ ...
+ Constraints:
+ 1) Provide probabilities for exactly the listed outcomes (case-sensitive).
+ 2) Do not invent additional outcomes.
+ 3) Each probability must be a float in [0, 1].
+ 4) Return JSON only; no extra text.
+ Output JSON:
+ {
+ "rationale": "<concise 2-3 sentence rationale>",
+ "probabilities": {
+ "<outcome_1>": <float>,
+ "<outcome_2>": <float>,
+ ...
+ }
+ }

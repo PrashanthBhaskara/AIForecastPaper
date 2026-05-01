@@ -1,0 +1,3449 @@
+[
+  {
+    "condition_id": "0x884ac623906f4e8e7b8cbee417f8e42c1ffeda43225d5248838f59c3fe3dba5b",
+    "market_slug": "european-central-bank-cuts-rates-in-oct-meeting",
+    "event_slug": "european-central-bank-cuts-rates-in-oct-meeting",
+    "title": "European Central Bank cuts rates in Oct meeting?",
+    "category": "Financials",
+    "close_time": "2024-10-17T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "113275",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this event: the ECB did cut rates at its October 2024 policy meeting, lowering key rates by 25 basis points amid easing inflation.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On 17 October 2024, the ECB cut the deposit facility rate by 25 basis points, from 3.50% to 3.25%.",
+          "The main refinancing operations rate was lowered from 3.65% to 3.40%, and the marginal lending facility rate from 3.90% to 3.65%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5372a3ff6b0ca44d7fa7eff126faf594517a50a3ce233ddc154442a4097c2411",
+    "market_slug": "trump-vs-boden-first-to-1b",
+    "event_slug": "trump-vs-boden-first-to-1b",
+    "title": "Trump vs. Boden: First to 1B",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Trump",
+    "volume": "255813",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x7cd9043bc02962c516c9809608e0375aae1328e7b6bab744ebb376d46ee1ff26",
+    "market_slug": "mstr-added-to-nasdaq-100",
+    "event_slug": "mstr-added-to-nasdaq-100",
+    "title": "$MSTR added to Nasdaq 100?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "391981",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Nasdaq’s December 2024 annual reconstitution announcement added MicroStrategy to the Nasdaq-100 effective before the deadline. Therefore the market would resolve Yes.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Nasdaq announced the annual Nasdaq-100 Index reconstitution on December 13, 2024.",
+          "MicroStrategy (MSTR) was added to the Nasdaq-100 effective prior to market open on Monday, December 23, 2024.",
+          "Other additions in the same reconstitution included Palantir (PLTR) and Axon Enterprise (AXON)."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x04bb2f787e983075d0ef877e0d711bd83affab14a1c22d8c306ff6e1085fde82",
+    "market_slug": "us-bank-failure-before-december",
+    "event_slug": "us-bank-failure-before-december",
+    "title": "US bank failure before December?",
+    "category": "Financials",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "145735",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Known FDIC bank closures occurred in 2024 before the market close, so the condition was met. This should resolve Yes with very high confidence.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republic First Bank, Philadelphia, Pennsylvania, was closed by regulators on April 26, 2024, with Fulton Bank assuming its deposits and substantially all assets.",
+          "The First National Bank of Lindsay, Lindsay, Oklahoma, was also closed on October 18, 2024, before December 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x748a339a1a251f79baaae8310952e431851d5d1c18b3600ff38c7325fd2ed705",
+    "market_slug": "btc-dominance-down-by-friday",
+    "event_slug": "btc-dominance-down-by-friday",
+    "title": "BTC dominance down on Friday?",
+    "category": "Financials",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "175116",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recognize this exact market or its resolution. Without reliable recalled data, BTC dominance daily direction is close to a coin flip, with a slight lean to No amid broad crypto selloff conditions where BTC often outperforms alts.",
+      "probabilities": {
+        "Yes": 0.47,
+        "No": 0.53
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x88073c3a348b590749b2159784b644890ed6003cb6c69d7697236015c5ba44b3",
+    "market_slug": "nyse-marketwide-circuit-breaker-before-2025",
+    "event_slug": "nyse-marketwide-circuit-breaker-before-2025",
+    "title": "NYSE marketwide circuit breaker before 2025?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "494799",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No NYSE marketwide circuit breaker was triggered before the 2024 close time; U.S. marketwide circuit breakers have not been hit since the March 2020 COVID crash.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "NYSE/Nasdaq marketwide circuit breakers last triggered during the March 2020 COVID-19 selloff, not in 2024.",
+          "A marketwide circuit breaker requires a 7%, 13%, or 20% S&P 500 decline from the prior close; no such NYSE marketwide halt occurred before 2025."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1aade08d3f4bf510eeb6fb1da05481bc83df3326e8717fa7bcd41987f08cb783",
+    "market_slug": "us-bank-failure-in-february",
+    "event_slug": "us-bank-failure-in-february",
+    "title": "US bank failure in February?",
+    "category": "Financials",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "117046",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No FDIC-insured U.S. bank was closed in February 2024; the first U.S. bank failure of 2024 occurred later, in April. Therefore the condition was not met before the close time.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The FDIC's first listed U.S. bank failure in 2024 was Republic First Bank in Philadelphia, closed on April 26, 2024.",
+          "There were no FDIC failed-bank list entries dated in February 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbfa179cd19cd92b3ee14eceafb00283e7ed4fdcb07381bd53062a068ddce2da6",
+    "market_slug": "swan-bitcoin-insolvent-by-august-31",
+    "event_slug": "swan-bitcoin-insolvent-by-august-31",
+    "title": "Swan Bitcoin insolvent by August 31?",
+    "category": "Financials",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "74121.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall public distress news at Swan in July 2024, but not an insolvency or bankruptcy by the August 31 cutoff. The company continued taking corporate/legal actions after that date, which supports a No resolution.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "In July 2024 Swan Bitcoin announced layoffs and said it was shelving near-term IPO plans after problems/revenue changes around its managed mining business.",
+          "After the August 31, 2024 cutoff, Swan was still operating publicly and filed litigation in 2024 against former employees/Proton Management related to its mining business, rather than entering a public insolvency proceeding."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfd565b8e975c6aff1db29709245ce3cd04a673fee1641f2fac93b6fdd7b79f9e",
+    "market_slug": "us-congress-stock-trading-ban-by-june-30",
+    "event_slug": "us-congress-stock-trading-ban-by-june-30",
+    "title": "US congress stock trading ban by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3539.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By the June 30, 2024 deadline, Congress had not enacted or otherwise implemented a stock-trading ban for members. Related proposals remained pending and did not satisfy the condition before close.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "No federal law banning members of Congress from trading individual stocks was enacted by June 30, 2024.",
+          "Congressional stock-trading-ban proposals in the 118th Congress, such as the ETHICS Act/TRUST-style bills, remained pending and had not passed both chambers by the deadline."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x883e663ab3ccb9a515953fd524514d3b385ed71ce8790aa131eb9a0f6d612a43",
+    "market_slug": "will-nyc-give-migrant-families-10000",
+    "event_slug": "will-nyc-give-migrant-families-10000",
+    "title": "Will NYC give migrant families $10,000?",
+    "category": "Financials",
+    "close_time": "2024-04-30T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "6934.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize the NYC migrant prepaid debit-card controversy; the program provided restricted food funds, not a $10,000 payment to families before the close. Thus the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "NYC's 2024 pilot used prepaid debit cards for asylum-seeker families to buy food and baby supplies, administered through MoCaFi/Mobility Capital Finance.",
+          "Reports described amounts tied to family size, roughly hundreds of dollars per week or about $1,400 per month for a family of four, not a $10,000 lump-sum payment before April 30, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe7258a4b3fbcf5dad4cf8d7991a3fe0c9cd9a9333992152596752ac199f5db18",
+    "market_slug": "ethena-token-fdv-less-than-5-billion-one-day-after-airdrop",
+    "event_slug": "ethena-market-cap-fdv-one-day-after-airdrop",
+    "title": "Ethena token FDV less than 5 billion one day after launch?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "25211.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethena’s ENA launched with a 15B token supply and traded well above the ~$0.333 price threshold needed for FDV to be under $5B after launch. Thus the condition was not met.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethena’s ENA token began trading in early April 2024, including major exchange listings such as Binance.",
+          "ENA’s total supply was 15 billion tokens, so a $5B FDV threshold corresponded to about $0.333 per token.",
+          "During the first day after launch, ENA traded roughly in the $0.6–$0.9 range, implying FDV well above $5B."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x090b2b117769cc509cc1cc128c14724db520c500af490bfcc1f69439d909ee51",
+    "market_slug": "gme-market-cap-20b-on-friday",
+    "event_slug": "gme-market-cap-20b-on-friday",
+    "title": "GME market cap >$20b on Friday?",
+    "category": "Financials",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "31186.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "GME would have needed roughly a mid-to-high $40s share price to exceed a $20B market cap, far above its apparent early-December 2024 trading range. I do not recall the exact market resolution, but No is strongly favored.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4fdc8c72f3013001dccc152e318cb3fcb16da16c741816c3078a42947702ece5",
+    "market_slug": "ethereum-etf-approved-by-may-31",
+    "event_slug": "ethereum-etf-approved-by-may-31",
+    "title": "Ethereum ETF approved by May 31?",
+    "category": "Financials",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.32265e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember the SEC approved spot Ethereum ETF exchange-rule filings before the May 31 deadline, though trading required later registration effectiveness.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On May 23, 2024, the SEC approved 19b-4 rule-change filings for spot Ether ETFs from exchanges including Nasdaq, NYSE Arca, and Cboe BZX.",
+          "The approval covered issuers such as BlackRock, Fidelity, Grayscale, VanEck, Franklin Templeton, Bitwise, Invesco/Galaxy, and Ark/21Shares; S-1 registration statements became effective later, with trading starting in July 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4b1741127012a0e4d884c65fbb01628778dc03486dd6c55cefce972950db93a4",
+    "market_slug": "doge-etf-approved-in-2024",
+    "event_slug": "doge-etf-approved-in-2024",
+    "title": "Doge ETF approved in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "778901",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No Dogecoin ETF was approved before the end of 2024; crypto ETF approvals that year were limited to spot bitcoin and ether products. Dogecoin ETF activity emerged later, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The SEC approved U.S. spot bitcoin ETFs on January 10, 2024, and spot ether ETFs began trading in July 2024, but no Dogecoin ETF was approved in 2024.",
+          "Dogecoin ETF filings/proposals appeared in 2025 rather than receiving approval before the December 30, 2024 close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb36886bb0cf7cede4fd57fedbbbf80342ec76921d567fa9958275c22e1df04bd",
+    "market_slug": "bitcoin-etf-approved-by-jan-15",
+    "event_slug": "bitcoin-etf-approved-by-jan-15",
+    "title": "Bitcoin ETF approved by Jan 15?",
+    "category": "Financials",
+    "close_time": "2024-01-15T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.26224e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SEC approved U.S. spot Bitcoin ETFs before the Jan 15, 2024 cutoff, so the market condition was met.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On Jan. 10, 2024, the SEC approved rule changes allowing multiple spot Bitcoin ETFs to list and trade.",
+          "The approved spot Bitcoin ETFs, including products from BlackRock, Fidelity, Ark/21Shares, and Grayscale's converted GBTC, began trading on Jan. 11, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa4ae7bd4acf2e291e870b0a89df20ac186b30c4942f02ff14004d11347b7c3f6",
+    "market_slug": "roaring-kitty-billionaire-by-friday",
+    "event_slug": "roaring-kitty-billionaire-by-friday",
+    "title": "Roaring Kitty billionaire by Friday?",
+    "category": "Financials",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "296144",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xc8f2b2277aa63627071a3f0db8dd70e7fc490219b28f9486bf0bc0c0434f7b77",
+    "market_slug": "solana-etf-approved-in-2024",
+    "event_slug": "solana-etf-approved-in-2024",
+    "title": "Solana ETF approved in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "984738",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No U.S. spot Solana ETF was approved by the SEC before the 2024 close; applications had been filed but remained unresolved. A non-U.S. Solana ETF approval existed, but markets with this phrasing typically referred to SEC/U.S. ETF approval.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "VanEck filed for a U.S. spot Solana ETF in June 2024, followed by 21Shares, but neither received SEC approval in 2024.",
+          "The SEC approved spot Bitcoin ETFs in January 2024 and spot Ether ETF listings in 2024, but no Solana ETF approval occurred before Dec. 30, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb412d18bf3a1887e13ad665f7fa22db84b1d97b3ac3ef422b8eba3e8a5985905",
+    "market_slug": "will-trump-sell-shares-of-djt-in-sept",
+    "event_slug": "will-trump-sell-shares-of-djt-in-sept",
+    "title": "Will Trump sell shares of DJT in September?",
+    "category": "Financials",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "143112",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall this resolved No: despite the DJT lock-up expiration in September 2024, Trump publicly said he did not intend to sell and no qualifying sale was reported before the deadline.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Trump Media & Technology Group's DJT lock-up period for Trump's shares expired around September 19, 2024.",
+          "Trump publicly stated in mid-September 2024 that he had “absolutely no intention” of selling his DJT shares.",
+          "No timely SEC Form 4 or other qualifying disclosure of a Trump DJT share sale appeared before the September 30, 2024 close."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7e032f3cd896a6e246142ed26f0dc22230eeb61d5ec862a638bdf5081d1ed1b4",
+    "market_slug": "will-microstrategy-market-cap-dip-to-50b-in-2024",
+    "event_slug": "will-microstrategy-market-cap-dip-to-50b-in-2024",
+    "title": "Will MicroStrategy market cap dip to $50b in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "279062",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xb9108d9d37e0f91ab4380e0911940c521caffd84e80616c1c54d74b26bfc7442",
+    "market_slug": "amc-all-time-high-by-friday",
+    "event_slug": "amc-all-time-high-by-friday",
+    "title": "$AMC all time high by Friday?",
+    "category": "Financials",
+    "close_time": "2024-05-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "100045",
+    "status": "ok",
+    "forecast": {
+      "rationale": "AMC’s May 2024 meme-stock spike was dramatic but remained far below its split-adjusted 2021 all-time high. The condition was not met by the May 17 close.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "AMC rallied sharply after the May 2024 Roaring Kitty return, with the main spike occurring around May 13–14, 2024.",
+          "AMC’s May 2024 intraday prices were around the low-teens at most, far below its split-adjusted 2021 all-time high, which was in the hundreds of dollars."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x415ee0c01ba8f22bc31de456bbe26de539c790c758b9ab932bba1b6be3c510cf",
+    "market_slug": "will-the-sec-approve-blackrocks-bitcoin-etf-by-december-31",
+    "event_slug": "will-the-sec-approve-blackrocks-bitcoin-etf-by",
+    "title": "Will the SEC approve BlackRock's Bitcoin ETF by December 31?",
+    "category": "Financials",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "147341",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SEC did not approve BlackRock's spot Bitcoin ETF before the end of 2023; approvals came in January 2024. Therefore the market condition was not met by the December 31 deadline.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The SEC approved multiple spot Bitcoin ETFs, including BlackRock's iShares Bitcoin Trust, on January 10, 2024.",
+          "BlackRock's approved spot Bitcoin ETF was the iShares Bitcoin Trust, ticker IBIT, which began trading after the January 2024 approval.",
+          "No SEC approval of BlackRock's spot Bitcoin ETF occurred by December 31, 2023."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe60881d4c7d67a75b124257d5831a6ca6f5e304616f0620c57c0f8cf2e5295ff",
+    "market_slug": "will-trump-sell-shares-of-djt-before-the-election",
+    "event_slug": "will-trump-sell-shares-of-djt-before-the-election",
+    "title": "Will Trump sell shares of DJT before the election?",
+    "category": "Financials",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "63719",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump’s DJT lockup expired before the election, but there was no reported sale by the market close. Required insider sale filings did not appear before the election deadline.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump held about 114.75 million shares of Trump Media & Technology Group (DJT) after its 2024 public listing.",
+          "The post-merger lockup expired in September 2024, and Trump publicly said he had no intention of selling his DJT shares.",
+          "No SEC Form 4 or other insider-sale disclosure showed Trump selling DJT shares before the November 2024 election deadline."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x631da6a870be8125026df750662505c8d03991becb43b77d43c1993262d6b48b",
+    "market_slug": "will-sec-delay-bitcoin-etf-decision",
+    "event_slug": "will-sec-delay-bitcoin-etf-decision",
+    "title": "Will SEC delay Bitcoin ETF decision?",
+    "category": "Financials",
+    "close_time": "2024-01-10T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "29174.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this as the spot Bitcoin ETF decision deadline market; the SEC did not delay and instead approved the spot Bitcoin ETP applications on January 10, 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On January 10, 2024, the SEC approved rule changes permitting multiple spot Bitcoin ETFs/ETPs to list and trade, including products from BlackRock, Fidelity, Ark/21Shares, and others.",
+          "The day before, January 9, 2024, the SEC's X account was compromised and falsely posted that Bitcoin ETFs had been approved before Chair Gary Gensler said the account was hacked."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x21949c569a89fdefeb17c13abb5fb711986ccb3bd6b5252f98eaab6938046dbb",
+    "market_slug": "deepfuckingvalue-posts-on-reddit-today",
+    "event_slug": "deepfuckingvalue-posts-on-reddit-today",
+    "title": "Roaring Kitty posts on Reddit today?",
+    "category": "Financials",
+    "close_time": "2024-12-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "28910.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize the exact market resolution from memory. Roaring Kitty Reddit activity has been sporadic and rare outside his June 2024 return, so a Reddit post on a specific day is unlikely absent a known catalyst.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x747b685abe161ff7e32cea8f4082ff9fc5b7799f4f32fc5b4cdd1bfa8f67cd77",
+    "market_slug": "vanguard-allows-bitcoin-purchases-before-april",
+    "event_slug": "vanguard-allows-bitcoin-purchases-before-april",
+    "title": "Vanguard allows Bitcoin purchases before April?",
+    "category": "Financials",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "18223.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Vanguard maintained its refusal to offer spot Bitcoin ETFs on its brokerage platform after their January 2024 launch, with no reversal before the March 31 close.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "After U.S. spot Bitcoin ETFs launched in January 2024, Vanguard brokerage customers could not buy products such as BlackRock's IBIT or Fidelity's FBTC on the platform.",
+          "Vanguard publicly said crypto products did not align with its long-term investing philosophy and did not reverse that stance before April 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x26d927236097b51d1fa848527e0e3b764d9028584e9dc687bf109f04f38c77ce",
+    "market_slug": "will-roaring-kitty-tweet-100-or-more-times",
+    "event_slug": "of-roaring-kitty-tweets-by-may-17",
+    "title": "Will Roaring Kitty tweet 100 or more times?",
+    "category": "Financials",
+    "close_time": "2024-05-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "15556.5",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x6105f2920414288256e3df11bbb317e915f235ecb330253934e4a8fc807cabd5",
+    "market_slug": "elizabeth-warren-crypto-bill-become-law-by-june",
+    "event_slug": "elizabeth-warren-crypto-bill-become-law-by-june",
+    "title": "Elizabeth Warren crypto bill become law by June?",
+    "category": "Financials",
+    "close_time": "2024-06-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2645.98",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No Elizabeth Warren crypto/AML bill was enacted before the June 30, 2024 close; the relevant legislation remained pending in Congress.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The relevant bill was Sen. Elizabeth Warren's Digital Asset Anti-Money Laundering Act, reintroduced in 2023 to extend AML/KYC obligations to parts of the crypto sector.",
+          "By June 30, 2024, it had not passed both chambers of Congress and had not been signed into law by President Biden."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf745e4e7657364ccb257f8648eb2fdeb32d9e9650215f6dca87812b0ec1f522f",
+    "market_slug": "roaring-kitty-dumps-gme-position-by-friday",
+    "event_slug": "roaring-kitty-dumps-gme-position-by-friday",
+    "title": "Roaring Kitty dumps GME calls by Friday?",
+    "category": "Financials",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "13620.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize the June 2024 GME/Roaring Kitty options episode. His public YOLO updates showed the large June 21 $20 call position still intact before the June 7 cutoff; the options were closed/exercised later.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Keith Gill/Roaring Kitty's June 2024 Reddit YOLO position showed 120,000 GME $20 call options expiring June 21, 2024, alongside 5,000,000 shares.",
+          "A June 6, 2024 update still showed the 120,000 call contracts; his later June 13 update showed 9,001,000 shares and no remaining call position."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa6f4dbecc4723d0a00155da852262064a5edd24158c6262c39fc413be223e3c4",
+    "market_slug": "bitcoin-hits-80k-before-election",
+    "event_slug": "bitcoin-hits-80k-before-election",
+    "title": "Bitcoin hits $80k before election?",
+    "category": "Financials",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "682998",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin did not reach $80,000 before the Nov. 4, 2024 close; it first moved above that level only after the U.S. election.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 U.S. election was on Nov. 5, 2024, after this market’s Nov. 4 12:00 UTC close.",
+          "Bitcoin first crossed above $80,000 around Nov. 10, 2024, following Donald Trump’s election victory.",
+          "Before the election, Bitcoin’s 2024 high was in the low-to-mid $70,000s, below the $80,000 threshold."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5498a3c406b898aa4c0eb8b2e5fbc291980593e43e4fb4ec1595a3629b8284f3",
+    "market_slug": "gme-halted-on-wednesday",
+    "event_slug": "gme-halted-on-wednesday",
+    "title": "$GME halted on Wednesday?",
+    "category": "Financials",
+    "close_time": "2024-05-15T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "12856.2",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x80fb62ce52fd7832010a24f70715d53755a66400117a0ef08547b33291d73f38",
+    "market_slug": "layerzero-airdrop-in-2023",
+    "event_slug": "layerzero-airdrop-in-2023",
+    "title": "LayerZero airdrop in 2023?",
+    "category": "Financials",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "611011",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LayerZero did not conduct its token airdrop before the end of 2023; the ZRO distribution occurred later in 2024. The market condition therefore resolved No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "LayerZero publicly stated in December 2023 that there would be a LayerZero token, with distribution expected in the first half of 2024, not by year-end 2023.",
+          "The ZRO token claim/airdrop went live in June 2024, after the 2023-12-31 close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x196c49f7a618fd0ad4edef473efec20f007abebfde68b23978107d9e744b81b2",
+    "market_slug": "gme-halted-13-times-today",
+    "event_slug": "number-gme-trading-halts-today",
+    "title": "$GME halted 13+ times today?",
+    "category": "Financials",
+    "close_time": "2024-05-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12853.1",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x5073a950dbea1a73022758b6ad2dac05073400ddcf9ad8c907919c76608fcdcc",
+    "market_slug": "bitcoin-new-all-time-high-before-election",
+    "event_slug": "bitcoin-new-all-time-high-before-election",
+    "title": "Bitcoin new all time high before election?",
+    "category": "Financials",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "549338",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin approached its March 2024 high in late October but did not make a new USD all-time high before the Nov. 4 close; the breakout came after the election. Thus the condition was not met before close.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's prior USD all-time high was set in March 2024 at roughly $73.7k.",
+          "In late October 2024 BTC traded near $73k but did not decisively exceed the March high before the Nov. 4, 2024 close time.",
+          "Bitcoin broke to a new high above $75k on Nov. 6, 2024 after the U.S. election."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8b43fa732280bf918050a830ab939fc06c331b036eccb1999fec2505b29b2c49",
+    "market_slug": "gme-halted-on-tuesday",
+    "event_slug": "gme-halted-on-tuesday",
+    "title": "$GME halted on Tuesday?",
+    "category": "Financials",
+    "close_time": "2024-05-14T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "10430.7",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xdc700170bd587ca5102b54fd2bce15bfa3ff835a86f5b12e41494c07c4855f06",
+    "market_slug": "pepe-vs-wif-first-to-10b",
+    "event_slug": "pepe-vs-wif-first-to-10b",
+    "title": "$PEPE vs. $WIF - First to $10B?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "$PEPE",
+    "volume": "338793",
+    "status": "ok",
+    "forecast": {
+      "rationale": "PEPE’s circulating market cap exceeded $10B during the late-2024 meme-coin rally, while WIF remained well below that level before the cutoff. I do not recall the exact market page, but the underlying condition appears to have been met.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x9f479ed43008d515497ea633ea3c25ed81aa64ea78a7dcf795a0f4fcf562a21f",
+    "market_slug": "will-roaring-kitty-tweet-again-on-tuesday",
+    "event_slug": "will-roaring-kitty-tweet-again-on-tuesday",
+    "title": "Will Roaring Kitty tweet on Tuesday?",
+    "category": "Financials",
+    "close_time": "2024-05-14T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "8271.54",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x655729602876f15045bbffab03fe342fb5ade2bbc37b6d53d77ac3af755b4085",
+    "market_slug": "bitcoin-all-time-high-day-after-election",
+    "event_slug": "bitcoin-all-time-high-day-after-election",
+    "title": "Bitcoin all time high day after election?",
+    "category": "Financials",
+    "close_time": "2024-11-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "308994",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember Bitcoin broke its prior record shortly after the 2024 U.S. election as Trump’s win became clear, before the listed UTC close time. This market should have resolved Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin surpassed its previous March 2024 all-time high of roughly $73,700 on Nov. 6, 2024.",
+          "It traded above $75,000 during early post-election trading as Donald Trump was leading/winning the 2024 U.S. presidential election, before 12:00 UTC on Nov. 6."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc23ef1a712aa665699e5ffa9ae802f2365364a67482b50359858ad7ef1101be4",
+    "market_slug": "will-roaring-kitty-exercise-gme-options-on-livestream",
+    "event_slug": "will-roaring-kitty-exercise-gme-options-on-livestream",
+    "title": "Will Roaring Kitty exercise GME options on livestream?",
+    "category": "Financials",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8117.74",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this as the June 2024 Roaring Kitty/GameStop livestream speculation. He did not exercise his GME call options on the livestream, so the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Keith Gill/Roaring Kitty held a YouTube livestream on June 7, 2024, his first in several years, amid renewed GameStop volatility.",
+          "He displayed/discussed his GME position but did not exercise the June 21 $20 call options live on stream.",
+          "GameStop shares fell sharply during the stream and trading was halted multiple times."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x42dd24c4de94c92d81652262e2df829c88905686dd72a7e9f92b6185c666702b",
+    "market_slug": "will-microstrategy-purchase-more-bitcoin-in-2024-1",
+    "event_slug": "will-microstrategy-purchase-more-bitcoin-in-2024-1",
+    "title": "Will MicroStrategy purchase more Bitcoin in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "275527",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MicroStrategy publicly announced multiple additional Bitcoin purchases during 2024, so the condition was met well before the close time.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On February 6, 2024, Michael Saylor announced MicroStrategy had acquired an additional 850 BTC for about $37.2 million, bringing holdings to 190,000 BTC.",
+          "On March 11, 2024, MicroStrategy announced another purchase of 12,000 BTC for about $821.7 million, bringing holdings to 205,000 BTC.",
+          "The company continued buying later in 2024, including large purchases announced in November and December 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1f152881e9ecfa601c41b32c798740643dcf7802fbca71636d4c7c4c0c08f26f",
+    "market_slug": "gme-halted-on-friday",
+    "event_slug": "gme-halted-on-friday",
+    "title": "$GME halted on Friday?",
+    "category": "Financials",
+    "close_time": "2024-05-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5616.75",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xf056262c9c77b591ea1cbabe46904e594b7dc3bfa1ef7aa7d3c1a11c09e2ef8d",
+    "market_slug": "will-solana-reach-250-in-november",
+    "event_slug": "what-price-will-solana-hit-in-november",
+    "title": "Will Solana reach $250 in November?",
+    "category": "Financials",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "240871",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Solana traded above $250 during the late-November 2024 crypto rally, before the stated close time. The event therefore resolved Yes with very high confidence.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "SOL surpassed $250 in late November 2024, around Nov. 22–23, during the post-U.S.-election crypto rally.",
+          "Major price trackers reported Solana making or approaching a new all-time high around $263 in that period, above the $250 threshold and before 2024-11-30 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x64bc44b3d6d0f62003bd90b8de09879530ff9cc0ce30c9c38fbc046e550ece86",
+    "market_slug": "gme-halted-on-tuesday-june-11",
+    "event_slug": "gme-halted-on-tuesday-june-11",
+    "title": "GME halted on Tuesday?",
+    "category": "Financials",
+    "close_time": "2024-06-11T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3808.58",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not remember the exact market resolution. Given the close time was before the regular U.S. trading session, and GME halts were more prominently reported around June 7 rather than early June 11, I assign a low probability to Yes.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x75d84fd0eddecff7734a24d3b6a38f64c5a7e8890c1bd6bc3e5eb42e704f727e",
+    "market_slug": "will-friendtech-airdrop-by-thursday",
+    "event_slug": "will-friendtech-airdrop-by-thursday",
+    "title": "Will Friend.Tech airdrop by Thursday?",
+    "category": "Financials",
+    "close_time": "2024-05-02T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "161689",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall the Friend.tech token airdrop/claim went live after this market’s May 2 close, alongside the V2 launch. Therefore this deadline-based market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Friend.tech’s FRIEND token airdrop/claim opened on May 3, 2024, which was a Friday and after the 2024-05-02 12:00 UTC close time.",
+          "The airdrop was tied to Friend.tech V2 and the FRIEND token on Base."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb280e8aec315031f42d67a43af11aa2076c5de8b96edd0adb859a9cefc835179",
+    "market_slug": "roaring-kitty-livestream-by-june-14",
+    "event_slug": "roaring-kitty-livestream-by-june-14",
+    "title": "Roaring Kitty livestream by next Friday?",
+    "category": "Financials",
+    "close_time": "2024-06-14T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3061.72",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember Keith Gill/Roaring Kitty held a public YouTube livestream on June 7, 2024, before the June 14 close. Therefore the market condition was met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Roaring Kitty, Keith Gill, returned to YouTube with a livestream on June 7, 2024.",
+          "The stream was scheduled around noon Eastern time and attracted hundreds of thousands of viewers while he discussed GameStop and showed his position."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7460153e01369112ee3a9a9b7c241e1f6f80bc19aa4c64df708ea6adbca4bc0b",
+    "market_slug": "bitcoin-all-time-high-in-april",
+    "event_slug": "bitcoin-all-time-high-in-april",
+    "title": "Bitcoin all time high in April?",
+    "category": "Financials",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "115518",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin did not make a new all-time high during April 2024 before the market close; its March 2024 peak remained intact. Therefore the recalled resolution is No.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's prior all-time high was set in mid-March 2024, around March 14, above $73,000.",
+          "During April 2024, including around the April 19-20 halving and April 30 close, BTC traded below that March peak and did not set a new ATH."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x77b134348ef160a7a9059d5807793caaf8ce3ff77ac9db8dc678fb1868a96f1c",
+    "market_slug": "gme-halted-on-wednesday-june-12",
+    "event_slug": "gme-halted-on-wednesday-june-12",
+    "title": "GME halted on Wednesday?",
+    "category": "Financials",
+    "close_time": "2024-06-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2915.96",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution. Given the close time is before the regular U.S. trading session on June 12, a GME halt before then seems unlikely absent a premarket regulatory/news halt.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x8c1450fae65956f2cf33427d994feed9f6f37e1a9794be10ae3ba2f34b7a6b8c",
+    "market_slug": "wif-listed-on-coinbase-or-binance",
+    "event_slug": "wif-listed-on-coinbase-or-binance",
+    "title": "WIF listed on Coinbase or Binance?",
+    "category": "Financials",
+    "close_time": "2024-02-15T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "109432",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not remember the exact prediction-market resolution. Factually, WIF did not get Binance spot listing until after Feb. 15, though Binance Futures appears to have listed a WIF perpetual before then, making the outcome rule-dependent.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x26e6ca86576fc09d024dd1ad43d2784823a5659fcfbf91e0bcc2f97ac40d74fb",
+    "market_slug": "gme-halted-on-friday-june-7",
+    "event_slug": "gme-halted-on-friday-june-7",
+    "title": "GME halted on Friday?",
+    "category": "Financials",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1972.43",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x36c5a771b82b68f910262aa80013ac6a05834addc449a5ad12d1ec73f81e892c",
+    "market_slug": "will-fartcoin-hit-1b-fdv-in-2024",
+    "event_slug": "will-fartcoin-hit-1b-fdv-in-2024",
+    "title": "Will $Fartcoin hit $1b FDV in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "103499",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall FARTCOIN traded above roughly $1 in late December 2024 with about a 1B token supply, implying FDV above $1B before the market close. Therefore the condition was met.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FARTCOIN has an approximately 1 billion token supply, so a price near or above $1 corresponds to about $1B FDV.",
+          "In late December 2024, FARTCOIN traded above $1 on crypto market trackers, with market cap/FDV reported over $1 billion before Dec. 31."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2b9fd4af40e6794398b4999e8bc9375c033aa58fc81ad213531934366bf90e2d",
+    "market_slug": "brka-closes-above-600k-today",
+    "event_slug": "brka-closes-above-600k-today",
+    "title": "Berkshire Hathaway closes above $600k today?",
+    "category": "Financials",
+    "close_time": "2024-06-03T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1406.73",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember the June 3, 2024 BRK.A trading-glitch event; the stock’s official regular-session close was well above $600,000. Thus the market outcome was Yes.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On June 3, 2024, Berkshire Hathaway Class A shares were affected by an NYSE/CTA technical glitch that briefly showed trades around $185 and a 99%+ drop before halts/corrections.",
+          "The official BRK.A regular-session close that day was about $631,110 per share, above the $600,000 threshold."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2e2b896ee56c70cb3c481fd68b1c3038047a9919feb5d646fce1eba5f2635a57",
+    "market_slug": "zksync-airdrop-by-april",
+    "event_slug": "zksync-airdrop-by-april",
+    "title": "zkSync airdrop by April?",
+    "category": "Financials",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "102612",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The zkSync/ZK token airdrop did not occur before the April 30, 2024 close; the public airdrop and claims began in June 2024. Therefore the market should resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ZKsync announced its ZK token airdrop in June 2024, after the April 30, 2024 market deadline.",
+          "Claims for the ZK airdrop opened on June 17, 2024, with eligibility covering hundreds of thousands of wallets."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0b875007883556cf1eacdda04581e1acc0b783dbef347ea9b0c1b6617ab1b0ec",
+    "market_slug": "gme-halted-today",
+    "event_slug": "gme-halted-today",
+    "title": "GME halted today?",
+    "category": "Financials",
+    "close_time": "2024-06-10T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "432.98",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Since the close time was before the regular NYSE session, a formal GME trading halt before then would have been unlikely absent a regulatory/news halt.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x67e140f7b67baac2dd704ee610c580a00cc62667765e35e90010a911da34365c",
+    "market_slug": "ethereum-all-time-high-by-end-of-march",
+    "event_slug": "ethereum-all-time-high-by-end-of-march",
+    "title": "Ethereum all time high by end of March?",
+    "category": "Financials",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "93369.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethereum did not surpass its November 2021 all-time high before the March 31, 2024 close; its March 2024 rally topped out well below that level.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethereum's prior all-time high was set in November 2021 at roughly $4,800–$4,900 depending on price source.",
+          "During March 2024, ETH peaked around the low $4,000s, not high enough to set a new all-time high before March 31, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6c538288fb831150faccdfc806140b4147a77ff7994ac33683b95127a287a359",
+    "market_slug": "will-berkshire-hathaway-resume-public-trading-today",
+    "event_slug": "will-berkshire-hathaway-resume-public-trading-today",
+    "title": "Will Berkshire Hathaway resume public trading today?",
+    "category": "Financials",
+    "close_time": "2024-06-03T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "341",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this as the June 3, 2024 NYSE technical glitch that halted Berkshire Hathaway Class A after a false 99% drop. Trading resumed later that same day, so the remembered resolution is Yes.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On June 3, 2024, Berkshire Hathaway Class A shares briefly displayed around $185 instead of roughly $620,000, an apparent 99%+ plunge caused by an NYSE/CTA technical issue.",
+          "NYSE halted BRK.A for volatility along with other affected names, then trading resumed later that morning after the issue was fixed."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbe6311035b2aace4f0c1acf2da5bc72c7f53342ec341d20c4b22b130f0b19a93",
+    "market_slug": "bitcoin-above-70000-on-friday",
+    "event_slug": "bitcoin-above-70000-on-friday",
+    "title": "Bitcoin above $70,000 on Friday?",
+    "category": "Financials",
+    "close_time": "2024-03-22T07:00:00Z",
+    "actual_resolution": "No",
+    "volume": "65416",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin had pulled back sharply after its mid-March 2024 all-time high and was trading below $70,000 during the relevant window. I recall this market’s condition was not met before the close time.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin reached a then-record high above $73,000 around March 14, 2024, before correcting in the following week.",
+          "Around March 20–22, 2024, BTC traded in the low-to-mid $60,000s and remained below $70,000 before 2024-03-22 07:00 UTC."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xae4166fb8a7f5506a02f49fcaddd80df2eddca590edd410a1c03632940f8da3e",
+    "market_slug": "bitcoin-above-65000-on-mar-29",
+    "event_slug": "bitcoin-above-65000-on-mar-29",
+    "title": "Bitcoin above $65,000 on Mar 29?",
+    "category": "Financials",
+    "close_time": "2024-03-29T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "56610.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin was trading well above $65k on Mar 29, 2024, after the March ETF-driven rally and mid-March all-time high. Thus the threshold was almost certainly met before the 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.995,
+        "No": 0.005
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin set a then-record high above $73,000 around March 14, 2024 during the post-ETF rally.",
+          "On March 29, 2024, Bitcoin spot prices were roughly around $70,000, comfortably above the $65,000 threshold."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x77b3797c99b75c8f747699c6cc92502465295a92477e886de51a68c535740c21",
+    "market_slug": "wif-listed-on-coinbase-or-binance-in-february",
+    "event_slug": "wif-listed-on-coinbase-or-binance-in-february",
+    "title": "WIF listed on Coinbase or Binance in February?",
+    "category": "Financials",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "35653.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall WIF’s major Binance spot listing came after February, while any earlier Binance futures activity was not a February Coinbase/Binance spot listing. Therefore the February condition was not met.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Binance announced/listed dogwifhat (WIF) for spot trading on March 5, 2024, after the February market window.",
+          "Coinbase did not list WIF during February 2024; Coinbase-related WIF listings came later, not before 2024-02-29 00:00 UTC."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xacedb00f27db3bf78feed4de418ba5c2a1c1af1bcbb2def16d3db9df73c556bf",
+    "market_slug": "pepe-listed-on-coinbase-in-march",
+    "event_slug": "pepe-listed-on-coinbase-in-march",
+    "title": "$PEPE listed on Coinbase in March?",
+    "category": "Financials",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "34297.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall PEPE was not listed on Coinbase spot during March 2024; Coinbase’s PEPE listing came much later in 2024. Therefore the March deadline was missed.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Coinbase did not support spot trading for PEPE by the March 31, 2024 close date.",
+          "Coinbase announced/started PEPE support much later, around November 2024, for the Ethereum ERC-20 PEPE token."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb805a8f7b5d44e031d349c1c86992f55b825bc1c59899f42d8ed1aa9e91159c3",
+    "market_slug": "rabby-airdrop-in-q1-2025",
+    "event_slug": "airdrops-in-q1-2025",
+    "title": "Rabby airdrop in Q1 2025?",
+    "category": "Financials",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "32462.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Rabby had persistent token/points-airdrop speculation, but Q1 timing was uncertain and such launches often slip, so I assign a moderate but below-even chance.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x44ce0bd52512f6fea2edb5dd3dcc53fa132a71bf3f5720ba6ffe6dc1615ffc8d",
+    "market_slug": "sol-hits-200-by-next-friday",
+    "event_slug": "sol-hits-200-by-next-friday",
+    "title": "SOL hits $200 by next Friday?",
+    "category": "Financials",
+    "close_time": "2024-03-22T07:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "31316.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall SOL traded above $200 in mid-March 2024, before the Mar. 22 UTC close. That satisfies the barrier condition, so the market should resolve Yes.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Solana rallied past the $200 level around March 18, 2024, during the broader crypto bull-market surge.",
+          "SOL reached roughly the low-$200s intraday before the market close time of 2024-03-22 07:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xeadb65c5fe7716c449a6a224bd19ed3a6514b5762a0a82fe4f0fed151afc98cc",
+    "market_slug": "wormhole-token-fdv-less-than-4-billion-a-week-after-airdrop",
+    "event_slug": "wormhole-market-cap-fdv-one-week-after-airdrop",
+    "title": "Wormhole token FDV less than 4 billion a week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-12-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "30144.3",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xeacc597e6c413020fd7dc655da789d0d8ab423b225479c8894386f5060c67081",
+    "market_slug": "aleo-airdrop-by-april",
+    "event_slug": "aleo-airdrop-by-april",
+    "title": "Aleo airdrop by April?",
+    "category": "Financials",
+    "close_time": "2024-04-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "29951",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market from memory. Based on Aleo’s delayed token/mainnet timeline and lack of a widely confirmed April 2024 airdrop, No is much more likely.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x77818fb3dae37c1e50ab5068867dca3792c9da9217fa7ab3205aaf3443fb8f96",
+    "market_slug": "celestia-token-above-1-one-week-after-airdrop",
+    "event_slug": "celestia-price-one-week-after-airdrop",
+    "title": "Celestia token above $1 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2023-11-06T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "28918",
+    "status": "ok",
+    "forecast": {
+      "rationale": "TIA launched/traded after the Celestia airdrop at prices comfortably above $1, and it remained above that threshold through the first week. This market therefore resolved Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Celestia's TIA token airdrop/mainnet launch occurred around October 31, 2023.",
+          "TIA was listed on major exchanges at launch and traded around the $2+ range during the first week, including by November 6, 2023."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3cef93e6fc5dc05067a1aa7dba738dd7984a65ffbe28f3bcd4218a8d19a84d24",
+    "market_slug": "wif-listed-on-coinbase-in-march",
+    "event_slug": "wif-listed-on-coinbase-in-march",
+    "title": "$WIF listed on Coinbase in March?",
+    "category": "Financials",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27608.9",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x48006972e677667912924b7fe422201f93409a151d5dc14dcadb532c4b5d550a",
+    "market_slug": "tensor-airdrop-by-march-1",
+    "event_slug": "solana-airdrops-by-march-1",
+    "title": "Tensor airdrop by March 1?",
+    "category": "Financials",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "25674.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tensor’s TNSR token/airdrop did not occur before the Feb. 29, 2024 close; the token and claim came later in 2024. Thus the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Tensor Foundation announced/introduced the TNSR governance token in March 2024, after the Feb. 29 close time.",
+          "The TNSR airdrop/claim and token launch occurred in April 2024, not before March 1."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf6052cd4a3e3a4c0bfb16d15638a58a65e6876917a8168376bafe86d0c694811",
+    "market_slug": "wif-listed-on-coinbase-or-binance-in-march",
+    "event_slug": "wif-listed-on-coinbase-or-binance-in-march",
+    "title": "$WIF listed on Coinbase or Binance in March?",
+    "category": "Financials",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "15110.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Binance listed dogwifhat (WIF) for spot trading in early March 2024, satisfying the condition before the March 31 close. Coinbase was not needed because Binance alone met the criterion.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Binance announced the listing of dogwifhat (WIF) with spot trading beginning on March 5, 2024.",
+          "Initial Binance spot pairs included WIF/BTC, WIF/USDT, WIF/FDUSD, and WIF/TRY, before the 2024-03-31 close time."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x93f91f600e97d9000987a4b27ad08b91e4e4acd33d2a82d36c79d44542f8ba6b",
+    "market_slug": "base-airdrop-by-may-1",
+    "event_slug": "base-airdrop-by-may-1",
+    "title": "Base airdrop by May 1?",
+    "category": "Financials",
+    "close_time": "2024-05-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14920.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Base had no official token generation event or user airdrop before the May 1, 2024 close, so the market condition was not met.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Base is Coinbase's Ethereum layer-2 network and was operating without a native Base token during this period; transaction fees were paid in ETH.",
+          "Coinbase/Base had stated it had no plans to issue a new network token, and no official Base airdrop or token launch occurred before 2024-05-01 00:00 UTC."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2dfbb16634879c33d93bd46989b89cf74b1549666a735d1ed35b40cef683622a",
+    "market_slug": "starknet-airdrop-in-february",
+    "event_slug": "starknet-airdrop-in-february",
+    "title": "Starknet airdrop in February?",
+    "category": "Financials",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "13763.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Starknet’s STRK provisions/airdrop claim opened during February 2024, before the market close. I recall the airdrop launch and token trading/listings occurring on February 20, 2024.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Starknet Foundation opened STRK token claiming/provisions on February 20, 2024.",
+          "The airdrop allocated roughly 700 million STRK to about 1.3 million eligible addresses, including Starknet users, developers, and Ethereum contributors."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe395a686f16495998a0910e53f9cf7781469f2af3edddecf84a754688fadbcc1",
+    "market_slug": "blast-airdrop-by-may",
+    "event_slug": "blast-airdrop-by-may",
+    "title": "Blast airdrop by May?",
+    "category": "Financials",
+    "close_time": "2024-05-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12364.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Blast’s token/airdrop did not occur before the May 31, 2024 close; the BLAST airdrop/claim went live later in June. Therefore the market should resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Blast’s BLAST token airdrop/claim opened on June 26, 2024, after the May 31, 2024 cutoff.",
+          "Blast had launched its mainnet earlier in 2024 and used points/gold campaigns before the token generation event."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2578ca64b7606c572ab00c11bc9b8c7edb952034a4c8404849f875074e18f669",
+    "market_slug": "jup-above-1-one-week-after-launch",
+    "event_slug": "jup-above-1-one-week-after-launch",
+    "title": "JUP above $1 one week after launch?",
+    "category": "Financials",
+    "close_time": "2024-10-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12187.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jupiter's JUP token launched at the end of January 2024 and was trading well below $1 roughly a week later. It did not sustainably break $1 until later in 2024, so the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Jupiter's JUP token launched/was airdropped on Solana on January 31, 2024.",
+          "Around one week later, in early February 2024, JUP traded roughly in the $0.50-$0.60 range, below $1.",
+          "JUP's move above $1 occurred later, around March 2024 rather than one week after launch."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xed5a9a76ee58dac4c7998714e08a2f4a25adb3ad5231469f9769057bc25d15b8",
+    "market_slug": "jupiter-airdrop-by-jan-31",
+    "event_slug": "jupiter-airdrop-by-jan-31",
+    "title": "Jupiter airdrop by Jan 31?",
+    "category": "Financials",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "12036.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember Jupiter’s JUP airdrop/claim went live on Jan. 31, 2024, but after 00:00 UTC. Given the specified close time, the condition was not met before close.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Jupiter’s JUP token airdrop claim/launch opened on January 31, 2024 at about 10:00 AM ET / 15:00 UTC.",
+          "The event was for the Solana DEX aggregator Jupiter, with the first airdrop round distributing around 1 billion JUP to eligible users."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x07382fd2c91f191ba97f97d9e64fa735b049a1119e110f1d12a2029c711153a8",
+    "market_slug": "another-celestia-airdrop-by-march-1",
+    "event_slug": "another-celestia-airdrop-by-march-1",
+    "title": "Another Celestia airdrop by March 1?",
+    "category": "Financials",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5778.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recognize this exact market resolution. Reasoning from crypto airdrop norms, a second official Celestia/TIA airdrop within a few months of the genesis drop by March 1, 2024 would have been relatively unlikely.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xdbea020b722f9921797a1f999f5d6a5ebcf0f282f6317d5de6ce679bee0d26dd",
+    "market_slug": "rabby-airdrop-by-march-1",
+    "event_slug": "rabby-airdrop-by-march-1",
+    "title": "Rabby airdrop by March 1?",
+    "category": "Financials",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4139.49",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Based on general knowledge, Rabby had not conducted a widely recognized token airdrop before March 1, 2024, so No is much more likely.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x259bede5c1c49edc70c8605802c454ca37b2687146df76f623b026579f4b5704",
+    "market_slug": "jupiter-airdrop-in-2023",
+    "event_slug": "jupiter-airdrop-in-2023",
+    "title": "Jupiter airdrop in 2023?",
+    "category": "Financials",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3830.71",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The JUP allocation/checker was available in late 2023, but the actual Jupiter airdrop claim and token launch occurred after the market close, in January 2024.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Jupiter's JUP airdrop claim launched on January 31, 2024, after the 2023-12-31 close.",
+          "The first JUP airdrop round distributed about 1 billion JUP to roughly 955,000 eligible Solana wallets; a checker/allocation details were available in December 2023 but not the claim."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x463ede221626ed8f3e1a5a5a4e9a119e4789f18819b6339c576922cd3b2d6784",
+    "market_slug": "saga-airdrop-by-march-1",
+    "event_slug": "saga-airdrop-by-march-1",
+    "title": "Saga airdrop By March 1?",
+    "category": "Financials",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3165.64",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Saga’s token launch and associated airdrop/claim process occurred after the March 1 deadline, so the condition was not met before close.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Saga’s SAGA token was announced as a Binance Launchpool project in early April 2024, after the March 1 deadline.",
+          "SAGA trading/TGE and mainnet launch occurred around April 9, 2024, with airdrop-related claims tied to that launch period rather than before March 1."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb94b3f423602fc4c7914fff5c14f4f0f7ea61f997535d00d8d03f7213b2c6113",
+    "market_slug": "zksync-airdrop-by-june-30",
+    "event_slug": "airdrops-by-june-30",
+    "title": "zkSync airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.73537e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ZKsync’s ZK token airdrop was publicly announced and claimable before the June 30 deadline, so the market condition was met. I recall the distribution details and timing from the actual launch.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ZKsync Association announced the ZK token airdrop in June 2024, allocating 3.675 billion ZK tokens, or 17.5% of supply, to users and contributors.",
+          "Eligibility covered about 695,232 wallets, and claims opened on June 17, 2024, before June 30."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf808e139238945c244d8d54011908c2856a2a53b51f3c28ffaeb95de48677fae",
+    "market_slug": "will-a-new-country-buy-bitcoin-in-2024",
+    "event_slug": "will-a-new-country-buy-bitcoin-in-2024",
+    "title": "Will a new country buy Bitcoin in 2024? ",
+    "category": "Financials",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "338209",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don't recall this exact market's resolution. No widely reported new sovereign Bitcoin purchase occurred in 2024; known activity was mainly existing holders or non-purchase accumulation such as mining.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa7aaf1cac60148943bd98e22a739f05cfa251cf75a12744df09c62abb88e71ea",
+    "market_slug": "will-jup-be-below-0pt40-one-day-after-airdrop",
+    "event_slug": "jup-price-24hrs-after-airdrop",
+    "title": "Will JUP be below $0.40 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "227091",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jupiter's JUP airdrop token traded well above $0.40 during the first day after launch, so the condition was not met. I assign near certainty to No based on the historical post-airdrop price action.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Jupiter's JUP airdrop/claim went live on Solana on January 31, 2024.",
+          "JUP traded around the $0.55-$0.70 range during the first day after the airdrop rather than falling below $0.40."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4f8aaa2f01e9c529aea2f3d60ad6f8b9a6d2f82e06d966fb7af65d2ff7a87cb3",
+    "market_slug": "will-binance-list-degen-in-2024",
+    "event_slug": "will-binance-list-degen-in-2024",
+    "title": "Will Binance list $DEGEN in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "226018",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x96fa956d781862402d88ed4c35217199ece4f8032fa4d8635f103629e1c493b1",
+    "market_slug": "will-milady-flip-bayc-in-2024",
+    "event_slug": "will-milady-flip-bayc-in-2024",
+    "title": "Will Milady flip BAYC in 2024?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "197822",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Based on 2024 NFT floor dynamics, BAYC fell sharply but generally remained above Milady, making a flip possible but unlikely.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x7f85e2a019c4c81ee857fa09cc968db9c6e687d77fab88b2e4fed8d60a5c3902",
+    "market_slug": "tesla-sells-bitcoin-in-october",
+    "event_slug": "tesla-sells-bitcoin-in-october",
+    "title": "Tesla sells bitcoin in October?",
+    "category": "Financials",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "83314.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tesla’s October 2024 bitcoin wallet movements appeared to be internal transfers rather than a sale, and no confirmed disposal was reported before the close. I therefore assign a high probability to No.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "In mid-October 2024, Tesla moved roughly 11,500 BTC, worth about $760–770 million, from long-dormant wallets to new addresses.",
+          "Blockchain analytics firm Arkham reported that the coins appeared to remain under Tesla control and were not sent to exchanges, suggesting wallet rotation rather than a sale."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdba538c662f749f2d8f1a5f06fa5c8bcc7850bfda20c2d75c5cac2ae236abce9",
+    "market_slug": "roaring-kitty-billionaire-before-july",
+    "event_slug": "roaring-kitty-billionaire-before-july",
+    "title": "Roaring Kitty billionaire before July?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "60554.4",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xa00c7de8603d117632567b9a7e73d788626ea8fbb4ae7309bf9c070aa0319975",
+    "market_slug": "will-us-sell-silk-road-btc-before-election",
+    "event_slug": "will-us-sell-silk-road-btc-before-election",
+    "title": "Will US sell Silk Road BTC before election?",
+    "category": "Financials",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "49136.8",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x5463af323a61810b5b616f9eb89446e826ae232c6d03cb0a2fd4dcf7628d430c",
+    "market_slug": "parcl-airdrop-by-june-30",
+    "event_slug": "parcl-airdrop-by-june-30",
+    "title": "Parcl airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "44811.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I remember Parcl’s PRCL token airdrop/claim occurred well before the June 30 deadline, so the market condition was met. The remaining uncertainty is only about exact market-resolution nuances.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Parcl’s PRCL token claim/airdrop went live in April 2024, before the June 30 deadline.",
+          "The initial community airdrop was tied to Parcl Points/early users and occurred around the PRCL token launch/listing in mid-April 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe632056902781a72d079f384fb0b80db53c88d21e7f0cb4a21b02322fbebcf59",
+    "market_slug": "eth-above-4000-on-friday",
+    "event_slug": "eth-above-4000-on-friday",
+    "title": "ETH above $4,000 on Friday?",
+    "category": "Financials",
+    "close_time": "2024-03-22T07:00:00Z",
+    "actual_resolution": "No",
+    "volume": "42969.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution from memory. Based on historical ETH levels around March 22, 2024 being well below $4,000 after the mid-March pullback, No is much more likely.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x8c88fa7603b6953976145e5f545349f25c872c563b0bdd6b4abd704627a1cfc4",
+    "market_slug": "hyperliquid-airdrop-by-june-30",
+    "event_slug": "hyperliquid-airdrop-by-june-30",
+    "title": "Hyperliquid airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "38697.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hyperliquid did not conduct its token airdrop before the June 30, 2024 deadline; the HYPE genesis/airdrop occurred months later. Thus the market condition was not met.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Hyperliquid's HYPE token genesis event and airdrop occurred in late November 2024, not in June 2024.",
+          "By June 30, 2024 Hyperliquid was still operating with its points program/airdrop speculation and no HYPE token distribution had taken place."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9c4c664d240f14df349b4fe7f8572cc6654ac62f28fd9d22d9d69548cf31284f",
+    "market_slug": "ethena-airdrop-by-june-30",
+    "event_slug": "ethena-airdrop-by-june-30",
+    "title": "Ethena airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "31293.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethena’s ENA token airdrop/claim went live well before June 30, 2024, so the condition was met before the market close.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethena Labs opened ENA token claims around April 2, 2024, before the June 30 deadline.",
+          "The initial airdrop was tied to Ethena’s Shard Campaign and distributed 750 million ENA, about 5% of the token supply."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3f508a5ec375334c84911388ed2846aabf708668ef2e4dd17bc3a4c5ec446872",
+    "market_slug": "will-strk-be-below-1-one-day-after-airdrop",
+    "event_slug": "strk-price-24hrs-after-airdrop",
+    "title": "Will STRK be below $1 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-16T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "23669.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Starknet’s STRK airdrop occurred in February 2024, and the token traded well above $1 during the first day after launch despite volatility. I recall the condition resolving No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Starknet opened STRK airdrop claims on February 20, 2024.",
+          "STRK initially traded around multiple dollars on exchanges and remained above $1 during the first 24 hours after the airdrop."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbde1dca93dcdb80339a80c7118298d7eac20644d1421174d01cdfb0fbad2e73a",
+    "market_slug": "wormhole-airdrop-in-february",
+    "event_slug": "when-will-wormhole-airdrop",
+    "title": "Wormhole airdrop in February?",
+    "category": "Financials",
+    "close_time": "2024-02-28T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "22975.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall Wormhole’s W token airdrop was not claimable/distributed in February; the checker and claim came later. Therefore this market would resolve No by the Feb. 28 close.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Wormhole announced W token/tokenomics in February 2024, but the actual airdrop eligibility checker was released in March 2024.",
+          "The W airdrop claim/token launch occurred in April 2024, with about 617 million W allocated to eligible wallets."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x68d6cc5a755aca06355cb0213db430feab61b9ed0af393c965f38bec2f0b54fc",
+    "market_slug": "will-jup-be-between-0pt40-and-0pt70-one-week-after-airdrop",
+    "event_slug": "jup-price-one-week-after-airdrop",
+    "title": "Will JUP be between $0.40 and $0.70 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-05T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "19101.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jupiter's JUP airdrop occurred in late January 2024 and the token traded around the mid-$0.50s in the following days, within the stated $0.40-$0.70 band. I do not recall the exact market resolution, but the real-world price history strongly points to Yes.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x063b6a2635f84edc86ddf5ad160629f780b7bac9495ac01e157b850225962a57",
+    "market_slug": "degen-all-time-high-before-may",
+    "event_slug": "degen-all-time-high-before-may",
+    "title": "$DEGEN all time high in April?",
+    "category": "Financials",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17760.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution from memory. Based on crypto price history, DEGEN’s peak appears to have occurred around late March/very early April, with April generally not producing a clearly new all-time high before the close.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2dc8183ade15bc0e74e0af86a14f3f5bc45d5db84a87e182c336ef085cbe018f",
+    "market_slug": "saga-airdrop-by-june-30",
+    "event_slug": "saga-airdrop-by-june-30",
+    "title": "Saga airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "15775.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Saga’s token generation and airdrop claim occurred well before late June 2024, so the condition was met before the market close.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Saga launched/listed its SAGA token in April 2024, including a Binance Launchpool/listing around April 9, 2024.",
+          "Saga opened a genesis/community airdrop claim for eligible users before June 30, 2024, alongside its mainnet/token launch period."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x520c799e8144ba73c72abfbf3c209bc82d16ba9c79fa2c7f5e9c05df925d9ddc",
+    "market_slug": "aevo-airdrop-by-june-30",
+    "event_slug": "aevo-airdrop-by-june-30",
+    "title": "Aevo airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "13735.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Aevo’s AEVO token airdrop/claim was launched well before June 30, 2024, so this market should resolve Yes. I recall the underlying token launch and airdrop occurring in March 2024.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Aevo launched/listed its AEVO token in March 2024, including a Binance listing/Launchpool period around March 13, 2024.",
+          "The AEVO airdrop claim for eligible Aevo/Ribbon users was made available months before the June 30, 2024 deadline."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5baca7a842bfac1ade189eee8b235afdfaac474174f24373a69c0085607869e0",
+    "market_slug": "etherfi-airdrop-by-june-30",
+    "event_slug": "etherfi-airdrop-by-june-30",
+    "title": "Etherfi airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "13064.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ether.fi's ETHFI token airdrop occurred well before the June 30, 2024 close, so the title condition was met. The market should resolve Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ether.fi launched the ETHFI governance token and opened Season 1 airdrop claims in March 2024, before June 30.",
+          "The Season 1 airdrop was tied to ether.fi points/early participation and allocated a portion of the ETHFI supply to eligible users."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x36c42b5e00dd372e0567a2689dbf192eb91e391463c04bf7d7e812df6456a984",
+    "market_slug": "was-lara-trump-hacked",
+    "event_slug": "was-lara-trump-hacked",
+    "title": "Was Lara Trump hacked?",
+    "category": "Financials",
+    "close_time": "2024-09-08T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "12554.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recognize this as the early September 2024 incident involving Trump family X accounts promoting a fake crypto token. Lara Trump’s account was reported compromised before the market close.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "In early September 2024, Lara Trump’s X account posted links promoting a purported World Liberty Financial crypto token/address.",
+          "Eric Trump publicly said Lara Trump’s and Tiffany Trump’s X accounts had been compromised, and the scam posts were removed."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x05a45925d271ada170ad423c018b4192c851d9cbbb565f3cc5e661f278baf1cd",
+    "market_slug": "will-jim-cramer-tweet-bitcoin-5-times-jan-26-feb-1",
+    "event_slug": "jim-cramer-of-bitcoin-tweets-from-jan-26-feb-1",
+    "title": "Will Jim Cramer tweet bitcoin 5+ times Jan 26-Feb 1?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "11994.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market or its resolution. Given Cramer’s tweet frequency and that bitcoin-specific mentions tend to be sporadic, 5+ tweets in the window seems unlikely.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xdf4225b90b7f9cb3e80d4175f5ff38e33c119c903c2eb34bbd2e17c707a78d64",
+    "market_slug": "tensor-airdrop-by-june-30",
+    "event_slug": "tensor-airdrop-by-june-30",
+    "title": "Tensor airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "9781.62",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tensor’s TNSR token airdrop was already live in April 2024, well before the June 28 close. Therefore this market should resolve Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Tensor Foundation launched the TNSR governance token and opened airdrop claims in April 2024.",
+          "The airdrop was tied to Tensor’s Solana NFT marketplace rewards/points activity and occurred before June 30, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3de617aeee4ed5cc9ee93e646980e05ecc7bbf05cc6a7c8b848b81b090710f39",
+    "market_slug": "bitcoin-hpos10i-all-time-high-by-friday",
+    "event_slug": "bitcoin-hpos10i-all-time-high-by-friday",
+    "title": "$BITCOIN (HPOS10i) all time high by Friday?",
+    "category": "Financials",
+    "close_time": "2024-03-08T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7127.23",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market or its final resolution. Reasoning from March 2024 memecoin momentum, HPOS10i/BITCOIN was plausibly near highs, but an all-time-high trigger by the exact UTC close is uncertain.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2cabbcedc4791d24fd6694a399116dd409bce1001ae6d2fec926cad50ad55f37",
+    "market_slug": "bitcoin-hpos10i-all-time-high-by-jan-31",
+    "event_slug": "bitcoin-hpos10i-all-time-high-by-jan-31",
+    "title": "$Bitcoin (Hpos10i) all time high by Jan 31?",
+    "category": "Financials",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6242.04",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bitcoin's prior all-time high near $69k from November 2021 was not broken by Jan 31, 2024; BTC was around the low-$40k range then. New highs came later in March 2024.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin's pre-2024 all-time high was about $69,000, set in November 2021.",
+          "On Jan 31, 2024, Bitcoin was trading around the low-$40,000 range, well below that high.",
+          "Bitcoin first exceeded its prior all-time high in March 2024, after this market's close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf91e3187ce7e14642100f51d9bfda0a0debad698e85b6a422ed1337542177ae4",
+    "market_slug": "friendtech-airdrop-before-may",
+    "event_slug": "friendtech-airdrop-before-may",
+    "title": "Friend.Tech airdrop before May?",
+    "category": "Financials",
+    "close_time": "2024-04-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5838.77",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Friend.tech’s FRIEND token airdrop/claim went live in early May 2024, after the market’s April 30 UTC cutoff. Therefore the condition was not met before May.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Friend.tech launched its FRIEND token airdrop/claim around May 3, 2024, alongside the v2 rollout.",
+          "The market cutoff was 2024-04-30 00:00 UTC, before the FRIEND claim opened."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x38588aa22717807f3649b4bde67eff793ca9fac38e910852fed268231a5f54ff",
+    "market_slug": "will-remilio-flip-mayc-in-april",
+    "event_slug": "will-remilio-flip-mayc-in-april",
+    "title": "Will Remilio flip MAYC in April?",
+    "category": "Financials",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "5758.95",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x262b00ca29d94741e216c4bc0b96d9d38fccfced47f984fa0164075acd38fb30",
+    "market_slug": "will-qatar-buy-bitcoin-by-jan-31",
+    "event_slug": "will-qatar-buy-bitcoin-by-jan-31",
+    "title": "Will Qatar buy Bitcoin by Jan 31?",
+    "category": "Financials",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2976.15",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolving from memory. Public sovereign Bitcoin purchases by Qatar by Jan 31, 2024 would likely have been widely reported, and I am not aware of such confirmation.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x612b004e47bd5b75d3a3da0a5ca3b121ac21886db45d0943ee18fa91ad51c1d8",
+    "market_slug": "will-ansem-tweet-again-before-sol-all-time-high-2",
+    "event_slug": "will-ansem-tweet-again-before-sol-all-time-high-2",
+    "title": "Will Ansem tweet again before SOL all time high?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2258.31",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x7ba505fc77519d66e8b5685a7121318c50bded0a4dc856a47a1e0f89b188fb9b",
+    "market_slug": "will-ansem-tweet-again-before-sol-all-time-high",
+    "event_slug": "will-ansem-tweet-again-before-sol-all-time-high",
+    "title": "Will Ansem tweet again before SOL all time high?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1928.73",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize this exact market resolution from memory. Reasoning only: Ansem is an active crypto Twitter figure, and SOL reaching or approaching its prior ATH by late 2024 made a tweet-before-ATH condition plausible but not certain.",
+      "probabilities": {
+        "Yes": 0.78,
+        "No": 0.22
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xeae70c781e0ce65afc49617c9c666bc8f9109fe554c82efa085ad34de18dfa4e",
+    "market_slug": "blur-airdrop-by-nov-20",
+    "event_slug": "blur-airdrop-by-nov-20",
+    "title": "Blur airdrop by Nov 20?",
+    "category": "Financials",
+    "close_time": "2023-11-20T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1873.64",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Blur's Season 2 airdrop/claim is remembered as occurring on Nov. 20, 2023, but after the 00:00 UTC close time specified here. Under the provided cutoff, the condition was likely not met in time.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Blur's Season 2 airdrop was tied to the end of Season 2 and occurred on November 20, 2023.",
+          "The claim/opening was announced for around 6 PM UTC on Nov. 20, after this market's 2023-11-20T00:00:00Z close.",
+          "The Season 2 distribution was widely reported as roughly 300 million BLUR tokens allocated to NFT traders."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8df914f6e35eebf8402c278ca36b446b0358a7bac22acd36d069a0c6401dd1fb",
+    "market_slug": "story-protocol-airdrop-by-june-30",
+    "event_slug": "story-protocol-airdrop-by-june-30",
+    "title": "Story Protocol airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1444.11",
+    "status": "error",
+    "forecast": {
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+    }
+  },
+  {
+    "condition_id": "0xf965a85035a66dc28e00b6b5079dd6f050225e97245ae3fa79a669bf34267d9c",
+    "market_slug": "nillion-airdrop-by-june-30",
+    "event_slug": "nillion-airdrop-by-june-30",
+    "title": "Nillion airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1271.58",
+    "status": "error",
+    "forecast": {
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+    }
+  },
+  {
+    "condition_id": "0x1abea748e8ef490de4fb3d1102b3aa8e6a5bdc99c8851c92bb725a374e88d855",
+    "market_slug": "will-roaring-kitty-tweet-between-50-and-74-times",
+    "event_slug": "of-roaring-kitty-tweets-by-may-17",
+    "title": "Will Roaring Kitty tweet between 50 and 74 times?",
+    "category": "Financials",
+    "close_time": "2024-05-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "11917.9",
+    "status": "error",
+    "forecast": {
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+    }
+  },
+  {
+    "condition_id": "0xf3876e7f515a0f94ed126e08abbb58c3fb22a68589d9fbba7aee9e01a0cb05d4",
+    "market_slug": "ethena-token-fdv-between-5b-and-7pt5b-one-day-after-launch",
+    "event_slug": "ethena-market-cap-fdv-one-day-after-airdrop",
+    "title": "Ethena token FDV between 5b and 7.5b one day after launch?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "23423.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ethena's ENA launched in April 2024 with a 15 billion token supply, and prices shortly after listing were generally above the $0.50 threshold implied by a $7.5B FDV. That makes the 5B–7.5B range unlikely to have held one day after launch.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ethena's ENA token launched/listed in early April 2024 after an airdrop to USDe users.",
+          "ENA had a total supply of 15 billion tokens, so a $5B–$7.5B FDV corresponded to roughly $0.33–$0.50 per ENA.",
+          "Around launch, ENA traded above about $0.50, implying FDV above $7.5B."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xea48fc51cd0269c8c54893d563ba52af2c4012342f4cb0033947d618d34dbca4",
+    "market_slug": "gme-halted-12-times-today",
+    "event_slug": "number-gme-trading-halts-today",
+    "title": "$GME halted 12 times today?",
+    "category": "Financials",
+    "close_time": "2024-05-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3550",
+    "status": "error",
+    "forecast": {
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+    }
+  },
+  {
+    "condition_id": "0xb23eded5901158d98c7f8fa6e7d09c67468665f8d192e0c74134ab4c59893e87",
+    "market_slug": "will-the-sec-approve-blackrocks-bitcoin-etf-by-august-31",
+    "event_slug": "will-the-sec-approve-blackrocks-bitcoin-etf-by",
+    "title": "Will the SEC approve BlackRock's Bitcoin ETF by August 31?",
+    "category": "Financials",
+    "close_time": "2023-08-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "105646",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SEC had not approved BlackRock's spot Bitcoin ETF by the August 31, 2023 deadline. Approval for BlackRock's iShares Bitcoin Trust came months later in January 2024.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BlackRock's spot Bitcoin ETF application was for the iShares Bitcoin Trust, filed in June 2023 after Nasdaq submitted the proposed rule change.",
+          "The SEC approved multiple spot Bitcoin ETFs, including BlackRock's iShares Bitcoin Trust, on January 10, 2024, with trading beginning January 11, 2024.",
+          "By late August 2023 the SEC had not approved BlackRock's application; decisions on spot Bitcoin ETF filings were still pending/delayed."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x05f5e2b9fec48f8578e320a9ce69ca7aa6c62b3d496abd3b878f689c11435621",
+    "market_slug": "will-solana-reach-275-in-november",
+    "event_slug": "what-price-will-solana-hit-in-november",
+    "title": "Will Solana reach $275 in November?",
+    "category": "Financials",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "225430",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Solana rallied strongly in November 2024 but appears to have topped out below the $275 threshold before the market close. I believe the condition was not met.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Solana made a late-November 2024 high around the mid-$260s, near its prior 2021 all-time high, but below $275.",
+          "The relevant window ended on 2024-11-30 at 12:00 UTC, after SOL had pulled back from its late-November peak."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbfee3318e910149d32c2345a4fb50470c107f8cc232b41b2b3d30ebe7e9a3d4f",
+    "market_slug": "wormhole-token-fdv-more-than-7-billion-a-week-after-airdrop",
+    "event_slug": "wormhole-market-cap-fdv-one-week-after-airdrop",
+    "title": "Wormhole token FDV more than 7 billion a week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-12-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "29672.2",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x88e920800df11ade4fcf2649062bb78c01fa603c5b818f785e88cdec0ce77163",
+    "market_slug": "drift-airdrop-by-march-1",
+    "event_slug": "solana-airdrops-by-march-1",
+    "title": "Drift airdrop by March 1?",
+    "category": "Financials",
+    "close_time": "2024-02-27T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "23557",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Drift’s token/airdrop came after the March 1 deadline, so the market condition was not met. The later DRIFT launch timeline makes a Yes resolution very unlikely.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Drift Protocol’s governance token DRIFT and associated airdrop were announced/launched after March 1, 2024, not before it.",
+          "The DRIFT airdrop claim/token launch occurred in May 2024, well after this market’s February 27 close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x15323956bf8ee1ea3926361437e3bf6b160790f7670eef8814c5217dba7820f5",
+    "market_slug": "celestia-token-above-2-one-week-after-airdrop",
+    "event_slug": "celestia-price-one-week-after-airdrop",
+    "title": "Celestia token above $2 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2023-11-06T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "20376.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Celestia’s TIA launched/traded around the airdrop in late Oct 2023 and remained above the $2 threshold in early November. I recall the resolution as Yes.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Celestia mainnet beta and the TIA airdrop went live on October 31, 2023.",
+          "TIA was listed on major exchanges including Binance around launch and traded above $2 in the first week of November 2023."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe71ffd6668b6f26eb8f850bb668a09b64b50dc400f704035594163796d385249",
+    "market_slug": "layerzero-airdrop-by-june-30",
+    "event_slug": "airdrops-by-june-30",
+    "title": "LayerZero airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-28T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "729960",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LayerZero's ZRO token claim/airdrop opened before the market close, so the condition was met. The remembered resolution is Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "LayerZero Foundation opened ZRO token claims on June 20, 2024, before June 30.",
+          "The ZRO launch used a 'Proof-of-Donation' mechanic requiring claimants to donate about $0.10 per ZRO to Protocol Guild."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbc0c49bf39c7c13476a450f1d23307b39c73c8f46d75e45df0008cdfd5b3a3f0",
+    "market_slug": "will-jup-be-above-1pt00-one-day-after-airdrop",
+    "event_slug": "jup-price-24hrs-after-airdrop",
+    "title": "Will JUP be above $1.00 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "69414.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Based on Jupiter’s JUP launch trading mostly below $1 after the airdrop, I estimate No as more likely.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x76458c71e39d3980af248a5fd67b480ed08c06d2822dc21bd59992a074de5454",
+    "market_slug": "will-strk-be-above-2pt00-one-day-after-airdrop",
+    "event_slug": "strk-price-24hrs-after-airdrop",
+    "title": "Will STRK be above $2.00 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-19T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "18214.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Reasoning from STRK’s February 2024 launch, the token initially traded well above $2 but was volatile around the $2 threshold within the first day, so I lean slightly Yes.",
+      "probabilities": {
+        "Yes": 0.6,
+        "No": 0.4
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x076830ed7b28bceb908bb04d385bb6eca7f159295ee9588fad26d863d8dd9b6d",
+    "market_slug": "will-jup-be-below-0pt40-one-week-after-airdrop",
+    "event_slug": "jup-price-one-week-after-airdrop",
+    "title": "Will JUP be below $0.40 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12211",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Based on general historical price context, JUP appeared to trade mostly above $0.40 in the first days after its late-January 2024 airdrop, so No is more likely.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbe21571d3373cee1500fe2c85ad06757bb5c3a8bb351bffb6f7daf16b91e9adc",
+    "market_slug": "will-jim-cramer-tweet-bitcoin-0-times-jan-26-feb-1",
+    "event_slug": "jim-cramer-of-bitcoin-tweets-from-jan-26-feb-1",
+    "title": "Will Jim Cramer tweet bitcoin 0 times Jan 26-Feb 1?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "11395",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this specific market or its resolution. Jim Cramer tweets frequently about markets, and Bitcoin was a prominent topic in late January 2024, so at least one mention seems somewhat more likely than zero.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x30e6fc45d966b73b34cd51331a862cfa201b773916ef87872186827ad85c203d",
+    "market_slug": "wormhole-airdrop-in-march",
+    "event_slug": "when-will-wormhole-airdrop",
+    "title": "Wormhole airdrop in March?",
+    "category": "Financials",
+    "close_time": "2024-03-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8993.61",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Wormhole’s W token airdrop eligibility was revealed in March, but token claiming/distribution began after the March 30 close. Therefore the March airdrop condition was not met.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Wormhole opened its W airdrop eligibility checker in early March 2024, with about 617.3 million W allocated to roughly 397,000 wallets.",
+          "The W token claim/TGE began on April 3, 2024, after this market’s March 30 UTC close."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1e51438708ee0136eaeb0139b38eea8e4a37fc2b6ab021897d50f4c6f11c6057",
+    "market_slug": "will-roaring-kitty-tweet-between-75-and-99-times",
+    "event_slug": "of-roaring-kitty-tweets-by-may-17",
+    "title": "Will Roaring Kitty tweet between 75 and 99 times?",
+    "category": "Financials",
+    "close_time": "2024-05-17T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "10186.2",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x01aaf2d58201c4709756501b39ac1679669b490d25480e127c5290c9487be2a4",
+    "market_slug": "ethena-market-cap-fdv-more-than-15-billion-a-day-after-airdrop",
+    "event_slug": "ethena-market-cap-fdv-one-day-after-airdrop",
+    "title": "Ethena token (FDV) more than 15 billion a day after launch?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "19327.1",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x24723243f50b194cd86e4ffa8267d79d4afd49fe311a6a21cd80daabdfdf6ba6",
+    "market_slug": "gme-halted-11-times-today",
+    "event_slug": "number-gme-trading-halts-today",
+    "title": "$GME halted 11 times today?",
+    "category": "Financials",
+    "close_time": "2024-05-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2350",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x45a3180d81bed7d314224c2e7a60fdf7552aed223fed73a1070b5e57cfdfeae3",
+    "market_slug": "will-the-sec-approve-blackrocks-bitcoin-etf-by-march-30",
+    "event_slug": "will-the-sec-approve-blackrocks-bitcoin-etf-by",
+    "title": "Will the SEC approve BlackRock's Bitcoin ETF by March 30?",
+    "category": "Financials",
+    "close_time": "2023-03-30T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "16199.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The deadline was March 30, 2023, but BlackRock’s spot Bitcoin ETF was not approved until early 2024. Therefore the condition was not met by the close time.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BlackRock filed for its spot Bitcoin ETF, the iShares Bitcoin Trust, in June 2023, after the March 30, 2023 deadline.",
+          "The SEC approved BlackRock’s spot Bitcoin ETF along with other spot Bitcoin ETFs on January 10, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcf77864f85bceee29072766ac21c15df1d78bbe34d6fe2dbe545e504ce4a91a2",
+    "market_slug": "will-solana-reach-150-in-november",
+    "event_slug": "what-price-will-solana-hit-in-november",
+    "title": "Will Solana reach $150 in November?",
+    "category": "Financials",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "217506",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Solana traded above $150 during November 2024, including early in the month and during the post-election crypto rally. The condition was met before the November 30 close.",
+      "probabilities": {
+        "Yes": 0.999,
+        "No": 0.001
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "SOL was already trading around the mid-$160s to $170 near the start of November 2024, above the $150 threshold.",
+          "Solana rallied further later in November 2024, reaching roughly the $240-$260 range around November 22-23."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbb1b8e5c5c99cc1ab5cfd7e8deff3b72d861ba1f6669e4f3b858dbb49b337e39",
+    "market_slug": "wormhole-token-fdv-between-5-6-billion-a-week-after-airdrop",
+    "event_slug": "wormhole-market-cap-fdv-one-week-after-airdrop",
+    "title": "Wormhole token FDV between 5-6 billion a week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-12-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17149.5",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x6b489f8c88ee6512794efaadf3fa5ae517de040834841bd11f6be6f4964b4d10",
+    "market_slug": "kamino-airdrop-by-march-1",
+    "event_slug": "solana-airdrops-by-march-1",
+    "title": "Kamino airdrop by March 1?",
+    "category": "Financials",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "13768.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamino had not completed or opened a token airdrop before the Feb. 29, 2024 close. Its KMNO/token airdrop process came later, so the market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kamino Finance’s KMNO token/airdrop details were announced after this market close, in March 2024 rather than before March 1.",
+          "The Season 1 Kamino airdrop/claim process was associated with later 2024 dates, not an airdrop completed by Feb. 29, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x65e7aaa8a7369001c9a5092fc0ebeff10928dc6444325a7a848f606295f4f652",
+    "market_slug": "celestia-token-above-5-one-week-after-airdrop",
+    "event_slug": "celestia-price-one-week-after-airdrop",
+    "title": "Celestia token above $5 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2023-11-06T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12577.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall this exact market resolution. Based on Celestia/TIA's early post-airdrop trading, it likely remained below $5 by the stated close time, though later rallies make some uncertainty possible.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x442328c16a9dc25ddafd42efbe7c40895e1982ff0308257ba5f475b3260e0999",
+    "market_slug": "taiko-airdrop-by-june-30",
+    "event_slug": "airdrops-by-june-30",
+    "title": "Taiko airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "501529",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Taiko’s Genesis Airdrop claim opened in early June 2024, before the June 30 close time. Thus the condition was met.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Taiko launched its TAIKO Genesis Airdrop claim in June 2024, ahead of the June 30 deadline.",
+          "The airdrop was tied to the TAIKO token/mainnet launch period, with eligible users able to claim via Taiko’s official claim process before the deadline."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x34cfe7d307e94e33e9e7da7bbc7fe4dcc7c031e04fa34df5e24374532f6840bb",
+    "market_slug": "will-jup-be-between-0pt70-and-1pt00-one-day-after-airdrop",
+    "event_slug": "jup-price-24hrs-after-airdrop",
+    "title": "Will JUP be between $0.70 and $1.00 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "29626.3",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x428446897aaeffe40c737d1d1bec8b956596ab61de516f7d179261434d6bb17f",
+    "market_slug": "will-strk-be-between-1pt00-and-1pt50-one-day-after-airdrop",
+    "event_slug": "strk-price-24hrs-after-airdrop",
+    "title": "Will STRK be between $1.00 and $1.50 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-19T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17455.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "STRK launched/airdropped in February 2024 and traded above the $1.00–$1.50 band after the initial listing volatility, so the condition was not met.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Starknet's STRK airdrop/Provisions claim opened on February 20, 2024.",
+          "After exchange listings, STRK traded around the high-$1 to low-$2 range roughly one day after launch, above $1.50 rather than within $1.00–$1.50."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0cbb60e7f5477c37efac4c8ac90c96ebe5d7234ae9d77138c6dc92e42e207ed3",
+    "market_slug": "will-jim-cramer-tweet-bitcoin-3-4-times-jan-26-feb-1",
+    "event_slug": "jim-cramer-of-bitcoin-tweets-from-jan-26-feb-1",
+    "title": "Will Jim Cramer tweet bitcoin 3-4 times Jan 26-Feb 1?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6664.08",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recognize the exact resolved market. Based on Jim Cramer’s intermittent but active bitcoin commentary around early 2024, exactly 3-4 tweets in the Jan 26-Feb 1 window seems plausible but not the most likely count.",
+      "probabilities": {
+        "Yes": 0.32,
+        "No": 0.68
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x7050870edde27818437a656574f3b98784ed125d911dbb1695d4401f33fc0994",
+    "market_slug": "will-jup-be-between-0pt70-and-1pt00-one-week-after-airdrop",
+    "event_slug": "jup-price-one-week-after-airdrop",
+    "title": "Will JUP be between $0.70 and $1.00 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5671.02",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I do not recall the exact market resolution. Based on JUP’s post-airdrop trading generally settling below $0.70 after launch volatility, I would lean No.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4283a57a03d2b19c6c47a734eb5f10e192684a92cc358cbe32c22f58b8099c0f",
+    "market_slug": "wormhole-airdrop-in-april",
+    "event_slug": "when-will-wormhole-airdrop",
+    "title": "Wormhole airdrop in April?",
+    "category": "Financials",
+    "close_time": "2024-04-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "4367.33",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Wormhole’s W token airdrop/claim went live in early April 2024, before the market close. I recall the event as having resolved Yes.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Wormhole launched its W governance token and opened the airdrop claim on April 3, 2024.",
+          "The airdrop allocation was about 617.3 million W tokens to roughly 397,000 eligible wallets."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4fc8f17cd400deaee0fc9eb724a4aa689ce9716e8ac0f829d6cd7bbc266c09fa",
+    "market_slug": "will-roaring-kitty-tweet-between-25-and-49-times",
+    "event_slug": "of-roaring-kitty-tweets-by-may-17",
+    "title": "Will Roaring Kitty tweet between 25 and 49 times?",
+    "category": "Financials",
+    "close_time": "2024-05-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9062.27",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recall the exact market resolution, but Roaring Kitty’s May 2024 return involved a rapid meme tweetstorm that likely exceeded 49 posts before the close. Therefore I assign a high probability to No.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x6ec724e393e9fae9452ed15114e03acdb562874bb6d40172b26f9efd5bc343e7",
+    "market_slug": "ethena-token-fdv-between-7pt5b-and-10b-one-day-after-launch",
+    "event_slug": "ethena-market-cap-fdv-one-day-after-airdrop",
+    "title": "Ethena token FDV between 7.5b and 10b one day after launch?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14802.5",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xf56ba353c754d648fc39435d818a0515c4503f4301c8f595b163a3ed542b80c7",
+    "market_slug": "gme-halted-9-times-today",
+    "event_slug": "number-gme-trading-halts-today",
+    "title": "$GME halted 9 times today?",
+    "category": "Financials",
+    "close_time": "2024-05-13T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1288",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0xc5e6bac14a5b46bbd88292a5dc0ca8794896d202b671d1582bcb123805bd68f4",
+    "market_slug": "will-solana-reach-300-in-november",
+    "event_slug": "what-price-will-solana-hit-in-november",
+    "title": "Will Solana reach $300 in November?",
+    "category": "Financials",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "169103",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall SOL’s November 2024 rally topped out below $300, so the market condition was not met before the stated close time.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Solana rallied sharply after the November 2024 U.S. election but peaked around the mid-$260s in late November 2024.",
+          "SOL did not trade at or above $300 before 2024-11-30 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x99039858e3bc05922d60e14092765fe9dbd5f92a9f295ed4c6bf0dd2319995ac",
+    "market_slug": "wormhole-token-fdv-between-6-7-billion-a-week-after-airdrop",
+    "event_slug": "wormhole-market-cap-fdv-one-week-after-airdrop",
+    "title": "Wormhole token FDV between 6-7 billion a week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-12-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14769.5",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x5680e5167b509cda65b544bff49804b151e3224acec09f9083619dd545cfe83b",
+    "market_slug": "wormhole-airdrop-by-march-1",
+    "event_slug": "solana-airdrops-by-march-1",
+    "title": "Wormhole airdrop by March 1?",
+    "category": "Financials",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12891.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Wormhole’s W airdrop was not live before the Feb. 29 close; the eligibility/airdrop details and claim came afterward. Thus this market would resolve No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Wormhole announced W token airdrop eligibility/details in March 2024, after the March 1 deadline.",
+          "The W airdrop claim/TGE occurred in early April 2024, with about 617.3 million W allocated to eligible wallets."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6cb42eebafe77f81d9164773db07ebd168add91ee909892cd14c59d4d442f3dc",
+    "market_slug": "eigenlayer-airdrop-by-june-30",
+    "event_slug": "airdrops-by-june-30",
+    "title": "EigenLayer airdrop by June 30?",
+    "category": "Financials",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "377945",
+    "status": "ok",
+    "forecast": {
+      "rationale": "EigenLayer’s EIGEN stakedrop/airdrop was announced and claims opened before the June 30, 2024 deadline. Token transferability came later, but the airdrop claim event occurred in time.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Eigen Foundation announced the EIGEN token and Season 1 stakedrop in late April 2024.",
+          "Season 1 EIGEN claim opened on May 10, 2024, before the June 30 close time.",
+          "The EIGEN tokens were initially non-transferable, with transferability enabled later in 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcd8cd600826b5826327202ac636524703be66fa1f07595447e7224e439410865",
+    "market_slug": "will-strk-be-between-1pt50-and-2pt00-one-day-after-airdrop",
+    "event_slug": "strk-price-24hrs-after-airdrop",
+    "title": "Will STRK be between $1.50 and $2.00 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-19T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "10974.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall STRK launching via Starknet's February 2024 airdrop and trading down to roughly the high-$1 range about a day later, which fits the specified $1.50–$2.00 band.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Starknet's STRK token airdrop/claim began on February 20, 2024, with major exchange listings around the launch.",
+          "After initial volatile trading above $2, STRK fell to around $1.8–$1.9 by roughly February 21, 2024, about one day after the airdrop."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x97fc381f83bfb83497cbc096bab98147f77216e83480525480917838912882c7",
+    "market_slug": "will-jim-cramer-tweet-bitcoin-1-2-times-jan-26-feb-1",
+    "event_slug": "jim-cramer-of-bitcoin-tweets-from-jan-26-feb-1",
+    "title": "Will Jim Cramer tweet bitcoin 1-2 times Jan 26-Feb 1?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3583.92",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I don’t recognize the exact market resolution. Jim Cramer tweets frequently but only intermittently about bitcoin, so a 1–2 tweet count over this window seems plausible but far from certain.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xd2738c991f451e055a883575c5cbef8479552775a6acf87a7a7cd4df626521f2",
+    "market_slug": "wormhole-airdrop-in-june",
+    "event_slug": "when-will-wormhole-airdrop",
+    "title": "Wormhole airdrop in June?",
+    "category": "Financials",
+    "close_time": "2024-06-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3422.16",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Wormhole’s major W token airdrop occurred before June 2024, so the June-specific condition was not met. I assign a high probability to No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Wormhole opened W token airdrop claims around April 3, 2024, alongside the W token launch/TGE.",
+          "The airdrop allocation was widely reported as about 617 million W tokens to eligible users, with eligibility checking announced in March 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9e2df3e2099492623ad8b6c3d4b606d3b9989210c0d87ccc128bc7c156a18fda",
+    "market_slug": "will-jup-be-between-0pt40-and-0pt70-one-day-after-airdrop",
+    "event_slug": "jup-price-24hrs-after-airdrop",
+    "title": "Will JUP be between $0.40 and $0.70 one day after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-01-30T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "26349.9",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": "{\"rationale\":\"I recall the Jupiter (JUP) Solana airdrop and subsequent trading; the token was around the low-$0.60s about a day after launch, inside the stated band.\",\"probabilities\":{\"Yes\":0.96,\"No\":0.04},\"recall_assessment\":{\"recognized_event\":true,\"evidence_facts\":[\"Jupiter's JUP token airdrop"
+    }
+  },
+  {
+    "condition_id": "0x27222f2574d144cc0cf39297ace291fa4900fdf6111eb93f99f6227d4d52335a",
+    "market_slug": "will-jup-be-above-1pt00-one-week-after-airdrop",
+    "event_slug": "jup-price-one-week-after-airdrop",
+    "title": "Will JUP be above $1.00 one week after airdrop?",
+    "category": "Financials",
+    "close_time": "2024-02-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4296.23",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x1b65c2f5f008af332612d26eae614c9aff53b7e5d656700fa7b34262529548a4",
+    "market_slug": "gme-halted-10-times-today",
+    "event_slug": "number-gme-trading-halts-today",
+    "title": "$GME halted 10 times today?",
+    "category": "Financials",
+    "close_time": "2024-05-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "500",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x20d6433b3fac7e1540d8e35eb5241374ebf48bd3e5ac46dbfa3c361923ba7de6",
+    "market_slug": "ethena-token-fdv-between-12pt5b-and-15b-one-day-after-launch",
+    "event_slug": "ethena-market-cap-fdv-one-day-after-airdrop",
+    "title": "Ethena token FDV between 12.5b and 15b one day after launch?",
+    "category": "Financials",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9350.32",
+    "status": "ok",
+    "forecast": {
+      "error": "Failed to parse JSON",
+      "raw_response": ""
+    }
+  },
+  {
+    "condition_id": "0x500e58ede818a2defebe0e003a6ff28fec045983cced6f0e62fa338072ec4f08",
+    "market_slug": "will-solana-reach-230-in-november",
+    "event_slug": "what-price-will-solana-hit-in-november",
+    "title": "Will Solana reach $230 in November?",
+    "category": "Financials",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "152025",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall SOL traded above the $230 threshold during the November 2024 post-election crypto rally, so this condition was met before the close time.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Solana traded above $230 in mid-to-late November 2024 during the broad crypto rally after the U.S. election.",
+          "SOL reached roughly the $260 range around November 22-23, 2024, exceeding the $230 threshold before 2024-11-30 12:00 UTC."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  }
+]

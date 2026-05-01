@@ -1,21 +1,17 @@
 #!/usr/bin/env python3
 """
-Forecast resolved Polymarket markets with ChatGPT via the OpenAI Responses API.
+Forecast future Polymarket markets with ChatGPT via the OpenAI Responses API.
 
-This mirrors ``Research/claude_recall.py`` closely so Claude and ChatGPT
-outputs stay comparable:
-  1. Read market rows from a CSV.
-  2. Build a recall-oriented prompt per row.
+This mirrors ``Research/chatgpt_recall.py`` but targets future events:
+  1. Read market rows from newmarkets.csv.
+  2. Build a forecasting prompt per row.
   3. Request structured JSON output from ChatGPT.
   4. Save results after every row so interrupted runs can resume.
-
-The script is inert until run manually. It does not make any network calls on
-import, and ``--dry-run`` avoids API access entirely.
 
 Typical usage once credentials are configured:
     pip install openai
     export OPENAI_API_KEY=sk-...
-    python Research/chatgpt_recall.py --input Research/curated_events.csv
+    python Research/chatgpt_fc.py
 """
 from __future__ import annotations
 
@@ -32,13 +28,13 @@ from typing import Any
 
 _cfg = configparser.ConfigParser(interpolation=None)
 BASE_DIR = Path(__file__).parent
-CONFIG_PATH = BASE_DIR / "recall_config.txt"
+CONFIG_PATH = BASE_DIR / "fc_config.txt"
 _cfg.read(CONFIG_PATH, encoding="utf-8")
 
 MARKET = _cfg.get("paths", "market")
 
-DEFAULT_INPUT = BASE_DIR / MARKET / "markets.csv"
-DEFAULT_OUTPUT = BASE_DIR / MARKET / "recall" / "gpt-5-5_recall.json" #change for each model
+DEFAULT_INPUT = BASE_DIR / MARKET / "newmarkets.csv"
+DEFAULT_OUTPUT = BASE_DIR / MARKET / "forecast" / "gpt-5-5_fc.json"
 
 DEFAULT_MODEL               = _cfg.get("models",          "openai_model",        fallback=os.environ.get("OPENAI_MODEL", "gpt-4o-2024-08-06"))
 DEFAULT_MAX_OUTPUT_TOKENS   = _cfg.getint("hyperparameters", "max_tokens",        fallback=500)
@@ -46,14 +42,14 @@ DEFAULT_TEMPERATURE         = _cfg.getfloat("hyperparameters", "temperature",   
 DEFAULT_SLEEP_BETWEEN_CALLS = _cfg.getfloat("hyperparameters", "sleep_between_calls", fallback=0.5)
 
 _SYSTEM_PROMPT_FALLBACK = (
-    "You are an AI assistant specialized in forecasting AND in recalling previously "
-    "seen real-world events. Output strictly valid JSON only."
+    "You are an AI assistant specialized in analyzing and predicting real-world events. "
+    "Return JSON only; no extra text."
 )
 SYSTEM_PROMPT = _cfg.get("system_prompt", "prompt", fallback=_SYSTEM_PROMPT_FALLBACK).strip()
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Forecast Polymarket events with ChatGPT.")
+    parser = argparse.ArgumentParser(description="Forecast future Polymarket events with ChatGPT.")
     parser.add_argument("--input", default=str(DEFAULT_INPUT), help="Path to input CSV.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="Path to output JSON.")
     parser.add_argument("--limit", type=int, default=None, help="Max number of markets to process.")
@@ -95,33 +91,15 @@ def build_user_prompt(row: dict[str, str], outcomes: list[str]) -> str:
     )
 
     outcomes_block = "\n".join(f"- {o}" for o in outcomes)
-    probs_template = "\n".join(
-        f'        "{o}": <probability_value_from_0_to_1>,' for o in outcomes
-    )
 
     return f"""\
-This is the event: {title}
+Here is the given event:
+Event title: {title}
 Category: {category}
-Close Time (UTC): {close_time}
-Example market meaning (rules):
-- {title}: {rule_text}
-Possible outcomes (provide probabilities for exactly these):
+Close time (UTC): {close_time}
+Possible outcomes:
 {outcomes_block}
-Your JSON must look like:
-{{
-    "rationale": "<short 2-3 sentence rationale>",
-    "probabilities": {{
-{probs_template}
-    }},
-    "recall_assessment": {{
-        "recognized_event": <true|false>,
-        "evidence_facts": [
-            "<verifying detail 1>",
-            "<verifying detail 2>"
-        ],
-        "recalled_outcome_if_known": "<outcome name if you remember the resolution, else null>"
-    }}
-}}\
+Example rule excerpt: {rule_text}\
 """
 
 
@@ -148,8 +126,7 @@ def parse_outcomes_field(raw_value: str) -> list[str]:
         parsed = None
 
     if isinstance(parsed, list):
-        outcomes = [str(item).strip() for item in parsed if str(item).strip()]
-        return outcomes
+        return [str(item).strip() for item in parsed if str(item).strip()]
 
     separators = ("|", ";", ",")
     for separator in separators:
@@ -180,7 +157,7 @@ def response_schema(outcomes: list[str]) -> dict[str, Any]:
         "properties": {
             "rationale": {
                 "type": "string",
-                "description": "One or two short sentences, max 50 words.",
+                "description": "Concise 2-3 sentence rationale.",
             },
             "probabilities": {
                 "type": "object",
@@ -188,33 +165,8 @@ def response_schema(outcomes: list[str]) -> dict[str, Any]:
                 "required": list(outcomes),
                 "additionalProperties": False,
             },
-            "recall_assessment": {
-                "type": "object",
-                "properties": {
-                    "recognized_event": {"type": "boolean"},
-                    "evidence_facts": {
-                        "type": "array",
-                        "items": {"type": "string"},
-                        "description": (
-                            "Concrete verifying details recalled from memory. "
-                            "Leave empty if the event is not recognized."
-                        ),
-                    },
-                    "recalled_outcome_if_known": {
-                        "type": ["string", "null"],
-                        "enum": [*outcomes, None],
-                        "description": "Verbatim outcome name if the resolution is remembered.",
-                    },
-                },
-                "required": [
-                    "recognized_event",
-                    "evidence_facts",
-                    "recalled_outcome_if_known",
-                ],
-                "additionalProperties": False,
-            },
         },
-        "required": ["rationale", "probabilities", "recall_assessment"],
+        "required": ["rationale", "probabilities"],
         "additionalProperties": False,
     }
 
@@ -228,7 +180,6 @@ def validate_forecast_payload(payload: dict[str, Any], outcomes: list[str]) -> d
 
     rationale = payload.get("rationale")
     probabilities = payload.get("probabilities")
-    recall_assessment = payload.get("recall_assessment")
 
     if not isinstance(rationale, str) or not rationale.strip():
         raise ValueError("missing or invalid rationale")
@@ -238,7 +189,7 @@ def validate_forecast_payload(payload: dict[str, Any], outcomes: list[str]) -> d
         raise ValueError(
             f"probability keys {sorted(probabilities)} do not match expected outcomes {sorted(outcomes)}"
         )
-    normalized_probabilities: dict[str, float] = {}
+    normalized: dict[str, float] = {}
     for outcome in outcomes:
         value = probabilities.get(outcome)
         if not isinstance(value, (int, float)):
@@ -246,29 +197,11 @@ def validate_forecast_payload(payload: dict[str, Any], outcomes: list[str]) -> d
         numeric = float(value)
         if numeric < 0.0 or numeric > 1.0:
             raise ValueError(f"probability for {outcome!r} is outside [0,1]")
-        normalized_probabilities[outcome] = numeric
-
-    if not isinstance(recall_assessment, dict):
-        raise ValueError("missing or invalid recall_assessment")
-    recognized_event = recall_assessment.get("recognized_event")
-    evidence_facts = recall_assessment.get("evidence_facts")
-    recalled_outcome = recall_assessment.get("recalled_outcome_if_known")
-
-    if not isinstance(recognized_event, bool):
-        raise ValueError("recognized_event must be boolean")
-    if not isinstance(evidence_facts, list) or any(not isinstance(item, str) for item in evidence_facts):
-        raise ValueError("evidence_facts must be a list of strings")
-    if recalled_outcome is not None and recalled_outcome not in outcomes:
-        raise ValueError("recalled_outcome_if_known must be null or one of the provided outcomes")
+        normalized[outcome] = numeric
 
     return {
         "rationale": rationale.strip(),
-        "probabilities": normalized_probabilities,
-        "recall_assessment": {
-            "recognized_event": recognized_event,
-            "evidence_facts": [item.strip() for item in evidence_facts if item.strip()],
-            "recalled_outcome_if_known": recalled_outcome,
-        },
+        "probabilities": normalized,
     }
 
 
@@ -305,8 +238,7 @@ def response_output_text(response: Any) -> str:
     pieces: list[str] = []
     output_items = getattr(response, "output", None) or []
     for item in output_items:
-        item_type = getattr(item, "type", None)
-        if item_type != "message":
+        if getattr(item, "type", None) != "message":
             continue
         for content_item in getattr(item, "content", None) or []:
             if getattr(content_item, "type", None) != "output_text":
@@ -326,11 +258,10 @@ def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens
         instructions=SYSTEM_PROMPT,
         input=[{"role": "user", "content": user_prompt}],
         max_output_tokens=max_output_tokens,
-        #temperature=temperature,
         text={
             "format": {
                 "type": "json_schema",
-                "name": "market_recall_forecast",
+                "name": "market_forecast",
                 "strict": True,
                 "schema": response_schema(outcomes),
             }
@@ -370,7 +301,7 @@ def main() -> None:
     print(f"Input:   {input_path}  ({len(markets)} rows)")
     print(f"Output:  {output_path}")
     print(f"Model:   {args.model}")
-    print(MARKET)
+    print(f"Market:  {MARKET}")
     print(f"Mode:    {'dry-run' if args.dry_run else 'live'}\n")
 
     results, done_ids = load_existing_results(output_path)
@@ -383,10 +314,9 @@ def main() -> None:
         ]
         print(f"Dry run only. Pending markets: {len(pending_rows)}")
         if pending_rows:
-            sample = pending_rows[0]
-            print(f"First pending market: {sample.get('title', '')}")
+            print(f"First pending market: {pending_rows[0].get('title', '')}")
         return
-    
+
     api_key_from_cfg = _cfg.get("api_keys", "OPENAI_API_KEY", fallback="UNSET").strip()
     if api_key_from_cfg and api_key_from_cfg != "UNSET":
         os.environ["OPENAI_API_KEY"] = api_key_from_cfg
@@ -415,7 +345,7 @@ def main() -> None:
                 temperature=args.temperature,
             )
             status = "ok"
-        except Exception as exc:  # pragma: no cover - runtime API failures are expected to be data-dependent
+        except Exception as exc:
             print(f"  ERROR: {exc}")
             forecast = {"error": str(exc)}
             status = "error"
@@ -427,7 +357,6 @@ def main() -> None:
             "title": title,
             "category": row.get("category") or row.get("domain", ""),
             "close_time": row.get("close_time") or row.get("close_date", ""),
-            "actual_resolution": row.get("resolution") or row.get("actual_resolution", ""),
             "volume": row.get("volume", ""),
             "status": status,
             "forecast": forecast,
@@ -439,6 +368,8 @@ def main() -> None:
 
         if args.sleep_between_calls > 0:
             time.sleep(args.sleep_between_calls)
+
+    print(f"\nDone.  {len(results)} results saved to {output_path}")
 
 
 if __name__ == "__main__":

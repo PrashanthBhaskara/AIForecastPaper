@@ -30,14 +30,17 @@ import anthropic
 # Config
 # ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).parent
-DEFAULT_INPUT  = BASE_DIR / "ScienceTechnologyMarkets" / "markets.csv"
-DEFAULT_OUTPUT = BASE_DIR / "ScienceTechnologyMarkets" / "recall" / "claude_sonnet-4-6_recall.json"
-CONFIG_PATH = BASE_DIR / "recall_config.txt"
 
 _cfg = configparser.ConfigParser(interpolation=None)
 _cfg.read(CONFIG_PATH, encoding="utf-8")
 
-MODEL               = _cfg.get("models",          "claude_model",        fallback="claude-sonnet-4-5")
+MARKET = _cfg.get("path", "market")
+MODEL = _cfg.get("models",          "claude_model",        fallback="claude-sonnet-4-5")
+
+DEFAULT_INPUT  = BASE_DIR / MARKET / "markets.csv"
+DEFAULT_OUTPUT = BASE_DIR / MARKET / "recall" / "claude_" + MODEL + "_1000_recall.json"
+CONFIG_PATH = BASE_DIR / "recall_config.txt"
+
 MAX_TOKENS          = _cfg.getint("hyperparameters", "max_tokens",        fallback=500)
 TEMPERATURE         = _cfg.getfloat("hyperparameters", "temperature",     fallback=0.0)
 SLEEP_BETWEEN_CALLS = _cfg.getfloat("hyperparameters", "sleep_between_calls", fallback=0.5)
