@@ -13,7 +13,7 @@
 # Leave as UNSET to fall back to the environment instead
 # (e.g. export ANTHROPIC_API_KEY=sk-...).
 ANTHROPIC_API_KEY = ENTER
-OPENAI_API_KEY    = ENTER
+OPENAI_API_KEY    = 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
 GEMINI_API_KEY    = ENTER
 
 
@@ -28,7 +28,7 @@ gemini_model = gemini-2.5-flash
 [hyperparameters]
 # Generation parameters kept identical across all providers.
 temperature         = 0.0
-max_tokens          = 500
+max_tokens          = 500-2000
 sleep_between_calls = 0.5
 
 

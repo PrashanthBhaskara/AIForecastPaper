@@ -38,8 +38,26 @@ CONFIG_PATH = BASE_DIR / "recall_config.txt"
 _cfg = configparser.ConfigParser(interpolation=None)
 _cfg.read(CONFIG_PATH, encoding="utf-8")
 
+def parse_token_range(raw: str | int) -> tuple[int, int]:
+    """Parse a token budget that is either a single int or a ``min-max`` range."""
+    if isinstance(raw, int):
+        lo = hi = raw
+    else:
+        text = str(raw).strip()
+        if "-" in text:
+            lo_str, hi_str = text.split("-", 1)
+            lo, hi = int(lo_str.strip()), int(hi_str.strip())
+        else:
+            lo = hi = int(text)
+    if lo <= 0 or hi <= 0:
+        raise ValueError(f"token budget must be positive, got {raw!r}")
+    if lo > hi:
+        raise ValueError(f"token range min ({lo}) exceeds max ({hi})")
+    return (lo, hi)
+
+
 DEFAULT_MODEL               = _cfg.get("models",          "openai_model",        fallback=os.environ.get("OPENAI_MODEL", "gpt-4o-2024-08-06"))
-DEFAULT_MAX_OUTPUT_TOKENS   = _cfg.getint("hyperparameters", "max_tokens",        fallback=500)
+DEFAULT_MAX_OUTPUT_TOKENS   = parse_token_range(_cfg.get("hyperparameters", "max_tokens", fallback="500"))
 DEFAULT_TEMPERATURE         = _cfg.getfloat("hyperparameters", "temperature",     fallback=0.0)
 DEFAULT_SLEEP_BETWEEN_CALLS = _cfg.getfloat("hyperparameters", "sleep_between_calls", fallback=0.5)
 
@@ -54,13 +72,22 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Forecast Polymarket events with ChatGPT.")
     parser.add_argument("--input", default=str(DEFAULT_INPUT), help="Path to input CSV.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="Path to output JSON.")
-    parser.add_argument("--limit", type=int, default=None, help="Max number of markets to process.")
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Max number of markets to process. Default: 100 for ClimateMarkets, 150 otherwise.",
+    )
     parser.add_argument("--model", default=DEFAULT_MODEL, help=f"OpenAI model to use. Default: {DEFAULT_MODEL}")
     parser.add_argument(
         "--max-output-tokens",
-        type=int,
+        type=parse_token_range,
         default=DEFAULT_MAX_OUTPUT_TOKENS,
-        help=f"Max tokens per response. Default: {DEFAULT_MAX_OUTPUT_TOKENS}",
+        help=(
+            "Max tokens per response — single int (e.g. 500) or 'min-max' range "
+            f"(e.g. 500-2000). Range retries with the upper bound if the first call "
+            f"is truncated. Default: {DEFAULT_MAX_OUTPUT_TOKENS[0]}-{DEFAULT_MAX_OUTPUT_TOKENS[1]}"
+        ),
     )
     parser.add_argument(
         "--temperature",
@@ -315,25 +342,41 @@ def response_output_text(response: Any) -> str:
     return "".join(pieces)
 
 
-def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens: int, temperature: float) -> dict[str, Any]:
+def _truncated_by_max_tokens(response: Any) -> bool:
+    if getattr(response, "status", None) != "incomplete":
+        return False
+    details = getattr(response, "incomplete_details", None)
+    return getattr(details, "reason", None) == "max_output_tokens" if details else False
+
+
+def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens: tuple[int, int], temperature: float) -> dict[str, Any]:
     outcomes = infer_outcomes(row)
     user_prompt = build_user_prompt(row, outcomes)
 
-    response = client.responses.create(
-        model=model,
-        instructions=SYSTEM_PROMPT,
-        input=[{"role": "user", "content": user_prompt}],
-        max_output_tokens=max_output_tokens,
-        temperature=temperature,
-        text={
-            "format": {
-                "type": "json_schema",
-                "name": "market_recall_forecast",
-                "strict": True,
-                "schema": response_schema(outcomes),
-            }
-        },
-    )
+    min_tokens, max_tokens = max_output_tokens
+    budgets = [min_tokens] if min_tokens == max_tokens else [min_tokens, max_tokens]
+
+    response = None
+    for index, budget in enumerate(budgets):
+        if index > 0:
+            print(f"  retrying with {budget} tokens (previous response truncated)")
+        response = client.responses.create(
+            model=model,
+            instructions=SYSTEM_PROMPT,
+            input=[{"role": "user", "content": user_prompt}],
+            max_output_tokens=budget,
+            temperature=temperature,
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "market_recall_forecast",
+                    "strict": True,
+                    "schema": response_schema(outcomes),
+                }
+            },
+        )
+        if not _truncated_by_max_tokens(response):
+            break
 
     raw_text = response_output_text(response)
     parsed = parse_json_response(raw_text)
@@ -343,8 +386,6 @@ def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens
 def validate_args(args: argparse.Namespace) -> None:
     if args.limit is not None and args.limit < 0:
         raise SystemExit("--limit must be zero or positive")
-    if args.max_output_tokens <= 0:
-        raise SystemExit("--max-output-tokens must be positive")
     if args.sleep_between_calls < 0:
         raise SystemExit("--sleep-between-calls must be zero or positive")
 
@@ -362,8 +403,14 @@ def main() -> None:
     with input_path.open(newline="", encoding="utf-8") as handle:
         markets = list(csv.DictReader(handle))
 
-    if args.limit is not None:
-        markets = markets[: args.limit]
+    if args.limit is None:
+        if "ClimateMarkets" in input_path.parts:
+            effective_limit = 100
+        else:
+            effective_limit = 150
+    else:
+        effective_limit = args.limit
+    markets = markets[:effective_limit]
 
     print(f"Input:   {input_path}  ({len(markets)} rows)")
     print(f"Output:  {output_path}")
