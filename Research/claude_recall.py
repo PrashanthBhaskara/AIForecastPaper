@@ -30,8 +30,8 @@ import anthropic
 # Config
 # ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).parent
-DEFAULT_INPUT  = BASE_DIR / "FinancialsMarkets" / "markets.csv"
-DEFAULT_OUTPUT = BASE_DIR / "FinancialsMarkets" / "recall" / "claude_sonnet-4-6_recall.json"
+DEFAULT_INPUT  = BASE_DIR / "ScienceTechnologyMarkets" / "markets.csv"
+DEFAULT_OUTPUT = BASE_DIR / "ScienceTechnologyMarkets" / "recall" / "claude_sonnet-4-6_recall.json"
 CONFIG_PATH = BASE_DIR / "recall_config.txt"
 
 _cfg = configparser.ConfigParser(interpolation=None)
