@@ -10,15 +10,18 @@
     "volume": "48285.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market's resolution. Given Iceland's elevated seismic activity in late 2023, especially around Reykjanes, an eruption before Nov. 15 was plausible but still less likely than not by that deadline.",
+      "rationale": "I remember this exact period: intense seismic unrest near Grindavík in early November 2023 raised eruption odds sharply, but the actual Sundhnúkur/Fagradalsfjall eruption began after Nov. 15. So the market likely resolved No.",
       "probabilities": {
-        "Yes": 0.35,
-        "No": 0.65
+        "Yes": 0.03,
+        "No": 0.97
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "A state of emergency was declared in Iceland and Grindavík was evacuated around November 10-11, 2023 due to magma intrusion and thousands of earthquakes.",
+          "The eruption I recall started on December 18, 2023 near Sundhnúkur, northeast of Grindavík on the Reykjanes Peninsula, which is after the Nov. 15 cutoff."
+        ],
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -33,7 +36,7 @@
     "volume": "604511",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this event: SpaceX achieved a booster catch before the market close, making the outcome effectively known. The key uncertainty is only whether this is the exact market, but the title matches a widely reported milestone.",
+      "rationale": "I recognize this event: SpaceX achieved the first Super Heavy booster catch by the launch tower chopsticks before the deadline. Therefore the market should resolve Yes.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -41,9 +44,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "On Starship Flight 5 in October 2024, SpaceX caught the returning Super Heavy booster with the launch tower's 'chopstick' arms at Starbase, Texas.",
-          "The booster involved was Booster 12, and the catch occurred after stage separation during the fifth integrated flight test.",
-          "This milestone happened before 2024-11-18, satisfying the market's deadline."
+          "The first successful Super Heavy booster catch occurred during Starship Flight 5 in October 2024.",
+          "The booster was caught by the launch tower's 'Mechazilla' chopsticks at Starbase, Texas, after returning from launch.",
+          "This happened before the market close time of 2024-11-18T12:00:00Z."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -60,10 +63,10 @@
     "volume": "595329",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given 2024’s exceptional warmth and monthly anomalies often near or above 1.2°C in major datasets, I slightly favor November 2024 not being below 1.20°C.",
+      "rationale": "I do not specifically remember the finalized November 2024 global temperature anomaly. Given the exceptional warmth through 2023–2024 but some easing after the El Niño peak, this looks close to the threshold with a slight lean below 1.20°C.",
       "probabilities": {
-        "Yes": 0.42,
-        "No": 0.58
+        "Yes": 0.56,
+        "No": 0.44
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -83,10 +86,10 @@
     "volume": "3.61894e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently recall the final 2024 Atlantic named-storm count. Given preseason expectations for an above-normal season, I slightly favor 16 or more named storms, making \"No\" more likely.",
+      "rationale": "I do not confidently recall the final 2024 Atlantic named-storm count. Given preseason expectations for an above-normal season, 16 or more storms seemed somewhat more likely than fewer than 16.",
       "probabilities": {
-        "Yes": 0.42,
-        "No": 0.58
+        "Yes": 0.4,
+        "No": 0.6
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -106,10 +109,10 @@
     "volume": "9.46687e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved value. Based on 2024 likely being around or above recent record warmth, a narrow 0.02°C band is plausible but still less likely than falling outside it.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given 2024’s exceptional warmth and uncertainty around the final annual anomaly depending on dataset/baseline, the narrow 1.22°C–1.24°C band seems plausible but not dominant.",
       "probabilities": {
-        "Yes": 0.22,
-        "No": 0.78
+        "Yes": 0.34,
+        "No": 0.66
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -129,19 +132,18 @@
     "volume": "71412.1",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember this resolved after a volcanic eruption began on Iceland's Reykjanes Peninsula before the deadline. Given that memory, the outcome is very likely Yes.",
+      "rationale": "I remember intense seismic unrest near Grindavík in November 2023, but the widely reported eruption began in mid-December, after this market's deadline. So No is much more likely than Yes.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.08,
+        "No": 0.92
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "A volcanic eruption started near Grindavík on the Reykjanes Peninsula in Iceland in late 2023 after intense earthquake swarms.",
-          "The major fissure eruption I recall began on 18 December 2023, which is after this market's 30 November 2023 close time.",
-          "There was also a July 2023 Litli-Hrútur eruption on the Reykjanes Peninsula, before 30 November 2023."
+          "A major seismic swarm and magma intrusion affected the Reykjanes Peninsula near Grindavík in November 2023, prompting evacuations.",
+          "The first eruption in that episode began on 18 December 2023 near Sundhnúkur, after the Nov. 30 deadline."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -156,7 +158,7 @@
     "volume": "286410",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this market's final resolution. By late 2024 SpaceX had multiple Starship test flights, but reaching five successful launches to outer space within calendar 2024 remained uncertain, so I lean slightly No.",
+      "rationale": "I do not specifically remember this exact market’s resolved outcome. Based on 2024 Starship cadence and the difficulty of achieving five orbital-space-reaching launches within one calendar year, I lean slightly against.",
       "probabilities": {
         "Yes": 0.42,
         "No": 0.58
@@ -179,10 +181,10 @@
     "volume": "453420",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall the finalized October 2024 global temperature anomaly relative to this 1.40°C threshold. Given the exceptional warmth of 2023–2024 and elevated baseline temperatures, exceeding 1.40°C appears somewhat more likely than not.",
+      "rationale": "I do not specifically remember the finalized October 2024 anomaly value. Given the run of exceptional warmth in 2023–2024, exceeding 1.40°C seems somewhat more likely than not, but uncertainty remains substantial.",
       "probabilities": {
-        "Yes": 0.64,
-        "No": 0.36
+        "Yes": 0.62,
+        "No": 0.38
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -202,7 +204,7 @@
     "volume": "559640",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently recall the exact resolved outcome. Category 5 landfall is rare even for storms that briefly reach Cat 5 intensity, so No is more likely than Yes.",
+      "rationale": "I do not confidently recall the exact resolved outcome. Category 5 landfalls are rare, so absent firm memory I lean No while allowing meaningful tail risk.",
       "probabilities": {
         "Yes": 0.18,
         "No": 0.82
@@ -225,10 +227,10 @@
     "volume": "618869",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t specifically recall this exact market’s resolved value. Given 2024’s exceptional warmth and monthly anomalies often clustering near 1.3-1.5°C above preindustrial, a narrow 0.05°C band around 1.32°C seems plausible but still less likely than all other values combined.",
+      "rationale": "I do not specifically remember the resolved December 2024 anomaly value. Given recent monthly global temperature anomalies often clustered around the low-to-mid 1.3°C range, this narrow 0.05°C band seems plausible but still less likely than all other values combined.",
       "probabilities": {
-        "Yes": 0.18,
-        "No": 0.82
+        "Yes": 0.22,
+        "No": 0.78
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -248,7 +250,7 @@
     "volume": "10561.8",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember this event because Iceland had a widely reported eruption on the Reykjanes Peninsula in December 2023, before year-end. That makes a Yes resolution very likely.",
+      "rationale": "I remember this exact late-2023 Iceland eruption question and the Reykjanes unrest that preceded it. An eruption did occur in Iceland before year-end, making Yes the resolved outcome.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -256,8 +258,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "A volcanic eruption began on the Reykjanes Peninsula near Grindavík on 18 December 2023.",
-          "The eruption opened fissures near Sundhnúkur after intense seismic activity and evacuations around Grindavík earlier in November 2023."
+          "A volcanic eruption began on the Reykjanes Peninsula near Grindavík on 18 December 2023 after weeks of intense seismic activity and magma intrusion.",
+          "The eruption opened fissures in the Sundhnúkur crater row area northeast of Grindavík, and occurred before the Dec. 31, 2023 market close."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -274,7 +276,7 @@
     "volume": "194611",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this market's final resolution. Given the large 2024 U.S. H5N1 outbreak in dairy cattle and repeated human exposures, reaching 100 confirmed U.S. human cases before 2025 seemed possible but still less likely than not due to limited documented transmission.",
+      "rationale": "I do not specifically remember this exact market's resolution. Given the 2024 U.S. H5N1 outbreak in dairy cattle and rising human exposure, reaching 100 confirmed U.S. human bird flu cases before 2025 seemed possible but still less likely than not because confirmed cases remained relatively limited for much of the year.",
       "probabilities": {
         "Yes": 0.35,
         "No": 0.65
@@ -297,10 +299,10 @@
     "volume": "94831.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved outcome. Climatological averages are near 14 named storms, but recent active Atlantic conditions and warm SSTs made an above-average season somewhat more likely than not.",
+      "rationale": "I do not specifically remember this exact market's resolved outcome. Climatological averages are near 14 named storms, and 2024 was widely expected to be an active Atlantic season, so I lean slightly toward more than 14.",
       "probabilities": {
-        "Yes": 0.58,
-        "No": 0.42
+        "Yes": 0.62,
+        "No": 0.38
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -320,15 +322,19 @@
     "volume": "353862",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market, but 2023 was exceptionally warm globally due to strong anthropogenic warming plus El Niño. A threshold of 1.13°C appears more likely than not to have been exceeded.",
+      "rationale": "I recognize this as a 2023 climate market tied to annual global temperature anomaly/heat metrics, and 2023 was exceptionally warm due to strong anthropogenic warming plus El Niño. I recall the final reported increase clearing 1.13, so Yes is overwhelmingly likely.",
       "probabilities": {
-        "Yes": 0.88,
-        "No": 0.12
+        "Yes": 0.99,
+        "No": 0.01
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "2023 was reported as the warmest year on record globally, with the annual average around 1.48°C above the 1850-1900 preindustrial level in major summaries.",
+          "Copernicus/ECMWF announced in early 2024 that 2023 exceeded 1.4°C above preindustrial on an annual basis, comfortably above a 1.13 threshold.",
+          "The second half of 2023 featured exceptional monthly global warmth, with several months setting record anomalies during the developing El Niño."
+        ],
+        "recalled_outcome_if_known": "Yes"
       }
     }
   },
@@ -343,10 +349,10 @@
     "volume": "4166.62",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market's resolution. Given Iceland's frequent volcanic unrest in 2023, especially around Reykjanes, an eruption before Nov. 17 was plausible but still uncertain by that date.",
+      "rationale": "I remember this market period coinciding with intense seismic unrest near Grindavík and the Blue Lagoon, but I do not confidently recall whether an eruption occurred before Nov. 17 specifically. Given the escalation and eventual eruption later in 2023, I lean slightly toward Yes.",
       "probabilities": {
-        "Yes": 0.42,
-        "No": 0.58
+        "Yes": 0.56,
+        "No": 0.44
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -366,10 +372,10 @@
     "volume": "95434.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolution. Given Starship’s rapid 2024 test cadence and public expectations around another flight in November, a launch before Nov. 18 looked somewhat more likely than not, but delays remained substantial.",
+      "rationale": "I do not specifically remember this exact market's resolution. Given Starship's rapid 2024 test cadence and public plans for additional flights after June 2024, another launch before Nov. 18 seemed more likely than not.",
       "probabilities": {
-        "Yes": 0.62,
-        "No": 0.38
+        "Yes": 0.72,
+        "No": 0.28
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -389,7 +395,7 @@
     "volume": "91223.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize the 2023 Atlantic season as exceptionally active, boosted by very warm Atlantic waters despite El Niño. I recall the final named-storm count reached 20, so the threshold of 19 was exceeded.",
+      "rationale": "I remember the 2023 Atlantic season was unusually active and finished with exactly 20 named storms, exceeding the 19-storm threshold. That makes the market resolve Yes.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -397,9 +403,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The 2023 Atlantic Hurricane Season produced 20 named storms.",
-          "Hurricane Idalia was a major U.S.-impacting storm in late August 2023, and Tropical Storm Ophelia was a named storm in September.",
-          "The season ended on November 30, 2023, with the named-storm total above the 19-storm threshold."
+          "The 2023 Atlantic hurricane season produced 20 named storms in total.",
+          "Hurricane Tammy was the 20th named storm of the season in late October 2023.",
+          "NOAA's postseason summary listed 20 named storms, 7 hurricanes, and 3 major hurricanes for 2023."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -416,7 +422,7 @@
     "volume": "190128",
     "status": "ok",
     "forecast": {
-      "rationale": "Global monthly temperature records had been falling repeatedly through 2023 and early 2024 under strong anthropogenic warming plus lingering El Niño influence. That made another record-hot month plausible, though not certain by June 1 close.",
+      "rationale": "I do not specifically remember this exact market’s resolution. Given the persistent global warmth through 2023–2024 and repeated monthly records, May 2024 being hottest on record looked more likely than not by the close date.",
       "probabilities": {
         "Yes": 0.72,
         "No": 0.28
@@ -439,7 +445,7 @@
     "volume": "286208",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recognize this exact market, so I estimate from base rates. Magnitude 8.0+ earthquakes are rare globally, making a December occurrence plausible but unlikely in any specific month.",
+      "rationale": "I do not specifically recall this exact market resolving. Interpreting \"megaquake\" as a very large earthquake in December, such events are rare in any single month, so No is more likely.",
       "probabilities": {
         "Yes": 0.08,
         "No": 0.92
@@ -462,10 +468,10 @@
     "volume": "69692.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recognize this exact market, so I’m estimating from general 2024 H5N1 spread trends. Reported human cases were rising globally, but reaching 100 by Nov. 22 depended heavily on the market’s specific counting source and definition.",
+      "rationale": "I do not recognize this exact market, so I’m reasoning from the 2024 U.S. H5N1 outbreak trajectory. Reported human cases were rising through late 2024, making 100 by Nov. 22 plausible but still somewhat more likely not yet reached by that date.",
       "probabilities": {
-        "Yes": 0.58,
-        "No": 0.42
+        "Yes": 0.42,
+        "No": 0.58
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -485,10 +491,10 @@
     "volume": "41115.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently remember this exact market’s resolved outcome. Based on general hurricane climatology, a specific storm making landfall at exactly Category 3 is plausible but less likely than not.",
+      "rationale": "I do not confidently recall this exact market’s resolved outcome. Based on typical hurricane intensity uncertainty near landfall, category 3 landfall is plausible but less likely than not.",
       "probabilities": {
-        "Yes": 0.34,
-        "No": 0.66
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -508,10 +514,10 @@
     "volume": "114342",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolution. Given the persistent global warmth through 2023 and early 2024, another record-hot month was more likely than not, but monthly records remain uncertain.",
+      "rationale": "Global temperatures were exceptionally high through late 2023 and early 2024 under strong anthropogenic warming plus El Niño influence. That made another monthly heat record by June 2024 more likely than not, though monthly records remain uncertain.",
       "probabilities": {
-        "Yes": 0.68,
-        "No": 0.32
+        "Yes": 0.72,
+        "No": 0.28
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -531,10 +537,10 @@
     "volume": "89555.1",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market or its resolution. Interpreting \"megaquake\" as an extremely large earthquake, such events are rare in any single month, so No is much more likely than Yes.",
+      "rationale": "I do not specifically recall this exact market resolving. Interpreting \"megaquake\" as a very large earthquake, such events are rare in any single month, so No is more likely than Yes.",
       "probabilities": {
-        "Yes": 0.03,
-        "No": 0.97
+        "Yes": 0.06,
+        "No": 0.94
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -554,7 +560,7 @@
     "volume": "23050.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as the June 2024 Boeing Starliner crewed test flight issue involving Butch Wilmore and Suni Williams. I recall NASA did not return them on Starliner by July 21, making departure by that date unlikely to impossible.",
+      "rationale": "I recognize this as the June 2024 Boeing Starliner ISS mission issue. NASA delayed the crewed return well past July 21 due to helium leaks and thruster concerns, making departure by that date very unlikely.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -562,9 +568,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Boeing Starliner launched on its first crewed test flight in June 2024 carrying NASA astronauts Butch Wilmore and Suni Williams to the ISS.",
-          "The mission experienced helium leaks and reaction control thruster problems, leading NASA to extend the astronauts' stay well beyond the original short-duration plan.",
-          "By later 2024 NASA opted to bring Starliner back uncrewed and return the astronauts on SpaceX instead, implying they had not departed on Starliner by July 21, 2024."
+          "Boeing Starliner launched its first crewed test flight on June 5, 2024 with NASA astronauts Butch Wilmore and Suni Williams.",
+          "After docking to the ISS, NASA and Boeing repeatedly delayed the return because of helium leaks and reaction-control thruster problems.",
+          "The astronauts did not depart on Starliner by July 21, 2024; the mission remained extended beyond that date."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -581,7 +587,7 @@
     "volume": "28670.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize Hurricane Beryl in July 2024 and recall it made U.S. landfall in Texas as a Category 1 hurricane, which implies tropical-storm-force impact as well. Given that memory, Yes is overwhelmingly likely.",
+      "rationale": "I recognize Hurricane Beryl in July 2024 and recall it made U.S. landfall in Texas as a hurricane, which implies it had already reached the U.S. while at least a tropical storm. So the market is very likely Yes.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -589,9 +595,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Beryl made landfall on the Texas Gulf Coast near Matagorda/Surfside Beach on July 8, 2024.",
-          "At U.S. landfall Beryl was a Category 1 hurricane with roughly 80 mph winds, after crossing the Yucatán.",
-          "Because it struck Texas as a hurricane before the market close, it necessarily hit the U.S. as at least a tropical storm."
+          "Beryl made landfall on the Texas coast near Matagorda on July 8, 2024.",
+          "At U.S. landfall Beryl was a Category 1 hurricane with roughly 80 mph winds.",
+          "Before Texas, Beryl had crossed the Caribbean and struck Jamaica and Mexico's Yucatan region."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -608,10 +614,10 @@
     "volume": "98020.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the run of exceptional global warmth in early 2024, a 1.20°C-1.25°C April anomaly band seems plausible but not certain, so I lean slightly toward Yes.",
+      "rationale": "I do not specifically remember this exact market’s resolved value. Given the run of exceptional global warmth in 2023-2024, an April anomaly in the 1.20°C-1.25°C band seems plausible but not dominant versus being outside that narrow range.",
       "probabilities": {
-        "Yes": 0.58,
-        "No": 0.42
+        "Yes": 0.34,
+        "No": 0.66
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -631,10 +637,10 @@
     "volume": "81650.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recognize this exact market, so I estimate from base rates. A true \"megaquake\" is extremely rare in any single month, making No overwhelmingly more likely.",
+      "rationale": "I do not specifically recall this exact market resolving. Interpreting \"megaquake\" as a very large earthquake in August 2024, such events are rare globally, so No is more likely than Yes.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.08,
+        "No": 0.92
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -654,7 +660,7 @@
     "volume": "21010.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as the June 2024 Boeing Starliner Crew Flight Test situation with Butch Wilmore and Suni Williams delayed at the ISS. They did not depart on Starliner by July 4; NASA extended the mission while assessing helium leaks and thruster issues.",
+      "rationale": "I recognize this as the 2024 Boeing Starliner Crew Flight Test situation. NASA delayed the crewed return well past early July while investigating helium leaks and thruster issues, so departure by July 4 did not occur.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -662,9 +668,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Boeing Starliner launched its first crewed test flight to the ISS in June 2024 with astronauts Butch Wilmore and Suni Williams.",
-          "After docking, NASA and Boeing discussed helium leaks and reaction-control thruster problems, delaying the planned return beyond late June.",
-          "The astronauts remained aboard the ISS through July 4, 2024 rather than departing on Starliner by that date."
+          "NASA astronauts Butch Wilmore and Suni Williams launched on Boeing Starliner for the Crew Flight Test in June 2024.",
+          "The mission encountered helium leaks and reaction-control thruster problems, leading NASA to postpone the return beyond July 4, 2024.",
+          "The astronauts did not depart on Starliner by the July 4 deadline; the market would resolve No."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -681,7 +687,7 @@
     "volume": "4439.95",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently remember this exact market’s resolution. Based on climatology and naming context alone, a U.S.-impacting Atlantic storm has a moderate chance to make landfall as a hurricane before late September, but it is far from certain.",
+      "rationale": "I do not confidently remember this exact market's resolution. Given the storm name and Atlantic season timing, a U.S. hurricane landfall was plausible but far from certain, so I assign a modest lean toward No.",
       "probabilities": {
         "Yes": 0.42,
         "No": 0.58
@@ -704,7 +710,7 @@
     "volume": "3.5944e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as the 2023 LK-99-related market. By year-end 2023, claimed room-temperature superconductivity had not been convincingly replicated or accepted by the scientific community, so No was overwhelmingly likely.",
+      "rationale": "I recognize this as the 2023 LK-99-related market. By year-end 2023, no reproducible evidence established a real room-temperature superconductor meeting the claim, so No was overwhelmingly likely.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -713,8 +719,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "In July 2023, Korean researchers posted preprints claiming LK-99 was a room-temperature, ambient-pressure superconductor.",
-          "Multiple groups attempted replication in August 2023 and generally found no superconductivity; observed effects were attributed to impurities such as copper sulfide and ferromagnetism/partial levitation.",
-          "By late 2023 there was no accepted demonstration of room-temperature superconductivity at ambient pressure, so such markets resolved against the claim."
+          "Multiple replication attempts through August 2023 failed to confirm superconductivity; observed effects were widely attributed to impurities and partial levitation from ferromagnetism.",
+          "By late 2023, the scientific consensus was that LK-99 was not a verified room-temperature superconductor."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -731,7 +737,7 @@
     "volume": "75023.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market or a qualifying October 2024 megaquake. Such earthquakes are rare globally in any given month, so No is much more likely than Yes.",
+      "rationale": "I do not specifically recall this exact market or its resolution. Interpreting \"megaquake\" as an extremely large earthquake, such events are rare in any single month, so No is much more likely than Yes.",
       "probabilities": {
         "Yes": 0.03,
         "No": 0.97
@@ -754,10 +760,10 @@
     "volume": "14480",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recognize this exact market, and the title lacks enough context to identify the specific launch. With no reliable recall, I assign near-even odds with slight uncertainty toward no delay being less likely than some delay occurring.",
+      "rationale": "I do not confidently recognize this exact market or what specific 'Blast' launch it refers to. With ambiguous reference and many launches facing schedule slips, I assign a modest lean toward delay before the deadline.",
       "probabilities": {
-        "Yes": 0.54,
-        "No": 0.46
+        "Yes": 0.58,
+        "No": 0.42
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -777,10 +783,10 @@
     "volume": "1413",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market resolving. November US hurricane landfalls are uncommon but not impossible, so No is favored based on climatology.",
+      "rationale": "I do not specifically remember this exact market resolving. Climatologically, US hurricane landfalls in November are uncommon but possible, so No is favored.",
       "probabilities": {
-        "Yes": 0.12,
-        "No": 0.88
+        "Yes": 0.18,
+        "No": 0.82
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -800,10 +806,10 @@
     "volume": "473762",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recognize this exact market, so I’m reasoning from general climate trends. Monthly global temperature anomalies in 2024 were often very high, making a sub-1.15°C August increase possible but somewhat less likely than not depending on the baseline used.",
+      "rationale": "I do not recognize this exact market, so I’m reasoning from climatology: monthly global temperature anomalies in 2024 were elevated, making a sub-1.15°C August increase plausible but far from certain depending on the baseline used. I assign a slight lean to Yes.",
       "probabilities": {
-        "Yes": 0.43,
-        "No": 0.57
+        "Yes": 0.58,
+        "No": 0.42
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -823,10 +829,10 @@
     "volume": "63269.5",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market resolving. A magnitude 8.0+ earthquake in any given month is uncommon but not rare, so November 2024 had a modest chance of seeing one.",
+      "rationale": "I do not recognize this exact market, so I estimate from base rates. Magnitude 8.0+ earthquakes are uncommon globally, and having one specifically in November 2024 was unlikely but plausible.",
       "probabilities": {
-        "Yes": 0.12,
-        "No": 0.88
+        "Yes": 0.08,
+        "No": 0.92
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -846,10 +852,10 @@
     "volume": "14394.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market, but a WHO declaration of a new global pandemic within that short window was very unlikely. The late-2023 China respiratory illness reports were widely attributed to known pathogens rather than a novel pandemic threat.",
+      "rationale": "I do not specifically recall this exact market, but a formal global pandemic declaration by Feb. 1, 2024 was very unlikely given available reporting and WHO language around the China respiratory illness surge. Such declarations are rare and require sustained global spread plus strong institutional consensus.",
       "probabilities": {
-        "Yes": 0.03,
-        "No": 0.97
+        "Yes": 0.02,
+        "No": 0.98
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -869,10 +875,10 @@
     "volume": "117216",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market resolving. Tsunami flooding in downtown San Francisco before December 2024 is possible but rare, requiring a significant Pacific event and local inundation reaching downtown.",
+      "rationale": "I do not specifically remember this market resolving. Downtown San Francisco tsunami flooding before December 2024 would require a rare nearby or very large Pacific event, so the base rate is low but not negligible.",
       "probabilities": {
-        "Yes": 0.06,
-        "No": 0.94
+        "Yes": 0.03,
+        "No": 0.97
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -892,10 +898,10 @@
     "volume": "421133",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this market resolving. Given the high bar for confirming a near-room-temperature Meissner effect and the lack of broadly accepted confirmation by late 2024, No is much more likely.",
+      "rationale": "I do not specifically recall this market resolving by the end of 2024. Given the extraordinary evidentiary bar for confirming near-room-temperature superconductivity with a Meissner effect and the lack of broadly accepted confirmation through 2024, No is much more likely.",
       "probabilities": {
-        "Yes": 0.08,
-        "No": 0.92
+        "Yes": 0.06,
+        "No": 0.94
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -915,7 +921,7 @@
     "volume": "4024.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this event: Starship Flight 4 in June 2024 completed re-entry and achieved a controlled splashdown after surviving peak heating. Given that, the market should resolve Yes.",
+      "rationale": "I recognize this event from SpaceX's fourth integrated Starship flight test in 2024. Starship re-entered and achieved a controlled splashdown, so the market condition was met.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -923,10 +929,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Starship Flight 4 launched on 6 June 2024 from Starbase, Texas.",
-          "The Super Heavy booster performed a controlled splashdown in the Gulf of Mexico after boostback and landing burn.",
-          "The Starship upper stage survived re-entry heating and made a controlled splashdown in the Indian Ocean.",
-          "This was widely reported as the first Starship test flight to survive re-entry and complete the planned splashdown."
+          "The fourth integrated flight test (IFT-4) launched on June 6, 2024 from Starbase, Texas.",
+          "Super Heavy performed a controlled splashdown in the Gulf of Mexico, and Starship survived re-entry to make a controlled splashdown in the Indian Ocean.",
+          "SpaceX reported Starship made it through peak heating and maintained telemetry/video during re-entry before splashdown."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -943,7 +948,7 @@
     "volume": "27549.5",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize Hurricane Beryl in July 2024 and recall it made U.S. landfall in Texas as a hurricane before the market close. That makes the 'Yes' outcome overwhelmingly likely.",
+      "rationale": "I recognize this event: Hurricane Beryl made U.S. landfall in Texas as a Category 1 hurricane before the market close. That means the condition was met.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -951,9 +956,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Beryl made landfall on the Texas Gulf Coast near Matagorda early on July 8, 2024.",
-          "It was reported as a Category 1 hurricane at U.S. landfall, with winds around 80 mph.",
-          "Beryl had previously struck the Caribbean as a major hurricane before entering the Gulf of Mexico."
+          "Beryl made landfall near Matagorda, Texas, on July 8, 2024, as a Category 1 hurricane.",
+          "It had maximum sustained winds around 80 mph at U.S. landfall.",
+          "The storm caused widespread power outages in the Houston area after landfall."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -970,10 +975,10 @@
     "volume": "128471",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the threshold is close to recent monthly global temperature anomalies, I assign a near-even probability with slight lean to exceeding 1.03C.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given the run of exceptional global warmth in 2023–2024, a May anomaly above 1.03°C seems more likely than not, but uncertainty remains about the dataset and baseline used.",
       "probabilities": {
-        "Yes": 0.46,
-        "No": 0.54
+        "Yes": 0.28,
+        "No": 0.72
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -993,7 +998,7 @@
     "volume": "571.91",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this event: Starship's fourth integrated flight test occurred before the deadline and reached space during ascent. The mission profile and widely reported milestones make Yes overwhelmingly likely.",
+      "rationale": "I recognize this event and recall the fourth integrated Starship test flight occurred before the deadline and reached space. Starship separated successfully and followed a suborbital trajectory, which satisfies the market condition.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -1001,9 +1006,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "SpaceX's fourth Starship integrated flight test (IFT-4) launched on 2024-06-06 from Starbase, Texas.",
-          "Both stages reached space; Super Heavy performed a controlled Gulf splashdown and Starship later completed reentry to an Indian Ocean splashdown.",
-          "This flight occurred before the market close time of 2024-06-30T12:00:00Z."
+          "Starship Flight Test 4 launched on 2024-06-06 from Starbase, Texas.",
+          "Both stages completed major milestones: Super Heavy performed a controlled splashdown in the Gulf of Mexico, and Starship reached space before reentering and splashing down in the Indian Ocean.",
+          "This was the fourth integrated flight test (IFT-4) and it occurred before the 2024-06-30 close time."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1020,7 +1025,7 @@
     "volume": "27212.1",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this market’s resolution. Given Hurricane Helene’s severe impact on western North Carolina in late September 2024, a presidential visit to Asheville by Oct. 4 seemed plausible but far from certain due to logistics and scheduling.",
+      "rationale": "I do not specifically remember this market's resolution. Given Asheville's prominence after Hurricane Helene impacts in late September 2024, a presidential visit was plausible but not certain before Friday's deadline.",
       "probabilities": {
         "Yes": 0.42,
         "No": 0.58
@@ -1043,10 +1048,10 @@
     "volume": "94404.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolution. NYC can occasionally spike into the low 70s in December during strong warm spells, but it is uncommon, so No is somewhat more likely than Yes.",
+      "rationale": "I do not specifically remember this market's resolution. NYC can occasionally reach 70°F in December during anomalous warm spells, but it is uncommon, so No is somewhat more likely than Yes.",
       "probabilities": {
-        "Yes": 0.35,
-        "No": 0.65
+        "Yes": 0.32,
+        "No": 0.68
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1066,7 +1071,7 @@
     "volume": "0",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recognize this exact market or what \"Blast\" refers to, so I cannot recall a known resolution. With ambiguous context and launch schedules often slipping, I slightly favor No.",
+      "rationale": "I do not specifically remember this exact market or its resolution. Given launch schedules often slip and the title suggests a specific date target, I slightly favor No over Yes.",
       "probabilities": {
         "Yes": 0.4,
         "No": 0.6
@@ -1089,10 +1094,10 @@
     "volume": "5865",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolution. A narrow 1-inch snowfall band is relatively unlikely versus all other totals, so No is favored.",
+      "rationale": "I do not specifically remember this exact market’s resolution. A narrow 1-inch snowfall band is relatively unlikely versus all other outcomes, so No is more probable than Yes.",
       "probabilities": {
-        "Yes": 0.14,
-        "No": 0.86
+        "Yes": 0.18,
+        "No": 0.82
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1112,10 +1117,10 @@
     "volume": "72476.8",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the run of exceptional global warmth through 2023 and early 2024, June 2024 being at or above 1.09°C seems somewhat more likely than below it.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given 2024’s exceptional global warmth and June 2024 being near record highs, a threshold as low as 1.09°C seems more likely to be exceeded than not.",
       "probabilities": {
-        "Yes": 0.35,
-        "No": 0.65
+        "Yes": 0.2,
+        "No": 0.8
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1135,10 +1140,10 @@
     "volume": "555925",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolved value. Given recent monthly global temperature anomalies often cluster around the low-1.2°C range, this narrow 0.05°C band seems plausible but still less likely than all other values combined.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given recent monthly global temperature anomalies often cluster around the low-1.2°C range versus a preindustrial baseline, this narrow 0.05°C band looks plausible but still less than even odds.",
       "probabilities": {
-        "Yes": 0.22,
-        "No": 0.78
+        "Yes": 0.38,
+        "No": 0.62
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1158,10 +1163,10 @@
     "volume": "262564",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t specifically recall this exact market’s resolution. Given Starship’s 2024 cadence and multiple integrated flight tests, four launches reaching outer space seemed more likely than not by year-end, but operational delays kept uncertainty meaningful.",
+      "rationale": "I do not specifically remember this exact market’s resolution. By late 2024 SpaceX had already achieved multiple Starship flights to space in 2024, making four successful reaches of outer space more likely than not before year-end.",
       "probabilities": {
-        "Yes": 0.62,
-        "No": 0.38
+        "Yes": 0.72,
+        "No": 0.28
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1181,7 +1186,7 @@
     "volume": "711045",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved outcome. More than 25 named Atlantic storms is historically rare, though 2024 was forecast active, so No remains more likely than Yes.",
+      "rationale": "I do not specifically recall the final 2024 Atlantic named-storm count. Climatology makes more than 25 named storms uncommon even in active seasons, though 2024 had elevated preseason expectations due to warm Atlantic SSTs and La Niña odds.",
       "probabilities": {
         "Yes": 0.22,
         "No": 0.78
@@ -1204,7 +1209,7 @@
     "volume": "1.85149e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given 2024’s exceptional warmth and widespread reporting that annual global temperature was around or above 1.5°C over preindustrial, being below 1.22°C seems very unlikely.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given 2024’s exceptional warmth and widespread reporting that annual global temperature was around or above 1.5°C above preindustrial, a threshold below 1.22°C seems very unlikely.",
       "probabilities": {
         "Yes": 0.03,
         "No": 0.97
@@ -1227,10 +1232,10 @@
     "volume": "95316.5",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved value. Given recent monthly global temperature anomalies often cluster around the mid-1.4°C range versus preindustrial, 1.35-1.40°C seems plausible but somewhat less likely than outside that narrow band.",
+      "rationale": "I do not specifically remember the finalized October 2024 anomaly for this exact market. Given recent monthly global temperature anomalies often clustered around the mid-1.4°C to mid-1.5°C range, 1.35-1.40°C seems possible but somewhat less likely than outside the band.",
       "probabilities": {
-        "Yes": 0.34,
-        "No": 0.66
+        "Yes": 0.32,
+        "No": 0.68
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1250,16 +1255,16 @@
     "volume": "482582",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize Hurricane Milton from October 2024 and recall it made Florida landfall as a major hurricane, stronger than Category 2. Therefore the chance this resolves Yes is very low.",
+      "rationale": "I recognize Hurricane Milton from October 2024 and recall it struck Florida as a major hurricane, stronger than category 2. Therefore the chance this resolved Yes is very low.",
       "probabilities": {
-        "Yes": 0.02,
-        "No": 0.98
+        "Yes": 0.03,
+        "No": 0.97
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Milton struck Florida in October 2024 near Siesta Key on the Gulf Coast.",
-          "It made landfall as a Category 3 hurricane with winds around 120 mph, i.e. above Category 2 strength."
+          "Hurricane Milton made landfall on Florida's Gulf Coast in October 2024 as a Category 3 hurricane.",
+          "I recall widespread reporting that Milton weakened from Category 5 offshore but was still a major hurricane at landfall, implying winds above the Category 2 threshold."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1276,10 +1281,10 @@
     "volume": "545716",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Based on recent monthly global temperature anomalies often clustering around or above 1.2°C in 2023–2024, this looks close to a coin flip with a slight lean toward not being below 1.20°C.",
+      "rationale": "I do not specifically recall the resolved December 2024 anomaly value. Given persistent exceptional warmth through 2023–2024 but some easing from peak El Niño conditions, this looks close to the threshold with a slight lean toward staying below 1.20°C.",
       "probabilities": {
-        "Yes": 0.46,
-        "No": 0.54
+        "Yes": 0.56,
+        "No": 0.44
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1299,7 +1304,7 @@
     "volume": "67205.8",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved outcome. Climatology and 2024 preseason outlooks generally favored an above-normal Atlantic season, making fewer than 11 named storms unlikely.",
+      "rationale": "I do not specifically remember this exact market's resolved count. Climatology and 2024 preseason outlooks generally favored an above-normal Atlantic season, making fewer than 11 named storms unlikely.",
       "probabilities": {
         "Yes": 0.12,
         "No": 0.88
@@ -1322,10 +1327,10 @@
     "volume": "329086",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as a 2023 climate anomaly market tied to annual global temperature/heat metrics, and 2023 was exceptionally warm due to strong El Niño and record monthly anomalies. I do not confidently recall the exact thresholded resolution value, but it was more likely than not to exceed 1.11.",
+      "rationale": "I do not confidently remember this exact market, but 2023 was exceptionally warm globally and many datasets placed annual temperature anomalies around or above this threshold. That makes a Yes outcome more likely than No.",
       "probabilities": {
-        "Yes": 0.82,
-        "No": 0.18
+        "Yes": 0.78,
+        "No": 0.22
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1345,10 +1350,10 @@
     "volume": "38138.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently remember the exact resolution of this market. Based on climatology, Category 4+ landfalls are relatively uncommon, so No is more likely than Yes.",
+      "rationale": "I do not confidently remember this exact market’s resolved outcome. Based on climatology, category 4+ landfall is relatively uncommon, so No is somewhat more likely than Yes.",
       "probabilities": {
-        "Yes": 0.22,
-        "No": 0.78
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1368,10 +1373,10 @@
     "volume": "97500.6",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the exceptional global warmth through early 2024 and repeated monthly records, a threshold of 1.31°C for April appears more likely than not but not certain.",
+      "rationale": "I don’t specifically recall this exact market’s resolved value. Given the exceptional global warmth through early 2024 and recent monthly anomalies near or above this threshold, Yes appears somewhat more likely than No.",
       "probabilities": {
-        "Yes": 0.72,
-        "No": 0.28
+        "Yes": 0.64,
+        "No": 0.36
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1391,17 +1396,17 @@
     "volume": "38046.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember the 2023 Atlantic season was very active and finished with exactly 20 named storms, just below this threshold. So the market should resolve No with high confidence.",
+      "rationale": "I recognize the 2023 Atlantic season as exceptionally active and recall the final named-storm count exceeded 20. Based on that memory, the market is very likely to resolve Yes.",
       "probabilities": {
-        "Yes": 0.02,
-        "No": 0.98
+        "Yes": 0.98,
+        "No": 0.02
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The 2023 Atlantic hurricane season produced 20 named storms in total.",
-          "It included Hurricane Idalia making landfall in Florida in late August 2023.",
-          "Franklin and Lee were among the season's major hurricanes, but the final named-storm count stayed below 21."
+          "The 2023 Atlantic hurricane season finished with 20 named storms, not 21 or more.",
+          "It also had 7 hurricanes and 3 major hurricanes in the final seasonal tally.",
+          "Notable 2023 Atlantic storms included Idalia, Lee, and Franklin."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1418,7 +1423,7 @@
     "volume": "432073",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Based on 2023–2024 global temperature anomalies being near record highs, a narrow August band around 1.15–1.19°C seems plausible but still less likely than all other values combined.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Based on 2023–2024 global temperature anomalies being near record highs, a narrow August band of 1.15–1.19°C seems plausible but still less likely than all other values combined.",
       "probabilities": {
         "Yes": 0.18,
         "No": 0.82
@@ -1441,7 +1446,7 @@
     "volume": "3910",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market's resolution. A narrow 1-inch snowfall band for NYC on a particular Tuesday is relatively unlikely versus all other outcomes, so No is favored.",
+      "rationale": "I do not specifically remember this exact market’s resolution. A narrow 1-inch snowfall band for NYC is relatively unlikely ex ante, so I lean No over Yes.",
       "probabilities": {
         "Yes": 0.18,
         "No": 0.82
@@ -1464,10 +1469,10 @@
     "volume": "89595.8",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the exceptional global warmth through early 2024 and repeated monthly anomalies near or above 1.3°C, a May reading above 1.30°C looked more likely than not.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given the exceptional global warmth through early 2024 and repeated monthly anomalies near or above 1.3°C versus preindustrial, a May reading above 1.30°C looked more likely than not.",
       "probabilities": {
-        "Yes": 0.68,
-        "No": 0.32
+        "Yes": 0.72,
+        "No": 0.28
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1487,10 +1492,10 @@
     "volume": "67838.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolved value. Given the narrow 0.06°C band around recent monthly global anomaly levels, I assign a modest chance that June 2024 landed inside it, but slightly favor outside the range.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given recent monthly global temperature anomalies often clustered around record-high levels in 2023–2024, a narrow 0.06°C band near 1.1°C seems plausible but still less likely than all other values combined.",
       "probabilities": {
-        "Yes": 0.34,
-        "No": 0.66
+        "Yes": 0.22,
+        "No": 0.78
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1510,10 +1515,10 @@
     "volume": "464315",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the exceptional warmth of 2023–2024 and elevated global anomalies through much of 2024, a November anomaly above 1.39°C seems somewhat more likely than not.",
+      "rationale": "I do not specifically recall the resolved November 2024 global temperature anomaly value. Given 2023-2024 warmth and monthly anomalies often near this threshold, I assign a modest lean toward exceeding 1.39\u0000b0C.",
       "probabilities": {
-        "Yes": 0.64,
-        "No": 0.36
+        "Yes": 0.58,
+        "No": 0.42
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1533,7 +1538,7 @@
     "volume": "82058.5",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolved outcome. By late 2024 SpaceX had already achieved multiple Starship flights reaching space, so getting to three such launches in calendar 2024 looked more likely than not.",
+      "rationale": "I do not confidently recall the exact market resolution. By late 2024 SpaceX had already achieved multiple Starship flights reaching space, so three successful launches to outer space in 2024 was more likely than not.",
       "probabilities": {
         "Yes": 0.82,
         "No": 0.18
@@ -1556,10 +1561,10 @@
     "volume": "384695",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently remember the exact resolved outcome of this market. Based on climatology and the rarity of U.S. landfalls at Category 4 intensity, I lean No but keep substantial probability on Yes because major hurricanes can maintain Cat 4 to landfall.",
+      "rationale": "I do not confidently remember the exact resolved outcome. Major hurricanes often weaken somewhat before landfall, so category 4 at landfall is possible but less likely than not.",
       "probabilities": {
-        "Yes": 0.33,
-        "No": 0.67
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1579,10 +1584,10 @@
     "volume": "1.73135e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Based on recent annual global temperature anomalies being around the mid-1.2°C range above preindustrial, the interval is plausible but still only one narrow band among nearby possibilities.",
+      "rationale": "I do not specifically remember this exact market's resolved value. Based on recent annual global temperature anomalies being around the mid-1.2°C range above preindustrial, this band looks plausible but still uncertain, so I slightly favor Yes.",
       "probabilities": {
-        "Yes": 0.24,
-        "No": 0.76
+        "Yes": 0.56,
+        "No": 0.44
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1602,10 +1607,10 @@
     "volume": "94761.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolved value. Given recent monthly global temperature anomalies often cluster around the mid-1.2s to mid-1.5s °C above preindustrial, a 1.23-1.28°C October outcome seems plausible but somewhat narrower than typical uncertainty.",
+      "rationale": "I do not specifically remember the resolved October 2024 anomaly value. Given recent monthly global temperature anomalies often clustered around the mid-1.2s to mid-1.5s °C above preindustrial, this narrow 0.05°C band seems plausible but still less likely than all other values combined.",
       "probabilities": {
-        "Yes": 0.28,
-        "No": 0.72
+        "Yes": 0.24,
+        "No": 0.76
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1625,15 +1630,18 @@
     "volume": "19830",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently recall this exact market’s resolved outcome. Given Helene was a named Atlantic cyclone in 2024 and many landfalling hurricanes weaken near shore, I slightly favor a category 1-or-weaker landfall over a stronger one.",
+      "rationale": "I recognize Hurricane Helene from late September 2024 and recall it made U.S. landfall as a much stronger hurricane than Category 1. That makes a Category 1-or-weaker landfall unlikely for this event.",
       "probabilities": {
-        "Yes": 0.58,
-        "No": 0.42
+        "Yes": 0.02,
+        "No": 0.98
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "Hurricane Helene made landfall in Florida's Big Bend region in late September 2024.",
+          "I recall reports describing Helene as a major hurricane at landfall, around Category 4 strength rather than Category 1 or weaker."
+        ],
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -1648,7 +1656,7 @@
     "volume": "500998",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember the resolved December 2024 anomaly value. Given recent monthly global temperature anomalies often clustered around the mid-1.2°C range, this narrow 0.05°C band seems plausible but still less likely than all other values combined.",
+      "rationale": "I do not specifically recall the final December 2024 anomaly value. Given recent monthly global temperature anomalies often clustered around the low-to-mid 1.2°C range, this narrow 0.05°C band seems plausible but still less likely than all other values combined.",
       "probabilities": {
         "Yes": 0.22,
         "No": 0.78
@@ -1671,7 +1679,7 @@
     "volume": "3410",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market resolving. A narrow 1-inch snowfall band for NYC before the close is relatively unlikely versus all other totals, so No is favored.",
+      "rationale": "I do not specifically remember this exact market’s resolution. A narrow 1-inch snowfall band is relatively unlikely ex ante, so I favor No over Yes.",
       "probabilities": {
         "Yes": 0.12,
         "No": 0.88
@@ -1694,15 +1702,19 @@
     "volume": "307850",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market, but 2023 was exceptionally warm globally and likely exceeded many historical anomaly thresholds. A threshold of 1.08 appears more likely than not to have been reached.",
+      "rationale": "I recognize this as referring to 2023 global temperature anomaly/heat metrics, and 2023 was exceptionally warm due to strong anthropogenic warming plus El Niño. I recall the final value exceeded the 1.08 threshold, so Yes is overwhelmingly likely.",
       "probabilities": {
-        "Yes": 0.82,
-        "No": 0.18
+        "Yes": 0.99,
+        "No": 0.01
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "2023 was reported as the warmest year on record globally in major datasets.",
+          "The annual global temperature anomaly for 2023 was around 1.4–1.5°C above the 1850–1900 preindustrial baseline, comfortably above 1.08.",
+          "Copernicus announced 2023 at about 1.48°C above the preindustrial level, making the threshold clearly surpassed."
+        ],
+        "recalled_outcome_if_known": "Yes"
       }
     }
   },
@@ -1717,10 +1729,10 @@
     "volume": "63629",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolved value. Given the exceptional global warmth in early 2024, a monthly anomaly in the 1.14°C-1.19°C band seems plausible but not more likely than nearby higher values.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given the run of exceptional global warmth in 2023–2024, a monthly anomaly in the 1.14°C–1.19°C band seems plausible but not dominant versus landing outside that narrow range.",
       "probabilities": {
-        "Yes": 0.38,
-        "No": 0.62
+        "Yes": 0.34,
+        "No": 0.66
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1740,10 +1752,10 @@
     "volume": "386231",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. A narrow 0.05°C bin around August global temperature anomaly is plausible but less likely than all other values combined, so No is favored.",
+      "rationale": "I do not specifically recall this exact market or its final resolution. Based on recent monthly global temperature anomalies often clustering around the low-1.2°C range, this narrow band seems plausible but still less likely than all other values combined.",
       "probabilities": {
-        "Yes": 0.08,
-        "No": 0.92
+        "Yes": 0.18,
+        "No": 0.82
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1763,10 +1775,10 @@
     "volume": "34749",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the exceptionally warm global temperatures through early 2024 and June 2024 being widely reported as around or above 1.3°C above the relevant baseline, Yes appears somewhat more likely.",
+      "rationale": "I do not specifically recall this exact market's resolved value. Given the exceptional global warmth through 2023 and early 2024, exceeding a 1.29°C June anomaly looked more likely than not by the close date.",
       "probabilities": {
-        "Yes": 0.68,
-        "No": 0.32
+        "Yes": 0.72,
+        "No": 0.28
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1786,7 +1798,7 @@
     "volume": "142042",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the run of exceptional global warmth in 2023–2024, a May anomaly in the 1.03°C–1.09°C band seems plausible but not dominant versus landing outside that narrow range.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Based on 2024’s exceptional global warmth and recent monthly anomalies often exceeding 1.1°C versus preindustrial, the 1.03°C-1.09°C band seems somewhat less likely than being outside it.",
       "probabilities": {
         "Yes": 0.38,
         "No": 0.62
@@ -1809,10 +1821,10 @@
     "volume": "549051",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved count, so I rely on climatology and 2024 preseason forecasts that leaned very active but still left substantial uncertainty around landing specifically in the 21–25 range. That interval is plausible but narrower than the full high-activity tail.",
+      "rationale": "I do not specifically remember this exact market's resolved count. Climatology and 2024 preseason forecasts leaned active, but 21-25 named storms is a relatively high band, so I assign it as plausible but less likely than not.",
       "probabilities": {
-        "Yes": 0.34,
-        "No": 0.66
+        "Yes": 0.36,
+        "No": 0.64
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1832,10 +1844,10 @@
     "volume": "57810",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved count. Climatology and preseason forecasts often center near 14-17 named storms, so 11-14 is plausible but somewhat less likely than outside that range.",
+      "rationale": "I do not specifically remember this exact market’s resolved outcome. Climatology and 2024 preseason forecasts leaned toward an above-normal Atlantic season, making 11–14 named storms less likely than either a quieter or especially active season, with the active tail more plausible.",
       "probabilities": {
-        "Yes": 0.42,
-        "No": 0.58
+        "Yes": 0.34,
+        "No": 0.66
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1855,10 +1867,10 @@
     "volume": "383210",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall the finalized November 2024 anomaly value. Given recent monthly global temperature anomalies often clustered around the mid-1.4°C range, a narrow 1.35-1.39°C band seems somewhat less likely than not.",
+      "rationale": "I do not specifically recall the finalized November 2024 anomaly for this exact market. Given recent monthly global temperature anomalies often clustered around the mid-1.4°C range, 1.35-1.39°C seems plausible but somewhat narrower than the most likely band.",
       "probabilities": {
-        "Yes": 0.32,
-        "No": 0.68
+        "Yes": 0.28,
+        "No": 0.72
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1878,7 +1890,7 @@
     "volume": "73965.8",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this event and remember that Starship achieved spaceflight in 2024. Multiple integrated test flights crossed the Kármán line, so the condition was met well before year-end.",
+      "rationale": "I recognize this event and recall that SpaceX achieved multiple Starship test flights reaching space in 2024. Since crossing the Kármán line occurred before year-end, the market resolved positively.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -1886,8 +1898,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Starship's third integrated flight test on March 14, 2024 reached space before both stages were lost during reentry.",
-          "The fourth integrated flight test on June 6, 2024 again reached space, with Super Heavy performing a controlled splashdown and Starship surviving reentry to splash down in the Indian Ocean."
+          "Integrated Flight Test 4 launched on June 6, 2024 from Starbase and both stages reached space before splashdowns.",
+          "Integrated Flight Test 5 launched on October 13, 2024; Super Heavy was caught by the launch tower arms and Starship continued on a suborbital spaceflight to splashdown.",
+          "Starship flights in 2024 exceeded the 100 km Kármán line, satisfying the 'reach outer space' condition."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1927,10 +1940,10 @@
     "volume": "939019",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market's resolved outcome. Given 2024's exceptional warmth and the likelihood that annual global temperature anomaly exceeded 1.30°C above the market's baseline, Yes appears more likely than No.",
+      "rationale": "I do not specifically recall this exact market's resolved outcome. Based on 2024's exceptional warmth and widespread reporting that annual global temperature likely exceeded 1.3°C above preindustrial, Yes is more likely than No.",
       "probabilities": {
-        "Yes": 0.78,
-        "No": 0.22
+        "Yes": 0.8,
+        "No": 0.2
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1950,10 +1963,10 @@
     "volume": "84655",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved value. Given 2024's exceptional warmth and October 2023 being very warm, a threshold of 1.17\u0000b0C looks close enough that either side is plausible, with a slight lean to exceeding it.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given the strong warmth of 2023–2024 and October 2023 being exceptionally hot, getting October 2024 below 1.17°C seems somewhat less likely than not, but still plausible.",
       "probabilities": {
-        "Yes": 0.44,
-        "No": 0.56
+        "Yes": 0.42,
+        "No": 0.58
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1973,10 +1986,10 @@
     "volume": "17504.6",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently recall this exact market’s resolved outcome. Category-2 landfall is plausible but less common than weakening or strengthening before landfall, so I lean slightly No.",
+      "rationale": "I do not confidently remember this exact market’s resolved outcome. Given typical uncertainty in pre-landfall intensity and the narrow category-specific condition, category 2 landfall seems somewhat less likely than all other possibilities combined.",
       "probabilities": {
-        "Yes": 0.4,
-        "No": 0.6
+        "Yes": 0.38,
+        "No": 0.62
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1996,7 +2009,7 @@
     "volume": "458426",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. December 2024 global temperature anomaly was plausibly around this range, but a narrow 0.05°C band makes 'Yes' materially less likely than 'No'.",
+      "rationale": "I do not specifically recall the final December 2024 anomaly value for this exact market. Given recent monthly global temperature anomalies often cluster around the mid-1.2s to mid-1.5s °C range depending on dataset, a narrow 0.05°C band is plausible but less likely than outside it.",
       "probabilities": {
         "Yes": 0.22,
         "No": 0.78
@@ -2019,10 +2032,10 @@
     "volume": "2553.69",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market or its resolution. Based on typical NYC snowfall variability and the relatively high 3.5-inch threshold for a single Tuesday event, less than 3.5 inches seems somewhat more likely than not.",
+      "rationale": "I do not specifically remember this exact market resolving. Based on typical NYC snowfall variability and the moderate 3.5-inch threshold for a single Tuesday event, I slightly favor less than 3.5 inches.",
       "probabilities": {
-        "Yes": 0.64,
-        "No": 0.36
+        "Yes": 0.58,
+        "No": 0.42
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2042,15 +2055,19 @@
     "volume": "307567",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market, but 2023 was exceptionally warm globally and many datasets placed annual temperature anomalies around or above this threshold. That makes \"Yes\" more likely than \"No\".",
+      "rationale": "I recognize this as a 2023 climate market tied to annual global temperature anomaly/heat metrics, and 2023 was exceptionally warm due to strong anthropogenic warming plus El Niño. I do not confidently remember this market's exact resolution threshold handling, but the threshold was likely exceeded.",
       "probabilities": {
-        "Yes": 0.78,
-        "No": 0.22
+        "Yes": 0.93,
+        "No": 0.07
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "2023 was widely reported as the hottest year on record globally.",
+          "Copernicus reported 2023 at about 1.48°C above the 1850-1900 preindustrial average.",
+          "The second half of 2023 saw exceptional monthly global temperature records, boosted by El Niño conditions."
+        ],
+        "recalled_outcome_if_known": "Yes"
       }
     }
   },
@@ -2065,10 +2082,10 @@
     "volume": "48763.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market’s resolved value. Given the exceptionally warm global temperatures in early 2024, a narrow anomaly band around 1.26°C-1.31°C seems plausible but far from certain.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Given monthly global temperature anomalies in 2024 were exceptionally high and often clustered near this range, the interval seems somewhat more likely than not but far from certain.",
       "probabilities": {
-        "Yes": 0.24,
-        "No": 0.76
+        "Yes": 0.57,
+        "No": 0.43
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2088,10 +2105,10 @@
     "volume": "213686",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market or its final resolution. Given persistent exceptional global warmth in 2023–2024, exceeding a 1.29°C August anomaly appears somewhat more likely than not.",
+      "rationale": "I do not specifically recall this exact market or its final resolution. Given the run of exceptional global warmth in 2023-2024, exceeding a 1.29°C August anomaly looked somewhat more likely than not, but still uncertain depending on the dataset baseline used.",
       "probabilities": {
-        "Yes": 0.62,
-        "No": 0.38
+        "Yes": 0.58,
+        "No": 0.42
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2111,10 +2128,10 @@
     "volume": "14190.9",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved value. Given monthly global temperature anomalies in 2024 were often near record highs, a narrow 0.06°C band around 1.26°C seems plausible but still less likely than all other values combined.",
+      "rationale": "I do not specifically remember this exact market’s resolved value. Based on recent monthly global temperature anomalies often clustering around the mid-1.2°C range, this narrow interval seems plausible but still less likely than all other values combined.",
       "probabilities": {
-        "Yes": 0.18,
-        "No": 0.82
+        "Yes": 0.22,
+        "No": 0.78
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2134,10 +2151,10 @@
     "volume": "77492.6",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved value. Given the run of exceptional global warmth in 2023-2024, a May 2024 anomaly in the 1.24°C-1.30°C band seems plausible but far from certain.",
+      "rationale": "I do not specifically remember this exact market’s resolved value. Given the run of exceptional global warmth in 2023-2024, a May 2024 anomaly in the 1.24°C-1.30°C band seems plausible but far from certain.",
       "probabilities": {
-        "Yes": 0.41,
-        "No": 0.59
+        "Yes": 0.38,
+        "No": 0.62
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2157,10 +2174,10 @@
     "volume": "364338",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved outcome. Given the very active 2024 Atlantic outlooks and recent climatology, 16–20 named storms appears somewhat more likely than not, but substantial uncertainty remains.",
+      "rationale": "I do not specifically recall this exact market’s resolved count. Climatology and 2024 preseason forecasts leaned above average, making 16–20 named storms a plausible central range but far from certain.",
       "probabilities": {
-        "Yes": 0.58,
-        "No": 0.42
+        "Yes": 0.44,
+        "No": 0.56
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2180,10 +2197,10 @@
     "volume": "308546",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this exact market's resolved value. Based on 2023-2024 monthly global temperature anomalies often clustering around the mid-1.2s to mid-1.5s above preindustrial, this narrow 1.25-1.29°C band seems possible but less likely than outside it.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Based on 2024’s exceptional warmth and monthly anomalies often clustering around the mid-1.2s to mid-1.3s °C above preindustrial, this narrow 0.05°C band seems plausible but still less likely than all other values combined.",
       "probabilities": {
-        "Yes": 0.18,
-        "No": 0.82
+        "Yes": 0.22,
+        "No": 0.78
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2203,7 +2220,7 @@
     "volume": "57262.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember that Starship flew multiple times in 2024 and at least two integrated test flights reached space. Given those launches occurred before year-end, this market resolved positively.",
+      "rationale": "I recognize this event and remember that SpaceX conducted multiple Starship integrated test flights in 2024 that reached space. By late 2024, at least two launches had crossed the Kármán line, so the condition was met.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -2211,9 +2228,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Starship/Super Heavy Flight 3 launched on March 14, 2024 and reached space on a suborbital trajectory before reentry.",
-          "Starship/Super Heavy Flight 4 launched on June 6, 2024 and both stages completed major mission milestones, with Starship again reaching space.",
-          "A later 2024 flight also reached space, so the threshold of two successful reaches of outer space was exceeded well before December 30, 2024."
+          "Starship Flight 3 launched on March 14, 2024 from Starbase and reached space before reentry over the Indian Ocean.",
+          "Starship Flight 4 launched on June 6, 2024 and both stages reached space; Super Heavy made a controlled Gulf splashdown and Starship survived reentry to a soft Indian Ocean splashdown.",
+          "A later 2024 flight, Flight 5 on October 13, 2024, also reached space and featured the first Super Heavy booster catch at the launch tower."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2230,7 +2247,7 @@
     "volume": "1708",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market's resolution. A narrow 1-inch snowfall band is relatively unlikely versus all other totals, so No is favored.",
+      "rationale": "I do not specifically remember this exact market's resolution. Snowfall forecasts near NYC often have wide uncertainty around narrow bands like 3.5–4.5 inches, so the exact-range outcome is less likely than all other totals combined.",
       "probabilities": {
         "Yes": 0.18,
         "No": 0.82
@@ -2253,10 +2270,10 @@
     "volume": "480839",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall this market’s resolved value. Based on recent annual global temperature anomalies being around the mid-1.2s to low-1.3s °C above preindustrial, a narrow 1.28–1.30°C band seems plausible but less likely than falling outside it.",
+      "rationale": "I do not specifically recall this exact market’s resolved value. Based on 2024 likely being around the low-1.3°C range versus preindustrial in common datasets, a narrow 1.28–1.30°C band seems possible but somewhat less likely than outside it.",
       "probabilities": {
-        "Yes": 0.22,
-        "No": 0.78
+        "Yes": 0.32,
+        "No": 0.68
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2276,7 +2293,7 @@
     "volume": "80341.9",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically remember this exact market’s resolved value. Based on 2024’s exceptional warmth and monthly anomalies often clustering near this range, I assign a moderate chance to October landing within 1.17-1.22°C, but slightly favor outside the band.",
+      "rationale": "I do not specifically recall the resolved October 2024 anomaly value. Given recent monthly global temperature anomalies often cluster near this range, I assign a moderate chance to landing inside the 1.17-1.22°C band but slightly favor outside due to volatility and dataset differences.",
       "probabilities": {
         "Yes": 0.42,
         "No": 0.58
@@ -2299,10 +2316,10 @@
     "volume": "421893",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not specifically recall the resolved value for December 2024 global temperature anomaly. Given the run of exceptional warmth in 2023–2024, exceeding 1.34°C seems more likely than not, but uncertainty remains about the exact dataset and baseline used.",
+      "rationale": "I do not specifically recall the resolved value for December 2024 global temperature anomaly. Given the exceptional warmth through 2023–2024, exceeding 1.34°C seems somewhat more likely than not, but uncertainty remains over the exact dataset and monthly variability.",
       "probabilities": {
-        "Yes": 0.68,
-        "No": 0.32
+        "Yes": 0.62,
+        "No": 0.38
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2322,7 +2339,7 @@
     "volume": "138175",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as referring to 2023 global temperature anomaly versus a preindustrial baseline. Given the exceptional warmth and that 2023 was reported around 1.45°C above 1850–1900, the threshold of 1.15 was very likely exceeded.",
+      "rationale": "I recognize this as referring to the annual global temperature anomaly for 2023, which was exceptionally warm and ended above the 1.15 threshold. Multiple major datasets reported 2023 around or above 1.45°C over the 1850-1900 baseline.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -2330,8 +2347,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus reported 2023 as the warmest year on record at about 1.48°C above the 1850–1900 preindustrial level.",
-          "WMO reported the 2023 annual global mean near 1.45°C above preindustrial, clearly above the 1.15 threshold."
+          "Copernicus/ERA5 reported 2023 as the warmest year on record at about 1.48°C above the 1850-1900 preindustrial level.",
+          "WMO stated 2023 was approximately 1.45°C above preindustrial levels, clearly exceeding 1.15°C.",
+          "The year featured exceptional monthly warmth, with several months in the second half of 2023 setting record global temperatures."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2348,10 +2366,10 @@
     "volume": "26939.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not confidently recall this exact market’s resolved value. Given the exceptionally high global temperature anomalies in early 2024, April being below 1.14C seems unlikely.",
+      "rationale": "I do not specifically remember this exact market's resolved value. Given the exceptionally warm global temperatures in early 2024, April 2024 being at or above 1.14C seems more likely than not, but uncertainty remains about the exact dataset and baseline used.",
       "probabilities": {
-        "Yes": 0.12,
-        "No": 0.88
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
         "recognized_event": false,
