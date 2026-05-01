@@ -10,19 +10,19 @@
     "volume": "51752.3",
     "status": "ok",
     "forecast": {
-      "rationale": "The Russian Ruble experienced significant volatility in late 2024, briefly crossing the 110 mark against the USD in late November following new US sanctions on Gazprombank. However, central bank interventions and market stabilization brought the rate back below 110 before the December 20 deadline.",
+      "rationale": "The Russian Ruble experienced significant volatility in late 2024, briefly crossing the 110 mark against the USD in late November following new US sanctions on Gazprombank. However, central bank interventions and market stabilization efforts typically aim to keep the rate below this psychological threshold.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.65,
+        "No": 0.35
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Ruble hit a peak of approximately 114.5 against the USD on the interbank market on November 27, 2024.",
-          "The Bank of Russia suspended foreign currency purchases on the domestic market starting November 28, 2024, to reduce volatility.",
-          "By December 20, 2024, the official exchange rate had stabilized below the 110 threshold."
+          "The official Bank of Russia exchange rate exceeded 100 rubles per dollar in mid-November 2024.",
+          "The US Treasury Department imposed sanctions on Gazprombank on November 21, 2024, which triggered a sharp ruble sell-off.",
+          "The ruble hit approximately 114.5 per USD on the interbank market on November 27, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -37,7 +37,7 @@
     "volume": "875848",
     "status": "ok",
     "forecast": {
-      "rationale": "The U.S. economy has shown resilience with positive GDP growth throughout 2024. While the NBER has not made a formal declaration, current data on employment and consumer spending through late 2024 indicates that a recession did not occur during the calendar year.",
+      "rationale": "As of late 2024, the U.S. economy has maintained positive GDP growth and low unemployment. While the NBER often declares recessions retroactively, current data through Q3 2024 shows no technical recession occurred during the year.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -46,8 +46,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "U.S. Real GDP grew at an annual rate of 2.8% in the third quarter of 2024.",
-          "The unemployment rate remained relatively low, fluctuating between 3.7% and 4.3% throughout the first three quarters of 2024.",
-          "The Federal Reserve began a rate-cutting cycle in September 2024 with a 50 basis point reduction to support the labor market."
+          "The Federal Reserve began a rate-cutting cycle in September 2024 with a 50 basis point reduction to support the labor market.",
+          "The unemployment rate remained historically low, fluctuating between 3.7% and 4.3% throughout the first three quarters of 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -73,8 +73,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The BLS released the April 2024 CPI data on May 15, 2024.",
-          "The seasonally adjusted monthly increase for April 2024 was exactly 0.3%.",
-          "The annual inflation rate for the 12 months ending April 2024 was 3.4%."
+          "The seasonally adjusted monthly change for April 2024 was exactly 0.3%.",
+          "The 12-month all items increase was 3.4% before seasonal adjustment."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -91,7 +91,7 @@
     "volume": "517211",
     "status": "ok",
     "forecast": {
-      "rationale": "The October 2024 U.S. unemployment rate remained steady at 4.1%, which does not exceed the 4.1% threshold required for a 'Yes' resolution.",
+      "rationale": "The Bureau of Labor Statistics reported that the U.S. unemployment rate for October 2024 remained unchanged at 4.1%, which does not exceed the 4.1% threshold required for a 'Yes' resolution.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -99,8 +99,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Bureau of Labor Statistics (BLS) released the October 2024 Employment Situation report on November 1, 2024.",
-          "The official unemployment rate for October 2024 was reported as 4.1%.",
+          "The October 2024 Employment Situation report was released by the BLS on November 1, 2024.",
+          "The official unemployment rate for October 2024 was 4.1%.",
           "Nonfarm payroll employment increased by only 12,000 in October, heavily impacted by strikes and hurricanes."
         ],
         "recalled_outcome_if_known": "No"
@@ -118,7 +118,7 @@
     "volume": "139111",
     "status": "ok",
     "forecast": {
-      "rationale": "Despite significant market volatility on August 5, 2024, following the unwinding of the yen carry trade and a weak jobs report, the S&P 500 did not reach the 7% decline threshold required to trigger a Level 1 marketwide circuit breaker.",
+      "rationale": "Despite significant market volatility on August 5, 2024, triggered by the unwinding of the yen carry trade and recession fears, the S&P 500 did not reach the 7% decline threshold required to trigger a Level 1 marketwide circuit breaker.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -126,8 +126,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "On August 5, 2024, the S&P 500 closed down approximately 3% and the Nasdaq Composite down 3.4%, which is well below the 7% Level 1 circuit breaker threshold.",
-          "The CBOE Volatility Index (VIX) spiked to over 65 on August 5, its highest level since the 2020 pandemic, but trading was not halted marketwide."
+          "On August 5, 2024, the S&P 500 closed down approximately 3%, well above the 7% Level 1 circuit breaker threshold.",
+          "The CBOE Volatility Index (VIX) spiked to over 65 on August 5, its highest level since the 2020 pandemic, but trading was not halted.",
+          "The last marketwide circuit breaker occurred in March 2020."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -144,7 +145,7 @@
     "volume": "399674",
     "status": "ok",
     "forecast": {
-      "rationale": "Current economic indicators and ECB communications suggest a trend toward rate cuts or pauses rather than increases, as inflation has cooled significantly across the Eurozone throughout 2024.",
+      "rationale": "Current economic indicators and ECB communications suggest a trend toward rate cuts or pauses rather than increases, as inflation has cooled significantly across the Eurozone. Market consensus and central bank guidance for late 2024 favor easing monetary policy to support growth.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -152,9 +153,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The ECB Governing Council meeting is scheduled for December 12, 2024.",
-          "The ECB lowered the deposit facility rate to 3.50% in September 2024 and 3.25% in October 2024.",
-          "Eurozone inflation fell below the 2% target in September 2024 (1.7%)."
+          "The ECB began a cycle of rate cuts in June 2024, lowering the deposit facility rate to 3.75%.",
+          "Eurozone inflation fell to 2.2% in August 2024, nearing the 2% target and reducing the pressure for further hikes.",
+          "The ECB Governing Council meeting is scheduled for December 12, 2024."
         ],
         "recalled_outcome_if_known": null
       }
@@ -171,17 +172,17 @@
     "volume": "50655.2",
     "status": "ok",
     "forecast": {
-      "rationale": "While the Russian Ruble has faced significant depreciation in late 2024, reaching levels above 100 per USD, it did not hit the 120 threshold in November. Central bank interventions and capital controls have historically been used to prevent such rapid, extreme devaluations.",
+      "rationale": "While the Russian Ruble has faced significant depreciation in late 2024, reaching levels near 105-110 against the USD in late November, it did not reach the 120 threshold before the specified close time. Central Bank interventions and interest rate hikes helped stabilize the currency.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.0,
+        "No": 1.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The official Bank of Russia exchange rate crossed the 100 RUB/USD mark in mid-November 2024.",
-          "The US Treasury introduced new sanctions on Gazprombank on November 21, 2024, which caused a sharp drop in the ruble, but it remained well below 120.",
-          "The ruble traded in the 102-108 range against the USD during the final week of November 2024."
+          "The Russian Ruble traded around 102-108 against the USD in late November 2024 following new US sanctions on Gazprombank.",
+          "The Bank of Russia stopped purchasing foreign currency on the domestic market on November 27, 2024, to support the ruble.",
+          "The official exchange rate set by the CBR remained below 115 throughout November 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -198,7 +199,7 @@
     "volume": "215549",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) rose 2.5 percent over the last 12 months ending in August 2024, which is below the 3% threshold.",
+      "rationale": "The U.S. Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased 2.5 percent over the 12 months ending August 2024, which is below the 3% threshold.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -207,8 +208,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The August 2024 CPI report was released by the BLS on September 11, 2024.",
-          "The 12-month inflation rate for August 2024 was officially recorded at 2.5%, the lowest since February 2021.",
-          "Core CPI (excluding food and energy) rose 0.3% in August, but the headline year-over-year figure remained well under 3%."
+          "The 12-month inflation rate for August 2024 was officially recorded at 2.5%.",
+          "This marked the lowest annual inflation rate since February 2021."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -302,7 +303,7 @@
     "volume": "277231",
     "status": "ok",
     "forecast": {
-      "rationale": "Ethereum experienced a significant price surge in late 2023, reaching the $2,500 milestone in late December driven by optimism surrounding spot ETF filings and the Dencun upgrade timeline. Historical data confirms it crossed this threshold before the year ended.",
+      "rationale": "Ethereum experienced a significant price surge in late 2023, reaching the $2,500 threshold in late December driven by optimism surrounding spot ETF filings and the Dencun upgrade timeline.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -310,8 +311,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Ethereum reached a high of approximately $2,440 on December 27 and surpassed $2,500 on December 28, 2023.",
-          "The price of ETH on December 31, 2023, was approximately $2,300, but the market condition 'hit $2,500' was satisfied earlier that week."
+          "ETH reached a high of approximately $2,440 on December 27 and surpassed $2,500 on December 28, 2023.",
+          "The price of ETH on December 31, 2023, was approximately $2,300, but the market condition 'hit $2,500' was met prior to the close."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -328,7 +329,7 @@
     "volume": "112456",
     "status": "ok",
     "forecast": {
-      "rationale": "The U.S. Bureau of Labor Statistics reported that the Consumer Price Index (CPI) for all urban consumers increased 2.5 percent for the 12 months ending August 2024, which does not exceed the 2.5% threshold required for a 'Yes' resolution.",
+      "rationale": "The U.S. Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased 2.5 percent over the last 12 months ending in August 2024. Since the market asks if inflation was above 2.5%, the result is No.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -336,9 +337,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The August 2024 CPI report was released by the BLS on September 11, 2024.",
-          "The annual inflation rate for August 2024 was exactly 2.5%, the lowest since February 2021.",
-          "Core CPI (excluding food and energy) rose 3.2% over the same 12-month period."
+          "The BLS released the August 2024 CPI data on September 11, 2024.",
+          "The 12-month inflation rate for August 2024 was exactly 2.5%, which is not 'above' 2.5%.",
+          "Core CPI (excluding food and energy) rose 0.3% in August."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -382,7 +383,7 @@
     "volume": "42686.9",
     "status": "ok",
     "forecast": {
-      "rationale": "Saudi Arabia was formally invited during the 15th BRICS summit in August 2023 and officially joined the bloc on January 1, 2024, alongside Egypt, Ethiopia, Iran, and the UAE.",
+      "rationale": "Saudi Arabia was formally invited to join BRICS during the August 2023 summit in Johannesburg and officially joined the bloc on January 1, 2024, alongside several other nations.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -390,9 +391,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The invitation was extended during the BRICS summit held in Johannesburg, South Africa, in August 2023.",
-          "Saudi Arabia's membership became official on January 1, 2024.",
-          "The expansion included six countries initially, though Argentina later declined under President Javier Milei."
+          "The invitation was extended during the 15th BRICS Summit held in Johannesburg, South Africa, in August 2023.",
+          "Saudi Arabia's membership became official on January 1, 2024, along with Egypt, Ethiopia, Iran, and the UAE."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -409,7 +409,7 @@
     "volume": "32038.4",
     "status": "ok",
     "forecast": {
-      "rationale": "The September 18, 2024 FOMC statement was notably brief and focused on the 50 basis point rate cut; the word 'inflation' appeared only five times in the official statement text, well below the threshold of 15.",
+      "rationale": "The September 18, 2024 FOMC statement was notably brief and focused on the 50 basis point rate cut; the word 'inflation' appeared only a few times in the official written statement, far below the threshold of 15.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -418,7 +418,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The FOMC statement released on September 18, 2024, announced a 50 basis point reduction in the federal funds rate to 4.75-5.00 percent.",
-          "The word 'inflation' appeared exactly 5 times in the official statement text, which is the standard length for these documents."
+          "The word 'inflation' appeared exactly 5 times in the official FOMC statement text released at 2:00 PM ET.",
+          "The statement noted that 'inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.'"
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -435,7 +436,7 @@
     "volume": "154313",
     "status": "ok",
     "forecast": {
-      "rationale": "Ethereum (ETH) successfully surpassed the $2,000 mark in November 2023 and maintained a price above that level through the end of the year, driven by broader market recovery and anticipation of spot ETF filings.",
+      "rationale": "Ethereum successfully surpassed the $2,000 threshold in November 2023 and maintained a price above that level through the end of the year, driven by broader market recovery and anticipation of spot ETF filings.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -443,8 +444,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "ETH crossed the $2,000 threshold on approximately November 9, 2023, following news of BlackRock's spot Ethereum ETF filing.",
-          "The price of Ethereum on December 31, 2023, closed at approximately $2,280."
+          "ETH first broke $2,000 in 2023 on April 13 following the Shanghai/Shapella upgrade, but fell back below it.",
+          "ETH decisively crossed $2,000 again on November 9, 2023, following news of BlackRock's spot Ethereum ETF filing.",
+          "The price of ETH on December 31, 2023, was approximately $2,280."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -488,7 +490,7 @@
     "volume": "18427.8",
     "status": "ok",
     "forecast": {
-      "rationale": "The U.S. Bureau of Labor Statistics reported that the unemployment rate for August 2024 was 4.2%, which is not strictly over 4.2%.",
+      "rationale": "The Bureau of Labor Statistics reported that the U.S. unemployment rate for August 2024 was 4.2%, which is not strictly over 4.2%.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -497,8 +499,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "The August 2024 Employment Situation report was released by the BLS on September 6, 2024.",
-          "The official unemployment rate for August 2024 was 4.2%, down from 4.3% in July.",
-          "Nonfarm payroll employment rose by 142,000 in August 2024."
+          "The official unemployment rate for August 2024 was 4.221% before rounding, officially reported as 4.2%."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -658,9 +659,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The speech took place on July 24, 2024, at 8:00 PM ET from the Oval Office.",
-          "Biden focused on 'passing the torch' and protecting democracy rather than citing health issues as the primary reason.",
-          "The transcript confirms the word 'health' was not spoken during the televised address."
+          "The speech took place on July 24, 2024, at 8:00 PM ET in the Oval Office.",
+          "Biden focused on 'passing the torch' to a younger generation and protecting democracy rather than citing health issues.",
+          "The transcript confirms the word 'health' was not spoken during the approximately 11-minute address."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -739,7 +740,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "The BLS released the August 2024 CPI data on September 11, 2024.",
-          "The seasonally adjusted monthly change for August 2024 was 0.2%.",
+          "The month-over-month seasonally adjusted inflation rate for August 2024 was 0.2%.",
           "Core CPI (all items less food and energy) rose 0.3% in August 2024."
         ],
         "recalled_outcome_if_known": "Yes"
@@ -784,7 +785,7 @@
     "volume": "2.01691e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "As of late 2024, the Federal Reserve has only implemented two rate cuts (50 bps in September and 25 bps in November). With only one meeting remaining in December, it is mathematically impossible to reach six cuts within the calendar year.",
+      "rationale": "The Federal Reserve maintained rates through the first half of 2024 and initiated its first cut of 50 basis points in September. With only two meetings remaining in Q4, it is mathematically impossible to reach six distinct rate cut actions in 2024.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -792,9 +793,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Federal Open Market Committee (FOMC) cut the federal funds rate by 50 basis points on September 18, 2024.",
-          "The FOMC cut rates by an additional 25 basis points on November 7, 2024.",
-          "There are only eight scheduled FOMC meetings per year, and the first four meetings of 2024 resulted in no cuts."
+          "The FOMC held rates steady at the January, March, May, June, and July 2024 meetings.",
+          "The first rate cut of 2024 occurred on September 18, 2024, with a 50 basis point reduction to a range of 4.75%-5.00%.",
+          "There are only two FOMC meetings scheduled after September (November and December), making 6 total cuts impossible."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -820,7 +821,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "Bitcoin surpassed the $44,000 mark on December 5, 2023.",
-          "The price reached a 2023 peak of approximately $44,700 in mid-December before a slight year-end consolidation."
+          "The price reached a 2023 high of approximately $44,700 in mid-December before a slight year-end consolidation."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -891,17 +892,16 @@
     "volume": "835805",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Reserve maintained its scheduled meeting cycle throughout 2024. While there was a 50-basis-point cut in September, it was a scheduled decision rather than an emergency inter-meeting action, and economic conditions did not necessitate an unscheduled intervention.",
+      "rationale": "The Federal Reserve maintained its scheduled meeting cycle throughout 2024. While there was a 50 basis point cut in September, it was a scheduled decision rather than an emergency inter-meeting action, and economic conditions did not necessitate an unscheduled emergency intervention.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Federal Open Market Committee (FOMC) held its scheduled meetings in 2024, including the September 17-18 meeting where they cut rates by 50 bps.",
-          "There were no inter-meeting 'emergency' rate cuts announced by the Fed through the end of 2024.",
-          "Economic data, while cooling, did not trigger the emergency protocols used in 2008 or 2020."
+          "The Federal Open Market Committee (FOMC) held its scheduled meetings in 2024, including the significant September 18 meeting where they cut rates by 50 basis points.",
+          "There were no inter-meeting 'emergency' rate cuts announced by the Fed through the majority of 2024 despite market volatility in early August."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -918,7 +918,7 @@
     "volume": "369836",
     "status": "ok",
     "forecast": {
-      "rationale": "While President Javier Milei campaigned on dollarization, his administration has prioritized fiscal balance and central bank reserves over immediate currency replacement. Economic conditions and political constraints make a full transition to the US dollar unlikely within the 2024 calendar year.",
+      "rationale": "While President Javier Milei remains committed to dollarization, the Argentine government has prioritized fiscal balance and cleaning the central bank's balance sheet first. As of late 2024, the official currency remains the peso and no formal transition date has been set for this year.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -926,9 +926,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Javier Milei was inaugurated as President of Argentina on December 10, 2023.",
-          "Economy Minister Luis Caputo has stated that dollarization is a long-term goal but not an immediate priority for 2024.",
-          "The administration has focused on a 'crawling peg' devaluation and fiscal austerity rather than immediate dollarization."
+          "Javier Milei took office on December 10, 2023, with dollarization as a core campaign promise.",
+          "Economy Minister Luis Caputo has stated that dollarization is a long-term goal but not immediate for 2024.",
+          "The government implemented a 'crawling peg' for the peso rather than immediate replacement."
         ],
         "recalled_outcome_if_known": null
       }
@@ -980,9 +980,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The August 2024 jobs report was released by the BLS on September 6, 2024.",
-          "Nonfarm payrolls increased by 142,000 in August, while the unemployment rate ticked down to 4.2%.",
-          "July's job growth was also revised downward to 89,000 in the same report."
+          "The August 2024 nonfarm payrolls report was released by the BLS on September 6, 2024.",
+          "The actual number of jobs added in August 2024 was 142,000, while the July figure was revised down to 89,000.",
+          "The unemployment rate ticked down slightly to 4.2% in the same report."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1026,7 +1026,7 @@
     "volume": "68450.7",
     "status": "ok",
     "forecast": {
-      "rationale": "While Sam Altman discussed massive fundraising goals for semiconductor infrastructure in early 2024, no such deal totaling $1 trillion or more was finalized or announced by the end of Q1 2024.",
+      "rationale": "While Sam Altman discussed massive capital requirements for AI infrastructure, no funding round exceeding $1 trillion was secured or announced by the end of Q1 2024. Such a sum would be unprecedented in corporate history and did not materialize within the specified timeframe.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1034,8 +1034,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Reports in February 2024 indicated Altman was seeking between $5 trillion and $7 trillion for a global chip venture.",
-          "The Q1 2024 deadline passed without any official announcement of a trillion-dollar funding round being closed.",
+          "Reports in February 2024 indicated Altman was seeking $5 trillion to $7 trillion for a global semiconductor initiative.",
+          "The Q1 2024 period ended on March 31, 2024, without any confirmed trillion-dollar investment deals.",
           "Major potential investors mentioned in reports included the UAE government and SoftBank."
         ],
         "recalled_outcome_if_known": "No"
@@ -1053,7 +1053,7 @@
     "volume": "16542.2",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased by 0.4% in March 2024 on a seasonally adjusted basis, which is significantly higher than the 0.2% threshold.",
+      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased by 0.4 percent in March 2024 on a seasonally adjusted basis, which is greater than the 0.2 percent threshold.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -1063,7 +1063,7 @@
         "evidence_facts": [
           "The BLS released the March 2024 CPI data on April 10, 2024.",
           "The month-over-month seasonally adjusted CPI increase was 0.4%.",
-          "The 12-month all items index increased 3.5% before seasonal adjustment."
+          "Core CPI (all items less food and energy) also rose 0.4% in March."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1107,7 +1107,7 @@
     "volume": "432105",
     "status": "ok",
     "forecast": {
-      "rationale": "Despite market volatility in early August 2024 following a weak jobs report and the 'carry trade' unwind, the Federal Reserve did not hold an emergency meeting or implement an inter-meeting rate cut, opting to wait for the scheduled September meeting.",
+      "rationale": "Despite market volatility in early August 2024 following a weak jobs report and the 'Yen carry trade' unwind, the Federal Reserve did not hold an emergency meeting or cut rates before the scheduled September FOMC meeting.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1115,9 +1115,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The S&P 500 and Nikkei 225 experienced significant drops on August 5, 2024, leading to speculation about an emergency cut.",
-          "Federal Reserve officials, including Austan Goolsbee, made public statements downplaying the need for emergency action despite the market turbulence.",
-          "The Federal Open Market Committee (FOMC) did not change the federal funds rate between the July 31 meeting and the end of August."
+          "The July jobs report released on August 2, 2024, showed an unemployment rate jump to 4.3%, triggering the Sahm Rule.",
+          "The Nikkei 225 suffered its largest point drop in history on August 5, 2024, leading to calls for an emergency Fed cut.",
+          "Federal Reserve officials, including Austan Goolsbee, signaled that the central bank would not overreact to a single data point."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1161,19 +1161,19 @@
     "volume": "12681.5",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) was unchanged in October 2023 on a seasonally adjusted basis, meaning the month-over-month inflation rate was 0.0%, not greater than 0%.",
+      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) was unchanged (0.1% increase on a seasonally adjusted basis) in November 2023, following a 0.0% change in October.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The BLS released the October 2023 CPI report on November 14, 2023.",
-          "The seasonally adjusted month-over-month change for all items in October 2023 was 0.0% (flat).",
-          "Energy prices fell 2.5% in October, offsetting increases in shelter and other indexes."
+          "The BLS released the November 2023 CPI data on December 12, 2023.",
+          "The seasonally adjusted monthly change for November 2023 was 0.1%.",
+          "The October 2023 monthly change was 0.0%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "Yes"
       }
     }
   },
@@ -1215,7 +1215,7 @@
     "volume": "37190.2",
     "status": "ok",
     "forecast": {
-      "rationale": "Jerome Powell wore a purple tie during the September 18, 2024, FOMC press conference where the Fed announced a 50 basis point rate cut. This specific sartorial choice was widely noted by market observers and media outlets covering the event.",
+      "rationale": "Jerome Powell wore a purple tie during the September 18, 2024, FOMC press conference where the Fed announced a 50 basis point interest rate cut.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -1223,9 +1223,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting took place on September 17-18, 2024.",
-          "Jerome Powell wore a purple/lavender tie during the post-meeting press conference.",
-          "The Federal Reserve announced a 50 basis point interest rate cut at this meeting."
+          "The FOMC meeting took place on September 18, 2024.",
+          "Jerome Powell wore a distinct purple/lavender tie during the press conference.",
+          "The Federal Reserve announced a 50 basis point rate cut at this specific meeting."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1279,7 +1279,7 @@
         "evidence_facts": [
           "The BLS released the March 2024 CPI data on April 10, 2024.",
           "The seasonally adjusted monthly increase for March 2024 was exactly 0.4%.",
-          "The 12-month all items increase was 3.5% before seasonal adjustment."
+          "The 12-month all items index increased 3.5 percent before seasonal adjustment."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1350,7 +1350,7 @@
     "volume": "1011.78",
     "status": "ok",
     "forecast": {
-      "rationale": "By late 2023 and early 2024, FTX claim valuations surged due to the recovery of assets, particularly the appreciation of the stake in Anthropic, leading market prices for claims to exceed 75 cents on the dollar before the end of Q1 2024.",
+      "rationale": "By late 2023 and early 2024, FTX claim prices on secondary markets like Claims Market and Xclaim surged past 70 cents and reached the 80-90 cent range due to the recovery of Anthropic shares and other assets.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -1358,8 +1358,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "FTX reached a settlement with the IRS in early 2024 and sold its Anthropic stake for approximately $884 million.",
-          "Claim pricing on secondary markets like Cherokee Acquisition exceeded 75 cents in February 2024.",
+          "FTX reached a deal to sell its stake in AI startup Anthropic for approximately $884 million in March 2024.",
+          "Secondary market prices for FTX claims were quoted above 90 cents on the dollar by late March 2024.",
           "The bankruptcy estate announced in early 2024 that it expected to pay creditors in full based on petition-date values."
         ],
         "recalled_outcome_if_known": "Yes"
@@ -1404,7 +1404,7 @@
     "volume": "20764.8",
     "status": "ok",
     "forecast": {
-      "rationale": "The U.S. Bureau of Labor Statistics reported the November 2024 unemployment rate on December 6, 2024. The rate increased slightly from the previous month's 4.1% to 4.2%, meaning the specific condition of being 4.1% was not met.",
+      "rationale": "The U.S. Bureau of Labor Statistics reported the November 2024 unemployment rate on December 6, 2024. The rate increased slightly from the previous month's 4.1% to 4.2%, meaning the specific condition of being exactly 4.1% was not met.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1414,7 +1414,7 @@
         "evidence_facts": [
           "The BLS Employment Situation Summary for November 2024 was released on December 6, 2024.",
           "The official seasonally adjusted unemployment rate for November 2024 was 4.2%.",
-          "Nonfarm payroll employment rose by 227,000 in November 2024."
+          "Nonfarm payroll employment increased by 227,000 in November 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1457,7 +1457,7 @@
     "volume": "18652.5",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) was unchanged in May 2024 on a seasonally adjusted basis, meaning the month-over-month inflation rate was 0.0%, not greater than 0.0%.",
+      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) was unchanged (0.0%) on a seasonally adjusted basis in June 2024, following a 0.1% increase in May.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1465,9 +1465,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The BLS released the May 2024 CPI data on June 12, 2024.",
-          "The seasonally adjusted month-over-month CPI change for May 2024 was 0.0% (flat).",
-          "The 12-month all items index increased 3.3 percent before seasonal adjustment."
+          "The June 2024 CPI report was released by the BLS on July 11, 2024.",
+          "The seasonally adjusted monthly change for all items in June 2024 was 0.0%.",
+          "Energy prices fell 2.0% in June, offsetting increases in shelter and food."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1493,8 +1493,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The April 2024 jobs report was released by the BLS on May 3, 2024.",
-          "Nonfarm payrolls increased by 175,000 in April 2024.",
-          "The unemployment rate ticked up slightly to 3.9% in the same report."
+          "Total nonfarm payroll employment rose by 175,000 in April 2024.",
+          "The unemployment rate edged up to 3.9 percent in the same report."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1511,18 +1511,14 @@
     "volume": "1.33044e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "A 75+ bps cut by December 2024 would require a massive economic shock or multiple jumbo cuts. Current Fed guidance and economic data suggest a more gradual easing cycle of 25 or 50 bps total by year-end.",
+      "rationale": "A 75+ bps cut by December 2024 would require an extremely aggressive easing cycle or a severe economic shock. Current Fed guidance and market pricing suggest a more gradual pace of 25 or 50 bps cuts, making a cumulative 75+ bps reduction by that specific meeting unlikely.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.15,
+        "No": 0.85
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The Federal Reserve held the federal funds rate at 5.25%-5.50% through the July 2024 meeting.",
-          "The FOMC meeting scheduled for December 17-18, 2024, is the final meeting of the year.",
-          "Market expectations as of late 2024 centered on a total of 50-100 bps in cuts for the full year, making a single 75+ bps move or cumulative 75+ bps cut from late Q4 highly unlikely."
-        ],
+        "recognized_event": false,
+        "evidence_facts": [],
         "recalled_outcome_if_known": null
       }
     }
@@ -1592,17 +1588,17 @@
     "volume": "1.4923e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Throughout 2024, the Federal Reserve maintained or lowered interest rates, specifically implementing a 50-basis-point cut in September and a 25-basis-point cut in November. There were no rate hikes during the 2024 calendar year as inflation trended downward.",
+      "rationale": "The Federal Reserve maintained rates in the first half of 2024 and initiated a 50-basis-point rate cut in September 2024. There have been no rate hikes in 2024, and the FOMC dot plot indicates a downward trajectory for the remainder of the year.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC implemented a 50-basis-point rate cut on September 18, 2024.",
-          "The FOMC implemented a 25-basis-point rate cut on November 7, 2024.",
-          "The federal funds rate target range started the year at 5.25%-5.50% and was lowered, not raised."
+          "The FOMC implemented a 50-basis-point interest rate cut on September 18, 2024.",
+          "The federal funds rate was held steady at 5.25%-5.50% from January through August 2024.",
+          "Jerome Powell's Jackson Hole speech in August 2024 signaled that 'the time has come for policy to adjust' downward."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1646,7 +1642,7 @@
     "volume": "884828",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its July 30-31, 2024 meeting, opting to wait for more confidence in inflation trends before cutting rates in September.",
+      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its July 30-31, 2024 meeting. While the committee signaled a potential cut in September, no rate decrease occurred in July.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1654,8 +1650,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on July 31, 2024, with a decision to maintain the target range for the federal funds rate at 5.25 to 5.50 percent.",
-          "Jerome Powell indicated during the post-meeting press conference that a rate cut could be 'on the table' for the September meeting, but no change was made in July."
+          "The FOMC meeting took place on July 30-31, 2024.",
+          "The target range for the federal funds rate was maintained at 5.25 to 5.50 percent.",
+          "Fed Chair Jerome Powell stated in the post-meeting press conference that a rate cut could be on the table for the September meeting."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1672,7 +1669,7 @@
     "volume": "17762.7",
     "status": "ok",
     "forecast": {
-      "rationale": "By March 1, 2024, the floor price of Milady Maker remained significantly below that of Mutant Ape Yacht Club (MAYC), despite a narrowing gap during the NFT market fluctuations of early 2024.",
+      "rationale": "By March 1, 2024, the floor price of Milady Maker remained significantly below that of Mutant Ape Yacht Club (MAYC). Despite Milady's momentum in early 2024, the 'flippening' did not occur within the specified timeframe.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1680,9 +1677,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "On March 1, 2024, the MAYC floor price was approximately 4 ETH.",
-          "On March 1, 2024, the Milady Maker floor price was approximately 2.5 to 3 ETH.",
-          "The 'flippening' event did not occur by the specified deadline."
+          "On March 1, 2024, the MAYC floor price was approximately 3.5-4 ETH, while Milady Maker was trading around 2.5-3 ETH.",
+          "The Milady Maker collection reached a peak floor price near 4 ETH in mid-February 2024 but failed to sustain it above MAYC's floor by the deadline."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1725,7 +1721,7 @@
     "volume": "8150.01",
     "status": "ok",
     "forecast": {
-      "rationale": "The SOL/ETH ratio reached a peak around 0.054-0.059 in late December 2023 but did not surpass that level in January 2024, as Ethereum regained strength following the Bitcoin ETF approvals and Solana's momentum cooled slightly.",
+      "rationale": "The SOL/ETH ratio reached a peak in late December 2023 around 0.05-0.06 but did not surpass that local high in January 2024 as Ethereum regained strength following the Bitcoin ETF approvals.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1733,9 +1729,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Solana reached a local high against Ethereum on December 25, 2023, at approximately 0.054-0.059.",
-          "Ethereum price surged in mid-January 2024 following the SEC approval of spot Bitcoin ETFs, causing the SOL/ETH ratio to decline.",
-          "The SOL/ETH ratio remained below the December 2023 peak throughout the entire month of January 2024."
+          "SOL/ETH reached a multi-year high of approximately 0.059 on December 25, 2023.",
+          "During January 2024, the ratio trended downwards as ETH outperformed SOL, dropping toward the 0.04 range by late January.",
+          "The January 2024 high for SOL/ETH remained below the December 2023 peak."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1752,7 +1748,7 @@
     "volume": "286083",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) met on April 30–May 1, 2024, and elected to maintain the target range for the federal funds rate at 5.25 to 5.5 percent, marking the sixth consecutive meeting with no rate change.",
+      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its May 1, 2024 meeting. This marked the sixth consecutive meeting where rates remained unchanged, as inflation remained above the 2% target.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1760,9 +1756,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on May 1, 2024, with a decision to keep the federal funds rate at 5.25%-5.50%.",
-          "The official post-meeting statement noted that there had been a 'lack of further progress' toward the 2 percent inflation objective in recent months.",
-          "Jerome Powell stated in the press conference that it was unlikely the next move would be a rate hike."
+          "The FOMC meeting concluded on May 1, 2024, with a decision to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent.",
+          "The official post-meeting statement noted a 'lack of further progress' toward the 2 percent inflation objective in recent months.",
+          "Fed Chair Jerome Powell stated during the press conference that it was unlikely the next policy rate move would be a hike."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1779,7 +1775,7 @@
     "volume": "197105",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its March 19-20, 2024 meeting, marking the fifth consecutive meeting without a rate hike as inflation showed signs of cooling.",
+      "rationale": "The Federal Open Market Committee (FOMC) maintained the federal funds rate at 5.25%-5.50% during its March 19-20, 2024 meeting, marking the fifth consecutive meeting without a rate hike as inflation showed signs of cooling.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1787,9 +1783,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting took place on March 19-20, 2024.",
-          "The target range for the federal funds rate was maintained at 5.25 to 5.50 percent.",
-          "The decision to pause was unanimous among committee members."
+          "The FOMC meeting concluded on March 20, 2024, with a decision to hold rates steady at 5.25%-5.50%.",
+          "The 'dot plot' released during the March 2024 meeting still projected three rate cuts for the remainder of 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1806,7 +1801,7 @@
     "volume": "58887.6",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its January 30-31, 2024 meeting, opting not to cut rates as inflation remained above the 2% target.",
+      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its January 30-31, 2024 meeting, opting not to implement a rate cut as inflation remained above the 2% target.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1815,7 +1810,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "The FOMC meeting took place on January 30-31, 2024.",
-          "The Fed maintained the target range for the federal funds rate at 5.25 to 5.50 percent.",
+          "The target range for the federal funds rate was maintained at 5.25 to 5.50 percent.",
           "Fed Chair Jerome Powell stated in the post-meeting press conference that a rate cut in March was unlikely, let alone January."
         ],
         "recalled_outcome_if_known": "No"
@@ -1860,17 +1855,17 @@
     "volume": "283212",
     "status": "ok",
     "forecast": {
-      "rationale": "The Protecting Americans from Foreign Adversary Controlled Applications Act, signed in April 2024, provides ByteDance with a nine-month deadline (until January 2025) to divest TikTok. Therefore, a total ban is not legally mandated to occur within the 2024 calendar year.",
+      "rationale": "The Protecting Americans from Foreign Adversary Controlled Applications Act, signed in April 2024, provides ByteDance a 270-day deadline (until January 19, 2025) to divest TikTok. Therefore, a ban or forced removal from app stores is not scheduled to take effect within the 2024 calendar year.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
           "President Biden signed H.R. 8159 into law on April 24, 2024.",
-          "The law sets a divestiture deadline of 270 days, which falls on January 19, 2025.",
-          "TikTok filed a legal challenge in the U.S. Court of Appeals for the D.C. Circuit in May 2024."
+          "The law mandates a divestiture deadline of January 19, 2025, with a possible 90-day extension.",
+          "TikTok and ByteDance filed a legal challenge in the U.S. Court of Appeals for the D.C. Circuit in May 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1914,7 +1909,7 @@
     "volume": "217074",
     "status": "ok",
     "forecast": {
-      "rationale": "Keith Gill, known as Roaring Kitty, returned to social media in May 2024, sparking significant market activity. While he faced a class-action lawsuit in June 2024 regarding alleged securities fraud, it was voluntarily dismissed shortly after, and no criminal charges have been filed by authorities.",
+      "rationale": "Keith Gill (Roaring Kitty) returned to social media in May 2024, sparking significant market activity. While he faced a class-action lawsuit in June 2024 regarding alleged securities fraud, it was voluntarily dismissed shortly after, and no criminal charges have been filed by authorities.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1922,9 +1917,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Keith Gill posted a meme of a person leaning forward in a chair on X on May 12, 2024, ending a three-year hiatus.",
-          "A class-action lawsuit (Iannuccillo v. Gill) was filed in the Eastern District of New York in late June 2024 but was voluntarily dismissed by the plaintiff three days later.",
-          "The SEC and Massachusetts regulators have reportedly looked into his 2024 trading activity, but no formal charges have been announced as of late 2024."
+          "Keith Gill posted a screenshot of a $116 million position in GameStop on Reddit in June 2024.",
+          "A class-action lawsuit filed in the Eastern District of New York (Iacono v. Gill) was voluntarily dismissed by the plaintiff in July 2024.",
+          "The Massachusetts Secretary of the Commonwealth's office investigated his activities but did not announce formal charges as of mid-2024."
         ],
         "recalled_outcome_if_known": null
       }
@@ -1941,7 +1936,7 @@
     "volume": "204194",
     "status": "ok",
     "forecast": {
-      "rationale": "The FDIC reported no bank failures between the closure of Republic First Bank in April 2024 and the October 31, 2024 deadline. The banking sector remained stable through the end of October without any new receiverships announced.",
+      "rationale": "The FDIC reported only two bank failures in 2024: Republic First Bank in April and City National Bank of New Jersey in July. No US bank failures occurred between the July event and the October 31 deadline.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1949,8 +1944,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The last US bank failure prior to the deadline was Republic First Bank (Philadelphia) on April 26, 2024.",
-          "The FDIC Failed Bank List shows no entries for the period between May 2024 and October 31, 2024."
+          "Republic First Bank (Philadelphia) failed on April 26, 2024.",
+          "City National Bank of New Jersey (Newark) failed on July 12, 2024.",
+          "The FDIC Failed Bank List shows no further closures through October 31, 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1994,7 +1990,7 @@
     "volume": "121126",
     "status": "ok",
     "forecast": {
-      "rationale": "Republic First Bank was closed by the Pennsylvania Department of Banking and Securities on April 26, 2024, and the FDIC was appointed as receiver. This event constitutes a US bank failure occurring before the September 2024 deadline.",
+      "rationale": "Republic First Bank failed in April 2024, which satisfies the condition of a US bank failure occurring before the September 1st deadline.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -2002,8 +1998,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Republic First Bank (trading as Republic Bank) was closed on April 26, 2024.",
-          "Fulton Bank, National Association, of Lancaster, Pennsylvania, assumed substantially all of the deposits and purchased substantially all of the assets of Republic First Bank."
+          "Republic First Bank (trading as Republic Bank) was closed by the Pennsylvania Department of Banking and Securities on April 26, 2024.",
+          "The FDIC was appointed as receiver and Fulton Bank assumed substantially all deposits and assets of Republic First Bank."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2020,7 +2016,7 @@
     "volume": "108965",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 U.S. election occurred on November 5, 2024. No legislation implementing a tax on unrealized gains was passed by Congress or signed into law prior to the close time of November 4, 2024.",
+      "rationale": "The 2024 U.S. election took place on November 5, 2024. No legislation implementing a tax on unrealized capital gains was passed by Congress or signed into law prior to the close time of November 4, 2024.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2028,8 +2024,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The 2024 U.S. Presidential Election took place on November 5, 2024.",
-          "The proposal for a tax on unrealized gains (often associated with the Billionaire Minimum Income Tax) remained a campaign proposal and did not pass through the 118th Congress."
+          "The 2024 U.S. Presidential Election occurred on November 5, 2024.",
+          "The proposal for a tax on unrealized gains (often associated with the Billionaire Minimum Income Tax) remained a campaign proposal and was not enacted into law during the 118th Congress."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2046,7 +2042,7 @@
     "volume": "56886.5",
     "status": "ok",
     "forecast": {
-      "rationale": "Republic First Bank was closed by the Pennsylvania Department of Banking and Securities on April 26, 2024, and the FDIC was appointed as receiver, marking a US bank failure within the specified month.",
+      "rationale": "Republic First Bank (Republic Bank) was closed by the Pennsylvania Department of Banking and Securities on April 26, 2024, with the FDIC appointed as receiver. This event constitutes a US bank failure within the specified month.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -2055,8 +2051,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "Republic First Bank (trading as Republic Bank) was closed on April 26, 2024.",
-          "The FDIC entered into an agreement with Fulton Bank to assume substantially all deposits and purchase substantially all assets of Republic Bank.",
-          "Republic Bank had approximately $6 billion in total assets and $4 billion in total deposits at the time of closure."
+          "The FDIC entered into a purchase and assumption agreement with Fulton Bank, National Association, to assume the deposits and assets.",
+          "The bank was headquartered in Philadelphia and had approximately $6 billion in total assets at the time of closure."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2073,7 +2069,7 @@
     "volume": "46650",
     "status": "ok",
     "forecast": {
-      "rationale": "Supreme Court Justice Alexandre de Moraes was not arrested in September 2024. While he was involved in high-profile legal battles with Elon Musk and X, he remained in his judicial position throughout the month.",
+      "rationale": "Supreme Court Justice Alexandre de Moraes was not arrested in September 2024. While he was involved in high-profile legal battles with Elon Musk and X (formerly Twitter) during this period, he remained in office and active in his judicial duties throughout the month.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2082,8 +2078,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "Alexandre de Moraes is a Justice of the Supreme Federal Court (STF) of Brazil.",
-          "In September 2024, Moraes was actively presiding over the ban of the social media platform X in Brazil.",
-          "There were no credible reports or legal actions resulting in his arrest during this period."
+          "In September 2024, Moraes was presiding over the ban of the social media platform X in Brazil.",
+          "There were no credible reports or legal actions resulting in his arrest during the specified timeframe."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2127,7 +2123,7 @@
     "volume": "35511",
     "status": "ok",
     "forecast": {
-      "rationale": "Despite the Federal Reserve's 50-basis-point rate cut in September 2024, 30-year fixed mortgage rates remained above 6% throughout October 2024, driven by rising Treasury yields and economic data. Freddie Mac reported rates in the 6.7% range just before the election.",
+      "rationale": "While mortgage rates dipped in September 2024 following the Federal Reserve's 50 basis point cut, the Freddie Mac 30-year fixed-rate average remained above 6% throughout October 2024, trending upward toward 6.7% by the end of the month.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2135,9 +2131,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Freddie Mac's Primary Mortgage Market Survey showed the 30-year fixed-rate mortgage at 6.72% as of October 31, 2024.",
-          "The 10-year Treasury yield, which influences mortgage rates, rose significantly in October 2024 despite the Fed's previous rate cut.",
-          "The 2024 U.S. Presidential Election took place on November 5, 2024."
+          "The Freddie Mac Primary Mortgage Market Survey (PMMS) 30-year rate was 6.72% on October 31, 2024.",
+          "The lowest point in late 2024 was approximately 6.08% in late September before rates began rising again in October."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2207,19 +2202,19 @@
     "volume": "13918.3",
     "status": "ok",
     "forecast": {
-      "rationale": "In August 2024, X (formerly Twitter) filed an antitrust lawsuit against the Global Alliance for Responsible Media (GARM) and its members. While GARM disbanded shortly after, the legal proceedings against individual defendants like Unilever and Mars have continued through the end of 2024.",
+      "rationale": "In August 2024, X (formerly Twitter) filed an antitrust lawsuit against GARM and the World Federation of Advertisers. While GARM disbanded shortly after, the legal proceedings against individual members and the WFA are ongoing and unlikely to be fully dropped before year-end.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.15,
+        "No": 0.85
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "X filed the antitrust lawsuit in the U.S. District Court for the Northern District of Texas in August 2024.",
-          "The lawsuit targeted the World Federation of Advertisers (WFA) and its GARM initiative for an alleged illegal boycott.",
-          "GARM announced it was 'discontinuing' its activities on August 8, 2024, but the litigation against other named defendants remained active."
+          "X filed the antitrust lawsuit in the U.S. District Court for the Northern District of Texas on August 6, 2024.",
+          "The lawsuit targeted the Global Alliance for Responsible Media (GARM) and its parent organization, the World Federation of Advertisers (WFA).",
+          "GARM announced it was 'discontinuing' its activities on August 8, 2024, but the litigation remains active."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -2234,7 +2229,7 @@
     "volume": "96772.6",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Reserve held interest rates steady at its September, November, and December 2023 meetings, keeping the federal funds rate at 5.25%-5.50% after the final hike in July 2023.",
+      "rationale": "The Federal Reserve held interest rates steady at its final meetings of 2023 in September, November, and December. The last rate hike of the cycle occurred in July 2023, bringing the federal funds rate to a range of 5.25% to 5.50%.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2242,8 +2237,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The last rate hike of 2023 occurred on July 26, raising the target range to 5.25%-5.50%.",
-          "The FOMC maintained the same rate during the final three meetings of the year on September 20, November 1, and December 13."
+          "The FOMC maintained the target range for the federal funds rate at 5.25 to 5.50 percent during its December 12-13, 2023 meeting.",
+          "The final rate hike of 2023 took place on July 26, 2023, which was a 25 basis point increase.",
+          "The Fed paused hikes for the remainder of the year following the July meeting."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2260,7 +2256,7 @@
     "volume": "37979",
     "status": "ok",
     "forecast": {
-      "rationale": "The Port of Baltimore's federal shipping channel was fully restored to its original dimensions (700 feet wide and 50 feet deep) in June 2024, following the removal of the Dali and bridge debris. Since the port reopened before August, the condition for an August or later reopening was not met.",
+      "rationale": "The Port of Baltimore's Fort McHenry Federal Channel was fully restored to its original dimensions of 700 feet wide and 50 feet deep on June 10, 2024, following the removal of the Dali wreckage and debris. Since the port reopened in June, it did not reopen in August or later.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2268,9 +2264,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Fort McHenry Federal Channel was fully reopened on June 10, 2024.",
-          "The container ship Dali was successfully refloated and moved on May 20, 2024.",
-          "The Unified Command announced the restoration of the permanent channel to 700 feet by 50 feet in early June."
+          "The Unified Command announced the full reopening of the Fort McHenry Federal Channel on June 10, 2024.",
+          "The container ship Dali was refloated and moved to a terminal on May 20, 2024.",
+          "The channel was restored to its original operational dimensions of 700 feet by 50 feet."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2287,7 +2283,7 @@
     "volume": "22600.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The November 2024 jobs report showed a significant rebound following hurricane and strike disruptions in October. The Bureau of Labor Statistics reported a gain of 227,000 jobs, which is well above the 100-150k range specified in the market.",
+      "rationale": "The November 2024 jobs report showed a significant rebound following hurricane and strike-related disruptions in October. The Bureau of Labor Statistics reported a gain of 227,000 jobs, which is well above the 100-150k range specified in the market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2296,7 +2292,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "The November 2024 nonfarm payrolls increased by 227,000.",
-          "The unemployment rate for November 2024 ticked up slightly to 4.2%.",
+          "The unemployment rate for November 2024 rose slightly to 4.2%.",
           "The report was released by the BLS on December 6, 2024."
         ],
         "recalled_outcome_if_known": "No"
@@ -2314,7 +2310,7 @@
     "volume": "66405",
     "status": "ok",
     "forecast": {
-      "rationale": "The U.S. Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) rose 2.7 percent over the last 12 months ending in November 2024, which is above the 2.5 percent threshold.",
+      "rationale": "The U.S. Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased by 2.7% on a year-over-year basis in November 2024, which is above the 2.5% threshold.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2323,8 +2319,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The November 2024 CPI report was released by the BLS on December 11, 2024.",
-          "The 12-month inflation rate for November 2024 was 2.7%, an increase from the 2.6% recorded in October.",
-          "Core CPI (excluding food and energy) rose 3.3% over the same 12-month period."
+          "The annual inflation rate for November 2024 was 2.7 percent.",
+          "The monthly CPI increase for November 2024 was 0.3 percent."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2341,7 +2337,7 @@
     "volume": "237073",
     "status": "ok",
     "forecast": {
-      "rationale": "The ECB lowered the deposit facility rate by 25 basis points to 3.25% in October 2024. While inflation is cooling, a 50+ bps cut in December would require a significant economic deterioration, which is currently less likely than a standard 25 bps move.",
+      "rationale": "The ECB lowered the deposit facility rate by 25 basis points to 3.25% in October 2024. While inflation has cooled, a 50 bps cut in December would require a significant economic downturn or a major downside surprise in inflation data, which is currently less likely than a standard 25 bps move.",
       "probabilities": {
         "Yes": 0.15,
         "No": 0.85
@@ -2421,7 +2417,7 @@
     "volume": "14054.2",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that total nonfarm payroll employment increased by 206,000 in June 2024, which is significantly higher than the 150,000 threshold.",
+      "rationale": "The Bureau of Labor Statistics reported that total nonfarm payroll employment increased by 206,000 in June 2024, which is significantly higher than the 150,000 threshold specified in the market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2430,8 +2426,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The June 2024 nonfarm payrolls report was released by the BLS on July 5, 2024.",
-          "The official figure for job gains in June 2024 was 206,000.",
-          "The unemployment rate for June 2024 edged up slightly to 4.1%."
+          "The actual number of jobs added in June 2024 was 206,000.",
+          "The unemployment rate for June 2024 ticked up slightly to 4.1%."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2448,16 +2444,16 @@
     "volume": "8.33716e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Reserve implemented a 50 basis point cut in September 2024 and a 25 basis point cut in November 2024. With one meeting remaining in December, a third cut is widely expected by market participants to reach the total of three.",
+      "rationale": "The Federal Reserve implemented a 50 basis point cut in September and a 25 basis point cut in November, totaling two cuts. A third cut is widely expected at the December FOMC meeting based on current economic data and Fed communications.",
       "probabilities": {
-        "Yes": 0.95,
-        "No": 0.05
+        "Yes": 0.85,
+        "No": 0.15
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC cut the federal funds rate by 50 basis points on September 18, 2024.",
-          "The FOMC cut the federal funds rate by 25 basis points on November 7, 2024.",
+          "The FOMC lowered the federal funds rate by 50 basis points on September 18, 2024.",
+          "The FOMC lowered the federal funds rate by 25 basis points on November 7, 2024.",
           "The final FOMC meeting of 2024 is scheduled for December 17-18."
         ],
         "recalled_outcome_if_known": null
@@ -2475,7 +2471,7 @@
     "volume": "6702.59",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 272,000 in May 2024, which is significantly higher than the 150,000 threshold mentioned in the market.",
+      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 272,000 in May 2024, which is significantly higher than the 150,000 threshold mentioned in the prompt.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2484,7 +2480,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "The May 2024 nonfarm payrolls report was released by the BLS on June 7, 2024.",
-          "The actual number of jobs added in May 2024 was 272,000, exceeding economist expectations of approximately 185,000.",
+          "The actual number of jobs added in May 2024 was 272,000, exceeding economist expectations of around 185,000.",
           "The unemployment rate for May 2024 ticked up slightly to 4.0%."
         ],
         "recalled_outcome_if_known": "No"
@@ -2502,7 +2498,7 @@
     "volume": "2.26986e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Reserve initiated a 50-basis-point rate cut in September 2024 and followed with a 25-basis-point cut in November 2024. Economic data and FOMC communications indicate a high likelihood of a third cut at the December 17-18 meeting.",
+      "rationale": "The Federal Reserve initiated a rate-cutting cycle in September 2024 with a 50 basis point reduction and followed with a 25 basis point cut in November. Economic data and FOMC communications indicate a high likelihood of a third cut at the December 17-18 meeting.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -2510,9 +2506,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC lowered the federal funds rate by 50 bps on September 18, 2024, to a range of 4.75%-5.00%.",
+          "The FOMC lowered the federal funds rate by 50 bps on September 18, 2024.",
           "The FOMC lowered the federal funds rate by 25 bps on November 7, 2024, to a range of 4.50%-4.75%.",
-          "The final FOMC meeting of 2024 is scheduled for December 17-18."
+          "The December FOMC meeting is scheduled for December 17-18, 2024."
         ],
         "recalled_outcome_if_known": null
       }
@@ -2529,7 +2525,7 @@
     "volume": "53224.4",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 254,000 in September 2024, which is significantly higher than the 100,000 threshold.",
+      "rationale": "The September 2024 jobs report showed significantly stronger growth than expected, with nonfarm payrolls increasing by 254,000, well above the 100,000 threshold.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2537,9 +2533,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The September 2024 jobs report was released by the BLS on October 4, 2024.",
-          "Nonfarm payrolls increased by 254,000, far exceeding the consensus estimate of approximately 140,000-150,000.",
-          "The unemployment rate for September 2024 ticked down to 4.1%."
+          "The Bureau of Labor Statistics released the September 2024 jobs report on October 4, 2024.",
+          "Nonfarm payrolls increased by 254,000 in September 2024.",
+          "The unemployment rate fell slightly to 4.1% in the same report."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2556,7 +2552,7 @@
     "volume": "1.76256e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) meeting on September 17-18, 2024, resulted in a 50 basis point interest rate cut, not an increase, as inflation cooled and the labor market showed signs of softening.",
+      "rationale": "The Federal Open Market Committee (FOMC) meeting on September 17-18, 2024, resulted in a 50 basis point interest rate cut, not an increase, as the Fed shifted focus toward supporting the labor market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2564,9 +2560,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC announced a 50 basis point reduction in the federal funds rate on September 18, 2024.",
-          "This was the first interest rate cut by the Federal Reserve since March 2020.",
-          "The target range was lowered to 4.75%-5.00%."
+          "The FOMC announced a 50 basis point cut to the federal funds rate on September 18, 2024.",
+          "This was the first interest rate reduction since March 2020, bringing the target range to 4.75%-5.00%.",
+          "The decision was made during the September 17-18, 2024, policy meeting."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2610,7 +2606,7 @@
     "volume": "1.5032e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) met on November 6-7, 2024, and decided to lower the target range for the federal funds rate by 25 basis points to 4.50%-4.75%, which is significantly less than the 75 basis points required for a 'Yes' resolution.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on November 6-7, 2024, and announced a 25 basis point cut to the federal funds rate, bringing the target range to 4.50%-4.75%. A 75+ bps cut was not implemented.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2618,9 +2614,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on November 7, 2024, with a 25 basis point cut.",
-          "The federal funds rate target range was adjusted to 4.50% to 4.75% following the decision.",
-          "This followed a larger 50 basis point cut in September 2024."
+          "The FOMC meeting concluded on November 7, 2024, with a decision to lower the target range for the federal funds rate by 25 basis points.",
+          "The resulting target range after the November meeting was 4.50% to 4.75%.",
+          "The vote for the 25 bps cut was unanimous among the committee members."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2637,7 +2633,7 @@
     "volume": "25272.8",
     "status": "ok",
     "forecast": {
-      "rationale": "The October 2024 nonfarm payrolls report showed an increase of only 12,000 jobs, significantly below the 100-150k range due to strike activity and hurricane impacts.",
+      "rationale": "The October 2024 nonfarm payrolls report showed an increase of only 12,000 jobs, significantly below the 100-150k range, largely due to the impacts of Hurricanes Helene and Milton and labor strikes.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2645,9 +2641,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Bureau of Labor Statistics reported a gain of 12,000 jobs for October 2024.",
-          "The report was released on November 1, 2024, at 8:30 AM ET.",
-          "Significant downward pressure was attributed to Boeing strikes and Hurricanes Helene and Milton."
+          "The Bureau of Labor Statistics (BLS) released the October jobs report on November 1, 2024.",
+          "The actual nonfarm payroll employment change for October 2024 was +12,000.",
+          "The unemployment rate remained steady at 4.1% in the same report."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2745,7 +2741,7 @@
     "volume": "18151.2",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 275,000 in February 2024, which is significantly above the 200,000 threshold.",
+      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 275,000 in February 2024, which is significantly above the 200,000 threshold. This data was released on March 8, 2024, confirming the outcome.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2753,9 +2749,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The February 2024 jobs report was released by the BLS on March 8, 2024.",
-          "The official figure for nonfarm payroll growth in February 2024 was 275,000.",
-          "The unemployment rate for February 2024 rose to 3.9%."
+          "The BLS reported a gain of 275,000 jobs for February 2024.",
+          "The unemployment rate rose to 3.9% in the same report.",
+          "The report was released on Friday, March 8, 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2772,7 +2768,7 @@
     "volume": "582732",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its June 12, 2024 meeting, marking the seventh consecutive meeting without a rate hike. Inflation data and economic projections at the time did not support an increase.",
+      "rationale": "The Federal Open Market Committee (FOMC) maintained the federal funds rate at 5.25%-5.50% during its June 11-12, 2024 meeting. Economic data and the 'dot plot' indicated a shift toward fewer rate cuts rather than any consideration of a rate hike.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2780,8 +2776,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on June 12, 2024, with a decision to maintain the target range for the federal funds rate at 5.25 to 5.50 percent.",
-          "The 'dot plot' released during the June 2024 meeting showed that officials projected only one rate cut for the remainder of 2024, rather than any increases."
+          "The FOMC meeting concluded on June 12, 2024, with a decision to hold rates steady at 5.25%-5.50%.",
+          "The Summary of Economic Projections (SEP) released at this meeting showed the median participant expected only one rate cut in 2024.",
+          "Inflation data (CPI) released the morning of June 12, 2024, showed a cooling trend, further removing pressure for a rate increase."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2798,7 +2795,7 @@
     "volume": "165142",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) met on April 30-May 1, 2024, and decided to maintain the target range for the federal funds rate at 5.25 to 5.50 percent, citing a lack of further progress toward the 2 percent inflation objective.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on April 30-May 1, 2024, and decided to maintain the federal funds rate at 5.25-5.50% due to a lack of further progress toward the 2% inflation objective.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -2806,9 +2803,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC statement was released on May 1, 2024, at 2:00 PM EDT.",
-          "The federal funds rate was maintained at 5.25%-5.50%.",
-          "The Fed also announced it would slow the pace of its balance sheet runoff starting in June."
+          "The FOMC meeting concluded on May 1, 2024, with a unanimous decision to keep the target range for the federal funds rate at 5.25 to 5.5 percent.",
+          "The Fed also announced it would slow the pace of its balance sheet runoff starting in June 2024."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2861,8 +2857,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The April 2024 nonfarm payrolls report was released by the BLS on May 3, 2024.",
-          "The actual number of jobs added in April 2024 was 175,000.",
-          "The unemployment rate for April 2024 ticked up slightly to 3.9%."
+          "The actual figure reported was 175,000 jobs added, missing the consensus estimate of 243,000 but exceeding 150,000.",
+          "The unemployment rate ticked up slightly to 3.9% in the same report."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2889,7 +2885,7 @@
         "evidence_facts": [
           "The FOMC meeting took place on December 12-13, 2023.",
           "The target range for the federal funds rate was maintained at 5.25 to 5.50 percent.",
-          "The 'dot plot' released during this meeting signaled that officials expected three rate cuts in 2024."
+          "The 'dot plot' released during this meeting signaled that the tightening cycle had likely peaked, with projections for rate cuts in 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2906,7 +2902,7 @@
     "volume": "5714.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The July 2024 nonfarm payrolls report showed a significant slowdown in job growth, coming in well below the 300k threshold and missing consensus estimates of approximately 175k.",
+      "rationale": "The July 2024 nonfarm payrolls report showed a significant slowdown in job growth, coming in well below the 300k threshold and missing consensus estimates.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2914,8 +2910,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by only 114,000 in July 2024.",
-          "The unemployment rate rose to 4.3% in the same July report, triggering the Sahm Rule.",
+          "The Bureau of Labor Statistics reported that nonfarm payrolls increased by only 114,000 in July 2024.",
+          "The unemployment rate rose unexpectedly to 4.3% in the same report, triggering the Sahm Rule.",
           "The report was released on August 2, 2024, at 8:30 AM ET."
         ],
         "recalled_outcome_if_known": "No"
@@ -2933,7 +2929,7 @@
     "volume": "13148.3",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its January 30-31, 2024 meeting, marking the fourth consecutive pause as inflation showed signs of cooling.",
+      "rationale": "The Federal Open Market Committee (FOMC) maintained the federal funds rate at 5.25%-5.50% during its January 2024 meeting, marking the fourth consecutive pause as inflation showed signs of cooling.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2942,8 +2938,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The FOMC meeting took place on January 30-31, 2024.",
-          "The target range for the federal funds rate was maintained at 5.25 to 5.50 percent.",
-          "The decision to hold rates steady was unanimous among committee members."
+          "The target range for the federal funds rate was kept steady at 5.25 to 5.50 percent.",
+          "Jerome Powell stated in the post-meeting press conference that a rate cut in March was unlikely, but no hike occurred."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2960,7 +2956,7 @@
     "volume": "17770.3",
     "status": "ok",
     "forecast": {
-      "rationale": "The Port of Baltimore's federal shipping channel was fully restored to its original dimensions in June 2024 following the removal of the Dali container ship and bridge debris. The US Army Corps of Engineers confirmed the reopening of the 700-foot-wide channel on June 10.",
+      "rationale": "The Port of Baltimore's main shipping channel was fully restored to its original dimensions in June 2024 following the removal of wreckage from the Dali container ship and the Francis Scott Key Bridge.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -2968,8 +2964,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Fort McHenry Channel was fully restored to its original 700-foot width and 50-foot depth on June 10, 2024.",
-          "The container ship Dali was successfully refloated and moved on May 20, 2024, allowing for the final clearing of the channel in early June."
+          "The U.S. Army Corps of Engineers announced the full reopening of the 700-foot-wide, 50-foot-deep federal channel on June 10, 2024.",
+          "The container ship Dali was successfully refloated and moved on May 20, 2024, allowing for the final phase of debris removal in the channel."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3013,7 +3009,7 @@
     "volume": "4205.83",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 272,000 in May 2024, which is significantly higher than the 150-200k range specified in the market.",
+      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 272,000 in May 2024, which is significantly higher than the 150,000 to 200,000 range specified in the market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3021,9 +3017,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The May 2024 nonfarm payrolls report was released by the BLS on June 7, 2024.",
-          "The actual number of jobs added was 272,000, exceeding the consensus estimate of approximately 185,000.",
-          "The unemployment rate ticked up to 4.0% in the same report."
+          "The May 2024 jobs report was released by the BLS on June 7, 2024.",
+          "The actual nonfarm payroll increase for May 2024 was 272,000.",
+          "The unemployment rate for May 2024 ticked up slightly to 4.0%."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3040,7 +3036,7 @@
     "volume": "203800",
     "status": "ok",
     "forecast": {
-      "rationale": "The European Central Bank cut the deposit facility rate by 25 basis points to 3.25% in October 2024. Given cooling inflation and weak Eurozone growth, markets and historical data indicate a high likelihood of another 25 basis point cut in December rather than a pause.",
+      "rationale": "The European Central Bank cut the deposit facility rate by 25 basis points to 3.25% in October 2024. Given cooling inflation and weak Eurozone growth, markets and ECB communications strongly signal a further 25 basis point cut at the December 12 meeting, making a 'No change' outcome unlikely.",
       "probabilities": {
         "Yes": 0.15,
         "No": 0.85
@@ -3049,8 +3045,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The ECB Governing Council meeting is scheduled for December 12, 2024.",
-          "Inflation in the Eurozone fell to 1.7% in September 2024, below the 2% target, prompting earlier-than-expected cuts.",
-          "The deposit facility rate was lowered to 3.25% on October 17, 2024."
+          "The ECB lowered the deposit facility rate to 3.25% on October 17, 2024.",
+          "Eurozone inflation fell to 1.7% in September 2024, below the 2% target, supporting the case for consecutive cuts."
         ],
         "recalled_outcome_if_known": null
       }
@@ -3094,7 +3090,7 @@
     "volume": "155978",
     "status": "ok",
     "forecast": {
-      "rationale": "During the December 18, 2024, FOMC press conference, Jerome Powell was asked about the impact of potential trade policies. He explicitly used the word 'tariff' while explaining that the Fed does not speculate on fiscal or trade policy changes before they are implemented.",
+      "rationale": "Jerome Powell was asked about tariffs during the December 18, 2024, FOMC press conference. He responded by stating that the Fed does not speculate on trade policy but acknowledged that tariffs could have impacts on inflation and growth.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3103,8 +3099,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The FOMC meeting took place on December 17-18, 2024.",
-          "Powell addressed questions regarding the incoming administration's proposed trade policies and their inflationary impact.",
-          "The Fed opted to cut the federal funds rate by 25 basis points to a range of 4.25%-4.50% during this meeting."
+          "Powell was specifically asked about the potential economic impact of proposed tariffs by the incoming administration.",
+          "The Fed cut interest rates by 25 basis points at this meeting."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3130,8 +3126,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The August 2024 nonfarm payrolls report was released by the BLS on September 6, 2024.",
-          "The actual number of jobs added in August 2024 was 142,000.",
-          "The unemployment rate for August 2024 edged down to 4.2%."
+          "The actual number of jobs added in August 2024 was 142,000, missing the consensus estimate and the 150k-200k range.",
+          "The unemployment rate edged down to 4.2% in the same report."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3148,19 +3144,19 @@
     "volume": "6.81252e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "As of late 2024, the Federal Reserve has implemented a 50 basis point cut in September and a 25 basis point cut in November. To reach 4 cuts, they would need to have cut at every meeting or multiple times, which did not occur.",
+      "rationale": "The Federal Reserve maintained rates through the first half of 2024 and initiated a 50 basis point cut in September. Current economic projections and the remaining meeting schedule make four distinct rate cuts in 2024 highly unlikely.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Federal Reserve cut rates by 50 basis points on September 18, 2024.",
-          "The Federal Reserve cut rates by 25 basis points on November 7, 2024.",
-          "The FOMC held rates steady during the first half of 2024 (January, March, May, June, and July meetings)."
+          "The FOMC held rates steady at the January, March, May, June, and July 2024 meetings.",
+          "The Federal Reserve implemented a 50 basis point cut on September 18, 2024.",
+          "There are only two FOMC meetings remaining in 2024 (November and December) after the September cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -3175,7 +3171,7 @@
     "volume": "16253",
     "status": "ok",
     "forecast": {
-      "rationale": "The November 2024 unemployment rate remained at 4.1%, the same level as October, failing to drop to 4.0% or below. This was reported by the Bureau of Labor Statistics in the December 6, 2024, Employment Situation Summary.",
+      "rationale": "The November 2024 U.S. unemployment rate was reported by the Bureau of Labor Statistics at 4.2%, which is above the 4.0% threshold. This followed a 4.1% rate in October.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3183,9 +3179,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The BLS reported the November 2024 unemployment rate was 4.1% on December 6, 2024.",
-          "Nonfarm payroll employment rose by 227,000 in November 2024.",
-          "The labor force participation rate was 62.5%."
+          "The Bureau of Labor Statistics (BLS) released the November 2024 jobs report on December 6, 2024.",
+          "The official unemployment rate for November 2024 was 4.2%.",
+          "Nonfarm payrolls increased by 227,000 in November 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3202,7 +3198,7 @@
     "volume": "2.02098e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Reserve implemented a 50-basis-point rate cut on September 18, 2024, and followed with a 25-basis-point cut on November 7, 2024, meeting the criteria for a cut by the specified date.",
+      "rationale": "The Federal Reserve implemented a 50-basis-point rate cut on September 18, 2024, and a subsequent 25-basis-point cut on November 7, 2024, meeting the criteria for a cut by the specified date.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3210,8 +3206,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC announced a 50 bps reduction in the federal funds rate target range to 4.75%-5.00% on September 18, 2024.",
-          "The FOMC announced a further 25 bps reduction to 4.50%-4.75% on November 7, 2024.",
+          "The FOMC lowered the target range for the federal funds rate by 50 basis points to 4.75%-5.00% on September 18, 2024.",
+          "The FOMC announced a further 25-basis-point cut to 4.50%-4.75% on November 7, 2024.",
           "The September cut was the first reduction in interest rates since March 2020."
         ],
         "recalled_outcome_if_known": "Yes"
@@ -3229,7 +3225,7 @@
     "volume": "1.09063e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "On September 18, 2024, the Federal Open Market Committee (FOMC) decided to lower the target range for the federal funds rate by 50 basis points to 4.75-5.00 percent, marking the first rate cut since 2020.",
+      "rationale": "On September 18, 2024, the Federal Open Market Committee (FOMC) announced a 50 basis point reduction in the federal funds rate, lowering the target range to 4.75% to 5.00%. This was the first rate cut since 2020.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3237,9 +3233,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on September 18, 2024, with a 50 basis point reduction.",
-          "The vote was 11-1, with Governor Michelle Bowman dissenting in favor of a smaller 25 basis point cut.",
-          "This was the first interest rate reduction by the Federal Reserve in four years."
+          "The FOMC meeting concluded on September 18, 2024, with a 50 basis point cut.",
+          "The vote was 11-1, with Governor Michelle Bowman dissenting in favor of a 25 basis point cut.",
+          "The target range was lowered from 5.25%-5.50% to 4.75%-5.00%."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3283,7 +3279,7 @@
     "volume": "7.99521e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee met on November 6-7, 2024, and decided to lower the target range for the federal funds rate by 25 basis points to 4.50-4.75 percent, meaning there was a change in rates.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on November 6-7, 2024, and decided to lower the target range for the federal funds rate by 25 basis points to 4.50-4.75 percent, meaning there was a change in rates.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3291,9 +3287,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC announced a 25 basis point cut on November 7, 2024.",
-          "The new target range for the federal funds rate was set at 4.5% to 4.75%.",
-          "The decision was unanimous among the committee members."
+          "The FOMC statement was released on November 7, 2024, at 2:00 PM ET.",
+          "The committee voted unanimously to lower the federal funds rate by 1/4 percentage point.",
+          "This followed a larger 50 basis point cut in September 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3363,7 +3359,7 @@
     "volume": "637520",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) meeting on July 30-31, 2024, resulted in the federal funds rate being maintained at 5.25-5.50%. No rate cut occurred at this specific meeting, as the committee waited for more confidence in inflation moving toward 2%.",
+      "rationale": "The Federal Open Market Committee (FOMC) meeting on July 30-31, 2024, resulted in the federal funds rate being maintained at 5.25-5.50%. No rate cut occurred at this specific meeting, as the committee awaited further confidence in inflation moving toward 2%.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3371,8 +3367,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on July 31, 2024, with a decision to keep the target range for the federal funds rate at 5.25 to 5.50 percent.",
-          "Jerome Powell's post-meeting press conference indicated that a rate cut could be on the table for the September meeting, but not July."
+          "The FOMC statement released on July 31, 2024, kept the target range for the federal funds rate at 5-1/4 to 5-1/2 percent.",
+          "Jerome Powell indicated during the post-meeting press conference that a rate cut could be on the table for the September meeting, but not July."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3389,7 +3385,7 @@
     "volume": "12529.6",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 303,000 in March 2024, which is above the specified range of 200k to 275k.",
+      "rationale": "The March 2024 nonfarm payrolls report, released by the BLS on April 5, 2024, showed a gain of 303,000 jobs, which is above the 200k-275k range specified in the market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3397,9 +3393,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The March 2024 jobs report was released by the BLS on April 5, 2024.",
-          "The actual figure for nonfarm payroll gains in March 2024 was 303,000.",
-          "The unemployment rate for March 2024 edged down to 3.8%."
+          "The U.S. Bureau of Labor Statistics reported 303,000 jobs added for March 2024.",
+          "The unemployment rate for March 2024 edged down to 3.8% from 3.9% in February.",
+          "The report was released on Friday, April 5, 2024."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3416,7 +3412,7 @@
     "volume": "234731",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) met on April 30–May 1, 2024, and decided to maintain the target range for the federal funds rate at 5.25 to 5.5 percent, meaning no rate cut occurred.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on April 30–May 1, 2024, and elected to maintain the target range for the federal funds rate at 5.25 to 5.50 percent, meaning no rate cut occurred.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3424,9 +3420,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on May 1, 2024, with a decision to keep interest rates unchanged.",
-          "The target range remained at 5.25% to 5.50% following the May 2024 announcement.",
-          "Inflation data leading up to the meeting was higher than expected, causing the Fed to maintain a restrictive stance."
+          "The FOMC meeting concluded on May 1, 2024, with a decision to keep interest rates steady.",
+          "The federal funds rate remained at 5.25%-5.50% following the May 2024 announcement.",
+          "Fed Chair Jerome Powell stated in the post-meeting press conference that there had been a 'lack of further progress' toward the 2% inflation objective."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3470,7 +3466,7 @@
     "volume": "24770.9",
     "status": "ok",
     "forecast": {
-      "rationale": "The October 2024 jobs report showed a significant slowdown due to the impacts of Hurricanes Helene and Milton as well as the Boeing strike, resulting in a nonfarm payroll increase of only 12,000, which is well below the 100,000 threshold.",
+      "rationale": "The October 2024 jobs report showed a significant slowdown due to the impacts of Hurricanes Helene and Milton, as well as the Boeing strike, resulting in a nonfarm payroll increase of only 12,000.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3480,7 +3476,7 @@
         "evidence_facts": [
           "The Bureau of Labor Statistics reported that total nonfarm payroll employment increased by 12,000 in October 2024.",
           "The report was released on November 1, 2024, at 8:30 AM ET.",
-          "Major factors cited for the low number included the Boeing strike and the aftermath of Hurricanes Helene and Milton."
+          "Major factors cited for the low number included labor strikes (specifically Boeing) and severe weather disruptions from Hurricanes Helene and Milton."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3524,7 +3520,7 @@
     "volume": "10695.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that total nonfarm payroll employment increased by 175,000 in April 2024, which is below the 200,000 to 250,000 range specified in the market.",
+      "rationale": "The Bureau of Labor Statistics reported that total nonfarm payroll employment increased by 175,000 in April 2024, which falls below the 200,000 to 250,000 range specified in the market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3532,8 +3528,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The April 2024 jobs report was released by the BLS on May 3, 2024.",
-          "The actual figure for nonfarm payroll growth in April 2024 was 175,000.",
+          "The April 2024 nonfarm payrolls report was released by the BLS on May 3, 2024.",
+          "The actual number of jobs added in April 2024 was 175,000.",
           "The unemployment rate ticked up slightly to 3.9% in the same report."
         ],
         "recalled_outcome_if_known": "No"
@@ -3551,7 +3547,7 @@
     "volume": "13322.5",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) met on March 19-20, 2024, and elected to maintain the federal funds rate at 5.25%-5.50%. No rate cut occurred during this meeting, as inflation remained above the 2% target and the labor market stayed strong.",
+      "rationale": "The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25%-5.50% during its March 19-20, 2024 meeting. Economic data at the time showed persistent inflation, leading the Fed to maintain rates rather than implement a 50 basis point cut.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3559,9 +3555,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on March 20, 2024, with a decision to hold rates steady at 5.25-5.50%.",
-          "The 'dot plot' released during the March 2024 meeting still projected three rate cuts for the full year, but none were implemented in March.",
-          "Jerome Powell's post-meeting press conference emphasized that the committee needed more confidence that inflation was moving sustainably toward 2%."
+          "The FOMC meeting took place on March 19-20, 2024.",
+          "The target range for the federal funds rate was maintained at 5.25 to 5.50 percent.",
+          "The 'dot plot' released during the March meeting still projected three rate cuts for the full year of 2024, but none occurred in March."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3586,8 +3582,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The July 2024 jobs report was released by the BLS on August 2, 2024.",
-          "The official figure for nonfarm payroll growth in July 2024 was 114,000.",
+          "The July 2024 nonfarm payrolls report was released by the BLS on August 2, 2024.",
+          "The reported job gain was 114,000, significantly lower than the downwardly revised 179,000 in June.",
           "The unemployment rate rose to 4.3% in the same report."
         ],
         "recalled_outcome_if_known": "Yes"
@@ -3614,8 +3610,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The FOMC statement was released on January 31, 2024, at 2:00 PM ET.",
-          "The federal funds rate was held steady at 5.25%-5.50% for the fourth consecutive meeting.",
-          "Jerome Powell stated in the post-meeting press conference that a rate cut in March was unlikely."
+          "The federal funds rate target range was kept at 5.25% to 5.50%.",
+          "This was the fourth consecutive meeting where the Fed chose to hold rates steady."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3659,16 +3655,17 @@
     "volume": "19880",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased by 2.6 percent over the 12 months ending October 2024. The November data is scheduled for release on December 11, 2024.",
+      "rationale": "The Bureau of Labor Statistics reported that the Consumer Price Index for All Urban Consumers (CPI-U) increased by 2.6 percent over the last 12 months ending in October 2024. November data is scheduled for release on December 11, 2024.",
       "probabilities": {
-        "Yes": 0.35,
-        "No": 0.65
+        "Yes": 0.45,
+        "No": 0.55
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The October 2024 annual inflation rate was exactly 2.6%.",
-          "The November 2024 CPI report is scheduled for release by the BLS on December 11, 2024, at 8:30 AM ET."
+          "The October 2024 annual inflation rate was 2.6%.",
+          "The November 2024 CPI report is scheduled for release by the BLS on December 11, 2024, at 8:30 AM ET.",
+          "Core CPI remained at 3.3% in the October report."
         ],
         "recalled_outcome_if_known": null
       }
@@ -3685,7 +3682,7 @@
     "volume": "4050.22",
     "status": "ok",
     "forecast": {
-      "rationale": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 272,000 in May 2024, which falls directly within the 250,000 to 300,000 range.",
+      "rationale": "The Bureau of Labor Statistics reported that total nonfarm payroll employment increased by 272,000 in May 2024, which falls directly within the specified range of 250,000 to 300,000.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3693,9 +3690,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The May 2024 nonfarm payrolls report was released by the BLS on June 7, 2024.",
-          "The actual number of jobs added was 272,000, significantly exceeding the consensus estimate of approximately 185,000.",
-          "The unemployment rate simultaneously ticked up to 4.0%."
+          "The May 2024 jobs report was released by the BLS on June 7, 2024.",
+          "The official figure for nonfarm payroll growth in May 2024 was 272,000.",
+          "The unemployment rate edged up to 4.0 percent in the same report."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3712,19 +3709,18 @@
     "volume": "182467",
     "status": "ok",
     "forecast": {
-      "rationale": "The ECB cut the deposit facility rate by 25 basis points to 3.00% during its December 12, 2024 meeting. Since the cut was exactly 25 bps, it does not fall within the 26-50 bps range required for a 'Yes' resolution.",
+      "rationale": "The ECB cut the deposit facility rate by 25 basis points to 3.25% in October 2024. While a December cut is highly anticipated due to cooling inflation, a 25 bps move is currently viewed as more likely than a larger 50 bps cut by market consensus.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The ECB Governing Council met on December 12, 2024, and announced a 25 basis point reduction.",
-          "The deposit facility rate was lowered from 3.25% to 3.00%.",
-          "Inflation data and cooling economic growth in the Eurozone were cited as primary drivers for the third consecutive cut."
+          "The ECB Governing Council meeting is scheduled for December 12, 2024.",
+          "The ECB previously cut rates by 25 bps on October 17, 2024, bringing the deposit facility rate to 3.25%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -3739,7 +3735,7 @@
     "volume": "36290",
     "status": "ok",
     "forecast": {
-      "rationale": "The September 2024 nonfarm payrolls report showed a significant upside surprise, with the U.S. adding 254,000 jobs, which is well above the 150k-200k range specified in the market.",
+      "rationale": "The September 2024 nonfarm payrolls report showed a significant upside surprise, with the US economy adding 254,000 jobs, which is well above the 150k-200k range specified in the market.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3766,10 +3762,10 @@
     "volume": "138907",
     "status": "ok",
     "forecast": {
-      "rationale": "The December 2024 FOMC press conference has not occurred yet as of my current training data. Historically, Jerome Powell mentions 'inflation' frequently, but reaching 40 instances is a high threshold that usually only occurs during periods of extreme price volatility or specific policy shifts.",
+      "rationale": "Jerome Powell's press conferences typically feature the word 'inflation' between 20 and 35 times. Reaching 40 occurrences is historically rare and would require a significant shift in focus or an unusually long Q&A session compared to recent 2024 trends.",
       "probabilities": {
-        "Yes": 0.35,
-        "No": 0.65
+        "Yes": 0.15,
+        "No": 0.85
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -3816,7 +3812,7 @@
     "volume": "6.68312e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Reserve has only implemented two rate cuts as of November 2024 (a 50bps cut in September and a 25bps cut in November). With only one meeting remaining in December, it is mathematically impossible to reach five cuts for the calendar year.",
+      "rationale": "As of late 2024, the Federal Reserve has implemented a 50 basis point cut in September and a 25 basis point cut in November. With only one meeting remaining in December, it is mathematically impossible to reach five distinct rate cut instances in 2024.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3826,7 +3822,7 @@
         "evidence_facts": [
           "The FOMC cut the federal funds rate by 50 basis points on September 18, 2024.",
           "The FOMC cut the federal funds rate by 25 basis points on November 7, 2024.",
-          "There is only one scheduled FOMC meeting remaining in 2024, occurring December 17-18."
+          "There are only eight scheduled FOMC meetings per year, and the first four meetings of 2024 resulted in no cuts."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3843,7 +3839,7 @@
     "volume": "11421.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The November 2024 unemployment rate was reported by the Bureau of Labor Statistics as 4.2%, matching the market condition.",
+      "rationale": "The November 2024 U.S. unemployment rate was reported by the Bureau of Labor Statistics as 4.2%, an increase from 4.1% in October. This aligns with the market condition for a 'Yes' resolution.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3851,8 +3847,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The U.S. Bureau of Labor Statistics released the November Employment Situation report on December 6, 2024.",
-          "The report showed nonfarm payroll employment increased by 227,000 and the unemployment rate edged up to 4.2 percent."
+          "The BLS Employment Situation report for November 2024 was released on December 6, 2024.",
+          "The official unemployment rate rose to 4.2% from 4.1% in the previous month.",
+          "Nonfarm payroll employment increased by 227,000 in November 2024."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3869,7 +3866,7 @@
     "volume": "1.90776e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee maintained the federal funds rate at 5.25%-5.50% during its March 19-20, 2024 meeting, marking the fifth consecutive meeting without a change. Inflation data leading up to the meeting remained above the 2% target, preventing a cut.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on March 19-20, 2024, and elected to maintain the federal funds rate at 5.25%-5.50%, marking the fifth consecutive meeting without a change.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3878,8 +3875,8 @@
         "recognized_event": true,
         "evidence_facts": [
           "The FOMC meeting concluded on March 20, 2024, with a decision to hold rates steady at 5.25%-5.50%.",
-          "The 'dot plot' released during this meeting still projected three rate cuts for the full year of 2024, but none were implemented in March.",
-          "Fed Chair Jerome Powell stated in the post-meeting press conference that the committee needed more confidence that inflation was moving sustainably toward 2%."
+          "The 'dot plot' released during this meeting still projected three rate cuts for the full year of 2024, but none occurred in March.",
+          "Jerome Powell's press conference on March 20 emphasized that the committee needed more confidence that inflation was moving sustainably toward 2%."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3923,7 +3920,7 @@
     "volume": "8.39327e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) announced its decision on November 7, 2024, to lower the federal funds rate by 25 basis points to a range of 4.50% to 4.75%, following a larger 50 basis point cut in September.",
+      "rationale": "The Federal Open Market Committee (FOMC) announced its decision on November 7, 2024, to lower the target range for the federal funds rate by 25 basis points to 4.50-4.75 percent, following a 50 basis point cut in September.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3931,9 +3928,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on November 7, 2024, with a unanimous vote for a 25 bps cut.",
-          "The target range for the federal funds rate was adjusted to 4.50%–4.75%.",
-          "This followed a 50 bps cut previously implemented at the September 2024 meeting."
+          "The FOMC meeting concluded on November 7, 2024, with a unanimous vote to lower rates by 25 basis points.",
+          "The target range was adjusted from 4.75-5.00% to 4.50-4.75%.",
+          "This followed a larger 50 basis point cut at the September 2024 meeting."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -3950,7 +3947,7 @@
     "volume": "7.4907e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) concluded its December 17-18, 2024 meeting by voting to lower the target range for the federal funds rate by 25 basis points to 4.25-4.50 percent, following a similar cut in November.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on December 17-18, 2024, and decided to lower the target range for the federal funds rate by 25 basis points to 4.25-4.50 percent, following a similar cut in November.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3958,9 +3955,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting took place on December 17-18, 2024.",
-          "The Federal Reserve lowered the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.",
-          "The decision was announced on December 18, 2024, at 2:00 PM ET."
+          "The FOMC meeting concluded on December 18, 2024.",
+          "The target range for the federal funds rate was lowered to 4-1/4 to 4-1/2 percent.",
+          "The decision was unanimous among the voting members of the committee."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -3977,7 +3974,7 @@
     "volume": "6.66091e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "On September 18, 2024, the Federal Open Market Committee (FOMC) decided to lower the target range for the federal funds rate by 50 basis points to 4.75-5.0 percent, rather than the 25 basis points specified in the prompt.",
+      "rationale": "The Federal Open Market Committee (FOMC) decided to lower the target range for the federal funds rate by 50 basis points, not 25 basis points, during their September 17-18, 2024 meeting.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3985,9 +3982,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on September 18, 2024, with a 50 basis point cut.",
+          "The FOMC meeting concluded on September 18, 2024, with a 50 bps cut to a range of 4.75%-5.00%.",
           "This was the first interest rate cut by the Federal Reserve since March 2020.",
-          "The vote was 11-1, with Governor Michelle Bowman dissenting in favor of a 25 basis point cut."
+          "The decision was not unanimous; Governor Michelle Bowman dissented in favor of a 25 bps cut."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -4004,7 +4001,7 @@
     "volume": "517320",
     "status": "ok",
     "forecast": {
-      "rationale": "The Federal Open Market Committee (FOMC) met on July 30-31, 2024, and decided to maintain the federal funds rate at 5.25% to 5.50%, signaling that a rate cut could be on the table for the September meeting.",
+      "rationale": "The Federal Open Market Committee (FOMC) met on July 30-31, 2024, and decided to maintain the federal funds rate at 5.25% to 5.50%, marking the eighth consecutive meeting with no change.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -4012,8 +4009,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC statement released on July 31, 2024, kept the target range for the federal funds rate at 5.25 to 5.50 percent.",
-          "Jerome Powell's press conference on July 31, 2024, indicated that while no cut occurred in July, the committee was moving closer to a point where reducing policy restraint would be appropriate."
+          "The FOMC statement released on July 31, 2024, kept the target range for the federal funds rate at 5.25 to 5.5 percent.",
+          "Jerome Powell's post-meeting press conference signaled that a rate cut could be on the table for the September meeting, but rates remained unchanged in July."
         ],
         "recalled_outcome_if_known": "Yes"
       }
