@@ -1,0 +1,3897 @@
+[
+  {
+    "condition_id": "0x454b493622d78ed6034e877844e5e09d3fc4987580eaff6580ecd0c5fe2e50f8",
+    "market_slug": "russian-ruble-110-to-1-usd-by-december-20",
+    "event_slug": "russian-ruble-110-to-1-usd-by-december-20",
+    "title": "Russian Ruble ₽110 to $1 USD by December 20?",
+    "category": "Economics",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "51752.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ruble crossed 110 to USD in late November 2024 amid sanctions on Gazprombank, so this condition was already met before December 20.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ruble fell past 110/USD on November 27-28, 2024 following US sanctions on Gazprombank",
+          "Briefly traded near 114/USD before central bank intervention paused FX purchases"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6015c53496b7a099d952edf8d74f2d2e839aa09d2084df79be603e1db949da71",
+    "market_slug": "us-recession-in-2024-1",
+    "event_slug": "us-recession-in-2024-1",
+    "title": "U.S. Recession in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "875848",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No NBER-declared recession occurred in 2024; GDP grew through all quarters and unemployment remained low. Resolves No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "U.S. real GDP grew positively in all four quarters of 2024",
+          "Unemployment rate remained around 4% throughout 2024",
+          "NBER did not declare a recession in 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7df5350a4663cad59efea596589ea9fcfc5f5fecec8a107bbc9f2fd037165295",
+    "market_slug": "us-inflation-0pt3-from-march-to-april-2024",
+    "event_slug": "us-inflation-0pt3-from-march-to-april-2024",
+    "title": "US inflation >0.3% from March to April 2024?",
+    "category": "Economics",
+    "close_time": "2024-05-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27823.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 CPI came in at 0.3% month-over-month, not strictly greater than 0.3%. Headline CPI rose 0.3% MoM (3.4% YoY), so 'greater than 0.3%' would resolve No.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "April 2024 CPI MoM was 0.3% (released May 15, 2024)",
+          "Year-over-year CPI was 3.4%, core CPI 0.3% MoM and 3.6% YoY"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9279e0735a365ab5fe94c671e172b9dc68e402fa9dab36db4d8e171785fcf40e",
+    "market_slug": "unemployment-rate-over-4pt1-in-october",
+    "event_slug": "unemployment-rate-over-4pt1-in-october",
+    "title": "Unemployment rate over 4.1% in October?",
+    "category": "Economics",
+    "close_time": "2024-11-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "517211",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 unemployment rate was reported at 4.1%, which is not over 4.1%, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported October 2024 unemployment rate at 4.1%, unchanged from September",
+          "Nonfarm payrolls only added 12,000 jobs in October due to hurricanes and Boeing strike"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd2a3375842cbc1acf507760dd4d13fe0e91914db388ad39d4b1adbcffd2bb407",
+    "market_slug": "nyse-circuit-breaker-in-august",
+    "event_slug": "nyse-circuit-breaker-in-august",
+    "title": "NYSE marketwide circuit breaker in August?",
+    "category": "Economics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "139111",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite the August 5, 2024 volatility spike (VIX surge, Nikkei crash), the S&P 500 did not decline 7% intraday to trigger a Level 1 NYSE marketwide circuit breaker. No such halt occurred in August 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "August 5, 2024 saw major volatility but S&P 500 fell about 3%, well short of the 7% Level 1 threshold",
+          "No marketwide trading halt was triggered on NYSE during August 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x49df40debf3655c8f0892f5b144da6d513a1998380f5218146f7dbc51014f9db",
+    "market_slug": "increase-in-ecb-interest-rates-after-2024-december-meeting",
+    "event_slug": "ecb-interest-rates-december-2024",
+    "title": "Increase in ECB interest rates after 2024 December meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "399674",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ECB cut rates by 25bps at its December 12, 2024 meeting, bringing the deposit rate to 3.00%. This was widely expected and consistent with the easing cycle.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ECB cut deposit facility rate by 25bps to 3.00% on December 12, 2024",
+          "Fourth rate cut of the 2024 easing cycle"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4c4108ebe701de6084996b27311977d30c67705e001ca7e663825c5f9c5200ea",
+    "market_slug": "russian-ruble-120-to-1-usd-in-november",
+    "event_slug": "russian-ruble-120-to-1-usd-in-november",
+    "title": "Russian Ruble ₽120 to $1 USD in November?",
+    "category": "Economics",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "50655.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In November 2024 the ruble weakened significantly amid sanctions on Gazprombank, reaching around 108-110 per USD by end of November, but did not breach 120. It approached but didn't hit 120 until later.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ruble fell sharply after US sanctions on Gazprombank in late November 2024",
+          "USD/RUB peaked around 110-114 in late November 2024, not reaching 120"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc67c3fa991d07a953cb4a685daae00cc933d9532a121ff51edf9d6656d55c252",
+    "market_slug": "annual-inflation-under-3-in-august",
+    "event_slug": "annual-inflation-under-3-in-august",
+    "title": "Annual inflation under 3% in August?",
+    "category": "Economics",
+    "close_time": "2024-09-11T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "215549",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US August 2024 CPI was reported at 2.5% YoY, below 3%. This was widely reported on September 11, 2024.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI for August 2024 came in at 2.5% year-over-year",
+          "Released by BLS on September 11, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x297fb23d5aa6470c0ac5c6d88601a971674d0e94f928d9c63be45d99f6cc0451",
+    "market_slug": "will-the-us-gain-less-than-100000-jobs-in-november",
+    "event_slug": "how-many-jobs-added-in-november",
+    "title": "Will the US gain less than 100,000 jobs in November?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "37558",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 nonfarm payrolls came in at 227,000, well above 100,000, rebounding from the hurricane/strike-impacted October figure.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported November 2024 nonfarm payrolls of 227,000",
+          "Released on December 6, 2024; unemployment rate ticked up to 4.2%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xff078d33765d535dc094403078875d3e5217943500434a047708911b13d02319",
+    "market_slug": "longshoremens-east-coast-port-strike",
+    "event_slug": "longshoremens-east-coast-port-strike",
+    "title": "Longshoremen east coast strike by Oct 1?",
+    "category": "Economics",
+    "close_time": "2024-10-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "54602.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ILA workers began strike at 12:01am ET on October 1, 2024, the first east/gulf coast strike since 1977. The strike began before the close time of 12:00 UTC Oct 1.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ILA (International Longshoremen's Association) launched strike at 12:01am ET on October 1, 2024",
+          "Strike affected ports from Maine to Texas; tentative wage deal reached October 3 to suspend strike"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8fbe79f5e5528696e5565bc8ee2b3e15ac66ba69345c6a663f61f8ac7b4bb91c",
+    "market_slug": "will-jerome-powell-say-inflation-50-or-more-times-during-december-fomc-press-conference",
+    "event_slug": "what-will-jerome-powell-say-during-december-fomc-press-conference",
+    "title": "Will Jerome Powell say \"inflation\" 50 or more times during December FOMC Press Conference?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "387259",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Powell typically says 'inflation' frequently at FOMC pressers, often 40-60 times. December 2024 conference included a hawkish shift with discussion of fewer cuts, likely increasing inflation mentions. The 50 threshold is roughly the median outcome.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x530445400ea5c820ad649fcdeabc10ab501f31a7003d6d74a9b66f5d3251db47",
+    "market_slug": "will-eth-hit-2500-by-eoy",
+    "event_slug": "will-eth-hit-2500-by-eoy",
+    "title": "Will ETH hit $2,500 by EOY?",
+    "category": "Economics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "277231",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH crossed $2,500 in early December 2023, reaching above $2,400 in late November and breaking $2,500 around December 8-9, 2023.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ETH broke above $2,500 in early-to-mid December 2023 amid the broader crypto rally",
+          "ETH ended 2023 near $2,300-$2,400 range after touching highs above $2,500"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe6bfcb7d47a478fd3804cca7dde22381d4f3fde2a2fbf6e9cb7aa92132bb8fad",
+    "market_slug": "annual-inflation-above-2pt5-in-august",
+    "event_slug": "annual-inflation-above-2pt5-in-august",
+    "title": "Annual inflation above 2.5% in August?",
+    "category": "Economics",
+    "close_time": "2024-09-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "112456",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 US CPI was 2.5% year-over-year, which is not above 2.5%. Likely resolves No, though context (country) is ambiguous.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI August 2024 reported on Sept 11, 2024 at 2.5% YoY, down from 2.9% in July",
+          "Core CPI was 3.2% YoY"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x372ffc7134e149b8c5a29d93130937cb1eb1e2cb0b64cdd9134879f5c4f8a00f",
+    "market_slug": "will-us-gain-less-than-200k-jobs-in-march",
+    "event_slug": "how-many-jobs-added-in-march",
+    "title": "Will US gain less than 200k jobs in March?",
+    "category": "Economics",
+    "close_time": "2024-04-03T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "29553.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "March 2024 nonfarm payrolls came in at 303k jobs, well above 200k. So the answer is No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "March 2024 NFP report released April 5, 2024 showed 303,000 jobs added",
+          "Unemployment rate ticked down to 3.8%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfdaff905ddc313177e689b62773d44b5af9e2671d0c6ff0a02d6090b13a8b368",
+    "market_slug": "will-saudi-arabia-accept-invitation-to-join-brics",
+    "event_slug": "will-saudi-arabia-accept-invitation-to-join-brics",
+    "title": "Will Saudi Arabia accept invitation to join BRICS?",
+    "category": "Economics",
+    "close_time": "2024-01-01T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "42686.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Saudi Arabia was invited at the August 2023 BRICS summit to join effective January 2024, but ultimately delayed/did not formally accept by the close date. Reports in early 2024 indicated Saudi Arabia was still considering and had not formally joined.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BRICS summit in Johannesburg August 2023 invited Saudi Arabia, UAE, Egypt, Iran, Ethiopia, Argentina to join from Jan 1 2024",
+          "Saudi Arabia did not formally confirm membership by January 2024; officials said it was still under review"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x24e92a97931bfbcf9ac3875d664cd77180551979458828e28ccd0932c09914ba",
+    "market_slug": "powell-says-inflation-15-times-in-fomc-intro-statement",
+    "event_slug": "powell-says-inflation-15-times-in-fomc-intro-statement",
+    "title": "Powell says \"inflation\" 15+ times in FOMC statement?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "32038.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Powell's FOMC statements typically mention 'inflation' many times, often well above 15. The September 2024 meeting included the first rate cut and discussed inflation progress extensively.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xb677cc4c85331b682e124b86418bcabfde068aed4159f8078ece79cbf5b37e48",
+    "market_slug": "will-eth-hit-2000-by-eoy",
+    "event_slug": "will-eth-hit-2000-by-eoy",
+    "title": "Will ETH hit $2,000 by EOY?",
+    "category": "Economics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "154313",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ETH crossed $2,000 multiple times in 2023, including in April and again in late December, making this resolve Yes.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ETH surpassed $2,000 in April 2023 reaching around $2,100",
+          "ETH was trading above $2,300 in December 2023"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1e09d035762991e988f78114042c65a5e200b0b069e4f12781dd1507b0577ff8",
+    "market_slug": "annual-inflation-above-2pt2-in-september",
+    "event_slug": "annual-inflation-above-2pt2-in-september",
+    "title": "Annual inflation above 2.2% in September?",
+    "category": "Economics",
+    "close_time": "2024-10-10T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "76809",
+    "status": "ok",
+    "forecast": {
+      "rationale": "September 2024 US CPI came in at 2.4% year-over-year, above 2.2%. This was reported on October 10, 2024.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI YoY for September 2024 was 2.4%, slightly above the 2.3% consensus",
+          "BLS released the report on October 10, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x59829579d22f803abe1f7ecb32d3005afc1b2bc4a890ae7a4bc7ace9b561559a",
+    "market_slug": "unemployment-rate-over-4pt2-for-august",
+    "event_slug": "unemployment-rate-over-4pt2-for-august",
+    "title": "Unemployment rate over 4.2% in August?",
+    "category": "Economics",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "18427.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 unemployment rate came in at 4.2%, which is not over 4.2%, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported August 2024 unemployment rate at 4.2%, down from 4.3% in July",
+          "Nonfarm payrolls increased by 142,000 in August 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfe79c5aa2cfaf9c1a2d84bbc57fcfd126a6e4dc7645322a092b0ac2f263677ee",
+    "market_slug": "will-the-port-of-baltimore-reopen-in-april",
+    "event_slug": "when-will-port-of-baltimore-reopen",
+    "title": "Will the Port of Baltimore reopen in April?",
+    "category": "Economics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "39181.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Port of Baltimore was closed after the Francis Scott Key Bridge collapse on March 26, 2024. A limited channel was opened in April, but the full federal channel reopened in June 2024. Depends on interpretation of 'reopen'.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Francis Scott Key Bridge collapsed March 26, 2024 after MV Dali allision",
+          "A limited access channel was opened in late April 2024; full 50-foot deep channel restored June 10, 2024"
+        ],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x84270c148b5f64580128386bbc7ff4ab33d9f4ea031af58e366f60714e0ddd12",
+    "market_slug": "powell-says-unemployment-5-times-in-fomc-intro-statement",
+    "event_slug": "powell-says-unemployment-5-times-in-fomc-intro-statement",
+    "title": "Powell says \"unemployment\" 5+ times in FOMC statement?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "37985.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The September 2024 FOMC statement was relatively brief and historically uses 'unemployment' only 1-2 times. However, this could refer to Powell's press conference where 'unemployment' is mentioned more frequently given labor market focus. Ambiguity in 'statement' vs press conference suggests moderate probability.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xf69fedb1c2becb102384687e9e8c8abf8d1200cfcbae5ea4ad4833c341caa5b3",
+    "market_slug": "will-btc-hit-50000-in-2023",
+    "event_slug": "will-btc-hit-50000-in-2023",
+    "title": "Will BTC hit $50,000 in 2023?",
+    "category": "Economics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "130623",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC peaked around $44,000-$45,000 in December 2023 but did not reach $50,000 during the year. It crossed $50K in February 2024.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BTC's 2023 high was approximately $44,700 reached in early December 2023",
+          "BTC did not surpass $50,000 until February 2024, after the spot ETF approvals"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe839ee0a5564adf3b76685d9a29e15aa6271c357a25c99064488c35e37a6086a",
+    "market_slug": "annual-inflation-above-2pt4-in-october",
+    "event_slug": "annual-inflation-above-2pt4-in-october",
+    "title": "Annual inflation above 2.4% in October?",
+    "category": "Economics",
+    "close_time": "2024-11-13T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "73119.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US October 2024 CPI annual inflation came in at 2.6%, above 2.4%. This was released November 13, 2024.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI for October 2024 reported 2.6% year-over-year",
+          "Released by BLS on November 13, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9d0b955b6d38b95238f1b87686cb8f07239b3a05ec7b598bc60cfaa99008304f",
+    "market_slug": "will-us-gain-between-150k-and-200k-jobs-in-june",
+    "event_slug": "how-many-jobs-added-in-june",
+    "title": "Will US gain between 150k and 200k jobs in June?",
+    "category": "Economics",
+    "close_time": "2024-07-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "16000",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 nonfarm payrolls came in at 206k (later revised), above the 150-200k range. Initial print was 206,000 jobs added.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 2024 NFP initial release was 206,000 jobs",
+          "Released July 5, 2024 by BLS",
+          "Unemployment rate ticked up to 4.1%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0b8ee41c981dab585bf8e6cfb0f06daebf226ba9d734220574ae11b0271a436a",
+    "market_slug": "will-biden-say-health-during-dropout-speech",
+    "event_slug": "will-biden-say-health-during-dropout-speech",
+    "title": "Will Biden say \"Health\" during dropout speech?",
+    "category": "Economics",
+    "close_time": "2024-07-24T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "17696.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden's Oval Office address on July 24, 2024 explaining his decision to drop out focused on passing the torch and democracy. He did mention health-related themes, and I recall the speech referenced his decision in context that likely included the word 'health'.",
+      "probabilities": {
+        "Yes": 0.7,
+        "No": 0.3
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa0811c97f529d627b7774a5b188e605736b745a1f892c39e16c5a022fdb84b8b",
+    "market_slug": "fed-rate-cut-by-september-18",
+    "event_slug": "fed-rate-cut-by",
+    "title": "Fed rate cut by September 18?",
+    "category": "Economics",
+    "close_time": "2024-09-18T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.03453e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The FOMC meeting concluded on September 18, 2024, with a 50bp rate cut announced that day. Whether this resolves Yes depends on if the cut occurred before the close time of 2024-09-18T00:00:00Z (midnight UTC), which is before the announcement at ~18:00 UTC on Sep 18.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced a 50 basis point rate cut on September 18, 2024 at approximately 2pm ET (18:00 UTC)",
+          "Close time is 2024-09-18T00:00:00Z, which is before the announcement"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8a79d7d33e7f43d7a797b04e547ec4fb28fd737f77e2b867df36e2fb0fb8ec95",
+    "market_slug": "will-wif-hit-5-by-april-30",
+    "event_slug": "will-wif-hit-5-by-april-30",
+    "title": "Will WIF hit $5 by April 30?",
+    "category": "Economics",
+    "close_time": "2024-04-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "98920.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "WIF (dogwifhat) reached an all-time high near $4.85 in late March 2024 but pulled back and traded in the $2-3 range through April, not reaching $5 before April 30.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "WIF ATH was approximately $4.83-$4.85 set around March 31, 2024",
+          "By April 2024 WIF declined significantly amid broader memecoin correction, trading well below $4"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc5eea2dd6e84451c1b42b3e9e9c278a1851a02144672bb2cb92368fd022cc9cb",
+    "market_slug": "us-inflation-0pt1-from-july-to-august-2024",
+    "event_slug": "us-inflation-0pt1-from-july-to-august-2024",
+    "title": "US inflation >0.1% from July to August 2024?",
+    "category": "Economics",
+    "close_time": "2024-09-11T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "68613.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 CPI showed a 0.2% month-over-month increase (headline), released September 11, 2024. This exceeds 0.1%, so resolves Yes.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "August 2024 CPI MoM was +0.2% (headline), released September 11, 2024",
+          "Year-over-year CPI was 2.5% in August 2024, down from 2.9% in July"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2f125afa062b2e1787d651449cd8ce04ad415912818dd7df72f42395cdc0e66f",
+    "market_slug": "unemployment-rate-over-4pt2-in-september",
+    "event_slug": "unemployment-rate-over-4pt2-in-september",
+    "title": "Unemployment rate over 4.2% in September?",
+    "category": "Economics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "15733.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "September 2024 jobs report released October 4, 2024 showed unemployment rate dropped to 4.1%, below the 4.2% threshold.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "September 2024 unemployment rate came in at 4.1%, down from 4.2% in August",
+          "Nonfarm payrolls increased by 254,000, well above expectations",
+          "BLS report released on October 4, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1070c27e30447364ed6602778729203d29aaa8860cb0a24779eb3a26f68b245f",
+    "market_slug": "will-fed-cut-interest-rates-6-times-by-dec-meeting",
+    "event_slug": "how-many-fed-rate-cuts-this-year",
+    "title": "Will Fed cut interest rates 6+ times in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.01691e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates only 3 times in 2024 (September 50bps, November 25bps, December 25bps), far fewer than 6.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut rates by 50bps in September 2024, 25bps in November, and 25bps in December - total of 3 cuts",
+          "Total cuts in 2024 = 3, well below the 6+ threshold"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8f814a8929b235bdac849fa4aa472a57dc855ae8e3328a001c9fc360e2c8b36e",
+    "market_slug": "will-btc-hit-44000-in-2023",
+    "event_slug": "will-btc-hit-44000-in-2023",
+    "title": "Will BTC hit $44,000 in 2023?",
+    "category": "Economics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2717.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BTC crossed $44,000 in early December 2023, reaching above $44K around Dec 4-5, 2023, and continued higher to ~$45K+ later that month.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bitcoin surpassed $44,000 in early December 2023 amid ETF approval anticipation",
+          "BTC ended 2023 around $42-45K range, having peaked above $44K in December"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x70c67e5797d5598893eb52940debc38b3de853adbc92d1b601792b27f2bacdf0",
+    "market_slug": "us-inflation-0pt1-from-june-to-july-2024",
+    "event_slug": "us-inflation-0pt1-from-june-to-july-2024",
+    "title": "US inflation >0.1% from June to July 2024?",
+    "category": "Economics",
+    "close_time": "2024-08-14T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "59908.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "July 2024 CPI rose 0.2% month-over-month (headline), exceeding 0.1%. This was reported on August 14, 2024.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 2024 headline CPI increased 0.2% month-over-month",
+          "Annual CPI was 2.9% year-over-year, released August 14, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa59de3eab0f75f292176be13ba049e4e51fd24ab87a349598ba9a41fe726872b",
+    "market_slug": "will-us-add-more-than-300k-jobs-in-may",
+    "event_slug": "how-many-jobs-added-in-may",
+    "title": "Will US add more than 300k jobs in May?",
+    "category": "Economics",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7526.49",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 nonfarm payrolls came in at 272,000, below the 300k threshold.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "May 2024 NFP reported June 7, 2024 at 272,000 jobs added",
+          "Unemployment rate ticked up to 4.0%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4e861381d9a9f4eca9e90c15638dfac88f727ab13ddc153ab09dc1f3a4056d0c",
+    "market_slug": "fed-emergency-rate-cut-in-2024",
+    "event_slug": "fed-emergency-rate-cut-in-2024",
+    "title": "Fed emergency rate cut in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "835805",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed did not make any emergency (unscheduled) rate cuts in 2024. All rate changes occurred at scheduled FOMC meetings (50bp cut in September, 25bp cuts in November and December).",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut rates 50bp at scheduled FOMC meeting on September 18, 2024",
+          "Additional 25bp cuts at November and December 2024 FOMC meetings, all scheduled, not emergency"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x03aff22abeced3677559974ece8d59b164c9b1dc60703ea7061e9c23a2c09ddc",
+    "market_slug": "will-argentina-dollarize-in-2024",
+    "event_slug": "will-argentina-dollarize-in-2024",
+    "title": "Will Argentina dollarize in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "369836",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Milei's government did not dollarize in 2024; instead they pursued fiscal adjustment and maintained the peso with crawling peg, while Caputo and Milei said dollarization required conditions not yet met.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Milei took office December 2023 but dollarization was postponed; central bank reserves and peso liquidity issues prevented immediate implementation",
+          "Throughout 2024 Argentina maintained the peso with a 2% monthly crawling peg and capital controls (cepo) still in place"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9c11e90444d882761731d698e39f9675e498147ea702d78c9000e8c28533f112",
+    "market_slug": "us-inflation-0pt2-from-nov-to-dec-2023",
+    "event_slug": "us-inflation-0pt2-from-nov-to-dec-2023",
+    "title": "US inflation >0.2% from Nov to Dec 2023?",
+    "category": "Economics",
+    "close_time": "2024-01-11T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "28545.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2023 CPI came in at 0.3% month-over-month (headline), released January 11, 2024, which exceeds 0.2%.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 2023 CPI headline MoM was 0.3%, above the 0.2% consensus",
+          "BLS released the CPI report on January 11, 2024; YoY headline was 3.4%"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xca724b959f18e58c5562e72446839603a14db0e871b991da2142d261909fe270",
+    "market_slug": "us-adds-less-than-100k-jobs-in-august",
+    "event_slug": "how-many-jobs-added-in-august",
+    "title": "US adds less than 100k jobs in August?",
+    "category": "Economics",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "66860.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 jobs report showed nonfarm payrolls of 142,000, above the 100k threshold. So this resolves No.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "August 2024 nonfarm payrolls came in at 142,000",
+          "Unemployment rate ticked down to 4.2%",
+          "Report released September 6, 2024 by BLS"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x14838de558e0e1ee7a379fc11f25f1d0678c02617cdd97fbf65ed45d50db2ddb",
+    "market_slug": "will-the-fed-cut-rates-by-75-basis-points-in-september",
+    "event_slug": "will-the-fed-cut-rates-by-75-basis-points-in-september",
+    "title": "Fed cuts rates by 75 basis points in Sept meeting?",
+    "category": "Economics",
+    "close_time": "2024-09-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "493261",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 50 basis points at the September 18, 2024 FOMC meeting, not 75. The market closes before the meeting decision, but the question is about whether 75bp cut occurs.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC meeting on September 17-18, 2024 cut rates by 50 basis points",
+          "This was the first rate cut of the cycle, bringing target range to 4.75-5.00%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4eb2b82243f965f32382924cb70b681a9741351d40e77aaa289f7a46518f9d21",
+    "market_slug": "will-sam-altman-raise-1-trillion-in-q1-2024",
+    "event_slug": "will-sam-altman-raise-1-trillion-in-q1-2024",
+    "title": "Will Sam Altman raise >$1 trillion in Q1 2024?",
+    "category": "Economics",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "68450.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Sam Altman reportedly sought up to $7 trillion for AI chip ventures, but no actual raise of >$1 trillion occurred in Q1 2024. This was aspirational reporting, not completed fundraising.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "WSJ reported in February 2024 that Altman was seeking $5-7 trillion for AI chip infrastructure",
+          "No such fundraising was completed by end of Q1 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc1cee474f787bc47bbe23c2a0c304344c5f96ba7420f5d812599609708b3a1ed",
+    "market_slug": "us-inflation-0pt2-from-february-to-March-2024",
+    "event_slug": "us-inflation-0pt2-from-february-to-March-2024",
+    "title": "US inflation >0.2% from Feb to March 2024?",
+    "category": "Economics",
+    "close_time": "2024-04-10T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "16542.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "March 2024 CPI came in hotter than expected at 0.4% MoM headline, well above 0.2%. This was the report released April 10, 2024 that caused markets to push back rate cut expectations.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "March 2024 CPI headline rose 0.4% MoM, released April 10, 2024",
+          "Core CPI also rose 0.4% MoM, year-over-year headline at 3.5%"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa7a9316a2a86e4c1e2cce4449dda5b548ed00ed8ac2a990ce345227601708094",
+    "market_slug": "us-adds-ore-than-250k-jobs-in-september",
+    "event_slug": "how-many-jobs-added-in-september",
+    "title": "US adds ore than 250k jobs in September?",
+    "category": "Economics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "64836.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "September 2024 jobs report showed nonfarm payrolls increased by 254,000, beating expectations. This exceeds the 250k threshold.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "September 2024 nonfarm payrolls came in at 254,000, well above the ~150k consensus",
+          "Unemployment rate ticked down to 4.1%",
+          "Report released October 4, 2024 by BLS"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd8957959755fd8f47815d16c9fd46d6b6fce37cda383c2cf8f881ea3778068ea",
+    "market_slug": "fed-emergency-rate-cut-in-august",
+    "event_slug": "fed-emergency-rate-cut-in-august",
+    "title": "Fed emergency rate cut in August?",
+    "category": "Economics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "432105",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed did not conduct an emergency rate cut in August 2024 despite market volatility early in the month; the first cut came at the September FOMC meeting.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Following the early August 2024 market selloff and weak July jobs report, there were calls for an emergency cut but the Fed did not act intermeeting",
+          "The Fed's first rate cut of the cycle was a 50bp cut at the September 18, 2024 FOMC meeting"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x16d35745461c1bade1ce84569a36b48e445df61619bf93c76b2c29a9df741e99",
+    "market_slug": "jto-above-2-one-week-after-launch",
+    "event_slug": "jto-above-2-one-week-after-launch",
+    "title": "$JTO above $2 one week after launch?",
+    "category": "Economics",
+    "close_time": "2023-12-15T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "20586.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "JTO (Jito) launched on December 7, 2023 via airdrop and traded well above $2 from launch, reaching around $3-4 in its first week. It remained above $2 throughout the first week.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Jito (JTO) airdrop launched December 7, 2023 on Solana",
+          "JTO opened around $2-3 and traded in the $2-4 range during its first week"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf463c3c0dcca1e7f5f256307920c0643a2c38132f211192bcfe7ed5ea90f1a4",
+    "market_slug": "us-inflation-0-from-oct-to-nov-2023",
+    "event_slug": "us-inflation-0-from-oct-to-nov-2023",
+    "title": "US inflation >0% from Oct to Nov 2023?",
+    "category": "Economics",
+    "close_time": "2023-12-12T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "12681.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2023 CPI report (released Dec 12, 2023) showed headline CPI rose 0.1% month-over-month, so inflation was positive from Oct to Nov 2023.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "November 2023 CPI rose 0.1% MoM, 3.1% YoY",
+          "BLS released the report on December 12, 2023"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x88dc05e246302ee24d9cbec9f9262acc71340a29f017b1dccaff0cc493b1fbce",
+    "market_slug": "will-the-us-add-more-than-250000-jobs-in-october",
+    "event_slug": "how-many-jobs-added-in-october",
+    "title": "Will the US add more than 250,000 jobs in October?",
+    "category": "Economics",
+    "close_time": "2024-11-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "55589.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The October 2024 jobs report showed only 12,000 jobs added, heavily impacted by hurricanes (Helene and Milton) and the Boeing strike. Far below 250,000.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "October 2024 nonfarm payrolls came in at just 12,000 jobs",
+          "Report was affected by Hurricanes Helene and Milton and the Boeing machinists strike",
+          "Released November 1, 2024 by the BLS"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7d3c7a3cb2036a0d6c187e65805be394aa8be89ec776bcfb4d98041a8a83a5df",
+    "market_slug": "will-powell-wear-a-purple-tie-at-fomc-statement",
+    "event_slug": "will-powell-wear-a-purple-tie-at-fomc-statement",
+    "title": "Will Powell wear a purple tie at FOMC?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "37190.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Powell typically wears blue or red ties at FOMC press conferences. Purple is uncommon for him, so the base rate is low.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4b12d374cfda6a1820462f67cad3a0aa92bb78d42a1035bcac496a1ed874d641",
+    "market_slug": "iphone-16-pro-under-1000",
+    "event_slug": "iphone-16-pro-under-1000",
+    "title": "iPhone 16 pro under $1000?",
+    "category": "Economics",
+    "close_time": "2024-09-09T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "11823.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The iPhone 16 Pro was announced September 9, 2024 at Apple's event, with starting price of $999, which is under $1000.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "iPhone 16 Pro announced at Apple's 'It's Glowtime' event on September 9, 2024",
+          "Starting price was $999 for the base 128GB model, same as iPhone 15 Pro"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x493cdb70e3e34d53b5146824662e0b2fa45fab8c2906fcba35906df5365726ed",
+    "market_slug": "us-inflation-0pt4-from-feb-to-march-2024",
+    "event_slug": "us-inflation-0pt4-from-feb-to-march-2024",
+    "title": "US inflation >0.4% from Feb to March 2024?",
+    "category": "Economics",
+    "close_time": "2024-03-12T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8076.51",
+    "status": "ok",
+    "forecast": {
+      "rationale": "February 2024 CPI MoM came in at 0.4%, not above 0.4%. The headline figure was reported as 0.4% on March 12, 2024, which would not satisfy a strict '>0.4%' condition.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "February 2024 CPI report released March 12, 2024 showed headline MoM of 0.4%",
+          "Year-over-year CPI was 3.2% for February 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8cc1eabe78fd1bb60fc7b324f25b67351145be8b6413595592afdde15aa6ae35",
+    "market_slug": "will-us-gain-more-than-353k-jobs-in-february",
+    "event_slug": "how-many-jobs-added-in-february",
+    "title": "Will US gain more than 353k jobs in February?",
+    "category": "Economics",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "24821",
+    "status": "ok",
+    "forecast": {
+      "rationale": "February 2024 NFP came in at 275k jobs, below the 353k threshold (which was January's initial print, later revised down). This resolves No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "February 2024 nonfarm payrolls reported on March 8, 2024 showed 275k jobs added",
+          "January 2024 figure of 353k was revised down to 229k in the same release"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1fc1e5595adab4d8160b2fe72cfed61131e3d5e61b5c334160d1729d7380ab16",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-november-2024-meeting",
+    "event_slug": "fed-interest-rates-november-2024",
+    "title": "Fed increases interest rates by 25+ bps after November 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-11-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.33956e+08",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the November 2024 meeting, not increased. This was a continuation of the easing cycle started in September 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced a 25 bps rate cut on November 7, 2024, lowering target range to 4.50-4.75%",
+          "This followed the 50 bps cut at the September 2024 meeting"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9804a9bcb33e0e92443db277ab2a46de31a5531d3a1c074b8c2748778317c87e",
+    "market_slug": "ftx-claims-worth-75-on-the-dollar-by-end-of-q1",
+    "event_slug": "ftx-claims-worth-75-on-the-dollar-by-end-of-q1",
+    "title": "FTX claims worth >75¢ on the dollar by end of Q1?",
+    "category": "Economics",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1011.78",
+    "status": "ok",
+    "forecast": {
+      "rationale": "FTX claims were trading around 50-60¢ on the dollar in late 2023/early 2024 on secondary markets, though they rose significantly with the bankruptcy plan announcement of full repayment. By end of Q1 2024, claims were trading near or slightly above 75¢ but it's uncertain if they crossed clearly.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x0ce8366ba35257da411d257ed241032231743cda81034837a158ecc91a98d8f2",
+    "market_slug": "us-inflation-0pt1-from-jan-to-feb-2024",
+    "event_slug": "us-inflation-0pt1-from-jan-to-feb-2024",
+    "title": "US inflation >0.1% from Jan to Feb 2024?",
+    "category": "Economics",
+    "close_time": "2024-02-13T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3873.04",
+    "status": "ok",
+    "forecast": {
+      "rationale": "January 2024 CPI report (released Feb 13, 2024) showed headline CPI rose 0.3% month-over-month, well above 0.1%. This refers to the Jan CPI release reflecting price changes from Dec to Jan, but the title likely refers to that release. Either way, monthly inflation was clearly >0.1%.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "January 2024 CPI released Feb 13, 2024 showed headline CPI +0.3% m/m",
+          "Core CPI rose 0.4% m/m, hotter than expected, causing market selloff"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x44d97a2b28be0af7759eee93e231341d0820ad38e3322b3e3196e217081aaeae",
+    "market_slug": "will-the-november-unemployment-rate-be-4pt1",
+    "event_slug": "november-unemployment-rate",
+    "title": "Will the November unemployment rate be 4.1%?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "20764.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall the November 2024 jobs report released December 6, 2024 showed unemployment rate rose to 4.2%, not 4.1%.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "November 2024 nonfarm payrolls increased by 227,000",
+          "Unemployment rate ticked up to 4.2% from 4.1% in October"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb20072387cd12bc73f3a6fd30fdd5aa1644c8f72f958803d90fc05c51db0ac49",
+    "market_slug": "no-change-in-fed-interest-rates-after-2024-september-meeting",
+    "event_slug": "fed-interest-rates-september-2024",
+    "title": "No change in Fed interest rates after 2024 September meeting?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.34992e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 50 basis points at the September 18, 2024 FOMC meeting, the first cut of the cycle. So 'no change' resolves No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC cut the federal funds rate by 50 basis points on September 18, 2024",
+          "New target range was 4.75%-5.00%, first rate cut since 2020"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x71f05e80ebde98617021eca655e4bdfb9ffb6281bd17c382c83b97eb26cdaa50",
+    "market_slug": "us-inflation-0pt0-from-may-to-june-2024",
+    "event_slug": "us-inflation-0pt0-from-may-to-june-2024",
+    "title": "US inflation >0.0% from May to June 2024?",
+    "category": "Economics",
+    "close_time": "2024-07-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "18652.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 CPI showed a -0.1% month-over-month change (deflation), with year-over-year at 3.0%. The headline MoM figure was negative, so inflation from May to June was not >0.0%.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 2024 CPI report released July 11, 2024 showed headline CPI declined 0.1% MoM",
+          "Year-over-year CPI was 3.0% in June 2024, down from 3.3% in May"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x98bc1dae77ad789ec2d638cce495a6f03c4028ec372eba7f7c2fa8e17f63e06c",
+    "market_slug": "will-the-us-gain-more-than-303k-jobs-in-april",
+    "event_slug": "how-many-jobs-added-in-april",
+    "title": "Will the US gain more than 303k jobs in April?",
+    "category": "Economics",
+    "close_time": "2024-05-03T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "18781",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 nonfarm payrolls came in at 175k, well below 303k from March. The report was released May 3, 2024.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "April 2024 NFP reported 175,000 jobs added, missing expectations",
+          "Unemployment rate ticked up to 3.9%",
+          "Released by BLS on May 3, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xde507497bdd5d63090dfd8e6e29167216c66576bf8d029d87c99bef4e357c696",
+    "market_slug": "fed-decreases-interest-rates-by-75-bps-after-december-2024-meeting",
+    "event_slug": "fed-interest-rates-december-2024",
+    "title": "Fed decreases interest rates by 75+ bps after December 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.33044e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the December 2024 meeting, bringing total cuts since September to 100 bps. However, the title likely refers to the cut at this specific meeting being 75+ bps, which did not occur.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 18, 2024 FOMC meeting resulted in a 25 bps rate cut to 4.25-4.50%",
+          "Fed signaled fewer cuts in 2025 than previously projected"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x24ee858fba5f91b94e6278e71b8e1fdaabaf2a3680700d670f42aaa1c5f40179",
+    "market_slug": "will-inflation-increase-by-2pt8-or-more-in-november",
+    "event_slug": "november-inflation",
+    "title": "Will inflation increase by 2.8% or more in November?",
+    "category": "Economics",
+    "close_time": "2024-12-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "289910",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 CPI year-over-year came in at 2.7%, just below 2.8%. So this resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI November 2024 YoY was 2.7%, released December 11, 2024",
+          "Core CPI was 3.3% YoY, headline rose 0.3% MoM"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x611a41acb9389fb025ddb8df059201d8038387186b2fa3b301a17895ccd2152a",
+    "market_slug": "will-the-us-gain-less-than-100k-jobs-in-july",
+    "event_slug": "how-many-jobs-added-in-july",
+    "title": "Will the US gain less than 100k jobs in July?",
+    "category": "Economics",
+    "close_time": "2024-08-02T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8154.89",
+    "status": "ok",
+    "forecast": {
+      "rationale": "July 2024 nonfarm payrolls came in at 114,000, just above the 100k threshold, triggering the Sahm rule concerns. So the answer resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 2024 NFP reported 114,000 jobs added, below expectations of ~175k",
+          "Unemployment rate rose to 4.3%, triggering Sahm rule",
+          "Released August 2, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4a5b5f52c6e7f2af6b06462c92d12ea7bd1662c87be11828da0722ff32373b36",
+    "market_slug": "fed-rate-hike-in-2024",
+    "event_slug": "fed-rate-hike-in-2024",
+    "title": "Fed rate hike in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.4923e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates multiple times in 2024 (September, November, December) and did not hike at any meeting. The final 2024 meeting on Dec 18 resulted in a 25bp cut.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut 50bp in September 2024, 25bp in November 2024, and 25bp on December 18, 2024",
+          "No rate hikes occurred in 2024; the Fed was in a cutting cycle"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x079f8ffaccc9b130ffa269e742a3372f1a54a9ebb0b6bda15e3bf1ffd128e9b4",
+    "market_slug": "us-inflation-0pt1-from-april-to-may-2024",
+    "event_slug": "us-inflation-0pt1-from-april-to-may-2024",
+    "title": "US inflation >0.1% from April to May 2024?",
+    "category": "Economics",
+    "close_time": "2024-06-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27663",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 CPI report (released June 12, 2024) showed headline CPI was flat month-over-month at 0.0%, below 0.1%. So this should resolve No.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "May 2024 US CPI MoM came in at 0.0% (unchanged), below the 0.1% expectation",
+          "Released by BLS on June 12, 2024; year-over-year CPI was 3.3%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x813e44dd1717ed1e1ccfa5f67b5e4d681f7a91cf12dfd8278608698f03b0f89d",
+    "market_slug": "fed-decreases-interest-rates-by-25-bps-after-july-2024-meeting",
+    "event_slug": "fed-interest-rates-july-2024",
+    "title": "Fed decreases interest rates by 25 bps after July 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "884828",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at the July 2024 FOMC meeting (5.25-5.50%), signaling a possible September cut but not cutting in July.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 31, 2024 FOMC meeting kept federal funds rate at 5.25%-5.50%",
+          "First rate cut occurred at September 2024 meeting (50 bps cut)"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x25389b9a4146ff4e085a6579edbecd956eca3876f67edf20483a6d6f2d97e070",
+    "market_slug": "will-milady-flip-mayc-by-march-1",
+    "event_slug": "will-milady-flip-mayc-by-march-1",
+    "title": "Will Milady flip MAYC by March 1?",
+    "category": "Economics",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17762.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MAYC floor price has historically been significantly higher than Milady's. While Milady saw growth in 2023-2024, flipping MAYC's floor by March 1 is unlikely given the typical gap between these collections.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x86797195cdde3c3a30e2b1b9503bc727fe787845228e9876ed9bc380aa021148",
+    "market_slug": "fed-decreases-interest-rates-by-25-bps-after-june-2024-meeting",
+    "event_slug": "fed-interest-rates-june-2024",
+    "title": "Fed decreases interest rates by 25 bps after June 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-06-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "602846",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at 5.25-5.50% at the June 2024 FOMC meeting, with no rate cut. The dot plot indicated only one cut expected for 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 12, 2024 FOMC meeting kept federal funds rate at 5.25-5.50%",
+          "Updated SEP dot plot showed median expectation of only one 25bp cut in 2024",
+          "First rate cut did not occur until September 2024 (50bp cut)"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd3618a6314e3e50b4e6b5c9f06f2873f2a41570b6bb3fb4aef5995ed93bccef7",
+    "market_slug": "soleth-new-high-by-jan-31",
+    "event_slug": "soleth-new-high-by-jan-31",
+    "title": "SOL/ETH new high by Jan 31?",
+    "category": "Economics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8150.01",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SOL/ETH ratio peaked around late December 2023/early January 2024 near 0.045-0.05 during SOL's rally. By late January, ETH was recovering with ETF anticipation fading and SOL consolidating, making a new high uncertain but plausible given the recent uptrend.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x7f7acaad0b6132ec2f72ba179eebca814865a2c598705381a8e8aa3acce5b0b5",
+    "market_slug": "will-the-fed-raise-interest-rates-by-25-bps-after-its-2024-aprilmay-meeting",
+    "event_slug": "fed-interest-rates-may-2024",
+    "title": "Fed raises interest rates by 25+ bps after 2024 May meeting?",
+    "category": "Economics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "286083",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at the May 2024 FOMC meeting, maintaining the 5.25-5.50% target range. No hike occurred.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "May 1, 2024 FOMC meeting held federal funds rate steady at 5.25-5.50%",
+          "Fed was in pause mode throughout 2024, with rate cuts later in the year, not hikes"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdf3b361f2617570e0abc10ece5e350a979c5e1e58ad5a2b5147e023ade4d9311",
+    "market_slug": "will-the-fed-raise-interest-rates-by-25-bps-after-its-2024-march-meeting",
+    "event_slug": "fed-interest-rates-march-2024",
+    "title": "Will the Fed raise interest rates by 25+ bps after its 2024 March meeting?",
+    "category": "Economics",
+    "close_time": "2024-03-18T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "197105",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at 5.25-5.50% at the March 2024 FOMC meeting, maintaining the pause that began in July 2023. No rate hike occurred.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "March 20, 2024 FOMC meeting kept federal funds rate at 5.25%-5.50%",
+          "Fed had been on pause since July 2023, with markets expecting cuts later in 2024, not hikes"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0b7c6545b913133ccde713feb3599cae65325030bbe3e1bdf99943e5f5ef3464",
+    "market_slug": "will-the-fed-decrease-interest-rates-by-25-bps-after-its-january-meeting",
+    "event_slug": "fed-interest-rates-january-2024",
+    "title": "Will the Fed decrease interest rates by 25 bps after its January meeting?",
+    "category": "Economics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "58887.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at 5.25-5.50% at the January 31, 2024 FOMC meeting, with Powell signaling a March cut was unlikely. No rate cut occurred.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC meeting concluded January 31, 2024 with rates held at 5.25-5.50%",
+          "Powell explicitly pushed back on March cut expectations in press conference"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xac95a5009e493902628eaaa2138780fca5b5476825924ae7de023e8c65917662",
+    "market_slug": "will-the-fed-raise-interest-rates-by-0-bps-after-its-december-meeting",
+    "event_slug": "fed-interest-rates-december-2023",
+    "title": "Will the Fed raise interest rates by 0 bps after its December meeting?",
+    "category": "Economics",
+    "close_time": "2023-12-12T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "29458.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The December 2023 FOMC meeting held rates steady at 5.25-5.50%, a 0 bps change. The meeting concluded December 13, 2023, but the decision was widely anticipated.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 13, 2023 FOMC meeting kept federal funds rate at 5.25-5.50%",
+          "Fed had paused since the July 2023 hike; dot plot signaled cuts in 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd3328f8684b20c8b4be97ef06d55d9543e2669b0c6d9d9187ea4996c8ac03864",
+    "market_slug": "tiktok-banned-in-the-us-in-2024",
+    "event_slug": "tiktok-banned-in-the-us-in-2024",
+    "title": "TikTok banned in the US in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "283212",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden signed a divest-or-ban law in April 2024 with a January 19, 2025 deadline. TikTok was not actually banned during 2024; it remained operational throughout the year.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Protecting Americans from Foreign Adversary Controlled Applications Act signed April 24, 2024",
+          "Deadline for ByteDance divestiture set for January 19, 2025, not within 2024",
+          "TikTok continued operating in the US throughout 2024 while litigating the law"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe3c42f6d6223c0355d7183ce2405e8b2e2456c536049ace975ec9f0622032a28",
+    "market_slug": "will-the-fed-cut-rates-in-2023",
+    "event_slug": "will-the-fed-cut-rates-in-2023",
+    "title": "Will the Fed cut rates in 2023?",
+    "category": "Economics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "272978",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed did not cut rates in 2023; they raised rates through July 2023 to 5.25-5.50% and held steady through year-end, with cuts only signaled for 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed's last hike of 2023 was July 26, 2023 to 5.25-5.50% range",
+          "Fed held rates steady at September, November, and December 2023 FOMC meetings",
+          "December 2023 dot plot signaled rate cuts for 2024, not 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe75c666e62a1d86aa9c8320ff13626d633fcd3ea19d52270a4fe49135936c5ea",
+    "market_slug": "roaring-kitty-charged-in-2024",
+    "event_slug": "roaring-kitty-charged-in-2024",
+    "title": "Roaring Kitty charged in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "217074",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Keith Gill (Roaring Kitty) returned in 2024 and faced SEC scrutiny/lawsuits regarding GameStop trades, but I don't recall any criminal charges being filed against him in 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Keith Gill returned to social media in May 2024 posting about GameStop, sparking a rally",
+          "A class-action lawsuit was filed alleging securities fraud, but no criminal charges were filed in 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0a166784df1f7d2f72b66acbf25d78f2884cb613826dc8dc5ddd238e36e7d453",
+    "market_slug": "us-bank-failure-by-october",
+    "event_slug": "us-bank-failure-by-october",
+    "title": "US bank failure by October 31?",
+    "category": "Economics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "204194",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By October 2024, there had been US bank failures earlier in the year (e.g., Republic First Bank in April 2024, and The First National Bank of Lindsay in October 2024). The condition would resolve Yes.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republic First Bank failed on April 26, 2024",
+          "The First National Bank of Lindsay, Oklahoma was closed by the OCC on October 18, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x096a5bb4c8040be2e04357a1a6bf171d904f4d9afee8489523977a8808907cca",
+    "market_slug": "boj-emergency-rate-cut-in-august",
+    "event_slug": "boj-emergency-rate-cut-in-august",
+    "title": "Bank of Japan emergency rate cut in August?",
+    "category": "Economics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "144937",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BOJ did not conduct an emergency rate cut in August 2024. After market turmoil following their July hike, Deputy Governor Uchida instead signaled no hikes during instability, but no emergency cut occurred.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BOJ raised rates to 0.25% on July 31, 2024",
+          "Following early August market crash, Uchida pledged no hikes amid volatility but no emergency cut was made"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xac6fc7aed296069ab29118ed687e2e3ff1c347d5dd2aa220ff082b8a06ed669f",
+    "market_slug": "us-bank-failure-before-september",
+    "event_slug": "us-bank-failure-before-september",
+    "title": "US bank failure before September?",
+    "category": "Economics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "121126",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republic First Bank failed in April 2024, and there were additional small bank failures in 2024. The question likely resolved Yes given Republic First's failure occurred well before September 2024.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republic First Bank (Philadelphia) was closed by regulators on April 26, 2024, with Fulton Bank assuming deposits",
+          "This was the first FDIC-insured bank failure of 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x831ebc7fa8c94d42d526bd6ed622afde66cbbaaa2f14a480072d7b5e58f0c7ec",
+    "market_slug": "unrealized-gains-tax-passed-before-election-day",
+    "event_slug": "unrealized-gains-tax-passed-before-election-day",
+    "title": "Unrealized gains tax passed before election day?",
+    "category": "Economics",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "108965",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No unrealized gains tax was passed by Congress before the November 2024 election. It was a Harris campaign proposal that never became law.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Unrealized capital gains tax was part of Biden/Harris budget proposal, not enacted legislation",
+          "Congress did not pass such a tax before November 4, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x53ecf4c1775c7eea6c62aa8ad52d3db0edd48a71e0e4057dd1f5242c10c144d6",
+    "market_slug": "us-bank-failure-in-april",
+    "event_slug": "us-bank-failure-in-april",
+    "title": "US bank failure in April?",
+    "category": "Economics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "56886.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republic First Bank (Philadelphia) was seized by regulators on April 26, 2024, with Fulton Bank assuming its deposits. This was the first US bank failure of 2024.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republic First Bank failed on April 26, 2024",
+          "FDIC seized it; Fulton Bank acquired its deposits and assets"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x73645af95c7b6942d6b30ddd2ede0da0eaabb6735449838f71abc92e6443cdc0",
+    "market_slug": "brazilian-judge-alexandre-de-moraes-arrested-in-sept",
+    "event_slug": "brazilian-judge-alexandre-de-moraes-arrested-in-sept",
+    "title": "Brazilian Judge Moraes arrested in September?",
+    "category": "Economics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "46650",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Justice Alexandre de Moraes is a sitting Supreme Court justice in Brazil; there is no realistic scenario for his arrest in September 2024. He was actively presiding over the X/Twitter ban case during this period.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Moraes ordered the suspension of X (Twitter) in Brazil in late August/September 2024",
+          "He remained an active STF justice throughout September 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xeec353a0323c40756b8dcc691095a1d64295182066bdb87279d6beef26e7d9e2",
+    "market_slug": "alexandre-de-moraes-impeached-in-september",
+    "event_slug": "alexandre-de-moraes-impeached-in-september",
+    "title": "Alexandre de Moraes impeached in September?",
+    "category": "Economics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "44329.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Alexandre de Moraes was not impeached in September 2024. Despite political tensions and calls from Bolsonaro supporters, no impeachment proceeded against the Brazilian Supreme Court justice.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Moraes remained an active STF justice throughout September 2024",
+          "He was involved in the X/Twitter ban in Brazil during this period, not impeached"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc6b62089121585f661a9e5361f3e991b21fcb6c811f5d00f29c81ae5297116b7",
+    "market_slug": "30-year-mortgage-rate-below-6-before-election",
+    "event_slug": "30-year-mortgage-rate-below-6-before-election",
+    "title": "30-year mortgage rate below 6% before election?",
+    "category": "Economics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "35511",
+    "status": "ok",
+    "forecast": {
+      "rationale": "30-year mortgage rates declined in September 2024 but bottomed around 6.08% (Freddie Mac) and rose back above 6.4% by late October. They did not break below 6% before the election.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Freddie Mac PMMS lowest reading was around 6.08% in late September 2024",
+          "Rates rose back above 6.4% in October 2024 after stronger jobs data and rising Treasury yields"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2aafc5e2c2653bf25664ba5a767b2164bd2b132e22e03aebb0e2f469d2a8bd17",
+    "market_slug": "30-year-mortgage-drops-below-5-before-election",
+    "event_slug": "30-year-mortgage-drops-below-5-before-election",
+    "title": "30-year mortgage rate below 5% before election?",
+    "category": "Economics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27473.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "30-year mortgage rates were around 6-7% throughout 2024, with lows near 6.08% in September. Rates never approached 5% before the November election.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Freddie Mac 30-year fixed rate bottomed around 6.08% in late September 2024",
+          "Rates rose back to ~6.7-7% by late October 2024 ahead of the election"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6969a6eab31e019e2c68aeac65d72a749f823262453ad94046de8deb57b8c45a",
+    "market_slug": "bank-of-england-rate-cut-in-september-meeting",
+    "event_slug": "bank-of-england-rate-cut-in-september-meeting",
+    "title": "Bank of England rate cut in September meeting?",
+    "category": "Economics",
+    "close_time": "2024-09-19T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17227.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Bank of England held rates at 5.0% at its September 19, 2024 meeting after cutting in August. The MPC voted 8-1 to hold.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BoE held Bank Rate at 5.0% on September 19, 2024",
+          "MPC voted 8-1 to maintain rates, with Dhingra dissenting for a cut",
+          "Followed the August 2024 cut from 5.25% to 5.0%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe64c6f0b5ba40660378a6e352dad2c326e73a7d3af1e572575b536fb83190140",
+    "market_slug": "x-drops-antitrust-case-in-2024",
+    "event_slug": "x-drops-antitrust-case-in-2024",
+    "title": "X drops antitrust case in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "13918.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "X (formerly Twitter) filed an antitrust lawsuit against advertisers/GARM in August 2024 and expanded it. I don't recall X dropping it before year-end 2024; rather they were actively pursuing it.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf1daf3e5e21921e55d318f06f98379a4ff0dae8e5e096c911a1eac1038a1a65",
+    "market_slug": "will-the-fed-raise-rates-again-in-2023",
+    "event_slug": "will-the-fed-raise-rates-again-in-2023",
+    "title": "Will the Fed raise rates again in 2023?",
+    "category": "Economics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "96772.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed's last rate hike was in July 2023, raising the federal funds rate to 5.25-5.50%. They held rates steady at the September, November, and December 2023 FOMC meetings, with no further hikes in 2023.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed's final 2023 hike was July 26, 2023, bringing rates to 5.25-5.50%",
+          "FOMC paused at September, November, and December 2023 meetings",
+          "By December 2023, Powell signaled potential cuts in 2024, not hikes"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x42c36feb2b1a5da60613c7439e42c990dab1aec79486307f4176186b533f379b",
+    "market_slug": "will-the-port-of-baltimore-not-reopen-by-july",
+    "event_slug": "when-will-port-of-baltimore-reopen",
+    "title": "Will the Port of Baltimore reopen in August or later?",
+    "category": "Economics",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "37979",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Port of Baltimore's main shipping channel was fully reopened on June 10, 2024, well before August. Therefore it did not reopen in August or later.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Francis Scott Key Bridge collapsed on March 26, 2024 after the Dali container ship struck it",
+          "Fort McHenry Federal Channel was fully reopened to commercial traffic on June 10, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbe8b5c75249636c14845d11b4640079ca31b5465dacbe505a41b36252f5de6c0",
+    "market_slug": "will-the-us-gain-between-100-150k-jobs-in-november",
+    "event_slug": "how-many-jobs-added-in-november",
+    "title": "Will the US gain between 100-150k jobs in November?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "22600.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 nonfarm payrolls came in at 227,000, well above the 100-150k range. This resolves No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "November 2024 NFP reported on December 6, 2024 was 227,000 jobs added",
+          "Rebound from hurricane/strike-affected October report"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8cdfb8a957b715ffa122cb119baa3676ac6332635a9eeb23ef944bf96a347e1e",
+    "market_slug": "will-inflation-increase-by-2pt5-or-less-in-november",
+    "event_slug": "november-inflation",
+    "title": "Will inflation increase by 2.5% or less in November?",
+    "category": "Economics",
+    "close_time": "2024-12-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "66405",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 CPI came in at 2.7% year-over-year, released December 11, 2024. This is above 2.5%, so the answer is No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI for November 2024 was 2.7% year-over-year",
+          "Released by BLS on December 11, 2024",
+          "Core CPI was 3.3% YoY"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb0c8ce59d533d5733ec0f8fe3122609e01b39470eb81fa9bb4e19ec461326f33",
+    "market_slug": "50-bps-decrease-in-ecb-interest-rates-after-2024-december-meeting",
+    "event_slug": "ecb-interest-rates-december-2024",
+    "title": ">50 bps decrease in ECB interest rates after 2024 December meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "237073",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ECB cut rates by 25 bps at the December 2024 meeting, bringing the deposit rate to 3.00%. A >50 bps cut did not occur.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ECB cut rates by 25 bps on December 12, 2024",
+          "Deposit facility rate lowered from 3.25% to 3.00%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8157f1b7ceb1ac9e097e75c3e7762df35da8df0ab137bf1480dca2d34eb91f5d",
+    "market_slug": "will-us-gain-more-than-275k-jobs-in-march",
+    "event_slug": "how-many-jobs-added-in-march",
+    "title": "Will US gain more than 275k jobs in March?",
+    "category": "Economics",
+    "close_time": "2024-04-03T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "21361.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "March 2024 nonfarm payrolls came in at 303k, beating expectations and exceeding the 275k threshold.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "March 2024 NFP reported on April 5, 2024 was 303,000 jobs added",
+          "Unemployment rate fell to 3.8%"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcc6748fd7df73f8c13cca945c99806c2b5d0032db6a6de7eed32c91ca3814b89",
+    "market_slug": "will-jerome-powell-say-tariff-5-or-more-times-during-december-fomc-press-conference",
+    "event_slug": "what-will-jerome-powell-say-during-december-fomc-press-conference",
+    "title": "Will Jerome Powell say \"tariff\" 5 or more times during December FOMC Press Conference?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "159395",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Powell historically tries to avoid politically charged terms but with Trump's tariff plans dominating economic discourse in Dec 2024, he was likely asked about tariffs multiple times. He typically deflects but does engage with the topic, making 5+ mentions plausible but not certain.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4718873f961929ef4117b3d84ebbccd340ebc9eff1dc54440aba5143ea3d03cb",
+    "market_slug": "will-us-gain-less-than-150k-jobs-in-june",
+    "event_slug": "how-many-jobs-added-in-june",
+    "title": "Will US gain less than 150k jobs in June?",
+    "category": "Economics",
+    "close_time": "2024-07-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14054.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 NFP report released July 5, 2024 showed 206k jobs added, above 150k threshold. So the condition (less than 150k) was not met.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 2024 NFP came in at 206,000 jobs",
+          "Unemployment rate ticked up to 4.1%",
+          "Prior months were revised down notably"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x260fd9d6b10746909a26c2af7a68b409f757c95a07dc57ddd480774a36c8399b",
+    "market_slug": "will-fed-cut-interest-rates-3-times-by-dec-meeting",
+    "event_slug": "how-many-fed-rate-cuts-this-year",
+    "title": "Will Fed cut interest rates 3 times in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8.33716e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates exactly 3 times in 2024: 50bps in September, 25bps in November, and 25bps in December, totaling 3 cuts.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "September 18, 2024: 50bp cut (first cut of cycle)",
+          "November 7, 2024: 25bp cut",
+          "December 18, 2024: 25bp cut, bringing total to 3 cuts in 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8321bcf425689ee0eb52c07809153774b8d0942c64e14ddbe29fda7148c1c125",
+    "market_slug": "will-us-add-less-than-150k-jobs-in-may",
+    "event_slug": "how-many-jobs-added-in-may",
+    "title": "Will US add less than 150k jobs in May?",
+    "category": "Economics",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6702.59",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 nonfarm payrolls came in at 272,000, well above 150k, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported 272,000 jobs added in May 2024, released June 7, 2024",
+          "Unemployment rate ticked up to 4.0%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4057c2528a3815d460f0c5889f52a914745b23400c4548804afee8f9c4a56ec3",
+    "market_slug": "fed-rate-cut-by-december-18",
+    "event_slug": "fed-rate-cut-by",
+    "title": "Fed rate cut by December 18?",
+    "category": "Economics",
+    "close_time": "2024-12-18T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.26986e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25bps on November 7, 2024, well before December 18. Additionally, another cut was widely expected at the December 18 FOMC meeting itself.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut rates by 50bps on September 18, 2024",
+          "Fed cut rates by 25bps on November 7, 2024, bringing target range to 4.50-4.75%"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x20232268d23a1c28b7356fa38498c68fbb02fdc8959cc8dc6990a66c66439efe",
+    "market_slug": "us-adds-less-than-100k-jobs-in-september",
+    "event_slug": "how-many-jobs-added-in-september",
+    "title": "US adds less than 100k jobs in September?",
+    "category": "Economics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "53224.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "September 2024 nonfarm payrolls came in at 254,000, well above 100k, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "September 2024 NFP reported on October 4, 2024 was 254,000 jobs added",
+          "Unemployment rate ticked down to 4.1%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0a533c938200a10df86423dfbe621a2f36bfd4abc457615cf4992ed721c566bf",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-september-2024-meeting",
+    "event_slug": "fed-interest-rates-september-2024",
+    "title": "Fed increases interest rates by 25+ bps after September 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.76256e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 50 bps at the September 2024 meeting, not increased. Therefore this resolves No.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC cut the federal funds rate by 50 basis points on September 18, 2024",
+          "Target range moved from 5.25-5.50% to 4.75-5.00%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x79d04f27bce77a6831ddb749e90e18e25f6b2723971b2c10f629ca846b7ac06c",
+    "market_slug": "us-adds-between-100k-and-150k-jobs-in-august",
+    "event_slug": "how-many-jobs-added-in-august",
+    "title": "US adds between 100k and 150k jobs in August?",
+    "category": "Economics",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "41439.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 nonfarm payrolls came in at 142,000, which falls within the 100k-150k range.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "August 2024 NFP reported on September 6, 2024 was 142,000 jobs added",
+          "Unemployment rate ticked down to 4.2%"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x20e2d5f8c92270e87a3f60672a67c649e781f9c2ab8b30055ce4e2fb48c458dd",
+    "market_slug": "fed-decreases-interest-rates-by-75-bps-after-november-2024-meeting",
+    "event_slug": "fed-interest-rates-november-2024",
+    "title": "Fed decreases interest rates by 75+ bps after November 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-11-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.5032e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the November 2024 meeting, bringing the target range to 4.50-4.75%. A 75+ bps cut did not occur.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced a 25 bps rate cut on November 7, 2024",
+          "Target range lowered from 4.75-5.00% to 4.50-4.75%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa7c57a45150462c955a1845cd8b42c3da1234a839546db09eed7e72217c5b9f6",
+    "market_slug": "will-the-us-add-100-150k-jobs-in-october",
+    "event_slug": "how-many-jobs-added-in-october",
+    "title": "Will the US add 100-150k jobs in October?",
+    "category": "Economics",
+    "close_time": "2024-11-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "25272.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 jobs report showed only 12,000 jobs added, heavily impacted by hurricanes Helene and Milton and the Boeing strike. This is well below the 100-150k range.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "October 2024 nonfarm payrolls came in at just 12,000",
+          "Report was affected by hurricanes Helene/Milton and Boeing machinist strike",
+          "Released November 1, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb685671ec5f12410f48006fad1ec60fa1a1e19f3a5ba09a81ab45b026821252d",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-december-2024-meeting",
+    "event_slug": "fed-interest-rates-december-2024",
+    "title": "Fed increases interest rates by 25+ bps after December 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.02285e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the December 2024 meeting, lowering the target range to 4.25-4.50%. They did not increase rates.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 18, 2024 FOMC meeting resulted in a 25 bps rate cut, not an increase",
+          "Target federal funds rate was lowered to 4.25%-4.50%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x31d7fbf8a4b08ea07e3ffa283d9c5acbaaadf247da08a57e9f0795f6f742f4bd",
+    "market_slug": "will-the-november-unemployment-rate-be-4pt3-or-more",
+    "event_slug": "november-unemployment-rate",
+    "title": "Will the November unemployment rate be 4.3% or more?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "19948.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 unemployment rate was reported at 4.2% on December 6, 2024, just below the 4.3% threshold.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS released November 2024 jobs report on December 6, 2024",
+          "Unemployment rate ticked up to 4.2% from 4.1%",
+          "Nonfarm payrolls increased by 227,000"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6a98d5d6903279a133009d8dfaef73432a77758ff4a63c391921082820cbdef2",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-july-2024-meeting",
+    "event_slug": "fed-interest-rates-july-2024",
+    "title": "Fed increases interest rates by 25+ bps after July 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "752276",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at the July 2024 FOMC meeting, maintaining the 5.25-5.50% target range, and signaled potential cuts ahead rather than hikes.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 31, 2024 FOMC meeting kept federal funds rate target at 5.25-5.50%",
+          "Powell signaled a rate cut could come at the September 2024 meeting"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb0ced8080b1831d2eecf7bc4c175275a1c7c4c5a415d77c7b9613e4b76564401",
+    "market_slug": "will-us-gain-less-than-200k-jobs-in-february",
+    "event_slug": "how-many-jobs-added-in-february",
+    "title": "Will US gain less than 200k jobs in February?",
+    "category": "Economics",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "18151.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "February 2024 nonfarm payrolls came in at 275k (later revised), above 200k. So the condition 'less than 200k' was not met.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "February 2024 NFP report released March 8, 2024 showed +275k jobs",
+          "Prior months were revised down but headline still exceeded 200k"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4c21fdaee92538da1af2d227e7688673fe8789decff537003cd3b67b0ecb1b8d",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-june-2024-meeting",
+    "event_slug": "fed-interest-rates-june-2024",
+    "title": "Fed increases interest rates by 25+ bps after June 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-06-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "582732",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The June 2024 FOMC meeting held rates steady at 5.25-5.50%; no rate hike occurred.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 12, 2024 FOMC meeting kept federal funds rate at 5.25%-5.50%",
+          "Dot plot revised to indicate only one rate cut in 2024; no hikes were on the table"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x23a9be32693bd427cce236d5af3e9f86aa38776e3ff4823faa7f51443d1a5647",
+    "market_slug": "no-change-in-fed-raise-interest-rates-after-its-2024-aprilmay-meeting",
+    "event_slug": "fed-interest-rates-may-2024",
+    "title": "No change in Fed interest rates after 2024 May meeting?",
+    "category": "Economics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "165142",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The May 2024 FOMC meeting occurred on May 1, 2024, and the Fed held rates steady at 5.25-5.50%. Note close time is April 30 (before meeting), but the event title references the May meeting outcome.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC May 1, 2024 meeting kept federal funds rate at 5.25-5.50%",
+          "Powell signaled rates would stay higher for longer due to sticky inflation"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa1d06c273030c75b85ecfee08b2ff1f0e510c07f12152f81c707eb83deaab8ba",
+    "market_slug": "no-change-in-fed-raise-interest-rates-after-its-2024-march-meeting",
+    "event_slug": "fed-interest-rates-march-2024",
+    "title": "No change in Fed raise interest rates after its 2024 March meeting?",
+    "category": "Economics",
+    "close_time": "2024-03-18T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "63023.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at 5.25-5.50% at the March 2024 FOMC meeting on March 19-20, 2024. No rate change occurred.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "March 2024 FOMC meeting held March 19-20, 2024, kept federal funds rate at 5.25-5.50%",
+          "Dot plot maintained projection of three rate cuts for 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbb1a187568240a58bc243c6cd4c15ed43b8fd4a98536257910759625b56de996",
+    "market_slug": "will-the-us-gain-less-than-150k-jobs-in-april",
+    "event_slug": "how-many-jobs-added-in-april",
+    "title": "Will the US gain less than 150k jobs in April?",
+    "category": "Economics",
+    "close_time": "2024-05-03T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14186",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 nonfarm payrolls came in at 175,000, below expectations but above 150k. So the question resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "April 2024 NFP report released May 3, 2024 showed 175,000 jobs added",
+          "Unemployment rate ticked up to 3.9%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5d0c7869d6bbd5c926178c5ebb2c1ab1afa3e1b04bd036bcde5573481e3998c0",
+    "market_slug": "will-the-fed-raise-interest-rates-by-25-bps-after-its-december-meeting",
+    "event_slug": "fed-interest-rates-december-2023",
+    "title": "Will the Fed raise interest rates by 25 bps after its December meeting?",
+    "category": "Economics",
+    "close_time": "2023-12-13T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27152.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at the December 13, 2023 FOMC meeting, keeping the target range at 5.25-5.50%. No 25 bps hike occurred.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC held rates unchanged at 5.25-5.50% on December 13, 2023",
+          "Dot plot signaled rate cuts in 2024 rather than further hikes"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0ed207094d696ccb12d214f7ac3b7c329921ba171ed13c23b3dc9c1d21df899a",
+    "market_slug": "will-the-us-gain-more-than-300k-jobs-in-july",
+    "event_slug": "how-many-jobs-added-in-july",
+    "title": "Will the US gain more than 300k jobs in July?",
+    "category": "Economics",
+    "close_time": "2024-08-02T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5714.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "July 2024 nonfarm payrolls came in at approximately 114,000, well below 300k, triggering recession fears and the Sahm rule discussion.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 2024 NFP reported on August 2, 2024 was about 114,000 jobs",
+          "Unemployment rate rose to 4.3%, triggering Sahm rule and market selloff"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x26000a18ec71be1c8dc92eeb52d274d561da9081bdae520968bb27f80ed453df",
+    "market_slug": "will-the-fed-raise-interest-rates-by-25-bps-after-its-january-meeting",
+    "event_slug": "fed-interest-rates-january-2024",
+    "title": "Will the Fed raise interest rates by 25 bps after its January meeting?",
+    "category": "Economics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "13148.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at the January 31, 2024 FOMC meeting, keeping the federal funds rate at 5.25-5.50%. No hike occurred.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC kept rates unchanged at 5.25-5.50% on January 31, 2024",
+          "Powell signaled cuts were not imminent, pushing back on March cut expectations"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x691fe21526d4da13dae0d47d7237dc121ea221f3b68751a9a47e3a33a72464c4",
+    "market_slug": "will-the-port-of-baltimore-reopen-in-june",
+    "event_slug": "when-will-port-of-baltimore-reopen",
+    "title": "Will the Port of Baltimore reopen in June?",
+    "category": "Economics",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17770.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Port of Baltimore's main shipping channel was fully reopened on June 10-12, 2024, after the Francis Scott Key Bridge collapse cleanup. This occurred well before the June 30 close.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Federal channel fully reopened around June 10, 2024 after Key Bridge collapse on March 26, 2024",
+          "USACE and Unified Command announced 700-foot wide, 50-foot deep channel restoration in June 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa85daba3e0d46cac74ea3db6034328ee824940d96692a0125d64a84ab48effe3",
+    "market_slug": "will-inflation-increase-by-2pt7-in-november",
+    "event_slug": "november-inflation",
+    "title": "Will inflation increase by 2.7% in November?",
+    "category": "Economics",
+    "close_time": "2024-12-11T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "20264",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 CPI year-over-year came in at 2.7%, matching expectations, released December 11, 2024.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI for November 2024 was reported at 2.7% year-over-year, up from 2.6% in October",
+          "BLS released the data on December 11, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd098c0bb5ffbfd42e7994441fa5f261998f7ace9033078a505ca34e3bd9bd037",
+    "market_slug": "will-us-add-between-150-200k-jobs-in-may",
+    "event_slug": "how-many-jobs-added-in-may",
+    "title": "Will US add between 150-200k jobs in May?",
+    "category": "Economics",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4205.83",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 nonfarm payrolls came in at 272,000, well above the 150-200k range, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "May 2024 NFP report released June 7, 2024 showed 272,000 jobs added",
+          "Number significantly beat consensus expectations of around 180k"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9b676d23387bb38b6265fdc0a3756631bf78d729867d32dd55acb9b1049d4e64",
+    "market_slug": "no-change-in-ecb-interest-rates-after-2024-december-meeting",
+    "event_slug": "ecb-interest-rates-december-2024",
+    "title": "No change in ECB interest rates after 2024 December meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "203800",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ECB cut rates by 25bps at its December 12, 2024 meeting, lowering the deposit facility rate from 3.25% to 3.00%. This means rates did change, so the market resolves No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ECB cut its three key interest rates by 25 basis points on December 12, 2024",
+          "Deposit facility rate lowered to 3.00% from 3.25%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8b90faac71a04484affc550e8dbea7932646d7f90b4a4de7f1d7f676b9670bbc",
+    "market_slug": "us-adds-between-100k-and-150k-jobs-in-september",
+    "event_slug": "how-many-jobs-added-in-september",
+    "title": "US adds between 100k and 150k jobs in September?",
+    "category": "Economics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "39353",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The September 2024 jobs report showed nonfarm payrolls increased by 254,000, well above the 100k-150k range. This resolves No.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "September 2024 nonfarm payrolls came in at 254,000, far above expectations of ~150k",
+          "Unemployment rate fell to 4.1% in that report released October 4, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc3ad788d4943f76ed656d2f0d3485d5bf066877035596b0151fe1d614707dc4f",
+    "market_slug": "will-jerome-powell-say-tariff-during-december-fomc-press-conference",
+    "event_slug": "what-will-jerome-powell-say-during-december-fomc-press-conference",
+    "title": "Will Jerome Powell say \"tariff\" during December FOMC Press Conference?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "155978",
+    "status": "ok",
+    "forecast": {
+      "rationale": "At the December 18, 2024 FOMC press conference, Powell was asked about tariffs given Trump's election win and the topic was prominent. Powell did discuss tariffs and uncertainty around them.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 18, 2024 FOMC meeting where Fed cut rates by 25bps to 4.25-4.50%",
+          "Powell discussed tariff uncertainty in context of Trump's incoming administration policy"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6865dfd806efca3a6e909fa1435cef59a62fa6cf816d0946448ddb725d15114a",
+    "market_slug": "us-adds-between-150k-and-200k-jobs-in-august",
+    "event_slug": "how-many-jobs-added-in-august",
+    "title": "US adds between 150k and 200k jobs in August?",
+    "category": "Economics",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "38761.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 nonfarm payrolls came in at 142k, below the 150k-200k range. This resolves No.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "August 2024 NFP reported on September 6, 2024 was 142,000 jobs",
+          "Unemployment rate ticked down to 4.2%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9d1f0296f3a016727193d2b45704e0debc3b8048fe0715f8bb1e91550d321872",
+    "market_slug": "will-fed-cut-interest-rates-4-times-by-dec-meeting",
+    "event_slug": "how-many-fed-rate-cuts-this-year",
+    "title": "Will Fed cut interest rates 4 times in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "6.81252e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates 3 times in 2024: 50bps in September, 25bps in November, and 25bps in December. There were only 3 cuts, not 4.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut 50bps on September 18, 2024",
+          "Fed cut 25bps on November 7, 2024",
+          "Fed cut 25bps on December 18, 2024, totaling 3 cuts for the year"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe9efd4e41b8109b02b36718095bfe4a24c3cab31608d3d11038d53cf99f88f07",
+    "market_slug": "will-the-november-unemployment-rate-be-4pt0-or-less",
+    "event_slug": "november-unemployment-rate",
+    "title": "Will the November unemployment rate be 4.0% or less?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "16253",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 unemployment rate was reported at 4.2%, above 4.0%.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported November 2024 unemployment rate at 4.2%",
+          "Released December 6, 2024; nonfarm payrolls rose 227,000"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x642926331d650ed2e4e1da2593f388cd803b4f283e09218fc1c5de90087b585c",
+    "market_slug": "fed-rate-cut-by-november-7",
+    "event_slug": "fed-rate-cut-by",
+    "title": "Fed rate cut by November 7?",
+    "category": "Economics",
+    "close_time": "2024-11-07T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.02098e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 50bps on September 18, 2024, and was widely expected to cut again at the November 6-7 FOMC meeting. The November 7 decision was a 25bps cut announced that afternoon.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut rates by 50bps on September 18, 2024",
+          "FOMC met November 6-7, 2024 and announced a 25bps cut on November 7"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6cc501fa617e3a46ececf6e3990fe1afeeaa6bc897d3c7049c005fd1bdc42c2f",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-september-2024-meeting",
+    "event_slug": "fed-interest-rates-september-2024",
+    "title": "Fed decreases interest rates by 50+ bps after September 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.09063e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 50 bps at the September 18, 2024 FOMC meeting, lowering the target range from 5.25-5.50% to 4.75-5.00%.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced a 50 bps rate cut on September 18, 2024",
+          "New federal funds target range set to 4.75%-5.00%, first cut of the easing cycle"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x004e19d419d05dd366793689ce2af457d51bc921d9da4af867de09f0864a4305",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-december-2024-meeting",
+    "event_slug": "fed-interest-rates-december-2024",
+    "title": "Fed decreases interest rates by 50 bps after December 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9.19231e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the December 2024 FOMC meeting, bringing the target range to 4.25-4.50%, not 50 bps.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 18, 2024 FOMC meeting resulted in a 25 bps cut",
+          "Target range lowered to 4.25%-4.50%",
+          "Cleveland Fed's Hammack dissented preferring no cut"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2a3a29b57597777e5d2941c419716b02a7b8c43b5c19c4ac746ae2d9c720cbe1",
+    "market_slug": "no-change-in-fed-interest-rates-after-2024-november-meeting",
+    "event_slug": "fed-interest-rates-november-2024",
+    "title": "No change in Fed interest rates after 2024 November meeting?",
+    "category": "Economics",
+    "close_time": "2024-11-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7.99521e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25bps at the November 7, 2024 FOMC meeting, lowering the target range to 4.50-4.75%. This was widely expected and confirmed.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced a 25 basis point rate cut on November 7, 2024",
+          "Target federal funds rate range lowered to 4.50%-4.75%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x67a072e839762191a7931e405923110d52343ef6dc1d61cfc0720233951c03e4",
+    "market_slug": "no-change-in-fed-interest-rates-after-2024-june-meeting",
+    "event_slug": "fed-interest-rates-june-2024",
+    "title": "No change in Fed interest rates after 2024 June meeting?",
+    "category": "Economics",
+    "close_time": "2024-06-12T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "530060",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The June 12, 2024 FOMC meeting resulted in the Fed holding rates steady at 5.25-5.50%, as widely expected.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC held federal funds rate at 5.25-5.50% on June 12, 2024",
+          "Updated dot plot signaled only one rate cut for 2024, down from three previously"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf2ea6d9c3745d7b2fd81f7dea7de396ae5704ed861896873f57e65ec48cb2a34",
+    "market_slug": "will-the-us-gain-more-than-250000-jobs-in-november",
+    "event_slug": "how-many-jobs-added-in-november",
+    "title": "Will the US gain more than 250,000 jobs in November?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14895.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 jobs report showed nonfarm payrolls increased by 227,000, rebounding from October's hurricane/strike-affected weak number. This is below the 250,000 threshold.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "November 2024 NFP came in at 227,000 jobs added",
+          "Released December 6, 2024 by BLS; unemployment rate 4.2%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5b544e761863106ba78a3380ad72a06a0fa65e61daabf31dae7da443af129edc",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-july-2024-meeting",
+    "event_slug": "fed-interest-rates-july-2024",
+    "title": "Fed decreases interest rates by 50+ bps after July 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "637520",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The July 2024 FOMC meeting held rates steady at 5.25-5.50%. No rate decrease occurred at that meeting, so a 50+ bps cut by July 31, 2024 close did not happen.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 31, 2024 FOMC meeting kept federal funds rate unchanged at 5.25-5.50%",
+          "The first rate cut of the cycle was 50 bps at the September 2024 meeting, after this close time"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x917823537958b87e1a83b872dbda16e924dbba45da62dfb453ad3d0ebefd935d",
+    "market_slug": "will-us-gain-between-200k-and-275k-jobs-in-march",
+    "event_slug": "how-many-jobs-added-in-march",
+    "title": "Will US gain between 200k and 275k jobs in March?",
+    "category": "Economics",
+    "close_time": "2024-04-03T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "12529.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "March 2024 nonfarm payrolls came in at 303k (later revised), which is above the 275k upper bound, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported March 2024 NFP of 303,000 jobs, released April 5, 2024",
+          "Unemployment rate ticked down to 3.8%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf0d028fe7f2f078c4812151ba80cf390f8b39e5f8159b24b09833d7d20df9629",
+    "market_slug": "will-the-fed-decrease-interest-rates-by-25-bps-after-its-2024-aprilmay-meeting",
+    "event_slug": "fed-interest-rates-may-2024",
+    "title": "Fed decreases interest rates by 25 bps after 2024 May meeting?",
+    "category": "Economics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "234731",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The May 2024 FOMC meeting was on May 1, 2024, and the Fed held rates steady at 5.25-5.50%. No rate cut occurred. Also the close time is April 30, before the meeting, making Yes essentially impossible.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "May 1, 2024 FOMC meeting kept federal funds rate at 5.25-5.50%",
+          "Fed's first rate cut of the 2024 cycle did not occur until September 2024 (50 bps cut)"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x00289840c4263f68f5aadacb76922fce1665a2cce50d12d46c062e2da7778342",
+    "market_slug": "will-us-gain-between-200k-and-250k-jobs-in-june",
+    "event_slug": "how-many-jobs-added-in-june",
+    "title": "Will US gain between 200k and 250k jobs in June?",
+    "category": "Economics",
+    "close_time": "2024-07-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "8447.88",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 nonfarm payrolls came in at 206,000 (later revised), which falls within the 200k-250k range.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 2024 NFP initial print was approximately 206,000 jobs",
+          "Unemployment rate ticked up to 4.1%",
+          "Released July 5, 2024 by BLS"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2369419f01faae11f1b2130406b684f036a78a466e1a814dfe84e5ff5b3bd732",
+    "market_slug": "will-the-us-add-less-than-100000-jobs-in-october",
+    "event_slug": "how-many-jobs-added-in-october",
+    "title": "Will the US add less than 100,000 jobs in October?",
+    "category": "Economics",
+    "close_time": "2024-11-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "24770.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The October 2024 jobs report showed only 12,000 jobs added, heavily impacted by hurricanes (Helene, Milton) and the Boeing strike. This is well below 100,000.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "October 2024 nonfarm payrolls came in at 12,000",
+          "Report was affected by Hurricanes Helene and Milton and the Boeing machinists strike",
+          "Released by BLS on November 1, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x33ad8fe940ad79febf41181020a5bbfee9ffb632b28f6412035798fb4fe00198",
+    "market_slug": "will-us-gain-300k-353k-jobs-in-february",
+    "event_slug": "how-many-jobs-added-in-february",
+    "title": "Will US gain 300k-353k jobs in February?",
+    "category": "Economics",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "15173.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "February 2024 nonfarm payrolls came in at 275k (initially reported), which is below the 300k-353k range. Thus this resolves No.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "February 2024 NFP reported on March 8, 2024 at +275k jobs",
+          "Unemployment rate rose to 3.9%; prior months were revised down significantly"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2ac498ef11ded3339f19f9e40cc94f56c5348fa6ef965aba361ec31ff4ed9625",
+    "market_slug": "will-the-us-gain-between-200-250k-jobs-in-april",
+    "event_slug": "how-many-jobs-added-in-april",
+    "title": "Will the US gain between 200-250k jobs in April?",
+    "category": "Economics",
+    "close_time": "2024-05-03T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "10695.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 nonfarm payrolls came in at 175,000, below the 200-250k range, so this resolves No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "April 2024 NFP reported on May 3, 2024 was approximately 175,000 jobs",
+          "Unemployment rate ticked up to 3.9%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd4a957e7b51fc2e74c4f1909583972011772eda01aada975251aeaffbbc73f56",
+    "market_slug": "will-the-fed-decrease-interest-rates-by-50-bps-after-its-march-2024-meeting",
+    "event_slug": "fed-interest-rates-march-2024",
+    "title": "Will the Fed decrease interest rates by 50+ bps after its March 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-03-18T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "13322.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at 5.25-5.50% at the March 2024 FOMC meeting on March 20, 2024. No cut occurred, let alone 50+ bps.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "March 2024 FOMC meeting held rates at 5.25-5.50%",
+          "Fed did not begin cutting rates until September 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x429f9d24c11fb0508cf7c89549d1f5c577fc5c980bfbdeb96aa89c61a1c86ada",
+    "market_slug": "will-the-us-gain-between-100k-and-150k-jobs-in-july",
+    "event_slug": "how-many-jobs-added-in-july",
+    "title": "Will the US gain between 100k and 150k jobs in July?",
+    "category": "Economics",
+    "close_time": "2024-08-02T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "5611.63",
+    "status": "ok",
+    "forecast": {
+      "rationale": "July 2024 nonfarm payrolls came in at 114,000, which falls within the 100k-150k range. This was a notable miss that triggered recession fears and market selloff.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 2024 NFP reported 114,000 jobs added",
+          "Unemployment rate rose to 4.3%, triggering Sahm rule and market selloff on Aug 2, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x95153ddd005326dc5dcadbeccc51ffad40e0fa9dac5bd18b242b42eed61d3a6c",
+    "market_slug": "will-the-fed-raise-interest-rates-by-0-bps-after-its-january-meeting",
+    "event_slug": "fed-interest-rates-january-2024",
+    "title": "Will the Fed raise interest rates by 0 bps after its January meeting?",
+    "category": "Economics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "11073.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed held rates steady at the January 31, 2024 FOMC meeting, keeping the target range at 5.25-5.50%.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC kept federal funds rate target range unchanged at 5.25%-5.50% on January 31, 2024",
+          "Powell signaled rate cut in March was unlikely at this meeting"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xde6bbaf490035aa3e6b1fcb5a1d241f04602721be3232c9209eb76411a50ef3c",
+    "market_slug": "will-the-port-of-baltimore-reopen-in-may",
+    "event_slug": "when-will-port-of-baltimore-reopen",
+    "title": "Will the Port of Baltimore reopen in May?",
+    "category": "Economics",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "10009",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Port of Baltimore's main shipping channel was reopened in late May 2024 after the Francis Scott Key Bridge collapse on March 26. The full 700-foot-wide, 50-foot-deep federal channel was restored around June 10, but the port itself resumed limited operations and reopened earlier in May.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Francis Scott Key Bridge collapsed March 26, 2024 after MV Dali container ship struck it",
+          "Federal channel was reopened to deep-draft vessels in late May 2024 (around May 20)",
+          "Container ship Balsa 94 was among first vessels through restored channel"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe5698213431d592d81cca4b85a5f43a108f5aa7a918f6b8bc13aaf47a273eb8f",
+    "market_slug": "will-inflation-increase-by-2pt6-in-november",
+    "event_slug": "november-inflation",
+    "title": "Will inflation increase by 2.6% in November?",
+    "category": "Economics",
+    "close_time": "2024-12-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "19880",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 CPI year-over-year came in at 2.7%, not 2.6%. The headline figure was widely reported as 2.7%.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US CPI for November 2024 was reported on December 11, 2024",
+          "Year-over-year CPI was 2.7%, up from 2.6% in October"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe2ed2ddc227e66076674aba6918cb1ce85029ce73548c697338bb77b1fad4017",
+    "market_slug": "will-us-add-between-250-300k-jobs-in-may",
+    "event_slug": "how-many-jobs-added-in-may",
+    "title": "Will US add between 250-300k jobs in May?",
+    "category": "Economics",
+    "close_time": "2024-06-07T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "4050.22",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 nonfarm payrolls came in at 272,000, which falls within the 250-300k range.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "May 2024 NFP report released June 7, 2024 showed 272,000 jobs added",
+          "Unemployment rate ticked up to 4.0%"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdf9cf0fc9613af282e46d6474822ee56ad61b7031f28de7b8fec06e3e6235997",
+    "market_slug": "26-50-bps-decrease-in-ecb-interest-rates-after-2024-december-meeting",
+    "event_slug": "ecb-interest-rates-december-2024",
+    "title": "26-50 bps decrease in ECB interest rates after 2024 December meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "182467",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ECB cut rates by 25 bps at the December 12, 2024 meeting, bringing the deposit rate to 3.00%. This falls within the 26-50 bps range only if 25 is included, but the range explicitly says 26-50, so a 25 bps cut does not qualify.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "ECB cut rates by 25 bps on December 12, 2024",
+          "Deposit facility rate lowered to 3.00% from 3.25%"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0c94288b8c9d90c9bb9ed41b3ec52246287c6a69bdb4ea203b9136b4a5179461",
+    "market_slug": "us-adds-between-150k-and-200k-jobs-in-september",
+    "event_slug": "how-many-jobs-added-in-september",
+    "title": "US adds between 150k and 200k jobs in September?",
+    "category": "Economics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "36290",
+    "status": "ok",
+    "forecast": {
+      "rationale": "September 2024 jobs report came in at 254k, well above the 150-200k range.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS reported 254,000 nonfarm payrolls added in September 2024",
+          "Unemployment rate ticked down to 4.1%",
+          "Report released October 4, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xadec8716f2d3c9177b0d1344437a7c01c3ede634f46dec9f6debfc5eb89b7f7a",
+    "market_slug": "will-jerome-powell-say-inflation-40-or-more-times-during-december-fomc-press-conference",
+    "event_slug": "what-will-jerome-powell-say-during-december-fomc-press-conference",
+    "title": "Will Jerome Powell say \"inflation\" 40 or more times during December FOMC Press Conference?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "138907",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Powell typically uses 'inflation' frequently in FOMC press conferences, often 40+ times. The December 2024 meeting included a hawkish cut with revised inflation projections, likely increasing inflation discussion.",
+      "probabilities": {
+        "Yes": 0.7,
+        "No": 0.3
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x308b41cc4a474399dae93c047b50e5b46a36c891b14a98b3d0a75825459b8916",
+    "market_slug": "us-adds-more-than-300k-jobs-in-august",
+    "event_slug": "how-many-jobs-added-in-august",
+    "title": "US adds more than 300k jobs in August?",
+    "category": "Economics",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "24237.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 nonfarm payrolls came in at 142,000, well below 300k. The report was released September 6, 2024.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "August 2024 nonfarm payrolls reported as 142,000 jobs added",
+          "Unemployment rate ticked down to 4.2%",
+          "Released by BLS on September 6, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x13d3e3531ecc4d6096ffe53c9a34f73ea56ed9b4404f87366e708d3d3a7be699",
+    "market_slug": "will-fed-cut-interest-rates-5-times-by-dec-meeting",
+    "event_slug": "how-many-fed-rate-cuts-this-year",
+    "title": "Will Fed cut interest rates 5 times in 2024?",
+    "category": "Economics",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.68312e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates only 3 times in 2024: 50bp in September, 25bp in November, and 25bp in December. Five cuts did not occur.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fed cut 50bps on Sept 18, 2024",
+          "Fed cut 25bps on Nov 7 and Dec 18, 2024, totaling 3 cuts"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6c14044d4a6daae5af5019aeb2fc81ac029d2b84736e02f4770e868d106069dc",
+    "market_slug": "will-the-november-unemployment-rate-be-4pt2",
+    "event_slug": "november-unemployment-rate",
+    "title": "Will the November unemployment rate be 4.2%?",
+    "category": "Economics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "11421.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall the November 2024 jobs report released December 6, 2024 showed unemployment rate at 4.2%, with payrolls up 227K.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "BLS released November 2024 employment situation on Dec 6, 2024",
+          "Unemployment rate reported at 4.2%, up from 4.1% in October",
+          "Nonfarm payrolls rose by 227,000"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa81f535a21c9fc890b335131ad726476605c563ad6b9a096568a0556db26987a",
+    "market_slug": "fed-rate-cut-by-march-20",
+    "event_slug": "fed-rate-cut-by",
+    "title": "Fed rate cut by March 20?",
+    "category": "Economics",
+    "close_time": "2024-03-20T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.90776e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The FOMC March 19-20, 2024 meeting held rates steady at 5.25-5.50%, with no cut occurring before March 20. Fed signaled cuts later in 2024 but did not act in March.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC kept federal funds rate at 5.25-5.50% at March 20, 2024 meeting",
+          "Powell's dot plot still indicated three cuts expected in 2024 but no action taken in March"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf47e74c8018f94380c5d3baa0a6a93dbdc063e4b8fa754d31dbb1d6ad6341ed",
+    "market_slug": "will-us-gain-between-250k-and-300k-jobs-in-june",
+    "event_slug": "how-many-jobs-added-in-june",
+    "title": "Will US gain between 250k and 300k jobs in June?",
+    "category": "Economics",
+    "close_time": "2024-07-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7723.17",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 nonfarm payrolls came in at 206k (later revised), below the 250-300k range. Resolves No.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 2024 NFP reported on July 5, 2024 was 206,000",
+          "Unemployment rate ticked up to 4.1%",
+          "Prior months were revised downward"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe4a9b98237a29e778ac5717e3d29220bb2f0c0370e8e3436d4a277853556355f",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-november-2024-meeting",
+    "event_slug": "fed-interest-rates-november-2024",
+    "title": "Fed decreases interest rates by 50 bps after November 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-11-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8.39327e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the November 2024 meeting, not 50 bps. The 50 bps cut occurred at the September 2024 meeting.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced a 25 bps cut on November 7, 2024, lowering the federal funds rate target to 4.50-4.75%",
+          "The previous 50 bps cut was at the September 2024 meeting"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa11a9c66032cbe8c607bf1b21591f65dfee9d5eb65d73cc8ad5009c1f9826fa3",
+    "market_slug": "fed-decreases-interest-rates-by-25-bps-after-december-2024-meeting",
+    "event_slug": "fed-interest-rates-december-2024",
+    "title": "Fed decreases interest rates by 25 bps after December 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "7.4907e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 25 bps at the December 18, 2024 FOMC meeting, bringing the target range to 4.25%-4.50%.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC announced 25 bps rate cut on Dec 18, 2024",
+          "Target range lowered to 4.25%-4.50%, with Cleveland Fed's Hammack dissenting",
+          "Powell signaled fewer cuts in 2025 (hawkish cut)"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x70357debf15a956d82d8b2022aaf5f868763d1d0716d2c6e5ce35712e49a3b0f",
+    "market_slug": "fed-decreases-interest-rates-by-25-bps-after-september-2024-meeting",
+    "event_slug": "fed-interest-rates-september-2024",
+    "title": "Fed decreases interest rates by 25 bps after September 2024 meeting?",
+    "category": "Economics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.66091e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed cut rates by 50 bps at the September 2024 FOMC meeting, not 25 bps. Therefore this resolves No.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On September 18, 2024, the FOMC cut the federal funds rate by 50 basis points to a target range of 4.75%-5.00%",
+          "This was the first rate cut since 2020 and was larger than the 25 bps many expected"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xebee0e66d85db23e24592a0412fb1275efe505b6fbc6d32966c70942cdde8038",
+    "market_slug": "no-change-in-fed-interest-rates-after-2024-july-meeting",
+    "event_slug": "fed-interest-rates-july-2024",
+    "title": "No change in Fed interest rates after 2024 July meeting?",
+    "category": "Economics",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "517320",
+    "status": "ok",
+    "forecast": {
+      "rationale": "At the July 31, 2024 FOMC meeting, the Fed held rates steady at 5.25-5.50%, signaling possible cuts in September. This is well-documented.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FOMC held federal funds rate target at 5.25%-5.50% on July 31, 2024",
+          "Powell signaled a September rate cut was on the table"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  }
+]
