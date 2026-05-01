@@ -1,0 +1,4045 @@
+[
+  {
+    "condition_id": "0x1b43e21dc696e34154ba0d0a9b351264a86d773bf381ffd0eb5d2124ee783b33",
+    "market_slug": "house-control-after-2024-election",
+    "event_slug": "house-control-after-2024-election",
+    "title": "House control after 2024 election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T00:00:00Z",
+    "actual_resolution": "Republican",
+    "volume": "7.9675e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 House elections resulted in Republicans maintaining control of the chamber. As of mid-November 2024, Republicans reached the 218-seat threshold required for a majority, confirming their continued leadership in the 119th Congress.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republicans secured the 218th seat on November 13, 2024, according to major news networks like the AP.",
+          "Key races in California and Arizona were decisive in determining the final margin of the Republican majority.",
+          "The 119th Congress will convene in January 2025 with Mike Johnson as the presumptive Speaker."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x38bc6b9fbc7f22b58a9b83330709e2fbb15ddbed7f2277831c8c3df0ee20475b",
+    "market_slug": "will-2-of-votes-go-to-3rd-party-candidates-in-us-election",
+    "event_slug": "will-2-of-votes-go-to-3rd-party-candidates-in-us-election",
+    "title": "Will ≥2% of votes go to 3rd Party candidates?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "9.87074e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 US Presidential election, the combined vote share for third-party and independent candidates, including Jill Stein, Robert F. Kennedy Jr. (who remained on many ballots), and Chase Oliver, exceeded the 2% threshold.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 US Presidential election took place on November 5, 2024.",
+          "Robert F. Kennedy Jr. received approximately 0.4-0.5% of the popular vote despite suspending his campaign, while Jill Stein and Chase Oliver also contributed to the total third-party share exceeding 2%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0845b2e50070ce4b4223816ff2faf757613a8fa91880a44ce0c7cf35d47dd143",
+    "market_slug": "virginia-state-legislature-will-republicans-gain-full-control",
+    "event_slug": "virginia-state-legislature-will-republicans-gain-full-control",
+    "title": "Virginia State Legislature: Will Republicans gain full control?",
+    "category": "Elections",
+    "close_time": "2023-11-07T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "34679.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the November 2023 elections, Democrats successfully flipped the House of Delegates and maintained control of the State Senate, preventing a Republican trifecta.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Democrats won a 21-19 majority in the Virginia State Senate.",
+          "Democrats won a 51-49 majority in the Virginia House of Delegates.",
+          "The election took place on November 7, 2023."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xda60399dab4f9cb4dc21b8a7e46fc3e9a141e8da6a238258fff293a16eee7ce3",
+    "market_slug": "which-party-will-control-the-us-senate-after-the-2024-election",
+    "event_slug": "which-party-will-control-the-us-senate-after-the-2024-election",
+    "title": "Senate control after 2024 election?",
+    "category": "Elections",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "Republicans",
+    "volume": "3.43623e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 election resulted in Republicans gaining control of the U.S. Senate by flipping seats in West Virginia, Ohio, and Montana, securing a majority for the 119th Congress.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republicans flipped the West Virginia seat vacated by Joe Manchin (won by Jim Justice).",
+          "Bernie Moreno defeated incumbent Sherrod Brown in Ohio.",
+          "Tim Sheehy defeated incumbent Jon Tester in Montana.",
+          "The final seat count resulted in a 53-47 Republican majority."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x26ee82bee2493a302d21283cb578f7e2fff2dd15743854f53034d12420863b55",
+    "market_slug": "which-party-will-win-the-2024-united-states-presidential-election",
+    "event_slug": "which-party-will-win-the-2024-united-states-presidential-election",
+    "title": "Which party wins 2024 US Presidential Election?",
+    "category": "Elections",
+    "close_time": "2024-11-08T12:00:00Z",
+    "actual_resolution": "Republican",
+    "volume": "8.82832e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 US Presidential Election was held on November 5, 2024. Donald Trump, the Republican candidate, secured over 270 electoral votes by winning key swing states including Pennsylvania, Georgia, and Wisconsin, defeating Kamala Harris.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump surpassed the 270 electoral vote threshold on the morning of November 6, 2024.",
+          "The Republican party flipped several key states including Pennsylvania, Wisconsin, and Michigan.",
+          "The Associated Press called the election for Trump at approximately 5:34 AM ET on November 6."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x48462e8656a17aa1b3f3989121a3c276e1ba2ebc8c9e4b10dea5a33436721a08",
+    "market_slug": "ny-3-special-election-for-santos-seat-suozzi-d-vs-pilip-r",
+    "event_slug": "ny-3-special-election-for-santos-seat-suozzi-d-vs-pilip-r",
+    "title": "NY-3 Special Election for Santos seat: Suozzi (D) vs. Pilip (R)",
+    "category": "Elections",
+    "close_time": "2024-02-13T00:00:00Z",
+    "actual_resolution": "Suozzi",
+    "volume": "642843",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The special election for New York's 3rd congressional district took place on February 13, 2024, to replace George Santos. Democrat Tom Suozzi defeated Republican Mazi Pilip, successfully winning the seat as described in the event title.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election was held on February 13, 2024.",
+          "Tom Suozzi won with approximately 54% of the vote compared to Mazi Pilip's 46%.",
+          "The seat was vacated following the expulsion of George Santos from Congress in December 2023."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6336991c609da9f5ca97082c75adbe64937da006fd7412aa1795918b9be2f3ee",
+    "market_slug": "will-gd-win-a-majority-in-georgia-parliamentary-election",
+    "event_slug": "will-gd-win-a-majority-in-georgia-parliamentary-election",
+    "title": "Will GD win a majority in Georgia parliamentary election?",
+    "category": "Elections",
+    "close_time": "2024-10-26T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "332279",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Georgian Dream (GD) party secured a majority in the October 26, 2024, parliamentary elections, winning approximately 54% of the vote and 89 out of 150 seats, despite opposition claims of irregularities.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on October 26, 2024.",
+          "Georgian Dream received approximately 53.9% of the vote.",
+          "The Central Election Commission of Georgia confirmed GD won 89 seats in the 150-seat parliament."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xea4002c56d118cab706bf6cd34783948f5523a06239f7e59f443ac683f0fa140",
+    "market_slug": "presidential-election-republicans-win-a-solid-blue-state",
+    "event_slug": "presidential-election-republicans-win-a-solid-blue-state",
+    "title": "Trump wins a solid blue state?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.29273e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 US Presidential Election, Donald Trump won all seven key swing states but did not flip any traditionally 'solid blue' states such as New York, California, or Illinois. The map remained consistent with high-margin Democratic victories in those specific regions.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes, sweeping all swing states (AZ, GA, MI, NV, NC, PA, WI).",
+          "Solid blue states like New Jersey, Virginia, and New Mexico remained in the Democratic column, though with shifted margins.",
+          "The final electoral map showed no traditional blue strongholds flipping to the Republican column."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8e8984ec3e5914253822f4abb73243dfd97ee3a62779e3517ee2df8e3f5a0a9d",
+    "market_slug": "will-dpp-win-a-majority-in-the-2024-taiwanese-general-election",
+    "event_slug": "will-dpp-win-a-majority-in-the-2024-taiwanese-general-election",
+    "title": "Will DPP (民進黨) win a majority in the 2024 Taiwanese General Election?",
+    "category": "Elections",
+    "close_time": "2024-01-13T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "36884.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 legislative election, the DPP lost its majority, winning only 51 seats compared to the KMT's 52 and the TPP's 8. While Lai Ching-te won the presidency, the party failed to secure more than half of the 113 total seats.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election was held on January 13, 2024.",
+          "The DPP won 51 seats, the KMT won 52 seats, and the TPP won 8 seats.",
+          "A total of 57 seats were required for a majority in the 113-seat Legislative Yuan."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x158fcb0b8844c9cdecb95940a3a1a643799ab8d03f6234d449ff344e4bafad6c",
+    "market_slug": "us-presidential-election-democrats-win-a-solid-red-state",
+    "event_slug": "us-presidential-election-democrats-win-a-solid-red-state",
+    "title": "Kamala Harris wins a solid red state?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "869287",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 U.S. Presidential Election, Donald Trump won all states traditionally classified as 'solid red.' Kamala Harris did not flip any reliably Republican strongholds, with the map remaining consistent with historical partisan leanings in non-swing states.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won all reliably red states including Florida, Ohio, Iowa, and the Deep South in the 2024 election.",
+          "The 2024 electoral map showed no 'solid red' states flipping to the Democratic candidate Kamala Harris.",
+          "The election took place on November 5, 2024, and was called for Donald Trump on the morning of November 6."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc53c00d3ed7df96cb528e049ca2d8a6056b620a82bfffd3ad58d35c5f92c02d6",
+    "market_slug": "will-a-democrat-win-the-popular-vote-and-a-republican-win-the-presidency",
+    "event_slug": "which-party-wins-presidency-popular-vote",
+    "title": "Will a Democrat win the popular vote and a Republican win the Presidency?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.87584e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won both the Electoral College and the popular vote in the 2024 election, defeating Kamala Harris. Since the Democrat did not win the popular vote, the specific condition for a 'Yes' resolution was not met.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 popular vote with approximately 76.7 million votes compared to Kamala Harris's 74.1 million.",
+          "Trump secured 312 Electoral votes to Harris's 226, sweeping all seven swing states.",
+          "The election took place on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x43d7d4602d2c3ca67db94667152d0ed86c0b5151b6de4328daabf27e94698171",
+    "market_slug": "trump-wins-every-state-in-rep-nomination",
+    "event_slug": "trump-wins-every-state-in-rep-nomination",
+    "title": "Trump wins every state in Rep. Nomination?",
+    "category": "Elections",
+    "close_time": "2024-06-25T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "819850",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump lost the Vermont Republican primary to Nikki Haley on March 5, 2024 (Super Tuesday), making it impossible for him to win every state in the nomination process.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Nikki Haley won the Vermont Republican primary on March 5, 2024, with approximately 49.3% of the vote.",
+          "Donald Trump won 14 out of 15 states on Super Tuesday, but lost Vermont.",
+          "Nikki Haley also won the Washington D.C. primary, though the prompt specifically asks about states."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5d1eb572579a2d4646330ab22fb9d6db2ffc81367fc2a0ca7f0ce58dcad57db8",
+    "market_slug": "will-the-republicans-win-the-most-seats-in-the-national-assembly",
+    "event_slug": "which-party-wins-the-most-seats-in-french-election",
+    "title": "Will The Republicans win the most seats in the National Assembly?",
+    "category": "Elections",
+    "close_time": "2024-07-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "61154.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 French legislative elections, the center-right Les Républicains (LR) finished fourth in seat count, far behind the New Popular Front, Ensemble, and the National Rally.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The second round of the French legislative elections took place on July 7, 2024.",
+          "Les Républicains (LR) and their allies won approximately 60 to 70 seats, placing them well behind the major blocs.",
+          "The New Popular Front (NFP) unexpectedly won the most seats overall."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfe5c422d022ffa3f685bad7d89edd46f9a5b90af322f471eb98759eb110bebf8",
+    "market_slug": "will-either-florida-minnesota-new-hampshire-or-texas-flip-in-2024",
+    "event_slug": "will-either-florida-minnesota-new-hampshire-or-texas-flip-in-2024",
+    "title": "Will either FL, MN, NH, or TX flip in 2024?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "467640",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 US Presidential Election, Florida and Texas remained Republican, while Minnesota and New Hampshire remained Democratic. No state in this specific group flipped its partisan control compared to the 2020 election results.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won Florida with approximately 56% of the vote and Texas with approximately 56% of the vote.",
+          "Kamala Harris won Minnesota and New Hampshire, maintaining the Democratic hold on those states.",
+          "The 2024 election took place on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1c7104429575ddc9dd855753ad7ac7f70abbb664b0283026347525ce33d8d432",
+    "market_slug": "republicans-flip-a-2020-biden-state",
+    "event_slug": "republicans-flip-a-2020-biden-state",
+    "title": "Trump flips a 2020 Biden state?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "338528",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won several states in the 2024 election that Joe Biden had won in 2020, including Pennsylvania, Georgia, and Wisconsin, thereby flipping them.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won Pennsylvania, which Joe Biden had won in 2020.",
+          "Donald Trump won Georgia, which Joe Biden had won in 2020.",
+          "The 2024 US Presidential Election took place on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9ee63da1c459034045f4c35bb951d47ad56e4a863ea7f516196d0e23a2ac5c36",
+    "market_slug": "ny-3-special-election-will-suozzi-d-win-by-over-5",
+    "event_slug": "ny-3-special-election-will-suozzi-d-win-by-over-5",
+    "title": "NY-3 Special Election: Will Suozzi (D) win by over 5%?",
+    "category": "Elections",
+    "close_time": "2024-02-13T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "15164.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tom Suozzi defeated Mazi Pilip in the special election to replace George Santos. He won by approximately 8 percentage points, which is greater than the 5% threshold specified in the market.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on February 13, 2024.",
+          "Tom Suozzi won with approximately 53.9% of the vote compared to Mazi Pilip's 46.1%.",
+          "The margin of victory was approximately 7.8 percentage points."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x319ef56440de5fcc32facb131d3466a3ff79ef56bbf9355feb5bb6901e3de501",
+    "market_slug": "will-germanys-afd-make-it-into-government",
+    "event_slug": "will-germanys-afd-make-it-into-government",
+    "title": "Will AfD make it into Thuringia or Saxony government?",
+    "category": "Elections",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "367169",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite winning the most seats in Thuringia and coming second in Saxony, all other major parties maintained a 'brandmauer' (firewall), refusing to form a coalition with the AfD. Governments were eventually formed by CDU-led coalitions excluding the AfD.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The state elections in Thuringia and Saxony took place on September 1, 2024.",
+          "In Thuringia, the AfD became the strongest party with 32.8% of the vote, but the CDU, BSW, and SPD moved toward a 'Brombeere' coalition to exclude them.",
+          "In Saxony, the CDU remained the strongest party and pursued a coalition with the SPD and BSW."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe32b258020c4663576e22423fb9792932a44fd5986d5081bee13a7c7c684281e",
+    "market_slug": "will-10-of-votes-go-to-3rd-party-candidates-in-the-2024-us-presidential-election",
+    "event_slug": "will-10-of-votes-go-to-3rd-party-candidates-in-the-2024-us-presidential-election",
+    "title": "Will ≥10% of Votes go to 3rd Party Candidates in the 2024 US Presidential Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.0781e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 US Presidential Election, the combined vote share for all third-party and independent candidates, including Robert F. Kennedy Jr., Jill Stein, and Chase Oliver, totaled significantly less than 5% of the popular vote.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with over 50% of the popular vote, while Kamala Harris received approximately 48%.",
+          "Robert F. Kennedy Jr. suspended his campaign in August 2024 and endorsed Trump, though he remained on some ballots.",
+          "The total third-party vote share was approximately 2-3%, far below the 10% threshold."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3fbebb49ab61b4cc904734399d431326d5d5cd22b0bf985ab73a1d691483301e",
+    "market_slug": "will-republicans-have-55-seats-in-senate-after-election",
+    "event_slug": "of-republican-senate-seats-after-election",
+    "title": "Will Republicans have 55 seats in Senate after election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4.59529e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republicans won a majority in the 2024 elections but fell short of 55 seats. They secured 53 seats after flipping West Virginia, Montana, and Ohio, while Democrats held several competitive seats in the Blue Wall states and the Southwest.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Republicans flipped seats in West Virginia (Jim Justice), Montana (Tim Sheehy), and Ohio (Bernie Moreno).",
+          "The final Senate composition for the 119th Congress was 53 Republicans and 47 Democrats/Independents.",
+          "Key Democratic holds included Jacky Rosen in Nevada and Tammy Baldwin in Wisconsin."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0258ab81c4235252986c9464286bf839a847f11af164f64f1405b33a75126254",
+    "market_slug": "nj-07-election-altman-d-vs-kean-r",
+    "event_slug": "nj-07-election-altman-d-vs-kean-r",
+    "title": "NJ-07 election: Altman (D) vs. Kean (R)",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Kean",
+    "volume": "446032",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Incumbent Republican Tom Kean Jr. won re-election in New Jersey's 7th Congressional District, defeating Democratic challenger Sue Altman in the 2024 general election.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on November 5, 2024.",
+          "Tom Kean Jr. defeated Sue Altman with approximately 52% of the vote.",
+          "Major news outlets like the Associated Press called the race for Kean on election night."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcc8129a275417b0df7e73e5cb6ad066861b949fbed3575195bf6ef0c44dfd663",
+    "market_slug": "trump-and-biden-both-win-nomination",
+    "event_slug": "trump-and-biden-both-win-nomination",
+    "title": "Trump and Biden both win nomination?",
+    "category": "Elections",
+    "close_time": "2024-09-10T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4174022",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Both candidates secured the necessary delegate counts in March 2024 to become their respective parties' presumptive nominees, and both were officially nominated at their party conventions in the summer of 2024.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Joe Biden clinched the Democratic nomination on March 12, 2024, after winning the Georgia primary.",
+          "Donald Trump clinched the Republican nomination on March 12, 2024, after winning primaries in Georgia, Mississippi, and Washington state.",
+          "The Republican National Convention was held in Milwaukee in July 2024, and the Democratic National Convention was held in Chicago in August 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x49001ebd9aa1f84fa24d4a0fad0f8139945a4d997275e6652591bc59166fc5f1",
+    "market_slug": "will-another-party-win-the-most-seats-in-the-romanian-parliamentary-election",
+    "event_slug": "romania-parliamentary-election",
+    "title": "Will another party win the most seats in the Romanian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "560595",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Social Democratic Party (PSD) has historically been the largest party in the Romanian Parliament and consistently leads in 2024 polling, making it highly unlikely for another party to surpass them in total seats.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Romanian parliamentary elections are scheduled for December 1, 2024.",
+          "The PSD (Social Democratic Party) and PNL (National Liberal Party) are currently the dominant coalition partners, with PSD leading in most opinion polls."
+        ],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x33e43ca14d148af8cccd07e1abb5fb9bc674b391fe565f11e97b85fe6203c76a",
+    "market_slug": "pa-07-election-wild-d-vs-mackenzie-r",
+    "event_slug": "pa-07-election-wild-d-vs-mackenzie-r",
+    "title": "PA-07 election: Wild (D) vs. Mackenzie (R)",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Mackenzie",
+    "volume": "512.294",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Susan Wild was the incumbent Democrat in Pennsylvania's 7th congressional district. In the 2024 general election, Republican Ryan Mackenzie defeated her, flipping the seat as part of the Republican gains in the House.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ryan Mackenzie defeated incumbent Susan Wild in the November 5, 2024 election.",
+          "The race was for Pennsylvania's 7th Congressional District, which includes the Lehigh Valley.",
+          "The Associated Press called the race for Mackenzie on November 6, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd81b9393993ca2d5bad92c88f26559b43aa0e9121eed32f69842c51f035405b9",
+    "market_slug": "us-presidential-election-decided-by-less-than-100k-votes",
+    "event_slug": "us-presidential-election-decided-by-less-than-100k-votes",
+    "title": "U.S. Presidential election decided by ≤100k votes?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "495612",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 U.S. Presidential election was decided by a margin significantly larger than 100,000 votes across the key swing states required for an Electoral College victory. Donald Trump won with 312 electoral votes, securing clear margins in states like Pennsylvania, Michigan, and Wisconsin.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes to Kamala Harris's 226.",
+          "The popular vote margin was approximately 2.5 million votes in favor of Donald Trump.",
+          "Key states like Pennsylvania were decided by over 140,000 votes, exceeding the 100k threshold alone."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5edae953388817d1a949fedf1da005a86bc17aa2158a1af254902f06c9d2f5d4",
+    "market_slug": "will-republicans-have-between-220-and-224-seats-in-house-after-election",
+    "event_slug": "of-republican-house-seats-after-election",
+    "title": "Will Republicans have between 220 and 224 seats in House after election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "347291",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 US House elections resulted in a Republican majority, but the final seat count was 220, which falls within the specified range of 220 to 224 seats.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Republican Party secured a 220-215 majority in the House of Representatives following the 2024 elections.",
+          "Key races in California and Arizona were among the last to be called, confirming the final tally in late November 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7c3a0678edb1278cf44b8a4a5c1a4cb13ad66622ac2abebed51186654423c19c",
+    "market_slug": "india-election-will-bjp-win-a-majority-of-seats",
+    "event_slug": "india-election-will-bjp-win-a-majority-of-seats",
+    "title": "Indian Election: Will BJP win a majority of seats?",
+    "category": "Elections",
+    "close_time": "2024-06-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "205624",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 Indian General Election, the Bharatiya Janata Party (BJP) won 240 seats, falling short of the 272-seat threshold required for a simple majority in the Lok Sabha. The government was subsequently formed through the National Democratic Alliance (NDA) coalition.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The BJP won 240 seats in the 2024 elections, a decrease from the 303 seats won in 2019.",
+          "The total number of seats in the Lok Sabha is 543, making 272 the majority mark.",
+          "The election results were officially declared on June 4, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7c79e04074e6e48678530e7194f1fd576f9a45b714bf178d50013294b08a6168",
+    "market_slug": "nikki-haley-wins-50-of-the-vote-in-nevada-republican-primary",
+    "event_slug": "nikki-haley-wins-50-of-the-vote-in-nevada-republican-primary",
+    "title": "Nikki Haley wins >50% of the vote in Nevada Republican primary? ",
+    "category": "Elections",
+    "close_time": "2024-02-06T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "122487",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 Nevada Republican primary, Nikki Haley was the only major candidate on the ballot but lost to the 'None of These Candidates' option, receiving significantly less than 50% of the vote.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Nevada Republican primary took place on February 6, 2024.",
+          "Nikki Haley received approximately 30.7% of the vote, while 'None of These Candidates' received about 63.3%.",
+          "Donald Trump did not appear on the primary ballot, opting instead for the Nevada GOP caucus held two days later."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4e9488d4918b789209f66a1dbe5fad060569b390325ada56ccbf25fb857188c0",
+    "market_slug": "will-lsdp-win-the-most-seats-in-the-2024-lithuania-legislative-election",
+    "event_slug": "which-party-wins-the-most-seats-in-lithuanian-election",
+    "title": "Will LSDP win the most seats in the 2024 Lithuania legislative election?",
+    "category": "Elections",
+    "close_time": "2024-10-13T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "104356",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Lithuanian Social Democratic Party (LSDP) won the 2024 parliamentary elections, securing 52 seats, the highest number of any party, following the two rounds of voting held in October.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The LSDP won 52 seats in the 141-member Seimas.",
+          "The Homeland Union (TS-LKD) came in second with 28 seats.",
+          "The elections took place in two rounds on October 13 and October 27, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbdf50fc90cd5155830c0b25fc8285d83bb74be3e3cc906fe5b0ddac2c91eeecf",
+    "market_slug": "conservatives-win-the-second-most-seats-in-next-uk-election",
+    "event_slug": "which-party-wins-second-most-seats-in-uk-election",
+    "title": "Conservatives win the second most seats in next UK election? ",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "185829",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The UK General Election held on July 4, 2024, resulted in the Labour Party winning a landslide majority, while the Conservative Party suffered significant losses but remained the second-largest party in the House of Commons.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Conservative Party won 121 seats, the lowest in their history, but still more than the Liberal Democrats who won 72 seats.",
+          "The election took place on July 4, 2024, and resulted in Keir Starmer becoming Prime Minister.",
+          "Rishi Sunak resigned as Prime Minister on July 5, 2024, following the results."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc03f3229164b28670a7a50439bfb5dd2bed2c50de508bc2ae0391d37b48d1810",
+    "market_slug": "will-trump-win-the-2024-iowa-caucus",
+    "event_slug": "will-trump-win-the-2024-iowa-caucus",
+    "title": "Will Trump win the 2024 Iowa Caucus?",
+    "category": "Elections",
+    "close_time": "2024-02-05T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "94332",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 Iowa Republican caucuses by a historic margin, securing over 50% of the vote and winning 98 out of 99 counties.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Iowa Caucus took place on January 15, 2024.",
+          "Donald Trump received 51% of the vote, followed by Ron DeSantis at 21.2% and Nikki Haley at 19.1%.",
+          "Trump won 20 delegates out of the 40 available in Iowa."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x66ec78f35ece68b102ba1f2a8546cacdd690af44d9c71f7cfcd04ad27f89025f",
+    "market_slug": "will-the-independence-party-win-the-most-seats-in-the-icelandic-parliamentary-election",
+    "event_slug": "iceland-legislative-election",
+    "title": "Will the Independence Party win the most seats in the Icelandic parliamentary election?",
+    "category": "Elections",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "84692",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Independence Party has historically been the largest party in Iceland, but recent polling for the 2024 snap election shows them trailing significantly behind the Social Democratic Alliance (Samfylkingin), making a first-place finish unlikely.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election was called early following the collapse of the coalition government led by Bjarni Benediktsson in October 2024.",
+          "The election date is set for November 30, 2024.",
+          "Polling throughout late 2024 consistently shows the Social Democratic Alliance (Samfylkingin) leading with over 20% of the vote."
+        ],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x67e946751c16efcb5d14f463fceb2816dbc53884c723661f15d336c97ce55da8",
+    "market_slug": "will-the-conservatives-win-a-plurality-in-the-2024-british-columbia-general-election",
+    "event_slug": "which-party-wins-the-most-seats-in-british-columbia-election",
+    "title": "Will the Conservatives win the most seats in the 2024 British Columbia general election?",
+    "category": "Elections",
+    "close_time": "2024-10-19T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "159952",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The BC NDP won 47 seats, securing a narrow majority, while the BC Conservatives won 44 seats. Although the Conservatives saw a historic surge in support, they did not surpass the NDP in seat count.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election was held on October 19, 2024.",
+          "The BC NDP won 47 seats, the BC Conservatives won 44 seats, and the BC Green Party won 2 seats.",
+          "David Eby remained Premier after the final count and judicial recounts confirmed the NDP majority."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x458a27ca58fbbbd96f0240b2aa4b5dac0cce9bd5e87409a4021624edb2786ad0",
+    "market_slug": "will-conservative-party-win-less-than-125-seats-in-the-next-uk-election",
+    "event_slug": "of-conservative-seats-after-uk-election-125-200",
+    "title": "Will Conservative Party win less than 125 seats in the next UK Election?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "79377.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The UK General Election held on July 4, 2024, resulted in a historic defeat for the Conservative Party, which won significantly fewer than 125 seats as Labour secured a landslide victory.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Conservative Party won exactly 121 seats in the 2024 UK General Election.",
+          "The election took place on July 4, 2024, and resulted in Rishi Sunak resigning as Prime Minister.",
+          "The Labour Party won 412 seats, achieving a majority of 174."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x58409eec51da7b31cb2a9eff1c54e2feb25380877468704d730224f19c66f750",
+    "market_slug": "will-nh-be-the-first-primary-in-2024-dem-nomination",
+    "event_slug": "will-nh-be-the-first-primary-in-2024-dem-nomination",
+    "title": "Will NH be the first primary in 2024 Dem. nomination?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "26770.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The DNC officially designated South Carolina as the first primary on February 3, 2024. New Hampshire held an unsanctioned primary on January 23, 2024, making it the first primary held in the cycle despite the DNC's calendar changes.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "New Hampshire held its primary on January 23, 2024, while South Carolina's sanctioned primary was on February 3, 2024.",
+          "The DNC stripped New Hampshire of its delegates for violating the calendar, but the state law required them to hold the first primary.",
+          "Joe Biden won the NH primary as a write-in candidate with approximately 63.9% of the vote."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc3a4f19e8ac1697422f97a3667d2f5d16998bf047f4f3c459a8c32e5e6e730cd",
+    "market_slug": "will-another-party-win-the-most-seats-in-the-2024-sri-lankan-parliamentary-elections",
+    "event_slug": "sri-lanka-legislative-election",
+    "title": "Will another party win the most seats in the 2024 Sri Lankan Parliamentary elections?",
+    "category": "Elections",
+    "close_time": "2024-11-14T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "22628.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The National People's Power (NPP) led by President Anura Kumara Dissanayake won a landslide victory in the November 14, 2024, parliamentary elections, securing 159 seats. No other party won more seats than the NPP.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The National People's Power (NPP) won 159 out of 225 seats in the parliament.",
+          "The election took place on November 14, 2024, following Anura Kumara Dissanayake's presidential victory in September.",
+          "The Samagi Jana Balawegaya (SJB) came in second with 40 seats."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x097e200401031794e5b569fa432efb6b685b550e7105911969f3cd01bf6ed2d0",
+    "market_slug": "will-the-constitutional-democratic-party-win-the-most-seats-in-the-2024-japanese-general-election",
+    "event_slug": "which-party-will-win-the-most-seats-in-japanese-general-election",
+    "title": "Will the Constitutional Democratic Party win the most seats in the 2024 Japanese general election?",
+    "category": "Elections",
+    "close_time": "2024-10-27T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "30614.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Liberal Democratic Party (LDP) retained its position as the largest party in the House of Representatives following the October 27, 2024 election, despite losing its majority. The CDP significantly increased its seat count but remained the second-largest party.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The LDP won 191 seats, while the CDP won 148 seats.",
+          "The election took place on October 27, 2024, after Prime Minister Shigeru Ishiba dissolved the Diet.",
+          "The LDP-Komeito coalition lost its overall majority, but the LDP remained the single largest party."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9f790cba904c6df64af943a64e9950884dc8e5d8ee8ca31299fae8acec6fca30",
+    "market_slug": "trump-and-biden-both-lose-nomination",
+    "event_slug": "trump-and-biden-both-lose-nomination",
+    "title": "Trump and Biden both lose nomination?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "11742.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump secured the Republican nomination at the RNC in July 2024. While Joe Biden withdrew from the race on July 21, 2024, the condition requires both to lose their nominations, which did not happen as Trump was officially nominated.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump was officially nominated as the Republican candidate at the RNC in Milwaukee on July 15-18, 2024.",
+          "Joe Biden withdrew from the presidential race on July 21, 2024, and endorsed Kamala Harris.",
+          "The market close date of August 22, 2024, coincides with the final day of the Democratic National Convention."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x07534bc8869ae2ea1971cdb06e83229d4c9a28e1c576fcdb398f4d3f8080c3e1",
+    "market_slug": "will-the-epp-win-the-most-seats-in-european-parliament",
+    "event_slug": "eu-election-which-party-will-win-the-most-seats",
+    "title": "Will the EPP win the most seats in European Parliament?",
+    "category": "Elections",
+    "close_time": "2024-06-09T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "14337.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The European People's Party (EPP) was consistently projected to remain the largest group in the European Parliament ahead of the June 2024 elections, a result that was confirmed by the final seat counts.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 European Parliament election took place between June 6 and June 9, 2024.",
+          "The EPP secured approximately 188 seats, maintaining its position as the largest parliamentary group.",
+          "Ursula von der Leyen was the EPP's lead candidate (Spitzenkandidat)."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9489b650a3c08bd5ea7cd27afae60aa70905b1aecedd15912c02900b508edb49",
+    "market_slug": "will-conservative-party-win-between-75-and-99-seats-in-the-next-uk-election",
+    "event_slug": "of-conservative-seats-after-uk-election-0-125",
+    "title": "Will Conservative Party win between 75 and 99 seats in the next UK Election?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4901.66",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Conservative Party won 121 seats in the 2024 UK General Election, which is outside the range of 75 to 99 seats. This result was confirmed following the vote on July 4, 2024.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 UK General Election took place on July 4, 2024.",
+          "The Conservative Party won exactly 121 seats, their lowest total in history.",
+          "The Labour Party won a landslide victory with 412 seats."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x75d4c9d4e3a80505fb804242bd17a39baab6b6a959860aee9544444746c88f0f",
+    "market_slug": "will-another-candidate-win-the-ohio-republican-senate-primary",
+    "event_slug": "ohio-republican-senate-primary-winner",
+    "title": "Will another candidate win the Ohio Republican Senate Primary?",
+    "category": "Elections",
+    "close_time": "2024-03-17T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "28633.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bernie Moreno won the Ohio Republican Senate primary on March 19, 2024, defeating Matt Dolan and Frank LaRose. Since Moreno was the frontrunner endorsed by Donald Trump, no 'other' candidate outside the main field won.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on March 19, 2024.",
+          "Bernie Moreno won the primary with approximately 50.5% of the vote.",
+          "His main challengers were Matt Dolan and Frank LaRose."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3c0d6c6ac5328e215a240b4d401047c03a85046cf7615520cb1c5ddfe6de405b",
+    "market_slug": "will-george-santos-announce-hes-running-for-congress-before-may",
+    "event_slug": "will-george-santos-announce-hes-running-for-congress-before-may",
+    "title": "Will George Santos announce he's running for congress before May?",
+    "category": "Elections",
+    "close_time": "2024-04-30T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "16200",
+    "status": "ok",
+    "forecast": {
+      "rationale": "George Santos announced a primary challenge against Representative Nick LaLota in New York's 1st Congressional District during the State of the Union address in March 2024, though he later withdrew from the race in April.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Santos announced his run for New York's 1st Congressional District on March 7, 2024, during the State of the Union.",
+          "He officially withdrew his bid as an independent candidate on April 23, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5ddf19978c491d66f36b35bbc399049553f0ad6d5555fa6c1b72762441453de8",
+    "market_slug": "will-labour-win-525-seats-in-the-next-uk-election",
+    "event_slug": "of-conservative-seats-after-uk-election-449-525",
+    "title": "Will Labour win 525+ seats in the next UK Election?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2264.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The UK General Election took place on July 4, 2024. While Labour won a significant landslide victory, the total number of seats they secured was 412, which is well below the 525 threshold required for a 'Yes' resolution.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The UK General Election was held on July 4, 2024.",
+          "The Labour Party, led by Keir Starmer, won 412 seats.",
+          "The Conservative Party was reduced to 121 seats.",
+          "A total of 650 seats were contested in the House of Commons."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x212aa1ec6278e74ed0f3ae4eef45b18fd4adfd830715844e0588eb607b464e40",
+    "market_slug": "state-wide-recount-in-presidential-election",
+    "event_slug": "state-wide-recount-in-presidential-election",
+    "title": "State wide recount in Presidential Election? ",
+    "category": "Elections",
+    "close_time": "2024-12-17T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "25408",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 US Presidential Election resulted in a decisive victory for Donald Trump, with margins in key swing states exceeding the thresholds for automatic or likely requested statewide recounts. No state conducted a full statewide recount before the December 17, 2024 deadline.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes.",
+          "The margins in swing states like Pennsylvania, Michigan, and Wisconsin were outside the mandatory recount range.",
+          "The Safe Harbor deadline for state certifications was December 10, 2024, and the Electoral College met on December 17, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc1a4830eef6f60d9e0f05ecb5aa81b11d7d361e1a869c0138219840af849a986",
+    "market_slug": "will-a-republican-win-pennsylvania-us-senate-election",
+    "event_slug": "pennsylvania-us-senate-election-winner",
+    "title": "Will a Republican win Pennsylvania US Senate Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.56465e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republican Dave McCormick defeated incumbent Democrat Bob Casey Jr. in a very close race that went to a recount. The Associated Press called the race for McCormick on November 7, 2024, as he maintained a lead outside the automatic recount margin.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The race was between Republican Dave McCormick and Democratic incumbent Bob Casey Jr.",
+          "McCormick won by approximately 26,000 votes, a margin of about 0.4%, triggering a mandatory statewide recount under Pennsylvania law.",
+          "The Associated Press and other major networks called the race for McCormick on November 7, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x41190eb9336ae73949c04f4900f9865092e69a57cf9c942a6157abf6ae8d16c6",
+    "market_slug": "will-donald-j-trump-win-the-us-2024-republican-presidential-nomination-1",
+    "event_slug": "who-will-win-the-us-2024-republican-presidential-nomination",
+    "title": "[Single Market] Will Donald J. Trump win the U.S. 2024 Republican presidential nomination?",
+    "category": "Elections",
+    "close_time": "2024-09-10T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "6.55246e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump secured the necessary delegates during the primary season and was officially nominated as the Republican candidate at the Republican National Convention in July 2024.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump became the presumptive nominee after Super Tuesday on March 12, 2024.",
+          "The 2024 Republican National Convention was held in Milwaukee, Wisconsin, from July 15 to 18, 2024.",
+          "Trump officially accepted the nomination on July 18, 2024, following a roll call vote of delegates."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x57dc89d2f5803961a1c72add5969c2887f9591821d05421f2819fa17b664dd59",
+    "market_slug": "will-a-republican-win-ohio-us-senate-election",
+    "event_slug": "ohio-us-senate-election-winner",
+    "title": "Will a Republican win Ohio US Senate Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.55662e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republican Bernie Moreno defeated incumbent Democrat Sherrod Brown in the 2024 Ohio U.S. Senate race, benefiting from the state's strong shift toward the GOP and Donald Trump's performance at the top of the ticket.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on November 5, 2024.",
+          "Bernie Moreno was the Republican challenger who defeated the Democratic incumbent Sherrod Brown.",
+          "Major networks called the race for Moreno on election night as he secured a clear margin of victory."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbd00b7bbe9cfd644555601eab5e6839d300f157655c7398e52363d65ca31d60e",
+    "market_slug": "will-kamala-harris-be-the-democratic-vp-nominee",
+    "event_slug": "will-kamala-harris-be-the-democratic-vp-nominee",
+    "title": "Will Kamala Harris be the Democratic VP nominee?",
+    "category": "Elections",
+    "close_time": "2024-08-21T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.39702e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following Joe Biden's withdrawal from the 2024 race on July 21, Kamala Harris became the presidential nominee, and Tim Walz was selected as her running mate, meaning she was not the VP nominee.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Joe Biden withdrew from the presidential race on July 21, 2024.",
+          "Kamala Harris officially secured the Democratic presidential nomination on August 5, 2024.",
+          "Kamala Harris selected Minnesota Governor Tim Walz as her vice presidential running mate on August 6, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x71682e5f6dd182c90d998e276d6d355ce8176a14a1317674ce0b030fe2259242",
+    "market_slug": "will-another-candidate-win-the-2024-nevada-senate-republican-primary",
+    "event_slug": "nevada-senate-republican-primary-winner",
+    "title": "Will another candidate win the 2024 Nevada Senate Republican Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5915.38",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Sam Brown was the heavily favored frontrunner and endorsed by Donald Trump, leading to a decisive victory over his primary opponents including Jeff Gunter and Jim Marchant.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on June 11, 2024.",
+          "Sam Brown won the primary with approximately 60% of the vote.",
+          "His main challengers were Jeff Gunter and Jim Marchant."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2f0bae3cdd6c42468ebfd30df5a93adcbe666d891674116b990bae8d11b7f511",
+    "market_slug": "will-a-democrat-win-montana-us-senate-election",
+    "event_slug": "montana-us-senate-election-winner",
+    "title": "Will a Democrat win Montana US Senate Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "686244",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republican Tim Sheehy defeated incumbent Democrat Jon Tester in a state that voted heavily for Donald Trump. Polling consistently showed Sheehy leading in the months prior to the election, and the seat flipped as part of the Republican Senate majority gain.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Republican candidate was Tim Sheehy, a former Navy SEAL.",
+          "The Democratic incumbent was Jon Tester, who had held the seat since 2007.",
+          "The election took place on November 5, 2024, alongside the US Presidential election."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x03e8104c04bd6139b9594a971230f72c9d9a07c98df4c23e867e583d46ec909b",
+    "market_slug": "michelle-obama-democratic-presidential-nominee",
+    "event_slug": "michelle-obama-democratic-presidential-nominee",
+    "title": "Will Michelle Obama become Dem Nominee?  ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "861464",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Michelle Obama repeatedly stated she would not run for office. Following Joe Biden's withdrawal in July 2024, the Democratic Party quickly coalesced around Vice President Kamala Harris, who secured the nomination at the Democratic National Convention in August.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Joe Biden withdrew from the race on July 21, 2024.",
+          "Kamala Harris was officially certified as the Democratic nominee on August 6, 2024, after a virtual roll call vote.",
+          "The Democratic National Convention took place in Chicago from August 19-22, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfcfb2182bb75ca933dbd158cd541ee928451fb65c5d0a67b9f954b7686a3cb05",
+    "market_slug": "will-another-candidate-win-the-va-5-republican-house-primary",
+    "event_slug": "va-5-republican-primary-winner",
+    "title": "Will another candidate win the VA-5 Republican House Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5006.78",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The VA-5 Republican primary was a two-way race between incumbent Bob Good and challenger John McGuire. No third candidate was a viable contender to win the seat, making a win by 'another candidate' impossible.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on June 18, 2024, between Bob Good and John McGuire.",
+          "John McGuire won the primary by a narrow margin of approximately 374 votes after a recount.",
+          "There were only two candidates on the ballot: Bob Good and John McGuire."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xee500bac6f5204bf6751454150ddfbb222b6157b64821daffda03e465249ce99",
+    "market_slug": "will-the-liberal-party-win-the-most-seats-in-the-2024-new-brunswick-general-election",
+    "event_slug": "which-party-wins-most-seats-in-new-brunswick-election",
+    "title": "Will the Liberal party win the most seats in the 2024 New Brunswick general election?",
+    "category": "Elections",
+    "close_time": "2024-10-21T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "202053",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Liberal Party of New Brunswick, led by Susan Holt, won a majority government in the October 21, 2024 election, defeating Blaine Higgs' Progressive Conservatives.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on October 21, 2024.",
+          "Susan Holt became the first female Premier-designate of New Brunswick.",
+          "The Liberals won 31 seats, while the Progressive Conservatives won 16 seats.",
+          "Blaine Higgs lost his own seat in Quispamsis."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x32f5ee4c802f311e1a991373ae06625a5f62ab2703173a9472d4a84b7ff7f408",
+    "market_slug": "will-republican-vp-nominee-be-a-woman",
+    "event_slug": "will-republican-vp-nominee-be-a-woman",
+    "title": "Will Republican VP nominee be a woman?",
+    "category": "Elections",
+    "close_time": "2024-09-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "293881",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump officially selected J.D. Vance as his running mate during the Republican National Convention in July 2024. Since J.D. Vance is a man, the outcome for a female VP nominee is No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump announced J.D. Vance as his vice presidential pick on July 15, 2024.",
+          "The announcement took place on the first day of the Republican National Convention in Milwaukee, Wisconsin.",
+          "J.D. Vance is the junior U.S. Senator from Ohio."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe03ffe4c860b81ca26b297cb4067bf7676f242c1338c6da171d6b85a37add94e",
+    "market_slug": "will-another-candidate-win-the-ny-16-democratic-house-primary",
+    "event_slug": "ny-16-democratic-primary-winner",
+    "title": "Will another candidate win the NY-16 Democratic House Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-25T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4834.08",
+    "status": "ok",
+    "forecast": {
+      "rationale": "George Latimer defeated incumbent Jamaal Bowman in the NY-16 Democratic primary on June 25, 2024. Since the market asks if 'another candidate' (someone other than the incumbent) would win, the outcome is Yes.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "George Latimer defeated Jamaal Bowman in the primary held on June 25, 2024.",
+          "The race was the most expensive House primary in U.S. history at the time.",
+          "Latimer won with approximately 58% of the vote compared to Bowman's 41%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbe751328d9bb0bcb36e92b4cd97aae70976cead638beb75cb24759954e71d906",
+    "market_slug": "will-another-party-win-the-most-seats-in-the-2024-irish-general-election",
+    "event_slug": "2024-irish-general-election",
+    "title": "Will another party win the most seats in the 2024 Irish general election?",
+    "category": "Elections",
+    "close_time": "2024-11-29T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "154202",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Irish general election took place on November 29. Fianna Fáil emerged as the largest party with 48 seats, followed by Sinn Féin with 39 and Fine Gael with 38. Since Fianna Fáil won the most seats, the outcome is No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Fianna Fáil won 48 seats, becoming the largest party in the 34th Dáil.",
+          "Sinn Féin won 39 seats and Fine Gael won 38 seats.",
+          "The election was held on November 29, 2024, following the dissolution of the Dáil by President Michael D. Higgins."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6278b751726e811669b0adc442c0530e8dd60c768ad2af77ca1094370211b07b",
+    "market_slug": "will-a-democrat-win-the-kentucky-gubernatorial-election",
+    "event_slug": "will-a-democrat-win-the-kentucky-gubernatorial-election",
+    "title": "Will a Democrat win the Kentucky gubernatorial election?",
+    "category": "Elections",
+    "close_time": "2023-11-07T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "129303",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Incumbent Democrat Andy Beshear won re-election in November 2023, defeating Republican challenger Daniel Cameron in a closely watched race in a Republican-leaning state.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on November 7, 2023.",
+          "Incumbent Andy Beshear defeated Republican Daniel Cameron.",
+          "Beshear won by approximately 5 percentage points (52.5% to 47.5%)."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8df652acea6253cdc096b243076b0acd3e1f6c150e9e131051fa84eb55370cfc",
+    "market_slug": "will-another-candidate-win-the-2024-delaware-governor-republican-primary",
+    "event_slug": "delaware-governor-republican-primary-winner",
+    "title": "Will another candidate win the 2024 Delaware Governor Republican Primary?",
+    "category": "Elections",
+    "close_time": "2024-09-10T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4270",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Delaware Republican primary for Governor was won by Mike Ramone, who defeated Jerry Price and Chuck Kupperman. Since Mike Ramone was the frontrunner and winner, the outcome for 'another candidate' winning is No.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on September 10, 2024.",
+          "Mike Ramone won the Republican primary with approximately 72% of the vote.",
+          "His opponents were Jerry Price and Chuck Kupperman."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb0884f7440050e4cb54a27267438509f64bb7f9aa962c97cfc8ca91b5a862a99",
+    "market_slug": "will-rnuxd-win-the-most-seats-in-the-french-election",
+    "event_slug": "which-coalition-wins-most-seats-in-french-election",
+    "title": "Will RN/UXD win the most seats in the French election?",
+    "category": "Elections",
+    "close_time": "2024-07-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "150481",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite winning the first round, the Rassemblement National (RN) and its allies finished third in the second round of the 2024 French legislative elections due to the 'republican front' tactical withdrawals, while the New Popular Front (NFP) won the most seats.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The second round of the legislative elections took place on July 7, 2024.",
+          "The New Popular Front (NFP) won the most seats with approximately 180-190 seats, followed by Ensemble with around 160.",
+          "The RN and its allies (UXD) finished in third place with approximately 142 seats."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9d7ca1d7a143821608dc80cb41e6f01855bed9508c85cf9d9e49937bd04abb9f",
+    "market_slug": "will-trump-appear-on-maine-primary-ballot",
+    "event_slug": "will-trump-appear-on-maine-primary-ballot",
+    "title": "Will Trump appear on Maine primary ballot?",
+    "category": "Elections",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "121016",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. Supreme Court's ruling in Trump v. Anderson on March 4, 2024, overturned state-level disqualifications under the 14th Amendment, ensuring Donald Trump remained on the ballot in Maine and other states for the primary election.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Maine Secretary of State Shenna Bellows initially ruled Trump ineligible on December 28, 2023.",
+          "The U.S. Supreme Court issued its decision in Trump v. Anderson on March 4, 2024, the day before Super Tuesday.",
+          "Following the SCOTUS ruling, Secretary Bellows officially withdrew her determination of Trump's ineligibility."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x14bf4dd2b3912844e0c58201ace5379208a7c1a421b66e6ce176bce42ef503a9",
+    "market_slug": "will-courtney-najera-lose-ca-30-primary",
+    "event_slug": "will-courtney-najera-lose-ca-30-primary",
+    "title": "Will Courtney Najera lose CA-30 primary?",
+    "category": "Elections",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "500",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Courtney Najera was a candidate in the CA-30 primary but did not finish in the top two. Under California's nonpartisan blanket primary system, failing to reach the top two results in losing the primary and not advancing to the general election.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The CA-30 primary took place on March 5, 2024, to fill the seat vacated by Adam Schiff.",
+          "Laura Friedman and Alex Balekian were the top two finishers who advanced to the general election.",
+          "Courtney Najera finished with a very small percentage of the total vote, well outside the top two."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb3fea26b4ef9c91cd759fb81144a42f8c81f9616f8b266f922635c0759ad9b67",
+    "market_slug": "will-cdv-win-the-most-seats-in-the-belgian-federal-elections",
+    "event_slug": "belgian-federal-election-which-party-will-win-the-most-seats",
+    "title": "Will CD&V win the most seats in the Belgian federal elections?",
+    "category": "Elections",
+    "close_time": "2024-06-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "110146",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the June 2024 Belgian federal elections, the N-VA and Vlaams Belang were the largest parties in Flanders, while CD&V finished significantly lower in the seat count, making a 'Yes' outcome impossible.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Belgian federal election took place on June 9, 2024.",
+          "N-VA (New Flemish Alliance) won the most seats overall with 24 seats.",
+          "CD&V (Christian Democratic and Flemish) won 15 seats, placing them behind N-VA, Vlaams Belang, and MR."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x60c1c5ead06c34d9ea9d35b093822e63cffef453e878301cdf01d8f05dda6510",
+    "market_slug": "will-trump-appear-on-colorado-primary-ballot",
+    "event_slug": "will-trump-appear-on-colorado-primary-ballot",
+    "title": "Will Trump appear on Colorado primary ballot?",
+    "category": "Elections",
+    "close_time": "2024-03-06T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "110449",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Supreme Court of the United States unanimously overturned the Colorado Supreme Court's decision in Trump v. Anderson on March 4, 2024, ruling that states cannot disqualify federal candidates under Section 3 of the 14th Amendment. This ensured Donald Trump remained on the ballot.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The U.S. Supreme Court case is Trump v. Anderson, 601 U.S. 100 (2024).",
+          "The ruling was issued on March 4, 2024, one day before Super Tuesday.",
+          "The decision was a 9-0 per curiam reversal of the Colorado Supreme Court's ruling."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x547171b466f04230c9a6bfd13a71fb24de3442e10ce5cea95232d970f36fd5bf",
+    "market_slug": "democrats-and-republicans-both-lose-the-2024-presidential-election",
+    "event_slug": "electoral-college-margin-of-victory-in-the-2024-presidential-election",
+    "title": "Democrats and Republicans both lose the 2024 Presidential Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.09638e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 U.S. Presidential Election was won by Donald Trump, the Republican nominee. Since a major party candidate won, the condition that both parties lose is false.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes.",
+          "The election took place on November 5, 2024.",
+          "Kamala Harris was the Democratic nominee and conceded on November 6, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x539e755aaab9af1bcb2940fdcffb2430556dd5c2f7131b6cd644dca259cec58d",
+    "market_slug": "will-spo-win-the-most-seats-in-the-2024-austrian-legislative-election",
+    "event_slug": "which-party-wins-the-most-seats-austrian-legislative-election",
+    "title": "Will SPÖ win the most seats in the 2024 Austrian legislative election?",
+    "category": "Elections",
+    "close_time": "2024-09-29T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "95996",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The FPÖ won the most seats in the 2024 Austrian legislative election, marking the first time they finished first in a national election. The SPÖ finished in third place behind the ÖVP, recording their worst historical result.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on September 29, 2024.",
+          "The Freedom Party of Austria (FPÖ) won with approximately 28.8% of the vote.",
+          "The Social Democratic Party of Austria (SPÖ) received approximately 21.1% of the vote, placing third."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe55c7b1ce6dbd5e2fd6f4d17ad8834bb335da16e116c7404eb40b26adc62ca11",
+    "market_slug": "will-haley-beat-desantis-in-iowa",
+    "event_slug": "will-haley-beat-desantis-in-iowa",
+    "title": "Will Haley beat DeSantis in Iowa?",
+    "category": "Elections",
+    "close_time": "2024-01-15T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4338.13",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 Iowa Republican caucuses, Ron DeSantis finished in second place with approximately 21.2% of the vote, while Nikki Haley finished in third place with approximately 19.1%. Therefore, Haley did not beat DeSantis.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Iowa caucuses took place on January 15, 2024.",
+          "Ron DeSantis received 23,420 votes (21.2%) while Nikki Haley received 21,085 votes (19.1%).",
+          "Donald Trump won the caucus with 51% of the vote."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8ec05d89f299aed5c6513939dc5f2067ac6e7b3139d3671a54d784a709cf79ad",
+    "market_slug": "harris-walz-final-democratic-ticket",
+    "event_slug": "harris-walz-final-democratic-ticket",
+    "title": "Harris-Walz Democratic ticket on election day?",
+    "category": "Elections",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "6.19967e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following President Joe Biden's withdrawal from the race in July 2024, Kamala Harris secured the nomination and selected Tim Walz as her running mate. This ticket remained unchanged through the 2024 election cycle.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kamala Harris officially announced Tim Walz as her vice presidential running mate on August 6, 2024.",
+          "The Democratic National Convention in Chicago (August 19-22, 2024) formally certified the Harris-Walz ticket.",
+          "The ticket remained intact through Election Day on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6711939e3d2909ada7aeced934b0e54a8148f4254f6c2f36e19f116f9fd20184",
+    "market_slug": "national-rally-coalition-wins-a-majority-of-seats-in-french-election",
+    "event_slug": "national-rally-coalition-wins-a-majority-of-seats-in-french-election",
+    "title": "National Rally coalition wins majority of seats in French Election?",
+    "category": "Elections",
+    "close_time": "2024-07-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "85142.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 French legislative elections resulted in a hung parliament where the New Popular Front won the most seats, followed by Ensemble and the National Rally. No single coalition achieved the 289 seats required for an absolute majority.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The second round of the election took place on July 7, 2024.",
+          "The National Rally (RN) and its allies finished in third place with 142 seats.",
+          "The New Popular Front (NFP) won the most seats with 182, while 289 are needed for a majority."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc6ec0ec408dbc30a17be606b95d2c81c526fc7490a636eb44970bf77fbe3d6ae",
+    "market_slug": "suella-braverman-next-conservative-party-leader",
+    "event_slug": "next-uk-leader-of-the-conservatives",
+    "title": "Suella Braverman next Conservative party leader?",
+    "category": "Elections",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.39324e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kemi Badenoch was elected leader of the Conservative Party on November 2, 2024, defeating Robert Jenrick in the final round. Suella Braverman did not enter the final stages of the contest, making a 'Yes' outcome impossible before the close time.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kemi Badenoch won the leadership election on November 2, 2024, with 53,806 votes.",
+          "Suella Braverman withdrew from the leadership race in July 2024 before the formal nominations closed.",
+          "The contest was triggered by Rishi Sunak's resignation following the July 4 general election."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdcca092aa2cc55f8053437e3f71ee853aa89f28582ac98231b0625a8609df32d",
+    "market_slug": "will-trump-vance-be-gop-ticket-on-election-day",
+    "event_slug": "will-trump-vance-be-gop-ticket-on-election-day",
+    "title": "Trump-Vance Republican ticket on election day?",
+    "category": "Elections",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "991254",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump officially selected J.D. Vance as his running mate during the Republican National Convention in July 2024, and the ticket remained unchanged through the November 5, 2024, election.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump announced J.D. Vance as his VP pick on July 15, 2024, via Truth Social.",
+          "The 2024 Republican National Convention was held in Milwaukee, Wisconsin.",
+          "The general election took place on November 5, 2024, with the Trump-Vance ticket intact."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbee8ad7c4426457188996e102556c2826e0f7d7039f88548f61b8bcda3b9de44",
+    "market_slug": "will-national-rally-win-less-than-175-seats",
+    "event_slug": "how-many-seats-will-national-rally-coalition-win-in-french-election",
+    "title": "Will National Rally win less than 175 seats?",
+    "category": "Elections",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "43003.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The National Rally (RN) and its allies won 142 seats in the second round of the French legislative elections on July 7, 2024, which is significantly below the 175-seat threshold.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The second round of the French legislative elections took place on July 7, 2024.",
+          "The National Rally (RN) and its allies finished third in terms of seats, behind the New Popular Front (NFP) and Ensemble.",
+          "The final seat count for the RN and its allies was 142 seats."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x24065ecfb01a08b8406326e191ca9309e8cd6359ae325db826cdbae38f41bfdd",
+    "market_slug": "will-nikki-haley-win-any-state-on-super-tuesday",
+    "event_slug": "will-nikki-haley-win-any-state-on-super-tuesday",
+    "title": "Will Nikki Haley win any state on Super Tuesday?",
+    "category": "Elections",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "95001.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nikki Haley won the Vermont Republican primary on Super Tuesday, March 5, 2024, marking her only state victory of the day against Donald Trump.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Nikki Haley won the Vermont primary with approximately 50% of the vote compared to Donald Trump's 46%.",
+          "Super Tuesday occurred on March 5, 2024, and Haley suspended her campaign the following day, March 6."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7da4fe3d95c4c725c2931bc8a02c0aab0bb591fbf9774d6128139aba7e8fc59a",
+    "market_slug": "joe-biden-reinstated-as-democratic-nominee-at-dnc",
+    "event_slug": "joe-biden-reinstated-as-democratic-nominee-at-dnc",
+    "title": "Joe Biden reinstated as Dem Nominee at DNC?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "504143",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Joe Biden withdrew from the race on July 21, 2024, and endorsed Kamala Harris. The Democratic National Convention proceeded to officially nominate Harris via a roll call vote, and Biden did not seek or receive the nomination.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Joe Biden announced his withdrawal from the 2024 presidential race on July 21, 2024, via a letter posted on social media.",
+          "Kamala Harris secured the necessary delegate votes in a virtual roll call before the DNC officially began on August 19, 2024.",
+          "The 2024 Democratic National Convention took place in Chicago from August 19 to August 22, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x98d6eecc48b89aaa4395ec21fd918b92b40fee2489c3e4700cfcf78246adfe98",
+    "market_slug": "15-democratic-house-members-demand-biden-drop-out-by-friday",
+    "event_slug": "15-democratic-house-members-demand-biden-drop-out-by-friday",
+    "title": "15+ Dem House reps call Biden to drop out by Friday?",
+    "category": "Elections",
+    "close_time": "2024-07-12T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "32413.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By the morning of Friday, July 12, 2024, the number of Democratic House representatives publicly calling for President Biden to withdraw from the race had exceeded 15, following his performance at the June debate and subsequent press conferences.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "By July 12, 2024, over 18 House Democrats had publicly called for Biden to step aside.",
+          "Notable representatives who called for his withdrawal by this date included Lloyd Doggett, Seth Moulton, and Brittany Pettersen.",
+          "The 'NATO summit' press conference occurred on the evening of July 11, 2024, triggering a fresh wave of calls the following morning."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x927cd2b93634e7b1d84582e838b45f481433ebce87a6a72e54d70f301b8edfb5",
+    "market_slug": "will-kamala-or-trump-convention-speech-have-more-viewers",
+    "event_slug": "will-kamala-or-trump-convention-speech-have-more-viewers",
+    "title": "Kamala or Trump convention speech gets more viewers?",
+    "category": "Elections",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "Kamala",
+    "volume": "62810.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nielsen data confirmed that Kamala Harris's acceptance speech at the DNC drew a larger television audience than Donald Trump's speech at the RNC, with approximately 28.9 million viewers compared to Trump's 25.3 million.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kamala Harris's DNC speech on August 22, 2024, averaged 28.9 million viewers across 15 networks.",
+          "Donald Trump's RNC speech on July 18, 2024, averaged 25.3 million viewers across 14 networks.",
+          "The DNC overall had higher average viewership than the RNC across the four-day event period."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2c8c609faf153485a0247b3ed367d553503b2245f129dbd994e28d5b06ea5f47",
+    "market_slug": "will-george-bush-speak-at-the-dnc",
+    "event_slug": "will-george-bush-speak-at-the-dnc",
+    "title": "Will George Bush speak at the DNC?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "395245",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Democratic National Convention took place from August 19-22, 2024. Former Republican President George W. Bush did not attend or speak at the event, as he has historically remained neutral in recent presidential elections and does not participate in Democratic conventions.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 DNC was held at the United Center in Chicago.",
+          "The convention concluded on August 22, 2024, with Kamala Harris's acceptance speech.",
+          "George W. Bush's office confirmed he had no plans to attend or participate in the convention."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0a240f35ab60000460db978695054ee26a7b6b58be4fc631a55e29a8c5379978",
+    "market_slug": "will-pvv-win-a-plurality-in-the-2023-dutch-general-election",
+    "event_slug": "netherlands-general-election",
+    "title": "Will PVV win a plurality in the 2023 Dutch General Election?",
+    "category": "Elections",
+    "close_time": "2023-11-22T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "31040.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The PVV, led by Geert Wilders, secured a significant victory in the 2023 Dutch general election, winning 37 seats and becoming the largest party in the House of Representatives.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on November 22, 2023.",
+          "The PVV won 37 seats, surpassing the GL-PvdA alliance which won 25 seats.",
+          "Geert Wilders led the PVV to its first-ever plurality in the Dutch House of Representatives."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x99c0965b13b8374737bf087337afe310fe9fe22d0b2a35d7972cae10ddba2711",
+    "market_slug": "will-vivek-ramaswamy-win-the-2024-republican-vp-nomination",
+    "event_slug": "republican-vp-nominee",
+    "title": "Will Vivek Ramaswamy win the 2024 Republican VP nomination?",
+    "category": "Elections",
+    "close_time": "2024-09-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "6.67483e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump officially selected JD Vance as his running mate during the Republican National Convention in July 2024, and the ticket was formally nominated. Vivek Ramaswamy was not chosen for the position.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump announced JD Vance as his VP pick on July 15, 2024, via Truth Social.",
+          "The Republican National Convention in Milwaukee officially nominated the Trump-Vance ticket in July 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4962f97cb1dc4be4382141a45ff1a38ead37ab3d98191b854c0e6cdd52bfca19",
+    "market_slug": "will-rfk-jr-win-a-state",
+    "event_slug": "will-rfk-jr-win-a-state",
+    "title": "RFK Jr. wins a state?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "378868",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Robert F. Kennedy Jr. suspended his campaign in August 2024 and endorsed Donald Trump. He did not win any states in the 2024 general election, as the electoral map was split entirely between Donald Trump and Kamala Harris.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "RFK Jr. suspended his campaign on August 23, 2024.",
+          "He withdrew his name from the ballot in several swing states to avoid spoiling the vote for Donald Trump.",
+          "Donald Trump won 312 electoral votes and Kamala Harris won 226 electoral votes, leaving zero for third parties."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x77d4493757464b3bdc1c7ae624a5e3070abb2419c01c266b1bbeb1854df7967d",
+    "market_slug": "will-the-dpk-win-the-most-seats-in-the-south-korean-election",
+    "event_slug": "south-korea-election-which-party-wins-the-most-seats",
+    "title": "Will the DPK win the most seats in the South Korean election?",
+    "category": "Elections",
+    "close_time": "2024-04-08T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "27725.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Democratic Party of Korea (DPK) and its satellite party won a landslide victory in the April 10, 2024, legislative elections, securing a clear majority of 175 seats in the 300-member National Assembly, far surpassing the People Power Party.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on April 10, 2024.",
+          "The DPK and its ally Democratic Alliance won 175 seats total.",
+          "The ruling People Power Party (PPP) and its satellite party won only 108 seats.",
+          "Total voter turnout was approximately 67%, the highest for a general election in 32 years."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa3e0185c69a933ea5a47b6b188570fa711ad66914c70f9149a1ff7902b1973ef",
+    "market_slug": "will-doug-burgum-win-the-2024-republican-vp-nomination",
+    "event_slug": "republican-vp-supplemental",
+    "title": "Will Doug Burgum win the 2024 Republican VP nomination?",
+    "category": "Elections",
+    "close_time": "2024-07-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2.68792e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump officially selected J.D. Vance as his running mate on July 15, 2024, during the Republican National Convention, which means Doug Burgum did not receive the nomination.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump announced J.D. Vance as his VP pick on Truth Social on July 15, 2024.",
+          "The Republican National Convention was held in Milwaukee, Wisconsin, from July 15-18, 2024.",
+          "Doug Burgum was informed he was not the pick shortly before the public announcement."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x626436e51a9b7486bf356594f29de0c729ae4e88b4c196e58d2eb9cc8d4105f9",
+    "market_slug": "will-another-party-win-the-most-seats-in-the-2024-saskatchewan-general-election",
+    "event_slug": "which-party-wins-most-seats-in-in-saskatchewan-election",
+    "title": "Will another party win the most seats in the 2024 Saskatchewan general election?",
+    "category": "Elections",
+    "close_time": "2024-10-28T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27158",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Saskatchewan Party, led by Scott Moe, won its fifth consecutive majority government in the October 28, 2024 election. While the NDP made significant gains, the Saskatchewan Party retained the most seats, meaning no other party surpassed them.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election was held on October 28, 2024.",
+          "The Saskatchewan Party won 34 seats, while the Saskatchewan NDP won 27 seats.",
+          "Scott Moe remained Premier following the result."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x34fb158a6bf4e77b90765912a1da62c51455d27328ef827dbad258c3409ffffc",
+    "market_slug": "will-hunter-biden-speak-at-the-dnc",
+    "event_slug": "who-will-speak-at-dnc",
+    "title": "Will Hunter Biden speak at the DNC?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "566216",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hunter Biden attended the 2024 Democratic National Convention in Chicago to support his father, but he did not have a scheduled speaking slot and did not deliver a speech on stage during the event.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 DNC took place from August 19-22 at the United Center in Chicago.",
+          "Hunter Biden was seen on stage with Joe Biden after the President's speech on Monday night, but he did not speak.",
+          "The official speaker list for the convention did not include Hunter Biden."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf03198c06bb312e63cb4d62b061aed647178efacc6b58aa7e366c41b01a8700",
+    "market_slug": "will-trump-do-better-in-florida-or-ohio",
+    "event_slug": "will-trump-do-better-in-florida-or-ohio",
+    "title": "Will Trump do better in Florida or Ohio?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Florida",
+    "volume": "86899.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 election, Donald Trump won Florida by approximately 13 percentage points and Ohio by approximately 11.5 percentage points, meaning he performed better in Florida.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Trump won Florida with approximately 56.1% of the vote compared to Harris's 43.0%.",
+          "Trump won Ohio with approximately 55.2% of the vote compared to Harris's 43.7%.",
+          "The margin in Florida was roughly 13.1%, while the margin in Ohio was roughly 11.5%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2810294fd661eae12ca2d889d9126fbf6716b8209ff11ec719989ede5766a534",
+    "market_slug": "istanbul-mayoral-election-2024-will-chp-win",
+    "event_slug": "istanbul-mayoral-election-2024-which-party-will-win",
+    "title": "Istanbul Mayoral Election 2024: Will CHP win?",
+    "category": "Elections",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "25660.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ekrem Imamoglu of the CHP won the Istanbul mayoral election held on March 31, 2024, defeating the AKP candidate Murat Kurum by a significant margin of approximately 11 percentage points.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on March 31, 2024.",
+          "Ekrem Imamoglu (CHP) received approximately 51.1% of the vote, while Murat Kurum (AKP) received approximately 39.6%.",
+          "The CHP also won a majority in the Istanbul Municipal Council."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc16a9f97a486d690b733b64162b78db12440ff7dcb4d174951932028f90c1c69",
+    "market_slug": "kamala-nominated-before-democratic-convention",
+    "event_slug": "kamala-nominated-before-democratic-convention",
+    "title": "Will Kamala be Nominee before Convention?",
+    "category": "Elections",
+    "close_time": "2024-08-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "473878",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamala Harris secured the Democratic nomination via a virtual roll call vote completed on August 5, 2024, well before the Democratic National Convention began on August 19, 2024.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Democratic National Committee conducted a virtual roll call that concluded on August 5, 2024.",
+          "Kamala Harris officially signed the paperwork to be the nominee on August 7, 2024, after winning 99% of the participating delegates.",
+          "The Democratic National Convention in Chicago started on August 19, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x15c7ba01983b9f42870c25e1aa4d69e71a8d72297d20e201688ff7b8ce7cc2c7",
+    "market_slug": "will-biden-win-georgia-democratic-primary",
+    "event_slug": "will-biden-win-georgia-democratic-primary",
+    "title": "Will Biden win Georgia Democratic Primary?",
+    "category": "Elections",
+    "close_time": "2024-03-12T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "58676.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Joe Biden was the incumbent president and faced no significant opposition in the 2024 Georgia Democratic Primary, leading to a decisive victory.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Georgia Democratic Primary took place on March 12, 2024.",
+          "Biden won with approximately 93% of the vote, securing the delegates needed to become the presumptive nominee."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf8c5951cdc0168a64adbe243b468250e70a251ffea4556e7775ce430c880bffa",
+    "market_slug": "will-the-liberal-democrats-win-46-60-seats-in-the-next-uk-election",
+    "event_slug": "how-many-seats-will-the-lib-dems-win-in-uk-election",
+    "title": "Will the Liberal Democrats win 46-60 seats in the next UK Election?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "10931.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Liberal Democrats won 72 seats in the 2024 UK General Election, which is outside the specified range of 46-60 seats.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 UK General Election took place on July 4, 2024.",
+          "The Liberal Democrats won a record 72 seats, surpassing their previous high of 62 in 2005.",
+          "The party leader during this election was Sir Ed Davey."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x922936e2b64f67d254128bbe01f50b5e81709bc4f2af357fd66ccc0abfa23ed6",
+    "market_slug": "kamalas-margin-of-victory-higher-in-wisconsin-or-georgia",
+    "event_slug": "kamalas-margin-of-victory-higher-in-wisconsin-or-georgia",
+    "title": "Will Kamala do better in Georgia or Wisconsin?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Wisconsin",
+    "volume": "40981.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 U.S. Presidential Election, Kamala Harris performed better in Wisconsin than in Georgia. She won Wisconsin's electoral votes while losing Georgia to Donald Trump.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won Georgia with approximately 50.7% of the vote compared to Harris's 48.5%.",
+          "Donald Trump won Wisconsin with approximately 49.7% of the vote compared to Harris's 48.8%.",
+          "While Harris lost both states, her margin of defeat was narrower in Wisconsin (approx. 0.9%) than in Georgia (approx. 2.2%)."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xba10f18f0b0196c7fe5e8bfbb936ae0f4085995516692b50702c9328fc2dcd21",
+    "market_slug": "will-ensemble-win-130-or-more-seats-in-the-french-election",
+    "event_slug": "how-many-seats-will-the-ensemble-coalition-win-in-the-french-election",
+    "title": "Will Ensemble win 130 or more seats in the French election?",
+    "category": "Elections",
+    "close_time": "2024-07-07T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "10229.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the second round of the 2024 French legislative elections held on July 7, Emmanuel Macron's Ensemble coalition outperformed initial polling expectations, securing approximately 160 to 168 seats, which is well above the 130-seat threshold.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The second round of the snap legislative election took place on July 7, 2024.",
+          "Ensemble finished in second place behind the Nouveau Front Populaire (NFP) but ahead of the Rassemblement National (RN).",
+          "Official results confirmed Ensemble won over 160 seats, exceeding the 130-seat mark."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6632fc24e5c917cf5972a36b3a28f25b89759d2624b17badb1cea4bef1bf7f98",
+    "market_slug": "will-afd-win-the-most-votes-in-the-2024-brandenburg-election",
+    "event_slug": "who-wins-most-votes-in-brandenburg-election",
+    "title": "Will AfD win the most votes in the 2024 Brandenburg election?",
+    "category": "Elections",
+    "close_time": "2024-09-21T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "135003",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SPD, led by incumbent Minister-President Dietmar Woidke, narrowly overtook the AfD in the final results of the Brandenburg state election held on September 22, 2024.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The SPD finished first with approximately 30.9% of the vote.",
+          "The AfD finished second with approximately 29.2% of the vote.",
+          "The election took place on September 22, 2024.",
+          "Dietmar Woidke (SPD) successfully campaigned on a platform of stopping the AfD from becoming the strongest force."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc0cd9248d65fdc84719c2dd5b386651bfb888cfae1f91c11ec39c3382daac301",
+    "market_slug": "macron-impeached-in-2024",
+    "event_slug": "macron-impeached-in-2024",
+    "title": "Macron impeached in 2024?",
+    "category": "Elections",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "40314.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While the LFI party initiated impeachment proceedings under Article 68 in September 2024, the process requires a two-thirds majority in both houses, which is politically unattainable given the current parliamentary composition.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "La France Insoumise (LFI) filed a motion for impeachment in September 2024 following Macron's refusal to appoint Lucie Castets as Prime Minister.",
+          "The Bureau of the National Assembly validated the motion to proceed to the Laws Committee on September 17, 2024.",
+          "Article 68 of the French Constitution requires a high threshold of a two-thirds majority in the High Court (Parliament) for removal."
+        ],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x5280663360f676a1474fe2df3595f79bfa0cbde1238bad8a2307da51a9f5ae96",
+    "market_slug": "will-gretchen-whitmer-say-white-house-in-dnc-speech",
+    "event_slug": "what-will-gretchen-whitmer-say-during-dnc-speech",
+    "title": "Will Gretchen Whitmer say \"White House\" in DNC speech?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "391.28",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Gretchen Whitmer delivered her speech on the final night of the 2024 DNC. In her remarks, she explicitly used the phrase 'White House' while contrasting the leadership styles of Kamala Harris and Donald Trump.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Gretchen Whitmer spoke on August 22, 2024, at the United Center in Chicago.",
+          "She used the phrase 'White House' when stating 'we need a grown-up in the White House' or similar phrasing regarding the presidency.",
+          "Her speech focused on her 'Big Gretch' persona and supporting the Harris-Walz ticket."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc2b728584de678f89473c3c19f5573fd81340de019f53081dc015973803072c7",
+    "market_slug": "will-democratic-vp-nominee-be-a-white-man",
+    "event_slug": "will-democratic-vp-nominee-be-a-white-man",
+    "title": "Will Democratic VP nominee be a white man?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "84657.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamala Harris selected Tim Walz as her running mate on August 6, 2024. Tim Walz is a white man, fulfilling the criteria for a 'Yes' resolution before the specified close time.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kamala Harris officially announced Tim Walz as her vice presidential pick on August 6, 2024.",
+          "Tim Walz is the Governor of Minnesota and is a white male.",
+          "The Democratic National Convention took place from August 19-22, 2024, where the ticket was formally certified."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9bd1796175817533b3090b51b52352a49fc425ed5b081cb7989c1c330eb5fd99",
+    "market_slug": "will-uncommitted-receive-less-than-1-of-the-popular-vote-in-the-2024-democratic-michigan-primary",
+    "event_slug": "michigan-democratic-primary-uncommitted-vote-share",
+    "title": "Will ‘Uncommitted’ receive less than 1% of the popular vote in the 2024 Democratic Michigan Primary?",
+    "category": "Elections",
+    "close_time": "2024-02-27T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "23352",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 'Uncommitted' vote in the 2024 Michigan Democratic Primary was a significant protest movement regarding the Gaza conflict, ultimately receiving over 13% of the vote, which is far above the 1% threshold.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on February 27, 2024.",
+          "The 'Uncommitted' option received approximately 101,436 votes, accounting for about 13.2% of the total vote.",
+          "The movement was organized by groups like 'Listen to Michigan' to protest the Biden administration's handling of the Israel-Hamas war."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb99fde2d5da002935665a9a7f8910333c570f10b89eeba10cafa752204bc5fb3",
+    "market_slug": "will-the-epp-win-180-189-seats-in-the-european-parliament",
+    "event_slug": "eu-election-how-many-seats-will-the-epp-win",
+    "title": "Will the EPP win 180-189 seats in the European Parliament?",
+    "category": "Elections",
+    "close_time": "2024-06-09T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3576.69",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The European People's Party (EPP) secured 188 seats in the 2024 European Parliament elections, which falls directly within the 180-189 range specified in the market.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 European Parliament election took place between June 6 and June 9, 2024.",
+          "The EPP remained the largest group in the European Parliament, increasing their seat count to 188.",
+          "Ursula von der Leyen was the EPP's lead candidate (Spitzenkandidat)."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x54e2f3ecd3c5ddaf2504a33c45d55192fdc747747130ec8dc220878f68c5080b",
+    "market_slug": "gary-peters-democratic-vp-nominee",
+    "event_slug": "gary-peters-democratic-vp-nominee",
+    "title": "Gary Peters Democratic VP nominee?",
+    "category": "Elections",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "78900",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamala Harris officially selected Tim Walz as her running mate on August 6, 2024, and the ticket was formally certified by the Democratic National Convention before the close time.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kamala Harris announced Tim Walz as her vice presidential pick on August 6, 2024.",
+          "Gary Peters was mentioned as a potential candidate but was never selected or formally vetted in the final short list.",
+          "The Democratic National Convention took place in Chicago from August 19-22, 2024, confirming the Harris-Walz ticket."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2bc20992871d34d722d7501bba8b3c3def3f8436a0e1d863cce7e7d3866ba4ce",
+    "market_slug": "will-trump-do-better-in-ohio-or-texas",
+    "event_slug": "will-trump-do-better-in-ohio-or-texas",
+    "title": "Will Trump do better in Ohio or Texas?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Texas",
+    "volume": "21102.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 US Presidential Election, Donald Trump won Ohio by approximately 11.5 percentage points and Texas by approximately 13.9 percentage points. Therefore, he performed better in Texas than in Ohio based on the margin of victory.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won Ohio with approximately 55.2% of the vote to Kamala Harris's 43.7% (margin of ~11.5%).",
+          "Donald Trump won Texas with approximately 56.2% of the vote to Kamala Harris's 42.3% (margin of ~13.9%).",
+          "The 2024 election took place on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x03ae1b62fa4eea75c286e9d461afa30d943be864f61dcc1f86f6764c4ec099c6",
+    "market_slug": "will-ahsha-safai-win-the-san-francisco-mayoral-election",
+    "event_slug": "who-will-win-san-francisco-mayoral-election",
+    "title": "Will Ahsha Safai win the San Francisco Mayoral Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "992452",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ahsha Safai consistently polled in the single digits throughout the campaign, trailing significantly behind Daniel Lurie, London Breed, Mark Farrell, and Aaron Peskin. Daniel Lurie was declared the winner after several rounds of ranked-choice voting.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election took place on November 5, 2024.",
+          "Daniel Lurie won the election, defeating incumbent London Breed.",
+          "Ahsha Safai was eliminated in an early round of the ranked-choice voting process with a low percentage of first-place votes."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb1157e9daf065647461467c281c756ca55ca6e2055fcf8e857939b4c59ca6842",
+    "market_slug": "will-kamlas-dnc-speech-has-between-25m-and-27m-viewers",
+    "event_slug": "how-many-viewers-will-kamalas-dnc-speech-get",
+    "title": "Will Kamala's DNC speech has between 25m and 27m viewers?",
+    "category": "Elections",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "51608.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nielsen data confirmed that Kamala Harris's acceptance speech on the final night of the 2024 DNC averaged 28.9 million viewers, which exceeds the 25m to 27m range specified in the market.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 Democratic National Convention took place from August 19-22 in Chicago, Illinois.",
+          "Nielsen reported that the final night of the DNC averaged 28.9 million viewers across 15 networks.",
+          "Kamala Harris's speech viewership peaked at approximately 26.2 million during the 10:45 PM to 11:00 PM ET window, but the overall average for the night was higher."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaaeecc779c69112f8cc3edcf679bd4accdc56a7719a1d29336e8317e5089b8f9",
+    "market_slug": "will-biden-win-washington-democratic-primary",
+    "event_slug": "will-biden-win-washington-democratic-primary",
+    "title": "Will Biden win Washington Democratic Primary? ",
+    "category": "Elections",
+    "close_time": "2024-03-12T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "13679.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Joe Biden was the incumbent president and faced no significant opposition in the 2024 Washington Democratic primary, leading to a decisive victory as expected for an uncontested incumbent.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Washington Democratic primary took place on March 12, 2024.",
+          "Joe Biden won with approximately 83.5% of the vote, while 'Uncommitted' received about 9.8%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb5994021322e0ab29f8d6330dc729d63621887afdff93e1c97d133657ee9d376",
+    "market_slug": "will-reform-win-7-seats-in-uk-election",
+    "event_slug": "will-reform-win-7-seats-in-uk-election",
+    "title": "Will Reform win 7+ seats in UK Election?",
+    "category": "Elections",
+    "close_time": "2024-06-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "564446",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Reform UK won exactly 5 seats in the 2024 UK General Election, which is fewer than the 7 seats required for a 'Yes' resolution.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The UK General Election took place on July 4, 2024.",
+          "Reform UK candidates Nigel Farage, Richard Tice, Lee Anderson, Rupert Lowe, and James McMurdock were elected.",
+          "The total seat count for Reform UK was 5."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa307f951da35ce15b31080871af3c86adf84ba59a0825727d8d854afce1597f5",
+    "market_slug": "will-oklahoma-have-highest-margin-of-victory-for-trump-in-super-tuesday-republican-primaries",
+    "event_slug": "super-tuesday-state-with-highest-trump-margin-of-victory",
+    "title": "Will Oklahoma have highest margin of victory for Trump in Super Tuesday Republican Primaries?",
+    "category": "Elections",
+    "close_time": "2024-03-03T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "50817.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While Trump won Oklahoma by a large margin (approximately 67 points), Alabama actually provided a slightly higher margin of victory (approximately 70 points) on Super Tuesday, March 5, 2024.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Trump won Oklahoma with 81.8% of the vote against Nikki Haley's 15.9%, a margin of 65.9 points.",
+          "Trump won Alabama with 83.2% of the vote against Nikki Haley's 13.0%, a margin of 70.2 points.",
+          "Super Tuesday occurred on March 5, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7057bdf9e1d4a4d266c1a98448ba4dc13fcdf2691d44e2d2c33424f2de540a8f",
+    "market_slug": "trump-wins-312-evs-swing-state-sweep",
+    "event_slug": "trump-wins-312-evs-swing-state-sweep",
+    "title": "Trump wins 312-226 - swing state sweep ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "559484",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 US Presidential Election with 312 electoral votes to Kamala Harris's 226, successfully winning all seven key swing states: Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, and Wisconsin.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won all seven swing states: AZ, GA, MI, NV, NC, PA, and WI.",
+          "The final Electoral College tally was 312 for Trump and 226 for Harris.",
+          "Arizona was the final state called, bringing the total to 312 on November 9, 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x49754751d167cc53413ce70efeff53a944492c8d7badad4ce7bdb7a65daa9d2b",
+    "market_slug": "labour-wins-30-35-of-votes",
+    "event_slug": "uk-election-labour-vote-share",
+    "title": "Labour wins 30-35% of votes?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "31262.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 UK General Election, the Labour Party won a significant majority of seats but their actual share of the popular vote was approximately 33.7%, which falls directly within the 30-35% range.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The UK General Election was held on July 4, 2024.",
+          "The Labour Party, led by Keir Starmer, won 411 seats.",
+          "Labour's share of the popular vote was officially recorded as 33.7%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd8f684ca4b638e006626b338063b509019e187d995045b8161e287fa0896d6a0",
+    "market_slug": "trump-wins-287-evs-az-ga-nv-nc-pa",
+    "event_slug": "trump-wins-287-evs-az-ga-nv-nc-pa",
+    "title": "Trump wins 287-251 - AZ, GA, NV, NC, PA  ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "159019",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 election with 312 electoral votes, sweeping all seven swing states including AZ, GA, NV, NC, PA, MI, and WI. The specific 287-251 map excludes MI and WI, which did not occur.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 US Presidential Election with 312 electoral votes to Kamala Harris's 226.",
+          "Trump won all seven key swing states: Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, and Wisconsin.",
+          "The final electoral count was certified as 312-226, making a 287-251 outcome impossible."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9e4e9eec90bcd988ded062e8d665675508a7ec176e74357bf1aaf97075158adb",
+    "market_slug": "who-will-win-erie-county",
+    "event_slug": "swing-districts-2024",
+    "title": "Who will win Erie county?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Trump",
+    "volume": "222348",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The event title is incomplete as it does not specify which candidate or party 'Yes' refers to, nor which state's Erie County (PA, NY, or OH) is being contested. Without a specific subject, a definitive probability cannot be assigned.",
+      "probabilities": {
+        "Yes": 0.5,
+        "No": 0.5
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x822299bfee6e07004d2c9f0ee2ada9d1581fb8c54eff7f1dbb3a0fd3cd87b89d",
+    "market_slug": "will-barron-speak-at-the-rnc",
+    "event_slug": "who-will-speak-at-republican-national-convention",
+    "title": "Will Barron speak at the RNC?",
+    "category": "Elections",
+    "close_time": "2024-07-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "30255.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Barron Trump was selected as a Florida delegate but his mother's office released a statement saying he declined the invitation due to prior commitments. He did not speak at the convention.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Melania Trump's office issued a statement on May 10, 2024, stating Barron declined the delegate spot.",
+          "The 2024 Republican National Convention took place in Milwaukee from July 15-18, and Barron was not on the speaker list."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb51e77945ee4d28fca06a2a7ace09103b5e80b9d6ac66fc62d7c3037671666c3",
+    "market_slug": "trump-wins-az-ga-mi-pa-wi-nc-306-evs",
+    "event_slug": "trump-wins-az-ga-mi-pa-wi-nc-306-evs",
+    "title": "Trump wins 306-232 - AZ, GA, MI, PA, WI, NC ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "61512.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 US Presidential Election with 312 electoral votes, not 306. While he won all the listed states (AZ, GA, MI, PA, WI, NC), he also won Nevada, bringing his total to 312.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes to Kamala Harris's 226.",
+          "Trump swept all seven swing states: Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, and Wisconsin.",
+          "The 306-232 margin was the exact score of the 2020 election in favor of Joe Biden."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x179aa663b9f4860b1e6bb587ed874fc8f400e1d163aaf50fe7f8b8d072943cd8",
+    "market_slug": "will-the-nda-win-less-than-300-seats",
+    "event_slug": "indian-election-how-many-seats-will-the-nda-win",
+    "title": "Will the NDA win less than 300 seats?",
+    "category": "Elections",
+    "close_time": "2024-06-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "134650",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Indian General Election results were declared on June 4, 2024. The National Democratic Alliance (NDA) led by the BJP won a total of 293 seats, which is less than the 300-seat threshold specified in the market.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The NDA won exactly 293 seats in the 2024 Lok Sabha elections.",
+          "The BJP, the largest party in the alliance, won 240 seats individually.",
+          "The election results were officially announced on June 4, 2024.",
+          "The opposition INDIA bloc won 234 seats."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6ae5e3dbe1d7d14efd3c12146147031c24b4c7dde6583180741502b7d0164539",
+    "market_slug": "portugal-legislative-election-will-the-socialist-party-win-the-most-votes",
+    "event_slug": "portugal-legislative-election",
+    "title": "Portugal Legislative Election: Will the Socialist Party win the most votes?",
+    "category": "Elections",
+    "close_time": "2024-03-09T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "28798.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Portuguese legislative election resulted in the Democratic Alliance (AD) winning the most votes and seats, narrowly defeating the Socialist Party (PS).",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The election was held on March 10, 2024.",
+          "The Democratic Alliance (AD) led by Luís Montenegro won approximately 28.8% of the vote, while the Socialist Party (PS) led by Pedro Nuno Santos won approximately 28.0%.",
+          "The Chega party saw a significant surge, becoming the third-largest force with 18% of the vote."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc86f80063facc071af62e05831e959eef8d4220fd3aefee3c36616edb51ccedb",
+    "market_slug": "kamala-wins-pa-nv-mi-wi-276-evs",
+    "event_slug": "kamala-wins-pa-nv-mi-wi-276-evs",
+    "title": "Kamala wins 276-262 - PA, NV, MI, WI ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "58133.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 US Presidential Election, securing over 270 electoral votes including the states of Pennsylvania, Michigan, and Wisconsin. Kamala Harris did not reach 276 electoral votes, making this specific outcome impossible.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes to Kamala Harris's 226.",
+          "Trump swept all seven key swing states, including PA, NV, MI, and WI, which this scenario required Harris to win."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5de4a156f0289c73224d2e95e42354760211edfb803fd629b03992a00a081934",
+    "market_slug": "50-dem-house-members-call-on-biden-to-drop-out-by-next-friday",
+    "event_slug": "50-dem-house-members-call-on-biden-to-drop-out-by-next-friday",
+    "title": "50+ Dem house reps call Biden to drop out by Friday?",
+    "category": "Elections",
+    "close_time": "2024-07-19T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "95769.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By the deadline of July 19, 2024, the number of Democratic House representatives publicly calling for Joe Biden to withdraw from the race reached approximately 30-35, falling short of the 50-member threshold required for a 'Yes' resolution.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The deadline was Friday, July 19, 2024.",
+          "By the morning of July 19, roughly 30 to 35 House Democrats had publicly called for Biden to step aside, including names like Zoe Lofgren and Sean Casten on that final day.",
+          "Joe Biden eventually announced his withdrawal on Sunday, July 21, 2024, two days after this specific market's close time."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8b44f541c2c066f269faae701dee92b7389aa43e5dc9f1bf804fb837ec994fa4",
+    "market_slug": "will-democrats-publish-letter-asking-biden-to-drop-out",
+    "event_slug": "will-democrats-publish-letter-asking-biden-to-drop-out",
+    "title": "Will Democrats publish letter asking Biden to drop out?",
+    "category": "Elections",
+    "close_time": "2024-07-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "26698.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the June 27, 2024 debate, several House Democrats, led by Representative Lloyd Doggett on July 2, publicly called for Biden to withdraw. By the July 5 deadline, multiple representatives had issued formal statements and letters urging a change in the ticket.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Representative Lloyd Doggett of Texas became the first sitting House Democrat to formally call for Biden to withdraw on July 2, 2024.",
+          "By July 3, 2024, Representative Raúl Grijalva also publicly called for Biden to step aside.",
+          "The deadline of July 5, 2024, occurred during a period of intense internal party pressure following the CNN debate."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x39dba88845cb216544c06c87abc2124db02dc435e76befc1b0fc0dafd27732f0",
+    "market_slug": "trump-wins-283-255-az-ga-mi-nv-nc",
+    "event_slug": "trump-wins-283-255-az-ga-mi-nv-nc",
+    "title": "Trump wins 283-255 - AZ, GA, MI, NV, NC",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "44633.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 US Presidential Election resulted in Donald Trump winning 312 electoral votes to Kamala Harris's 226. Trump won all seven swing states, including AZ, GA, MI, NV, NC, PA, and WI, making a 283-255 outcome impossible.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes.",
+          "Trump won Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, and Wisconsin.",
+          "The final electoral count was 312-226."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x94e5d97a5cca39d738dd0066f26779ce9486870665bbe830be2d848343c8b3c5",
+    "market_slug": "will-joe-manchin-run-for-west-virginia-governor",
+    "event_slug": "will-joe-manchin-run-for-west-virginia-governor",
+    "title": "Will Joe Manchin run for West Virginia Governor?",
+    "category": "Elections",
+    "close_time": "2024-08-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "49907.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Joe Manchin declined to run for Governor or re-election to the Senate, eventually leaving the Democratic Party to register as an independent. The filing deadline for the West Virginia gubernatorial race passed in January 2024 without him entering.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The candidate filing deadline for the West Virginia 2024 primary was January 27, 2024.",
+          "Joe Manchin officially announced on November 9, 2023, that he would not seek re-election to the U.S. Senate.",
+          "Patrick Morrisey and Moore Capito were the primary Republican contenders, with Morrisey winning the nomination."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe620c4a6bc7a68563061e07f1722d7be63a16c6b3791e05978e00400eb9e4559",
+    "market_slug": "tim-walz-dnc-speech-ou-30-minutes",
+    "event_slug": "tim-walz-dnc-speech-ou-30-minutes",
+    "title": "Tim Walz DNC Speech: O/U 30 minutes?",
+    "category": "Elections",
+    "close_time": "2024-08-21T12:00:00Z",
+    "actual_resolution": "Under",
+    "volume": "19071.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tim Walz delivered his acceptance speech at the Democratic National Convention on August 21, 2024. The speech was notably concise, lasting approximately 16 to 17 minutes, which is well under the 30-minute threshold.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The speech took place on Wednesday, August 21, 2024, at the United Center in Chicago.",
+          "The speech duration was approximately 16 minutes and 40 seconds, significantly shorter than the 30-minute mark.",
+          "He was introduced by Ben Ingman, a former student, and members of his former football team."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2f79cc5aa258fc91bdf7084899ea9ce705fb77ff6932913117cfdb6d569602f9",
+    "market_slug": "trump-wins-281-evs-az-ga-nc-pa",
+    "event_slug": "trump-wins-281-evs-az-ga-nc-pa",
+    "title": "Trump wins 281-257 - AZ, GA, NC, PA ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "42791.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 US Presidential Election with 312 electoral votes, sweeping all seven swing states including AZ, GA, NC, and PA. The specific 281-257 tally mentioned in the prompt did not occur as he exceeded that total.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 electoral votes to Kamala Harris's 226.",
+          "Trump won all seven key battleground states: Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, and Wisconsin.",
+          "The election took place on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf57b75268f434d9b46033691208a43b56b9ab27ad56e1f0ab5f41323bafb60aa",
+    "market_slug": "south-africa-election-will-anc-win-a-majority-of-seats",
+    "event_slug": "south-africa-election-will-anc-win-a-majority-of-seats",
+    "title": "South Africa Election: Will ANC win a majority of seats?",
+    "category": "Elections",
+    "close_time": "2024-05-29T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "42785.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ANC's support dropped significantly in the 2024 general election, falling well below the 50% threshold required for a parliamentary majority for the first time since 1994.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The ANC received approximately 40.18% of the national vote in the May 29, 2024 election.",
+          "The ANC won 159 seats in the 400-seat National Assembly, falling short of the 201 seats needed for a majority.",
+          "The election led to the formation of a Government of National Unity (GNU) involving the DA and IFP."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x53fca014f75b39d25d57d25e0e735d1d1dd9391dc2d2684ee5aba9aa118de33d",
+    "market_slug": "will-bill-clinton-say-monica-or-lewinsky-at-dnc-speech",
+    "event_slug": "what-will-bill-clinton-say-during-dnc-speech",
+    "title": "Will Bill Clinton say \"Monica\" or \"Lewinsky\" at DNC speech?",
+    "category": "Elections",
+    "close_time": "2024-08-21T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17619",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bill Clinton's 2024 DNC speech focused on supporting Kamala Harris and critiquing Donald Trump's age and record. He did not mention Monica Lewinsky, as doing so would have been politically counterproductive and irrelevant to the convention's themes.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bill Clinton spoke on the third night of the 2024 DNC, Wednesday, August 21, 2024.",
+          "His speech lasted approximately 27 minutes and included a joke about being younger than Donald Trump.",
+          "The speech focused on the 'joy' of the Harris-Walz campaign and the future of the Democratic party."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x41e9c5af733be5bd515fe20748a65aacc106d1272034fb9afb17e0b0e33e42a9",
+    "market_slug": "trump-wins-322-evs-az-ga-mi-mn-nv-pa-wi-1",
+    "event_slug": "trump-wins-322-evs-az-ga-mi-mn-nv-pa-wi-1",
+    "title": "Trump wins 322-216 - AZ, GA, MI, MN, NV, PA, WI ",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "19447.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 election with 312 electoral votes, not 322. He failed to win Minnesota (MN), which was required for this specific 322-216 map scenario.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 US Presidential Election with 312 electoral votes.",
+          "Kamala Harris won Minnesota (MN), preventing a clean sweep of the states listed in the prompt.",
+          "The final electoral count was 312 for Trump and 226 for Harris."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8befc90134e4a8ef43e00ba6356d4bfa18bedd4da55671644f48d7a60fd0509d",
+    "market_slug": "india-election-nda-wins-400-seats",
+    "event_slug": "india-election-nda-wins-400-seats",
+    "title": "Indian election: NDA wins 400+ seats?",
+    "category": "Elections",
+    "close_time": "2024-06-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "39201.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Indian General Election results showed the NDA winning 293 seats, significantly below the 400-seat target often cited in campaign slogans like 'Abki Baar 400 Paar'.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The BJP won 240 seats individually, failing to reach a majority on its own.",
+          "The NDA coalition finished with a total of 293 seats.",
+          "The election results were declared on June 4, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfb0ab4ab0f2202d5c2959bc14bb2d0c40939e4584275ba38e141b48434f2d9d6",
+    "market_slug": "will-rfk-jr-say-third-party-during-friday-address",
+    "event_slug": "what-will-rfk-jr-say-during-friday-address",
+    "title": "Will RFK Jr. say \"Third Party\" during Friday address?",
+    "category": "Elections",
+    "close_time": "2024-08-23T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8183.91",
+    "status": "ok",
+    "forecast": {
+      "rationale": "During his address in Phoenix on August 23, 2024, RFK Jr. discussed his campaign as an independent and the challenges of the two-party system, but he did not use the specific phrase 'Third Party' during the speech.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The address took place in Phoenix, Arizona, on August 23, 2024.",
+          "RFK Jr. announced he was suspending his campaign and endorsing Donald Trump.",
+          "He focused on themes of 'Independent' candidacy and the 'Unity' ticket rather than using the specific term 'Third Party'."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4cc3c3999a7e8ad18e490ba46601d0caec6c0044a1b2568ef77a190e50998b33",
+    "market_slug": "trump-wins-270-268-ga-nc-pa",
+    "event_slug": "trump-wins-270-268-ga-nc-pa",
+    "title": "Trump wins 270-268 - GA, NC, PA",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17443.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Donald Trump won the 2024 election with 312 electoral votes, sweeping all seven swing states including GA, NC, and PA. The specific 270-268 map configuration did not occur as he exceeded that margin significantly.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 Presidential Election with 312 electoral votes to Kamala Harris's 226.",
+          "Trump won Georgia (GA), North Carolina (NC), and Pennsylvania (PA), but also won AZ, MI, NV, and WI.",
+          "The final electoral count was certified showing a much wider margin than 270-268."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1bcd75aeb9bfc65d71376f2a01d5f571e6e9f614f0fc6367ab041292065f580b",
+    "market_slug": "jeremy-corbyn-elected-to-parliament-in-uk-election",
+    "event_slug": "jeremy-corbyn-elected-to-parliament-in-uk-election",
+    "title": "Jeremy Corbyn elected to parliament in UK election?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "37952.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jeremy Corbyn ran as an Independent in Islington North during the 2024 UK General Election and successfully defeated the Labour candidate Praful Nargund to retain his seat.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Jeremy Corbyn won the Islington North constituency with 24,120 votes.",
+          "The election took place on July 4, 2024, and Corbyn defeated Labour's Praful Nargund by a majority of 7,247 votes.",
+          "Corbyn ran as an Independent after being blocked from standing as a Labour candidate."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdff7c9151fb9a55de0fe74ffc2ee3ce236b34402267d310661e0026abe075253",
+    "market_slug": "will-pete-buttigieg-say-infrastructure-in-dnc-speech",
+    "event_slug": "what-will-pete-buttigieg-say-during-dnc-speech",
+    "title": "Will Pete Buttigieg say \"Infrastructure\" in DNC speech?",
+    "category": "Elections",
+    "close_time": "2024-08-21T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "2990.09",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Pete Buttigieg delivered his DNC speech on August 21, 2024. As the Secretary of Transportation, he explicitly referenced the administration's work on infrastructure, specifically mentioning the word during his remarks.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Pete Buttigieg spoke on Night 3 of the Democratic National Convention, Wednesday, August 21, 2024.",
+          "He used the word 'infrastructure' while discussing the Bipartisan Infrastructure Law and comparing the current administration's results to the previous one's 'Infrastructure Week' promises.",
+          "The speech took place at the United Center in Chicago."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5c6ba0c9f4b1e44b04d160fd088e0823fa364dfffa31a7e1a06488fe86fed59a",
+    "market_slug": "will-kamala-harris-give-an-interview-before-sept-10",
+    "event_slug": "will-kamala-harris-give-an-interview-before-sept-10",
+    "title": "Will Kamala Harris give an interview before Sept 10?",
+    "category": "Elections",
+    "close_time": "2024-08-10T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "78193.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamala Harris sat for a joint interview with her running mate Tim Walz on CNN with Dana Bash on August 29, 2024, fulfilling her promise to conduct a major interview before the end of August.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The interview was conducted by Dana Bash of CNN.",
+          "The interview took place in Savannah, Georgia, and aired on August 29, 2024.",
+          "This was Harris's first major sit-down interview since becoming the Democratic nominee."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x362a1588b9a58e73fb19948137d84777065435913334ed6489379324c25b52d7",
+    "market_slug": "will-kamala-harris-give-a-live-interview-by-sept-9",
+    "event_slug": "will-kamala-harris-give-a-live-interview-by-sept-9",
+    "title": "Will Kamala Harris give a live interview before debate?",
+    "category": "Elections",
+    "close_time": "2024-09-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "34513.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamala Harris and Tim Walz sat for a joint interview with CNN's Dana Bash on August 29, 2024, which was her first major interview since becoming the nominee and occurred before the September 10 debate.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The interview was conducted by Dana Bash of CNN.",
+          "The interview took place in Savannah, Georgia, and aired on August 29, 2024.",
+          "This was the first unscripted sit-down interview since President Biden withdrew from the race."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd2923ba77aad0c0b4b650a9524a1c765e4379bc30d5399fe45a8de81fe8a1b1e",
+    "market_slug": "will-abraham-hamadeh-win-the-2024-republican-primary-for-arizonas-8th-congressional-district",
+    "event_slug": "az-8-republican-primary-winner",
+    "title": "Will Abraham Hamadeh Win the 2024 Republican Primary for Arizona's 8th Congressional District?",
+    "category": "Elections",
+    "close_time": "2024-07-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "62490.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Abraham Hamadeh won the Republican primary for Arizona's 8th Congressional District on July 30, 2024, defeating Blake Masters and Ben Toma after receiving an endorsement from Donald Trump.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on July 30, 2024.",
+          "Hamadeh defeated his main rivals Blake Masters and Arizona House Speaker Ben Toma.",
+          "Hamadeh received approximately 30% of the vote in a crowded field."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2a2e866073f91ead82d5a87b474f0f301f3698b1a3a3cfcba7639344bb6d0af6",
+    "market_slug": "mark-robinson-divorce-before-the-election",
+    "event_slug": "mark-robinson-divorce-before-the-election",
+    "title": "Mark Robinson divorce before the Election?",
+    "category": "Elections",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17119.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite significant political scandals involving Mark Robinson in late 2024, there were no public filings or announcements of a divorce from his wife, Yolanda Hill, prior to the November 5th election date.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 North Carolina gubernatorial election took place on November 5, 2024.",
+          "Mark Robinson remained married to Yolanda Hill throughout the campaign despite the CNN report regarding 'Nude Africa' comments.",
+          "Robinson lost the election to Josh Stein."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x13dc03f86c5e6166927ab23c05dacdff3010eb806f53b6966aa2be1045253aab",
+    "market_slug": "will-ryan-foster-win-the-mi-12-democratic-house-primary",
+    "event_slug": "mi-12-democratic-primary-winner",
+    "title": "Will Ryan Foster win the MI-12 Democratic House Primary?",
+    "category": "Elections",
+    "close_time": "2024-08-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "25558.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Rashida Tlaib was the incumbent in Michigan's 12th congressional district and ran unopposed in the Democratic primary held on August 6, 2024. Ryan Foster did not appear on the ballot as a candidate for this specific primary race.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The MI-12 Democratic primary took place on August 6, 2024.",
+          "Incumbent Rashida Tlaib ran unopposed in the Democratic primary for Michigan's 12th District.",
+          "Ryan Foster was not a certified candidate for the MI-12 Democratic primary in 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa32f80d09bdc1cc606e2726e36e698405f5489a466ebb41bc0273f67f1006c36",
+    "market_slug": "will-hung-cao-win-the-2024-virginia-senate-republican-primary",
+    "event_slug": "virginia-senate-republican-primary-winner",
+    "title": "Will Hung Cao win the 2024 Virginia Senate Republican Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "17665.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hung Cao was the frontrunner in the primary, having received the endorsement of Donald Trump and maintaining a significant lead in polling and fundraising over his opponents.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on June 18, 2024.",
+          "Hung Cao won with approximately 62% of the vote, defeating candidates including Eddie Garcia and Scott Parkinson.",
+          "He was endorsed by Donald Trump in May 2024."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc276492866ae9a67ce9c294592c7995baa0bd8a3347b280a3e24bc4586c4c9be",
+    "market_slug": "will-colin-allred-win-the-texas-democratic-senate-primary",
+    "event_slug": "texas-democratic-senate-primary",
+    "title": "Will Colin Allred win the Texas Democratic Senate Primary?",
+    "category": "Elections",
+    "close_time": "2024-03-03T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "13437.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Colin Allred won the Texas Democratic Senate primary on March 5, 2024, by securing over 50% of the vote, thereby avoiding a runoff against Roland Gutierrez.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on Super Tuesday, March 5, 2024.",
+          "Colin Allred received approximately 58.9% of the vote, surpassing the 50% threshold required to win without a runoff.",
+          "His main opponent, State Senator Roland Gutierrez, finished in second place with approximately 16.7% of the vote."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5297639a1e92238e42c3fa80388e1225d908750d08d2bb1601a843c4f94a6ddc",
+    "market_slug": "will-katrina-shankland-win-the-wi-3-democratic-house-primary",
+    "event_slug": "wi-3-democratic-primary-winner",
+    "title": "Will Katrina Shankland win the WI-3 Democratic House Primary?",
+    "category": "Elections",
+    "close_time": "2024-08-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9689.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Rebecca Cooke won the Democratic primary for Wisconsin's 3rd Congressional District on August 13, 2024, defeating Katrina Shankland and Eric Wilson. Cooke secured approximately 49% of the vote compared to Shankland's 41%.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on August 13, 2024.",
+          "Rebecca Cooke won the primary with approximately 49% of the vote.",
+          "Katrina Shankland finished in second place with approximately 41% of the vote."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x18da960befbced211f76cbefaeebe98b216f5c6f43dd3eff0219e66f75986769",
+    "market_slug": "will-trent-staggs-win-the-utah-republican-primary",
+    "event_slug": "utah-senate-republican-primary-winner",
+    "title": "Will Trent Staggs win the Utah Republican Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-25T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9372.08",
+    "status": "ok",
+    "forecast": {
+      "rationale": "John Curtis won the Utah Republican primary for the U.S. Senate seat, defeating Trent Staggs and other candidates. Despite receiving Donald Trump's endorsement at the state convention, Staggs finished second in the primary vote.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on June 25, 2024.",
+          "John Curtis won with approximately 48% of the vote, while Trent Staggs received about 32%.",
+          "The seat was being vacated by retiring Senator Mitt Romney."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa6a66f6e484a35cdb863b1db3c8329766c49d02d5a9757b3ca3b9ff1645601d0",
+    "market_slug": "will-andre-jacque-win-the-wi-8-republican-house-primary",
+    "event_slug": "wi-8-republican-primary-winner",
+    "title": "Will André Jacque win the WI-8 Republican House Primary?",
+    "category": "Elections",
+    "close_time": "2024-08-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5053.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tony Wied won the Republican primary for Wisconsin's 8th Congressional District on August 13, 2024, after receiving an endorsement from Donald Trump. André Jacque finished in third place behind Wied and Roger Roth.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on August 13, 2024.",
+          "Tony Wied won the primary with approximately 40% of the vote.",
+          "André Jacque finished third with approximately 25% of the vote.",
+          "The seat was vacated by Mike Gallagher."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbae271d25e248cb2a3ba8de253fa484c56cd1781658bf31a138a55bf64221bf7",
+    "market_slug": "will-roger-wicker-win-the-mississippi-republican-senate-primary",
+    "event_slug": "mississippi-republican-senate-primary-winner",
+    "title": "Will Roger Wicker win the Mississippi Republican Senate Primary?",
+    "category": "Elections",
+    "close_time": "2024-03-10T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "4560.02",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Roger Wicker was the long-term incumbent and faced primary challengers Ghannon Burton and Dan Eubanks. He secured a decisive victory with over 60% of the vote, avoiding a runoff and advancing to the general election.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on March 12, 2024.",
+          "Roger Wicker defeated challengers Ghannon Burton and Dan Eubanks.",
+          "Wicker received approximately 61% of the total vote share."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x92e1da146e2d13b558448cd5e23aed8cfa7ef637f23c4351b60ff8310e03d2f2",
+    "market_slug": "george-santos-wins-ny-1-republican-primary",
+    "event_slug": "george-santos-wins-ny-1-republican-primary",
+    "title": "George Santos wins NY-1 Republican Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-25T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1649.18",
+    "status": "ok",
+    "forecast": {
+      "rationale": "George Santos withdrew his bid for the NY-1 congressional seat in April 2024 after initially announcing a run as an independent, and he did not appear on the Republican primary ballot, which was won by incumbent Nick LaLota.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "George Santos announced his withdrawal from the race on April 23, 2024.",
+          "The NY-1 Republican primary took place on June 25, 2024, with incumbent Nick LaLota running effectively unopposed for the nomination.",
+          "Santos had previously been expelled from Congress in December 2023."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb960e91611534bdac212f67557fa5fd93caec8ba352681bb4c4d408d0e1be5c3",
+    "market_slug": "will-matt-meyer-win-the-2024-delaware-governor-democratic-primary",
+    "event_slug": "delaware-governor-democratic-primary-winner",
+    "title": "Will Matt Meyer win the 2024 Delaware Governor Democratic Primary?",
+    "category": "Elections",
+    "close_time": "2024-09-10T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "582.136",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Matt Meyer won the Delaware Democratic primary for Governor on September 10, 2024, defeating Bethany Hall-Long and Collin O'Mara with approximately 47% of the vote.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on September 10, 2024.",
+          "Matt Meyer defeated Lieutenant Governor Bethany Hall-Long.",
+          "Meyer received roughly 47% of the vote compared to Hall-Long's 37%."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x198d833c085ed0c858165192e9fd446c5392dbcdedd1132d89c578c0b5c29b2f",
+    "market_slug": "will-any-other-democrat-politician-win-the-popular-vote-in-the-2024-presidential-election",
+    "event_slug": "presidential-election-popular-vote-winner-2024",
+    "title": "Will any other Democrat Politician win the popular vote in the 2024 Presidential Election?",
+    "category": "Elections",
+    "close_time": "2024-11-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.64963e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Democratic nomination was consolidated under Kamala Harris following Joe Biden's withdrawal. No other Democratic candidate appeared on general election ballots in a capacity to win the national popular vote against the major party nominees.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Joe Biden withdrew from the race on July 21, 2024.",
+          "Kamala Harris became the official Democratic nominee at the DNC in August 2024.",
+          "The general election popular vote was a contest primarily between Donald Trump and Kamala Harris."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe80c03604e9055bfa5ed975f54f0e49b2846048a15e65541a066a8cdc984f139",
+    "market_slug": "will-marina-helena-win-the-2024-so-paulo-mayoral-election",
+    "event_slug": "so-paulo-mayoral-election-2024",
+    "title": "Will Marina Helena win the 2024 São Paulo mayoral election?",
+    "category": "Elections",
+    "close_time": "2024-10-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.48499e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Marina Helena, representing the Novo party, consistently polled in the low single digits throughout the campaign, far behind frontrunners Ricardo Nunes, Guilherme Boulos, and Pablo Marçal. She did not qualify for the second round of the election.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The first round of the São Paulo mayoral election took place on October 6, 2024.",
+          "Marina Helena finished in 5th place with approximately 1.78% of the valid votes.",
+          "The election proceeded to a second round between Ricardo Nunes and Guilherme Boulos."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x18d4d72d35bd90c4e958bf872c514682651b24badb966ba65fba979ed718db07",
+    "market_slug": "will-stancil-wins-minnesota-61a-house-primary",
+    "event_slug": "will-stancil-wins-minnesota-61a-house-primary",
+    "title": "Will Stancil wins Minnesota House Democratic Primary?",
+    "category": "Elections",
+    "close_time": "2024-08-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "68734.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Will Stancil ran for the open seat in Minnesota House District 61A but lost the Democratic primary to Katie Jones, who secured the nomination in the August 2024 election.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election for Minnesota House District 61A took place on August 13, 2024.",
+          "Katie Jones won the primary with approximately 43% of the vote, while Will Stancil received approximately 35%.",
+          "The seat was being vacated by retiring Representative Frank Hornstein."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x217a88ae576acea36b63d791fbdfeb3707d326943015136d83739e3fbbe1dce6",
+    "market_slug": "will-don-samuels-win-the-mn-5-democratic-house-district",
+    "event_slug": "mn-5-democratic-primary-winner",
+    "title": "Will Don Samuels win the MN-5 Democratic House District?",
+    "category": "Elections",
+    "close_time": "2024-08-13T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "463464",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Don Samuels challenged incumbent Ilhan Omar in the 2024 Democratic primary for Minnesota's 5th District. Omar won the primary with approximately 56% of the vote compared to Samuels' 43%, successfully defending her seat.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on August 13, 2024.",
+          "Ilhan Omar defeated Don Samuels by a margin of roughly 13 percentage points.",
+          "Samuels had previously come within 2 points of Omar in the 2022 primary."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1a30c4fad4296346d8c768700b09d1682209a0279d3cf73d802f299e83a6e4dd",
+    "market_slug": "will-cori-bush-win-the-mo-1-democratic-house-primary",
+    "event_slug": "mo-1-democratic-primary-winner",
+    "title": "Will Cori Bush win the MO-1 Democratic House Primary?",
+    "category": "Elections",
+    "close_time": "2024-08-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "76625.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Cori Bush was defeated in the Democratic primary by Wesley Bell, following a highly contested race where significant outside spending from groups like AIPAC influenced the outcome.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary took place on August 6, 2024.",
+          "Wesley Bell defeated Cori Bush with approximately 51% of the vote to her 46%.",
+          "Cori Bush was the second member of the 'Squad' to lose a primary in 2024, following Jamaal Bowman."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xce9c35c76317971de53939911b7178f385cec48771c502fd50f23bb6254ebc7f",
+    "market_slug": "us-presidential-election-decided-by-less-than-10k-votes",
+    "event_slug": "us-presidential-election-decided-by-less-than-10k-votes",
+    "title": "U.S. Presidential election decided by ≤10k votes?",
+    "category": "Elections",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "28620.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 U.S. Presidential election was decided by margins significantly larger than 10,000 votes in the key swing states that determined the Electoral College outcome, such as Pennsylvania, Wisconsin, and Michigan.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the 2024 election with 312 Electoral College votes to Kamala Harris's 226.",
+          "The closest state margin was in Wisconsin, where Trump won by approximately 29,000 votes, exceeding the 10,000 vote threshold.",
+          "The election took place on November 5, 2024."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x09889f121b252d412baf356cb7288ecaaa78fb605676ca7f3c5f1004ace5fad2",
+    "market_slug": "will-another-party-win-the-most-seats-in-the-ghanaian-parliamentary-election",
+    "event_slug": "ghana-legislative-election",
+    "title": "Will another party win the most seats in the Ghanaian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2024-12-07T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "41712.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ghanaian politics is dominated by the NPP and NDC. While minor parties and independents exist, they have historically failed to win a plurality of seats, making it highly unlikely for a third party to surpass both major contenders in the 2024 parliamentary elections.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2024 Ghanaian general election is scheduled for December 7, 2024.",
+          "The two dominant parties are the New Patriotic Party (NPP) and the National Congress Party (NDC).",
+          "In the 2020 election, the NPP and NDC split the 275 seats almost evenly, with only one independent candidate winning a seat."
+        ],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x1d3311e3d250d9040883dfdd76c7da3d0c099ebfc3c7822f0ed00be812341026",
+    "market_slug": "will-another-candidate-win-the-2024-nevada-senate-democratic-primary",
+    "event_slug": "nevada-senate-democratic-primary-winner",
+    "title": "Will another candidate win the 2024 Nevada Senate Democratic Primary?",
+    "category": "Elections",
+    "close_time": "2024-06-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8826.94",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Incumbent Senator Jacky Rosen was the heavy favorite and faced no significant opposition in the primary, leading to a predictable victory.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The primary election took place on June 11, 2024.",
+          "Jacky Rosen won the Democratic primary with over 90% of the vote.",
+          "Her opponents included Mike Schaefer and Troy Walker, neither of whom posed a serious challenge."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x734d34f1c177e102fd6049b9e78a94b4f6b40c3c7a64e3f98af46932d1cedc55",
+    "market_slug": "will-nikki-haley-drop-out-before-super-tuesday",
+    "event_slug": "will-nikki-haley-drop-out-before-super-tuesday",
+    "title": "Will Nikki Haley drop out before Super Tuesday?",
+    "category": "Elections",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "377958",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nikki Haley repeatedly committed to staying in the race through Super Tuesday despite losses in early states like South Carolina and Michigan. She ultimately suspended her campaign on March 6, 2024, the day after Super Tuesday.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Nikki Haley suspended her campaign on March 6, 2024, following the Super Tuesday results.",
+          "Super Tuesday occurred on March 5, 2024.",
+          "Haley won only Vermont on Super Tuesday before exiting the race the next morning."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x91507e165f300d4a2841e89cac4149d19ba5d92087c8e6d3c9b66a2dc7cf5437",
+    "market_slug": "will-the-democratic-ticket-be-all-male",
+    "event_slug": "gender-of-the-democratic-ticket",
+    "title": "Will the Democratic ticket be all male?",
+    "category": "Elections",
+    "close_time": "2024-07-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "165116",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By the close time of July 22, 2024, Kamala Harris had already been the Vice President on the ticket and had secured the support of the Democratic party to lead the ticket following Joe Biden's withdrawal on July 21.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Joe Biden announced his withdrawal from the 2024 race on July 21, 2024.",
+          "Kamala Harris immediately announced her candidacy and secured enough delegate endorsements to become the presumptive nominee by July 22.",
+          "The ticket remained female-led with Kamala Harris."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf72c6c1e44bcf0108ad3d126e41e5dac1bc27336d88edd13580b6cb0e38f2d93",
+    "market_slug": "will-nigel-farage-win-election-to-uk-parliament",
+    "event_slug": "will-nigel-farage-win-election-to-uk-parliament",
+    "title": "Will Nigel Farage win election to UK parliament?",
+    "category": "Elections",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "326337",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nigel Farage stood as the Reform UK candidate for Clacton in the 2024 UK General Election and won the seat with a significant majority, marking his first successful election to the House of Commons.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Nigel Farage won the Clacton constituency with 21,225 votes.",
+          "The election took place on July 4, 2024.",
+          "He defeated the Conservative incumbent Giles Watling by a margin of 8,405 votes."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x924aaeebf8bfe21bbe81107af8e4e44775fc17ce296f99952fd4ef5a04356a11",
+    "market_slug": "another-dem-house-member-calls-for-biden-to-drop-out-by-friday",
+    "event_slug": "another-dem-house-member-calls-for-biden-to-drop-out-by-friday",
+    "title": "Another Dem House member calls for Biden to drop out by Friday?",
+    "category": "Elections",
+    "close_time": "2024-07-05T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "9053.58",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the June 27 debate, several House Democrats called for Biden to withdraw. By July 5, 2024, representatives including Lloyd Doggett, Raul Grijalva, and Seth Moulton had already made public statements, with more joining before the Friday deadline.",
+      "probabilities": {
+        "Yes": 1.0,
+        "No": 0.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Lloyd Doggett was the first sitting House Democrat to call for Biden to withdraw on July 2, 2024.",
+          "Seth Moulton and Mike Quigley joined the calls for Biden to step aside by July 4 and July 5, 2024.",
+          "The close time of July 5, 2024, aligns with the post-debate fallout period."
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  }
+]

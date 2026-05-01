@@ -32,8 +32,8 @@ from typing import Any
 
 
 BASE_DIR = Path(__file__).parent
-DEFAULT_INPUT = BASE_DIR / "ClimateMarkets" / "markets.csv"
-DEFAULT_OUTPUT = BASE_DIR / "ClimateMarkets" / "recall" / "gemini_recall.json"
+DEFAULT_INPUT = BASE_DIR / "PoliticsMarkets" / "markets.csv"
+DEFAULT_OUTPUT = BASE_DIR / "PoliticsMarkets" / "recall" / "gemini-3-flash-preview_recall.json"
 CONFIG_PATH = BASE_DIR / "recall_config.txt"
 
 _cfg = configparser.ConfigParser(interpolation=None)
@@ -333,6 +333,27 @@ def response_output_text(response: Any) -> str:
     return "".join(pieces)
 
 
+def is_retryable_503_error(exc: Exception) -> bool:
+    message = str(exc).upper()
+    return "503" in message and "UNAVAILABLE" in message
+
+
+def thinking_config_for_model(genai_types: Any, model: str) -> Any | None:
+    normalized_model = model.strip().lower()
+
+    if normalized_model.startswith("gemini-3"):
+        if "flash" in normalized_model:
+            return genai_types.ThinkingConfig(thinking_level="minimal")
+        return genai_types.ThinkingConfig(thinking_level="low")
+
+    if normalized_model.startswith("gemini-2.5"):
+        if "flash" in normalized_model:
+            return genai_types.ThinkingConfig(thinking_budget=0)
+        return None
+
+    return genai_types.ThinkingConfig(thinking_budget=0)
+
+
 def _attempt_forecast(
     client: Any,
     genai_types: Any,
@@ -343,17 +364,17 @@ def _attempt_forecast(
     temperature: float,
 ) -> dict[str, Any]:
     """One Gemini call. Raises ValueError on parse or validation failure."""
-    config = genai_types.GenerateContentConfig(
+    config_kwargs = dict(
         system_instruction=SYSTEM_PROMPT,
         temperature=temperature,
         max_output_tokens=max_output_tokens,
         response_mime_type="application/json",
         response_schema=response_schema(outcomes),
-        # Disable hidden reasoning tokens so Gemini's output budget matches
-        # Claude/ChatGPT (which don't reserve tokens for chain-of-thought).
-        # Without this, gemini-2.5-* truncates JSON before completion.
-        thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
     )
+    thinking_config = thinking_config_for_model(genai_types, model)
+    if thinking_config is not None:
+        config_kwargs["thinking_config"] = thinking_config
+    config = genai_types.GenerateContentConfig(**config_kwargs)
 
     response = client.models.generate_content(
         model=model,
@@ -383,6 +404,8 @@ def forecast_one(
     gemini-2.5-* occasionally enters degenerate generation loops at temperature=0
     (e.g. emitting only newlines), which produces unparseable or truncated JSON.
     Bumping temperature reliably breaks the loop, so each retry escalates.
+    Transient 503 UNAVAILABLE responses are retried indefinitely after a 5s delay
+    so they do not get persisted as terminal error rows.
     """
     outcomes = infer_outcomes(row)
     user_prompt = build_user_prompt(row, outcomes)
@@ -394,27 +417,35 @@ def forecast_one(
             temperature + retry_temperature_step * attempt,
             retry_temperature_step,
         )
-        try:
-            return _attempt_forecast(
-                client=client,
-                genai_types=genai_types,
-                user_prompt=user_prompt,
-                outcomes=outcomes,
-                model=model,
-                max_output_tokens=max_output_tokens,
-                temperature=attempt_temp,
-            )
-        except ValueError as exc:
-            last_err = exc
-            if attempt < attempts - 1:
-                next_temp = max(
-                    temperature + retry_temperature_step * (attempt + 1),
-                    retry_temperature_step,
+        while True:
+            try:
+                return _attempt_forecast(
+                    client=client,
+                    genai_types=genai_types,
+                    user_prompt=user_prompt,
+                    outcomes=outcomes,
+                    model=model,
+                    max_output_tokens=max_output_tokens,
+                    temperature=attempt_temp,
                 )
-                print(
-                    f"  retry {attempt + 1}/{max_retries} at temp={next_temp:.2f} "
-                    f"after parse/validation failure: {str(exc)[:80]}"
-                )
+            except Exception as exc:
+                if is_retryable_503_error(exc):
+                    print("  503 UNAVAILABLE from Gemini; retrying in 5.0s")
+                    time.sleep(5.0)
+                    continue
+                if isinstance(exc, ValueError):
+                    last_err = exc
+                    if attempt < attempts - 1:
+                        next_temp = max(
+                            temperature + retry_temperature_step * (attempt + 1),
+                            retry_temperature_step,
+                        )
+                        print(
+                            f"  retry {attempt + 1}/{max_retries} at temp={next_temp:.2f} "
+                            f"after parse/validation failure: {str(exc)[:80]}"
+                        )
+                    break
+                raise
 
     raise RuntimeError(f"all {attempts} attempts failed; last error: {last_err}")
 
