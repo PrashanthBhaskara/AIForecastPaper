@@ -72,12 +72,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Forecast Polymarket events with ChatGPT.")
     parser.add_argument("--input", default=str(DEFAULT_INPUT), help="Path to input CSV.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="Path to output JSON.")
-    parser.add_argument(
-        "--limit",
-        type=int,
-        default=None,
-        help="Max number of markets to process. Default: 100 for ClimateMarkets, 150 otherwise.",
-    )
+    parser.add_argument("--limit", type=int, default=None, help="Max number of markets to process.")
     parser.add_argument("--model", default=DEFAULT_MODEL, help=f"OpenAI model to use. Default: {DEFAULT_MODEL}")
     parser.add_argument(
         "--max-output-tokens",
@@ -302,7 +297,13 @@ def load_existing_results(output_path: Path) -> tuple[list[dict[str, Any]], set[
         return [], set()
     with output_path.open(encoding="utf-8") as handle:
         results = json.load(handle)
-    done_ids = {row["condition_id"] for row in results if isinstance(row, dict) and row.get("condition_id")}
+    done_ids = {
+        row["condition_id"]
+        for row in results
+        if isinstance(row, dict)
+        and row.get("condition_id")
+        and row.get("status") == "ok"
+    }
     return results, done_ids
 
 
@@ -349,7 +350,15 @@ def _truncated_by_max_tokens(response: Any) -> bool:
     return getattr(details, "reason", None) == "max_output_tokens" if details else False
 
 
-def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens: tuple[int, int], temperature: float) -> dict[str, Any]:
+def forecast_one(
+    client: Any,
+    row: dict[str, str],
+    model: str,
+    max_output_tokens: tuple[int, int],
+    temperature: float,
+    omit_params: set[str] | None = None,
+) -> dict[str, Any]:
+    omit_params = omit_params or set()
     outcomes = infer_outcomes(row)
     user_prompt = build_user_prompt(row, outcomes)
 
@@ -360,13 +369,12 @@ def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens
     for index, budget in enumerate(budgets):
         if index > 0:
             print(f"  retrying with {budget} tokens (previous response truncated)")
-        response = client.responses.create(
-            model=model,
-            instructions=SYSTEM_PROMPT,
-            input=[{"role": "user", "content": user_prompt}],
-            max_output_tokens=budget,
-            temperature=temperature,
-            text={
+        request_kwargs: dict[str, Any] = {
+            "model": model,
+            "instructions": SYSTEM_PROMPT,
+            "input": [{"role": "user", "content": user_prompt}],
+            "max_output_tokens": budget,
+            "text": {
                 "format": {
                     "type": "json_schema",
                     "name": "market_recall_forecast",
@@ -374,7 +382,10 @@ def forecast_one(client: Any, row: dict[str, str], model: str, max_output_tokens
                     "schema": response_schema(outcomes),
                 }
             },
-        )
+        }
+        if "temperature" not in omit_params:
+            request_kwargs["temperature"] = temperature
+        response = client.responses.create(**request_kwargs)
         if not _truncated_by_max_tokens(response):
             break
 
@@ -403,14 +414,8 @@ def main() -> None:
     with input_path.open(newline="", encoding="utf-8") as handle:
         markets = list(csv.DictReader(handle))
 
-    if args.limit is None:
-        if "ClimateMarkets" in input_path.parts:
-            effective_limit = 100
-        else:
-            effective_limit = 150
-    else:
-        effective_limit = args.limit
-    markets = markets[:effective_limit]
+    if args.limit is not None:
+        markets = markets[: args.limit]
 
     print(f"Input:   {input_path}  ({len(markets)} rows)")
     print(f"Output:  {output_path}")
@@ -440,6 +445,9 @@ def main() -> None:
     OpenAI = require_openai_client_class()
     client = OpenAI()
 
+    omit_params: set[str] = set()
+    unsupported_param_re = re.compile(r"Unsupported parameter:\s*'([^']+)'")
+
     for index, row in enumerate(markets, start=1):
         condition_id = row.get("condition_id", "")
         title = row.get("title", "")
@@ -450,19 +458,34 @@ def main() -> None:
 
         print(f"[{index:3}/{len(markets)}] Forecasting: {title[:60]}...")
 
-        try:
-            forecast = forecast_one(
-                client=client,
-                row=row,
-                model=args.model,
-                max_output_tokens=args.max_output_tokens,
-                temperature=args.temperature,
-            )
-            status = "ok"
-        except Exception as exc:  # pragma: no cover - runtime API failures are expected to be data-dependent
-            print(f"  ERROR: {exc}")
-            forecast = {"error": str(exc)}
-            status = "error"
+        forecast: dict[str, Any] = {}
+        status = "error"
+        last_error = ""
+        for _ in range(4):
+            try:
+                forecast = forecast_one(
+                    client=client,
+                    row=row,
+                    model=args.model,
+                    max_output_tokens=args.max_output_tokens,
+                    temperature=args.temperature,
+                    omit_params=omit_params,
+                )
+                status = "ok"
+                break
+            except Exception as exc:  # pragma: no cover - runtime API failures are data-dependent
+                last_error = str(exc)
+                match = unsupported_param_re.search(last_error)
+                if match and match.group(1) not in omit_params:
+                    bad_param = match.group(1)
+                    omit_params.add(bad_param)
+                    print(f"  model rejects '{bad_param}'; retrying without it")
+                    continue
+                print(f"  ERROR: {exc}")
+                forecast = {"error": last_error}
+                break
+        else:
+            forecast = {"error": last_error or "exceeded retry budget for unsupported params"}
 
         result = {
             "condition_id": condition_id,
@@ -476,8 +499,21 @@ def main() -> None:
             "status": status,
             "forecast": forecast,
         }
-        results.append(result)
-        if condition_id:
+        existing_idx = next(
+            (
+                i
+                for i, prior in enumerate(results)
+                if isinstance(prior, dict)
+                and condition_id
+                and prior.get("condition_id") == condition_id
+            ),
+            None,
+        )
+        if existing_idx is not None:
+            results[existing_idx] = result
+        else:
+            results.append(result)
+        if condition_id and status == "ok":
             done_ids.add(condition_id)
         save_results(results, output_path)
 
