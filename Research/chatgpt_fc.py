@@ -25,9 +25,11 @@ import time
 from pathlib import Path
 from typing import Any
 
+import requests
 
 _cfg = configparser.ConfigParser(interpolation=None)
 BASE_DIR = Path(__file__).parent
+GAMMA_API = "https://gamma-api.polymarket.com"
 CONFIG_PATH = BASE_DIR / "fc_config.txt"
 _cfg.read(CONFIG_PATH, encoding="utf-8")
 
@@ -46,6 +48,30 @@ _SYSTEM_PROMPT_FALLBACK = (
     "Return JSON only; no extra text."
 )
 SYSTEM_PROMPT = _cfg.get("system_prompt", "prompt", fallback=_SYSTEM_PROMPT_FALLBACK).strip()
+
+
+def fetch_market_price(market_slug: str) -> dict | None:
+    if not market_slug:
+        return None
+    try:
+        r = requests.get(f"{GAMMA_API}/markets", params={"slug": market_slug}, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        print(f"    [warn] price fetch failed for {market_slug}: {e}")
+        return None
+    markets = data if isinstance(data, list) else [data]
+    for market in markets:
+        raw_outcomes = market.get("outcomes", "[]")
+        raw_prices = market.get("outcomePrices", "[]")
+        try:
+            outcomes = json.loads(raw_outcomes) if isinstance(raw_outcomes, str) else raw_outcomes
+            prices = json.loads(raw_prices) if isinstance(raw_prices, str) else raw_prices
+        except Exception:
+            continue
+        if outcomes and prices and len(outcomes) == len(prices):
+            return {o: float(p) for o, p in zip(outcomes, prices)}
+    return None
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -350,6 +376,8 @@ def main() -> None:
             forecast = {"error": str(exc)}
             status = "error"
 
+        market_price = fetch_market_price(row.get("market_slug", ""))
+
         result = {
             "condition_id": condition_id,
             "market_slug": row.get("market_slug", ""),
@@ -361,6 +389,8 @@ def main() -> None:
             "status": status,
             "forecast": forecast,
         }
+        if market_price is not None:
+            result["market_price"] = market_price
         results.append(result)
         if condition_id:
             done_ids.add(condition_id)
