@@ -131,7 +131,7 @@ def forecast_one(client: anthropic.Anthropic, row: dict) -> dict:
     response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
-        #temperature=TEMPERATURE,
+        temperature=TEMPERATURE,
         system=[
             {
                 "type": "text",

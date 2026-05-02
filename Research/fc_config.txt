@@ -33,13 +33,10 @@ sleep_between_calls = 0.5
 
 
 [paths]
-market = ElectionsMarkets
+market = ClimateMarkets
 
 
 [system_prompt]
-# Shared system prompt — word-for-word identical across all three models.
-# Edit here to update all models simultaneously.
-# Every continuation line must begin with exactly one space.
 prompt = You are an AI assistant specialized in analyzing and predicting real-world events.
  Event: <event title>
  Close Time (UTC): <close_time>

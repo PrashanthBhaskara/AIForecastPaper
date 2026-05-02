@@ -1,0 +1,2552 @@
+[
+  {
+    "condition_id": "0xf64f0c63a95f13006f1feddee78fb1cc09fcd021dce68f5b5190a479be64484b",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-between-1900pt00-and-1999pt99-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026-higher-brackets",
+    "title": "Will the official USD to ARS exchange rate be between 1900.00 and 1999.99 at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "11104.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "From ~1,050 ARS/USD in early 2025, reaching the 1,900-1,999 range by end-2026 requires ~80-90% depreciation. At Argentina's current crawling peg (~2%/month), the rate would reach ~1,688, undershooting the range. A faster crawl or devaluation could overshoot. The specific 5% window makes exact landing unlikely, and the central trajectory appears to fall below this range.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x01677ae80095732d69ef484b859460b69d21714dd370b9e4f377469c35fac05d",
+    "market_slug": "canada-recession-before-2027",
+    "event_slug": "canada-recession-before-2027",
+    "title": "Canada recession before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "64737",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's economy faces significant headwinds including trade tensions with the US (tariffs), elevated household debt, a cooling housing market, and slowing global growth. However, Canada has avoided recession so far despite these pressures, and the Bank of Canada has room to cut rates further to stimulate growth. The 2-year window through end of 2026 provides substantial time for a recession to materialize, and with US tariff risks and domestic vulnerabilities, the probability is moderately elevated but not certain.",
+      "probabilities": {
+        "Yes": 0.52,
+        "No": 0.48
+      }
+    }
+  },
+  {
+    "condition_id": "0xddb02d336f907bf510b59f13a9a5fb3e5dd92ff1a967fc63acf47e95a57fdbe6",
+    "market_slug": "will-the-eurozones-2026-annual-inflation-be-between-1pt9-and-2pt1",
+    "event_slug": "eurozone-2026-annual-inflation",
+    "title": "Will the Eurozone's 2026 Annual Inflation be between 1.9% and 2.1%?",
+    "category": "Economics",
+    "close_time": "2027-01-19T00:00:00Z",
+    "volume": "2749.67",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone inflation has been gradually declining from its 2022-2023 peaks toward the ECB's 2% target. Current forecasts for 2026 suggest inflation settling near 2%, but hitting the narrow 1.9%-2.1% band precisely is uncertain given energy price volatility, wage dynamics, and geopolitical risks. The ECB targets 2%, making this range plausible, but the band is only 0.2 percentage points wide, limiting the probability of an exact landing.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x132a28d477e53645301b847d71fd1ab73655bf54c72b0d759fdd351480781d6c",
+    "market_slug": "will-canada-have-the-highest-unemployment-rate-since-2016-this-year",
+    "event_slug": "will-canada-have-the-highest-unemployment-rate-since-2016-this-year",
+    "title": "Will Canada have the highest unemployment rate since 2016 this year?",
+    "category": "Economics",
+    "close_time": "2027-02-15T00:00:00Z",
+    "volume": "5965.64",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's unemployment rate had already risen to approximately 6.8% by late 2024, trending upward from pandemic lows. With US tariffs posing significant risks to Canadian exports and a roughly 2-year window until close, the rate reaching the ~7.0-7.1% threshold seen in 2016 is plausible. However, Bank of Canada rate cuts and potential trade resolutions could stabilize the labor market.",
+      "probabilities": {
+        "Yes": 0.62,
+        "No": 0.38
+      }
+    }
+  },
+  {
+    "condition_id": "0xc005f6bbab45762a81273660e306c85cfbf283f8c705ba67c537d30e9ffa2ad2",
+    "market_slug": "will-trump-cut-corporate-taxes-before-2027",
+    "event_slug": "will-trump-cut-corporate-taxes-before-2027",
+    "title": "Will Trump cut corporate taxes before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "15138.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump and Republicans passed the Tax Cuts and Jobs Act extension/reform through the 'One Big Beautiful Bill' reconciliation process in 2025, which included maintaining or reducing corporate tax rates. With Republican control of Congress and Trump's strong push for tax cuts as a core policy priority, it is highly likely that corporate tax legislation was enacted before 2027. The main uncertainty is whether the final legislation actually reduced (rather than merely maintained) corporate taxes.",
+      "probabilities": {
+        "Yes": 0.72,
+        "No": 0.28
+      }
+    }
+  },
+  {
+    "condition_id": "0x365ea48d7238e8f8dd137665e562997d29db9d949d5dc48beac9a34ec97c17d9",
+    "market_slug": "fed-rate-hike-by-april-2026-meeting",
+    "event_slug": "fed-rate-hike-by",
+    "title": "Fed Rate Hike by April 2026 Meeting?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "43086.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the Federal Reserve has been in a rate-cutting cycle following its 2022-2023 hiking campaign. Market expectations and Fed communications suggest rates are more likely to remain stable or continue modest cuts through April 2026, with inflation gradually approaching target. A rate hike by April 2026 would require a significant resurgence in inflation or other economic shocks, which is possible but not the base case scenario.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0xdc5cd3816f6273546e45c0db4cf10b6788119a5f28a7148fe3471a83d6360ca7",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-1600pt00-or-higher-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026",
+    "title": "Will the official USD to ARS exchange rate be 1600.00 or higher at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1357.25",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The official USD/ARS rate is approximately 1,000-1,050 in early 2025. Argentina operates a crawling peg; at 2% monthly depreciation the rate would exceed 1,600 by late 2026, but the crawl was reduced to ~1% monthly in early 2025. At 1% monthly crawl over 24 months, the rate would reach ~1,300-1,350, falling short of 1,600. Reaching 1,600 would require either a step devaluation or maintaining higher crawl rates, which is possible but uncertain given Milei's stabilization efforts.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      }
+    }
+  },
+  {
+    "condition_id": "0x5b9cb2fbdfb50eae19a1fdd228487ff797fab1539a1e74565b5e6ad3b586368b",
+    "market_slug": "us-defaults-on-debt-by-2027",
+    "event_slug": "us-defaults-on-debt-by-2027",
+    "title": "US defaults on debt by 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "14788.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A US sovereign default by end of 2026 is extremely unlikely. While debt ceiling standoffs have occurred repeatedly, the US has never defaulted on its debt obligations, and political mechanisms (last-minute deals, extraordinary measures, potential use of the 14th Amendment) have always prevented default. The consequences of an actual default would be catastrophic, creating overwhelming political incentive to avoid it. Even in the most contentious debt ceiling fights, resolution has always been reached.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0x4d92632a8f30a2c1bd7cfca50093715f6270542c681466483c9f3193be15cda0",
+    "market_slug": "will-ground-beef-hit-8-per-pound-in-2026",
+    "event_slug": "will-ground-beef-hit-in-2026",
+    "title": "Will ground beef hit $8 per pound in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1424.84",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ground beef prices in the US have been rising, averaging around $5.50-$6.00 per pound in 2024-2025. Reaching $8 per pound by end of 2026 would require roughly a 30-45% increase from current levels within about two years. While beef prices have trended upward due to herd liquidation and supply constraints, such a dramatic jump to $8/lb in a single year seems unlikely under normal conditions, though not impossible if severe supply shocks or inflation accelerate. Historical price trajectories and typical annual increases of 5-10% make this threshold difficult to reach by 2026.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf62da76bbaea9f83a75e4f96ee8df0e8956634f17f3190f3f1e32a9eb81d714",
+    "market_slug": "united-x-american-airlines-merger-announced-in-2026",
+    "event_slug": "united-x-american-airlines-merger-announced-in-2026",
+    "title": "United x American Airlines merger/acquisition announced in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "2779.04",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A United-American Airlines merger would face enormous regulatory hurdles, as the DOJ has historically blocked major airline consolidations (e.g., the attempted AA-US Airways merger faced scrutiny, and the Spirit-JetBlue merger was blocked in 2024). Both carriers are large legacy airlines, and antitrust regulators would almost certainly challenge such a combination. There are no credible reports or signals of such a deal being contemplated as of early 2025, and the political/regulatory environment makes announcement within 2026 extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0x2bb4294142c311763ca6be27ceffcef132f5ac8281f98a62abe02f6e6a8c0107",
+    "market_slug": "will-the-feds-lower-bound-reach-2pt75-or-lower-before-2027-448-727-854",
+    "event_slug": "what-will-fed-rate-hit-before-2027",
+    "title": "Will the Fed’s lower bound reach 2.75% or lower before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "268833",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Reaching 2.75% requires at least 150bps of additional cuts from the current 4.25% lower bound. In a soft landing scenario (most likely), the Fed would likely stop around 3.25-3.5%. A recession or significant economic deterioration would be needed to push rates to 2.75% or below. With recession probability around 30-35% over the next two years and some small probability of aggressive cuts even without recession, the overall probability is moderate but below 50%.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x03b6de28d45d1468575f5fe5c327959250c4f6c9f8bb62b1a14c48587f7b9cb2",
+    "market_slug": "will-eurozone-annual-gdp-growth-in-2026-be-between-4pt0-and-5pt0",
+    "event_slug": "eurozone-annual-gdp-growth-2026",
+    "title": "Will Eurozone annual GDP growth in 2026 be between 4.0% and 5.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "1411.99",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone annual GDP growth has historically ranged between -0.5% and 3% in recent decades, with post-COVID recovery reaching around 5.4% in 2021 but quickly normalizing. Current forecasts for 2025-2026 suggest modest growth of 1.0-1.5%. Growth between 4.0% and 5.0% would require an extraordinary economic boom far above consensus expectations and historical norms for the Eurozone.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0xe0acd0255dbd9274d22d8c1b226c9a2b60bad9098507ce8e7d72dede580cd57a",
+    "market_slug": "will-trump-reduce-the-deficit-before-2027",
+    "event_slug": "will-trump-reduce-the-deficit-before-2027",
+    "title": "Will Trump reduce the deficit before 2027? ",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "548.042",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US federal deficit has been running at approximately $1.7-2 trillion annually. Trump's second term agenda includes significant tax cuts (extending TCJA) which would increase the deficit, while DOGE-led spending cuts have shown limited actual savings so far. Historical precedent from Trump's first term showed deficits increased. Most fiscal projections suggest the deficit will grow rather than shrink through 2026, making a reduction before end of 2026 unlikely.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x53ba15f24a0194c2ef422cc023d26e86ab03a7fd36a62cb8c0eacf5c2a22cae0",
+    "market_slug": "will-the-us-economy-have-slack-at-the-end-of-2026",
+    "event_slug": "us-economic-state-at-the-end-of-2026",
+    "title": "Will the US economy have slack at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "7.8125",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Economic slack refers to underutilization of resources, typically measured by unemployment above the natural rate or output below potential. As of early 2025, the US labor market remains relatively tight, but there are signs of cooling. By end of 2026, with ongoing Fed policy effects, potential slowdown risks, and historical patterns suggesting cycles, there is a moderate chance of some slack developing. However, the US economy has shown resilience, and a soft landing scenario remains plausible, keeping slack limited.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    }
+  },
+  {
+    "condition_id": "0x26e6aa82c5fa62e9a146521aa5bfd7b5f4c5b47b92e66507defe992bd09a173f",
+    "market_slug": "ecb-rate-hike-in-2026",
+    "event_slug": "ecb-rate-hike-in-2026",
+    "title": "ECB rate hike in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "98332.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ECB has been in an easing cycle through 2024-2025, cutting rates as inflation approached target. By 2026, the baseline expectation is that rates will have stabilized at a neutral level, with hikes only likely if inflation resurges significantly above target. Current market pricing and ECB forward guidance suggest rate hikes in 2026 are unlikely but not impossible given geopolitical or supply-side inflation risks.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x5a9d912131826ecce7076d83cf6e5f674fa0e1cfafbe73ec9ae3b2a84a54c0b9",
+    "market_slug": "eu-debt-downgrade-before-2027",
+    "event_slug": "eu-debt-downgrade-before-2027",
+    "title": "EU debt downgrade before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1343.51",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The EU (European Union as an entity) currently holds high credit ratings from major agencies (AAA/Aaa). A downgrade before 2027 would require significant fiscal deterioration or institutional stress. While European debt concerns exist, the EU's supranational status, strong institutional backing, and relatively conservative borrowing profile make a downgrade within ~2 years quite unlikely. Historical precedent shows EU ratings have been stable, and no imminent downgrade signals are present.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xfdc73f10edf0266756686f35b5712cffa828b0940fc015e0426c76c934c2105d",
+    "market_slug": "us-recession-by-end-of-2026",
+    "event_slug": "us-recession-by-end-of-2026",
+    "title": "US recession by end of 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "1.38848e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the US economy faces elevated risks from tariff uncertainty, tighter financial conditions, and slowing growth, but the labor market remains relatively resilient. Most forecasters assign a 30-45% probability of recession by end of 2026, reflecting genuine uncertainty but a baseline expectation of continued (if sluggish) expansion. Balancing these factors, a moderate recession probability is appropriate.",
+      "probabilities": {
+        "Yes": 0.38,
+        "No": 0.62
+      }
+    }
+  },
+  {
+    "condition_id": "0x1f61db83c47fc787f44997af53d517cc4775e813b169d0b8ae2ad3bff316d052",
+    "market_slug": "will-inflation-reach-more-than-4-in-2026-669",
+    "event_slug": "how-high-will-inflation-get-in-2026",
+    "title": "Will inflation reach more than 4% in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "145880",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current inflation trends in major economies (particularly the US) show inflation gradually declining toward central bank targets of around 2%. Most forecasts for 2026 project inflation settling in the 2-3% range, with central banks maintaining restrictive policies to prevent resurgence. While risks exist (geopolitical shocks, energy price spikes, fiscal stimulus), sustained inflation above 4% in 2026 is considered unlikely by most economic forecasters.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x7afb0968d23370cf4daf85e6a483c45197181ffbc26122465af70ee15e56d286",
+    "market_slug": "ecb-rate-cut-in-2026",
+    "event_slug": "ecb-rate-cut-in-2026",
+    "title": "ECB rate cut in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "25956.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The ECB has been in an easing cycle since 2024, and with inflation expected to return near target by 2025-2026, there is a high likelihood of at least one rate cut occurring in 2026. Historical patterns show central banks rarely pause for an entire calendar year when in an easing cycle, and economic conditions in the eurozone are expected to remain soft enough to warrant continued accommodation. The probability of at least one cut in 2026 is very high.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      }
+    }
+  },
+  {
+    "condition_id": "0xe61206a9db350886fbc62f56da9b6f7343a931b9e609038c486e9048aac1246c",
+    "market_slug": "will-the-us-federal-government-take-a-stake-in-tiktok-usds-joint-venture-llc-or-bytedance",
+    "event_slug": "which-companies-will-the-us-take-a-stake-in",
+    "title": "Will the US federal government take a stake in TikTok USDS Joint Venture LLC or Bytedance?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "301.857",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US government taking an equity stake in TikTok or ByteDance would be highly unusual and unprecedented for US policy. While there have been discussions about forcing a sale of TikTok's US operations and various regulatory actions, the US government acquiring an ownership stake in a private company (especially a foreign-owned social media platform) goes against typical American free-market principles. No credible proposals for government equity ownership have advanced through Congress or the executive branch as of early 2025.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xad89385d3ac086b7642b116b4f794bc280584d8ce2645e6904a9ce09cc6756fd",
+    "market_slug": "uk-recession-in-2026",
+    "event_slug": "uk-recession-in-2026",
+    "title": "UK Recession in 2026?",
+    "category": "Economics",
+    "close_time": "2027-03-31T00:00:00Z",
+    "volume": "229.735",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The UK economy has been sluggish but most forecasts for 2026 show modest positive growth, with the Bank of England and IMF projecting GDP expansion of around 1-1.5%. While risks exist (global trade tensions, high debt, weak productivity), a technical recession (two consecutive quarters of negative GDP) in 2026 is not the base case for most economists. Historical base rates for UK recessions in any given year are roughly 15-20%.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    }
+  },
+  {
+    "condition_id": "0x039aecea63c2728234a00cbcf27ea0db3247c488b3cc97cf1cd213b2a4735edb",
+    "market_slug": "will-mexicos-2026-annual-inflation-be-between-3pt00-and-3pt49",
+    "event_slug": "mexico-annual-inflation-2026",
+    "title": "Will Mexico’s 2026 Annual Inflation be between 3.00% and 3.49%?",
+    "category": "Economics",
+    "close_time": "2027-01-08T00:00:00Z",
+    "volume": "25671.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mexico's annual inflation has been elevated in recent years, running above 4% through much of 2023-2024. The Banco de México has been working to bring inflation toward its 3% target, but achieving a rate precisely in the 3.00%-3.49% band by end of 2026 requires significant disinflation without overshooting. While the target range is plausible given the easing cycle, uncertainty remains high and the probability of landing in this specific narrow band is moderate.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+    "market_slug": "will-no-fed-rate-cuts-happen-in-2026",
+    "event_slug": "how-many-fed-rate-cuts-in-2026",
+    "title": "Will no Fed rate cuts happen in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "3.46748e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current market expectations and Fed projections suggest gradual rate cuts are likely to continue through 2026, though the pace is uncertain. Historical precedent shows the Fed rarely holds rates completely flat for an entire year when in an easing cycle, and economic conditions would need to be unusually stable or inflationary to warrant zero cuts throughout all of 2026. However, there is some probability of a pause scenario if inflation remains sticky.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x8bc43739611f5d6e2c8b975b5f3a98425b8b1250995cb1c978ee722d2f075d3e",
+    "market_slug": "japan-recession-in-2026",
+    "event_slug": "japan-recession-in-2026",
+    "title": "Japan recession in 2026?",
+    "category": "Economics",
+    "close_time": "2027-03-31T00:00:00Z",
+    "volume": "72.6059",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Japan has experienced periodic recessions and its economy faces structural challenges including aging demographics, weak domestic consumption, and export dependency. However, Japan recently exited deflation and the Bank of Japan has been normalizing policy, which could support growth. Global uncertainty (trade tensions, slowdown in China) poses downside risks, but a full recession (two consecutive quarters of negative GDP growth) in 2026 is not the base case scenario for most forecasters.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x8aee74b7b847e182a4e80090d76c278ada71bfd9144d8cc0868c51a339524738",
+    "market_slug": "will-indias-2026-annual-inflation-be-between-2pt25-and-2pt99",
+    "event_slug": "india-annual-inflation-2026",
+    "title": "Will India’s 2026 Annual Inflation be between 2.25% and 2.99%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "23188.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "India's recent annual inflation has been running around 4-6% (CPI), well above the 2.25%-2.99% range. For 2026 inflation to fall into this narrow band would require a dramatic and sustained decline far below the RBI's 4% target. While global disinflation trends exist, such a sharp drop to below 3% is historically unusual for India and would require exceptional circumstances. The probability is low but not negligible given uncertainty over a multi-year horizon.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x47a99f8df527cbf1e19395681e761d3b8e720402eeb103037be35f78b4141517",
+    "market_slug": "christine-lagarde-out-as-ecb-president-in-2026",
+    "event_slug": "christine-lagarde-out-as-ecb-president-in-2026",
+    "title": "Christine Lagarde out as ECB president in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "12618.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Christine Lagarde's term as ECB president runs until October 31, 2027, so she is not scheduled to leave before the end of 2026. There is no strong public indication of early resignation or removal, and ECB presidents rarely leave mid-term. The probability of her departing before December 31, 2026 is very low.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0xd8c1b0a73653b1fb4fb6e8d13d0063d25810870d7ddf83e61fffb4de4522edf1",
+    "market_slug": "negative-gdp-growth-in-2026",
+    "event_slug": "negative-gdp-growth-in-2026",
+    "title": "Negative GDP growth in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-29T00:00:00Z",
+    "volume": "21569.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Global recessions are relatively rare events, occurring roughly every 8-10 years on average. As of early 2025, while there are risks from trade tensions, geopolitical instability, and monetary policy tightening, most forecasts for 2026 still project modest positive global GDP growth. The probability of a full negative GDP year for a major economy (like the US) or globally is historically low in any given year, typically around 10-15%.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x8c52b5498d48981d12b4e56bedaa011f8ea1db871528d321c248233b1da4b5cd",
+    "market_slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
+    "event_slug": "china-annual-inflation-2026",
+    "title": "Will China's annual inflation in 2026 be less than -1.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "17106",
+    "status": "ok",
+    "forecast": {
+      "rationale": "China has been experiencing mild deflationary pressures in 2023-2024, with CPI hovering near 0% or slightly negative. However, deflation below -1.0% annually would be quite severe and historically unusual for China. While deflationary risks exist due to weak domestic demand and property sector issues, the Chinese government typically employs stimulus measures to prevent deep deflation. A full-year average below -1.0% in 2026 is unlikely but not impossible given structural headwinds.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0x3d20f26deb9b9cc7e24e5e06c10234a722d93bac095ce1105c59b44b503078d7",
+    "market_slug": "will-the-upper-bound-of-the-target-federal-funds-rate-be-4pt5-at-the-end-of-2026-139",
+    "event_slug": "what-will-the-fed-rate-be-at-the-end-of-2026",
+    "title": "Will the upper bound of the target federal funds rate be ≥ 4.5% at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "2.38996e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The current upper bound is 4.5%, and the Fed is in an easing cycle with market expectations pricing in further cuts through 2026. The Fed's dot plot projections suggest rates declining to 3-3.5% by end of 2026. However, there is meaningful uncertainty over a nearly 2-year horizon, and persistent inflation or economic surprises could keep rates elevated at or above 4.5%.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0xaaf3bc4e63735b3bfcc7a008e00ce7466a699584a50e92d94cd256a0ced72a7c",
+    "market_slug": "will-the-2026-trade-deficit-be-less-than-500b",
+    "event_slug": "us-trade-deficit-in-2026",
+    "title": "Will the 2026 trade deficit be less than 500B?",
+    "category": "Economics",
+    "close_time": "2027-02-28T00:00:00Z",
+    "volume": "16481.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US trade deficit has been running well above $500B in recent years, reaching approximately $773B in 2022 and around $773B in 2023, with 2024 estimates also in the $700-800B range. While tariff policies under the Trump administration in 2025-2026 could reduce the deficit somewhat, achieving a reduction below $500B would require an unprecedented contraction of roughly 30-40% from current levels. Historical trends and structural factors make such a dramatic reduction unlikely within a single year.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x29c639f7498ae455e756f9f0851f93ea75a746c3c9cf4ed90ef7d1c6ded412bd",
+    "market_slug": "will-canadas-2026-inflation-be-between-3pt0-and-3pt4",
+    "event_slug": "canada-annual-inflation-2026",
+    "title": "Will Canada’s 2026 inflation be between 3.0% and 3.4%?",
+    "category": "Economics",
+    "close_time": "2027-01-18T00:00:00Z",
+    "volume": "13344.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's inflation has been trending back toward the Bank of Canada's 2% target after the post-pandemic surge. Current forecasts for 2026 place Canadian CPI inflation around 2.0-2.5%, well below the 3.0-3.4% range specified. The probability of inflation rebounding to that specific band is relatively low given current monetary policy trajectory and economic conditions.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+    "market_slug": "fed-rate-hike-in-2026",
+    "event_slug": "fed-rate-hike-in-2026",
+    "title": "Fed rate hike in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "923210",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the Federal Reserve is in an easing cycle with rates expected to decline further. Market expectations and Fed projections suggest rate cuts rather than hikes through 2026. A rate hike in 2026 would require a significant resurgence of inflation or other unexpected economic shocks, which is possible but not the base case scenario.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x88d5a8b1269b10cee37d493545be2c57ba335afb82e0d66eadea2c8db6758021",
+    "market_slug": "will-us-gdp-growth-in-2026-be-between-0pt5-and-1pt0",
+    "event_slug": "gdp-growth-in-2026",
+    "title": "Will US GDP growth in 2026 be between 0.5% and 1.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-29T00:00:00Z",
+    "volume": "15118.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current consensus forecasts for US GDP growth in 2026 center around 1.5-2.5%, with most major institutions projecting moderate growth. The 0.5%-1.0% range represents a notably weak but not recessionary scenario. While downside risks exist (trade policy uncertainty, potential slowdown), the probability of growth landing specifically in this narrow band is relatively low compared to higher growth outcomes.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xdd0d2a374345c7758710cbb8e70ae546d2c38e56b7a27b6b0a095a2ad7e2905b",
+    "market_slug": "will-south-african-inflation-be-between-4pt4-and-4pt7-in-2026",
+    "event_slug": "south-africa-annual-inflation-2026",
+    "title": "Will South African inflation be between 4.4% and 4.7% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "12088.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South African inflation has been trending downward toward the SARB's 4.5% midpoint target. Recent inflation readings have been around 4-5%, and the SARB targets 4.5% as its preferred midpoint. A range of 4.4%-4.7% is relatively narrow (0.3 percentage points wide) centered near the target, making it plausible but not certain. Given global uncertainties, rand volatility, and energy/food price risks, there's meaningful probability inflation could fall outside this narrow band.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x93a3b80b1fb485057add882b55d12011ea011fedd9abededad86ac6cb53a2802",
+    "market_slug": "fed-emergency-rate-cut-before-2027",
+    "event_slug": "fed-emergency-rate-cut-before-2027",
+    "title": "Fed emergency rate cut before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "102736",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Emergency rate cuts are rare events typically triggered by severe financial crises or economic shocks (e.g., COVID-19 in 2020, GFC in 2008). While economic uncertainty remains elevated, the current environment does not strongly suggest an imminent crisis requiring emergency action. The Fed has been in a gradual easing cycle, reducing the need for emergency cuts. Over a ~2-year window, there is a modest but non-trivial probability of a shock severe enough to warrant emergency action.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x5a60b4be0fe9dc72939aa24102bb320803cb6d1d43e4945eda48efd683a88572",
+    "market_slug": "another-us-debt-downgrade-before-2027",
+    "event_slug": "another-us-debt-downgrade-before-2027",
+    "title": "Another US debt downgrade before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "9223.39",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US has now been downgraded by all three major agencies (Moody's downgraded in May 2025, joining Fitch and S&P). With all major agencies already having downgraded the US from AAA, a further downgrade would require agencies to lower their existing ratings again (e.g., from Aa1/AA+ to lower levels). While US fiscal trajectory remains concerning, rating agencies typically move slowly and a second-tier downgrade within ~18 months is unlikely absent a severe fiscal crisis or debt ceiling breach. The probability is low but not negligible given ongoing deficit concerns.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x045a227ee1a01e36ee49b7d935820d6cfea60e7d4998eaef105c17f749fc5522",
+    "market_slug": "will-brazils-annual-inflation-in-2026-be-between-3pt50-and-3pt99",
+    "event_slug": "brazil-annual-inflation-2026",
+    "title": "Will Brazil’s Annual Inflation in 2026 be between 3.50% and 3.99%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "8620.07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Brazil's inflation target for 2026 is 3.0% with a tolerance band of ±1.5%. Recent years have seen inflation above target due to currency pressures and fiscal concerns. The BCB has been tightening policy aggressively, but structural factors and exchange rate volatility make landing precisely in the 3.50%-3.99% range uncertain. The range covers roughly half a percentage point within a wide possible distribution, suggesting moderate but not high probability.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x14fd8ab261d14215058b77a9541a5013ccc3d3eb677276a9de54445a31acd194",
+    "market_slug": "will-judy-shelton-be-confirmed-as-fed-chair",
+    "event_slug": "who-will-be-confirmed-as-fed-chair",
+    "title": "Will Judy Shelton be confirmed as Fed Chair?",
+    "category": "Economics",
+    "close_time": "2026-10-31T00:00:00Z",
+    "volume": "1.58234e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jerome Powell's term as Fed Chair runs until May 2026. While Trump has expressed interest in replacing Powell, Judy Shelton was previously rejected by the Senate in 2020 for a Fed Board seat. Even if Trump nominates her, Senate confirmation for Fed Chair would face significant opposition given her unconventional views on gold standard and Fed independence. The combination of political hurdles, Senate dynamics, and the timeline makes confirmation unlikely but not impossible before October 2026.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x83c948109c75656cc3a996b589052be0d06f68ebb016a14f82b0ded1faaa05ad",
+    "market_slug": "will-the-us-national-debt-hit-40-trillion-before-2027",
+    "event_slug": "peak-us-national-debt-before-2027",
+    "title": "Will the U.S. national debt hit $40 trillion before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "4947.01",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. national debt was approximately $36-37 trillion in early 2025, growing at roughly $1.7-2 trillion per year. At this pace, the debt would reach $40 trillion by late 2026, well within the resolution window. CBO projections and current deficit spending trends strongly support this outcome.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      }
+    }
+  },
+  {
+    "condition_id": "0x6e6279b5d44197881e0f4d6b091c5c6377e48dd8027e58f5a002c14b8df948dd",
+    "market_slug": "will-south-koreas-2026-annual-inflation-be-at-least-3pt0",
+    "event_slug": "south-korea-annual-inflation-2026",
+    "title": "Will South Korea’s 2026 Annual Inflation be at least 3.0%?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "8395.01",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South Korea's inflation has been moderating after the post-pandemic surge, with 2023 inflation around 3.6% and 2024 trending toward 2-2.5%. The Bank of Korea targets 2% inflation, and current forecasts for 2025-2026 suggest inflation settling near or below 2.5%. Reaching 3.0% or above in 2026 would require significant upside shocks, making it unlikely under baseline conditions.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    }
+  },
+  {
+    "condition_id": "0x55c601357c17cb034462d959de0bb84a558b3fe6f6730411ac58a06092eef385",
+    "market_slug": "jerome-powell-out-from-fed-board-by-may-30",
+    "event_slug": "jerome-powell-out-from-fed-board-by",
+    "title": "Jerome Powell out from Fed Board by May 30?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "103759",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jerome Powell's term as Fed Chair runs until May 2026, but his term as a Fed Board member runs until January 2028. While Trump has expressed frustration with Powell, legally removing a Fed Chair 'for cause' is extremely difficult and unprecedented. Powell has stated he would not resign if asked. The probability of Powell leaving the Fed Board entirely by May 30 (presumably May 30, 2026) is low but non-trivial given political pressures.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0xa3833fb4962f96f7232768080bdd927746ac897d4bfa5f9a0ffbac9c05be7be5",
+    "market_slug": "will-world-gdp-growth-be-2pt9-in-2026",
+    "event_slug": "2026-world-gdp-growth",
+    "title": "Will world GDP growth be ≤2.9% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-15T00:00:00Z",
+    "volume": "3742.68",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Global GDP growth forecasts for 2026 from major institutions (IMF, World Bank) currently project growth around 3.0-3.3%, suggesting the baseline is above 2.9%. However, there is meaningful downside risk from trade tensions, geopolitical conflicts, debt pressures, and potential recessions in major economies. Historical volatility shows growth has dipped to or below 2.9% during crises (2009, 2020), but absent a major shock, growth is more likely to remain above this threshold.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0xe6e0dd575ce5f8754ea0d7201c87ae14b2c7ea4a6998491aa036dc5240f35e56",
+    "market_slug": "will-the-uks-2026-inflation-be-at-least-4pt5",
+    "event_slug": "uk-annual-inflation-in-2026",
+    "title": "Will the UK’s 2026 inflation be at least 4.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "927.481",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK inflation (CPI) has been declining from its 2022-2023 peaks and is expected to continue moderating toward the Bank of England's 2% target by 2026. Current forecasts from the BoE and major institutions project UK CPI around 2-3% for 2026, making a reading of 4.5% or above unlikely barring major unforeseen shocks such as energy crises or significant supply disruptions.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0xa834cb93d7da5316c9b770c5f92a7c78f7c65c85e197f497a19f02b94fdf7e90",
+    "market_slug": "will-trump-try-to-fire-powell-as-fed-board-member-by-december-31-2026-239",
+    "event_slug": "will-trump-try-to-fire-powell-as-fed-board-member-by",
+    "title": "Will Trump try to fire Powell as Fed Board Member by December 31, 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "6084.72",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump has repeatedly criticized Powell and floated the idea of removing him, but legal constraints make firing a Fed Chair/Board member difficult (requires 'cause'). Trump's team explored this in 2025 but backed away after market reactions. Powell's term as Chair ends May 2026, reducing the incentive to fire him as a Board member afterward. While Trump is unpredictable, the combination of legal barriers, market consequences, and Powell's approaching term end makes an actual firing attempt unlikely but not impossible.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x95fbfa0814e712d4ed4cd43ddce85503c80517b69e2fe4858163f58990323d5e",
+    "market_slug": "will-uk-annual-gdp-growth-in-2026-be-between-4-and-5",
+    "event_slug": "uk-annual-gdp-growth-2026",
+    "title": "Will UK annual GDP growth in 2026 be between 4% and 5%?",
+    "category": "Economics",
+    "close_time": "2027-02-12T00:00:00Z",
+    "volume": "412.572",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK annual GDP growth of 4-5% would be exceptionally high by historical standards; the UK has rarely if ever achieved such growth outside of post-WWII recovery periods or post-COVID bounce-backs. Current forecasts for 2026 UK GDP growth are in the range of 1-2%, making a 4-5% outcome extremely unlikely under normal economic conditions.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0x9caf172337fa494c65ffb9d2f2241b9dce1ffa222efb681c959abcdd74ec164e",
+    "market_slug": "will-argentinas-annual-inflation-be-less-than-20",
+    "event_slug": "argentina-annual-inflation-2026",
+    "title": "Will Argentina’s annual inflation be less than 20%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "2421.98",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Argentina has historically struggled with very high inflation, but under Milei's aggressive austerity and monetary tightening program starting in 2024, monthly inflation has been declining sharply from peaks above 25% monthly. Annual inflation was around 211% in 2023, dropping toward ~100% by end of 2024. For annual inflation to fall below 20% by early 2027, Argentina would need to sustain disinflation at an extraordinary pace over 2025-2026. While the trend is positive, reaching sub-20% annual inflation within roughly two years from ~100%+ levels faces significant structural, political, and external risks.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x014c25415332031ed85a2a9c7b5468c7d0f209e83f6a848c040907004604f563",
+    "market_slug": "fed-abolished-before-2027",
+    "event_slug": "fed-abolished-before-2027",
+    "title": "Fed abolished before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "3724.33",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Abolishing the Federal Reserve would require an act of Congress, which is an extraordinarily difficult legislative undertaking given the Fed's deep institutional entrenchment, bipartisan support among most lawmakers, and the economic disruption such a move would cause. While there is some political rhetoric around Fed reform or criticism, there is no serious legislative momentum toward abolition. The probability within the next two years is negligible.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    }
+  },
+  {
+    "condition_id": "0xd372089035707ca4059017c125091d6f04098f2471a5e94d163e31be46562a73",
+    "market_slug": "costco-increases-hotdog-price-before-2027",
+    "event_slug": "costco-increases-hotdog-price-before-2027",
+    "title": "Costco increases hotdog price before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "8976.81",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Costco's $1.50 hotdog combo has been famously unchanged since 1985, and the company's leadership has repeatedly and publicly committed to maintaining this price as a matter of brand identity and customer loyalty. Despite inflation pressures, Costco has shown no signs of changing this iconic price point, and CEO Ron Vachris and predecessors have made strong statements about keeping it at $1.50 indefinitely.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x16dc4d5f7cc8088cfa333af21de0f0401a965f35bae8c4f273a1ecde0627bf9f",
+    "market_slug": "jerome-powell-in-jail-before-2027",
+    "event_slug": "jerome-powell-in-jail-before-2027",
+    "title": "Jerome Powell in jail before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "3476.27",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jerome Powell is the Chair of the Federal Reserve, a prominent public official with no known criminal charges or investigations that would plausibly lead to incarceration. While political tensions exist around the Fed, there is no credible legal basis for his imprisonment before 2027. Such an outcome would be extraordinarily unprecedented.",
+      "probabilities": {
+        "Yes": 0.002,
+        "No": 0.998
+      }
+    }
+  },
+  {
+    "condition_id": "0xd89fa42d3354bbe25423cd090b62fd4d29e6c1cdd6f7b3dd906422bbed5a7f9d",
+    "market_slug": "will-the-us-confirm-that-aliens-exist-before-kevin-warsh-is-confirmed-as-fed-chair",
+    "event_slug": "what-will-happen-before-kevin-warsh-is-confirmed",
+    "title": "Will the US confirm that aliens exist before Kevin Warsh is confirmed as Fed Chair?",
+    "category": "Economics",
+    "close_time": "2026-10-31T00:00:00Z",
+    "volume": "66592",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Both events are highly unlikely, but alien confirmation by the US government is essentially unprecedented and near-impossible in this timeframe, while Kevin Warsh being confirmed as Fed Chair is speculative (current Fed Chair Powell's term runs through May 2026, and Warsh would need to be nominated and confirmed). The question asks if aliens are confirmed BEFORE Warsh is confirmed as Fed Chair — if neither happens, it resolves No. If Warsh is confirmed without alien disclosure, it resolves No. The only Yes scenario requires alien confirmation first, which is extraordinarily unlikely.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    }
+  },
+  {
+    "condition_id": "0x16a9365b1290ebb03e45ffa3f42e526a54e9f3cf23aebfbf2fa93c60a3dfbff5",
+    "market_slug": "will-60-or-more-of-senators-vote-yea-for-trumps-fed-chair-nominee-551",
+    "event_slug": "how-many-senators-will-vote-for-trumps-fed-chair-nominee-411",
+    "title": "Will 60 or more of senators vote “Yea” for Trump’s Fed Chair nominee?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "40811.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump's Fed Chair nominee would likely be voted on before close time since Powell's term ends May 2026. Historically, Fed Chair nominees receive broad bipartisan support (Powell got 84 and 80 votes in his two confirmations), but political polarization has increased significantly. A Trump nominee perceived as politically motivated could face more Democratic opposition, making 60+ votes uncertain but historically plausible.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      }
+    }
+  },
+  {
+    "condition_id": "0xf41cdb3c4e9921acd070fa36fb567f4075284a2e3b89f06a1a23667aeecdc545",
+    "market_slug": "bank-of-england-rate-hike-in-2026",
+    "event_slug": "bank-of-england-rate-hike-in-2026",
+    "title": "Bank of England rate hike in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "22871.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Bank of England has been in a rate-cutting cycle since mid-2024, with rates expected to continue declining through 2025-2026 as inflation approaches target. A rate hike in 2026 would require a significant resurgence of inflation or other economic shock. While not impossible, the current trajectory and market expectations strongly favor continued easing or holding, making a hike in 2026 unlikely but not negligible given uncertainty over a multi-year horizon.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x7e098cd8c93f6601a19af0c1ffcd5a1c810a5f79e87416a1d15377e0706d1618",
+    "market_slug": "will-the-us-30-year-fixed-rate-mortgage-hit-5pt70-low-by-december-31-2026",
+    "event_slug": "will-the-30-year-mortgage-rate-hit-in-2026",
+    "title": "Will the U.S. 30-year Fixed-Rate Mortgage hit 5.70% (LOW) by December 31, 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "6768.53",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. 30-year fixed mortgage rate is currently around 6.8-7.0% (early 2025). Reaching 5.70% by end of 2026 would require a drop of roughly 100-130 basis points, which is possible but would likely require significant Fed rate cuts and easing financial conditions. While the Fed has begun cutting rates, most forecasts place the 30-year mortgage in the 6.0-6.5% range by end of 2026, making 5.70% an optimistic but not impossible target. Economic slowdown or recession scenarios could accelerate this, but baseline forecasts suggest it's more likely to remain above 5.70%.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x22679bf61a35842e34ce6ae5648949007960ee9c3f8bd3b7f06c531e8a7b7c14",
+    "market_slug": "bank-of-canada-rate-hike-in-2026",
+    "event_slug": "bank-of-canada-rate-hike-in-2026",
+    "title": "Bank of Canada Rate Hike in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "5570.71",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Bank of Canada has been in an easing cycle through 2024-2025, cutting rates significantly. By 2026, the trajectory depends on inflation and economic conditions. Given current forecasts suggesting rates stabilizing at lower levels and modest growth, a rate hike in 2026 is possible but not the base case — most analysts expect rates to remain flat or potentially still easing in 2026, though an unexpected inflation resurgence could prompt hikes.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0x766e0dae76c4c67969a1634fb9deefcaab494577d821f911cffef00870ac47c3",
+    "market_slug": "major-us-bank-bailout-before-2027",
+    "event_slug": "major-us-bank-bailout-before-2027",
+    "title": "Major U.S. bank bailout before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "2960.15",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Major U.S. bank bailouts are rare events requiring significant financial stress. While there are ongoing concerns about commercial real estate exposure and regional bank vulnerabilities, the current regulatory framework post-2008 (Dodd-Frank, stress tests, resolution mechanisms) makes a full government bailout unlikely in the near term. The 2023 SVB/Signature failures were handled via FDIC resolution rather than traditional bailouts, suggesting regulators prefer alternative mechanisms.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0x0e447f6d7435af8eb5ab4ff629d5b71c936062c9528de3dbaf1e0ff57cfdf8c5",
+    "market_slug": "will-trump-cut-long-term-capital-gains-tax-before-2027",
+    "event_slug": "will-trump-cut-long-term-capital-gains-tax-before-2027",
+    "title": "Will Trump cut long term capital gains tax before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1481.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump has expressed interest in cutting capital gains taxes, but legislative action requires Congressional support. While Republicans control both chambers, tax legislation is complex and the primary focus has been on extending the 2017 TCJA provisions expiring in 2025. A standalone long-term capital gains tax cut is possible but faces significant legislative hurdles and competing priorities within the 2025-2026 timeframe.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0xb6e3089d9a6c38959e09c4d381be1966e6b818c7a1bc84de1da38363ea08fd4f",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-less-than-1600pt00-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026-higher-brackets",
+    "title": "Will the official USD to ARS exchange rate be less than 1600.00 at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1795.41",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of early 2025, the USD/ARS rate is approximately 1,000-1,050 under Argentina's crawling peg policy (~1-2% monthly). Projecting 24 months forward at 1% monthly gives ~1,335, while 2% monthly gives ~1,690. The 1,600 threshold sits near the upper end of the crawling peg range, but Argentina's history of sudden devaluations and potential policy shifts create significant upside risk. The probability of staying below 1,600 is moderate but not dominant given historical volatility.",
+      "probabilities": {
+        "Yes": 0.38,
+        "No": 0.62
+      }
+    }
+  },
+  {
+    "condition_id": "0x1f9a27523f446ac64949dbbf8dfb385e9e7cc3516aec0a3c3a7cae9ca4df63b5",
+    "market_slug": "will-the-us-national-debt-hit-42-trillion-before-2027",
+    "event_slug": "peak-us-national-debt-before-2027",
+    "title": "Will the U.S. national debt hit $42 trillion before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "4376.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. national debt is approximately $36.5-37T in early 2025, requiring ~$5T in growth to reach $42T by end of 2026. At current deficit rates of ~$2-2.5T/year, the debt would reach roughly $40.5-42T by late 2026. Potential fiscal expansions (TCJA extension, increased spending) and rising interest costs could push it to $42T, but baseline projections suggest it may fall just short.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      }
+    }
+  },
+  {
+    "condition_id": "0x5fd7fba49eb48a18b624005225680f0aa42f0b5c6cb42e993328be1a70e991c5",
+    "market_slug": "will-the-eurozones-2026-annual-inflation-be-at-least-3pt1",
+    "event_slug": "eurozone-2026-annual-inflation",
+    "title": "Will the Eurozone's 2026 Annual Inflation be at least 3.1%?",
+    "category": "Economics",
+    "close_time": "2027-01-19T00:00:00Z",
+    "volume": "1979.79",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone inflation has been declining from its 2022-2023 peaks, with 2024 inflation around 2.4% and forecasts for 2025-2026 generally pointing toward the ECB's 2% target. Most major forecasts (ECB, IMF, European Commission) project 2026 Eurozone inflation in the 1.9-2.3% range, well below 3.1%. Reaching 3.1% in 2026 would require a significant unexpected shock.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x2dd232eb66334eaf3e232c3b834e072ae1ee320d0bc1ad55ab4ed47be71eeddf",
+    "market_slug": "fed-rate-hike-by-june-2026-meeting",
+    "event_slug": "fed-rate-hike-by",
+    "title": "Fed Rate Hike by June 2026 Meeting?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "9806.68",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the Federal Reserve has been in a rate-cutting cycle following the aggressive hikes of 2022-2023. Market expectations and Fed communications suggest rates are likely to remain stable or continue modest cuts through 2026, with inflation broadly under control. A rate hike by June 2026 would require a significant resurgence in inflation or other economic shock, which is possible but not the base case scenario.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x30cfecad2b8a451c00cf2bddb8444e41d315b32c421810c006a27b06894fa627",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-between-1450pt00-and-1499pt99-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026",
+    "title": "Will the official USD to ARS exchange rate be between 1450.00 and 1499.99 at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "725.133",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Starting from ~1,050 ARS/USD in early 2025, Argentina's crawling peg/band system suggests gradual depreciation. At ~1% monthly depreciation, the rate would reach ~1,300 by end-2026, making 1,450-1,499 possible but requiring faster depreciation. The target range is a narrow 50-peso window within a wide distribution of possible outcomes over 20+ months, making the specific range unlikely even if the general direction is correct.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x47843866e73dd6aeefbb67ab80b48c12d68eb27818e228c399fe0c5e2a89f5e2",
+    "market_slug": "will-us-gdp-growth-in-2026-be-greater-than-2pt5",
+    "event_slug": "gdp-growth-in-2026",
+    "title": "Will US GDP growth in 2026 be greater than 2.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-29T00:00:00Z",
+    "volume": "3961.05",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US GDP growth in 2026 is highly uncertain given current economic conditions, trade policy headwinds, and tariff impacts. Most forecasters project 2026 US real GDP growth in the 1.5–2.5% range, with consensus around 1.8–2.2%. Achieving above 2.5% growth would require a notably strong economic environment, which is possible but below the median forecast.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x49ee620e6e0ae23a7a52f53d03336c5fb289906c62d22836f1cceea50908dc4f",
+    "market_slug": "will-ground-beef-hit-7-per-pound-in-2026",
+    "event_slug": "will-ground-beef-hit-in-2026",
+    "title": "Will ground beef hit $7 per pound in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "35.3699",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ground beef prices in the US have been rising, averaging around $5.50-$6.00 per pound in 2024-2025. Reaching $7/lb by end of 2026 would require roughly a 15-25% increase from current levels. While inflationary pressures, cattle supply constraints, and feed costs could push prices higher, such a jump within one to two years is possible but not the most likely scenario. Historical price trends suggest gradual increases, making $7/lb a stretch but not impossible.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0xdab002228af15d1cb3a161b3a584165eac9010d4419582c3c7d5d07d847c4256",
+    "market_slug": "will-the-feds-lower-bound-reach-3pt0-or-lower-before-2027-676-111",
+    "event_slug": "what-will-fed-rate-hit-before-2027",
+    "title": "Will the Fed’s lower bound reach 3.0% or lower before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "241080",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed's lower bound is currently at 4.25%, requiring 125+ bps of additional cuts to reach 3.0%. While the Fed is in an easing cycle, persistent inflation concerns and a resilient labor market suggest gradual cuts. Reaching 3.0% by end of 2026 would require approximately 5 more cuts, which is plausible in a recession or rapid disinflation scenario but not the base case given current economic conditions and the Fed's revised neutral rate estimates near 3.0%.",
+      "probabilities": {
+        "Yes": 0.32,
+        "No": 0.68
+      }
+    }
+  },
+  {
+    "condition_id": "0xccdda72e8306018ecca67bb9e051c79183fb5a9d5bd323bf3dacb0c1839ed9c1",
+    "market_slug": "will-eurozone-annual-gdp-growth-in-2026-be-between-1pt0-and-2pt0",
+    "event_slug": "eurozone-annual-gdp-growth-2026",
+    "title": "Will Eurozone annual GDP growth in 2026 be between 1.0% and 2.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "1272.43",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current forecasts for Eurozone GDP growth in 2026 cluster around 1.2–1.5%, which falls within the 1.0%–2.0% range. Major institutions like the IMF, ECB, and European Commission project moderate recovery, though downside risks (trade tensions, energy costs, geopolitical uncertainty) and upside surprises are possible. The range of 1.0%–2.0% is fairly wide and captures the central tendency of most forecasts.",
+      "probabilities": {
+        "Yes": 0.62,
+        "No": 0.38
+      }
+    }
+  },
+  {
+    "condition_id": "0xe910586ba1cd1e15f7c65d55080d97044721858480db1869763437a138389b08",
+    "market_slug": "will-world-gdp-growth-be-3pt4-in-2026",
+    "event_slug": "2026-world-gdp-growth",
+    "title": "Will world GDP growth be 3.4% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-15T00:00:00Z",
+    "volume": "3526.97",
+    "status": "ok",
+    "forecast": {
+      "rationale": "World GDP growth forecasts for 2026 cluster around 3.0–3.3% based on IMF and World Bank projections, with significant uncertainty from geopolitical risks, trade tensions, and monetary policy trajectories. Hitting exactly 3.4% (likely interpreted as rounding to that figure) is possible but not the central scenario; the probability of landing precisely at 3.4% versus a range of other outcomes is relatively low.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xbef7518445fa4a7c6460d9157e2d4a8097320914988d13a809c486eff50e5c06",
+    "market_slug": "will-inflation-reach-more-than-3pt5-in-2026-154",
+    "event_slug": "how-high-will-inflation-get-in-2026",
+    "title": "Will inflation reach more than 3.5% in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "136097",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current inflation trends in major economies (particularly the US) show inflation gradually declining toward central bank targets of ~2%. Most forecasts for 2026 project inflation settling in the 2-3% range, with some upside risks from tariffs, geopolitical disruptions, or fiscal policy. However, sustained inflation above 3.5% in 2026 would require significant shocks beyond baseline expectations, making it a less likely but non-trivial outcome.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x1adf074e048fa613f4ddbc0766088748a48d120a3a713b0183e219032a411ae3",
+    "market_slug": "will-11-fed-rate-cuts-happen-in-2026",
+    "event_slug": "how-many-fed-rate-cuts-in-2026",
+    "title": "Will 11 Fed rate cuts happen in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "2.36069e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eleven Fed rate cuts in a single year would be historically unprecedented, as the Fed typically meets 8 times per year and rarely cuts at every meeting. Even during the 2008 financial crisis or COVID-19 pandemic, the number of cuts in a single year was far fewer than 11. Current economic conditions and Fed projections do not suggest anywhere near this level of easing.",
+      "probabilities": {
+        "Yes": 0.001,
+        "No": 0.999
+      }
+    }
+  },
+  {
+    "condition_id": "0xd3c6552a51528c74c28471aa0a5e13fbafdf84f02a40d11bf173b94032b7e7ef",
+    "market_slug": "will-the-2026-trade-deficit-be-between-800b-and-900b",
+    "event_slug": "us-trade-deficit-in-2026",
+    "title": "Will the 2026 trade deficit be between 800B and 900B?",
+    "category": "Economics",
+    "close_time": "2027-02-28T00:00:00Z",
+    "volume": "837.923",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US trade deficit has ranged from ~$773B (2023) to ~$945B (2022), with 2024 estimates near $918B. For 2026, Trump's tariff policies could significantly reduce the deficit below $800B, while strong domestic demand could keep it above $900B. The $800B-$900B window is plausible but represents only one of several likely scenarios given high policy uncertainty.",
+      "probabilities": {
+        "Yes": 0.27,
+        "No": 0.73
+      }
+    }
+  },
+  {
+    "condition_id": "0x99f9b93f2a1722242f785513441a6b53329b974016cee38cc18ab7a6d9580734",
+    "market_slug": "will-indias-2026-annual-inflation-be-between-3pt75-and-4pt49",
+    "event_slug": "india-annual-inflation-2026",
+    "title": "Will India’s 2026 Annual Inflation be between 3.75% and 4.49%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "22742.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "India's recent inflation trajectory has been moderating, with RBI targeting 4% as its medium-term goal. In 2024-2025, CPI inflation has been running around 4-5%, with expectations of further moderation toward the 4% target by 2026. The range 3.75%-4.49% is centered near the RBI's 4% target, making it a plausible outcome, but there is significant uncertainty from food price volatility, global commodity prices, and monsoon variability. Historical patterns suggest India's inflation often overshoots or undershoots the target band.",
+      "probabilities": {
+        "Yes": 0.32,
+        "No": 0.68
+      }
+    }
+  },
+  {
+    "condition_id": "0xb6abfbc465b88c6085503b3280872545c99c43fc979674bb47b9df1f7c170fd3",
+    "market_slug": "will-the-upper-bound-of-the-target-federal-funds-rate-be-4pt0-at-the-end-of-2026-386",
+    "event_slug": "what-will-the-fed-rate-be-at-the-end-of-2026",
+    "title": "Will the upper bound of the target federal funds rate be 4.0% at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "1.3502e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The current upper bound is 4.50%, and reaching exactly 4.0% requires precisely 2 cuts of 25bp each. While 4.0% is one of the more plausible endpoints given market expectations of 2-3 cuts through 2026, the probability is spread across multiple possible rate levels (3.50%, 3.75%, 4.0%, 4.25%, 4.50%), making any single outcome relatively unlikely. Fed uncertainty around inflation and growth adds further dispersion.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x2a0dcff6f438d1c92574b58d58e9fe4bc13f2db6399ec81655986e5925a61ffd",
+    "market_slug": "will-uk-annual-gdp-growth-in-2026-be-between-0-and-1",
+    "event_slug": "uk-annual-gdp-growth-2026",
+    "title": "Will UK annual GDP growth in 2026 be between 0% and 1%?",
+    "category": "Economics",
+    "close_time": "2027-02-12T00:00:00Z",
+    "volume": "351.957",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK GDP growth forecasts for 2026 from major institutions (IMF, OBR, Bank of England) generally project growth in the 1.5–2.0% range, suggesting the most likely outcome is growth above 1%. However, there is meaningful downside risk from global trade tensions, fiscal tightening, and potential slowdowns that could push growth into the 0–1% range. The probability of growth falling specifically between 0% and 1% is moderate but not the central case.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    }
+  },
+  {
+    "condition_id": "0xf175a9b333cab7cf916af8055abd33a264fddda2d3942ec909bca6810b591d70",
+    "market_slug": "will-brazils-annual-inflation-in-2026-be-between-4pt00-and-4pt49",
+    "event_slug": "brazil-annual-inflation-2026",
+    "title": "Will Brazil’s Annual Inflation in 2026 be between 4.00% and 4.49%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "7308.38",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Brazil's inflation target for 2026 is 3.0% with a tolerance band of ±1.5% (1.5%–4.5%). Recent inflation trends show Brazil struggling to keep inflation near target, with 2024 inflation running above 4%. The 4.00%–4.49% range represents the upper portion of the tolerance band. Given Brazil's historical tendency toward above-target inflation and current monetary tightening, there's a moderate but not dominant probability of landing in this specific 0.49 percentage point window.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x23dbb60ade08c2664ac29488325afbc0136735bc7beb9180d9c0cb72620b0b13",
+    "market_slug": "will-kevin-warsh-be-confirmed-as-fed-chair",
+    "event_slug": "who-will-be-confirmed-as-fed-chair",
+    "title": "Will Kevin Warsh be confirmed as Fed Chair?",
+    "category": "Economics",
+    "close_time": "2026-10-31T00:00:00Z",
+    "volume": "1.1267e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kevin Warsh has been mentioned as a potential Fed Chair candidate under a Trump administration, but Jerome Powell's term runs until May 2026. Even if nominated, confirmation is uncertain given Senate dynamics and Warsh's views. There is significant uncertainty about whether Trump would nominate Warsh and whether he would be confirmed before October 2026, with many alternative candidates also in consideration.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x9beb023f95d83c9046eae91130938636d449beb93d18a1c537026c8531e83302",
+    "market_slug": "will-south-african-inflation-be-greater-than-5pt0-in-2026",
+    "event_slug": "south-africa-annual-inflation-2026",
+    "title": "Will South African inflation be greater than 5.0% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "5941.43",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South African inflation has been trending downward, with CPI falling within the SARB's 3-6% target band. Recent readings have been around 4-5%, and the SARB has been working to anchor inflation closer to the 4.5% midpoint. While rand volatility and energy/food price pressures could push inflation above 5%, the current trajectory and monetary policy stance suggest inflation is more likely to remain at or below 5% in 2026.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0xbb1e75fe2a97b994a0f1b20b8107330f575a752893b3c525439466d64f898463",
+    "market_slug": "jerome-powell-out-from-fed-board-by-december-31",
+    "event_slug": "jerome-powell-out-from-fed-board-by",
+    "title": "Jerome Powell out from Fed Board by December 31?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "66163.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jerome Powell's term as Fed Chair ends in May 2026, but his term as a Fed Board member extends until January 2028. Even after losing the chairmanship, he could remain as a regular Board member. While Trump has expressed desire to remove Powell, legal protections for Fed governors make forced removal very difficult and legally contested. It is possible Powell voluntarily steps down after his chair term ends, but not certain. The probability of him leaving the Board entirely by December 31, 2026 is moderate but not high.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0xcefab2aa9aa3082a4a922d8044e7dc3373e4fa0c89f3f69a9d45b91cb5936a87",
+    "market_slug": "will-mexicos-2026-annual-inflation-be-at-least-5pt50",
+    "event_slug": "mexico-annual-inflation-2026",
+    "title": "Will Mexico’s 2026 Annual Inflation be at least 5.50%?",
+    "category": "Economics",
+    "close_time": "2027-01-08T00:00:00Z",
+    "volume": "4972.28",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mexico's inflation has been trending toward the 4.5-5% range in 2024-2025, with Banxico actively managing price pressures. While risks from US tariffs, peso depreciation, and nearshoring demand could push inflation higher, the 5.50% threshold represents a significant jump above current trends. The central bank's credibility and ongoing tightening bias make sustained inflation above 5.5% less likely, though trade policy uncertainty adds meaningful upside risk.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0xf46470ab7b1ade5d9f8859f0cebcdd82b7493d32aba3ae083baaa64964b3cf85",
+    "market_slug": "will-trump-try-to-fire-powell-as-fed-board-member-by-june-30-2026",
+    "event_slug": "will-trump-try-to-fire-powell-as-fed-board-member-by",
+    "title": "Will Trump try to fire Powell as Fed Board Member by June 30, 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "4693.81",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump has publicly expressed frustration with Powell and floated the idea of removing him, but legal constraints make firing a Fed Chair as a board member extremely difficult (Fed governors have fixed terms protected by law). While Trump's rhetoric has been aggressive, actually attempting to fire Powell as a board member (distinct from removing him as Chair) would face significant legal and institutional barriers. Historical precedent and legal advice have generally deterred such action, though the risk is non-trivial given Trump's second-term behavior.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x88049a105cba5211bba80634b33b5059489d9c49145bf1c548c9cf2760267ba5",
+    "market_slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
+    "event_slug": "china-annual-inflation-2026",
+    "title": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "3018.36",
+    "status": "ok",
+    "forecast": {
+      "rationale": "China has experienced persistently low inflation in recent years, with CPI often below 1% or even deflationary in 2023-2024. Structural factors including weak domestic demand, property sector stress, and demographic headwinds suggest inflation is likely to remain subdued. Reaching the 1.6%-2.0% range by 2026 would require significant demand recovery, making this outcome possible but not the most likely scenario.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xac2e2c3d0a584a7fe746f6897e551b8263f29ecfe37bee562e01367e58fa3a9b",
+    "market_slug": "will-the-fed-cut-rates-before-kevin-warsh-is-confirmed-as-fed-chair",
+    "event_slug": "what-will-happen-before-kevin-warsh-is-confirmed",
+    "title": "Will the Fed cut rates before Kevin Warsh is confirmed as Fed Chair?",
+    "category": "Economics",
+    "close_time": "2026-10-31T00:00:00Z",
+    "volume": "55608.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kevin Warsh's confirmation as Fed Chair would require nomination and Senate confirmation, likely taking until mid-to-late 2026 at the earliest. The Fed has been in a rate-cutting cycle since late 2024, and the probability of at least one additional rate cut occurring before Warsh's confirmation is confirmed is high given the extended timeline. Additionally, there remains uncertainty about whether Warsh will even be nominated.",
+      "probabilities": {
+        "Yes": 0.72,
+        "No": 0.28
+      }
+    }
+  },
+  {
+    "condition_id": "0x79f55c5fc9c981ba49042f85cbc8f51a06753f600331d38ba17c5072a252992b",
+    "market_slug": "will-south-koreas-2026-annual-inflation-be-between-1pt5-and-1pt7",
+    "event_slug": "south-korea-annual-inflation-2026",
+    "title": "Will South Korea’s 2026 Annual Inflation be between 1.5% and 1.7%?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "958.607",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South Korea's inflation has been moderating from post-pandemic highs, with 2024 inflation around 2.3% and trending downward toward the Bank of Korea's 2% target. For 2026, consensus forecasts suggest inflation settling near 2%, making the 1.5%-1.7% range possible but somewhat below the central target. The probability of landing precisely in this narrow 0.2 percentage point band is relatively low given uncertainty in energy prices, domestic demand, and global conditions.",
+      "probabilities": {
+        "Yes": 0.14,
+        "No": 0.86
+      }
+    }
+  },
+  {
+    "condition_id": "0x1bbea465e3e0468b7ddd123ea8eaf09ffcad34f3e65c9333e7f78fc7e96554c2",
+    "market_slug": "will-49-or-fewer-senators-vote-yea-for-trumps-fed-chair-nominee-133",
+    "event_slug": "how-many-senators-will-vote-for-trumps-fed-chair-nominee-411",
+    "title": "Will 49 or fewer senators vote “Yea” for Trump’s Fed Chair nominee?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "21051.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "With 53 Republican senators, Trump's Fed Chair nominee would likely receive at least 50 votes even with some defections. Historically, Fed Chair nominees receive broad bipartisan support. For 49 or fewer senators to vote Yea, the nominee would need to fail or face unusual opposition, which is unlikely given the current Senate composition. There's also uncertainty about whether a vote will even occur before December 2026.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x488b72cfab76a34c49e217ee41e9fcfed157c992a303cb3593470454a85ebbfc",
+    "market_slug": "will-the-uks-2026-inflation-be-less-than-1pt0",
+    "event_slug": "uk-annual-inflation-in-2026",
+    "title": "Will the UK’s 2026 inflation be less than 1.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "604.357",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK inflation has been running well above 1.0% in recent years, with CPI around 2-4% range as of 2024-2025. While inflation is expected to continue declining toward the Bank of England's 2% target, falling below 1.0% by 2026 would require a significant undershoot. Historical precedent (2015-2016) shows it's possible but uncommon, and current forecasts do not suggest such a dramatic drop.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x50c672949cfbc8c2cb7d2437315964031b4792788e49d426e2dd8f9c83433cc1",
+    "market_slug": "will-canadas-2026-inflation-be-between-1pt5-and-1pt9",
+    "event_slug": "canada-annual-inflation-2026",
+    "title": "Will Canada’s 2026 inflation be between 1.5% and 1.9%?",
+    "category": "Economics",
+    "close_time": "2027-01-18T00:00:00Z",
+    "volume": "567.636",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's inflation target is 2%, with the Bank of Canada actively managing to keep inflation near this midpoint. Historical patterns show inflation frequently overshoots or undershoots the 1.5-1.9% range. Given current disinflationary trends and the BoC's easing cycle, inflation landing in this specific narrow band (1.5-1.9%) for full-year 2026 is plausible but not the most likely single outcome, as it could easily settle at 2%+ or dip below 1.5%.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x0256fee8c98ffd1dc894d310a772cfcd9ca0095f3f584c86c991d59ec6004091",
+    "market_slug": "will-argentinas-annual-inflation-in-2026-be-between-20-and-24pt9",
+    "event_slug": "argentina-annual-inflation-2026",
+    "title": "Will Argentina’s annual inflation in 2026 be between 20% and 24.9%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "1391.23",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Argentina has been on a disinflation path under Milei's administration, with monthly inflation dropping significantly from peaks above 25% monthly in late 2023. Annual inflation for 2025 is projected around 25-40% range as the trend continues downward. Reaching 20-24.9% annual inflation by 2026 is plausible but uncertain, as it requires sustained fiscal discipline and no major shocks. The probability is moderate given the trajectory but significant uncertainty remains around exchange rate policy, external shocks, and political sustainability.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x9b1804352d6246bc8b609bc05a3021134269c133bda15e76e05f844539b59774",
+    "market_slug": "will-the-us-economy-be-in-stagflation-at-the-end-of-2026",
+    "event_slug": "us-economic-state-at-the-end-of-2026",
+    "title": "Will the US economy be in stagflation at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "3.44827",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Stagflation requires simultaneously high inflation and stagnant/negative growth. As of mid-2025, the US economy faces some inflationary pressures from tariffs and slowing growth, but most forecasts still project positive GDP growth through 2026, with inflation gradually moderating. While risks have increased due to trade policy uncertainty, a full stagflation scenario (typically defined as inflation above ~4% combined with near-zero or negative growth) by end of 2026 remains a tail risk rather than the base case.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    }
+  },
+  {
+    "condition_id": "0x11c846106277b0b0eccd71a5c7297073c646bf5a19a8ef92b2f9305e97e2be38",
+    "market_slug": "will-the-us-federal-government-take-a-stake-in-anduril-industries-inc",
+    "event_slug": "which-companies-will-the-us-take-a-stake-in",
+    "title": "Will the US federal government take a stake in Anduril Industries, Inc.?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "39445.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US federal government taking an equity stake in a private defense contractor like Anduril would be highly unusual and unprecedented in modern US policy. While Anduril has significant defense contracts, the government typically procures services/products rather than taking ownership stakes in private companies. There is no current indication or policy direction suggesting such an arrangement would occur by end of 2026.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0xd0ef789ce88f899fdf43fac24203b938baa0ee2aef0ce8572fe122d85ff0363a",
+    "market_slug": "will-the-us-30-year-fixed-rate-mortgage-hit-6pt50-high-by-december-31-2026",
+    "event_slug": "will-the-30-year-mortgage-rate-hit-in-2026",
+    "title": "Will the U.S. 30-year Fixed-Rate Mortgage hit 6.50% (HIGH) by December 31, 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "6654.02",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. 30-year fixed mortgage rate is currently around 6.8-7.0% as of early 2025. For the rate to hit 6.50% as a HIGH (meaning reach at least 6.50% at some point), it would need to stay at or above that level at least once before end of 2026. Given current rates are already above 6.50%, this condition is essentially already met or very likely to be met within the timeframe. The question asks if it will 'hit' 6.50% as a high, which current rates already exceed.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      }
+    }
+  },
+  {
+    "condition_id": "0x6d08b8be8ba554142cc38bda6193b137299c79bf19f9080b0044ac52f8ae7604",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-between-1600pt00-and-1699pt99-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026-higher-brackets",
+    "title": "Will the official USD to ARS exchange rate be between 1600.00 and 1699.99 at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1317.95",
+    "status": "ok",
+    "forecast": {
+      "rationale": "From ~1,050 ARS/USD in early 2025, reaching 1600-1699 by end-2026 requires ~52-62% total depreciation (~1.8-2.0% monthly average). Argentina's crawling peg is currently ~1%/month, which would yield ~1,300 by end-2026, undershooting the range. However, if the crawl accelerates or a devaluation occurs, rates could reach this band. The specific 100-peso window is narrow relative to the wide uncertainty in Argentine exchange rate policy over 24 months.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x6ae072980c3a34f776b1bb0d252cff1222ebf223866c1097937d1c5b46274dca",
+    "market_slug": "will-us-gdp-growth-in-2026-be-less-than-0pt5",
+    "event_slug": "gdp-growth-in-2026",
+    "title": "Will US GDP growth in 2026 be less than 0.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-29T00:00:00Z",
+    "volume": "3778.53",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US GDP growth in 2026 is currently projected by most forecasters (IMF, Fed, CBO) to be in the range of 1.5–2.5%, reflecting a soft-landing scenario. While recession risks exist due to potential policy uncertainty, trade tensions, and monetary tightening effects, growth falling below 0.5% would require a significant recession. Historical base rates for such sharp slowdowns in a single year are relatively low, perhaps 10–15% given current conditions.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x2178a830bc9b8f50ee5b92bbeba3ac278ac59389974652ddc24e211ec8be3b5d",
+    "market_slug": "will-the-eurozones-2026-annual-inflation-be-between-2pt5-and-2pt7",
+    "event_slug": "eurozone-2026-annual-inflation",
+    "title": "Will the Eurozone's 2026 Annual Inflation be between 2.5% and 2.7%?",
+    "category": "Economics",
+    "close_time": "2027-01-19T00:00:00Z",
+    "volume": "911.503",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone inflation has been declining from its 2022-2023 peaks toward the ECB's 2% target. Current forecasts for 2026 suggest inflation settling near or slightly above 2%, with most projections placing it in the 1.8%-2.3% range. A range of 2.5%-2.7% seems somewhat elevated relative to consensus forecasts, making it less likely but not impossible given persistent services inflation or energy price surprises.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xac550c316d635e7f2dc810de6d6afd531e254b3c9c7d56d32d14337e7c3979e4",
+    "market_slug": "fed-rate-hike-by-july-2026-meeting",
+    "event_slug": "fed-rate-hike-by",
+    "title": "Fed Rate Hike by July 2026 Meeting?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "681.898",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the Federal Reserve has been in a rate-cutting cycle following the aggressive hikes of 2022-2023. Current market expectations and Fed communications suggest rates are likely to remain stable or continue declining through 2026, with inflation broadly under control. A rate hike by July 2026 would require a significant resurgence in inflation or other economic shock, which is possible but not the base case scenario.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x5458c804acbbb43e822a6175c12677c65e8bf586d2c93c6e1df8551ad8e01d87",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-between-1500pt00-and-1549pt99-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026",
+    "title": "Will the official USD to ARS exchange rate be between 1500.00 and 1549.99 at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "671.536",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The official USD/ARS rate is approximately 1,050-1,100 in early 2025 under Argentina's crawling peg (~1-2% monthly devaluation). Projecting forward ~24 months, the rate could plausibly reach 1,400-1,600 by end of 2026, making the 1,500-1,549.99 range achievable. However, this is a narrow ~3.3% band within a wide range of possible outcomes, and policy changes or accelerated devaluation could easily push the rate outside this window.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xf13d1fedd21e7f89da9efbea3351d6a7f538d0abc2fcba8743aeefa7c8a24572",
+    "market_slug": "will-world-gdp-growth-be-3pt5-in-2026",
+    "event_slug": "2026-world-gdp-growth",
+    "title": "Will world GDP growth be 3.5% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-15T00:00:00Z",
+    "volume": "2991.16",
+    "status": "ok",
+    "forecast": {
+      "rationale": "World GDP growth of exactly 3.5% in 2026 is a very precise target. The IMF and World Bank typically forecast global growth around 3.0–3.3% for 2026, with uncertainty from trade tensions, geopolitical risks, and monetary policy. Even if growth lands near 3.5%, the resolution likely requires hitting that exact figure (or a narrow band), making a 'Yes' outcome unlikely given forecast ranges and historical variability.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x4f1e6d88045775d0b85d6599626442cd64c88bbc0bc4213a679dec879b303c21",
+    "market_slug": "will-ground-beef-hit-10-per-pound-in-2026",
+    "event_slug": "will-ground-beef-hit-in-2026",
+    "title": "Will ground beef hit $10 per pound in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "6.1212",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ground beef prices in the US have been rising, averaging around $5-6 per pound in recent years, with some premium cuts reaching higher. Reaching $10 per pound by end of 2026 would require roughly a doubling from current levels, which would be an extraordinary increase unlikely to occur without severe supply shocks, hyperinflation, or catastrophic disruptions to the beef industry. While inflation and cattle herd reductions are real concerns, a 100% price increase in ~2 years is highly improbable under most realistic scenarios.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xaa6145fb75147c5dda9bda894ed80353b14f23149b285893dd41e1edc8c0d4c2",
+    "market_slug": "will-the-feds-lower-bound-reach-2pt5-or-lower-before-2027-289-849-151-768",
+    "event_slug": "what-will-fed-rate-hit-before-2027",
+    "title": "Will the Fed’s lower bound reach 2.5% or lower before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "181968",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed's lower bound is currently at 4.25%, requiring at least 175 bps of cuts to reach 2.5% by end of 2026. Market expectations suggest only modest cuts in 2025-2026 under baseline scenarios, and the Fed's neutral rate estimates (~3-3.5%) make sub-2.5% rates unlikely without a significant recession. While a severe economic downturn could accelerate cuts, this remains a tail risk within the timeframe.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x426e80109336e68bf5f9a4b6edadc6831639d104e5892750fdf626f8dfbfdbcd",
+    "market_slug": "will-eurozone-annual-gdp-growth-in-2026-be-less-than-0",
+    "event_slug": "eurozone-annual-gdp-growth-2026",
+    "title": "Will Eurozone annual GDP growth in 2026 be less than 0%?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "601.325",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone GDP growth turning negative in 2026 would require a significant recession. Current forecasts for 2026 Eurozone growth are modest but positive (around 1-1.5%), and while risks exist (trade tensions, energy prices, geopolitical uncertainty), a full-year contraction is historically uncommon and not the base case scenario for most forecasters.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x26b69058c1c2c53a8e439504a8755ce75d469ba3a1c82bca934ea7a46f26529e",
+    "market_slug": "will-the-2026-trade-deficit-be-between-900b-and-1t",
+    "event_slug": "us-trade-deficit-in-2026",
+    "title": "Will the 2026 trade deficit be between 900B and 1T?",
+    "category": "Economics",
+    "close_time": "2027-02-28T00:00:00Z",
+    "volume": "818.045",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US trade deficit has been trending upward, reaching approximately $773B in 2022 and around $773B in 2023. For 2026, projections suggest continued growth but reaching $900B-$1T would require a significant jump. Current tariff policies under the Trump administration (2025) could either reduce the deficit or cause short-term distortions. The range of $900B-$1T is plausible but represents a specific band that may or may not be hit depending on economic conditions, exchange rates, and trade policies.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xa792f029046f2c926ee81c7d9802c21a4a651d33cf7e1bf991ba800ae002f59f",
+    "market_slug": "will-inflation-reach-more-than-5-in-2026-282",
+    "event_slug": "how-high-will-inflation-get-in-2026",
+    "title": "Will inflation reach more than 5% in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "78862.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current inflation trends in most major economies (particularly the US and EU) show inflation declining toward central bank targets of around 2-3% after the post-pandemic surge. While risks exist (geopolitical tensions, tariffs, energy shocks), consensus forecasts for 2026 generally place inflation well below 5% in developed economies. The question likely refers to a major economy like the US, where 2026 inflation above 5% would require a significant unexpected shock.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x4914bfdd892a48c341b5e0f41ec10475a815f2277273110b16f95e21084bfe75",
+    "market_slug": "will-6-fed-rate-cuts-happen-in-2026",
+    "event_slug": "how-many-fed-rate-cuts-in-2026",
+    "title": "Will 6 Fed rate cuts happen in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "2.1878e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Six Fed rate cuts in a single year would be historically unusual, typically only occurring during severe economic crises (e.g., 2008, 2020). Current market expectations for 2026 suggest a more modest easing cycle, with most forecasts pointing to 1-3 cuts depending on inflation and growth trajectories. While a recession scenario could accelerate cuts, six cuts (implying 150bps of easing) remains a low-probability tail event.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0xb57f012ac5d6e101ba4d0b10af780f4cfe9d34bb4eced617e6bd1e43cc8e4376",
+    "market_slug": "will-uk-annual-gdp-growth-in-2026-be-below-0",
+    "event_slug": "uk-annual-gdp-growth-2026",
+    "title": "Will UK annual GDP growth in 2026 be below 0%?",
+    "category": "Economics",
+    "close_time": "2027-02-12T00:00:00Z",
+    "volume": "344.914",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK annual GDP growth falling below 0% (i.e., a recession on a full-year basis) is historically rare. Current forecasts for 2026 UK GDP growth are generally in the range of 1-2%, with most major institutions (IMF, OBR, Bank of England) projecting modest positive growth. While downside risks exist (global trade tensions, fiscal tightening, geopolitical uncertainty), a full-year contraction remains unlikely barring a severe unexpected shock.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0x4c3eb9cc59964dbf8afc1b778c3178c5af15c5dd4686b1ea8da979a52d0a932b",
+    "market_slug": "will-indias-2026-annual-inflation-be-at-least-4pt50",
+    "event_slug": "india-annual-inflation-2026",
+    "title": "Will India’s 2026 Annual Inflation be at least 4.50%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "10816.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "India's recent inflation trajectory shows CPI inflation moderating toward the RBI's 4% target. In 2023-2024, inflation averaged around 5-5.5%, but has been trending downward. For 2026 annual average to be at least 4.50%, inflation would need to remain elevated. Given RBI's active monetary policy targeting 4% with a 2-6% band, and current disinflationary trends, there is roughly an even chance inflation stays at or above 4.50% for the full year 2026, as food price volatility and global factors could keep it elevated.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      }
+    }
+  },
+  {
+    "condition_id": "0xf88da08f18b2026d986d67508141ec7c13614d87a6ff0f5315edfce4df643165",
+    "market_slug": "will-the-upper-bound-of-the-target-federal-funds-rate-be-3pt75-at-the-end-of-2026-166",
+    "event_slug": "what-will-the-fed-rate-be-at-the-end-of-2026",
+    "title": "Will the upper bound of the target federal funds rate be 3.75% at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "504614",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The current upper bound is ~4.50%, and reaching exactly 3.75% by end-2026 requires precisely 3 cuts of 25bps net. While this is a plausible moderate easing scenario consistent with some Fed projections, there are many other possible endpoints (4.00%, 3.50%, 4.25%, etc.), making any single rate level relatively unlikely. Market uncertainty about inflation, growth, and Fed policy path spreads probability across multiple outcomes.",
+      "probabilities": {
+        "Yes": 0.17,
+        "No": 0.83
+      }
+    }
+  },
+  {
+    "condition_id": "0x37b4fd9e4e688b9fb124db1a58ae2c601bc87b1d283690b64885c09bfac66359",
+    "market_slug": "will-brazils-annual-inflation-in-2026-be-between-4pt50-and-4pt99",
+    "event_slug": "brazil-annual-inflation-2026",
+    "title": "Will Brazil’s Annual Inflation in 2026 be between 4.50% and 4.99%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "6650.87",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Brazil's inflation target for 2026 is 3.0% with a tolerance band of ±1.5% (1.5%–4.5%). The Banco Central do Brasil has been tightening monetary policy aggressively to bring inflation under control. Current forecasts (Focus survey) for 2026 inflation hover around 3.5%–4.0%, making the 4.50%–4.99% range possible but not the central scenario. There is some probability of inflation landing in this range if tightening is insufficient, but the base case is below 4.50%.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xabe87ef65fbf14524375d7875fca53cab24de288efad25fc17269b7b7b580bb4",
+    "market_slug": "will-scott-bessent-be-confirmed-as-fed-chair",
+    "event_slug": "who-will-be-confirmed-as-fed-chair",
+    "title": "Will Scott Bessent be confirmed as Fed Chair?",
+    "category": "Economics",
+    "close_time": "2026-10-31T00:00:00Z",
+    "volume": "3.97671e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Scott Bessent is currently Treasury Secretary, and Jerome Powell's Fed Chair term runs until May 2026. While Bessent has been mentioned as a potential Fed Chair candidate, Trump would need to nominate him specifically (over other candidates), he would need to leave Treasury, and Senate confirmation would need to complete before October 2026. The timeline is feasible but uncertain, and Bessent is just one of several potential nominees.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x36fff2366a37c4fd11014f53fa7499173b3f4663db0db6a0448a679c422d4683",
+    "market_slug": "will-mexicos-2026-annual-inflation-be-between-4pt50-and-4pt99",
+    "event_slug": "mexico-annual-inflation-2026",
+    "title": "Will Mexico’s 2026 Annual Inflation be between 4.50% and 4.99%?",
+    "category": "Economics",
+    "close_time": "2027-01-08T00:00:00Z",
+    "volume": "3063.13",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mexico's annual inflation has been gradually declining from its 2022 peak of ~8.7% toward the Banxico target of 3%. In 2024, inflation was around 4.7-4.9%, and forecasts for 2025-2026 suggest continued disinflation toward the 3-4% range. A 2026 annual inflation of 4.50%-4.99% is plausible but represents only one segment of a wide distribution; inflation could undershoot (3-4.49%) or overshoot (5%+) depending on peso dynamics, energy prices, and global conditions.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0x93bd21ed3bac0160388c5368610a0275e6bb75383f27b93392c894580e4a3b1d",
+    "market_slug": "will-52-senators-vote-yea-for-trumps-fed-chair-nominee-315",
+    "event_slug": "how-many-senators-will-vote-for-trumps-fed-chair-nominee-411",
+    "title": "Will 52 senators vote “Yea” for Trump’s Fed Chair nominee?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "484.744",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump has not yet nominated a new Fed Chair (Powell's term runs until May 2026). If Trump nominates someone, Senate confirmation requires a simple majority. Republicans hold 53 seats in the 2025-2026 Senate, making 52 'Yea' votes achievable if the nominee is not too controversial. However, there's uncertainty about whether Trump will replace Powell before his term ends, whether a nominee would be confirmed with 52+ votes, and timing constraints before the December 2026 close. The combination of these uncertainties—nomination timing, nominee selection, and confirmation vote outcome—makes this moderately unlikely but possible.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x4d8a21e7451dff6419d6d55459119950664d8f93907314e9516fda182c55d6d1",
+    "market_slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
+    "event_slug": "china-annual-inflation-2026",
+    "title": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "2631.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "China has experienced very low or even deflationary pressures in recent years, with 2023-2024 CPI near 0% or slightly negative. Structural factors like weak domestic demand, property sector stress, and demographic headwinds suggest inflation will likely remain subdued. A range of 1.1%-1.5% is possible but represents a moderate recovery scenario; given current trends, inflation could remain below 1.1% or potentially recover into that range with stimulus, making this a relatively narrow target band.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    }
+  },
+  {
+    "condition_id": "0xad8fbf169c40a7cbf7b3d9c464d84f4744aeb987c82c4afd2c7e10ee516c0eb9",
+    "market_slug": "will-south-koreas-2026-annual-inflation-be-less-than-1pt5",
+    "event_slug": "south-korea-annual-inflation-2026",
+    "title": "Will South Korea’s 2026 Annual Inflation be less than 1.5%?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "949.862",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South Korea's recent inflation has been moderating, with 2024 inflation around 2.3-2.5% and trending downward. The Bank of Korea targets 2% inflation, and while disinflation is ongoing, reaching below 1.5% by 2026 would require significant further deceleration. Historical patterns and current monetary policy suggest inflation is more likely to settle near the 2% target rather than fall below 1.5%, though deflationary pressures from weak domestic demand and global slowdown could push it lower.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x0c0322ff739a75f9943b1e7112de9cd2de59004430eb0f21923a15621f786f9d",
+    "market_slug": "will-south-african-inflation-be-between-3pt8-and-4pt1-in-2026",
+    "event_slug": "south-africa-annual-inflation-2026",
+    "title": "Will South African inflation be between 3.8% and 4.1% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "654.736",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South African inflation has been trending downward toward the SARB's 4.5% midpoint target, with recent readings around 4-5%. The 3.8%-4.1% range is plausible but relatively narrow (0.3 percentage points). Given global uncertainty, commodity price volatility, rand weakness risks, and the SARB's inflation target band of 3-6%, inflation could easily fall outside this specific range. The probability of landing precisely in this narrow band for the full year 2026 average is moderate but not high.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0xcce4472c7a90eedc8c9689b7011e6e40143042ecf9d650b69dbd0fdebac76f70",
+    "market_slug": "will-the-uks-2026-inflation-be-between-1pt5-and-1pt9",
+    "event_slug": "uk-annual-inflation-in-2026",
+    "title": "Will the UK’s 2026 inflation be between 1.5% and 1.9%?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "477.632",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK inflation (CPI) has been elevated but is expected to gradually return toward the Bank of England's 2% target. Forecasts for 2026 UK inflation generally cluster around 2-2.5%, making the 1.5%-1.9% range somewhat below the central expectation. There is some probability of undershooting the target range, but the most likely outcome is inflation settling slightly above 1.9% in 2026.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0xde3801fcbe45f94ab23ae56c8fdd759b5736d8d92c774688acde561987e6115a",
+    "market_slug": "will-canadas-2026-inflation-be-between-2pt5-and-2pt9",
+    "event_slug": "canada-annual-inflation-2026",
+    "title": "Will Canada’s 2026 inflation be between 2.5% and 2.9%?",
+    "category": "Economics",
+    "close_time": "2027-01-18T00:00:00Z",
+    "volume": "464.303",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's inflation has been trending back toward the Bank of Canada's 2% target after elevated post-pandemic levels. Current forecasts suggest inflation settling near 2% by 2026, making the 2.5%-2.9% range somewhat elevated relative to expectations. However, there is meaningful uncertainty around supply shocks, housing costs, and global factors that could push inflation into this range.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x4ea5177566bdb21120d0e511fb37b33e8f5b1249f76c5fcdd8ef8d7a41817f45",
+    "market_slug": "will-argentinas-annual-inflation-in-2026-be-between-25-and-29pt9",
+    "event_slug": "argentina-annual-inflation-2026",
+    "title": "Will Argentina’s annual inflation in 2026 be between 25% and 29.9%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "1358.47",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Argentina has been on a disinflation path under Milei's administration, with monthly inflation dropping from over 25% in late 2023 to single digits by mid-2024. Annual inflation for 2024 was around 117%, and forecasts for 2025 suggest further decline toward 30-50% range. For 2026, continued disinflation could bring annual inflation into the 25-29.9% range, but Argentina's history of fiscal slippage, currency pressures, and structural challenges make this specific narrow band uncertain. The probability of landing precisely in 25-29.9% versus being higher (30-50%) or lower (<25%) is moderate but not dominant.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    }
+  },
+  {
+    "condition_id": "0xc552c2d96a844be039ad665435bef6d2b256e304ebc596a0c2fca40e3340c20b",
+    "market_slug": "will-the-us-national-debt-hit-41-trillion-before-2027",
+    "event_slug": "peak-us-national-debt-before-2027",
+    "title": "Will the U.S. national debt hit $41 trillion before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "427.483",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. national debt is approximately $36-37 trillion in mid-2025, growing at roughly $2 trillion per year. Reaching $41 trillion by end of 2026 requires a $4-5 trillion increase in ~18 months, which is slightly above the recent annual pace but within range given large projected deficits and potential new spending legislation. The probability is moderate but not certain.",
+      "probabilities": {
+        "Yes": 0.52,
+        "No": 0.48
+      }
+    }
+  },
+  {
+    "condition_id": "0xf179f57bcd9d754aee6245c7816d523f3dabcd476e6f26c4b9f6cd8108e72a9f",
+    "market_slug": "will-the-us-federal-government-take-a-stake-in-rigetti-computing-inc",
+    "event_slug": "which-companies-will-the-us-take-a-stake-in",
+    "title": "Will the US federal government take a stake in Rigetti Computing, Inc.?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "18847",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US federal government taking a direct equity stake in a private quantum computing company like Rigetti would be highly unusual and unprecedented outside of extreme circumstances. While the government funds quantum computing research through grants and contracts (DARPA, DOE, NSF), direct equity ownership is not a standard mechanism. There is no current indication or policy direction suggesting such an action before end of 2026.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x4e54fc57fcd566b9c7a25fe7a6ed9596ffe1eb95489ba25575b1c4af0ac798f6",
+    "market_slug": "will-the-us-economy-be-overheating-at-the-end-of-2026",
+    "event_slug": "us-economic-state-at-the-end-of-2026",
+    "title": "Will the US economy be overheating at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the US economy shows mixed signals with moderating inflation but persistent labor market strength. By end of 2026, most forecasts anticipate a soft landing scenario with GDP growth near potential (2-2.5%) and inflation gradually returning toward the Fed's 2% target, making 'overheating' (characterized by significantly above-trend growth, surging inflation, and labor market tightness beyond full employment) unlikely but not impossible given fiscal stimulus risks and potential supply shocks.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    }
+  },
+  {
+    "condition_id": "0x5a769573f99f008f74157208a68d573349fa4d2c65291c59cc0ea063794a8f1d",
+    "market_slug": "will-the-us-30-year-fixed-rate-mortgage-hit-6pt75-high-by-december-31-2026",
+    "event_slug": "will-the-30-year-mortgage-rate-hit-in-2026",
+    "title": "Will the U.S. 30-year Fixed-Rate Mortgage hit 6.75% (HIGH) by December 31, 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "117.657",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. 30-year fixed mortgage rate is currently around 6.8-7.0% as of early 2025. For the rate to hit 6.75% as a HIGH (meaning it reaches or exceeds 6.75% at some point), given current rates are already near or above that level, this is highly likely to resolve Yes. Rates would need to stay below 6.75% for the entire period through December 2026 to resolve No, which seems unlikely given current levels.",
+      "probabilities": {
+        "Yes": 0.91,
+        "No": 0.09
+      }
+    }
+  },
+  {
+    "condition_id": "0xfbaacf639ab426359caeac3968d1214c0b1cfd33d184dfc652e483e8b1a86343",
+    "market_slug": "will-eurozone-annual-gdp-growth-in-2026-be-between-5pt0-and-6pt0",
+    "event_slug": "eurozone-annual-gdp-growth-2026",
+    "title": "Will Eurozone annual GDP growth in 2026 be between 5.0% and 6.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "573.463",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone annual GDP growth has historically ranged between -0.5% and 3% in normal years, with exceptional post-COVID recovery reaching around 5.4% in 2021. Growth of 5.0–6.0% in 2026 would require an extraordinary economic boom far above current forecasts, which project Eurozone growth around 1–2% for 2025–2026. Such high growth is extremely unlikely barring an unprecedented economic shock recovery.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0xb8e453f1147b9ed4b0303476ca53d065137dee9ab0286e9b281e1c9eb1e3b627",
+    "market_slug": "will-world-gdp-growth-be-3pt3-in-2026",
+    "event_slug": "2026-world-gdp-growth",
+    "title": "Will world GDP growth be 3.3% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-15T00:00:00Z",
+    "volume": "1921.59",
+    "status": "ok",
+    "forecast": {
+      "rationale": "World GDP growth forecasts for 2026 from major institutions (IMF, World Bank) typically cluster around 3.0–3.3%, but hitting exactly 3.3% is a narrow target. The IMF's October 2024 World Economic Outlook projected global growth at around 3.2–3.3% for 2025–2026, making 3.3% plausible but not certain given economic uncertainties, rounding conventions, and the precision required.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xbeb692033effc758cea5b40a5b50a1f0cbb00c260afd1d3ed676bdb9e16c3c82",
+    "market_slug": "will-the-eurozones-2026-annual-inflation-be-between-2pt4-and-2pt5",
+    "event_slug": "eurozone-2026-annual-inflation",
+    "title": "Will the Eurozone's 2026 Annual Inflation be between 2.2% and 2.4%?",
+    "category": "Economics",
+    "close_time": "2027-01-19T00:00:00Z",
+    "volume": "750.961",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone inflation has been declining from its 2022-2023 peaks toward the ECB's 2% target. Current forecasts for 2026 suggest inflation settling near or slightly above 2%, with most projections clustering around 2.0-2.3%. The specific range of 2.2%-2.4% is plausible but represents only a narrow band; there is meaningful probability inflation could be below 2.2% (closer to target) or above 2.4% depending on energy prices, wage growth, and global conditions.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x059db22dae2d735516017d47d1def0ea43e5d7221259c3aaa60c090d32566d4e",
+    "market_slug": "fed-rate-hike-by-october-2026-meeting",
+    "event_slug": "fed-rate-hike-by",
+    "title": "Fed Rate Hike by October 2026 Meeting?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "374.197",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the Federal Reserve has been in a rate-cutting cycle following the aggressive hikes of 2022-2023. Market expectations and Fed communications suggest rates are likely to remain stable or continue declining through 2026, with inflation broadly under control. A rate hike by October 2026 would require a significant resurgence in inflation or other economic shock, which is possible but not the base case scenario.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x88038be57cc91815287021d71dc17189c5eecd2fb851228b4a408c5b6512becd",
+    "market_slug": "will-us-gdp-growth-in-2026-be-between-1pt0-and-1pt5",
+    "event_slug": "gdp-growth-in-2026",
+    "title": "Will US GDP growth in 2026 be between 1.0% and 1.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-29T00:00:00Z",
+    "volume": "1500.17",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US GDP growth forecasts for 2026 currently center around 1.5-2.5%, with most mainstream projections (Fed, IMF, CBO) suggesting growth in the 1.8-2.2% range. The 1.0%-1.5% band represents a below-consensus but not recessionary outcome, which could occur if trade tensions, tariff impacts, or monetary policy tightening weigh more heavily than expected. Given the wide range of possible outcomes and the central tendency being above 1.5%, this specific narrow band has a moderate but below-average probability.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xd20b5d0c73c824a7a0c2937baa24c3ad8913fa1d4a057f0cc702b5705a7ac307",
+    "market_slug": "will-ground-beef-hit-9-per-pound-in-2026",
+    "event_slug": "will-ground-beef-hit-in-2026",
+    "title": "Will ground beef hit $9 per pound in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "3.0612",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ground beef prices in the US have been rising, averaging around $5-6 per pound in recent years, with some premium cuts reaching higher. Reaching $9 per pound by end of 2026 would require roughly a 50-80% increase from current levels, which is historically unprecedented in such a short timeframe absent extreme supply shocks. While inflation and cattle cycle pressures exist, such a dramatic price jump within 1-2 years is unlikely under normal conditions.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0x728246cda497e10289a7145245675e2baece6561ba784760b0914108e6e42c04",
+    "market_slug": "will-the-feds-upper-bound-reach-5pt25-or-higher-before-2027-679",
+    "event_slug": "what-will-fed-rate-hit-before-2027",
+    "title": "Will the Fed’s upper bound reach 5.25% or higher before 2027?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "139612",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed's upper bound reached 5.5% in 2023 and has since been cut to around 4.25-4.5% by early 2025. For the upper bound to reach 5.25% or higher again before end of 2026, the Fed would need to reverse course and hike rates significantly. While inflation risks remain, the current trajectory is toward easing or holding, making another hike cycle to 5.25%+ within this timeframe unlikely but not impossible given uncertainty about inflation resurgence.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x306b01a825a423668beec573456610843ad4c47f72d1fb70d880f55b10109d91",
+    "market_slug": "will-the-2026-trade-deficit-be-1pt1t-or-more",
+    "event_slug": "us-trade-deficit-in-2026",
+    "title": "Will the 2026 trade deficit be 1.1T or more?",
+    "category": "Economics",
+    "close_time": "2027-02-28T00:00:00Z",
+    "volume": "509.273",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US trade deficit reached approximately $773 billion in 2023 and around $918 billion in 2024. Reaching $1.1 trillion by 2026 would require a significant further increase of roughly 20% from 2024 levels. While the deficit has been growing, Trump's tariff policies in 2025 could either reduce the deficit or cause short-term surges in imports. The trajectory suggests growth but $1.1T is a high threshold that may not be reached by 2026.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0x04a83249c976c072e7795b7a00e35ff42ab4c68cf55455ce14d61c2025ff4ddd",
+    "market_slug": "will-inflation-reach-more-than-8-in-2026-897",
+    "event_slug": "how-high-will-inflation-get-in-2026",
+    "title": "Will inflation reach more than 8% in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "34253.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Current inflation trends in most major economies show inflation declining from the 2022 peaks toward central bank targets of around 2%. With monetary policy having tightened significantly and inflation expectations remaining anchored, reaching above 8% inflation by 2026 would require an extraordinary shock (major supply disruption, energy crisis, or geopolitical catastrophe). While tail risks exist, the baseline scenario strongly favors inflation remaining well below 8% in 2026.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0xffa0accb74987c0dc33a70eb3780c1da160206bcfb3ef5d16c1667bc5c459c78",
+    "market_slug": "will-12-or-more-fed-rate-cuts-happen-in-2026",
+    "event_slug": "how-many-fed-rate-cuts-in-2026",
+    "title": "Will 12 or more Fed rate cuts happen in 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1.90862e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Federal Reserve typically adjusts rates in 25 basis point increments, and 12 or more cuts in a single year would be historically unprecedented. Even during the 2008 financial crisis or COVID-19 pandemic, the Fed made far fewer than 12 cuts in a year. Current economic conditions and Fed projections suggest a modest easing cycle, not an extreme one requiring 12+ cuts. The probability of this occurring is extremely low.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0xd1cdfc25c26ccb87c1045b1361147da598b831faf6f65d39e31462e385058759",
+    "market_slug": "will-uk-annual-gdp-growth-in-2026-be-5-or-higher",
+    "event_slug": "uk-annual-gdp-growth-2026",
+    "title": "Will UK annual GDP growth in 2026 be 5% or higher?",
+    "category": "Economics",
+    "close_time": "2027-02-12T00:00:00Z",
+    "volume": "252.075",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK annual GDP growth of 5% or higher in 2026 would be extraordinarily high by historical standards. The UK has rarely if ever achieved 5% real GDP growth in peacetime, with typical growth rates of 1-3%. Current forecasts for 2026 UK GDP growth are in the range of 1-2%. Even optimistic scenarios do not approach 5%, making this outcome extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0xba4a30cc8deca861f0f724d35dc4f8f09dc228bd97bd0af84eb7db173db21824",
+    "market_slug": "will-brazils-annual-inflation-in-2026-be-between-5pt00-and-5pt49",
+    "event_slug": "brazil-annual-inflation-2026",
+    "title": "Will Brazil’s Annual Inflation in 2026 be between 5.00% and 5.49%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "5846.76",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Brazil's inflation target for 2026 is 3% with a tolerance band of ±1.5%. Current market expectations (Focus Report) for 2026 inflation hover around 3.5-4.5%, well below the 5.00-5.49% range. While Brazil has historically struggled with inflation, the BCB's tightening cycle and credibility improvements make landing in the 5.00-5.49% band relatively unlikely but not impossible given fiscal risks and currency pressures.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0xf9ca1f6608ee282342a6c8d108dda15b91fc9cc1cf9e90a548c3ae5f825b425f",
+    "market_slug": "will-the-upper-bound-of-the-target-federal-funds-rate-be-3pt0-at-the-end-of-2026-593",
+    "event_slug": "what-will-the-fed-rate-be-at-the-end-of-2026",
+    "title": "Will the upper bound of the target federal funds rate be 3.0% at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "451583",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Fed funds upper bound is currently ~4.25-4.50% and the Fed is in a cutting cycle. Reaching exactly 3.0% by end of 2026 requires ~125bps of cuts, which is plausible given neutral rate estimates around 2.75-3.25%. However, 3.0% is just one of several possible landing points (2.75%, 3.25%, 3.5%, etc.), and economic uncertainty could lead to faster or slower cutting paths.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0xf2b7f54d9b88d9baeddb2a541d503cafd7bbe35fdf0ebd3bdf9adb44432dcfe1",
+    "market_slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
+    "event_slug": "china-annual-inflation-2026",
+    "title": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "2380.37",
+    "status": "ok",
+    "forecast": {
+      "rationale": "China has been experiencing very low or deflationary pressures in recent years, with 2023-2024 CPI near 0% or slightly negative. A range of 0.6%-1.0% for 2026 is plausible but represents a modest recovery scenario. Given structural deflationary pressures (property sector, weak domestic demand) and potential policy stimulus, inflation could land anywhere from negative to above 1%. The specific 0.4 percentage point window (0.6%-1.0%) captures only a portion of the likely distribution.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x2fc1e1bcf0aed6eebd7056480133ebea59d0c8666bd07f2498c14bf958f700ae",
+    "market_slug": "will-michelle-bowman-be-confirmed-as-fed-chair",
+    "event_slug": "who-will-be-confirmed-as-fed-chair",
+    "title": "Will Michelle Bowman be confirmed as Fed Chair?",
+    "category": "Economics",
+    "close_time": "2026-10-31T00:00:00Z",
+    "volume": "2.69349e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Michelle Bowman is a plausible candidate for Fed Chair given her alignment with Trump's preferences and her recent confirmation as Vice Chair for Supervision. However, Powell's term runs until May 2026, and there are multiple competing candidates (Warsh, others). Even if nominated after May 2026, Senate confirmation by October 2026 is tight but possible. The main uncertainty is whether Bowman specifically is chosen over other candidates.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x2cbd2902e437ad21646706800b0322b2ca321d3ce23ef833255aeb654f78aa19",
+    "market_slug": "will-indias-2026-annual-inflation-be-less-than-0pt75",
+    "event_slug": "india-annual-inflation-2026",
+    "title": "Will India’s 2026 Annual Inflation be less than 0.75%?",
+    "category": "Economics",
+    "close_time": "2027-01-12T00:00:00Z",
+    "volume": "658.034",
+    "status": "ok",
+    "forecast": {
+      "rationale": "India's annual inflation has historically been well above 0.75%, typically ranging between 4-7% in recent years, driven by food prices, energy costs, and structural factors. The RBI targets 4% inflation with a 2-6% tolerance band, making sub-0.75% inflation extremely unlikely barring an unprecedented deflationary shock. There is virtually no credible scenario where India's 2026 annual inflation falls below 0.75%.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0xf17ed7158c79f74ac03e2d8f500217d0e5ad5ca466df1c0c3464a7c30ca7b5da",
+    "market_slug": "will-59-senators-vote-yea-for-trumps-fed-chair-nominee-527",
+    "event_slug": "how-many-senators-will-vote-for-trumps-fed-chair-nominee-411",
+    "title": "Will 59 senators vote “Yea” for Trump’s Fed Chair nominee?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "388.253",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump has not yet nominated a new Fed Chair (Powell's term runs until May 2026). If Trump nominates someone, Senate confirmation is likely but reaching 59 'Yea' votes (a supermajority threshold) is quite difficult in a closely divided Senate. Republicans hold 53 seats, so they would need 6 Democratic votes to reach 59. Fed Chair nominees historically receive bipartisan support sometimes, but 59 votes is a high bar. Additionally, there's uncertainty about whether a nomination and confirmation will even occur before end of 2026.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x33d9d829a18b15d05c3454393a501d05ee90bb120d39e3ce7df43adbacd9dba2",
+    "market_slug": "will-south-african-inflation-be-between-4pt1-and-4pt4-in-2026",
+    "event_slug": "south-africa-annual-inflation-2026",
+    "title": "Will South African inflation be between 4.1% and 4.4% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "531.927",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South African inflation has been trending downward toward the SARB's 4.5% midpoint target. Recent inflation readings have been around 4-5%, and the SARB targets 4.5% as its preferred midpoint. A range of 4.1%-4.4% is plausible but slightly below the midpoint target, representing a relatively narrow 0.3 percentage point band. Given uncertainty in commodity prices, rand volatility, and global conditions over a multi-year horizon, there is meaningful but not dominant probability of landing in this specific range.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x6657dbaf9109fdd9e5be195e626e7ace12cfc31c605ca3c6367884ae35f3d75e",
+    "market_slug": "will-the-uks-2026-inflation-be-between-4pt0-and-4pt4",
+    "event_slug": "uk-annual-inflation-in-2026",
+    "title": "Will the UK’s 2026 inflation be between 4.0% and 4.4%?",
+    "category": "Economics",
+    "close_time": "2027-01-20T00:00:00Z",
+    "volume": "406.971",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UK inflation (CPI) has been declining from its 2022-2023 peaks and is currently trending toward the Bank of England's 2% target. Most forecasts for 2026 UK inflation place it in the 2-3% range, making a 4.0-4.4% outcome relatively unlikely. However, there is some upside risk from energy prices, wage growth, and global supply shocks that could push inflation higher than expected.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x92db92b0c2a161440cb8500db98b5883c475e5a5e3b869990fb4276bd1f70a04",
+    "market_slug": "will-mexicos-2026-annual-inflation-be-between-4pt00-and-4pt49",
+    "event_slug": "mexico-annual-inflation-2026",
+    "title": "Will Mexico’s 2026 Annual Inflation be between 4.00% and 4.49%?",
+    "category": "Economics",
+    "close_time": "2027-01-08T00:00:00Z",
+    "volume": "403.327",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mexico's annual inflation has been trending downward from its 2022 peak above 8%, reaching around 4-5% range in 2024-2025. Banxico targets 3% ±1pp, and with ongoing monetary policy normalization, inflation in 2026 could plausibly land in the 4.00-4.49% range, though there's significant uncertainty across a wide range of possible outcomes (below 4%, 4.00-4.49%, 4.50-5%, above 5%). The 4.00-4.49% band represents roughly one of several plausible outcome ranges, with moderate probability given current disinflation trends.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x83859c8ef5712e17bde5a92cb027a9fdc41a7b1b76e6ee06bdd830215b5b1f5f",
+    "market_slug": "will-canadas-2026-inflation-be-between-2pt0-and-2pt4",
+    "event_slug": "canada-annual-inflation-2026",
+    "title": "Will Canada’s 2026 inflation be between 2.0% and 2.4%?",
+    "category": "Economics",
+    "close_time": "2027-01-18T00:00:00Z",
+    "volume": "350.262",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's inflation has been trending back toward the Bank of Canada's 2% target after elevated post-pandemic levels. The Bank of Canada targets 2% inflation, and forecasts for 2026 generally place inflation near this target. The range 2.0%-2.4% is a relatively narrow band centered just above the target, making it plausible but not certain. There is meaningful probability inflation could fall below 2.0% or rise above 2.4% given economic uncertainties.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0xfab337523b8f1551e4ea48e6160a75842598c85cd004c94915e471e07d336505",
+    "market_slug": "will-south-koreas-2026-annual-inflation-be-between-2pt1-and-2pt3",
+    "event_slug": "south-korea-annual-inflation-2026",
+    "title": "Will South Korea’s 2026 Annual Inflation be between 2.1% and 2.3%?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "158.872",
+    "status": "ok",
+    "forecast": {
+      "rationale": "South Korea's inflation has been moderating toward its 2% target after elevated post-pandemic levels. Current forecasts for 2026 suggest inflation settling near 2%, with the range 2.1%-2.3% being plausible but representing only a narrow 0.2 percentage point band. Given uncertainty over global commodity prices, domestic demand, and monetary policy, the probability of landing precisely in this narrow range is moderate but not high.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x444cb85ce07d3fb4e7628e9eb5d53d66da6211b8edbb608fac736b7b06addfa9",
+    "market_slug": "will-argentinas-annual-inflation-in-2026-be-at-least-45",
+    "event_slug": "argentina-annual-inflation-2026",
+    "title": "Will Argentina’s annual inflation in 2026 be at least 45%?",
+    "category": "Economics",
+    "close_time": "2027-01-10T00:00:00Z",
+    "volume": "995.205",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Argentina's inflation has been declining sharply under Milei's austerity program, from ~211% in 2023 to ~118% in 2024, with continued disinflation expected through 2025. By 2026, inflation could plausibly fall below 45% if fiscal discipline and the exchange rate anchor hold. However, Argentina's structural vulnerabilities, political risks, and history of policy reversals create meaningful probability that inflation remains elevated above 45%.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    }
+  },
+  {
+    "condition_id": "0xe9d2673b8949dde8c7ace819e86d53bc9c3c6098b45423b989c935f699f36b51",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-2000pt00-or-higher-at-the-end-of-december-2026-686",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026-higher-brackets",
+    "title": "Will the official USD to ARS exchange rate be 2000.00 or higher at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1272.83",
+    "status": "ok",
+    "forecast": {
+      "rationale": "At the current crawling peg rate (~1% monthly), the USD/ARS would reach approximately 1,300-1,400 by end of 2026, well below 2,000. However, Argentina has a history of sudden large devaluations, and the IMF deal or political/economic pressures could trigger a significant one-time adjustment or shift to a floating regime that could push rates above 2,000. Balancing the base case (insufficient depreciation) against meaningful tail risk of a devaluation event over nearly two years.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0x9098cc8aea99fac63848aa0bc37a80f1b8ad8df6c0a784c7d84158096a8daf9d",
+    "market_slug": "will-the-official-usd-to-ars-exchange-rate-be-between-1400pt00-and-1449pt99-at-the-end-of-december-2026",
+    "event_slug": "argentina-official-usd-exchange-rate-end-of-2026",
+    "title": "Will the official USD to ARS exchange rate be between 1400.00 and 1449.99 at the end of December 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "663.592",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Starting from ~1,100 ARS/USD in early 2025, a 1% monthly crawl would yield ~1,386 by end-2026, while 1.5% monthly would yield ~1,573, suggesting the 1,400-1,449 range is plausible but narrow. Argentina's exchange rate policy under Milei and the IMF deal introduces significant uncertainty, with risks of faster devaluation or a float pushing rates well above this band. The specific 3.5% window has moderate but not high probability.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0xf86df821bd41f20c0b67674bfc03a7db9408bc336103ffdf9675cb8e313797f1",
+    "market_slug": "will-the-us-federal-government-take-a-stake-in-nvidia-corporation",
+    "event_slug": "which-companies-will-the-us-take-a-stake-in",
+    "title": "Will the US federal government take a stake in NVIDIA Corporation?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "8722.93",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US federal government taking an equity stake in a private technology company like NVIDIA would be an extraordinary and unprecedented action in modern US economic policy. While there is increased government interest in semiconductor supply chains (e.g., CHIPS Act subsidies), direct equity ownership of NVIDIA is not being discussed in any serious policy circles. The current political environment, with a deregulatory administration, makes this even less likely by end of 2026.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0x06bf3994ee4616843a085c6ae4196893ed6af593ef09644be91f3163c1fe9b2c",
+    "market_slug": "will-the-us-30-year-fixed-rate-mortgage-hit-5pt50-low-by-december-31-2026",
+    "event_slug": "will-the-30-year-mortgage-rate-hit-in-2026",
+    "title": "Will the U.S. 30-year Fixed-Rate Mortgage hit 5.50% (LOW) by December 31, 2026?",
+    "category": "Economics",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "25.0011",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The U.S. 30-year fixed mortgage rate is currently around 6.5-7% as of early 2025. For rates to drop to 5.50% by end of 2026, the Fed would need to cut rates significantly and mortgage spreads would need to compress. While rate cuts are expected, most forecasts project 30-year rates remaining above 6% through 2026, with 5.50% requiring an unusually aggressive easing cycle or recession scenario. This is possible but not the base case.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x50e3ee8f93a464d04ea2cea6efff45c902f43642aedbf43f7afdc899e10f71d8",
+    "market_slug": "will-the-us-economy-be-in-a-soft-landing-at-the-end-of-2026",
+    "event_slug": "us-economic-state-at-the-end-of-2026",
+    "title": "Will the US economy be in a soft landing at the end of 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A 'soft landing' typically means inflation returning near target (~2%) without a recession. As of mid-2025, the US economy has shown resilience, but risks remain from tariff uncertainty, elevated interest rates, and potential labor market softening. Historically, soft landings are achievable but not the most common outcome after aggressive tightening cycles. The Fed has made progress on inflation, and growth has remained positive, giving a moderate probability of success through end of 2026.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    }
+  },
+  {
+    "condition_id": "0xbf36de5d2974e0df0519363ef69ba3d3f6df3bfac851619cb1162b2361590355",
+    "market_slug": "will-eurozone-annual-gdp-growth-in-2026-be-between-2pt0-and-3pt0",
+    "event_slug": "eurozone-annual-gdp-growth-2026",
+    "title": "Will Eurozone annual GDP growth in 2026 be between 2.0% and 3.0%?",
+    "category": "Economics",
+    "close_time": "2027-01-31T00:00:00Z",
+    "volume": "555.606",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone GDP growth has historically been modest, typically ranging between 0.5% and 2.0% in recent years. Current forecasts for 2026 from major institutions (IMF, ECB, European Commission) generally project growth around 1.2%–1.6%, well below the 2.0%–3.0% threshold. Achieving 2.0%–3.0% would require a significant acceleration beyond current expectations, making this outcome unlikely.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x6219e01740da1e4b0b67c32692f2f33b47b283a3b720aeb6d8dbb48a33bfb7ea",
+    "market_slug": "will-world-gdp-growth-be-3pt2-in-2026",
+    "event_slug": "2026-world-gdp-growth",
+    "title": "Will world GDP growth be 3.2% in 2026?",
+    "category": "Economics",
+    "close_time": "2027-01-15T00:00:00Z",
+    "volume": "1583.28",
+    "status": "ok",
+    "forecast": {
+      "rationale": "World GDP growth forecasts for 2026 from major institutions (IMF, World Bank) typically cluster around 3.0–3.3%, making 3.2% a plausible but specific target. The IMF's October 2024 World Economic Outlook projected global growth around 3.2% for 2025–2026, but actual outcomes rarely match a precise figure exactly. Resolution likely depends on whether the reported figure rounds to exactly 3.2%, which is uncertain given economic volatility and measurement revisions.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c",
+    "market_slug": "fed-rate-hike-by-september-2026-meeting",
+    "event_slug": "fed-rate-hike-by",
+    "title": "Fed Rate Hike by September 2026 Meeting?",
+    "category": "Economics",
+    "close_time": "2026-12-09T00:00:00Z",
+    "volume": "33.4807",
+    "status": "ok",
+    "forecast": {
+      "rationale": "As of mid-2025, the Federal Reserve has been in a rate-cutting cycle following the aggressive hikes of 2022-2023. Market expectations and Fed communications suggest rates are likely to remain stable or continue modest cuts through 2026, with inflation gradually approaching the 2% target. A rate hike by September 2026 would require a significant resurgence in inflation or other economic shocks, which is possible but not the base case scenario.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x959f46f791c776a9a3d40d6d4556927fc85b839c0f07a2c29f69af7bc9cbfac7",
+    "market_slug": "will-the-eurozones-2026-annual-inflation-be-between-1pt3-and-1pt5",
+    "event_slug": "eurozone-2026-annual-inflation",
+    "title": "Will the Eurozone's 2026 Annual Inflation be between 1.3% and 1.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-19T00:00:00Z",
+    "volume": "728.512",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Eurozone inflation has been gradually declining from its 2022-2023 peaks toward the ECB's 2% target. Current forecasts for 2026 suggest inflation settling around 1.9-2.1%, with the ECB targeting 2%. A range of 1.3%-1.5% would represent inflation falling significantly below target, which is possible but not the central scenario. Most forecasts place 2026 inflation closer to 2%, making this narrow band relatively unlikely.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x21ba6e5a2ac90fa75afef355b6459730b79ff573ff3724c256aeb4d6e3e88e9a",
+    "market_slug": "will-us-gdp-growth-in-2026-be-between-2pt0-and-2pt5",
+    "event_slug": "gdp-growth-in-2026",
+    "title": "Will US GDP growth in 2026 be between 2.0% and 2.5%?",
+    "category": "Economics",
+    "close_time": "2027-01-29T00:00:00Z",
+    "volume": "1432.77",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US GDP growth forecasts for 2026 are uncertain, with consensus estimates typically clustering around 1.8–2.5% depending on policy environment, trade conditions, and global factors. The 2.0–2.5% range is a plausible but not dominant outcome; there is meaningful probability of growth falling below 2.0% due to potential slowdowns, tariff impacts, or tightening financial conditions, and some chance of exceeding 2.5%. The specified range covers roughly a 0.5 percentage point band within a wide distribution of outcomes.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  }
+]

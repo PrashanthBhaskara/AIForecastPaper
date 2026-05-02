@@ -1,0 +1,2552 @@
+[
+  {
+    "condition_id": "0xc9b87cf9582ae37f3440aea13a01c0b2437ab4fdff95461801f53ec2b4a5d1c2",
+    "market_slug": "will-the-democratic-party-win-the-ca-15-house-seat",
+    "event_slug": "ca-15-house-election-winner",
+    "title": "Will the Democratic Party win the CA-15 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "84842.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-15 (covering the Fremont/Hayward area in the East Bay) is a heavily Democratic district. It was created after redistricting and has a strong Democratic lean with a Cook PVI of around D+20 or more. Incumbent Democrats have held this seat comfortably, and the demographic composition makes a Republican win extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      }
+    }
+  },
+  {
+    "condition_id": "0x9163ed507939950121ef6b939e89c1f72ee0f7dd0909940b5aed9e3e7854f6d4",
+    "market_slug": "will-the-republican-party-win-the-popular-vote-in-the-2026-us-house-of-representatives-midterm-elections-by-between-2-and-4-265",
+    "event_slug": "2026-midterms-house-popular-vote-margin-of-victory-224",
+    "title": "Will the Republican Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 2% and 4%?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "25795.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Midterm elections historically favor the party out of power, and with Republicans holding the White House in 2025-2026, Democrats typically gain seats/votes in midterms. The specific range of Republicans winning the popular vote by 2-4% is just one of many possible outcomes (Democrats could win, Republicans could win by less than 2%, more than 4%, etc.). Given historical patterns suggesting Democratic advantage in 2026 midterms, plus the narrow specific range required, the probability is relatively low.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0xcad0d0df08db801f27b9b9e537f3d221d2ec2036196b7627bd63b20d3a7752b0",
+    "market_slug": "will-republicans-lose-a-seat-in-the-us-senate-for-any-state-trump-won-in-2024",
+    "event_slug": "will-republicans-lose-a-seat-in-the-us-senate-for-any-state-trump-won-in-2024",
+    "title": "Will Republicans lose a seat in the US Senate for any state Trump won in 2024?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "2733.14",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In 2026, most competitive Republican Senate seats are in states Trump either lost or barely won. The most vulnerable Republican incumbents (Collins in Maine) are in states Trump lost. While Democrats are favored to gain seats in midterms with Trump as president, flipping a seat in a Trump-won state (like Alaska with Murkowski) is possible but faces structural challenges. The probability is moderate but below 50%.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x1cbd2d35ecfbb6a2dede1e1718febb3fdf8d5accab524cec16af0505f78737ca",
+    "market_slug": "will-the-republican-party-win-the-fl-01-house-seat",
+    "event_slug": "fl-01-house-election-winner",
+    "title": "Will the Republican Party win the FL-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "77843.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "FL-01 (Florida's 1st Congressional District) covers the western Florida Panhandle including Pensacola, one of the most reliably Republican districts in the country. It has been held by Republicans for decades and has a Cook PVI of approximately R+30. The incumbent Matt Gaetz held this seat before resigning, and it was won by a Republican in the subsequent special election. There is virtually no realistic path for Democrats to win this district.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      }
+    }
+  },
+  {
+    "condition_id": "0x28c1fe8819aec32868983b0bd0364f8c0e6e9b6ef39ffaa860d7d1d913dd40d5",
+    "market_slug": "will-republicanos-republicanos-win-the-most-seats-in-the-next-brazilian-senate-election",
+    "event_slug": "next-brazil-senate-election-most-seats-won",
+    "title": "Will Republicanos (REPUBLICANOS) win the most seats in the next Brazilian Senate election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "951.048",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republicanos is a mid-sized party in Brazil with limited Senate presence. The Brazilian Senate elections favor larger parties like PL, União Brasil, MDB, and PSD, which consistently win more seats. Republicanos has historically been a smaller player in Senate races, making it very unlikely to win the most seats in the 2026 election.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x85840a33f43140f63017f468129ce8507158bb096a295cfb7c9124cf52aae640",
+    "market_slug": "will-republicans-lose-a-seat-in-the-house-of-representatives-in-any-state-trump-won-in-2024",
+    "event_slug": "will-republicans-lose-a-seat-in-the-house-of-representatives-in-any-state-trump-won-in-2024",
+    "title": "Will Republicans lose a seat in the House of Representatives in any state Trump won in 2024?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "2156.41",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republicans historically lose House seats in midterm elections, and Trump won 31 states covering numerous competitive districts. The bar is extremely low - just one seat needs to flip in any of those states. Given typical midterm dynamics unfavorable to the president's party and the large geographic spread of Trump-won states including swing states with competitive districts, it would be historically anomalous for Republicans not to lose at least one seat in a Trump-won state by November 2026.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      }
+    }
+  },
+  {
+    "condition_id": "0x09d136a3f1111d466c0b93ca6309b6e1f2e95a71a0b1f4bdf8b4be492440bde6",
+    "market_slug": "will-the-republican-party-win-the-ms-01-house-seat",
+    "event_slug": "ms-01-house-election-winner",
+    "title": "Will the Republican Party win the MS-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "70609.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MS-01 (Mississippi's 1st congressional district) is a heavily Republican district in northern Mississippi. It has been held by Republicans for decades and has a Cook PVI of approximately R+24. The incumbent is Trent Kelly (R), and the district consistently votes Republican by large margins in both presidential and congressional elections. There is virtually no realistic path for Democrats to win this seat.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x4e7c61caea7979dd89197ea3dbbcc421c786788706abe154461bdad7bf9598b6",
+    "market_slug": "will-republicanos-republicanos-hold-the-most-seats-as-a-result-of-the-next-brazilian-senate-election",
+    "event_slug": "next-brazil-senate-election-most-seats-held",
+    "title": "Will Republicanos (REPUBLICANOS) hold the most seats as a result of the next Brazilian Senate election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "566.06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republicanos is a mid-sized Brazilian party currently holding relatively few Senate seats compared to dominant parties like PSD, MDB, and União Brasil. The Brazilian Senate is highly fragmented across many parties, and Republicanos lacks the scale and historical presence to emerge as the largest Senate party after 2026 elections. No credible polling or structural factors suggest this outcome is likely.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0xf8ffc79497e28506895f59a72288ef924ce98481c8b0341281fdd786e9489668",
+    "market_slug": "republican-trifecta-with-supermajority-in-the-senate",
+    "event_slug": "republican-trifecta-with-supermajority-in-the-senate",
+    "title": "Republicans win Trifecta with Senate Supermajority in midterms?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "74597.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A Senate supermajority requires 60 Republican seats. Currently Republicans hold ~53 seats after the 2024 elections. In 2026, Democrats are defending fewer seats (roughly 21 vs Republicans' 13), but gaining 7+ net seats to reach 60 is historically unprecedented in modern midterms, especially since the president's party typically loses seats in midterms. While Republicans have a favorable map, achieving a 60-seat supermajority is extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0x3a1ed604e5d128ea2deb23db1e6f2f1cd9cff31c9e8836ff1b2c840dcd0724ac",
+    "market_slug": "will-the-democratic-party-win-the-va-06-house-seat",
+    "event_slug": "va-06-house-election-winner",
+    "title": "Will the Democratic Party win the VA-06 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "47223.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Virginia's 6th Congressional District is a heavily Republican district with a Cook PVI of approximately R+16 to R+18, covering rural western Virginia and the Shenandoah Valley. Republican Ben Cline has held the seat since 2019 with comfortable margins, and the district's demographics make a Democratic win extremely unlikely even in a favorable national environment.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xa39535caf2ce2c47dfbdc64c3cef9a00b7599a24c34b4091caed34df27094639",
+    "market_slug": "will-the-sweden-democrats-sd-win-the-most-seats-in-the-2026-swedish-parliamentary-election",
+    "event_slug": "sweden-parliamentary-election-winner",
+    "title": "Will the Sweden Democrats (SD) win the most seats in the 2026 Swedish parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-09-13T00:00:00Z",
+    "volume": "510491",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Sweden Democrats have been growing in polls but still trail the Social Democrats by roughly 8-12 percentage points in most recent surveys. Historically, the Social Democrats have been Sweden's dominant party, and SD would need an unprecedented surge to overtake them. While SD's rise is notable, the structural gap makes it unlikely they will win the most seats in 2026.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+    "market_slug": "2026-balance-of-power-d-senate-d-house-949",
+    "event_slug": "balance-of-power-2026-midterms",
+    "title": "2026 Balance of Power: D Senate, D House",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "1.444e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Democrats currently hold a minority in both chambers. To win the House, Democrats need a net gain of roughly 5+ seats, which is historically plausible for a midterm against the incumbent party. To win the Senate, Democrats face a very difficult map in 2026 with few pickup opportunities and must defend several seats. Winning both chambers simultaneously is quite unlikely given the Senate map favoring Republicans and historical midterm dynamics that, while potentially favorable to Democrats as the out-party, rarely produce sweeping gains in both chambers simultaneously.",
+      "probabilities": {
+        "Yes": 0.09,
+        "No": 0.91
+      }
+    }
+  },
+  {
+    "condition_id": "0xa89bc5ec9129faa68708cf7cd24f50b6391ee2196547cc495f353915b4bd6680",
+    "market_slug": "will-the-democratic-party-win-the-ca-16-house-seat",
+    "event_slug": "ca-16-house-election-winner",
+    "title": "Will the Democratic Party win the CA-16 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "45686.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-16 (Silicon Valley area, covering Cupertino, Sunnyvale, and parts of San Jose) is a heavily Democratic district with a Cook PVI of around D+25 or more. The district has been reliably Democratic for decades, and demographic trends continue to favor Democrats. Barring extraordinary circumstances, the Democratic candidate is virtually certain to win in 2026.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      }
+    }
+  },
+  {
+    "condition_id": "0x12ac475399b12fd74917ccf0e29ce338eb4fc76c066cc8b56d01d2f9a2b17597",
+    "market_slug": "will-the-democrats-win-the-nebraska-senate-race-in-2026",
+    "event_slug": "nebraska-senate-election-winner",
+    "title": "Will the Democrats win the Nebraska Senate race in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "60721.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nebraska is a deeply red state that has not elected a Democratic senator in decades. The state voted heavily for Trump in recent elections, and Republicans hold a strong structural advantage there. While Democrats occasionally field competitive candidates in statewide races, winning a Senate seat in Nebraska would require an extraordinary political environment.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x52f293d32b8b66aca00334ba6a95e226e5c4d5fa0f311a091ef70edaaa701879",
+    "market_slug": "will-the-republican-party-hold-exactly-28-or-29-governorships-after-the-2026-midterm-elections",
+    "event_slug": "how-many-republican-governors-after-the-2026-midterm-elections",
+    "title": "Will the Republican Party hold exactly 28 or 29 governorships after the 2026 midterm elections?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "552967",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republicans currently hold 27 governorships. Reaching exactly 28-29 requires a net gain of 1-2 seats. Historical midterm patterns suggest the president's party (Republicans in 2026) typically loses governor seats, making a net gain less likely than a net loss or flat result. However, the specific 2026 map could favor modest Republican gains in some competitive Democratic-held states. The exact range of 28-29 is plausible but not the most probable central outcome given these dynamics.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x89cbcdb241e13650e512d26b959e332820f65706553a92b0b39e394b256ba0b7",
+    "market_slug": "will-the-republican-party-win-the-ok-03-house-seat",
+    "event_slug": "ok-03-house-election-winner",
+    "title": "Will the Republican Party win the OK-03 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "42091.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Oklahoma's 3rd congressional district is one of the most reliably Republican districts in the country, covering the western and panhandle regions of Oklahoma. It has been held by Republicans for decades and has a Cook PVI of around R+40. The incumbent Frank Lucas has won with overwhelming margins consistently, and there is virtually no realistic path for a Democrat to win this seat.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      }
+    }
+  },
+  {
+    "condition_id": "0x3bb59c17b8ec156f8ef55d6de522c53c8bcc8fc708bfba00e1c7820c208ee28b",
+    "market_slug": "will-the-republicans-win-the-louisiana-senate-race-in-2026",
+    "event_slug": "louisiana-senate-election-winner",
+    "title": "Will the Republicans win the Louisiana Senate race in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "3502.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Louisiana is a deeply red state that has voted Republican in presidential elections by wide margins and currently has two Republican senators. The state's political landscape strongly favors Republicans, and there is no indication of a competitive Democratic challenger emerging. Historical trends and current partisan alignment make a Republican victory in 2026 extremely likely.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xba093f5c98e6c7d389a18ad4849ce5e82c2238f6daaf40755c1399d093e9a8f4",
+    "market_slug": "will-the-republican-party-hold-between-220-and-224-house-seats-after-the-2026-midterm-elections",
+    "event_slug": "republican-house-seats-after-the-2026-midterm-elections",
+    "title": "Will the Republican Party hold between 220 and 224 House seats after the 2026 midterm elections?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "50966.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Republicans currently hold ~220 House seats. Historical midterm patterns strongly favor the opposition party (Democrats) gaining seats when the opposing party holds the presidency, suggesting Republicans are more likely to lose seats than hold steady. The 220-224 range represents a narrow 5-seat window requiring Republicans to essentially maintain their current position, which is possible but unlikely given typical midterm dynamics. The probability of landing precisely in this range is constrained both by the likelihood of Democratic gains and the narrow window itself.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x661db570f60b8df6bbb37fb9424c2ac909455291630d7e41f3295a9641082c73",
+    "market_slug": "will-the-democratic-party-win-the-mi-11-house-seat",
+    "event_slug": "mi-11-house-election-winner",
+    "title": "Will the Democratic Party win the MI-11 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "41046",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MI-11 is a suburban Detroit district (Oakland/Wayne counties) that has been held by Democrat Haley Stevens since 2019. The district leaned Democratic in recent cycles with a D+5 to D+7 partisan lean. Incumbency advantage and the district's demographic trends favor Democrats, though 2026 midterm dynamics could shift results slightly. Overall, Democrats are strong favorites to retain this seat.",
+      "probabilities": {
+        "Yes": 0.78,
+        "No": 0.22
+      }
+    }
+  },
+  {
+    "condition_id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+    "market_slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+    "event_slug": "which-party-will-win-the-house-in-2026",
+    "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "2.44338e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Historical patterns strongly favor the opposition party gaining seats in midterm elections, and Democrats are currently in the minority. However, Democrats need to flip roughly 218 seats to take control. The political environment in 2026 will depend heavily on Trump's approval ratings, economic conditions, and redistricting. Historically, the president's party loses seats in midterms, which would favor Democrats flipping the House. Current forecasts and historical precedent suggest Democrats have a meaningful but not dominant chance of retaking the House.",
+      "probabilities": {
+        "Yes": 0.52,
+        "No": 0.48
+      }
+    }
+  },
+  {
+    "condition_id": "0xb1dd35e85b6a712dbd1049c0bd4e7637d7bfea7e1020a12d761732418a279d37",
+    "market_slug": "will-aca-premium-tax-credits-not-be-extended-and-will-the-democratic-party-win-the-house-in-2026",
+    "event_slug": "aca-credits-extended-house-winner-2026",
+    "title": "Will ACA premium tax credits not be extended and will the Democratic Party win the House in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "34230.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "This requires both ACA premium tax credits to expire without extension (~45% probability given Republican control of Congress but uncertainty about moderate Republicans) AND Democrats winning the House in 2026 (~50% probability given historical midterm patterns favoring the opposition party). These events are mildly positively correlated since failure to extend ACA subsidies could energize Democratic voters. The joint probability is approximately 0.45 × 0.55 ≈ 0.25.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    }
+  },
+  {
+    "condition_id": "0x66a2d77bbfe2bdec66760143211da7df6b16a1b5763691c0fbefe5b5752f9260",
+    "market_slug": "will-the-democratic-party-win-the-hi-02-house-seat",
+    "event_slug": "hi-02-house-election-winner",
+    "title": "Will the Democratic Party win the HI-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "38855.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hawaii's 2nd congressional district is one of the safest Democratic seats in the country, having been held by Democrats for decades. The district covers rural Oahu and the neighbor islands, with a strong Democratic lean (Cook PVI D+20 or higher). Barring extraordinary circumstances, the Democratic candidate is virtually certain to win in 2026.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x02df71403f5136e9c803231cb8e2333a1b9f575bb51792bd91bde8dfe4242220",
+    "market_slug": "will-there-be-another-us-government-shutdown-by-january-31-and-will-the-republican-party-win-the-house-in-2026",
+    "event_slug": "another-us-government-shutdown-house-winner-2026",
+    "title": "Will there be another US government shutdown by January 31 and will the Republican Party win the House in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "61801.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "This requires two conditions: a US government shutdown by January 31 (presumably 2026) AND Republicans winning the House in 2026 midterms. A shutdown by Jan 31, 2026 is plausible given ongoing budget disputes (~30-40% chance). Republicans winning the House in 2026 is uncertain as midterms often favor the opposition party, but with current Republican majority it's roughly 40-50%. The joint probability of both occurring is roughly 15-20%.",
+      "probabilities": {
+        "Yes": 0.17,
+        "No": 0.83
+      }
+    }
+  },
+  {
+    "condition_id": "0x0a99479228e93524b25676ae69b94bd3f4278a6bca8d8c265c84d24755399cf5",
+    "market_slug": "will-the-republicans-win-the-2028-us-presidential-election",
+    "event_slug": "which-party-wins-2028-us-presidential-election",
+    "title": "Will the Republicans win the 2028 US Presidential Election?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "968948",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Historical patterns show US presidential elections are highly competitive, with incumbency and economic conditions being key factors. Republicans won in 2024, but the two-term norm and historical tendency for party turnover after 8 years slightly favors Democrats in 2028. However, structural advantages like the Electoral College and potential incumbency effects (if a Republican VP runs) keep Republican chances competitive. Base rate for any given party winning a presidential election is roughly 50%, with slight adjustments for context.",
+      "probabilities": {
+        "Yes": 0.47,
+        "No": 0.53
+      }
+    }
+  },
+  {
+    "condition_id": "0x6f21d12b7ed695be738057d9721bf83d7ef0ca922c4b837de94f5808e05e1f9f",
+    "market_slug": "will-hollie-noveletsky-be-the-republican-nominee-for-nh-01",
+    "event_slug": "nh-01-republican-primary-winner",
+    "title": "Will Hollie Noveletsky be the Republican Nominee for NH-01?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "22330.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hollie Noveletsky is a relatively unknown candidate in NH-01 (New Hampshire's 1st Congressional District). Republican primaries often attract multiple candidates, and without strong name recognition, fundraising, or party establishment support, lesser-known candidates face significant hurdles. The NH-01 seat is currently held by Democrat Chris Pappas, making it a competitive district that could attract stronger Republican challengers. Given the uncertainty and typical dynamics of congressional primaries, the probability of a specific lesser-known candidate winning the nomination is low.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x294cb485e8649a22ce12387104065729533d1b79db63b41f89ce5072429e08bf",
+    "market_slug": "will-john-shulli-be-the-republican-nominee-for-senate-in-delaware",
+    "event_slug": "delaware-republican-senate-primary-winner",
+    "title": "Will John Shulli be the Republican nominee for Senate in Delaware?",
+    "category": "Elections",
+    "close_time": "2026-09-15T00:00:00Z",
+    "volume": "30354.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "John Shulli is a relatively obscure potential candidate for the Delaware Senate race. Delaware is a heavily Democratic state, and Republican Senate primaries there tend to attract limited high-profile candidates. Without strong evidence of Shulli's candidacy announcement, fundraising, or polling support, and given the uncertainty around who will even enter the race by the September 2026 primary, the probability of a specific named individual becoming the Republican nominee is low.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x9c414cb64000dc7645b2bba8d7586746f3ddb1cfd1b564769188b81cd63ad667",
+    "market_slug": "will-trump-endorse-jd-vance-for-president-before-2027",
+    "event_slug": "will-trump-endorse-jd-vance-for-president-before-2027",
+    "title": "Will Trump endorse JD Vance for president before 2027?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "52026.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump has repeatedly praised Vance and their relationship appears strong, but Trump typically avoids locking in endorsements for future races well in advance, especially when he might consider running again himself or keeping options open. By end of 2026, the 2028 presidential race will be heating up but likely not yet at a stage where Trump would make a formal endorsement. Trump's pattern is to endorse closer to primaries, and 2028 primaries would be in early 2028.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xf64108affb6c655b7a50d662d2c508bef1897e40bb3106f7405552c177c92d78",
+    "market_slug": "will-stefany-shaheen-be-the-democratic-nominee-for-nh-01",
+    "event_slug": "nh-01-democratic-primary-winner",
+    "title": "Will Stefany Shaheen be the Democratic nominee for NH-01?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "8186.62",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Stefany Shaheen has political experience and strong name recognition in NH as the daughter of Senator Jeanne Shaheen, making her a plausible Democratic candidate for NH-01 in 2026. However, there is significant uncertainty about whether she will formally enter the race and whether she would win a potentially competitive Democratic primary against other candidates seeking to reclaim this seat.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0xc9ec0ff194451373b723698e23bdaca64aa139a883d8b766999b0bea01b0e949",
+    "market_slug": "will-allen-waters-be-the-republican-nominee-for-senate-in-rhode-island",
+    "event_slug": "rhode-island-republican-senate-primary-winner",
+    "title": "Will Allen Waters be the Republican nominee for Senate in Rhode Island?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "11393.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Rhode Island is a heavily Democratic state, and Republican Senate primaries there typically attract limited, lower-profile candidates. Allen Waters is not a widely recognized political figure with significant name recognition or fundraising capacity. Without evidence of strong establishment support or a clear path to the nomination, and given the uncertainty about whether he will even run or face primary competition, the probability of him securing the Republican nomination is moderate but uncertain. Rhode Island Republicans often struggle to recruit top-tier candidates, which could help a committed candidate like Waters win a low-turnout primary.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0xd1194053d0ffb0eef77e3e0f5af3797f213455629f02951494c91fe60d44b224",
+    "market_slug": "will-trump-endorse-any-candidate-for-president-before-2027",
+    "event_slug": "will-trump-endorse-any-candidate-for-president-before-2027",
+    "title": "Will Trump endorse any candidate for President before 2027?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "24417.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump is constitutionally barred from running for a third term, making the 2028 presidential race open. Given his history of early and influential endorsements, and his dominant position in Republican politics, it is highly likely he will endorse a 2028 presidential candidate before the end of 2026, especially as the primary field begins to take shape. However, he may strategically delay to maximize leverage, and 2026 is still relatively early for 2028 endorsements.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0x6917d1a8e4452a81e1b6a64d914e06c97d7a3d8c13dad222f02f1c3c553f9f77",
+    "market_slug": "will-dominick-pangallo-be-the-democratic-nominee-for-ma-06",
+    "event_slug": "ma-06-democratic-primary-winner",
+    "title": "Will Dominick Pangallo be the Democratic nominee for MA-06?",
+    "category": "Elections",
+    "close_time": "2026-09-15T00:00:00Z",
+    "volume": "6048.25",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Dominick Pangallo, Mayor of Salem, is a credible potential candidate for the open MA-06 seat following Seth Moulton's retirement announcement. However, open seat primaries typically attract multiple competitive candidates, and there's uncertainty about whether Pangallo will formally enter the race and whether he could win a potentially crowded Democratic primary field in a district covering the North Shore of Massachusetts.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0x36796df689a799e37af4db95c281bebd0f0fb370c25c0874a39a2184d92f7231",
+    "market_slug": "will-mike-kennealy-win-the-2026-massachusetts-governor-republican-primary-election",
+    "event_slug": "massachusetts-governor-republican-primary-winner",
+    "title": "Will Mike Kennealy win the 2026 Massachusetts Governor Republican primary election?",
+    "category": "Elections",
+    "close_time": "2026-09-01T00:00:00Z",
+    "volume": "8483.72",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mike Kennealy is a relatively unknown candidate in Massachusetts Republican politics. The 2026 Massachusetts Governor Republican primary is still far off, and no strong polling or endorsement data is available to suggest he is a frontrunner. Massachusetts Republicans have historically struggled to field well-known candidates, and the field is uncertain, but Kennealy lacks the name recognition or fundraising profile of a likely primary winner at this stage.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x7b22caeed454d3c7dbd07b83d8255c74e1482c4f958b4ba4dd0c27b864cd47a2",
+    "market_slug": "will-luiz-incio-lula-da-silva-qualify-for-brazils-presidential-runoff",
+    "event_slug": "which-candidates-will-advance-to-brazils-presidential-runoff",
+    "title": "Will Luiz Inácio Lula da Silva qualify for Brazil's presidential runoff?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "121776",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Lula is the incumbent president of Brazil and historically a dominant political figure. Brazilian presidential elections typically feature a first round in early October, with a runoff in late October if no candidate exceeds 50%. Lula won in 2022 and remains a major political force. While his approval ratings have fluctuated, he is virtually certain to be among the top two candidates in the first round, qualifying for the runoff. The main risk would be an extraordinary political collapse or health issue, which is low probability.",
+      "probabilities": {
+        "Yes": 0.88,
+        "No": 0.12
+      }
+    }
+  },
+  {
+    "condition_id": "0xf56efa5879b1ac0496b649b97793e321e65bed2aff9cfed42d9efa87a0cd7680",
+    "market_slug": "will-stephen-lynch-be-the-democratic-nominee-for-ma-08",
+    "event_slug": "ma-08-democratic-primary-winner",
+    "title": "Will Stephen Lynch be the Democratic nominee for MA-08?",
+    "category": "Elections",
+    "close_time": "2026-09-01T00:00:00Z",
+    "volume": "2104.36",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Stephen Lynch is the long-serving incumbent for MA-08, having held the seat since 2001 with consistent re-election victories. Incumbents in safe Democratic districts rarely lose primaries, and there are no notable challengers announced. The primary would occur before the September 2026 close date, making it highly likely Lynch secures the nomination.",
+      "probabilities": {
+        "Yes": 0.88,
+        "No": 0.12
+      }
+    }
+  },
+  {
+    "condition_id": "0x1b427a1cc93c7d7be6814173de740735e0d1c321a8bdfc9242bde26c19779bad",
+    "market_slug": "will-cinde-warmington-win-the-2026-new-hampshire-governor-democratic-primary-election",
+    "event_slug": "new-hampshire-governor-democratic-primary-winner",
+    "title": "Will Cinde Warmington win the 2026 New Hampshire Governor Democratic primary election?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "8416.78",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Cinde Warmington ran in the 2024 New Hampshire Democratic gubernatorial primary and lost to Joyce Craig. For the 2026 cycle, it is unclear whether she will run again or face significant competition. Given the uncertainty about the field and her previous loss, combined with the possibility she may not even run, the probability of her winning the 2026 primary is moderate to low.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x010f3f24ab463669b4d3dee775864db64b2441f8fa7a34725765ff0d7c667ec8",
+    "market_slug": "will-ken-sim-win-the-2026-vancouver-mayoral-election",
+    "event_slug": "vancouver-mayoral-election-winner",
+    "title": "Will Ken Sim win the 2026 Vancouver mayoral election?",
+    "category": "Elections",
+    "close_time": "2026-10-17T00:00:00Z",
+    "volume": "7284.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ken Sim won the 2022 Vancouver mayoral election with a strong mandate, but incumbent mayors face varying fortunes in subsequent elections. Vancouver's political landscape is competitive, and Sim's ABC Vancouver party has faced some controversies during his term. Incumbents in Vancouver have a mixed record, and the 2026 election remains uncertain, but incumbency advantage is real. Balancing these factors, a slight lean toward No given typical uncertainty and mid-term challenges.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      }
+    }
+  },
+  {
+    "condition_id": "0x0a6e54cc0154292155762314c6e220546dbd1ecb7a29d213188963abade7c87d",
+    "market_slug": "will-the-liberal-democratic-party-of-russia-ldpr-win-the-most-seats-in-the-next-russian-parliamentary-election",
+    "event_slug": "russia-parliamentary-election-winner",
+    "title": "Will the Liberal Democratic Party of Russia (LDPR) win the most seats in the next Russian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-09-30T00:00:00Z",
+    "volume": "68054.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The next Russian State Duma election is scheduled for September 2026. United Russia has dominated Russian parliamentary elections for decades, consistently winning the most seats by a large margin. In the 2021 election, United Russia won 324 seats while LDPR won only 21. With the Kremlin's continued control over the political system and United Russia's structural advantages, it is extremely unlikely that LDPR would surpass United Russia in seat count.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0xf78be595172a9db8c6323e1927aa44b2fa2d52805d97bf4a9664593b42326534",
+    "market_slug": "will-chris-pappas-be-the-democratic-nominee-for-senate-in-new-hampshire",
+    "event_slug": "new-hampshire-democratic-senate-primary-winner",
+    "title": "Will Chris Pappas be the Democratic nominee for Senate in New Hampshire?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "7684.59",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Chris Pappas, a current U.S. Representative from New Hampshire, is widely considered the frontrunner for the Democratic Senate nomination in 2026 following Jeanne Shaheen's retirement announcement. He has strong name recognition and a track record of winning competitive NH races. However, uncertainty remains about formal entry, potential primary challengers, and the 18+ month timeframe before the primary.",
+      "probabilities": {
+        "Yes": 0.58,
+        "No": 0.42
+      }
+    }
+  },
+  {
+    "condition_id": "0x1295040186326703b63b9c7d719f8c5bb88ee6fa9672e3924f90ef74ee7b0459",
+    "market_slug": "will-olivia-chow-win-the-2026-toronto-mayoral-election-465",
+    "event_slug": "toronto-mayoral-election-winner-545",
+    "title": "Will Olivia Chow win the 2026 Toronto mayoral election?",
+    "category": "Elections",
+    "close_time": "2026-10-26T12:00:00Z",
+    "volume": "4981.57",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Olivia Chow won the 2023 Toronto mayoral by-election and is the incumbent mayor. Incumbent mayors in Toronto historically have strong advantages for re-election. However, the 2026 election is still roughly two years away, and political conditions can shift significantly. Chow faces a divided city council and potential strong challengers, but incumbency advantage and her current polling position make her a moderate favorite.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      }
+    }
+  },
+  {
+    "condition_id": "0x112fc8452dde2a783a2dc139bae65454a317532858336b61ad6744d63b1bb569",
+    "market_slug": "will-the-liberal-democratic-party-of-russia-ldpr-win-the-second-most-seats-in-the-next-russian-parliamentary-election",
+    "event_slug": "russia-parliamentary-election-2nd-place",
+    "title": "Will the Liberal Democratic Party of Russia (LDPR) win the second-most seats in the next Russian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-09-20T00:00:00Z",
+    "volume": "46.0805",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2021 Duma elections, LDPR finished third or fourth in seats behind KPRF and A Just Russia. Without Zhirinovsky, LDPR has weakened under Slutsky's leadership, while KPRF consistently outperforms LDPR in seat counts. Historical patterns and current polling suggest KPRF will again finish second, making it unlikely LDPR surpasses them.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x173c9a8c124777f2efb35508135163727a9ae551bfb3233d06492d789ab8dbde",
+    "market_slug": "will-chris-coons-be-the-democratic-nominee-for-senate-in-delaware",
+    "event_slug": "delaware-democratic-senate-primary-winner",
+    "title": "Will Chris Coons be the Democratic nominee for Senate in Delaware?",
+    "category": "Elections",
+    "close_time": "2026-09-15T00:00:00Z",
+    "volume": "5763.46",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Chris Coons is the incumbent Democratic Senator from Delaware and has not announced any plans to retire. Delaware is a reliably Democratic state, and Coons has won previous elections comfortably. Incumbent senators typically seek re-election and face little primary opposition, making it highly likely he would be the Democratic nominee if he runs. The main uncertainty is whether he might choose not to run, though there are no strong signals of that.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      }
+    }
+  },
+  {
+    "condition_id": "0xc4aaf626324e7fb7c855e5190336de1ecae44fcb77a3e13a962cff0420478827",
+    "market_slug": "will-mark-sutcliffe-win-the-2026-ottawa-mayoral-election",
+    "event_slug": "ottawa-mayoral-election-winner",
+    "title": "Will Mark Sutcliffe win the 2026 Ottawa mayoral election?",
+    "category": "Elections",
+    "close_time": "2026-10-26T00:00:00Z",
+    "volume": "2719.67",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mark Sutcliffe won the 2022 Ottawa mayoral election and is the incumbent mayor. Incumbent mayors in Canadian cities generally have strong re-election advantages, but Sutcliffe won narrowly in 2022 and faces ongoing challenges including LRT issues and budget pressures. Ottawa's 2026 municipal election is scheduled for October 2026. While incumbency is a significant advantage, there is meaningful uncertainty about whether he will seek re-election and whether he would win if he does.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    }
+  },
+  {
+    "condition_id": "0x57f80a71fd7c470dfe2fc625e6b24168acfc95138396c248d6e85392cd0b344c",
+    "market_slug": "will-the-liberal-democratic-party-of-russia-ldpr-win-the-third-most-seats-in-the-next-russian-parliamentary-election",
+    "event_slug": "russia-parliamentary-election-3rd-place",
+    "title": "Will the Liberal Democratic Party of Russia (LDPR) win the third-most seats in the next Russian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-09-20T00:00:00Z",
+    "volume": "45.0452",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LDPR has consistently held third place in Russian parliamentary elections, and despite Zhirinovsky's death in 2022, the party under Slutsky has maintained its position in the controlled Russian political system. The Kremlin generally manages electoral outcomes to preserve a stable multi-party facade, making dramatic reshuffling unlikely, though some uncertainty exists given the post-Zhirinovsky transition and wartime political dynamics.",
+      "probabilities": {
+        "Yes": 0.52,
+        "No": 0.48
+      }
+    }
+  },
+  {
+    "condition_id": "0x4808488e54a414ee180be47feebba96166cad42fff4cc5c363733c42b6357d4e",
+    "market_slug": "will-ed-markey-be-the-democratic-nominee-for-senate-in-massachusetts",
+    "event_slug": "massachusetts-democratic-senate-primary-winner",
+    "title": "Will Ed Markey be the Democratic nominee for Senate in Massachusetts?",
+    "category": "Elections",
+    "close_time": "2026-09-01T00:00:00Z",
+    "volume": "4086.04",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ed Markey is the incumbent Democratic Senator from Massachusetts who has held the seat since 2013. He won his 2020 primary against Joe Kennedy III convincingly. At his age (he would be ~80 by 2026), there are questions about whether he will seek re-election, but he has not announced retirement. Massachusetts is a heavily Democratic state and incumbents typically win primaries. The main risk is he declines to run or faces a strong primary challenger. Given his incumbency advantage and no current strong challenger announced, he is likely to be the nominee if he runs, but there's meaningful uncertainty about whether he runs at all.",
+      "probabilities": {
+        "Yes": 0.62,
+        "No": 0.38
+      }
+    }
+  },
+  {
+    "condition_id": "0x81a537b379a35e4e17c286d3b37394e94bd74c1779bbe9a13670eb991b201a3a",
+    "market_slug": "will-tarcisio-de-frietas-win-the-2026-brazilian-presidential-election",
+    "event_slug": "brazil-presidential-election",
+    "title": "Will Tarcisio de Freitas win the 2026 Brazilian presidential election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "8.36426e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tarcísio de Freitas is currently a leading right-wing candidate and frontrunner in polls for the 2026 Brazilian presidential election, with strong support from Bolsonaristas and favorable approval ratings as São Paulo governor. However, the election is still over a year away, Lula remains competitive, and a second round is likely. Uncertainty remains high given Brazil's volatile political landscape, potential new candidates, and the possibility of Bolsonaro's allies facing legal obstacles.",
+      "probabilities": {
+        "Yes": 0.3,
+        "No": 0.7
+      }
+    }
+  },
+  {
+    "condition_id": "0x8aaaca6ea5c037d3cdfe85272ab9029b7165694dcae8af0de5071f01a1a944f0",
+    "market_slug": "will-afd-win-the-most-seats-in-the-2026-berlin-state-elections",
+    "event_slug": "berlin-state-election-winner",
+    "title": "Will AfD win the most seats in the 2026 Berlin state elections?",
+    "category": "Elections",
+    "close_time": "2026-09-20T00:00:00Z",
+    "volume": "2.18865e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "AfD historically performs poorly in Berlin, receiving only ~9% in the 2023 state election compared to CDU's ~28%. Berlin's urban, diverse, and cosmopolitan electorate is structurally unfavorable for AfD. While AfD has grown nationally, winning the most seats in Berlin would require an unprecedented and implausible surge while other major parties collapse simultaneously.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x0714dc5c20ec9714b05d1e85e365fcb99b34a0b5261f01c3a8333c568e02abce",
+    "market_slug": "will-jack-reed-be-the-democratic-nominee-for-senate-in-rhode-island",
+    "event_slug": "rhode-island-democratic-senate-primary-winner",
+    "title": "Will Jack Reed be the Democratic nominee for Senate in Rhode Island?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "4037.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jack Reed is a long-serving Democratic Senator from Rhode Island (first elected 1996) who has consistently won re-election by large margins. He would be up for re-election in 2026. Given his incumbency advantage, strong approval ratings in Rhode Island, and no significant primary challenges on the horizon, it is highly likely he will seek and win the Democratic nomination again. The main risks are retirement or health issues.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      }
+    }
+  },
+  {
+    "condition_id": "0xaba4bb720c6c1b2e48087f5af4a57fd1e9f05814a936e9f6b1c37f10436a34fc",
+    "market_slug": "will-franois-asselineau-win-the-2027-french-presidential-election",
+    "event_slug": "next-french-presidential-election",
+    "title": "Will François Asselineau win the 2027 French presidential election?",
+    "category": "Elections",
+    "close_time": "2027-04-30T00:00:00Z",
+    "volume": "2.77821e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "François Asselineau is the leader of the Union Populaire Républicaine (UPR), a fringe Eurosceptic party that has consistently polled below 1% in French presidential elections. In 2017 he received about 0.92% of the vote and in 2022 he did not even qualify for the ballot. There is no credible path to victory for him in 2027 given his marginal support base and the dominance of established parties and figures.",
+      "probabilities": {
+        "Yes": 0.002,
+        "No": 0.998
+      }
+    }
+  },
+  {
+    "condition_id": "0x8c48f3acf4177b5ceb012a8a2dc7a9c219eeae4a032d6ddcbc3c2ffab907439a",
+    "market_slug": "will-the-liberal-democratic-party-of-russia-ldpr-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+    "event_slug": "which-party-will-gain-most-seats-in-russian-parliamentary-election",
+    "title": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-09-30T00:00:00Z",
+    "volume": "2.1651e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Liberal Democratic Party of Russia (LDPR) has historically been a secondary party in Russian politics, typically finishing third or fourth in State Duma elections behind United Russia, which dominates with a large majority. United Russia consistently wins the most seats in Russian parliamentary elections due to its status as the ruling party with strong state support. The next Russian parliamentary election is scheduled for 2026, and there is no credible indication that LDPR would surpass United Russia given the current political landscape.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x61c4f9b8b29569661a926fbbf35d8fd9c29f4a49c7d9652e63e8c36635af7e90",
+    "market_slug": "will-john-e-sununu-be-the-republican-nominee-for-senate-in-new-hampshire",
+    "event_slug": "new-hampshire-republican-senate-primary-winner-296",
+    "title": "Will John E. Sununu be the Republican nominee for Senate in New Hampshire?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "3600.81",
+    "status": "ok",
+    "forecast": {
+      "rationale": "John E. Sununu has been mentioned as a potential candidate for the 2026 New Hampshire Senate race (an open seat with Shaheen retiring), but has not definitively announced. Even if he enters, he would face a competitive Republican primary. The combined probability of him both announcing and winning the primary is moderate given his name recognition but long absence from office.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0x83030b249525db4c0bcd83a915776442f4ea32d2fba10825fca4abeb51512d8f",
+    "market_slug": "will-renan-santos-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+    "event_slug": "brazil-presidential-election-first-round-2nd-place",
+    "title": "Will Renan Santos finish in second place in the first round of the 2026 Brazilian presidential election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "977650",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Renan Santos is a relatively minor political figure (MBL leader) with limited national polling support compared to major candidates like Tarcísio de Freitas, who is widely expected to be the leading opposition candidate in 2026. Current polling shows Santos far behind the frontrunners, making a second-place finish extremely unlikely. The field will likely be dominated by Lula and Tarcísio de Freitas or another major right-wing figure.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0xb79b3e4a9eca37f56dbd00bb495be37079050b1bea9759e0281fe8fe475dc5aa",
+    "market_slug": "will-parti-conservateur-du-qubec-win-the-most-seats-in-the-2026-quebec-general-election",
+    "event_slug": "quebec-general-election-winner",
+    "title": "Will Parti conservateur du Québec win the most seats in the 2026 Quebec general election?",
+    "category": "Elections",
+    "close_time": "2026-10-05T00:00:00Z",
+    "volume": "148092",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The PCQ has historically struggled to convert votes into seats under Quebec's first-past-the-post system, winning only 2 seats in 2022 despite 13% of the vote. Current polling shows the PQ and CAQ as the primary contenders for the most seats in 2026, with the PCQ remaining a secondary force. The PCQ's geographically dispersed support base makes winning the most seats extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x096f26b2abcfde3ee7863e7916ca17682522715f7631debd4878a43ee6c797a9",
+    "market_slug": "will-democrats-win-all-core-four-senate-races",
+    "event_slug": "will-democrats-win-all-core-four-senate-races",
+    "title": "Will Democrats win all \"core four\" senate races?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "3431.39",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Winning all 'core four' Senate races requires Democrats to sweep multiple competitive contests simultaneously. While Democrats may benefit from midterm opposition-party dynamics if Republicans hold the White House in 2026, sweeping all targeted races is historically difficult. The multiplicative probability of winning each individual competitive race reduces the overall likelihood significantly.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x819cc40b88572690508717385d9397af991f8bc929f764fa73c99e5e10c1e55b",
+    "market_slug": "will-renan-santos-win-the-first-round-of-the-2026-brazilian-presidential-election",
+    "event_slug": "brazil-presidential-election-first-round-margin-of-victory",
+    "title": "Will Renan Santos win the first round of the 2026 Brazilian presidential election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "199655",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Renan Santos is a minor political figure in Brazil associated with MBL, polling in very low single digits or not at all in 2026 presidential surveys. The dominant candidates are expected to be Lula and a Bolsonaro-aligned figure. Additionally, winning the first round outright requires >50% of valid votes, which has never happened in modern Brazilian presidential elections, making this doubly unlikely.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0x885af440160b32c882027f0ed610b6a9b311262a6a0518fa9529a050f078fad2",
+    "market_slug": "will-hakeem-jeffries-win-the-2026-new-york-8th-district-democratic-primary",
+    "event_slug": "ny-8-democratic-primary-winner",
+    "title": "Will Hakeem Jeffries win the 2026 New York 8th District Democratic Primary?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "4448.78",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hakeem Jeffries is the House Minority Leader and an extremely well-established incumbent in NY-8, having won his district with overwhelming margins (typically 90%+ in primaries) since 2012. Incumbent House members of his stature rarely face serious primary challenges, and when they do, they almost always win. There is no credible challenger currently announced.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      }
+    }
+  },
+  {
+    "condition_id": "0x5d9402314a72d214b8ee490a2c38f0ba6001710c35a31c0e056a465111f22b69",
+    "market_slug": "will-kelly-ayotte-win-the-2026-new-hampshire-governor-republican-primary-election",
+    "event_slug": "new-hampshire-governor-republican-primary-winner",
+    "title": "Will Kelly Ayotte win the 2026 New Hampshire Governor Republican primary election?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "3105.03",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kelly Ayotte won the 2024 New Hampshire gubernatorial election as a Republican, becoming Governor. As the incumbent governor, she would be the strong favorite in any 2026 Republican primary, assuming she seeks re-election. Incumbent governors rarely face serious primary challenges, and Ayotte has strong name recognition and party support in New Hampshire.",
+      "probabilities": {
+        "Yes": 0.88,
+        "No": 0.12
+      }
+    }
+  },
+  {
+    "condition_id": "0x31f31222f37f2583de6c44c4297cafdccfd21d443e785042af0180192897f8ed",
+    "market_slug": "will-carlos-roberto-massa-jnior-finish-in-third-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+    "event_slug": "brazil-presidential-election-first-round-3rd-place",
+    "title": "Will Carlos Roberto Massa Júnior finish in third place in the first round of the 2026 Brazilian presidential election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "92668.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ratinho Jr. is a credible center-right candidate who polls in the 10-15% range in early surveys, making him a plausible third-place finisher behind Lula and a leading right-wing candidate. However, significant uncertainty remains about Bolsonaro's eligibility, the emergence of Tarcísio de Freitas or other strong candidates, and coalition dynamics that could push Ratinho Jr. to fourth or lower in a fragmented field.",
+      "probabilities": {
+        "Yes": 0.22,
+        "No": 0.78
+      }
+    }
+  },
+  {
+    "condition_id": "0xa46d2b031e0c57fb04888e3747747f955a71369881f5460b2fc23e923f878ecc",
+    "market_slug": "will-sheila-garrity-win-the-2026-galway-west-by-election",
+    "event_slug": "galway-west-by-election-winner",
+    "title": "Will Sheila Garrity win the 2026 Galway West by-election?",
+    "category": "Elections",
+    "close_time": "2027-03-31T00:00:00Z",
+    "volume": "19171.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Sheila Garrity is not a widely recognized frontrunner in Irish politics, and by-elections in Galway West would likely feature candidates from major parties (Fianna Fáil, Fine Gael, Sinn Féin) with stronger name recognition and organizational support. Additionally, it is unclear whether a by-election in Galway West will even occur before the close time, and if it does, any individual candidate faces significant competition. The base rate for any specific named candidate winning a by-election is low.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0xf125ec027b10cfc944d90a8e12558a05191214a774501382d85bed74773a2b23",
+    "market_slug": "will-helena-foulkes-win-the-2026-rhode-island-governor-democratic-primary-election",
+    "event_slug": "rhode-island-governor-democratic-primary-winner",
+    "title": "Will Helena Foulkes win the 2026 Rhode Island Governor Democratic primary election?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "2551.11",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Helena Foulkes ran for Rhode Island Governor in 2022 but lost the Democratic primary to Dan McKee. As of early 2025, the 2026 Rhode Island gubernatorial race is still forming, and it's unclear if Foulkes will run again or who the field of candidates will be. Given the uncertainty about her candidacy and the competitive nature of Democratic primaries, combined with her prior loss, the probability of her winning is moderate but uncertain.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x087469b4129c64c688397028059dfd366796adbd426e0079ee4cfdd2e4a07b61",
+    "market_slug": "will-any-presidential-candidate-win-outright-in-the-first-round-of-the-brazil-election",
+    "event_slug": "will-any-presidential-candidate-win-outright-in-the-first-round-of-the-brazil-election",
+    "title": "Will any presidential candidate win outright in the first round of the Brazil election?",
+    "category": "Elections",
+    "close_time": "2026-10-04T00:00:00Z",
+    "volume": "61110.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Brazil's presidential elections have consistently gone to a second round since 1998, as the fragmented political landscape makes achieving >50% of valid votes in the first round extremely difficult. The 2026 election is expected to feature multiple competitive candidates including Lula and potentially Bolsonaro or a strong right-wing alternative, splitting the electorate. Historical precedent strongly favors a runoff.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0x24f73ab5f7bd8d7113f3cea6dc4eba60b592e0fcd685be6d813b0a66cf7eff5c",
+    "market_slug": "will-cdu-win-the-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+    "event_slug": "sachsen-anhalt-parliamentary-election-winner",
+    "title": "Will CDU win the most seats in the 2026 Sachsen-Anhalt parliamentary elections?",
+    "category": "Elections",
+    "close_time": "2026-09-06T00:00:00Z",
+    "volume": "468601",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CDU has dominated Saxony-Anhalt politics, winning ~37% in 2021 and consistently leading polls. Reiner Haseloff's incumbency provides structural advantages. However, AfD has been surging in eastern German states and overtook CDU in Thuringia's 2024 election, creating meaningful uncertainty about whether this pattern could repeat in Saxony-Anhalt by 2026.",
+      "probabilities": {
+        "Yes": 0.72,
+        "No": 0.28
+      }
+    }
+  },
+  {
+    "condition_id": "0x576df0755393742f793a7a67016d482cd37ef1ef9d0623cc14fddafcadf1d83f",
+    "market_slug": "will-aaron-guckian-win-the-2026-rhode-island-governor-republican-primary-election",
+    "event_slug": "rhode-island-governor-republican-primary-winner",
+    "title": "Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary election?",
+    "category": "Elections",
+    "close_time": "2026-09-08T00:00:00Z",
+    "volume": "2405.01",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Aaron Guckian is a relatively obscure candidate in Rhode Island Republican politics. Rhode Island is a heavily Democratic state, and Republican primaries there tend to attract limited attention. Without significant name recognition, funding, or establishment support, lesser-known candidates rarely win statewide primaries. There is insufficient evidence that Guckian has the profile to overcome these challenges.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0xb73b23b135bb40488931bbb9bde2a0a01c288c5896afb6d8baafcb3984840b35",
+    "market_slug": "will-douard-philippe-be-on-the-ballot-for-the-2027-french-presidential-election",
+    "event_slug": "2027-french-presidential-election-who-will-be-on-the-ballot",
+    "title": "Will Édouard Philippe be on the ballot for the 2027 French presidential election?",
+    "category": "Elections",
+    "close_time": "2027-04-17T00:00:00Z",
+    "volume": "374.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Édouard Philippe, former Prime Minister and leader of the Horizons party, has consistently expressed interest in running for the 2027 French presidential election. He has been polling competitively and has formally positioned himself as a candidate. However, French presidential elections involve a first-round ballot requiring 500 elected official signatures, and political dynamics could shift. Given his sustained public positioning and party infrastructure, it is quite likely he will be on the ballot.",
+      "probabilities": {
+        "Yes": 0.72,
+        "No": 0.28
+      }
+    }
+  },
+  {
+    "condition_id": "0x09d1f8ff813c0bf8f59d04b7b299e750750a4f6828665ae91e566c74713126d3",
+    "market_slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+    "event_slug": "latvian-parliamentary-election-winner",
+    "title": "Will Zaļo un Zemnieku Savienība (ZZS) win the most seats in the 2026 Latvian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-10-03T00:00:00Z",
+    "volume": "48231.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ZZS has been consistently leading Latvian polls heading into the 2026 election cycle, with strong rural support and name recognition. However, Latvia's highly fragmented political system means polling leads can shift significantly, and multiple competitive parties could overtake them by election day in October 2026.",
+      "probabilities": {
+        "Yes": 0.38,
+        "No": 0.62
+      }
+    }
+  },
+  {
+    "condition_id": "0xca68a76a815c6a9588cd69e02df37610b6fc91409fc78faaf444eb1a9b32b185",
+    "market_slug": "conservatives-flip-liberals-for-canada-seats-polls-in-2026",
+    "event_slug": "conservatives-flip-liberals-for-canada-seats-polls-in-2026",
+    "title": "Conservatives flip Liberals for Canada Seats Polls in 2026?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "3992.19",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canada's next federal election is expected by October 2025. Recent polling shows the Liberals under Mark Carney have surged significantly due to the Trump tariff crisis and Canadian nationalism, while the Conservatives under Pierre Poilievre have seen their large polling leads erode substantially. The Liberals won the April 2025 election, meaning Conservatives did not flip the Liberals for Canada seats in that election cycle. For Conservatives to flip Liberals before end of 2026, another election would need to occur, which is unlikely given a new Liberal majority government just formed.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x69b97988a4e73259657c49ff7e0681492f7b20c5588d3bed40e555d0607d34ee",
+    "market_slug": "will-jordan-bardella-announce-their-candidacy-for-the-2027-french-presidential-election-in-2026",
+    "event_slug": "french-presidential-election-who-will-announce-a-run-in-2026",
+    "title": "Will Jordan Bardella announce their candidacy for the 2027 French presidential election in 2026?",
+    "category": "Elections",
+    "close_time": "2027-04-23T00:00:00Z",
+    "volume": "50.3294",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jordan Bardella is the president of Rassemblement National and a prominent political figure in France. While he is young (born 1995) and ambitious, Marine Le Pen is the traditional RN presidential candidate. Le Pen faces a potential ban from running due to her embezzlement conviction, which could open the door for Bardella. However, formal candidacy announcements in France typically happen closer to the election (late 2026 or early 2027), and 2026 specifically is early. There's meaningful probability he announces in 2026 given the political context, but it's not certain.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0xed4fd09a24f20a3afc1d722ace811fffff3cffd9a56a3fbffc47f4d3d47a88ed",
+    "market_slug": "blue-wave-in-2026",
+    "event_slug": "blue-wave-in-2026",
+    "title": "Blue wave in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-30T00:00:00Z",
+    "volume": "37912.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A 'blue wave' in 2026 would require Democrats to make substantial gains in the midterm elections, likely retaking the House and/or Senate. Historically, the party opposing the sitting president tends to gain seats in midterms, which would favor Democrats if a Republican is in the White House. However, 'wave' elections are relatively rare, gerrymandering and structural factors complicate House flips, and the Senate map in 2026 is mixed. Given historical base rates of wave elections (~30-40% of midterms qualify) and current political uncertainty, a moderate probability is appropriate.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    }
+  },
+  {
+    "condition_id": "0xe06a7e94cf2fa8dc2085b7610fe16e9be1cde6654f34d365c13da1149b276c61",
+    "market_slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination",
+    "event_slug": "democratic-presidential-nominee-2028",
+    "title": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "4.92593e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Oprah Winfrey has repeatedly stated she has no interest in running for president, and there is no credible indication she plans to enter the 2028 Democratic primary. She has no political experience or campaign infrastructure, and the Democratic field will likely include established political figures. The probability of her winning the nomination is extremely low.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    }
+  },
+  {
+    "condition_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+    "market_slug": "trump-out-as-president-before-2027",
+    "event_slug": "trump-out-as-president-before-2027",
+    "title": "Trump out as President before 2027?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "7.45795e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump was inaugurated for his second term in January 2025 and would normally serve until January 2029. For him to leave before 2027, he would need to be removed via impeachment and conviction, resign, die, or be removed under the 25th Amendment within roughly two years. While impeachment proceedings are possible given political dynamics, Senate conviction requires a 2/3 supermajority which is historically very unlikely with a Republican-controlled Senate. Resignation or death/incapacitation are low-probability events. Overall, the probability of Trump leaving office before 2027 is very low.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x5f5cf92636c3644a6221fba15d00e8aab9d539c17a0d25d8ae8d15220cbd2cb9",
+    "market_slug": "blue-tsunami-in-2026",
+    "event_slug": "blue-tsunami-in-2026",
+    "title": "Blue tsunami in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-30T00:00:00Z",
+    "volume": "23582",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A 'blue tsunami' in 2026 would require Democrats to make sweeping gains in the midterm elections, flipping both the House and Senate by large margins. While the party out of power historically gains seats in midterms, a 'tsunami'-level wave is rare and depends heavily on the political environment closer to the election. Current conditions (early 2025) show a competitive landscape, but predicting a dramatic wave two years out carries high uncertainty.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0x41c6341dd79903aca4bb0c29f5a7976946c3774d2fd72f38cbb7de7092144520",
+    "market_slug": "will-mike-pence-win-the-2028-republican-presidential-nomination",
+    "event_slug": "republican-presidential-nominee-2028",
+    "title": "Will Mike Pence win the 2028 Republican presidential nomination?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "3.93176e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mike Pence's political standing within the Republican Party has significantly weakened following the January 6th events and his break with Trump. He dropped out of the 2024 presidential race early with very low polling numbers, suggesting minimal base support. By 2028, the Republican field will likely feature stronger candidates, and Pence's path to the nomination appears extremely narrow given his strained relationship with the MAGA wing that dominates the party.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0x9345d5142a67f5541264c96515496affee02580f1c572680759eac9fd2a1588a",
+    "market_slug": "billionaire-one-time-wealth-tax-passes-in-california-election-2026",
+    "event_slug": "billionaire-one-time-wealth-tax-passes-in-california-election-2026",
+    "title": "Billionaire one-time wealth tax passes in California election 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "3.05689e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "California has a Democratic supermajority and progressive tax proposals have been introduced, but a billionaire one-time wealth tax faces significant legal, constitutional, and political hurdles. Wealthy individuals and business groups would mount strong opposition, and similar measures have failed or stalled in other states. While California voters have passed progressive tax measures before, a one-time billionaire wealth tax is a novel and legally contentious proposal with uncertain ballot qualification prospects by 2026.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0x83b198da6554f785d0c45c0a6c70396204e7bd564cadc245ddd6b7c3656f2468",
+    "market_slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+    "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
+    "title": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elections?",
+    "category": "Elections",
+    "close_time": "2026-09-06T00:00:00Z",
+    "volume": "22019.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2021 Sachsen-Anhalt election, SPD finished 4th with ~8.4% while AfD came second with ~20.8%. Current polling in eastern German states shows AfD consistently polling 25-30%, while SPD remains weak at 8-12%. For SPD to win second most seats, they would need a dramatic reversal of trends that appears very unlikely given the political landscape in Saxony-Anhalt.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0xb79e40d1e340fec7c7bc798db60c19558f02911eb1768ef940491b42ad442da3",
+    "market_slug": "will-the-2028-republican-presidential-nominee-be-a-woman",
+    "event_slug": "will-the-2028-republican-presidential-nominee-be-a-woman",
+    "title": "Will the 2028 Republican Presidential nominee be a woman?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "940.19",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Historically, no major U.S. party has nominated a woman for president. The Republican Party has a relatively shallow bench of prominent female presidential contenders for 2028, with figures like Nikki Haley having run in 2024 but losing decisively to Trump. While it's possible, the GOP field is likely to be dominated by male candidates (e.g., JD Vance, Ron DeSantis, etc.), making a female nominee unlikely but not impossible.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x8d62f20324e9e7f1a3c663ab6aac9a2f6e7adb96c6a69ac2cea7e08a71a7f2ef",
+    "market_slug": "will-tom-steyer-win-the-california-governor-election-in-2026",
+    "event_slug": "california-governor-election-2026",
+    "title": "Will Tom Steyer win the California Governor Election in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "3.05366e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tom Steyer is a billionaire activist who ran for president in 2020 but has not yet formally announced a 2026 California gubernatorial bid. California's 2026 governor's race is expected to be highly competitive with multiple strong candidates (e.g., Gavin Newsom is term-limited, opening the field). Even if Steyer runs, winning a statewide primary and general election in California is uncertain, and historical precedent shows wealthy self-funders often underperform expectations. The combination of uncertain candidacy and competitive field makes a Steyer win unlikely.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0xbddb91830ef5d16ab6d4282d58fda2df4886f5978e476399b40040b786e526fa",
+    "market_slug": "will-gerry-hutch-win-the-2026-dublin-central-by-election",
+    "event_slug": "dublin-central-by-election-winner",
+    "title": "Will Gerry Hutch win the 2026 Dublin-central by-election?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "497384",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Gerry Hutch, the notorious Dublin criminal figure, ran in the 2024 Irish general election in Dublin Central and received a notable but insufficient vote share to win a seat. A by-election in Dublin Central by 2026 is itself uncertain, and even if one occurs, Hutch would face strong competition from established parties (Sinn Féin, Fine Gael, Fianna Fáil) with better organizational resources. His previous electoral performance showed some support but not enough to win outright, and by-elections typically favor established parties.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xb8a8e5e71980fb4119322dec5dafd7c480ae3878662443db6c0d174cc2442170",
+    "market_slug": "will-the-2028-democratic-presidential-nominee-be-a-woman",
+    "event_slug": "will-the-2028-democratic-presidential-nominee-be-a-woman",
+    "title": "Will the 2028 Democratic Presidential nominee be a woman?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "671.649",
+    "status": "ok",
+    "forecast": {
+      "rationale": "After Kamala Harris's loss in 2024, the Democratic Party may or may not nominate a woman in 2028. The field of potential candidates includes both men and women, with figures like Gretchen Whitmer, Wes Moore, Pete Buttigieg, and others being discussed. Historical base rates show women have been nominated once (Harris in 2024) out of recent cycles. Given the competitive field and no strong frontrunner, I estimate roughly a 35-40% chance a woman emerges as the nominee.",
+      "probabilities": {
+        "Yes": 0.37,
+        "No": 0.63
+      }
+    }
+  },
+  {
+    "condition_id": "0x86fa2351e7a9469fd8bcd9a28ad5e300a59c3764747ad1eb7d6248546efbabfd",
+    "market_slug": "will-jimmie-kesson-be-the-next-prime-minister-of-sweden",
+    "event_slug": "next-prime-minister-of-sweden",
+    "title": "Will Jimmie Åkesson be the next Prime Minister of Sweden?",
+    "category": "Elections",
+    "close_time": "2026-09-13T00:00:00Z",
+    "volume": "1.33755e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jimmie Åkesson leads the Sweden Democrats, currently the largest party in polls but governing through a minority coalition led by the Moderate Party's Ulf Kristersson. Swedish political norms make it very difficult for the SD to lead a government directly, as other parties refuse to govern with them in a formal coalition. The next Swedish election is in September 2026, and even if SD remains the largest party, forming a government with Åkesson as PM would require unprecedented political realignment. The probability remains low but non-negligible given shifting political dynamics.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x012485913d6e71ad76d7a43a9be02c23ab4b10467ab3eb506b0b543e0333825e",
+    "market_slug": "will-grne-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+    "event_slug": "mecklenburg-vorpommern-parliamentary-election-winner",
+    "title": "Will Grüne win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+    "category": "Elections",
+    "close_time": "2026-09-20T00:00:00Z",
+    "volume": "50920.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Grüne (Greens) have historically performed very poorly in Mecklenburg-Vorpommern, one of Germany's eastern states where they typically receive around 4-5% of the vote and have struggled to even clear the 5% threshold. The state is dominated by SPD, AfD, and CDU. There is virtually no realistic scenario where Grüne wins the most seats in this state.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    }
+  },
+  {
+    "condition_id": "0xfeccfcff77f44eb3a30bd2965c702d5150aa53a2fb2acb6bdb67d4623301a981",
+    "market_slug": "will-jd-vance-be-the-2028-republican-vice-presidential-nominee",
+    "event_slug": "republican-vp-nominee-2028",
+    "title": "Will J.D. Vance be the 2028 Republican Vice-Presidential nominee?",
+    "category": "Elections",
+    "close_time": "2028-08-14T00:00:00Z",
+    "volume": "233.308",
+    "status": "ok",
+    "forecast": {
+      "rationale": "J.D. Vance is currently the sitting Vice President (as of 2025), having been elected alongside Trump in 2024. In 2028, Trump will be constitutionally ineligible to run again, so the Republican ticket will have a new presidential nominee. Vance may seek the presidential nomination himself rather than the VP slot. If he runs for president and wins the nomination, he would not be the VP nominee. If he loses the presidential primary, he could potentially be selected as VP again, but that's less likely. Historical precedent shows sitting VPs often seek the presidency rather than remain as VP candidates. The probability of Vance being the VP nominee (rather than the presidential nominee or not on the ticket) is relatively low.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    }
+  },
+  {
+    "condition_id": "0x74a5ea8aed0261817e6be4371a73a9647bf143857c62bc66211c2d9b97d091a5",
+    "market_slug": "will-mary-peltola-win-the-2026-alaska-governor-election",
+    "event_slug": "alaska-governor-election-winner",
+    "title": "Will Mary Peltola win the 2026 Alaska governor election?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "323448",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mary Peltola has demonstrated crossover appeal in Alaska's ranked-choice voting system, winning House races in a Republican-leaning state. However, Alaska's strong Republican lean makes winning a gubernatorial race significantly harder for a Democrat, and statewide executive offices have historically been difficult for Democrats in Alaska. Without a confirmed candidacy announcement and facing likely strong Republican opposition, her chances remain below 50%.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xbf0bd18b90ca6acd37c3f4c8563bab1910659c5f3385c290980bd5280e5e2c2a",
+    "market_slug": "will-there-be-between-125m-and-130m-votes-cast-in-the-2026-us-house-of-representatives-midterm-elections",
+    "event_slug": "2026-midterms-house-turnout",
+    "title": "Will there be between 125m and 130m votes cast in the 2026 U.S. House of Representatives midterm elections?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "1194.33",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Recent midterm elections (2018, 2022) saw approximately 113 million votes cast, representing the modern high-water mark. Reaching 125-130 million would require a ~10-15% increase over these records, which is historically unprecedented for midterms. While political polarization could boost turnout, the 125-130 million range appears too high given structural differences between presidential and midterm elections.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0xebef001d4d505f3b07d7d95eaddc07bbd73fbad53f3419041bf99887b75c915a",
+    "market_slug": "will-alexandria-ocasio-cortez-be-the-2028-democratic-vice-presidential-nominee",
+    "event_slug": "democratic-vp-nominee-2028",
+    "title": "Will Alexandria Ocasio-Cortez be the 2028 Democratic Vice-Presidential nominee?",
+    "category": "Elections",
+    "close_time": "2028-08-10T00:00:00Z",
+    "volume": "103.864",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Alexandria Ocasio-Cortez is a prominent progressive figure, but being selected as VP nominee requires winning over a broad Democratic coalition. She will be 38 in 2028 (meeting the constitutional age requirement), but faces challenges including her progressive positioning potentially being seen as too far left for a general election ticket. The Democratic field in 2028 is highly uncertain, and VP selection depends heavily on who the presidential nominee is. Historical base rates for any specific individual being VP nominee are very low.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0x19d2ff72e389d190c183e6b114817301d29eba651d67d75a38ee201a05188fd9",
+    "market_slug": "will-mary-peltola-win-the-alaska-senate-race-in-2026",
+    "event_slug": "alaska-senate-election-winner",
+    "title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "153494",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mary Peltola is a Democratic incumbent in the U.S. House representing Alaska's at-large district, not currently a Senator. For her to win an Alaska Senate race in 2026, she would need to run against either Lisa Murkowski (whose term expires in 2028) or Dan Sullivan (whose term expires in 2026). Sullivan's seat is up in 2026, making that the likely race. Alaska leans Republican, and while Peltola has shown crossover appeal winning the House seat, a Senate race in a presidential midterm environment against an incumbent Republican in a red-leaning state would be challenging. However, Peltola's track record and Alaska's ranked-choice voting system give her a realistic but uphill path.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0x31d22f7e07d0f4c4b217c3264ade5083fc41650844369508da10b932bb06c333",
+    "market_slug": "will-steve-daines-be-the-next-senate-majority-leader-743",
+    "event_slug": "next-senate-majority-leader-485",
+    "title": "Will Steve Daines be the next Senate Majority Leader?",
+    "category": "Elections",
+    "close_time": "2027-01-03T00:00:00Z",
+    "volume": "18070.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "John Thune was elected Senate Majority Leader in November 2024, defeating Steve Daines and John Cornyn in the Republican leadership vote. Daines lost that race and is unlikely to become Majority Leader before January 2027, as Thune's term as leader would extend well beyond the close time. There is no realistic near-term scenario where Daines assumes the role.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x492fb7f725ad6bbff8ce10bfbc75119599b958f7459b3e15241af33b809eaa08",
+    "market_slug": "turkish-constitutional-referendum-announced-in-2026-264",
+    "event_slug": "turkish-constitutional-referendum-announced-in-2026-264",
+    "title": "Will Turkey Move on a New Constitution in 2026?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "249.751",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Turkey has long discussed a new constitution under Erdoğan, but repeated attempts have stalled due to insufficient parliamentary support (requiring 3/5 majority for referendum or 2/3 for direct adoption). The AKP-MHP coalition lacks the supermajority needed, and opposition parties remain fragmented and resistant. While rhetoric about a new constitution persists, concrete legislative progress by end of 2026 appears unlikely given current political dynamics.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      }
+    }
+  },
+  {
+    "condition_id": "0x2421eb7f6db120f7fa8a4bac72805d412a397b3d99bcb1202a05cf9b35f63176",
+    "market_slug": "will-united-russia-win-355-or-more-seats-in-the-next-russian-state-duma-election",
+    "event_slug": "how-many-seats-will-united-russia-win-in-the-next-russian-legislative-election",
+    "title": "Will United Russia win 355 or more seats in the next Russian State Duma election?",
+    "category": "Elections",
+    "close_time": "2026-09-20T00:00:00Z",
+    "volume": "8223.52",
+    "status": "ok",
+    "forecast": {
+      "rationale": "United Russia won 324 seats in 2021 and 343 in 2016, both below the 355-seat threshold. While Russian elections are heavily managed and wartime conditions may increase state control over outcomes, 355+ seats (~79% of the Duma) would exceed recent historical results. The Kremlin typically engineers plausible-looking results rather than maximizing seat counts, making this threshold difficult to reach.",
+      "probabilities": {
+        "Yes": 0.28,
+        "No": 0.72
+      }
+    }
+  },
+  {
+    "condition_id": "0xf0c84cc3ca6b2e2b593aa228f12f68f7d953310b46bae7687244dda95f512807",
+    "market_slug": "will-voter-turnout-be-less-than-47-in-the-2026-russian-parliamentary-election",
+    "event_slug": "russia-parliamentary-election-turnout",
+    "title": "Will voter turnout be less than 47% in the 2026 Russian parliamentary election?",
+    "category": "Elections",
+    "close_time": "2026-09-20T00:00:00Z",
+    "volume": "3.75",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Russian official turnout figures have been at or above 47% in recent Duma elections (47.8% in 2016, 51.7% in 2021), with multi-day voting introduced in 2021 helping boost reported participation. The Kremlin has strong incentives to demonstrate electoral legitimacy through high turnout, and authorities control the reported figures. It is very unlikely official turnout would fall below 47% in 2026.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x836b850fc838195374862551a36f1c8691d96ff01e58b0a071f0fc1a0e357fb1",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "event_slug": "presidential-election-winner-2028",
+    "title": "Will LeBron James win the 2028 US Presidential Election?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "4.86668e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LeBron James has not announced any candidacy for the 2028 US Presidential Election, and there is no credible indication he intends to run. Even if he were to run, winning would require overcoming enormous political, logistical, and electoral hurdles as a first-time candidate with no political experience. The probability of this occurring is extremely low.",
+      "probabilities": {
+        "Yes": 0.002,
+        "No": 0.998
+      }
+    }
+  },
+  {
+    "condition_id": "0x809eaa464104c09fbe8e54c582256dfa29b5061928790eea2e3d4908d96a7b5c",
+    "market_slug": "will-gavin-newsom-announce-a-presidential-run-before-2027",
+    "event_slug": "who-will-announce-presidential-run-before-2027",
+    "title": "Will Gavin Newsom announce a Presidential run before 2027?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "46905",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Gavin Newsom has repeatedly denied plans to run in 2024 and has pledged to serve out his gubernatorial term through 2026. With the 2028 presidential cycle not beginning in earnest until late 2026 or 2027, there is little incentive for him to announce before the end of 2026. However, unexpected political shifts or a vacuum in Democratic leadership could prompt an earlier announcement.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x5512bfa9294bf914063ed120969908dee5cdf6e14293f28ca405d3ce4edcf485",
+    "market_slug": "will-iliana-iotova-win-the-next-bulgarian-presidential-election",
+    "event_slug": "bulgaria-presidential-election",
+    "title": "Will Iliana Iotova win the next Bulgarian presidential election?",
+    "category": "Elections",
+    "close_time": "2026-11-30T00:00:00Z",
+    "volume": "39033.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iliana Iotova, Bulgaria's current Vice President, has visibility and institutional experience heading into the 2026 presidential election. However, her affiliated BSP has been weakening electorally, and the Bulgarian presidential race is competitive with GERB and other parties fielding strong candidates. Vice presidents don't automatically translate their position into presidential victories, and the fragmented political landscape makes a win uncertain.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x83058ae21d866035c15838b9ae14adcfd33d64687e864697f73634aa00ea8276",
+    "market_slug": "will-the-next-elected-us-president-be-a-woman",
+    "event_slug": "will-the-next-elected-us-president-be-a-woman",
+    "title": "Will the next elected US president be a woman?",
+    "category": "Elections",
+    "close_time": "2028-11-07T00:00:00Z",
+    "volume": "11142.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 US presidential election was won by Donald Trump (a man), so the question now hinges on the 2028 election. While Kamala Harris's 2024 candidacy demonstrated viability, no clear female frontrunner has emerged for 2028. Historical patterns, incumbent advantage considerations, and the current political landscape make a female winner in 2028 possible but not the most likely outcome.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xd93366079fab7bcb8a03705969822056b76226a48fd5bb7b1475a5b186cf6f07",
+    "market_slug": "will-the-2026-midterm-elections-happen-as-scheduled",
+    "event_slug": "will-the-2026-midterm-elections-happen-as-scheduled",
+    "title": "Will the 2026 Midterm Elections happen as scheduled?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "153870",
+    "status": "ok",
+    "forecast": {
+      "rationale": "U.S. midterm elections are constitutionally mandated and have occurred without interruption even during wars, pandemics, and national crises. The 2026 midterms are scheduled for November 3, 2026, and there is no credible mechanism to cancel or significantly delay them, as doing so would require extraordinary constitutional changes. The probability of them not occurring as scheduled is extremely low.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x62f5f96a0b50e5be808796c59e35cde5932cd8448917ffe8107f2abd0c7c0508",
+    "market_slug": "zohran-mamdani-citizenship-revoked-before-2027",
+    "event_slug": "zohran-mamdani-citizenship-revoked-before-2027",
+    "title": "Zohran Mamdani citizenship revoked before 2027?",
+    "category": "Elections",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "23370.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Revoking the citizenship of a U.S. citizen, especially an elected official like Zohran Mamdani (a New York State Assemblymember), would be extraordinarily rare and legally complex. U.S. citizenship can only be revoked under very specific circumstances (e.g., voluntary renunciation, treason conviction, fraud in naturalization). There is no credible indication or legal basis suggesting his citizenship is at risk. This is essentially a near-impossible scenario.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    }
+  },
+  {
+    "condition_id": "0x7d9cf37aa6e00ce3e3e9b3d9b4ec61bf8f409bb621fd93f02a3cdd459dddbf64",
+    "market_slug": "will-michigan-vote-to-rewrite-the-state-constitution",
+    "event_slug": "will-michigan-vote-to-rewrite-the-state-constitution",
+    "title": "Will Michigan vote to rewrite the state Constitution?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "6047.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Michigan voters would need to approve a constitutional convention referendum, which requires a majority vote. Such referendums are rare and historically difficult to pass — Michigan's constitution automatically places a convention question on the ballot every 16 years (next due in 2026), but voters have consistently rejected it in past cycles (1978, 1994, 2010). There is no strong current political movement driving convention support, and the default outcome in all prior instances has been rejection.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  },
+  {
+    "condition_id": "0x92b502c683e2cc8cad23d670ad5e1d6efbf51fdc70310f8594e4c2ffc663bed4",
+    "market_slug": "california-voter-id-referendum-passes",
+    "event_slug": "california-voter-id-referendum-passes",
+    "title": "California voter ID referendum passes?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "6616.66",
+    "status": "ok",
+    "forecast": {
+      "rationale": "California is a heavily Democratic state where voter ID laws are strongly opposed by the majority party and voter base. While Republicans have pushed voter ID measures nationally, getting such a referendum on the ballot and passing it in California would require overcoming significant political and demographic headwinds. The state legislature is dominated by Democrats who would not refer such a measure, and a citizen initiative would face enormous opposition from well-funded progressive groups. No such referendum is currently on track for the 2026 ballot.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x6f9f4e951deefb1537f9cd35a3bd4e47b902872a7b903bded3b63a35686efa24",
+    "market_slug": "will-the-missouri-abortion-sex-change-for-minors-ban-pass",
+    "event_slug": "will-the-missouri-abortion-sex-change-for-minors-ban-pass",
+    "title": "Will the Missouri abortion & sex change for minors ban pass?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "536.035",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Missouri voters passed Amendment 3 in November 2024, constitutionally protecting abortion rights, making a new abortion ban legally very difficult to enact. While Missouri already has significant gender-affirming care restrictions for minors in place (SB 49, 2023), a combined 'abortion & sex change for minors ban' as a new measure faces major constitutional hurdles regarding abortion. The Republican legislature could attempt legislation, but Amendment 3 creates a significant barrier to any abortion ban passing and surviving legal scrutiny before November 2026.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    }
+  },
+  {
+    "condition_id": "0x9191a1a01a54e77d3b0901372c162b65db2985f1cf4573d1c31ece162bd00be2",
+    "market_slug": "will-the-nevada-abortion-protection-amendment-pass",
+    "event_slug": "will-the-nevada-abortion-protection-amendment-pass",
+    "title": "Will the Nevada abortion protection amendment pass?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "222.735",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nevada's abortion protection amendment (Question 6) passed in November 2024 with approximately 64% of the vote, but Nevada requires constitutional amendments to pass in two consecutive general elections. Having passed in 2024, it must pass again in November 2026 to be enshrined in the state constitution. Given the strong initial margin (64%), favorable polling trends for abortion rights measures nationally, and the fact that re-approval votes typically succeed when the first vote was decisive, the probability of passage in 2026 is high, though not certain.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      }
+    }
+  },
+  {
+    "condition_id": "0x22770be1b7eca8f1b4ed20335807d2edec9f9da54a1b42932ce57d42c8ea65ba",
+    "market_slug": "will-the-virginia-abortion-protection-amendment-pass",
+    "event_slug": "will-the-virginia-abortion-protection-amendment-pass",
+    "title": "Will the Virginia abortion protection amendment pass?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "43.8847",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Virginia's abortion protection amendment passed the legislature once in 2024 and needs a second passage before going to voters. Democrats hold legislative majorities making a second passage likely, and abortion rights measures have performed strongly in ballot initiatives nationally. However, uncertainty remains about the full legislative and voter approval process before November 2026.",
+      "probabilities": {
+        "Yes": 0.58,
+        "No": 0.42
+      }
+    }
+  },
+  {
+    "condition_id": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3",
+    "market_slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
+    "event_slug": "which-party-will-win-the-senate-in-2026",
+    "title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "1.18055e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2026 Senate map is challenging for Republicans, with 22 Republican seats up versus 13 Democratic seats. However, Democrats need a net gain of 4 seats (currently 47-53 minority) to reach 51, which is a significant hurdle. Historical patterns show the president's party typically loses seats in midterms, which would favor Democrats if Trump remains unpopular. Still, the structural deficit and the difficulty of flipping enough seats makes Democratic control possible but not the most likely outcome.",
+      "probabilities": {
+        "Yes": 0.38,
+        "No": 0.62
+      }
+    }
+  },
+  {
+    "condition_id": "0xba1f8ae2de56f06381f1c8fc30061192b2f686d35cabaeee42583f1030929815",
+    "market_slug": "will-the-democratic-party-win-the-ca-28-house-seat",
+    "event_slug": "ca-28-house-election-winner",
+    "title": "Will the Democratic Party win the CA-28 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "37257.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-28 is a heavily Democratic district in the Los Angeles area (covering parts of the San Fernando Valley including Burbank, Glendale, and Pasadena). It has been reliably Democratic for many cycles, with incumbents winning by large margins. The district's partisan lean (D+20 or more) makes a Republican victory extremely unlikely barring extraordinary circumstances.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      }
+    }
+  },
+  {
+    "condition_id": "0xef5c254927f991fe8834d80e509f1f7131d931bb5c9d5c86906b9c039842a8bc",
+    "market_slug": "will-the-republican-party-win-the-wv-01-house-seat",
+    "event_slug": "wv-01-house-election-winner",
+    "title": "Will the Republican Party win the WV-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "34734.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "West Virginia's 1st Congressional District is a deeply Republican stronghold. The district has been held by Republicans for decades, and West Virginia as a whole has shifted dramatically toward the GOP. The current representative is Carol Miller (R), and the district's partisan lean (R+40 or more) makes a Democratic win virtually inconceivable under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x37853ccf17890fa7893b159cb91b717bef9b2a322ef87fb851a5849419cf9b3d",
+    "market_slug": "will-the-democratic-party-win-the-oh-02-house-seat",
+    "event_slug": "oh-02-house-election-winner",
+    "title": "Will the Democratic Party win the OH-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "34491.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "OH-02 is a heavily Republican district in southern Ohio that has been reliably red for decades. The district has a Cook PVI of approximately R+30, making it one of the safest Republican seats in the country. Democrats rarely field competitive candidates here, and there is no indication of unusual circumstances that would flip this seat.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0xf6dd117ae819cbdc1ce2c4c1849485c7113396806bdb20198079de707646af64",
+    "market_slug": "will-the-democratic-party-win-the-wi-02-house-seat",
+    "event_slug": "wi-02-house-election-winner",
+    "title": "Will the Democratic Party win the WI-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "34269.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "WI-02 is the Madison, Wisconsin congressional district, one of the safest Democratic seats in the country. It has been held by Democrats for decades and includes the University of Wisconsin-Madison. The district has a Cook PVI of D+25 or higher, making a Republican win essentially impossible under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x13ca60e524f10ba1506803fdb38b78c8a9c1d3a1caf386ef262025e944d159c7",
+    "market_slug": "will-the-republican-party-win-the-wv-02-house-seat",
+    "event_slug": "wv-02-house-election-winner",
+    "title": "Will the Republican Party win the WV-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "32860.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "West Virginia's 2nd congressional district is a heavily Republican district. WV is one of the most Republican states in the nation, with Trump winning it by massive margins. The incumbent or any Republican candidate would be heavily favored in this deep-red district, making a Republican win extremely likely.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xe2832812b4cb694d79411fb6f9e05ca88f68659f924fc1fe5dbf1178aaa93085",
+    "market_slug": "will-the-republican-party-win-the-va-09-house-seat",
+    "event_slug": "va-09-house-election-winner",
+    "title": "Will the Republican Party win the VA-09 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "30534.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "VA-09 is a heavily Republican district in southwestern Virginia. It has been held by Republicans for decades and is rated as a safe Republican seat. The current representative Morgan Griffith (R) has held the seat since 2011 with large margins. There is no realistic scenario where Democrats would flip this district in 2026.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xb44a6322269d5ea20f28bcd63221bf06a2ee8d89061fa3e4e22e9bb43880bf61",
+    "market_slug": "will-the-republican-party-win-the-ca-38-house-seat",
+    "event_slug": "ca-38-house-election-winner",
+    "title": "Will the Republican Party win the CA-38 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "27177.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-38 (covering parts of the San Gabriel Valley in Los Angeles County) is a heavily Democratic district. It was represented by Linda Sánchez and is now held by a Democrat. The district has a strong Democratic lean with a Cook PVI of approximately D+20 or more, making a Republican victory extremely unlikely in 2026.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x462ab115b37bc0bf5d95870612dc64056c18a0c70595baf6743cb7e411d81888",
+    "market_slug": "will-the-democratic-party-win-the-ny-18-house-seat",
+    "event_slug": "ny-18-house-election-winner",
+    "title": "Will the Democratic Party win the NY-18 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "30616.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "NY-18 is currently held by Democrat Pat Ryan, who has demonstrated strong electoral performance in this competitive Hudson Valley district. The 2026 midterm environment is expected to favor Democrats as the out-of-power party under a Republican president, and Ryan's incumbency advantage further bolsters Democratic prospects. However, the district remains genuinely competitive, preventing a very high probability.",
+      "probabilities": {
+        "Yes": 0.68,
+        "No": 0.32
+      }
+    }
+  },
+  {
+    "condition_id": "0xe803f013af6864603e18b27a40ff5c640caefe793e79608792e73601ecdcc159",
+    "market_slug": "will-the-democratic-party-win-the-ca-52-house-seat",
+    "event_slug": "ca-52-house-election-winner",
+    "title": "Will the Democratic Party win the CA-52 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "29805",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-52 (San Diego area) is a competitive but Democratic-leaning district. It was won by Democrat Scott Peters and has a Cook PVI that leans Democratic. Incumbency advantage and California's overall Democratic trend make a Democratic hold likely, though it remains somewhat competitive.",
+      "probabilities": {
+        "Yes": 0.78,
+        "No": 0.22
+      }
+    }
+  },
+  {
+    "condition_id": "0xc411ca76644ed61d916cb8557168b949c402b69f821c999889d993c36c4bb882",
+    "market_slug": "will-the-democratic-party-win-the-sc-01-house-seat",
+    "event_slug": "sc-01-house-election-winner",
+    "title": "Will the Democratic Party win the SC-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "28768.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SC-01 (South Carolina's 1st congressional district) is a reliably Republican district covering Charleston and surrounding coastal areas. It has been held by Republicans for decades, currently represented by Nancy Mace. The district has a significant Republican lean (R+15 or so by PVI), making a Democratic flip highly unlikely under normal circumstances, though not impossible in a wave election.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x13ab5c37a83d0a2ed874bd931c1c8a10984dcabc37cb67f4e36c807492cbfd3b",
+    "market_slug": "will-the-democratic-party-win-the-ne-02-house-seat",
+    "event_slug": "ne-02-house-election-winner",
+    "title": "Will the Democratic Party win the NE-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "27082.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "NE-02 is one of the most competitive House districts in the country, with Republicans holding it by narrow margins in recent cycles. The 2026 midterm environment typically favors the party out of power (Democrats), which improves their chances in this swing district. However, Republicans have consistently won here, and the district gave Trump a narrow win in 2024, giving the GOP a structural edge.",
+      "probabilities": {
+        "Yes": 0.44,
+        "No": 0.56
+      }
+    }
+  },
+  {
+    "condition_id": "0x5558e61278b527a3cc923f4d432081f37551fb1dccf8170ab4c9947691081329",
+    "market_slug": "will-the-republican-party-win-the-ny-10-house-seat",
+    "event_slug": "ny-10-house-election-winner",
+    "title": "Will the Republican Party win the NY-10 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "25699.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "NY-10 covers lower Manhattan and parts of Brooklyn, making it one of the most Democratic districts in the country. It has a Cook PVI of D+26 and has been held by Democrats for decades. The current representative Dan Goldman (D) won in 2022 and 2024 by large margins. Republican prospects in this heavily urban, liberal district are extremely slim.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0x571522bd6da1dfe0759196242f8b1aa17a1ffb7332f35e0bc1f66edcf125b5b4",
+    "market_slug": "will-the-republican-party-win-the-ut-01-house-seat",
+    "event_slug": "ut-01-house-election-winner",
+    "title": "Will the Republican Party win the UT-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "25326.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UT-01 (Utah's 1st congressional district) is a heavily Republican district in northern Utah. It has been held by Republicans for decades and has a Cook PVI of approximately R+25 or stronger. The incumbent or any Republican nominee would be a strong favorite in this deep-red district.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x17d9797821f1a32321564af18ce9bb98ba79f269d6973c9af4c092a518a916ff",
+    "market_slug": "will-the-republican-party-win-the-tx-32-house-seat",
+    "event_slug": "tx-32-house-election-winner",
+    "title": "Will the Republican Party win the TX-32 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "25293.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "TX-32 is currently held by Democrat Julie Johnson, who won by roughly 14 points in 2024. The district covers suburban Dallas and has been trending Democratic due to demographic shifts among college-educated suburban voters. In 2026, Democrats typically benefit from midterm dynamics as the opposition party, making a Republican flip even less likely. The district's Cook PVI and recent voting patterns favor Democrats.",
+      "probabilities": {
+        "Yes": 0.18,
+        "No": 0.82
+      }
+    }
+  },
+  {
+    "condition_id": "0xf4a61ae3b71e713136daded3fb8fd5882a6b6ff61bc15dc556803e6a2da2e108",
+    "market_slug": "will-the-republican-party-win-the-mo-06-house-seat",
+    "event_slug": "mo-06-house-election-winner",
+    "title": "Will the Republican Party win the MO-06 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "22434.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Missouri's 6th congressional district is a heavily Republican district in northwest Missouri. Republicans have held this seat for decades, and the district has a strong partisan lean (PVI approximately R+20 or more). There is no realistic scenario in which Democrats would flip this seat under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x9c8d233d37738e3c46be3222c50ec356d662a7b872c1ac7eaa8d23e01130edb3",
+    "market_slug": "will-the-democratic-party-win-the-oh-03-house-seat",
+    "event_slug": "oh-03-house-election-winner",
+    "title": "Will the Democratic Party win the OH-03 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "24572.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "OH-03 covers Columbus, Ohio, and has been a reliably Democratic district for decades. The seat was held by Joyce Beatty (D) for many years, and the district's demographics (urban, majority-minority) strongly favor Democrats. There is no significant indication of a competitive Republican challenge in this district, making a Democratic win highly likely.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      }
+    }
+  },
+  {
+    "condition_id": "0xcef8e45eaf09b568ff3e7672dc656707792900b4ba2f0ffaf6b0388819b0dab8",
+    "market_slug": "will-the-democratic-party-win-the-va-05-house-seat",
+    "event_slug": "va-05-house-election-winner",
+    "title": "Will the Democratic Party win the VA-05 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "24533.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "VA-05 is a heavily Republican-leaning district currently held by Bob Good (R), with Trump winning it by double digits. The district's rural, conservative composition makes it extremely difficult for Democrats to win even in a favorable wave environment. While 2026 midterms could favor Democrats as the opposition party, the structural R+10 or greater lean makes a Democratic flip very unlikely.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      }
+    }
+  },
+  {
+    "condition_id": "0x309a6a46f8bd102281422b20a09003793c4bfc4fb7bdd3660165e655c15b2c15",
+    "market_slug": "will-the-democratic-party-win-the-ca-39-house-seat",
+    "event_slug": "ca-39-house-election-winner",
+    "title": "Will the Democratic Party win the CA-39 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "22385.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-39 is currently held by Democrat Mark Takano, who has represented this Inland Empire district since 2013. The district has a Democratic lean (Cook PVI approximately D+5 to D+7), and incumbents in safe-leaning districts tend to retain their seats. While redistricting and national environment could shift things, the district's demographic trends favor Democrats, making a Democratic hold highly likely.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      }
+    }
+  },
+  {
+    "condition_id": "0xf1e7257bf0a98280700ec0d97e662899004f82bfde6f1ebecc587c84c6d39a99",
+    "market_slug": "will-the-republican-party-win-the-il-01-house-seat",
+    "event_slug": "il-01-house-election-winner",
+    "title": "Will the Republican Party win the IL-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "21669.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "IL-01 (Illinois 1st Congressional District) covers Chicago's South Side and south suburbs, a heavily Democratic district with a Cook Partisan Voting Index of around D+35 or more. The district has been represented by Democrats for decades and has never been competitive in modern elections. Republicans have little to no realistic path to winning this seat.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0xa20bfa9b100ecefeeae8b9e4b000c67e42fe20f11b998f1b433637bc33b553cf",
+    "market_slug": "will-the-democratic-party-win-the-mi-13-house-seat",
+    "event_slug": "mi-13-house-election-winner",
+    "title": "Will the Democratic Party win the MI-13 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "21581.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MI-13 (Detroit area) is one of the most heavily Democratic districts in the country, with a Cook PVI of D+32 or similar. The district has been reliably Democratic for decades and includes Detroit's core urban areas. Barring extraordinary circumstances, Democrats are virtually certain to retain this seat in 2026.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xc4f1456dc523bfe110e6a2afc7c2144ef3925650e78fa826d2211ddae6763a3d",
+    "market_slug": "will-the-republican-party-win-the-nc-05-house-seat",
+    "event_slug": "nc-05-house-election-winner",
+    "title": "Will the Republican Party win the NC-05 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "21401.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "NC-05 is a heavily Republican district in western North Carolina. The district has been held by Republicans for decades and has a strong partisan lean (PVI of approximately R+20 or more). Incumbent Republican Virginia Foxx has held the seat since 2005, though she announced retirement for 2026. Even with an open seat, the district's deep red nature makes a Republican victory highly likely.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      }
+    }
+  },
+  {
+    "condition_id": "0xf155e6c972268c56600185b108c8b69cdc4e0a7c34c25712d0f22f4f751123ed",
+    "market_slug": "will-the-republican-party-win-the-mi-02-house-seat",
+    "event_slug": "mi-02-house-election-winner",
+    "title": "Will the Republican Party win the MI-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "21378.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MI-02 is a Michigan congressional district that leaned Republican in recent cycles. The 2024 redistricting and historical voting patterns suggest this district favors Republicans, though Michigan has been competitive. Given the district's partisan lean and typical incumbency advantages, Republicans are favored but not certain to win.",
+      "probabilities": {
+        "Yes": 0.72,
+        "No": 0.28
+      }
+    }
+  },
+  {
+    "condition_id": "0x69366045ca68108d34ad7436760a709d22949ac250de44119c4f8734a47dc9e8",
+    "market_slug": "will-the-republican-party-win-the-oh-09-house-seat",
+    "event_slug": "oh-09-house-election-winner",
+    "title": "Will the Republican Party win the OH-09 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "19733",
+    "status": "ok",
+    "forecast": {
+      "rationale": "OH-09 is held by longtime incumbent Marcy Kaptur, but the district has trended Republican in recent cycles, with Kaptur winning narrowly in 2022. Her advanced age (she'll be ~80 in 2026) raises retirement possibilities, which would significantly boost Republican chances. The district's working-class demographics have shifted toward Republicans, and Ohio broadly has trended red, making this a genuinely competitive seat.",
+      "probabilities": {
+        "Yes": 0.42,
+        "No": 0.58
+      }
+    }
+  },
+  {
+    "condition_id": "0xd24838f630573df34e44dd2c064bac36d8f467bf6e428f004e86ae3d8636103d",
+    "market_slug": "will-the-democratic-party-win-the-me-01-house-seat",
+    "event_slug": "me-01-house-election-winner",
+    "title": "Will the Democratic Party win the ME-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "21391.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ME-01 (Maine's 1st Congressional District) covers Portland and southern Maine, a reliably Democratic district. It has been held by Democrat Chellie Pingree since 2009. The district's Cook PVI leans strongly Democratic, and there is no strong indication of a competitive challenge in 2026. Incumbency advantage and district demographics heavily favor a Democratic hold.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      }
+    }
+  },
+  {
+    "condition_id": "0x5264a64154942898bebe8a052cef01dc3e4396591777069b3438ce624c971ee9",
+    "market_slug": "will-the-democratic-party-win-the-ms-03-house-seat",
+    "event_slug": "ms-03-house-election-winner",
+    "title": "Will the Democratic Party win the MS-03 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "19153.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mississippi's 3rd congressional district is a heavily Republican district in a deep-red state. The district has been represented by Republicans for decades and has a Cook PVI of approximately R+25 or more. Democrats rarely field competitive candidates here, and the district's demographics and voting history make a Democratic win extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0xcf1687f8e90f5d5113d2cbc76729773851b254c136bfb83bd53cacc526002ef4",
+    "market_slug": "will-the-democratic-party-win-the-il-04-house-seat",
+    "event_slug": "il-04-house-election-winner",
+    "title": "Will the Democratic Party win the IL-04 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "18971.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "IL-04 is one of the most heavily Democratic districts in the country, covering parts of Chicago and designed as a majority-minority district. It has been held by Democrats continuously and has a Cook PVI of around D+35 or more. Incumbent Chuy García (or successor) would be heavily favored. There is virtually no realistic path for a Republican to win this seat.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x3426998806d3d3b2596f86f22fc9bd4e8ad3ab818f7011ab041596082042f520",
+    "market_slug": "will-the-republican-party-win-the-mn-05-house-seat",
+    "event_slug": "mn-05-house-election-winner",
+    "title": "Will the Republican Party win the MN-05 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "18791.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MN-05 (Minneapolis) is one of the most heavily Democratic districts in the country, represented by Ilhan Omar with typical Democratic margins of 60-70%+. The district's deep blue urban composition makes a Republican victory extremely unlikely under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x1a2564d5a4286609c21207c70fff29c5cbbfc048bd4b3a7df7a726ee1f189340",
+    "market_slug": "will-the-republican-party-win-the-ks-04-house-seat",
+    "event_slug": "ks-04-house-election-winner",
+    "title": "Will the Republican Party win the KS-04 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "18544.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "KS-04 (Wichita area) is a heavily Republican district that has been held by Republicans for decades. The district has a strong Republican lean with a Cook PVI of approximately R+15 or more. Incumbent Ron Estes has consistently won by large margins, and there is no indication of significant Democratic competitiveness in this district for 2026.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x7130941f5af95cfeeba3eb7d794157f4c87c1ae7bf25735ecb85469ded17ab21",
+    "market_slug": "will-the-republican-party-win-the-il-02-house-seat",
+    "event_slug": "il-02-house-election-winner",
+    "title": "Will the Republican Party win the IL-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17775.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "IL-02 is a heavily Democratic district in the Chicago area, represented by Robin Kelly. It has a Cook PVI of approximately D+35, making it one of the safest Democratic seats in the country. Republicans have not been competitive in this district for decades, and there is no realistic path to a Republican victory under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0x6b76635a319a2dbbdb954b7ec7d7702e13ecc274ed0d15610661abf24a3ea53f",
+    "market_slug": "will-the-democratic-party-win-the-ma-05-house-seat",
+    "event_slug": "ma-05-house-election-winner",
+    "title": "Will the Democratic Party win the MA-05 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17684.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MA-05 (Massachusetts 5th Congressional District) is a heavily Democratic district in the Boston suburbs, currently held by Katherine Clark (House Minority Whip). Massachusetts is one of the most reliably Democratic states, and this district has been held by Democrats for decades with large margins. There is virtually no realistic path for a Republican to win this seat under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x1b616d85ecd00125704a59ca4ff4d397e0006dd087dab815780ee16539da94af",
+    "market_slug": "will-the-republican-party-win-the-id-01-house-seat",
+    "event_slug": "id-01-house-election-winner",
+    "title": "Will the Republican Party win the ID-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17663.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Idaho's 1st congressional district is a deeply conservative, reliably Republican seat. Republicans have held this seat for decades, and Idaho is one of the most Republican states in the nation with a PVI of around R+20. There is no realistic scenario in which Democrats would flip this seat under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xbd8b06768f41de99f14eb7ea05c042b6db208c722608551cd9ebc1fd06af07b3",
+    "market_slug": "will-the-democratic-party-win-the-tx-11-house-seat",
+    "event_slug": "tx-11-house-election-winner",
+    "title": "Will the Democratic Party win the TX-11 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17637.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "TX-11 is a deeply conservative West Texas district that has been held by Republicans for decades. The district has a Cook PVI of approximately R+33 or higher, making it one of the safest Republican seats in the country. Democrats rarely even field competitive candidates here, and there is no realistic path to a Democratic victory under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    }
+  },
+  {
+    "condition_id": "0x0e8b95feebce9784a0ccdbd4158c72b6db319d41511f6caa049b4d19ac3ba559",
+    "market_slug": "will-the-democratic-party-win-the-mi-12-house-seat",
+    "event_slug": "mi-12-house-election-winner",
+    "title": "Will the Democratic Party win the MI-12 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17611.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MI-12 is a heavily Democratic district covering Detroit and surrounding areas, represented by Rashida Tlaib. It has a strong Democratic lean with a Cook PVI of approximately D+32, making it one of the safest Democratic seats in the country. Barring extraordinary circumstances, Democrats are virtually certain to retain this seat in 2026.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x46d36f63912449614fae2904c1db76fdd78002179a45fa9d38e20e21766b9c5e",
+    "market_slug": "will-the-republican-party-win-the-nd-al-house-seat",
+    "event_slug": "nd-al-house-election-winner",
+    "title": "Will the Republican Party win the ND-AL House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17288.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "North Dakota's at-large House seat is one of the safest Republican seats in the country. Republicans have held this seat continuously since 1981, and North Dakota is a deeply red state with a Cook PVI of R+27. The incumbent or any Republican nominee would be a heavy favorite in any election cycle.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x176291d4811a47543bb4461c480ebbdbdba9aab7ee1669990df57af556970771",
+    "market_slug": "will-the-republican-party-win-the-ma-04-house-seat",
+    "event_slug": "ma-04-house-election-winner",
+    "title": "Will the Republican Party win the MA-04 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17106.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MA-04 is a heavily Democratic district in Massachusetts (suburban Boston area), currently held by Jake Auchincloss. Massachusetts is a deep blue state, and this district has consistently voted Democratic by large margins. Republicans rarely compete seriously in this district, making a Republican victory extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0xd4bc06a5741c9c61b3d89563cd455f81d362ec4311d057092e196bf149394d83",
+    "market_slug": "will-the-democratic-party-win-the-sc-02-house-seat",
+    "event_slug": "sc-02-house-election-winner",
+    "title": "Will the Democratic Party win the SC-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17364.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SC-02 (South Carolina's 2nd congressional district) is a heavily Republican district that has been held by Republicans for decades. It covers the Columbia suburbs and surrounding areas, with a strong Republican lean (R+15 or more). Democrats rarely mount competitive challenges here, and the national environment would need to be extraordinarily favorable for a Democratic pickup.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    }
+  },
+  {
+    "condition_id": "0x9396e493c2ccc8cb598e4549b63eb222c84728480acc510fb606b2d1f09a1ba1",
+    "market_slug": "will-the-republican-party-win-the-ca-14-house-seat",
+    "event_slug": "ca-14-house-election-winner",
+    "title": "Will the Republican Party win the CA-14 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "17063.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-14 is a heavily Democratic district in the San Francisco Bay Area, currently held by Eric Swalwell. Biden won the district by over 30 points in 2020, and it has been safely Democratic for over a decade. Under California's top-two primary system, two Democrats often advance, and the district's demographics make a Republican victory extremely unlikely barring an unprecedented political realignment.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xb1e3b39a46589125fbbb8ca8c68084cacc94276780fdcd21d804c37ab51b39ba",
+    "market_slug": "will-the-republican-party-win-the-tx-21-house-seat",
+    "event_slug": "tx-21-house-election-winner",
+    "title": "Will the Republican Party win the TX-21 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16989.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "TX-21 is a heavily Republican district in Texas covering parts of Austin's suburbs and the Hill Country. It has been held by Republicans for decades and has a strong partisan lean (R+15 or more). The incumbent or Republican nominee would be heavily favored in any general election cycle, including 2026.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      }
+    }
+  },
+  {
+    "condition_id": "0xec477177fc78c9f16ef4953be7e466c42482115b11fe934dd1350c67e1c7bbb1",
+    "market_slug": "will-the-democratic-party-win-the-ga-08-house-seat",
+    "event_slug": "ga-08-house-election-winner",
+    "title": "Will the Democratic Party win the GA-08 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16904.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "GA-08 is a heavily Republican district in Georgia, covering rural south-central Georgia. It has been held by Republicans for many years and has a strong partisan lean toward the GOP (PVI of approximately R+20 or more). The Democratic Party has little realistic chance of winning this seat in 2026 under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      }
+    }
+  },
+  {
+    "condition_id": "0xd5cc9481b31e8a4bec7d1154e7ca20eda7f6253935e117dd51458bd9dd9f0408",
+    "market_slug": "will-the-democratic-party-win-the-la-01-house-seat",
+    "event_slug": "la-01-house-election-winner",
+    "title": "Will the Democratic Party win the LA-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16728.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LA-01 (Louisiana's 1st congressional district) covers the New Orleans suburbs and is a heavily Republican district. It has a Cook PVI of around R+20 and has been represented by Republicans for decades. Steve Scalise currently holds this seat. Democrats have virtually no realistic path to winning this district under normal circumstances.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    }
+  },
+  {
+    "condition_id": "0x3e5bcf7f2ef739483844bcee91b3f3dd6583428bd70a7292eda42aa94f6056a7",
+    "market_slug": "will-the-republican-party-win-the-mo-08-house-seat",
+    "event_slug": "mo-08-house-election-winner",
+    "title": "Will the Republican Party win the MO-08 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16611.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Missouri's 8th Congressional District is a deeply conservative, rural district in southeastern Missouri. It has been held by Republicans for decades and has a Cook PVI of approximately R+30 or higher. The current representative Jason Smith (R) has won by overwhelming margins. There is virtually no realistic path for Democrats to win this seat in the foreseeable future.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xd6ab89f04100c439d29aae1b132326a0250c21c093f3cd51427c3a12db9216d2",
+    "market_slug": "will-the-republican-party-win-the-in-08-house-seat",
+    "event_slug": "in-08-house-election-winner",
+    "title": "Will the Republican Party win the IN-08 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16562",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Indiana's 8th congressional district is a heavily Republican district in southwestern Indiana. It has been held by Republicans for decades and has a Cook PVI of approximately R+20 or higher. The current representative Mark Messmer (Republican) holds this seat, and the district consistently votes Republican by large margins in both presidential and congressional elections.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0xb8c11ed1a8ac378cbb33ed893c7ce3be2e6ad5660654189e10b0acc3f4db121b",
+    "market_slug": "will-the-republican-party-win-the-tn-02-house-seat",
+    "event_slug": "tn-02-house-election-winner",
+    "title": "Will the Republican Party win the TN-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16272.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Tennessee's 2nd Congressional District is a deeply conservative, reliably Republican district covering the Knoxville area. Republicans have held this seat for decades, and the district's partisan lean (R+30 or more) makes a Democratic victory virtually impossible under normal circumstances. Incumbent Tim Burchett or another Republican nominee would be heavily favored in any election cycle.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x2a113d4550dc83f264d23994783153f022087ccb5a2e2ba740b08c67972cd6fc",
+    "market_slug": "will-the-democratic-party-win-the-ca-18-house-seat",
+    "event_slug": "ca-18-house-election-winner",
+    "title": "Will the Democratic Party win the CA-18 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "16160.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-18 (covering the San Jose/Silicon Valley area) is a heavily Democratic district. It is currently held by Democrat Zoe Lofgren, who has represented the area for decades. The district has a strong Democratic lean with a Cook PVI of approximately D+20 or more, making it extremely unlikely Republicans would win this seat.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      }
+    }
+  },
+  {
+    "condition_id": "0x08ee8fffa3ae787e6b53e115b325d3eed5166b18dd0b73b963431c17c6f0b19f",
+    "market_slug": "will-the-democratic-party-win-the-ny-09-house-seat",
+    "event_slug": "ny-09-house-election-winner",
+    "title": "Will the Democratic Party win the NY-09 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "15749.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "NY-09 is a heavily Democratic district in Brooklyn/Queens that has been held by Democrats for decades. The district has a strong Democratic voter registration advantage and demographic composition favoring Democrats. While the 2022 midterms showed some Republican gains in New York, NY-09 remains a safe Democratic seat with no realistic path for Republicans to flip it in 2026.",
+      "probabilities": {
+        "Yes": 0.93,
+        "No": 0.07
+      }
+    }
+  },
+  {
+    "condition_id": "0x079128846b9ae4891eaa3bc780657ae106d45ebcd6916749192bfe40f548cb19",
+    "market_slug": "will-the-republican-party-win-the-il-06-house-seat",
+    "event_slug": "il-06-house-election-winner",
+    "title": "Will the Republican Party win the IL-06 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "15670.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "IL-06 is a suburban Chicago district that leans Democratic, currently held by incumbent Sean Casten who has won multiple consecutive elections. The district's Cook PVI favors Democrats, and 2026 midterms with Trump in the White House typically benefit the opposition party (Democrats), making a Republican pickup less likely though not impossible.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      }
+    }
+  },
+  {
+    "condition_id": "0x93f0dd0eac62c648ee4b9bb214c539e140f92aeda65f44fea584baf95bbccf06",
+    "market_slug": "will-the-republican-party-win-the-nm-02-house-seat",
+    "event_slug": "nm-02-house-election-winner",
+    "title": "Will the Republican Party win the NM-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "15490.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "NM-02 has a Republican-leaning PVI (around R+5 to R+6), and Democrat Gabe Vasquez has won two consecutive narrow victories. While Vasquez has built some incumbency advantage, the district's underlying partisan lean and typical midterm dynamics (which often favor the party out of the White House) make Republican recapture plausible. The race is expected to be highly competitive.",
+      "probabilities": {
+        "Yes": 0.52,
+        "No": 0.48
+      }
+    }
+  },
+  {
+    "condition_id": "0x90745b0d403b153b5e099d90189c5d95417be22f36c15155eb742bc4021fa9be",
+    "market_slug": "will-the-republican-party-win-the-pa-02-house-seat",
+    "event_slug": "pa-02-house-election-winner",
+    "title": "Will the Republican Party win the PA-02 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "15397.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "PA-02 is held by incumbent Republican Brian Fitzpatrick, a moderate who has consistently won this competitive Bucks County district, including a strong 57% victory in 2024. While 2026 midterm dynamics typically disadvantage the president's party and suburban Philadelphia has trended Democratic, Fitzpatrick's personal brand and incumbency provide significant protection. The main risks are retirement or an unusually strong Democratic wave.",
+      "probabilities": {
+        "Yes": 0.62,
+        "No": 0.38
+      }
+    }
+  },
+  {
+    "condition_id": "0x3cf3f5a326c82e77bb96aee34875ab50a64227e14409f3bac4803ecdbec3ef79",
+    "market_slug": "will-the-democratic-party-win-the-ca-12-house-seat",
+    "event_slug": "ca-12-house-election-winner",
+    "title": "Will the Democratic Party win the CA-12 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-03T00:00:00Z",
+    "volume": "15396.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "CA-12 (San Francisco area) is one of the safest Democratic districts in the country, with a Cook PVI of D+40 or higher. Nancy Pelosi held this seat for decades, and it has been reliably Democratic for generations. There is virtually no realistic scenario where Republicans win this seat.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      }
+    }
+  },
+  {
+    "condition_id": "0xf6ff4c55696ff8529e6e1021f4e4a17adaa305c4991d9001bcbf7a5fbdd326d3",
+    "market_slug": "will-the-democratic-party-win-the-va-01-house-seat",
+    "event_slug": "va-01-house-election-winner",
+    "title": "Will the Democratic Party win the VA-01 House seat?",
+    "category": "Elections",
+    "close_time": "2026-11-04T00:00:00Z",
+    "volume": "15259.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "VA-01 is a strongly Republican district with a Cook PVI of approximately R+10 to R+12. Rob Wittman has held the seat since 2007, consistently winning with 60%+ of the vote. Even in favorable Democratic environments, this district has remained safely Republican, making a Democratic victory in 2026 highly unlikely.",
+      "probabilities": {
+        "Yes": 0.06,
+        "No": 0.94
+      }
+    }
+  }
+]
