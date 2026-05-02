@@ -1,0 +1,2543 @@
+[
+  {
+    "condition_id": "0xb9a94d946986a43351b7008a254b7459fb75dd2d7b2cff793f13bfc736c085fc",
+    "market_slug": "iceland-volcanic-eruption-by-nov-15",
+    "event_slug": "iceland-volcanic-eruption-by-nov-15",
+    "title": "Iceland volcanic eruption by Nov 15?",
+    "category": "Climate and Weather",
+    "close_time": "2023-11-15T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "48285.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In early November 2023, intense seismic activity on the Reykjanes peninsula near Grindavík led to evacuations and magma intrusion, but the actual surface eruption did not begin until December 18, 2023. So as of Nov 15, no eruption had occurred.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Grindavík was evacuated around November 10-11, 2023 due to magma dike intrusion",
+          "The actual eruption on the Reykjanes peninsula began December 18, 2023, after the Nov 15 deadline"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x90253525b201c9b7257bca40036c5cc9afb9ae709c4badfe99cc0ff5fae9dce7",
+    "market_slug": "will-the-chopsticks-catch-spacexs-super-heavy",
+    "event_slug": "will-the-chopsticks-catch-spacexs-super-heavy",
+    "title": "Will the chopsticks catch SpaceX's Super Heavy?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "604511",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX's IFT-6 launched November 19, 2024, but the chopstick catch was waved off and the booster soft-landed in the Gulf of Mexico. IFT-5 on October 13, 2024 successfully caught the booster. Close time is Nov 18, before IFT-6, so by close only IFT-5 is relevant — which succeeded.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-5 on October 13, 2024 successfully caught Super Heavy booster with Mechazilla chopsticks at Starbase",
+          "IFT-6 on November 19, 2024 aborted the catch attempt and booster splashed down in Gulf"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc0b0c6d7795453a6c2da700496583354384f012b79c53e98bc2d7fa91586348e",
+    "market_slug": "will-the-november-2024-temperature-increase-be-less-than-1pt20c",
+    "event_slug": "november-2024-temperature-increase-c",
+    "title": "Will the November 2024 temperature increase be less than 1.20°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "595329",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 was one of the warmest Novembers on record. Per Copernicus C3S, the November 2024 anomaly was approximately 1.62°C above pre-industrial, well above 1.20°C.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus ERA5 reported November 2024 was 1.62°C above the 1850-1900 pre-industrial baseline",
+          "November 2024 was the second-warmest November on record, behind November 2023",
+          "2024 was confirmed as the first calendar year exceeding 1.5°C above pre-industrial"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8b22d7d3402b9823aca8ba68fa9beee749049bf67b8efa0935fcb8963d5d357",
+    "market_slug": "will-there-be-less-than-16-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season-2024",
+    "title": "Will there be less than 16 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.61894e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic Hurricane Season had 18 named storms, exceeding the 16 threshold. Storms included Alberto through Sara, with Sara being the 18th named storm in November.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic season produced 18 named storms",
+          "Hurricane Sara formed in November 2024 as the 18th named storm",
+          "Season included major hurricanes Beryl, Helene, and Milton"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x43905da101b102a1867fcb36b15b41b29282b568202f079152933e021cc2b8cf",
+    "market_slug": "global-heat-increase-between-1pt22c-and-1pt24c-for-2024",
+    "event_slug": "global-heat-increase-2024",
+    "title": "Global heat increase between 1.22°C and 1.24°C for 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9.46687e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2024 was reported as approximately 1.55°C above pre-industrial levels (Copernicus), well above the 1.22-1.24°C range. The question asks for a narrow band that 2024 clearly exceeded.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported 2024 as the first calendar year above 1.5°C, around 1.55-1.60°C above pre-industrial",
+          "NASA/NOAA also reported 2024 as warmest on record, exceeding 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5abbde9c0c4e0844438d66f9f94ad548f6bf591086f3de7ae124215a6c8e3429",
+    "market_slug": "iceland-volcanic-eruption-by-nov-30",
+    "event_slug": "iceland-volcanic-eruption-by-nov-30",
+    "title": "Iceland volcanic eruption by Nov 30?",
+    "category": "Climate and Weather",
+    "close_time": "2023-11-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "71412.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In November 2023, intense seismic activity occurred near Grindavík with magma intrusion under the Reykjanes peninsula. Evacuations took place, but the actual eruption did not occur until December 18, 2023, so by Nov 30 no eruption had begun.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Grindavík was evacuated on November 10-11, 2023 due to magma intrusion",
+          "The actual Sundhnúkur eruption began December 18, 2023, after the Nov 30 deadline"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xefc3ed55ea013e7f75ad53fa9670d704dba5428417d38a37232092f60ace44fd",
+    "market_slug": "will-five-or-more-spacex-starship-launches-successfully-reach-outer-space-in-2024",
+    "event_slug": "how-many-spacex-starship-launches-reach-space-in-2024",
+    "title": "Will five or more SpaceX Starship launches successfully reach outer space in 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "286410",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In 2024, SpaceX conducted Starship flights IFT-3 (March), IFT-4 (June), IFT-5 (October), IFT-6 (November), and IFT-7 was scheduled but slipped to January 2025. Only 4 launches reached space in 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-3 launched March 14, 2024; IFT-4 on June 6, 2024; IFT-5 on October 13, 2024 (with first booster catch); IFT-6 on November 19, 2024",
+          "IFT-7 was delayed into January 2025, so only 4 Starship launches reached space in 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcfade890130c9156602dbc9589af4277b2480b674488e0b74534c14da057f7bb",
+    "market_slug": "will-the-october-2024-temperature-increase-be-greater-than-1pt40c",
+    "event_slug": "october-2024-temperature-increase-c",
+    "title": "Will the October 2024 temperature increase be greater than 1.40°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "453420",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 was reported by Copernicus C3S as approximately 1.65°C above pre-industrial, the second-warmest October on record, exceeding 1.40°C.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported October 2024 anomaly at ~1.65°C above pre-industrial average",
+          "It was the second-warmest October on record, behind October 2023"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe92fb17880e1bc7ff13f25f5bfef59aca43691f5800fda43b4cec5e982fcc814",
+    "market_slug": "will-milton-make-landfall-as-a-category-5",
+    "event_slug": "milton-landfall-at-what-category",
+    "title": "Will Milton make landfall as a category 5?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "559640",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024 as a Category 3 hurricane, having weakened from its peak Category 5 intensity over the Gulf of Mexico.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Milton peaked at Category 5 over the Gulf but weakened before landfall",
+          "Made landfall near Siesta Key, Florida on October 9, 2024 as Category 3"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4221fc378c148f0320a06d636d1335418207c23df410a54f98897b02c9cb7a21",
+    "market_slug": "will-the-december-2024-temperature-increase-be-between-1pt30-1pt34c",
+    "event_slug": "december-2024-temperature-increase-c",
+    "title": "Will the December 2024 temperature increase be between 1.30-1.34°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "618869",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2024 was reported by Copernicus as approximately 1.61°C above pre-industrial, well above the 1.30-1.34°C range. This narrow band is unlikely to be hit.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported December 2024 was about 1.61°C above pre-industrial baseline",
+          "2024 was the first calendar year to exceed 1.5°C above pre-industrial levels"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6c9c6fbd8798865f20547233e6a4ef00076c6774d51d858b540e41d31dbcc4f1",
+    "market_slug": "iceland-volcanic-eruption-by-dec-31",
+    "event_slug": "iceland-volcanic-eruption-by-dec-31",
+    "title": "Iceland volcanic eruption by Dec 31?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "10561.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "An eruption began on the Reykjanes Peninsula near Grindavík on December 18, 2023, after weeks of seismic activity and town evacuation.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Eruption started on December 18, 2023 on the Reykjanes Peninsula north of Grindavík",
+          "Town of Grindavík was evacuated in November 2023 due to intense seismic swarms preceding the eruption"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x80deadab86a66618fe685e817bf72c57e97eb4d9e80bd0deafbbcad672d20758",
+    "market_slug": "100-bird-flu-cases-in-us-by-2025",
+    "event_slug": "100-bird-flu-cases-in-us-by-2025",
+    "title": "100+ Bird Flu cases in U.S. before 2025?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "194611",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By December 2024, the CDC had confirmed well over 60 human H5N1 cases in the U.S., with California alone reporting dozens. Reports near year-end indicated the count exceeded or approached 60-70 cases, making 100+ plausible but not certain by Dec 31.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "CDC reported approximately 65-66 confirmed human H5N1 cases by late December 2024",
+          "California declared a state of emergency over H5N1 in dairy cattle in December 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdc38b041dac04feb5136d909c1b5e4912f538e851cd14eac48d2af5f95a07e6a",
+    "market_slug": "will-there-be-more-than-14-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "number-of-named-storms-during-atlantic-hurricane-season",
+    "title": "Will there be more than 14 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "94831.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic Hurricane Season had 18 named storms, exceeding 14. Notable storms included Beryl, Helene, and Milton.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic season produced 18 named storms",
+          "Hurricane Helene and Hurricane Milton were major storms causing significant damage in the US"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1e77eb99e2bcc6d0c5b4931744780af128b8ddd8090a8673870f09bef4e56db3",
+    "market_slug": "will-the-final-global-heat-increase-be-1pt13-or-greater-for-2023",
+    "event_slug": "2023-global-heat-increase",
+    "title": "Will the final global heat increase be 1.13 or greater for 2023?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "353862",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2023 was the hottest year on record. NASA reported 2023 global temperature anomaly of approximately 1.17°C above the 1951-1980 baseline, and NOAA reported about 1.18°C above the 20th century average. The 1.13 threshold was very likely exceeded.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "NASA GISS reported 2023 anomaly of ~1.17°C above 1951-1980 mean",
+          "Copernicus reported 2023 was ~1.48°C above pre-industrial, the warmest year on record"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x57804dfa458ef25a1ffb46d46d19e726adeef9dbefddc3ce7ca7f363130701d7",
+    "market_slug": "iceland-volcanic-eruption-by-nov-17",
+    "event_slug": "iceland-volcanic-eruption-by-nov-17",
+    "title": "Iceland volcanic eruption by Nov 17?",
+    "category": "Climate and Weather",
+    "close_time": "2023-11-17T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4166.62",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iceland declared a state of emergency in early November 2023 due to intense seismic activity near Grindavík on the Reykjanes peninsula, but the actual eruption did not begin until December 18, 2023. By November 17, no eruption had occurred yet.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Grindavík was evacuated on November 10-11, 2023 due to magma intrusion",
+          "The Reykjanes eruption actually began December 18, 2023, after the close date"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7a9c74cacb418bd29122ffe68450ff7e4a18feb4b898c83012505c04baae1307",
+    "market_slug": "spacex-starship-launch-by-nov-18",
+    "event_slug": "spacex-starship-launch-by-nov-18",
+    "title": "SpaceX Starship launch by Nov 18?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "95434.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX Starship Flight 6 launched on November 19, 2024, after being scheduled for Nov 18 UTC. The launch occurred around 22:00 local time on Nov 19, which would be after the Nov 18 12:00 UTC close.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Starship Flight 6 launched November 19, 2024 from Starbase, Texas",
+          "Trump attended the launch; booster did not catch but splashed down; ship reentered over Indian Ocean"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2378951c1797e85658ab0d2460305a258ee3c802e549fd55653b190dd1d36782",
+    "market_slug": "will-there-be-19-or-more-named-storms-during-the-2023-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season",
+    "title": "Will there be 19 or more named storms during the 2023 Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-01T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "91223.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2023 Atlantic Hurricane Season had 20 named storms, with the final one being Tropical Storm Tammy area, plus an unnamed subtropical storm added in post-season analysis. Total reached 20 named storms, exceeding 19.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2023 Atlantic Hurricane Season produced 20 named storms",
+          "Season included Hurricane Idalia (Florida landfall) and Hurricane Lee; final named storm was Tammy, plus an unnamed January storm added in post-season analysis"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xec863f6b45e78fd9edd6d21a85542eeda3a31e163f8d0a3cd283d68f605b9fb6",
+    "market_slug": "will-2024-have-the-hottest-may-on-record",
+    "event_slug": "will-2024-have-the-hottest-may-on-record",
+    "title": "2024 May hottest on record?",
+    "category": "Climate and Weather",
+    "close_time": "2024-06-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "190128",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Copernicus C3S reported May 2024 as the warmest May on record globally, marking the 12th consecutive month of record monthly temperatures. However, the announcement was made on June 5, 2024, after the close time of June 1.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus Climate Change Service announced May 2024 was the hottest May on record at ~1.52°C above pre-industrial",
+          "It was the 12th consecutive month with record-high global temperatures"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7538613994b9414f1922fb33f2efbaee49f388422b5620e66d4b27eb684bf07c",
+    "market_slug": "megaquake-in-december",
+    "event_slug": "megaquake-in-december",
+    "title": "Megaquake in December?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "286208",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Megaquakes (typically M8.0+) are rare globally, occurring roughly once per year on average. The probability in any single month is low, and I don't recall a specific December 2024 megaquake event.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x9c1fcda245f399b5dc81675c650d93dfa0b1e61c393c0dd7c8df8d25fbdd7cab",
+    "market_slug": "100-bird-flu-cases-by-friday",
+    "event_slug": "100-bird-flu-cases-by-friday",
+    "title": "100+ Bird Flu cases by Friday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-22T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "69692.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "By mid-November 2024, the CDC had reported approximately 50-55 human H5N1 bird flu cases in the US, mostly from dairy and poultry workers in California. Reaching 100+ by Friday Nov 22 would require a near-doubling in days, which is unlikely absent a major outbreak announcement.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x6b17acd2f5f750e2a27bfad4e9324648673edd34e761257a88ca8e8cc693d95d",
+    "market_slug": "will-helene-make-landfall-at-category-3",
+    "event_slug": "helene-landfall-at-what-category",
+    "title": "Will Helene make landfall at category 3?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "41115.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Helene made landfall in Florida's Big Bend region on September 26, 2024 as a Category 4 hurricane, not Category 3.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Helene made landfall near Perry, Florida on September 26, 2024",
+          "It made landfall as a Category 4 hurricane with winds around 140 mph"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbcb307604e203db5f45ddfa06695b9ed8ee9e8c8284252807f146d9c105b7981",
+    "market_slug": "2024-june-hottest-on-record",
+    "event_slug": "2024-june-hottest-on-record",
+    "title": "2024 June hottest on record?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "114342",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Copernicus C3S reported June 2024 as the warmest June on record globally, marking the 13th consecutive month of record-breaking temperatures.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus Climate Change Service announced June 2024 was the hottest June on record",
+          "It was the 13th consecutive month of record-high global temperatures, with average temp around 16.66°C"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe8537d8a2baccc384fe79cba9ab3a01297a7865242dff70ab917d26f29a3da00",
+    "market_slug": "megaquake-in-september",
+    "event_slug": "megaquake-in-september",
+    "title": "Megaquake in September?",
+    "category": "Climate and Weather",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "89555.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Megaquakes (M8.0+) are extremely rare globally, occurring roughly once per year on average. No major megaquake in September 2024 comes to mind.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xd6dc09210b8326511175f8d7adb3c9743eba77f10c24a6a71b9449e5ab5ea534",
+    "market_slug": "stranded-astronauts-depart-on-boeing-starliner-by-july-21",
+    "event_slug": "stranded-astronauts-depart-on-boeing-starliner-by-july-21",
+    "title": "Stranded astronauts depart on Boeing Starliner by July 21?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-21T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "23050.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Starliner astronauts Butch Wilmore and Suni Williams remained on the ISS far beyond July 2024 due to thruster issues, ultimately returning on a SpaceX Dragon in 2025, not Starliner.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Starliner Crew Flight Test launched June 5, 2024 with Wilmore and Williams",
+          "NASA decided in August 2024 to return Starliner uncrewed; astronauts stayed on ISS until March 2025 returning via SpaceX Crew Dragon"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x86bb6ae2c5d6ae0cf0efd9b4fcea71c57116b2738213c0f93575ef1ebf190bd9",
+    "market_slug": "will-beryl-hit-the-us-as-a-tropical-storm",
+    "event_slug": "will-beryl-hit-the-us-as-a-tropical-storm",
+    "title": "Will Beryl hit the US as a tropical storm?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-08T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "28670.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Beryl made landfall in Texas on July 8, 2024 near Matagorda as a Category 1 hurricane, then weakened to tropical storm status over land. The question asks if it hit the US as a tropical storm - it actually hit as a hurricane, but the close time is 12:00 UTC July 8 which is around landfall time.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Beryl made landfall near Matagorda, Texas on July 8, 2024 as a Category 1 hurricane",
+          "It had weakened from major hurricane status in the Caribbean before reaching Texas"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7fe1c5da1d0b1adac75a6b185a8ac59849ce20bfd2019ed7d45ef65a08a64c5c",
+    "market_slug": "will-april-2024-show-an-increase-between-1pt20c-1pt25c",
+    "event_slug": "how-hot-will-april-2024-be",
+    "title": "Will April 2024 show an increase between 1.20°C-1.25°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-05-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "98020.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 anomaly was around 1.58°C above pre-industrial per Copernicus, far above the 1.20-1.25°C range. The question likely refers to a different baseline, but most April 2024 anomaly measures were well above this narrow band.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xcb3123c3b65d3da0f0d99a4f9f1c7d3f7e59e481905188752bfba2a4861b0eed",
+    "market_slug": "megaquake-in-august",
+    "event_slug": "megaquake-in-august",
+    "title": "Megaquake in August?",
+    "category": "Climate and Weather",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "81650.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Megaquakes (typically M8.0+) are very rare events. Despite Japan issuing a Nankai Trough megaquake advisory in August 2024 after a M7.1 quake, no actual megaquake occurred during the month.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x71dfcc163a40472f0ec1f110184f5a7eab093dad3e3b47909f79764b96f07444",
+    "market_slug": "stranded-astronauts-return-on-boeing-starliner-by-july-4",
+    "event_slug": "stranded-astronauts-return-on-boeing-starliner-by-july-4",
+    "title": "Stranded astronauts depart on Boeing Starliner by July 4?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "21010.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Butch Wilmore and Suni Williams remained on the ISS well past July 4, 2024 due to Starliner thruster issues. They ultimately did not return on Starliner at all; it returned uncrewed in September 2024, and they came back on SpaceX Crew Dragon in 2025.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Starliner Crew Flight Test launched June 5, 2024 with Wilmore and Williams",
+          "NASA extended the stay multiple times past July 4 due to helium leaks and thruster failures",
+          "Starliner returned uncrewed in September 2024; astronauts returned via SpaceX Dragon in 2025"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2da1a5f3ef27de87daa731ba86cd5b6c9ac94a3480a242c8447e3db7bbe5d4e8",
+    "market_slug": "will-francine-hit-us-as-a-hurricane",
+    "event_slug": "will-francine-hit-us-as-a-hurricane",
+    "title": "Will Francine hit US as a hurricane?",
+    "category": "Climate and Weather",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "4439.95",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Francine made landfall in Louisiana on September 11, 2024 as a Category 2 hurricane.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Francine made landfall in Terrebonne Parish, Louisiana on September 11, 2024",
+          "It struck as a Category 2 hurricane with winds around 100 mph"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb0e72032ff0155c4dfbf0d5b8da76c07f13b99c01f1fb8e3b84b2926c21594f1",
+    "market_slug": "is-the-room-temp-superconductor-real",
+    "event_slug": "is-the-room-temp-superconductor-real",
+    "title": "Is the Room-Temp Superconductor real?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.5944e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LK-99 was the room-temperature superconductor claim from South Korean researchers in mid-2023. Multiple replication attempts failed and the consensus by late 2023 was that LK-99 is not a superconductor.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "LK-99 was announced by Lee, Kim et al. from Quantum Energy Research Centre in July 2023",
+          "Replication studies (e.g., from Max Planck, Peking University, and others) attributed observed effects to Cu2S phase transitions and ferromagnetism, not superconductivity"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb655a5eb8829d2aca283da63aa93084031dde0ce729dbe6f07f4fa50b16ce526",
+    "market_slug": "megaquake-in-october",
+    "event_slug": "megaquake-in-october",
+    "title": "Megaquake in October?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "75023.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Megaquakes (M8.0+) are extremely rare globally, occurring roughly once per year on average. No M8+ earthquake is recalled for October 2024.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xfa2d0ea84ef08d3ebffe03bcffd36e699d5a4ac9c5eaa041c89d71aaf7447a6a",
+    "market_slug": "blast-launch-delayed",
+    "event_slug": "blast-launch-delayed",
+    "title": "Blast launch delayed?",
+    "category": "Climate and Weather",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14480",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Blast L2 mainnet launched on February 29, 2024, as originally announced. The launch was not delayed before the close time.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Blast is an Ethereum L2 by Pacman/Blur team",
+          "Mainnet launched February 29, 2024 as scheduled"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xab587ea7f2ae79dd5afcdf00e40fc75fb656d488e815ee36707b95b61fe74e20",
+    "market_slug": "will-a-hurricane-make-landfall-in-the-us-in-november",
+    "event_slug": "will-a-hurricane-make-landfall-in-the-us-in-november",
+    "title": "Will a hurricane make landfall in the US in November?",
+    "category": "Climate and Weather",
+    "close_time": "2023-11-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1413",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November US hurricane landfalls are rare. The 2023 Atlantic season did not produce a November US hurricane landfall; the season effectively ended with no late-season US hurricane strikes.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbfe1f4ddd4769cbabdca18d3bbf2fc4dddfcd90d7d4c34b06fcb25d6e4bbf4ac",
+    "market_slug": "august-temperature-increase-by-less-than-1pt15c",
+    "event_slug": "august-2024-temperature-increase-c",
+    "title": "August temperature increase by less than 1.15°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "473762",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 global temperature anomaly per Copernicus ERA5 was approximately 1.51°C above pre-industrial, well above 1.15°C. So the increase was NOT less than 1.15°C.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported August 2024 was tied with August 2023 as the warmest August on record",
+          "August 2024 anomaly was about 1.51°C above the pre-industrial reference"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8c2c11505b78c289e2603ebc3b46ebb736a73302313da4dc042a3e3db38a9f6",
+    "market_slug": "megaquake-in-november",
+    "event_slug": "megaquake-in-november",
+    "title": "Megaquake in November?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "63269.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Megaquakes (M8.0+) are extremely rare globally, occurring roughly once per year on average. No major M8+ earthquake is recalled for November 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2f0519a4a4694806f31f543e6a4d33ee2f7d0fc7591273b8504c9649a387c004",
+    "market_slug": "respiratory-illness-surge-in-china-declared-a-global-pandemic-by-feb-1",
+    "event_slug": "respiratory-illness-surge-in-china-declared-a-global-pandemic-by-feb-1",
+    "title": "Respiratory illness surge in China declared a global pandemic by Feb 1?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14394.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "WHO did not declare the late-2023 respiratory illness surge in China a global pandemic. No such declaration occurred before Feb 1, 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Late 2023 surge of pediatric respiratory illness in China was attributed to known pathogens (mycoplasma pneumoniae, flu, RSV) per WHO",
+          "WHO did not declare a PHEIC or pandemic regarding this surge"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x57f525c3f33a8b69ffac04f80a63c20dcbd5b436a4f28210b763fca00b283172",
+    "market_slug": "tsunami-flooding-in-downtown-san-francisco",
+    "event_slug": "tsunami-flooding-in-downtown-san-francisco",
+    "title": "Tsunami flooding in downtown San Francisco?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "117216",
+    "status": "ok",
+    "forecast": {
+      "rationale": "A tsunami warning was issued for the California coast on Dec 5, 2024 after a 7.0 earthquake off Northern California, but it was canceled quickly and no tsunami flooding occurred in downtown San Francisco.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "7.0 magnitude earthquake offshore Northern California (near Cape Mendocino) on Dec 5, 2024",
+          "NWS issued tsunami warning for SF Bay Area then canceled it within about an hour with no significant waves observed"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x715a00736b0e47286256eed499755204dc6750942c262ef79624579b4dfa04a1",
+    "market_slug": "meissner-effect-confirmed-near-room-temperature",
+    "event_slug": "meissner-effect-confirmed-near-room-temperature",
+    "title": "Meissner effect confirmed near room temperature?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "421133",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LK-99 claims in 2023 were debunked, and no credible room-temperature Meissner effect confirmation occurred by end of 2024. No verified room-temp superconductor exists.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x5e6db9683b6c4c90e21e8b360275d0bb9d10f4e565b4295b80e6cc7d2ca42cec",
+    "market_slug": "spacex-4th-starship-launch-survives-re-entry",
+    "event_slug": "spacex-4th-starship-launch-survives-re-entry",
+    "title": "SpaceX 4th Starship launch survives re-entry?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "4024.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX's 4th Starship test flight on June 6, 2024 successfully survived re-entry, with the Starship upper stage achieving a soft splashdown in the Indian Ocean despite damage to a forward flap.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-4 launched June 6, 2024 from Starbase, Texas",
+          "Starship survived peak heating and achieved a soft splashdown in the Indian Ocean; Super Heavy booster also soft-landed in Gulf of Mexico"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x98250663bed7a74c9fcabb505f60fc026c48470b14a88c0b5f34ae1f774a3eff",
+    "market_slug": "will-beryl-hit-us-as-a-hurricane",
+    "event_slug": "will-beryl-hit-us-as-a-hurricane",
+    "title": "Will Beryl hit US as a hurricane?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-08T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "27549.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Beryl made landfall near Matagorda, Texas on July 8, 2024 as a Category 1 hurricane, having re-intensified from a tropical storm over the Gulf of Mexico.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Beryl made landfall near Matagorda, Texas early July 8, 2024 as a Category 1 hurricane with ~80 mph winds",
+          "It had been a record-early Category 5 in the Caribbean before weakening and re-strengthening in the Gulf"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x07954fd1965dea6b78eaa5f6823d3546b8219a284fd89b27454b7f05f4098340",
+    "market_slug": "will-may-2024-show-an-increase-of-less-than-1pt03c",
+    "event_slug": "may-2024-temperature-increase-c",
+    "title": "Will May 2024 show an increase of less than 1.03C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-06-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "128471",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 was the warmest May on record per Copernicus, with anomaly around 1.52C above pre-industrial, far exceeding 1.03C. So increase was NOT less than 1.03C.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported May 2024 as warmest May on record",
+          "May 2024 anomaly was approximately 1.52C above pre-industrial average",
+          "12th consecutive month at or above 1.5C threshold"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8f50765a0130949cb17e68667f1ad0a551d091f74c05f4c4e593dd2b689674e2",
+    "market_slug": "spacex-4th-starship-launch-reaches-space",
+    "event_slug": "spacex-4th-starship-launch-reaches-space",
+    "title": "SpaceX 4th Starship launch reaches space?",
+    "category": "Climate and Weather",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "571.91",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX's 4th Starship test flight (IFT-4) launched on June 6, 2024, successfully reached space, completed reentry, and achieved soft splashdowns of both Super Heavy booster and Starship.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-4 launched June 6, 2024 from Starbase, Texas",
+          "Both booster and Starship achieved soft splashdowns; Starship survived reentry despite flap damage"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe7eeb22b487c18ba241b3f3e610877c7ed9061b12e4d6f0fae8a4066ca5a7f39",
+    "market_slug": "will-biden-visit-asheville-by-friday",
+    "event_slug": "will-biden-visit-asheville-by-friday",
+    "title": "Will Biden visit Asheville by Friday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27212.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden visited the Carolinas on Wednesday Oct 2, 2024 in response to Hurricane Helene damage, including an aerial tour over Asheville/western NC area. Reports indicate he toured Asheville and Greenville areas by air on October 2.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Biden conducted aerial tour of Hurricane Helene damage in western North Carolina on October 2, 2024",
+          "He visited Raleigh and toured affected areas including the Asheville region by helicopter"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7716068dbaff8bf09bfcf73376063fe0ec974cc19dc4751a650426989a56d6cb",
+    "market_slug": "70f-in-nyc-in-december",
+    "event_slug": "70f-in-nyc-in-december",
+    "title": "70°F in NYC in December?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "94404.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2024 in NYC was generally cold; reaching 70°F in December is rare. I don't specifically recall a 70°F day in NYC in December 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x1d95f9faf474f1e4259fa673548ac41f2b1e199ede7c73736aa40d5bd3b7028e",
+    "market_slug": "will-blast-launch-on-february-27",
+    "event_slug": "when-will-blast-launch",
+    "title": "Will Blast launch on February 27?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-26T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "0",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Blast L2 mainnet launched on February 29, 2024, not February 27. The close time is before the announced launch.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Blast L2 (by Pacman/Blur founder Tieshun Roquerre) mainnet launched on February 29, 2024",
+          "Close time February 26 is before the actual launch date"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcada70c304d0735ac1b7051e2a672338928d4b04533ecd8de7e3f34a2214cf84",
+    "market_slug": "will-nyc-have-between-5pt5-and-6pt5-inches-of-snowfall-on-tuesday",
+    "event_slug": "how-many-inches-of-snow-in-nyc-on-tuesday",
+    "title": "Will NYC have between 5.5 and 6.5 inches of snowfall on Tuesday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-11T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5865",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Feb 13, 2024 NYC snowstorm produced approximately 3.2 inches in Central Park, well below the 5.5-6.5 range, despite forecasts initially calling for higher amounts. The narrow 1-inch window also makes Yes inherently unlikely.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Feb 13, 2024 nor'easter affected NYC",
+          "Central Park officially recorded around 3.2 inches, less than forecast"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd0598cd28ae6aef98f3a55f4eaa10791bc3b3a1121b46de022fbd6d7965702e1",
+    "market_slug": "will-june-2024-have-a-temperature-increase-of-less-than-1pt09c",
+    "event_slug": "june-2024-temperature-increase-c",
+    "title": "Will June 2024 have a temperature increase of less than 1.09°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "72476.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 was reported by Copernicus/NASA as approximately 1.5°C above pre-industrial levels, the 13th consecutive month above 1.5°C. The anomaly was well above 1.09°C regardless of baseline used.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported June 2024 was the warmest June on record at ~1.5°C above pre-industrial",
+          "June 2024 marked the 13th consecutive month of record-high global temperatures"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3189e493d87b09525eced3aaae9bb48a9460cef9aa7e6b1c4ed3c4c2df8ffe6a",
+    "market_slug": "will-the-november-2024-temperature-increase-be-between-1pt20-1pt24c",
+    "event_slug": "november-2024-temperature-increase-c",
+    "title": "Will the November 2024 temperature increase be between 1.20-1.24°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "555925",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 NASA GISS anomaly was around 1.28°C above pre-industrial baseline, and Copernicus reported ~1.62°C above pre-industrial. The 1.20-1.24°C narrow band is unlikely to capture the actual value.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x154efa11ed56deca4d0d06adf2bb711a420f5128f2a274be0d6631ed4380ca78",
+    "market_slug": "will-four-spacex-starship-launches-successfully-reach-outer-space-in-2024",
+    "event_slug": "how-many-spacex-starship-launches-reach-space-in-2024",
+    "title": "Will four SpaceX Starship launches successfully reach outer space in 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "262564",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX conducted Starship IFT-3 (March), IFT-4 (June), IFT-5 (October), and IFT-6 (November) in 2024, all reaching space. IFT-2 was in 2023. Four successful space-reaching launches in 2024 is met.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-3 launched March 14, 2024, reached space",
+          "IFT-4 June 6, IFT-5 October 13 (with booster catch), IFT-6 November 19, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x31a5dcf98ab184ef2c167c7daaca2155242d61f841cb9ac9615f1e03c77b7732",
+    "market_slug": "will-there-be-more-than-25-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season-2024",
+    "title": "Will there be more than 25 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "711045",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic hurricane season had 18 named storms, ending well below 25. Despite preseason forecasts predicting a hyperactive season, activity slowed significantly.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic hurricane season produced 18 named storms",
+          "Notable hurricanes included Beryl, Helene, and Milton, but total count fell short of 25"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x16a920cf5afde2c3c2488e18c028d938d054e420e05b5516e30c6c64de0f1247",
+    "market_slug": "global-heat-increase-less-than-1pt22c-for-2024",
+    "event_slug": "global-heat-increase-2024",
+    "title": "Global heat increase less than 1.22°C for 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.85149e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2024 was confirmed as the first calendar year to exceed 1.5°C above pre-industrial levels, with Copernicus reporting approximately 1.6°C. This is well above 1.22°C, so the condition fails.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus Climate Change Service reported 2024 global average temperature about 1.60°C above pre-industrial baseline",
+          "2024 surpassed 2023 as the warmest year on record and was the first full calendar year above 1.5°C"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9c9b3923bac52ec0fb09a8257ba86552890660ccaa9082a7462b882f82762d9a",
+    "market_slug": "will-the-october-2024-temperature-increase-be-between-1pt35-1pt40c",
+    "event_slug": "october-2024-temperature-increase-c",
+    "title": "Will the October 2024 temperature increase be between 1.35-1.40°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "95316.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 was reported by Copernicus C3S as approximately 1.65°C above pre-industrial levels, well above the 1.35-1.40°C range.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported October 2024 was the second-warmest October on record, about 1.65°C above pre-industrial average",
+          "2024 was on track to be the first calendar year exceeding 1.5°C above pre-industrial levels"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2b69d5cdd7782833b4731ed2e610cb8efa1cdfb181584db4f596061ff240fdd0",
+    "market_slug": "will-milton-make-landfall-as-a-category-2-or-lower",
+    "event_slug": "milton-landfall-at-what-category",
+    "title": "Will Milton make landfall as a category 2 or lower?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "482582",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024 as a Category 3 hurricane with winds around 120 mph. Therefore it did not make landfall as Category 2 or lower.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Milton made landfall near Siesta Key, Florida on October 9, 2024 as a Category 3 hurricane",
+          "Peak intensity was Category 5 with winds around 180 mph in the Gulf of Mexico before weakening prior to landfall"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x980b1b2c0ac1bb550dbec7df22ea3fd0d21159886e59f86ce56bc415dd9cf182",
+    "market_slug": "will-the-december-2024-temperature-increase-be-less-than-1pt20c",
+    "event_slug": "december-2024-temperature-increase-c",
+    "title": "Will the December 2024 temperature increase be less than 1.20°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "545716",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2024 was exceptionally warm; per Copernicus C3S, the anomaly was around 1.21°C above pre-industrial, marking the end of a record-breaking year. The threshold of 1.20°C was likely just barely exceeded.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xf7a32ad3e848553228c259c88877bcc1490310b78293b6424c742bd1e2ee4ded",
+    "market_slug": "will-there-be-less-than-11-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "number-of-named-storms-during-atlantic-hurricane-season",
+    "title": "Will there be less than 11 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "67205.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic Hurricane Season had 18 named storms, well above 11. Storms included Beryl, Helene, Milton, and others.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic season had 18 named storms",
+          "Notable hurricanes included Beryl (Cat 5), Helene, and Milton"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6253d1d844e57417f89d8a7023600d6f29f71623ac15ad90c2a7ae159c2332e5",
+    "market_slug": "will-the-final-global-heat-increase-be-1pt11-or-greater-for-2023",
+    "event_slug": "2023-global-heat-increase",
+    "title": "Will the final global heat increase be 1.11 or greater for 2023?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "329086",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2023 was the hottest year on record with NASA reporting anomaly around 1.17°C above 20th-century baseline, and NOAA/Copernicus showing similar record highs. The 1.11 threshold was very likely exceeded.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "NOAA reported 2023 global land and ocean surface temperature anomaly of approximately 1.18°C above the 20th-century average, the highest on record",
+          "Copernicus reported 2023 was about 1.48°C above pre-industrial levels"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2d01c7f04a70b5197979c00e10d328424035f3ad0e201ce67d31da55749311d5",
+    "market_slug": "will-helene-make-landfall-at-category-4-or-stronger",
+    "event_slug": "helene-landfall-at-what-category",
+    "title": "Will Helene make landfall at category 4 or stronger?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-15T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "38138.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024 as a Category 4 hurricane with 140 mph winds.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Helene made landfall near Perry, Florida on September 26, 2024",
+          "Landfall intensity was Category 4 with approximately 140 mph sustained winds"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x808fc2450113e86e89787be4bcd033ad198c656fe4d18bd7f48a4443f72acd8c",
+    "market_slug": "will-april-2024-show-an-increase-of-greater-than-1pt31c",
+    "event_slug": "how-hot-will-april-2024-be",
+    "title": "Will April 2024 show an increase of greater than 1.31°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-05-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "97500.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 was reported by Copernicus as the warmest April on record, with anomaly approximately 1.58°C above pre-industrial, well above 1.31°C threshold.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported April 2024 as warmest April on record at 15.03°C, 1.58°C above pre-industrial",
+          "Marked the 11th consecutive month exceeding 1.5°C above pre-industrial levels"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbda171771e1f6570d2dadb8e8bedd87c62cf5eda3d11639074d39e4e98a07ca2",
+    "market_slug": "will-there-be-21-named-storms-during-the-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season",
+    "title": "Will there be 21+ named storms during the Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2023-11-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "38046.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2023 Atlantic Hurricane Season had 20 named storms, ending with Tropical Storm Tammy. It did not reach 21 named storms.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2023 Atlantic Hurricane Season ended with 20 named storms",
+          "Final named storm was Tammy in late October 2023",
+          "Season included Hurricane Idalia and Hurricane Lee as notable storms"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2d21171331eb7efcf6b2339c1e4e56ce176803a49bd1efc007834c61cd6b735a",
+    "market_slug": "august-temperature-increase-by-between-1pt15-1pt19c",
+    "event_slug": "august-2024-temperature-increase-c",
+    "title": "August temperature increase by between 1.15-1.19°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "432073",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 global temperature anomaly per Copernicus was approximately 1.51°C above pre-industrial, well outside the 1.15-1.19°C range. This narrow band is unlikely to be hit.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported August 2024 was about 1.51°C above the pre-industrial baseline",
+          "August 2024 was tied as the warmest August on record globally"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8ca49c741da08187bcb3fb2075c5b9c09260406e480c055074c0d7de841b43d8",
+    "market_slug": "will-nyc-have-between-4pt5-and-5pt5-inches-of-snowfall-on-tuesday",
+    "event_slug": "how-many-inches-of-snow-in-nyc-on-tuesday",
+    "title": "Will NYC have between 4.5 and 5.5 inches of snowfall on Tuesday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-11T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3910",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Feb 13, 2024 NYC snowstorm produced around 3.2 inches in Central Park, below the 4.5-5.5 range. A narrow 1-inch window has low prior probability.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xeb6caf5a1d87fc80e5a1f2c6c9a893d49b335b8274dcfbbc77356fea6c01fdea",
+    "market_slug": "will-may-2024-show-an-increase-greater-than-1pt30c",
+    "event_slug": "may-2024-temperature-increase-c",
+    "title": "Will May 2024 show an increase greater than 1.30C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-05-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "89595.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 was reported by Copernicus as the warmest May on record, with anomaly around 1.52C above pre-industrial levels, exceeding 1.30C threshold.",
+      "probabilities": {
+        "Yes": 0.96,
+        "No": 0.04
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported May 2024 as 12th consecutive month at or above 1.5C above pre-industrial",
+          "May 2024 anomaly approximately 1.52C above pre-industrial baseline"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaa30423bb63967ac86033ff5920f06691e99acbea7b4aee24272c52a127e7b9b",
+    "market_slug": "will-june-2024-have-a-temperature-increase-of-between-1pt09c-and-1pt15c",
+    "event_slug": "june-2024-temperature-increase-c",
+    "title": "Will June 2024 have a temperature increase of between 1.09°C and 1.15°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "67838.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 was reported by Copernicus C3S as approximately 1.50°C above pre-industrial levels, well above the 1.09-1.15°C range specified.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "June 2024 was the 13th consecutive month of record global temperatures",
+          "Copernicus reported June 2024 anomaly around 1.50°C above pre-industrial baseline"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf26a1f6b41e1642b3422d3134e536cbcebd99f4cd989c2722f56ab22449b77f",
+    "market_slug": "will-the-november-2024-temperature-increase-be-greater-than-1pt39c",
+    "event_slug": "november-2024-temperature-increase-c",
+    "title": "Will the November 2024 temperature increase be greater than 1.39°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "464315",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 was among the warmest Novembers on record. Copernicus reported November 2024 anomaly around 1.62°C above pre-industrial, exceeding 1.39°C threshold.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported November 2024 was 1.62°C above pre-industrial average",
+          "November 2024 was the second-warmest November on record after November 2023"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcd919e15574e7757ad705cf69ad4639aa3dee3cd7c4000fce7e8d42a76361eef",
+    "market_slug": "will-three-spacex-starship-launches-successfully-reach-outer-space-in-2024",
+    "event_slug": "how-many-spacex-starship-launches-reach-space-in-2024",
+    "title": "Will three SpaceX Starship launches successfully reach outer space in 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "82058.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In 2024, SpaceX conducted Starship flight tests IFT-3 (March), IFT-4 (June), IFT-5 (October), IFT-6 (November), and IFT-7 was in 2025. Multiple of these reached space, easily exceeding three.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-3 March 14, 2024 reached space",
+          "IFT-4 June 6, 2024 successful soft splashdown",
+          "IFT-5 Oct 13, 2024 with chopstick booster catch",
+          "IFT-6 Nov 19, 2024 also reached space"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x709006d1b05859c5629845b3ec3f64e3496cd0af24b28c464e16b69da844414b",
+    "market_slug": "will-milton-make-landfall-as-a-category-4",
+    "event_slug": "milton-landfall-at-what-category",
+    "title": "Will Milton make landfall as a category 4?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "384695",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024 as a Category 3 hurricane, having weakened from its peak Category 5 intensity. It did not make landfall as a Category 4.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Milton made landfall near Siesta Key, Florida on October 9, 2024",
+          "Landfall intensity was Category 3, not Category 4, after weakening from Cat 5 peak"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc5e47c2e972c8359159e83136275d5570e2339f0b6b05bd341146167b9420c81",
+    "market_slug": "global-heat-increase-between-1pt25c-and-1pt27c-for-2024",
+    "event_slug": "global-heat-increase-2024",
+    "title": "Global heat increase between 1.25°C and 1.27°C for 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.73135e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2024 global temperature anomaly was reported around 1.55°C above pre-industrial by Copernicus, well above the 1.25-1.27°C narrow band. The condition is unlikely to resolve Yes.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported 2024 as ~1.60°C above pre-industrial, the first full year above 1.5°C",
+          "NASA/NOAA also reported 2024 as warmest year, around 1.46-1.55°C anomaly"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc7220901f4240c463dc30055759c5b986a47180cc8a1d2512f54606b7fe8fbca",
+    "market_slug": "will-the-october-2024-temperature-increase-be-between-1pt23-1pt28c",
+    "event_slug": "october-2024-temperature-increase-c",
+    "title": "Will the October 2024 temperature increase be between 1.23-1.28°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "94761.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 was reported by Copernicus as approximately 1.65°C above pre-industrial levels, well outside the 1.23-1.28°C range. This narrow band is unlikely to capture the actual anomaly.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported October 2024 was about 1.65°C above the pre-industrial baseline",
+          "October 2024 was the second-warmest October on record, just behind October 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6f58285ccb345d90778644179f3d9e51445ea4bb4633851f83d72cd082610ba1",
+    "market_slug": "will-helene-make-landfall-at-category-1-or-weaker",
+    "event_slug": "helene-landfall-at-what-category",
+    "title": "Will Helene make landfall at category 1 or weaker?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "19830",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024 as a Category 4 hurricane with 140 mph winds, far stronger than Category 1.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Helene made landfall near Perry, Florida (Big Bend) on September 26, 2024",
+          "Landfall intensity was Category 4 with approximately 140 mph sustained winds"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x95aa184e6468861d7438bc0a80b43a3db1628ea86baa8dd7c6cdbf5089891912",
+    "market_slug": "will-the-december-2024-temperature-increase-be-between-1pt20-1pt24c",
+    "event_slug": "december-2024-temperature-increase-c",
+    "title": "Will the December 2024 temperature increase be between 1.20-1.24°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "500998",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2024 was one of the warmest Decembers on record. Per Copernicus/NASA, anomalies were around 1.4-1.6°C above pre-industrial, well outside the 1.20-1.24°C narrow band.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xe501aa68855ef444a0966a01efe38d4c1755fd115440cf6ffc324a1d21af536c",
+    "market_slug": "will-nyc-have-between-6pt5-and-7pt5-inches-of-snowfall-on-tuesday",
+    "event_slug": "how-many-inches-of-snow-in-nyc-on-tuesday",
+    "title": "Will NYC have between 6.5 and 7.5 inches of snowfall on Tuesday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-11T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3410",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Feb 13, 2024 NYC snowstorm produced around 3-4 inches in Central Park, well below the 6.5-7.5 inch range. The narrow band makes Yes unlikely.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x296dee9af41489382d3870cbeed17487bca3802053d797dd02e9c11dea65c80d",
+    "market_slug": "will-the-final-global-heat-increase-be-1pt08-or-greater-for-2023",
+    "event_slug": "2023-global-heat-increase",
+    "title": "Will the final global heat increase be 1.08 or greater for 2023?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "307850",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2023 was confirmed as the warmest year on record with global temperature anomaly around 1.18°C above pre-industrial baseline per NOAA/NASA, well exceeding 1.08.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "NOAA reported 2023 global land and ocean temperature anomaly of approximately 1.18°C above the 20th-century average",
+          "Copernicus C3S reported 2023 was about 1.45°C above pre-industrial levels, the warmest year on record"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0b566f7c936578ed6bccdeacf85919ae01d6e4186081a53b895dd70d95522867",
+    "market_slug": "will-april-2024-show-an-increase-between-1pt14c-1pt19c",
+    "event_slug": "how-hot-will-april-2024-be",
+    "title": "Will April 2024 show an increase between 1.14°C-1.19°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-05-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "63629",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 NASA GISS anomaly was approximately 1.32°C, well above the 1.14-1.19°C range. The narrow range likely was not met.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "April 2024 was the warmest April on record per Copernicus and NASA",
+          "NASA GISS April 2024 anomaly was around 1.32°C relative to baseline",
+          "Copernicus reported April 2024 at ~1.58°C above pre-industrial"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xed117d5ff1bee649915bf6032010d03de49c8641d4893b8349c9a543abd09b3a",
+    "market_slug": "august-temperature-increase-by-between-1pt20-1pt24c",
+    "event_slug": "august-2024-temperature-increase-c",
+    "title": "August temperature increase by between 1.20-1.24°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "386231",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 NASA GISS anomaly was approximately 1.27°C above the 1951-1980 baseline, outside the 1.20-1.24°C range. Copernicus ERA5 showed similar high values. The narrow band makes Yes unlikely.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x6c824accbc5b6541cc5d8e1011cc92e945aa573eb70c758541dda07acc4e6216",
+    "market_slug": "will-june-2024-have-a-temperature-increase-of-greater-than-1pt29c",
+    "event_slug": "june-2024-temperature-increase-c",
+    "title": "Will June 2024 have a temperature increase of greater than 1.29°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "34749",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 was reported by Copernicus C3S as approximately 1.5°C above pre-industrial, the 12th consecutive month above 1.5°C. The anomaly relative to 1991-2020 was about 0.67°C, but relative to pre-industrial it exceeded 1.29°C.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported June 2024 was ~1.5°C above pre-industrial baseline",
+          "June 2024 was the 13th consecutive month of record-warm global temperatures"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1a660c73a5f7c6b036bc9b9cd580b2da33f6b678ab45a07aefaa783456b44a78",
+    "market_slug": "will-may-2024-show-an-increase-between-1pt03c-1pt09c",
+    "event_slug": "may-2024-temperature-increase-c",
+    "title": "Will May 2024 show an increase between 1.03°C-1.09°C",
+    "category": "Climate and Weather",
+    "close_time": "2024-06-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "142042",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 NOAA anomaly was approximately 1.18°C above the 20th century average, well above the 1.03-1.09°C range. Copernicus showed it as warmest May on record with high anomalies.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa4855d0b28960be4824c31c280d274572e176313d8efda21446cabe6bdc32efc",
+    "market_slug": "will-there-be-between-21-and-25-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season-2024",
+    "title": "Will there be between 21 and 25 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "549051",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic hurricane season had 18 named storms, falling short of the 21-25 range. The season was active but not as extreme as forecasted.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic hurricane season ended with 18 named storms",
+          "Notable storms included Beryl, Helene, and Milton; season ended November 30, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9b02d64879d44fa91b0026d431c131f6ea8798e1cf94e2421e7402975abd0777",
+    "market_slug": "will-there-be-between-11-and-14-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "number-of-named-storms-during-atlantic-hurricane-season",
+    "title": "Will there be between 11 and 14 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "57810",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic hurricane season had 18 named storms, exceeding the 11-14 range. Storms included Alberto through Sara, well above 14.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic season produced 18 named storms, including Hurricane Helene and Hurricane Milton",
+          "Season ended with named storms reaching Sara (S), well past 14"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc84c3451df32872d1167afe34c2406a6161bad495ec4732b37aee87074b9d06a",
+    "market_slug": "will-the-november-2024-temperature-increase-be-between-1pt35-1pt39c",
+    "event_slug": "november-2024-temperature-increase-c",
+    "title": "Will the November 2024 temperature increase be between 1.35-1.39°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "383210",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 was very warm; according to Copernicus, the anomaly was around 1.62°C above pre-industrial, well above the 1.35-1.39°C range.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus ERA5 reported November 2024 global temperature anomaly approximately 1.62°C above pre-industrial baseline",
+          "November 2024 was the second warmest November on record, behind November 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0ebad42a93eedfa8c4ad032ea6a2b5e68e34dbd1f16d5261eabe242c3811ec39",
+    "market_slug": "will-one-spacex-starship-launch-successfully-reach-outer-space-in-2024",
+    "event_slug": "how-many-spacex-starship-launches-reach-space-in-2024",
+    "title": "Will one SpaceX Starship launch successfully reach outer space in 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "73965.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Multiple Starship launches in 2024 (IFT-3 in March, IFT-4 in June, IFT-5 in October with booster catch, IFT-6 in November) successfully reached space.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-3 on March 14, 2024 reached orbital velocity and space",
+          "IFT-5 on October 13, 2024 successfully reached space and Mechazilla caught the Super Heavy booster"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8540502d22a63edb72be7680ee1968e0f06ef1ebf8f46c45266a67ddede01db8",
+    "market_slug": "will-milton-make-landfall-as-a-category-3",
+    "event_slug": "milton-landfall-at-what-category",
+    "title": "Will Milton make landfall as a category 3?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "246126",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024 as a Category 3 hurricane after weakening from Cat 5.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Milton made landfall near Siesta Key, Florida on October 9, 2024",
+          "Landfall intensity was Category 3 with ~120 mph winds after peaking as Cat 5"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x32755657561c75af11b8179b5038532e043bcc4fc43aad41bef843e2474e04eb",
+    "market_slug": "global-heat-increase-greater-than-1pt30c-for-2024",
+    "event_slug": "global-heat-increase-2024",
+    "title": "Global heat increase greater than 1.30°C for 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "939019",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2024 was confirmed by Copernicus as the first calendar year exceeding 1.5°C above pre-industrial levels, with anomaly around 1.60°C. This easily exceeds 1.30°C.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus Climate Change Service reported 2024 global mean temperature ~1.60°C above pre-industrial baseline",
+          "2024 was the warmest year on record, surpassing 2023"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9acf4f48c618ceca367f4a602e5be5762b3796ff38e572d2cfc1a8a0d83835c2",
+    "market_slug": "will-the-october-2024-temperature-increase-be-less-than-1pt17c",
+    "event_slug": "october-2024-temperature-increase-c",
+    "title": "Will the October 2024 temperature increase be less than 1.17°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "84655",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 was reported by Copernicus as approximately 1.65°C above pre-industrial levels, the second-warmest October on record. The anomaly was well above 1.17°C.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported October 2024 was 1.65°C above pre-industrial average",
+          "It was the second-warmest October on record, behind October 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6a179e313f047d60b33a933a42666c2a13bf760af0bee73239e870757a715ed7",
+    "market_slug": "will-helene-make-landfall-at-category-2",
+    "event_slug": "helene-landfall-at-what-category",
+    "title": "Will Helene make landfall at category 2?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "17504.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hurricane Helene made landfall in Florida's Big Bend region on September 26, 2024 as a Category 4 hurricane, not Category 2.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Helene made landfall near Perry, Florida on September 26, 2024",
+          "Landfall was at Category 4 intensity with winds around 140 mph"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd971abf6d25fb08d4386846f314b57f33e09f3cf8a1327de3c731f6d29b837cf",
+    "market_slug": "will-the-december-2024-temperature-increase-be-between-1pt25-1pt29c",
+    "event_slug": "december-2024-temperature-increase-c",
+    "title": "Will the December 2024 temperature increase be between 1.25-1.29°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "458426",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2024 NASA GISS anomaly was around 1.43°C above pre-industrial, well outside the 1.25-1.29°C range. Even using other datasets, the value was significantly higher than this narrow band.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2b6a63803852c5f7b7b5eb3ff1b0306fbe3624f675d55d6e95c073c94789a91d",
+    "market_slug": "will-nyc-have-less-than-3pt5-inches-of-snowfall-on-tuesday",
+    "event_slug": "how-many-inches-of-snow-in-nyc-on-tuesday",
+    "title": "Will NYC have less than 3.5 inches of snowfall on Tuesday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-11T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2553.69",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Feb 13, 2024 NYC snowstorm was forecast to bring significant snow but actually delivered around 3.2 inches in Central Park, just under the 3.5 inch threshold. However, given forecast uncertainty pre-storm, this was close.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x48c6a6b13ea89b16645a8b2f5c9828220895359f4348fa74407cb65eef61f0e2",
+    "market_slug": "will-the-final-global-heat-increase-be-1pt05-or-greater-for-2023",
+    "event_slug": "2023-global-heat-increase",
+    "title": "Will the final global heat increase be 1.05 or greater for 2023?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-30T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "307567",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2023 was the warmest year on record with global temperature anomaly around 1.45°C above pre-industrial levels per Copernicus, far exceeding 1.05°C. Even relative to 1951-1980 baseline (NASA GISS), 2023 was approximately 1.17°C, still above 1.05.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported 2023 global average temperature ~1.45°C above pre-industrial baseline",
+          "NASA GISS reported 2023 anomaly of ~1.17°C above 1951-1980 baseline, the warmest on record"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4871e138b2ce626ff72ef12009ffa5dea965252b40135db45a74e0142661240a",
+    "market_slug": "will-april-2024-show-an-increase-of-between-1pt26c-1pt31c",
+    "event_slug": "how-hot-will-april-2024-be",
+    "title": "Will April 2024 show an increase of between 1.26°C-1.31°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-05-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "48763.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 NASA GISS anomaly was approximately 1.32°C above the 1951-1980 baseline, which is outside the 1.26-1.31°C range. The narrow range makes Yes unlikely.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2c95c926e924f243aab41e96a90d22fcaf8cf273a678a07c49abb95fde489678",
+    "market_slug": "august-temperature-increase-greater-than-1pt29c",
+    "event_slug": "august-2024-temperature-increase-c",
+    "title": "August temperature increase greater than 1.29°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "213686",
+    "status": "ok",
+    "forecast": {
+      "rationale": "August 2024 global temperature anomaly per Copernicus/NASA was approximately 1.27°C above pre-industrial, very close to the threshold. Recall suggests it slightly missed 1.29°C in some datasets but exceeded in others. Uncertainty about which dataset is referenced.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x12b00f5ee648b28ebad531c8f3eb4437310ad91d3502908d60a4a2ace02a47f0",
+    "market_slug": "will-june-2024-have-a-temperature-increase-of-between-1pt23c-and-1pt29c",
+    "event_slug": "june-2024-temperature-increase-c",
+    "title": "Will June 2024 have a temperature increase of between 1.23°C and 1.29°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-07-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "14190.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "June 2024 anomaly per Copernicus ERA5 was approximately 1.50°C above pre-industrial, well above the 1.23-1.29°C range. This narrow band is unlikely to contain the actual value.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported June 2024 was 1.50°C above the pre-industrial reference",
+          "It was the 13th consecutive month setting a temperature record"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9cd8df6408d34f26762626d0e14ee9335a1f6cd744c1008994a2a6b1383f3354",
+    "market_slug": "will-may-2024-show-an-increase-between-1pt24c-1pt30c",
+    "event_slug": "may-2024-temperature-increase-c",
+    "title": "Will May 2024 show an increase between 1.24°C-1.30°C",
+    "category": "Climate and Weather",
+    "close_time": "2024-06-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "77492.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "May 2024 anomaly per Copernicus was approximately 1.52°C above pre-industrial, well above the 1.24-1.30°C range. NASA/GISS based measures also showed anomalies above this range.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported May 2024 was 1.52°C above pre-industrial average",
+          "It was the 12th consecutive month above 1.5°C threshold"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x573dfc705c8f4250064b3ad30d2cc43397f16c9fc5b343473c860bbd04d7a3ca",
+    "market_slug": "will-there-be-between-16-and-20-named-storms-during-atlantic-hurricane-season",
+    "event_slug": "how-many-named-storms-during-atlantic-hurricane-season-2024",
+    "title": "Will there be between 16 and 20 named storms during Atlantic Hurricane Season?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "364338",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The 2024 Atlantic hurricane season had 18 named storms (Alberto through Sara), which falls within the 16-20 range. This resolves Yes.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "2024 Atlantic hurricane season produced 18 named storms",
+          "Storms ran from Alberto in June through Sara in November, including major hurricanes Beryl, Helene, and Milton"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf873b562a57f806b34aa30ecbcf37d61462bbf819e5fa5f2a04fe202bc1bca77",
+    "market_slug": "will-the-november-2024-temperature-increase-be-between-1pt25-1pt29c",
+    "event_slug": "november-2024-temperature-increase-c",
+    "title": "Will the November 2024 temperature increase be between 1.25-1.29°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "308546",
+    "status": "ok",
+    "forecast": {
+      "rationale": "November 2024 was reported by Copernicus as approximately 1.62°C above pre-industrial levels, well outside the 1.25-1.29°C range. This narrow band is unlikely to capture the actual anomaly.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus C3S reported November 2024 was 1.62°C above pre-industrial baseline",
+          "November 2024 was the second-warmest November on record after Nov 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8ba020facbdb28e70792e5de86005dd98d47f29824ca602c4027b00e0e9a7e5a",
+    "market_slug": "will-two-spacex-starship-launches-successfully-reach-outer-space-in-2024",
+    "event_slug": "how-many-spacex-starship-launches-reach-space-in-2024",
+    "title": "Will two SpaceX Starship launches successfully reach outer space in 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "57262.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In 2024, SpaceX conducted multiple Starship test flights (IFT-3 in March, IFT-4 in June, IFT-5 in October, IFT-6 in November), with several reaching space successfully.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "IFT-3 on March 14, 2024 reached space and completed a coast phase before reentry",
+          "IFT-4 on June 6, 2024 successfully reached space and achieved soft splashdowns",
+          "IFT-5 on October 13, 2024 caught the booster with chopsticks and Starship reached space",
+          "IFT-6 on November 19, 2024 also reached space"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc51a00f7a5c28ce72312ca8116f582ed2e82bdc9848a69a3a184142fc329f23b",
+    "market_slug": "will-nyc-have-between-3pt5-and-4pt5-inches-of-snowfall-on-tuesday",
+    "event_slug": "how-many-inches-of-snow-in-nyc-on-tuesday",
+    "title": "Will NYC have between 3.5 and 4.5 inches of snowfall on Tuesday?",
+    "category": "Climate and Weather",
+    "close_time": "2024-02-11T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1708",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Feb 13, 2024 NYC snowstorm produced around 3.2 inches in Central Park, falling just below the 3.5-4.5 range. Forecasts leading up suggested higher amounts but actual measurement came in lower.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x94aa7a2a4106356c803c6955c5eb46152cd58c372b843ce02a8db0239dd74a46",
+    "market_slug": "global-heat-increase-between-1pt28c-and-1pt30c-for-2024",
+    "event_slug": "global-heat-increase-2024",
+    "title": "Global heat increase between 1.28°C and 1.30°C for 2024?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "480839",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2024 global temperature anomaly was approximately 1.55-1.60°C above pre-industrial levels per Copernicus, well above the 1.28-1.30°C range. The condition would not be met.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus Climate Change Service reported 2024 as the first calendar year exceeding 1.5°C above pre-industrial, around 1.60°C",
+          "NASA/NOAA also reported 2024 as the warmest year on record, exceeding 2023's record"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xac445b1e86761cf36d9dee78ab5b7d5c8af8808cf0e70013b3e5a1db4a5462bc",
+    "market_slug": "will-the-october-2024-temperature-increase-be-between-1pt17-1pt22c",
+    "event_slug": "october-2024-temperature-increase-c",
+    "title": "Will the October 2024 temperature increase be between 1.17-1.22°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "80341.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "October 2024 was reported by Copernicus C3S as approximately 1.65°C above pre-industrial levels, well outside the 1.17-1.22°C range. The narrow band makes Yes unlikely regardless.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported October 2024 was the second-warmest October on record, ~1.65°C above pre-industrial",
+          "Anomaly was far above the 1.17-1.22°C narrow band specified"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xeb6ef8774a2f00981c95a0f7b06c451d06d3e3335c043330758c65616899d383",
+    "market_slug": "will-the-december-2024-temperature-increase-be-greater-than-1pt34c",
+    "event_slug": "december-2024-temperature-increase-c",
+    "title": "Will the December 2024 temperature increase be greater than 1.34°C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "421893",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 2024 was reported by Copernicus as approximately 1.45-1.50°C above pre-industrial levels, exceeding 1.34°C. Recent months in 2024 consistently showed anomalies above 1.4°C.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xc22f43156d3420e7b29c48a2f1446cd559fb9e821de8b8eb13ad1db630ff5344",
+    "market_slug": "will-the-final-global-heat-increase-be-1pt15-or-greater-for-2023",
+    "event_slug": "2023-global-heat-increase",
+    "title": "Will the final global heat increase be 1.15 or greater for 2023?",
+    "category": "Climate and Weather",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "138175",
+    "status": "ok",
+    "forecast": {
+      "rationale": "2023 was confirmed as the warmest year on record, with global temperature anomaly approximately 1.45°C above pre-industrial levels per Copernicus and around 1.18°C per NOAA's 1901-2000 baseline. Either way, 1.15 threshold was clearly exceeded.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported 2023 global average temperature was 1.45°C above pre-industrial levels",
+          "NOAA and NASA confirmed 2023 as the warmest year on record, surpassing 2016"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfa361d1eb8dcd671baee6f5ce7aaf0a7b85cc65d380e606b484579901ac93c83",
+    "market_slug": "will-april-2024-show-an-increase-of-less-than-1pt14c",
+    "event_slug": "how-hot-will-april-2024-be",
+    "title": "Will April 2024 show an increase of less than 1.14C?",
+    "category": "Climate and Weather",
+    "close_time": "2024-05-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "26939.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "April 2024 was the warmest April on record per Copernicus, with anomaly around 1.58C above pre-industrial, well exceeding 1.14C. So the increase was NOT less than 1.14C.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Copernicus reported April 2024 as the warmest April on record",
+          "April 2024 anomaly was approximately 1.58C above pre-industrial levels, marking the 11th consecutive month above 1.5C"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  }
+]

@@ -1,0 +1,3831 @@
+[
+  {
+    "condition_id": "0x2c843616fdd03f36785122aafd5e2b70bffe27e1e15fdbfe4d5b44f689b66388",
+    "market_slug": "another-iran-strike-on-israel-in-2024",
+    "event_slug": "another-iran-strike-on-israel-in-2024",
+    "title": "Another Iran strike on Israel in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3.16867e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran launched a direct missile strike on Israel on October 1, 2024, following the April 2024 strike. This clearly resolves Yes.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched approximately 180-200 ballistic missiles at Israel on October 1, 2024",
+          "This followed the April 13-14, 2024 drone and missile attack; the October strike was in retaliation for killings of Hezbollah leader Nasrallah and Hamas leader Haniyeh"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x578367b882d56ea866d2b13568748a084fd5b8dd392ae21af42e391c76d61d0a",
+    "market_slug": "saudi-and-israel-peace-deal-by-march-2024",
+    "event_slug": "saudi-and-israel-peace-deal-by-march-2024",
+    "title": "Saudi and Israel peace deal by March 2024?",
+    "category": "Politics",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "148099",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No Saudi-Israel peace deal occurred by March 2024. Normalization talks were derailed by the October 7, 2023 Hamas attack and subsequent Gaza war.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "October 7, 2023 Hamas attack and Gaza war paused normalization talks",
+          "No formal Saudi-Israel peace/normalization agreement was signed by March 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x87d67272f0ce1bb0d80ba12a1ab79287b2a235a5f361f5bcbc06ea0ce34e61c5",
+    "market_slug": "us-government-shutdown-before-2025",
+    "event_slug": "us-government-shutdown-before-2025",
+    "title": "Will there be a US Government shutdown? ",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "5.35004e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In 2024, Congress passed continuing resolutions to avert shutdowns, including a CR in March, September, and a last-minute deal in late December 2024 to avoid a Christmas shutdown. No actual shutdown occurred in 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "December 20-21, 2024 last-minute CR passed after Musk/Trump intervention killed initial deal, averting shutdown",
+          "September 2024 CR extended funding into December 2024",
+          "No federal government shutdown occurred during calendar year 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xddbd56dc728feb63f3b3276bbc23be9241c1adaaa4eabdc5733f3a34de33041e",
+    "market_slug": "another-iran-strike-on-israel-in-october",
+    "event_slug": "another-iran-strike-on-israel-in-october",
+    "title": "Another Iran strike on Israel in October?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.77028e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran launched a major missile strike on Israel on October 1, 2024. Following Israel's retaliatory strike on October 26, Iran signaled response but did not launch another strike before October 31.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~180 ballistic missiles at Israel on October 1, 2024",
+          "Israel conducted retaliatory strikes on Iranian military targets on October 26, 2024",
+          "Iran did not launch a second direct strike before end of October"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa8d6d1a85165b4956fac8be23b8cdbd73e14e89dcf620e5203c2d3d6a2a60f7e",
+    "market_slug": "whos-out-first-benjamin-netanyahu-or-yahya-sinwar",
+    "event_slug": "whos-out-first-benjamin-netanyahu-or-yahya-sinwar",
+    "title": "Who's out first: Benjamin Netanyahu or Yahya Sinwar?",
+    "category": "Politics",
+    "close_time": "2024-10-31T00:00:00Z",
+    "actual_resolution": "Sinwar",
+    "volume": "47313.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Yahya Sinwar was killed by Israeli forces on October 16, 2024, in Rafah, while Netanyahu remains in office. The market title asks who's out first - Sinwar was out first, so this resolves Yes.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Yahya Sinwar killed by IDF on October 16, 2024 in Rafah, Gaza",
+          "Netanyahu remained Prime Minister of Israel through October 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x82ac33be050da2ac689428cc8b50fc866c2e61a1fb6e458bcc6b32cf85ca7fbc",
+    "market_slug": "save-act-becomes-law-before-election",
+    "event_slug": "save-act-becomes-law-before-election",
+    "title": "SAVE act becomes law before election?",
+    "category": "Politics",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "54748.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The SAVE Act passed the House in July 2024 but stalled in the Democratic-controlled Senate. It did not become law before the election.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "SAVE Act (proof of citizenship for voter registration) passed House July 2024",
+          "Senate Majority Leader Schumer did not bring it for a vote; not enacted before Nov 2024 election"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd611b44739cc5d52c4f95592606693644ec03208ccb35b293d6ee427b5cbde74",
+    "market_slug": "iran-strike-on-israel-before-december",
+    "event_slug": "iran-strike-on-israel-before-december",
+    "title": "Iran strike on Israel before December?",
+    "category": "Politics",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.31727e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran launched a major missile attack on Israel on October 1, 2024, well before the December close. This clearly satisfies the condition.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran fired approximately 180-200 ballistic missiles at Israel on October 1, 2024",
+          "Israel later retaliated with airstrikes on Iranian military targets on October 26, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5c81fef89460b5f8ae62751788b18c38871f647f51683a527e87810f0ee99016",
+    "market_slug": "will-a-world-leader-shit-themselves-before-march",
+    "event_slug": "will-a-world-leader-shit-themselves-before-march",
+    "title": "Will a world leader shit themselves before March?",
+    "category": "Politics",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5782.88",
+    "status": "ok",
+    "forecast": {
+      "rationale": "This is a joke/novelty market with no credible reporting mechanism. Such events would rarely be publicly verified, so it likely resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x4ab4e66326f266bff370c9b0a40e8b39cb41a9e37947289851b4dcc772da9ea5",
+    "market_slug": "congress-passes-funding-bill-by-midnight",
+    "event_slug": "congress-passes-funding-bill-by-midnight",
+    "title": "House passes funding bill by midnight?",
+    "category": "Politics",
+    "close_time": "2024-12-21T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "140162",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall the December 2024 government shutdown drama where after Trump/Musk killed the initial deal, the House passed a stopgap funding bill late on December 20, 2024, averting a shutdown. The Senate then passed it after midnight, but the House vote occurred before midnight.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "House passed the CR on Friday December 20, 2024 in the evening, vote around 366-34",
+          "Followed earlier failed vote on Trump-backed plan; Speaker Mike Johnson brought revised bill",
+          "Senate passed it shortly after midnight, Biden signed it Saturday"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd8084b77d5386b0c907a3e82567c737896ba0102af5de7ab7295aee6023409b6",
+    "market_slug": "iran-action-by-friday",
+    "event_slug": "iran-action-by-friday",
+    "title": "Iran military response by Friday?",
+    "category": "Politics",
+    "close_time": "2024-08-16T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.11711e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the Haniyeh assassination on July 31, 2024, Iran threatened retaliation but did not launch a direct military response by August 16. The actual retaliatory strike came much later in October 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ismail Haniyeh was assassinated in Tehran on July 31, 2024, prompting Iranian retaliation threats",
+          "Iran's direct military strike on Israel did not occur until October 1, 2024 (Operation True Promise II)"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xbb977da314aec0e32081a1a74823f9ebecc726c2899fbfaa5c113b2932ad0e8b",
+    "market_slug": "netanyahu-out-by-october-31",
+    "event_slug": "netanyahu-out-by-october-31",
+    "title": "Netanyahu out by October 31?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "732532",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Netanyahu remained Prime Minister of Israel through October 2024, with no resignation or removal occurring before October 31, 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Netanyahu was still serving as PM during October 2024, dismissing Defense Minister Yoav Gallant on November 5, 2024",
+          "His coalition government remained intact through the period in question"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9543218f2d765050c8b0cbe2f3b42e0011bd8a220d45abec65b5ed4756b769bb",
+    "market_slug": "will-congress-pass-another-spending-bill-before-inauguration",
+    "event_slug": "will-congress-pass-another-spending-bill-before-inauguration",
+    "title": "Congress passes funding bill before Trump inauguration?",
+    "category": "Politics",
+    "close_time": "2024-12-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "93135.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Congress passed a continuing resolution in late December 2024 to avert a shutdown after Trump/Musk derailed an initial bipartisan deal. The CR was signed into law on December 21, 2024, but the close time is December 19, before the actual passage. This makes resolution uncertain depending on exact interpretation.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Initial bipartisan CR was scuttled on Dec 18-19 after Trump and Musk opposed it",
+          "Final CR passed House and Senate late Dec 20, signed by Biden Dec 21, 2024",
+          "Close time of Dec 19 is before actual passage occurred"
+        ],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x1abb01bf1b40437116748b2f30de85404349a9b92c14d21031990698915e99f9",
+    "market_slug": "iran-military-response-by-august-12",
+    "event_slug": "iran-military-response-by-august-12",
+    "title": "Iran military response by Monday?",
+    "category": "Politics",
+    "close_time": "2024-08-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.04112e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the Haniyeh assassination on July 31, 2024, Iran threatened retaliation but did not launch a direct military response by August 12. The actual retaliatory strike came in October 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ismail Haniyeh was assassinated in Tehran on July 31, 2024",
+          "Iran's direct retaliation (Operation True Promise II) occurred October 1, 2024, not in early August"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xdfd4276c3144acea7037bc3c4d9924f8a79de9af98ce7d798b6086ff0c5e7dc0",
+    "market_slug": "covid-lab-leak-confirmed-by-us-in-2024",
+    "event_slug": "covid-lab-leak-confirmed-by-us-in-2024",
+    "title": "COVID lab leak confirmed by US in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "690267",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While some US agencies (FBI, DOE) have leaned toward lab leak with low confidence, no official US government-wide confirmation occurred in 2024. The intelligence community remains divided.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbb13bc45678192a57188e0896b5017ae9c47ad4446c1e282ba81613e18536f42",
+    "market_slug": "border-ukraine-aid-deal-by-feb-9",
+    "event_slug": "border-ukraine-aid-deal-by-feb-9",
+    "title": "Border + Ukraine aid deal by Feb 9?",
+    "category": "Politics",
+    "close_time": "2024-02-09T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "75006.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The Senate border-Ukraine deal collapsed in early February 2024 after House Republicans and Trump opposed it. The Senate then pivoted to a Ukraine-only aid bill, but no combined border+Ukraine deal was enacted by Feb 9.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bipartisan Senate border deal negotiated by Lankford, Murphy, Sinema released Feb 4, 2024",
+          "Deal failed procedural vote on Feb 7, 2024; Senate moved to Ukraine-only supplemental"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc83128531d31cc5e5b3ca1f0065f39f6f88047d0905ae2a0ae94d9be1eec2aa5",
+    "market_slug": "iran-strike-on-israel-by-nov-8",
+    "event_slug": "iran-strike-on-israel-by-nov-8",
+    "title": "Iran strike on Israel by Nov 8?",
+    "category": "Politics",
+    "close_time": "2024-11-08T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "788895",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran's last direct strike on Israel was October 1, 2024. Threats of retaliation following Israel's Oct 26 strikes existed but no direct Iranian attack occurred before Nov 8.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran's October 1, 2024 missile barrage against Israel preceded this question",
+          "Israel struck Iran on October 26, 2024; Iran threatened response but did not strike before Nov 8"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2b0f30bad2a3405a4eb4097467d4ba533df69f51d00b6c8c8807960f517338a1",
+    "market_slug": "netanyahu-out-in-2024",
+    "event_slug": "netanyahu-out-in-2024",
+    "title": "Netanyahu out in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "403310",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Netanyahu remained Prime Minister of Israel throughout 2024, leading the war cabinet and government despite protests and political pressure.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Netanyahu remained PM throughout 2024 leading Israel's war in Gaza and Lebanon",
+          "ICC issued arrest warrant for him in November 2024 but he stayed in office",
+          "He addressed US Congress in July 2024 as sitting PM"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4a2432fcfb0dc0bb5f495f2ce2565edb2dc75973f55c95daf765c38c8b5121eb",
+    "market_slug": "congress-passes-funding-bill-today",
+    "event_slug": "congress-passes-funding-bill-today",
+    "title": "Congress passes funding bill today?",
+    "category": "Politics",
+    "close_time": "2024-12-19T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "23061.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "December 19, 2024 was the day the original CR deal collapsed after Trump/Musk opposition. The House voted on a revised plan Thursday evening which failed. The funding bill ultimately passed early December 21. Before the noon close on Dec 19, no bill had passed.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Speaker Mike Johnson's initial CR was abandoned after Trump and Musk opposition on Dec 18-19, 2024",
+          "Trump-backed Plan B failed on the House floor Thursday evening Dec 19 with 38 Republicans defecting",
+          "Final funding bill (American Relief Act) passed House Dec 20 and Senate early Dec 21, averting shutdown"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe172d2289a5d799515311349c6580bd95a9b64f93a9aab719d88c0f0d3b0e216",
+    "market_slug": "iran-military-response-before-october",
+    "event_slug": "iran-military-response-before-october",
+    "title": "Iran military response before October?",
+    "category": "Politics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "467982",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran's direct military response (missile/drone attack on Israel) occurred on October 1, 2024, after this market's close. Prior to October, Iran had threatened response to Haniyeh's killing but had not launched a direct military strike.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched a large ballistic missile barrage at Israel on October 1, 2024, after the close time",
+          "Through September 2024, Iran had vowed retaliation for Ismail Haniyeh's July 31 assassination but had not conducted a direct military strike"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x97726dd237b1b26d510609bd1a561075e87accbf99b68edfd56fb5c09d51b751",
+    "market_slug": "netanyahu-out-by-june-30",
+    "event_slug": "netanyahu-out-by-june-30",
+    "title": "Netanyahu out by June 30?",
+    "category": "Politics",
+    "close_time": "2024-06-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "340321",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Netanyahu remained Prime Minister of Israel through June 30, 2024, despite political pressures during the Gaza war. He was not removed from office by that date.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Netanyahu continued serving as PM throughout 2024 during the Israel-Hamas war",
+          "Benny Gantz resigned from the war cabinet in June 2024 but Netanyahu's coalition held"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3eef2324c7205d00cb6054702fb3c500b55b4be8918b25ebe358e886bbc95c87",
+    "market_slug": "congress-passes-funding-bill-before-2025",
+    "event_slug": "congress-passes-funding-bill-before-2025",
+    "title": "Congress passes funding bill before 2025?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "11775.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Congress passed a continuing resolution on December 20, 2024, after a chaotic process involving Trump/Musk opposition to an initial deal. Biden signed it into law on December 21, 2024, averting a shutdown.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Continuing resolution passed by House and Senate on December 20, 2024",
+          "Signed by President Biden on December 21, 2024, funding government through March 14, 2025"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xcd3667b80dc30a2cd5b720b17d3b376ce0c6599e25f8838a95788c781adb6884",
+    "market_slug": "iran-strike-on-israel-by-nov-15",
+    "event_slug": "iran-strike-on-israel-by-nov-15",
+    "title": "Iran strike on Israel by Friday?",
+    "category": "Politics",
+    "close_time": "2024-11-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "302873",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran did not conduct a direct strike on Israel before Nov 15, 2024. Despite threats following Israel's late October strike, no Iranian attack materialized in this timeframe.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x33a7545297ab2dce2b8f233f5130d40b4369b7d03fc1d503f28ffc29c6c4399e",
+    "market_slug": "will-julie-su-be-the-next-us-secretary-of-labor",
+    "event_slug": "who-will-be-the-next-us-secretary-of-labor",
+    "title": "Will Julie Su be the next U.S. Secretary of Labor?",
+    "category": "Politics",
+    "close_time": "2023-12-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7558.25",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Julie Su's nomination stalled in the Senate due to insufficient votes, and she remained Acting Secretary throughout 2023 without being confirmed before the close date.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Biden nominated Julie Su in February 2023 to replace Marty Walsh",
+          "Her confirmation stalled with moderate Democrats like Manchin and Sinema/Tester opposing or undecided",
+          "She continued serving as Acting Secretary of Labor through 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x87587845cd1af1a93d1e5e75607946e2cc33f87cd1e549b36fc0086cd4957639",
+    "market_slug": "will-trump-publicly-oppose-government-funding-bill-today",
+    "event_slug": "will-trump-publicly-oppose-government-funding-bill-today",
+    "title": "Will Trump publicly oppose funding bill today?",
+    "category": "Politics",
+    "close_time": "2024-12-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "25615.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "On December 18, 2024, Trump and Vance issued a joint statement opposing the bipartisan continuing resolution, helping to tank the deal. This is well-documented.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Trump and JD Vance released a joint statement on Dec 18, 2024 opposing the CR and demanding debt ceiling be addressed",
+          "Trump's opposition led to the collapse of the original bipartisan funding deal negotiated by Speaker Johnson"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2e2008d0fcbbf303a3480d66389cc5ff065b6c22ad1ab377225143bfd10c00e5",
+    "market_slug": "iran-strike-on-israel-before-november",
+    "event_slug": "iran-strike-on-israel-before-november",
+    "title": "Iran strike on Israel before November?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "294630",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran launched a major missile attack on Israel on October 1, 2024, firing approximately 180-200 ballistic missiles. This clearly resolves Yes before November.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched roughly 180 ballistic missiles at Israel on October 1, 2024",
+          "The attack was Iran's second direct strike on Israel in 2024, following the April 13 attack"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2ec6879749146c2860fb0274351b6cacde1989d9bbad1782d6c97439d41bc959",
+    "market_slug": "will-trump-say-border-25-or-more-times-during-pennsylvania-rally-on-october-26",
+    "event_slug": "what-will-trump-say-during-pennsylvania-rally-oct-26",
+    "title": "Will Trump say \"border\" 25 or more times during Pennsylvania rally on October 26?",
+    "category": "Politics",
+    "close_time": "2024-10-26T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "56542.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently emphasizes border/immigration at rallies, but reaching 25+ mentions in a single rally is a high bar. Without specific recall of this rally's transcript, I estimate moderate probability.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbc132a82b2cb740fa3b2aeb5c0148401073cf5d9df1337d10ac1685f32b09a3d",
+    "market_slug": "will-congress-pay-raise-be-removed-in-cr-by-friday",
+    "event_slug": "will-congress-pay-raise-be-removed-in-cr-by-friday",
+    "title": "Congress pay raise removed from funding bill by Friday?",
+    "category": "Politics",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.66343e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "I recall the December 2024 CR drama where Elon Musk and Trump objected to the original bill, and the pay raise provision was indeed stripped from the revised funding bill before the shutdown deadline.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Original CR contained ~3.8% Congressional pay raise that drew backlash from Musk and conservatives",
+          "Revised continuing resolution stripped out the pay raise provision before passage near the Dec 20 shutdown deadline"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9b7bf151560114a00da99e0cd4bc20a232162be69db99e488859bade3aecbf35",
+    "market_slug": "iran-military-response-by-friday",
+    "event_slug": "iran-military-response-by-friday",
+    "title": "Iran military response by Friday?",
+    "category": "Politics",
+    "close_time": "2024-08-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "273697",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the Haniyeh assassination on July 31, 2024, Iran threatened retaliation but did not launch a direct military strike by August 9. The actual response (Operation True Promise II) came in October 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ismail Haniyeh was assassinated in Tehran on July 31, 2024, prompting Iranian threats of retaliation",
+          "Iran did not conduct a direct military strike on Israel in early August 2024; the major retaliation occurred October 1, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x24d8bca52f2abed3e1e566a279e4033734f6032f32b0624cc19ba971549c64aa",
+    "market_slug": "will-vivek-drop-out-of-presidential-race-before-february",
+    "event_slug": "will-vivek-drop-out-of-presidential-race-before-february",
+    "title": "Will Vivek drop out of presidential race before February?",
+    "category": "Politics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "44407.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Vivek Ramaswamy suspended his presidential campaign on January 15, 2024, after the Iowa caucuses, and endorsed Donald Trump.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Vivek Ramaswamy suspended his campaign on January 15, 2024 following a fourth-place finish in the Iowa caucuses",
+          "He endorsed Donald Trump upon dropping out"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd7b81793137d5dd6843a40e774fb25395361a4375b885784ff747520958b93d1",
+    "market_slug": "congress-passes-bill-banning-tiktok-by-april-30",
+    "event_slug": "congress-passes-bill-banning-tiktok-by-april-30",
+    "title": "Congress passes bill banning TikTok by April 30?",
+    "category": "Politics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "146221",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Congress passed a divest-or-ban bill as part of the foreign aid package signed by Biden on April 24, 2024. However, this requires divestment within 9-12 months, not an outright ban. Depending on interpretation, this could resolve Yes since it does ban TikTok if no divestment occurs.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "House passed the foreign aid package including TikTok divest-or-ban provision on April 20, 2024",
+          "Senate passed it April 23, 2024; Biden signed April 24, 2024",
+          "Bill gives ByteDance ~9 months (extendable to 12) to divest or face ban"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf2e2f963abe30580c47912149afa86db9dfb6c9f0c949ef6ad72cd9653631827",
+    "market_slug": "natoeu-troops-fighting-in-ukraine-before-july",
+    "event_slug": "natoeu-troops-fighting-in-ukraine-before-july",
+    "title": "NATO/EU troops fighting in Ukraine before July?",
+    "category": "Politics",
+    "close_time": "2024-06-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "228580",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No official NATO/EU combat deployment occurred in Ukraine by the deadline. While some French trainers were discussed, no acknowledged combat engagement happened.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xff4bfde8a6ea2a52cebb815f0b58ece418b265d18b39c035de3309f918196411",
+    "market_slug": "will-mahmoud-abbas-still-be-president-of-the-state-of-palestine-by-the-end-of-2023",
+    "event_slug": "will-mahmoud-abbas-still-be-president-of-the-state-of-palestine-by-the-end-of-2023",
+    "title": "Will Mahmoud Abbas still be President of the State of Palestine by the end of 2023?",
+    "category": "Politics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "35254.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mahmoud Abbas remained President of the Palestinian Authority/State of Palestine throughout 2023, despite the Israel-Hamas war. No succession or removal occurred.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Abbas, born 1935, has held the presidency since 2005 with no elections held since",
+          "Abbas was actively making statements throughout late 2023 regarding the Gaza war following Oct 7 attacks"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfe6a684dc0aafcb6b936a7da2dafac48e47a518f1a7c79fb75f612d2d9d1a813",
+    "market_slug": "us-congress-stock-trading-ban-by-august-31",
+    "event_slug": "us-congress-stock-trading-ban-by-august-31",
+    "title": "US congress stock trading ban by August 31?",
+    "category": "Politics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "79727.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No congressional stock trading ban has been enacted; multiple bills (PELOSI Act, ETHICS Act) remained stalled in committee through 2024. Extremely unlikely to pass by August 31.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "No stock trading ban legislation passed Congress in 2024",
+          "Bills like the ETHICS Act advanced in committee but did not receive floor votes"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc1b6d7128a66a72fe6d0799e2179135cc903ef3b9f7cc0db6ece551fb6a66597",
+    "market_slug": "iran-strike-on-israel-today",
+    "event_slug": "iran-strike-on-israel-today",
+    "title": "Iran strike on Israel today?",
+    "category": "Politics",
+    "close_time": "2024-10-01T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "148732",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran launched a large ballistic missile attack on Israel on October 1, 2024, firing approximately 180-200 missiles. This is a well-documented event.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched approximately 180-200 ballistic missiles at Israel on October 1, 2024",
+          "The attack was named Operation True Promise II and occurred in the evening Israel time"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x426cf619bab4d089ae92b1cf4ab28a3c86332b53b509e9aeb8b3753afdb168f1",
+    "market_slug": "will-tim-scott-win-the-us-2024-republican-vice-presidential-nomination",
+    "event_slug": "republican-vp-nominee-sm",
+    "title": "[Single Market] Will Tim Scott win the U.S. 2024 Republican vice presidential nomination?",
+    "category": "Politics",
+    "close_time": "2024-09-09T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5578.79",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump selected JD Vance as his running mate at the Republican National Convention in July 2024, not Tim Scott.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump announced JD Vance as his VP pick on July 15, 2024 at the RNC in Milwaukee",
+          "Tim Scott was reportedly on the shortlist but was not selected"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x72b8fe66fcc7570f87ee7dffbb4b0e708981e8afb08233addf188839a90051a8",
+    "market_slug": "biden-vetos-bill-repealing-crypto-accounting-rule",
+    "event_slug": "biden-vetos-bill-repealing-crypto-accounting-rule",
+    "title": "Biden vetos Bill repealing crypto accounting rule?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "16884",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden vetoed the resolution overturning SAB 121 on May 31, 2024. The veto occurred well before the close date.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "H.J.Res. 109 sought to overturn SEC's Staff Accounting Bulletin 121",
+          "Biden vetoed the resolution on May 31, 2024",
+          "House later failed to override the veto in July 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa01f8c4d49984b0274eaf328df98fc50899870c1f977875bc7075ffd6b3292bd",
+    "market_slug": "iran-military-response-by-august-23",
+    "event_slug": "iran-military-response-by-august-23",
+    "title": "Iran military response by Friday?",
+    "category": "Politics",
+    "close_time": "2024-08-23T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "133874",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the Haniyeh assassination July 31, 2024, Iran threatened retaliation but delayed action. By August 23, no direct military response had occurred; the strike eventually came in October 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ismail Haniyeh assassinated in Tehran July 31, 2024, prompting Iranian retaliation threats",
+          "Iran's direct missile attack on Israel did not occur until October 1, 2024",
+          "Throughout August 2024, Iran repeatedly delayed promised retaliation amid ceasefire negotiations"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x331a0ad79408a5616512bbeace6e277452146d121d6a0886ee26fe56071b650e",
+    "market_slug": "bill-clinton-arrested-by-jan-10",
+    "event_slug": "bill-clinton-arrested-by-jan-10",
+    "title": "Bill Clinton arrested by Jan 10?",
+    "category": "Politics",
+    "close_time": "2024-01-10T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5432.71",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bill Clinton was not arrested by January 10, 2024. No credible reports of any such arrest exist.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bill Clinton was named in unsealed Epstein-related court documents in early January 2024 but was not charged or arrested",
+          "No law enforcement action against Clinton occurred before Jan 10, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1c4333d357bfba04f7e364865d5b0cafdd7740c88c6b68c300810794fd385f49",
+    "market_slug": "will-nancy-maces-trans-bathroom-bill-pass-in-2024",
+    "event_slug": "will-nancy-maces-trans-bathroom-bill-pass-in-2024",
+    "title": "Will Nancy Mace's trans bathroom bill pass in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4016.42",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mace introduced a resolution restricting bathroom use in the Capitol, which Speaker Johnson administratively enforced, but a standalone bill did not pass Congress in 2024. It was not signed into law.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Mace introduced the resolution in November 2024 targeting Rep. Sarah McBride",
+          "Speaker Mike Johnson announced administrative bathroom policy but no full bill was enacted into law in 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9372742055caba82f16fc0d4c57c4f28bec40052c04ae78c0e8f0f73922281a0",
+    "market_slug": "another-iran-strike-on-israel-by-friday",
+    "event_slug": "another-iran-strike-on-israel-by-friday",
+    "title": "Another Iran strike on Israel by Friday?",
+    "category": "Politics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "100479",
+    "status": "ok",
+    "forecast": {
+      "rationale": "After Iran's October 1, 2024 missile strike on Israel, tensions remained high but no second strike occurred within the next few days. Iran signaled its operation was concluded unless Israel retaliated.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~180-200 ballistic missiles at Israel on October 1, 2024",
+          "Iran stated the operation was concluded unless Israel responded; no follow-up strike occurred that week"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xacd0ff74eed2bd3b8431b49011af667b58b6cacb3ef3d0febae080409a72df22",
+    "market_slug": "abbas-still-president-of-palestine-by-jan-31",
+    "event_slug": "abbas-still-president-of-palestine-by-jan-31",
+    "title": "Abbas still President of Palestine by Jan 31?",
+    "category": "Politics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "851.24",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mahmoud Abbas remained President of the Palestinian Authority through January 2024 with no indication of resignation or removal.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Abbas continued serving as PA President throughout the Israel-Hamas war in late 2023 and into 2024",
+          "No succession or resignation event occurred by January 31, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2efa6f490f03e75f573d2c4a90bf24e71fa6db5878ca09fd3b6698e3d4a293b4",
+    "market_slug": "will-a-nuclear-weapon-detonate-in-2024",
+    "event_slug": "will-a-nuclear-weapon-detonate-in-2024",
+    "title": "Will a nuclear weapon detonate in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4.74298e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No nuclear weapon has been detonated in conflict since 1945, and no test detonations occurred in 2024.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x1a98f162c590c80b0b1f9d8bfb40d055a5db5bac62ede0ac791bb439ca452b60",
+    "market_slug": "iran-military-response-by-friday-aug-30",
+    "event_slug": "iran-military-response-by-friday-aug-30",
+    "title": "Iran military response by Friday?",
+    "category": "Politics",
+    "close_time": "2024-08-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "87822.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the Haniyeh assassination in late July 2024, Iran threatened retaliation but repeatedly delayed any direct military response throughout August. By Aug 30, no direct Iranian military strike had occurred.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ismail Haniyeh was assassinated in Tehran on July 31, 2024, prompting Iranian retaliation threats",
+          "Iran delayed direct retaliation throughout August 2024 amid ceasefire negotiations; no direct strike occurred before end of August"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3376277f95016b046ccc398942605382ebce0673ca2934c0732f61ace19ccd06",
+    "market_slug": "will-conor-mcgregor-be-the-next-prime-minister-of-ireland",
+    "event_slug": "next-prime-minster-of-ireland",
+    "title": "Will Conor McGregor be the next Prime Minister of Ireland?",
+    "category": "Politics",
+    "close_time": "2024-11-29T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "9.36317e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Conor McGregor is an MMA fighter with no political office; he is not a member of the Dáil and cannot become Taoiseach. The next Taoiseach following the November 2024 election will be a sitting TD, almost certainly Micheál Martin or Simon Harris.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xa878d4d9d33570431c88195318461c708a2734a51facfd515fceddce8739cc45",
+    "market_slug": "assad-leaves-syria-before-2025",
+    "event_slug": "assad-leaves-syria-before-2025",
+    "title": "Assad leaves Syria before 2025?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.30733e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Assad fled Syria to Russia on December 8, 2024 after rebel forces led by HTS captured Damascus, ending his rule.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Bashar al-Assad fled to Moscow on December 8, 2024 after HTS-led rebels captured Damascus",
+          "Russia granted Assad and his family asylum following the rapid collapse of the Syrian government"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x159078498188cad749cfe3b0c73f73e8836bd5958dde1a1fa0b326f11bd9a1eb",
+    "market_slug": "iran-military-response-by-monday",
+    "event_slug": "iran-military-response-by-monday",
+    "title": "Iran military response by Monday?",
+    "category": "Politics",
+    "close_time": "2024-09-02T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "76060.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran threatened retaliation against Israel after the Haniyeh assassination in late July 2024, but by early September 2024 no direct military response had occurred. The expected strike kept being delayed.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran vowed retaliation after Hamas leader Ismail Haniyeh was killed in Tehran on July 31, 2024",
+          "By early September 2024, Iran had not yet launched a direct military response; the major strike came on October 1, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x09c2f5cff9250d14e9b5425166f6f8c78b4de224a2b84234b998f7b01131a515",
+    "market_slug": "nasrallah-remains-leader-of-hezbollah-through-october-31",
+    "event_slug": "nasrallah-remains-leader-of-hezbollah-through-october-31",
+    "title": "Nasrallah remains Hezbollah leader through Oct 31?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "764901",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hassan Nasrallah was killed in an Israeli airstrike on Hezbollah headquarters in Beirut's southern suburbs on September 27, 2024, confirmed by both Israel and Hezbollah. He was no longer leader by October 31.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Nasrallah killed in Israeli airstrike on Sept 27, 2024 in Dahieh, Beirut",
+          "Naim Qassem was later announced as his successor in late October 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2466763d39405de2af140537f02d4dc084609048b7c2449ff1cb4f9503c38466",
+    "market_slug": "pavel-durov-leaves-france-by-sep-15",
+    "event_slug": "pavel-durov-leaves-france-by-sep-15",
+    "title": "Pavel Durov flees France by Sep 15?",
+    "category": "Politics",
+    "close_time": "2024-09-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "930429",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Durov was arrested in France in late August 2024 and released on bail with conditions requiring him to remain in France. He did not flee before Sep 15.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Durov arrested at Le Bourget airport on August 24, 2024",
+          "Released on €5 million bail with requirement to report to police twice weekly and remain in France"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x871fa843c360e92a34f2f494ab041a736219087a52835b8d0b652ea4e5a0a0ed",
+    "market_slug": "iran-strike-on-israel-on-nov-5",
+    "event_slug": "iran-strike-on-israel-on-nov-5",
+    "title": "Iran strike on Israel on Nov 5?",
+    "category": "Politics",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "27110.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No Iran direct strike on Israel occurred on Nov 5, 2024. Iran threatened retaliation but actual strike came later or not in this window.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x71d2d26a55e22b209a2fe476616c51eb5414c54dbcf38a804f3ee0de7cbc9b9b",
+    "market_slug": "michel-barnier-out-as-prime-minister-of-france-in-2024",
+    "event_slug": "michel-barnier-out-as-prime-minister-of-france-in-2024",
+    "title": "Michel Barnier out as prime minister of France in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "630014",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Barnier's government lost a no-confidence vote on December 4, 2024, and he resigned, becoming the shortest-serving PM in modern French history. Macron later appointed François Bayrou as his successor.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "No-confidence motion passed on December 4, 2024 with 331 votes",
+          "Replaced by François Bayrou as PM in mid-December 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x82ea3694ec4efd2936ba6ba62846d960bd75eff594370981a04bb3e3b09a6d6d",
+    "market_slug": "will-trump-be-speaker-by-april-1",
+    "event_slug": "will-trump-be-speaker-by-april-1",
+    "title": "Will Trump be Speaker by April 1?",
+    "category": "Politics",
+    "close_time": "2024-04-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "778184",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mike Johnson was Speaker of the House throughout this period. Trump never became Speaker.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Mike Johnson was elected Speaker in October 2023 and remained Speaker through April 2024",
+          "Trump was campaigning for president, not pursuing the Speakership"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x57d84abe570ed54c362a54e5a77489fa051c3e0d0cdfeae36148e244668bf403",
+    "market_slug": "israel-strike-on-iranian-nuclear-facility-in-2024",
+    "event_slug": "israel-strike-on-iranian-nuclear-facility-in-2024",
+    "title": "Israel strike on Iranian nuclear facility in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.00756e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's October 26, 2024 strike on Iran targeted military sites including missile facilities and air defenses, but explicitly avoided nuclear facilities per US pressure and reporting. No strike on a nuclear facility occurred in 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Operation 'Days of Repentance' on October 26, 2024 hit Iranian missile production and air defense sites",
+          "Reports indicated Israel avoided striking nuclear and oil facilities, partly due to US pressure"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x32310cd744109d68fd1d81b18f027581ae192343f884eb13475daabcb10150b7",
+    "market_slug": "trudeau-resigns-by-friday",
+    "event_slug": "trudeau-resigns-by-friday",
+    "title": "Trudeau resigns by Friday?",
+    "category": "Politics",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "523308",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trudeau did not resign by December 20, 2024, despite political pressure following Freeland's resignation on Dec 16. He ultimately announced resignation in January 2025.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Chrystia Freeland resigned as Finance Minister on December 16, 2024, sparking calls for Trudeau to resign",
+          "Trudeau announced his resignation as Liberal leader on January 6, 2025, not in December 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6b27bbaf0661dea01868071bdda2e02591095c50ad72cfa2907278020a3f35db",
+    "market_slug": "bernie-sanders-endorses-kamala-as-dem-nominee",
+    "event_slug": "who-will-endorse-kamala",
+    "title": "Bernie Sanders endorses Kamala as Dem Nominee?",
+    "category": "Politics",
+    "close_time": "2024-08-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "571328",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bernie Sanders endorsed Kamala Harris shortly after Biden withdrew on July 21, 2024, well before the August 18 close date.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Sanders endorsed Harris on July 21-22, 2024 after Biden dropped out of the race",
+          "Most prominent Democrats including Biden, Clinton, and Sanders quickly endorsed Harris"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2e57c29fd4542e9dd9588966f198307890cef3c06225afc395acd9c8ffa31d74",
+    "market_slug": "israel-military-response-against-iran-in-october",
+    "event_slug": "israel-military-response-against-iran-in-october",
+    "title": "Israel military response against Iran in October?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3.26566e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel conducted airstrikes against Iranian military targets on October 26, 2024, in response to Iran's October 1 missile attack. This clearly satisfies the condition.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel launched Operation 'Days of Repentance' on October 26, 2024, striking Iranian air defense and missile production sites",
+          "This was retaliation for Iran's October 1, 2024 ballistic missile barrage against Israel"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3e35c729149e688593c4dba07721105f331ecbce33a52ccac887ccb028c9f8af",
+    "market_slug": "trudeau-out-in-2024",
+    "event_slug": "trudeau-out-in-2024",
+    "title": "Trudeau out in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "432953",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trudeau remained Prime Minister through end of 2024 despite political pressure and Freeland's resignation in December. He announced resignation in January 2025, not 2024.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Trudeau announced his resignation on January 6, 2025, not in 2024",
+          "Chrystia Freeland resigned as Finance Minister in December 2024 but Trudeau stayed on"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xeacb0280480b1b8777f14bce35b2de253a37d7312ff7fb64a351e8cc655fed47",
+    "market_slug": "will-california-pass-sb-1047-ai-safety-bill",
+    "event_slug": "will-california-pass-sb-1047-ai-safety-bill",
+    "title": "Will California pass SB 1047 AI safety bill?",
+    "category": "Politics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "433445",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SB 1047 passed the California legislature but was vetoed by Governor Gavin Newsom on September 29, 2024. 'Pass' typically requires the bill to become law, so it resolves No.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "SB 1047 was authored by State Senator Scott Wiener",
+          "Governor Newsom vetoed SB 1047 on September 29, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5ded9ba6b490fe08251a99734ad3eb396ba2daeb5c81af6f3fe91926b1d4af3d",
+    "market_slug": "another-israeli-military-action-against-iran-in-2024",
+    "event_slug": "another-israeli-military-action-against-iran-in-2024",
+    "title": "Another Israeli military action against Iran in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.66087e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel conducted strikes on Iran on October 26, 2024, targeting military sites in retaliation for Iran's October 1 missile attack. This clearly satisfies 'another Israeli military action against Iran in 2024.'",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Operation 'Days of Repentance' on October 26, 2024 - Israeli airstrikes on Iranian military targets",
+          "Strikes were retaliation for Iran's October 1, 2024 ballistic missile barrage against Israel"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x403d3424f8018ed63c777d6d21fbf7f2373a0bd77b09452c99fadd0b5b7057b4",
+    "market_slug": "nasrallah-remains-leader-of-hezbollah-through-august",
+    "event_slug": "nasrallah-remains-leader-of-hezbollah-through-august",
+    "title": "Nasrallah remains leader of Hezbollah through August?",
+    "category": "Politics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "140677",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nasrallah was killed by an Israeli airstrike on September 27, 2024, so he remained leader through August 2024.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Hassan Nasrallah was killed in an Israeli airstrike on Hezbollah's Beirut headquarters on September 27, 2024",
+          "He was leader of Hezbollah continuously from 1992 until his death in late September 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3c9d8b8e50e69c48a1882f259db6c492662ce45fd4c019da1abb8ebe3f6cf8e9",
+    "market_slug": "will-there-be-a-us-government-shutdown-by-mar-9",
+    "event_slug": "will-there-be-a-us-government-shutdown-by-mar-9",
+    "title": "US government shutdown by Mar 9?",
+    "category": "Politics",
+    "close_time": "2024-03-09T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "388204",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Congress passed a continuing resolution in early March 2024 funding parts of the government, with a six-bill minibus signed by Biden on March 9, 2024 averting a shutdown for those agencies. No shutdown occurred by March 9.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Congress passed a six-bill minibus appropriations package in early March 2024",
+          "President Biden signed the package on March 9, 2024, averting a partial shutdown"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x360f2bc551b4c3bbe5ff9b3ccbeef7902dc57c35fda25cb5581b6d8cef9e51f3",
+    "market_slug": "israel-military-response-against-iran-by-friday-oct-25",
+    "event_slug": "israel-military-response-against-iran-by-friday-oct-25",
+    "title": "Israel military response against Iran by Friday?",
+    "category": "Politics",
+    "close_time": "2024-10-25T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "1.29345e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's retaliatory strike on Iran occurred on October 26, 2024, which is after the Friday October 25 close time. So this should resolve No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel conducted Operation 'Days of Repentance' airstrikes on Iran in the early hours of October 26, 2024",
+          "The strikes targeted Iranian military sites, missile facilities, and air defenses, occurring after Friday October 25"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x64419bdeef784be9ff2de0d7800f6e24242369be5b8e293458789b5287a9952b",
+    "market_slug": "will-the-us-confirm-that-aliens-exist-in-2023",
+    "event_slug": "will-the-us-confirm-that-aliens-exist-in-2023",
+    "title": "Will the US confirm that aliens exist in 2023?",
+    "category": "Politics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "116418",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US government did not officially confirm alien existence in 2023, despite Congressional UAP hearings featuring David Grusch's testimony in July 2023. No formal confirmation occurred.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "July 2023 House Oversight subcommittee UAP hearing with whistleblower David Grusch",
+          "No official US government confirmation of extraterrestrial life occurred in 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x05728df137c8369cdd25d8932da04c5df4668ebb42f8ae7453038b82b86d542a",
+    "market_slug": "will-there-be-a-us-government-shutdown-by-november-19",
+    "event_slug": "will-there-be-a-us-government-shutdown-by-november-19",
+    "title": "Will there be a US government shutdown by November 19?",
+    "category": "Politics",
+    "close_time": "2023-11-19T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "275774",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Congress passed a continuing resolution in mid-November 2023 (signed by Biden on Nov 16) using a two-tiered laddered approach by Speaker Mike Johnson, averting a shutdown before Nov 19.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Speaker Mike Johnson introduced a two-step laddered CR in November 2023",
+          "The CR passed the House on Nov 14 and Senate on Nov 15, signed by President Biden on Nov 16, 2023, averting the Nov 17 funding deadline"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb2f7ed87460c653102e97db0d70e9fa5a8dd65d8ded48a6cd98ee6991afd8c0b",
+    "market_slug": "israel-military-response-against-iran-by-next-friday-oct-11",
+    "event_slug": "israel-military-response-against-iran-by-next-friday-oct-11",
+    "title": "Israel military response against Iran by Friday?",
+    "category": "Politics",
+    "close_time": "2024-10-11T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "983495",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's retaliation for Iran's Oct 1 missile attack was reportedly delayed, with US officials indicating it would not occur immediately. The strike eventually happened on October 26, 2024, well after this Friday deadline.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~180 ballistic missiles at Israel on October 1, 2024",
+          "Israel's actual retaliatory strike (Operation Days of Repentance) occurred on October 26, 2024, not in the week of October 11"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5f13287281a81051fc294c35c28f3ca0b7329917d9ca8cdd8da264206de30673",
+    "market_slug": "starmer-out-as-uk-pm-before-october",
+    "event_slug": "starmer-out-as-uk-pm-before-october",
+    "title": "Keir Starmer out as UK PM before October?",
+    "category": "Politics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "98051",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Starmer became UK PM on July 5, 2024 after Labour's landslide victory and remained in office through September 2024.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Keir Starmer became UK Prime Minister on 5 July 2024 following Labour's general election win",
+          "He remained PM throughout summer/autumn 2024 with no resignation or removal"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6870e9b0693c6caa48212017fdfa545a2198556766bd603fc7be81db2dfde17e",
+    "market_slug": "us-evacuates-beirut-embassy-by-september-30",
+    "event_slug": "us-evacuates-beirut-embassy-by-september-30",
+    "title": "U.S. evacuates Beirut Embassy by September 30?",
+    "category": "Politics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "246718",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite escalating Israel-Hezbollah conflict in late September 2024, the US Embassy in Beirut was not fully evacuated by September 30. The State Department authorized departure of some non-essential personnel and family members but did not conduct a full evacuation.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x5c9490cd2121384ebb7a08b0aed1fa9a5239d98096d91b4bd6827c47c94951b2",
+    "market_slug": "israel-military-action-against-iran-by-end-of-2024",
+    "event_slug": "israel-military-action-against-iran-by-end-of-2024",
+    "title": "Israel military action against Iran by end of 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "934237",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel conducted overt military strikes on Iran in 2024, including the April 19 strike near Isfahan and the major October 26 'Operation Days of Repentance' airstrikes targeting Iranian military sites.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "April 19, 2024 Israeli strike on radar near Isfahan in response to Iran's April 13 missile/drone attack",
+          "October 26, 2024 Israeli airstrikes on Iranian military targets ('Operation Days of Repentance')"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9a872b0da4652c144f34302906446fd93de7e20ddda42f3bc39cf5342324daad",
+    "market_slug": "jean-luc-melenchon-next-prime-minister-of-france",
+    "event_slug": "next-french-prime-minister",
+    "title": "Jean-Luc Melenchon next Prime Minister of France?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "92585.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Macron appointed Michel Barnier in September 2024 and then François Bayrou in December 2024 as PM. Mélenchon, despite NFP's plurality, was never appointed and Macron explicitly refused leftist coalition candidates.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Michel Barnier appointed PM in September 2024, ousted by no-confidence vote in December 2024",
+          "François Bayrou appointed PM on 13 December 2024",
+          "Macron rejected NFP's proposed candidate Lucie Castets"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe517d88554192500fe17d5839fda3bdec5f2afe5e4efee391abc61c6aaad122e",
+    "market_slug": "us-evacuates-beirut-embassy-by-october-31",
+    "event_slug": "us-evacuates-beirut-embassy-by-october-31",
+    "title": "U.S. evacuates Beirut Embassy by October 31?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "206367",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While the U.S. issued travel warnings and authorized voluntary departure of non-essential staff from the Beirut embassy amid the Israel-Hezbollah conflict, a full evacuation did not occur by October 31, 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xedb7b548a59f22986cceb2ab50e6d97df6ef5c58a10a2e755f452ef230c522bd",
+    "market_slug": "israel-military-response-against-iran-by-next-friday-oct-18",
+    "event_slug": "israel-military-response-against-iran-by-next-friday-oct-18",
+    "title": "Israel military response against Iran by Friday?",
+    "category": "Politics",
+    "close_time": "2024-10-18T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "869394",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's retaliatory strike against Iran following the October 1 missile attack did not occur until October 26, 2024. By October 18, no major military response had been launched.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~180 ballistic missiles at Israel on October 1, 2024",
+          "Israel's retaliatory strike (Operation Days of Repentance) occurred on October 26, 2024, after this close time"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9fe6eddaed79491d7a935d0035026820897d4bf3e056c15226746f8373a860d0",
+    "market_slug": "irakli-kobakhidze-out-as-georgia-pm-in-2024",
+    "event_slug": "irakli-kobakhidze-out-as-georgia-pm-in-2024",
+    "title": "Irakli Kobakhidze out as Georgia PM in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "72861.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kobakhidze remained PM through the 2024 elections and was reappointed by Georgian Dream after their disputed October 2024 victory. He was still PM at year-end despite protests over EU accession suspension.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Georgian Dream won October 26, 2024 parliamentary elections",
+          "Kobakhidze was reappointed PM in November 2024 amid pro-EU protests after government suspended EU accession talks"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3bc5eaeb9fc756d95a680a06d3c99134879cdabd406ca5b813c841d43930b8ec",
+    "market_slug": "us-evacuates-beirut-embassy-2024",
+    "event_slug": "us-evacuates-beirut-embassy-2024",
+    "title": "U.S. evacuates Beirut Embassy in 2024?   ",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "191716",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite Israel-Hezbollah conflict escalation in 2024, the US Embassy in Beirut authorized voluntary departure of non-essential personnel and family members but did not conduct a full evacuation. No publicly reported full evacuation occurred.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xabdce9758a19396bf91e37ebb054d474c5d2712c1f7d1ae62f4f776434bdc4b6",
+    "market_slug": "israel-strikes-iranian-oil-in-october",
+    "event_slug": "israel-strikes-iranian-oil-in-october",
+    "title": "Israel strikes Iranian oil in October?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "817457",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's October 26, 2024 retaliatory strike on Iran targeted military sites (missile production, air defenses) and explicitly avoided oil and nuclear facilities, reportedly after US pressure.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel conducted Operation 'Days of Repentance' on October 26, 2024, striking Iranian military targets",
+          "Strikes deliberately avoided oil and nuclear infrastructure, focusing on missile manufacturing and air defense systems"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x430fd0b3a028045d02d8f1ffde1de9d5cbf7540cbcfee3fe75683e189e7d5422",
+    "market_slug": "will-the-us-confirm-that-aliens-exist-by-june",
+    "event_slug": "will-the-us-confirm-that-aliens-exist-by-june",
+    "title": "Will the US confirm that aliens exist by June?",
+    "category": "Politics",
+    "close_time": "2024-06-30T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "45911.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US government did not officially confirm the existence of aliens by June 2024. Despite congressional hearings on UAPs, no formal confirmation occurred.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x534f9204adcccc3372d2cbd94faa4f48501dec7f77f98a8dd5235f268d923763",
+    "market_slug": "will-trump-be-speaker-by-dec-31",
+    "event_slug": "will-trump-be-speaker-by-dec-31",
+    "title": "Will Trump be Speaker by Dec 31?",
+    "category": "Politics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "147030",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump was floated as a potential Speaker after McCarthy's ouster in October 2023, but Mike Johnson was elected Speaker on October 25, 2023. Trump did not become Speaker.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Kevin McCarthy was ousted as Speaker on October 3, 2023",
+          "Mike Johnson was elected Speaker on October 25, 2023",
+          "Trump was briefly floated but never seriously pursued the role"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x4ada28f447779e28ad1b41006561d88cf02d0b45851f12b38d84fee1f6ba6a57",
+    "market_slug": "israel-military-response-against-iran-by-friday",
+    "event_slug": "israel-military-response-against-iran-by-friday",
+    "title": "Israel military response against Iran by Friday?",
+    "category": "Politics",
+    "close_time": "2024-10-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "396468",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following Iran's October 1, 2024 missile attack on Israel, Israel vowed retaliation but did not strike Iran by Friday October 4. The major Israeli retaliatory strike occurred on October 26, 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~180 ballistic missiles at Israel on October 1, 2024",
+          "Israel's retaliatory strike on Iranian military targets occurred on October 26, 2024, not within the first week"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc3eb889dbd5440e041dc8dc930696dd4a39ac65d12cd03e003e89610941536cd",
+    "market_slug": "will-another-person-be-next-prime-minister-of-pakistan",
+    "event_slug": "pakistan-election-who-will-be-next-prime-minister",
+    "title": "Will another person be next prime minister of Pakistan?",
+    "category": "Politics",
+    "close_time": "2024-02-06T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "9837.05",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Pakistan's election was Feb 8, 2024, after the close time. Anwaar-ul-Haq Kakar was caretaker PM at this point. A new PM (Shehbaz Sharif) was elected in March 2024, after the close date.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Pakistan general elections held Feb 8, 2024",
+          "Shehbaz Sharif elected PM on March 3, 2024, after the Feb 6 close",
+          "Anwaar-ul-Haq Kakar was caretaker PM until then"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc5d7be203f5fb918cb4bc2e715875b503f87b7ec68071fcf2a22ceabc7976606",
+    "market_slug": "will-trump-be-speaker-by-july-1",
+    "event_slug": "will-trump-be-speaker-by-july-1",
+    "title": "Will Trump be Speaker by July 1?",
+    "category": "Politics",
+    "close_time": "2024-07-01T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "140097",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump did not become Speaker of the House. Mike Johnson was Speaker throughout this period, having been elected in October 2023.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Mike Johnson was elected Speaker on October 25, 2023 and remained Speaker through July 2024",
+          "Trump was the presumptive Republican presidential nominee in 2024, not pursuing the Speakership"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x043eba4f03731208aa2c2ee1d4eb64b9dc8446f1f991b6bb8ba419f9840d1cc9",
+    "market_slug": "israel-military-action-against-iran-by-friday",
+    "event_slug": "israel-military-action-against-iran-by-friday",
+    "title": "Israel military action against Iran by Friday?",
+    "category": "Politics",
+    "close_time": "2024-04-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "391887",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel conducted a limited strike on Iran (near Isfahan) in the early hours of April 19, 2024, before the Friday close. This resolves Yes.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel struck targets near Isfahan, Iran on April 19, 2024",
+          "Strike was a retaliation for Iran's April 13-14 drone/missile attack on Israel"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc5a29d7da91c765c5b8b45dc5f86147558ad0d16bb18e7ca14a74e3b5e3ebf9a",
+    "market_slug": "will-kamala-harris-be-inaugurated",
+    "event_slug": "who-will-be-inaugurated-as-president",
+    "title": "Will Kamala Harris be inaugurated?",
+    "category": "Politics",
+    "close_time": "2024-12-20T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7.22471e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Kamala Harris lost the 2024 presidential election to Donald Trump. The inauguration is January 20, 2025, but the close time is December 2024, and Harris will not be inaugurated as president.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Donald Trump won the November 2024 presidential election against Kamala Harris",
+          "Trump is set to be inaugurated on January 20, 2025"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x55f069932dd8b7553b98e6285a81594edf33f2699756280cf7ddeac90eab79ec",
+    "market_slug": "will-there-be-a-us-government-shutdown-by-jan-20",
+    "event_slug": "will-there-be-a-us-government-shutdown-by-jan-20",
+    "title": "Will there be a US government shutdown by Jan 20?",
+    "category": "Politics",
+    "close_time": "2024-01-20T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "124889",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Congress passed a continuing resolution in mid-January 2024 with laddered deadlines (Jan 19 and Feb 2), avoiding a shutdown before Jan 20. No shutdown occurred by that date.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Congress passed a stopgap CR in January 2024 extending funding past Jan 19 deadline",
+          "Speaker Mike Johnson agreed to laddered CR with new deadlines of March 1 and March 8"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x69beec40eb5a4e3e731f87e63470ad0a74c9cf00f2a15b00a64438f4d3fb7c52",
+    "market_slug": "israel-military-response-against-iran-in-november",
+    "event_slug": "israel-military-response-against-iran-in-november",
+    "title": "Israel military strike against Iran in November?",
+    "category": "Politics",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "310415",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's major strike on Iran occurred October 26, 2024. In November, no major Israeli military strike on Iran was reported; tensions remained but actions were limited.",
+      "probabilities": {
+        "Yes": 0.07,
+        "No": 0.93
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2dee7133255484468b06465e9de2ef3efeab7b0ba6e58ce0a965f73a24e134b1",
+    "market_slug": "yoon-out-as-president-of-south-korea-in-2024",
+    "event_slug": "yoon-out-as-president-of-south-korea-in-2024",
+    "title": "Yoon out as president of South Korea in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "8.43663e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Yoon declared martial law on Dec 3, 2024, was impeached by the National Assembly on Dec 14, 2024, and his presidential powers were suspended. However, 'out as president' likely requires removal/resignation; he remained the suspended president pending Constitutional Court ruling, which did not occur in 2024.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Yoon Suk-yeol declared martial law on December 3, 2024, lifted hours later",
+          "National Assembly impeached him on December 14, 2024; PM Han Duck-soo became acting president, then Choi Sang-mok",
+          "Constitutional Court had not ruled by end of 2024, so Yoon was suspended but technically still president"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xfd6bafc2a62c6ba0f7ff215582b3f47e7136654398bb01b1062a9f2ff58ce907",
+    "market_slug": "will-trump-be-speaker-by-mar-1",
+    "event_slug": "will-trump-be-speaker-by-mar-1",
+    "title": "Will Trump be Speaker by Mar 1?",
+    "category": "Politics",
+    "close_time": "2024-03-01T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "94761.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump never became Speaker of the House. Mike Johnson was elected Speaker in October 2023 and held the position through March 2024.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Mike Johnson was elected Speaker on October 25, 2023",
+          "Trump was campaigning for president in early 2024, not serving in Congress"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf4382dde59e9b53cb1601f1c9655bfadb12b3b01a3f11e6c645093e03a79e67c",
+    "market_slug": "israel-military-action-on-iran-by-april-15",
+    "event_slug": "israel-military-action-against-iran-by-april-15",
+    "title": "Israel military action against Iran by April 15?",
+    "category": "Politics",
+    "close_time": "2024-04-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "307829",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's retaliatory strike on Iran (Isfahan) occurred on April 19, 2024, after this market's close. Before April 15, Iran attacked Israel (April 13-14), but Israel's response came later. Depending on interpretation, this likely resolves No.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~300 drones/missiles at Israel on April 13-14, 2024",
+          "Israel's retaliatory strike on Isfahan, Iran occurred on April 19, 2024, after the close time"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9ce4ce441b98560634b67589135dac0034a45edaacf13455c9add1ddbb6b7dec",
+    "market_slug": "will-assad-remain-president-of-syria-through-2024",
+    "event_slug": "will-assad-remain-president-of-syria-through-2024",
+    "title": "Will Assad remain President of Syria through 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "7.5779e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Assad was overthrown in early December 2024 when rebel forces led by HTS captured Damascus, and he fled to Russia. He did not remain President through 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "HTS-led rebel offensive captured Aleppo in late November 2024 and Damascus around December 8, 2024",
+          "Assad fled to Russia and was granted asylum, ending over 50 years of Assad family rule"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xee5cfa9c103f04998a64ffe0888d7fb0dc58ac4f752f292ad2bad52658de5c1c",
+    "market_slug": "fact-check-was-it-an-attempt-on-trump",
+    "event_slug": "fact-check-was-it-an-attempt-on-trump",
+    "title": "Fact Check: Was it an attempt on Trump?",
+    "category": "Politics",
+    "close_time": "2024-09-22T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "86107.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The September 15, 2024 incident at Trump International Golf Club in West Palm Beach, where Ryan Routh was found with a rifle, was officially classified by the FBI as an apparent assassination attempt on Trump.",
+      "probabilities": {
+        "Yes": 0.95,
+        "No": 0.05
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "FBI classified the September 15, 2024 incident at Trump's West Palm Beach golf course as an apparent assassination attempt",
+          "Suspect Ryan Wesley Routh was apprehended with an SKS-style rifle after a Secret Service agent fired at him"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x45bc827a9d9dbbff931d78001c8c1933f2663afa75fd280323e40e5b95d09e6c",
+    "market_slug": "israel-military-action-against-iran-in-august",
+    "event_slug": "israel-military-action-against-iran-in-august",
+    "title": "Israel military action against Iran in August?",
+    "category": "Politics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "242109",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Despite high tensions following the Haniyeh assassination in late July 2024, Israel did not conduct direct military action against Iran during August 2024. Iran's retaliation was delayed, and Israel's strike on Iran came in late October 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Ismail Haniyeh was assassinated in Tehran on July 31, 2024, raising fears of escalation",
+          "Iran's retaliatory strike on Israel occurred October 1, 2024, with Israel striking Iran on October 26, 2024",
+          "No direct Israeli military action against Iranian territory occurred in August 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa72e30261eb4eb9f5b463f4cc0a20c833e8530be9fb37fdb37f5c735539e5931",
+    "market_slug": "favorite-to-win-on-polymarket-this-friday",
+    "event_slug": "favorite-to-win-on-polymarket-this-friday",
+    "title": "Favorite to win on Polymarket on Friday?",
+    "category": "Politics",
+    "close_time": "2024-09-06T12:00:00Z",
+    "actual_resolution": "Trump",
+    "volume": "5.39288e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "This appears to be a daily market about whether Trump remains favorite on Polymarket. In early September 2024, Trump was the favorite on Polymarket over Harris, so this likely resolved Yes.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x5df2a89874d3304ecda4162662760ffe623e8ece2eef7a91d878d39b414db0a4",
+    "market_slug": "will-donald-trump-say-border-15-or-more-times-during-his-uniondale-rally",
+    "event_slug": "what-will-trump-say-during-new-york-rally",
+    "title": "Will Donald Trump say \"border\" 15 or more times during his Uniondale rally?",
+    "category": "Politics",
+    "close_time": "2024-09-18T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "85776.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump's rallies typically feature heavy emphasis on border/immigration, often mentioning 'border' well over 15 times in a long speech. The Uniondale rally on Long Island focused heavily on immigration/crime themes.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x56ad4783e5a269afb3b9219a41d5eb8a9f553ea74ac8eeff5f2772060b70fffd",
+    "market_slug": "israel-action-against-iraq-before-december",
+    "event_slug": "israel-action-against-iraq-before-december",
+    "title": "Israel military action against Iraq before December?",
+    "category": "Politics",
+    "close_time": "2024-11-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "211294",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No clear public reports of direct Israeli military action against Iraq before December 2024. Israel's strikes have focused on Iran, Lebanon, Syria, Gaza, and Yemen. Iraq-based militias attacked Israel, but Israel has not openly struck Iraqi territory.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x01a9eea306780839c5cf9a15a572a438c23af6c49b57f67e8a379f5e48e0e4f8",
+    "market_slug": "joe-biden-impeached-before-2024-election",
+    "event_slug": "joe-biden-impeached-before-2024-election",
+    "title": "Joe Biden impeached before 2024 election?",
+    "category": "Politics",
+    "close_time": "2024-11-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "5.20012e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden was never impeached. House Republicans conducted an impeachment inquiry but no articles of impeachment were voted on or passed before the 2024 election.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "House formally authorized an impeachment inquiry in December 2023",
+          "No articles of impeachment were ever brought to a vote against Biden"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x914c8467c1d95287765dc90bc34bf9522b79f7b30b247e3940bdb169602b76c4",
+    "market_slug": "will-trump-say-border-30-or-more-times-during-pennsylvania-rally-on-october-9",
+    "event_slug": "what-will-trump-say-during-pennsylvania-rally-Oct-9",
+    "title": "Will Trump say \"Border\" 30 or more times during Pennsylvania rally on October 9?",
+    "category": "Politics",
+    "close_time": "2024-10-09T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "85748.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently emphasizes border issues at rallies, but saying 'Border' 30+ times is a high bar. Without specific recall of word-count from this rally, leaning slightly below 50%.",
+      "probabilities": {
+        "Yes": 0.3,
+        "No": 0.7
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xafbc04fc2f2b86a80436c52ac5dd2cba8dfa1b488be732a28b562e27b7261ef4",
+    "market_slug": "another-israeli-military-action-against-iran-before-the-election",
+    "event_slug": "another-israeli-military-action-against-iran-before-the-election",
+    "title": "Another Israeli military action against Iran before the election?",
+    "category": "Politics",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "167159",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel conducted strikes on Iran on October 26, 2024, targeting military sites. The question likely refers to an additional action after that one before the Nov 5 election. No further major strike occurred in that narrow window.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xf97bb0fe808d0625b5a6936a495d65a6414aa9491171c61196dbe8799063d5f1",
+    "market_slug": "kamala-president-by-friday",
+    "event_slug": "kamala-president-by-friday",
+    "title": "Kamala president by Friday?",
+    "category": "Politics",
+    "close_time": "2024-07-26T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4.78995e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden withdrew July 21, 2024 and endorsed Harris, but he remained president. Harris did not become president by July 26, 2024.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Biden withdrew from 2024 race on July 21, 2024 and endorsed Harris",
+          "Biden remained President throughout July 2024; Harris did not assume presidency"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x21cd3753eb7bccfce6242920d08c67231c60dc90022010da89315a0201ab4b54",
+    "market_slug": "will-trump-say-border-20-or-more-times-during-georgia-speech-on-oct-15",
+    "event_slug": "what-will-trump-say-during-georgia-speech-oct-15",
+    "title": "Will Trump say \"border\" 20 or more times during Georgia speech on Oct 15?",
+    "category": "Politics",
+    "close_time": "2024-10-15T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "67807.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently emphasizes border issues in campaign speeches, but 20+ mentions is a high bar for a single speech. Without specific recall, moderate probability.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x3d72fe0638a25f9e2b9b4460fc214b8b585e36caf9b1c85705ac3a9c04f5e2c1",
+    "market_slug": "israel-strikes-iranian-oil-in-2024",
+    "event_slug": "israel-strikes-iranian-oil-in-2024",
+    "title": "Israel strikes Iranian oil in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "140776",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's October 26, 2024 retaliatory strike on Iran targeted military sites (missile facilities, air defenses) and explicitly avoided oil and nuclear facilities, reportedly under US pressure. No other strikes on Iranian oil occurred in 2024.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel's October 26, 2024 'Operation Days of Repentance' struck Iranian military targets but deliberately avoided oil and nuclear sites",
+          "Reports indicated US pressure on Israel to refrain from striking Iranian oil infrastructure to avoid global oil price shocks"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x59b8ed567c7e887228ce8a4e262317049841346f9c9f0d39bfdcc1108b652033",
+    "market_slug": "will-biden-announce-resignation-by-august-31",
+    "event_slug": "will-biden-announce-resignation-by-august-31",
+    "title": "Biden resigns from presidency by August 31?",
+    "category": "Politics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "4.51689e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Biden withdrew from the 2024 presidential race on July 21, 2024, but did not resign from the presidency. He continued serving as president through the close date.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Biden dropped out of the presidential race on July 21, 2024, endorsing Kamala Harris",
+          "Biden remained in office as president, did not resign, and continued through term ending January 2025"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x8f4be814d1c5b27d00f0b72468a3fb47f44de3ddace60ec51192d651333949c2",
+    "market_slug": "fact-check-was-it-a-rogue-actor-2024",
+    "event_slug": "fact-check-was-it-a-rogue-actor-2024",
+    "title": "Fact check: Was it a rogue actor? ",
+    "category": "Politics",
+    "close_time": "2024-09-30T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "65932.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Without context on what specific event this fact-check refers to, I cannot verify. Generally, 'rogue actor' claims tend to be disputed or unconfirmed in fact-checks.",
+      "probabilities": {
+        "Yes": 0.2,
+        "No": 0.8
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xce4529f541a972c181cacaa172b49df58bc3f44cc4c0089d1a2767c7caa0d325",
+    "market_slug": "will-iran-strike-gulf-oil-facilities-in-october",
+    "event_slug": "will-iran-strike-gulf-oil-facilities-in-october",
+    "title": "Will Iran strike gulf oil facilities in October? ",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "105674",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran did not strike Gulf oil facilities in October 2024. Tensions were high after Iran's Oct 1 missile attack on Israel and Israel's Oct 26 retaliation, but Iran did not target Gulf oil infrastructure.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~180 ballistic missiles at Israel on Oct 1, 2024",
+          "Israel retaliated on Oct 26, 2024 with strikes on Iranian military sites, avoiding oil/nuclear facilities; Iran did not strike Gulf oil facilities in response"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x68ff092a4ea332946bc7ca59efc2b2a56bb702fd0d85d02ba883d29d7fdc5f2e",
+    "market_slug": "south-korean-president-impeached-in-2024",
+    "event_slug": "south-korean-president-impeached-in-2024",
+    "title": "South Korean President impeached in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "3.82943e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "President Yoon Suk-yeol declared martial law on Dec 3, 2024, and was impeached by the National Assembly on Dec 14, 2024.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Yoon Suk-yeol declared martial law on December 3, 2024, which was quickly overturned by the National Assembly",
+          "National Assembly voted to impeach Yoon on December 14, 2024, with 204 in favor"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x002a797edf040e8a053e62b26d85a0292df091c5cacb303ae31407c8a050a32c",
+    "market_slug": "will-matt-gaetz-be-expelled-from-congress-before-may",
+    "event_slug": "will-matt-gaetz-be-expelled-from-congress-before-may",
+    "title": "Will Matt Gaetz be expelled from Congress before May?",
+    "category": "Politics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "65354.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Matt Gaetz was not expelled from Congress before May 2024. He resigned later in November 2024 after being nominated for AG, but was never expelled.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Gaetz remained a sitting House member throughout April 2024",
+          "No expulsion vote against Gaetz occurred; he later resigned in November 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x013142626607e6d1088977fb94e96f43e6d20080f05b77e84ac50cc97dc92682",
+    "market_slug": "us-call-for-gaza-ceasefire-before-march",
+    "event_slug": "us-call-for-gaza-ceasefire-before-march",
+    "title": "US call for Gaza ceasefire before March?",
+    "category": "Politics",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "74934.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The US drafted and circulated a UN Security Council resolution in late February 2024 calling for a temporary ceasefire in Gaza, a notable shift from prior vetoes. This likely satisfies the resolution criteria.",
+      "probabilities": {
+        "Yes": 0.9,
+        "No": 0.1
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US circulated a UNSC draft resolution around Feb 19-20, 2024 calling for a temporary ceasefire as soon as practicable",
+          "Biden and Blinken publicly used 'ceasefire' language in late February 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x0f99544f8db2651fdafb79636924b4d9ec73c9b61d77a9e56f467c6b0c932c3d",
+    "market_slug": "will-putin-remain-president-of-russia-through-2024",
+    "event_slug": "will-putin-remain-president-of-russia-through-2024",
+    "title": "Will Putin remain President of Russia through 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.18763e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Putin won the March 2024 Russian presidential election with ~87% and was inaugurated for a new term in May 2024. He remained President throughout 2024.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Putin won the March 15-17, 2024 Russian presidential election with approximately 87% of the vote",
+          "He was inaugurated for his fifth term on May 7, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xadeda1e5e557f2d5b241a10e7c05c984a20e315f7a580abb853b0a804f11bd70",
+    "market_slug": "mike-johnson-out-as-speaker-before-may",
+    "event_slug": "mike-johnson-out-as-speaker-before-may",
+    "title": "Mike Johnson out as Speaker before May?",
+    "category": "Politics",
+    "close_time": "2024-04-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "62284.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "MTG filed a motion to vacate but Johnson survived through April 2024 with Democratic help expected. He remained Speaker through this period.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Marjorie Taylor Greene filed motion to vacate against Johnson in late March 2024",
+          "Hakeem Jeffries and House Democrats signaled they would save Johnson over Ukraine aid passage",
+          "The motion to vacate vote occurred in May 2024 and was tabled"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x74925de46e2bcf52522250d8df0933e3d727ca4989d9f865bf79e7474e38e45a",
+    "market_slug": "strike-on-dimonah-nuclear-base-in-october",
+    "event_slug": "strike-on-dimonah-nuclear-base-in-october",
+    "title": "Strike on Dimonah nuclear base in October?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "66003.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran's October 1 missile attack on Israel did not strike the Dimona nuclear facility. No confirmed strike on Dimona occurred in October 2024.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x04a387391c702a695c446f155969c6e8907ae3b43315e8249f8a72de81bb0c76",
+    "market_slug": "south-korean-president-impeached-by-friday",
+    "event_slug": "south-korean-president-impeached-by-friday",
+    "title": "South Korean President impeached by Friday?",
+    "category": "Politics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.02176e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The first impeachment vote against President Yoon Suk-yeol was scheduled for Saturday Dec 7, 2024, after his short-lived martial law declaration on Dec 3. By Friday Dec 6 close, no impeachment had occurred yet, and the Dec 7 vote ultimately failed due to PPP boycott. He was impeached on Dec 14.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Yoon Suk-yeol declared martial law late Dec 3, 2024, lifted hours later",
+          "First impeachment vote scheduled for Dec 7, 2024 (Saturday), not before Friday Dec 6",
+          "Yoon was eventually impeached on Dec 14, 2024 in a second vote"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x3c3b3cd604871d9247512a0572c49dfb46c6e5d981f9e35e3018fd91051e1272",
+    "market_slug": "capital-gains-tax-increase-before-election-day",
+    "event_slug": "capital-gains-tax-increase-before-election-day",
+    "title": "Capital gains tax increase before election day?",
+    "category": "Politics",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "59611.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No capital gains tax increase was enacted before the November 2024 US election. Congress was divided and no such legislation passed.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "No federal capital gains tax legislation was passed in 2024 before election day",
+          "Biden/Harris proposals for capital gains increases remained proposals, not law"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xa826abc6e91935f4caa8f1fb0f3d3c33f63322e09cba16183043b052dd0a7ab9",
+    "market_slug": "will-israel-attack-iran-by-february-15",
+    "event_slug": "will-israel-attack-iran-by-february-15",
+    "title": "Will Israel attack Iran by February 15?",
+    "category": "Politics",
+    "close_time": "2024-02-15T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "59338",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No direct Israeli military strike on Iranian territory occurred before February 15, 2024. Tensions were high amid the Gaza war and proxy conflicts, but a direct Israel-Iran attack did not happen until April 2024.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel's first acknowledged direct strike on Iranian soil occurred on April 19, 2024, after an Iranian drone/missile attack on April 13, 2024",
+          "Through February 2024, Israel-Iran confrontation remained via proxies (Hezbollah, Houthis) and strikes in Syria, not direct attacks on Iran"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb7e10f4e27c23797fea410d0ea486ff2c310caec82e88cb65eb0326f0b7ff8c5",
+    "market_slug": "will-joe-biden-be-president-of-the-united-states-on-june-1-2023",
+    "event_slug": "will-joe-biden-be-president-of-the-united-states-on",
+    "title": "Will Joe Biden be President of the United States on June 1, 2023?",
+    "category": "Politics",
+    "close_time": "2023-06-01T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "828644",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Joe Biden was indeed President of the United States on June 1, 2023, having been inaugurated January 20, 2021 with term running through January 20, 2025.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Biden inaugurated as 46th President on January 20, 2021",
+          "Biden was actively serving in 2023, including signing debt ceiling deal in early June 2023"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xec1cfd6994ed8d8992bc7044d502cc8005d77674fc824d85f1cb29d966285679",
+    "market_slug": "will-egypt-open-its-border-for-palestinian-refugees-by-nov-1",
+    "event_slug": "will-egypt-open-its-border-for-palestinian-refugees-by-nov-1",
+    "title": "Will Egypt open its border for Palestinian refugees by Nov 1?",
+    "category": "Politics",
+    "close_time": "2023-11-01T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "58300",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Egypt consistently refused to open Rafah for mass Palestinian refugee influx, citing security and political concerns. Only limited evacuations of foreign nationals and wounded began around Nov 1, not refugee flows.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Egypt's President Sisi publicly opposed displacement of Palestinians into Sinai",
+          "Rafah crossing remained closed to refugees; only limited foreign passport holders and wounded began crossing on Nov 1, 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xba88ad56b893b0023fb614877575ade894be0080dc410abc67199b6f99524947",
+    "market_slug": "iran-response-to-israel-by-friday-apr-12",
+    "event_slug": "iran-response-to-israel-by-friday-apr-12",
+    "title": "Iran response to Israel by Friday?",
+    "category": "Politics",
+    "close_time": "2024-04-12T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "54905.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran's retaliatory strike against Israel occurred on April 13, 2024, after the Friday April 12 close. By Friday April 12, Iran had not yet launched its response despite threats.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched its drone and missile attack on Israel on the night of April 13-14, 2024, after the Friday deadline",
+          "This was retaliation for the April 1 Israeli strike on the Iranian consulate in Damascus"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x6e1ccefd084681cfcb06ef028b5a2122aa9d9a45f44dd8e7484e6372b009c6b2",
+    "market_slug": "will-nikki-haley-drop-out-before-south-carolina-primary",
+    "event_slug": "will-nikki-haley-drop-out-before-south-carolina-primary",
+    "title": "Will Nikki Haley drop out before South Carolina primary?",
+    "category": "Politics",
+    "close_time": "2024-02-24T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "649854",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Nikki Haley did not drop out before the South Carolina primary on Feb 24, 2024; she stayed in, lost to Trump in her home state, and continued campaigning until Super Tuesday.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Haley competed in the SC primary on Feb 24, 2024 and lost to Trump",
+          "She did not suspend her campaign until after Super Tuesday in early March 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x316c082d32423896d322a3b5d2565a4d9d40d41921cd21e9a4fb9737599a9ca3",
+    "market_slug": "will-trump-say-border-30-or-more-times-during-wisconsin-rally",
+    "event_slug": "what-will-trump-say-at-wisconsin-rally",
+    "title": "Will Trump say \"Border\" 30 or more times during Wisconsin rally?",
+    "category": "Politics",
+    "close_time": "2024-10-06T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "57639.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently discusses immigration but saying 'Border' 30+ times in a single rally is a high bar. Without specific recall, I lean slightly toward No.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x9f98b7f570bdcf9a6924d601bb4531eb7af074dd276af32516ba6d6dc1a8eee9",
+    "market_slug": "us-call-for-gaza-ceasefire-before-february",
+    "event_slug": "us-call-for-gaza-ceasefire-before-february",
+    "title": "US call for Gaza ceasefire before February?",
+    "category": "Politics",
+    "close_time": "2024-01-31T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "49269.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In January 2024, the US continued to oppose an immediate unconditional ceasefire, vetoing UN Security Council resolutions and instead calling for humanitarian pauses. The US did not formally call for a ceasefire before February 2024.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US vetoed UN Security Council ceasefire resolution in December 2023",
+          "Biden administration consistently used 'humanitarian pause' language rather than ceasefire through January 2024",
+          "US shift toward calling for ceasefire came later, around late February/March 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x26c77208c81a1453fcab3ac7c99ced140b85d258da9b3d4f53899fe4466af16f",
+    "market_slug": "will-putin-remain-president-of-russia-through-2023",
+    "event_slug": "will-putin-remain-president-of-russia-through-2023",
+    "title": "Will Putin remain President of Russia through 2023?",
+    "category": "Politics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "546818",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Putin remained President of Russia throughout 2023, surviving the brief Wagner mutiny in June 2023.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Putin remained in power throughout 2023 despite the Wagner Group mutiny led by Prigozhin in June 2023",
+          "Prigozhin died in a plane crash in August 2023, removing the main internal challenger to Putin"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x9a363b3d4aa3c41f1e55166b418820d305e56f5436578d5e52d90417a4ca0609",
+    "market_slug": "will-trump-say-border-20-or-more-times-during-north-carolina-rally-october-22",
+    "event_slug": "what-will-trump-say-during-north-carolina-rally-oct-22",
+    "title": "Will Trump say \"Border\" 20 or more times during North Carolina rally October 22?",
+    "category": "Politics",
+    "close_time": "2024-10-22T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "48083.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently emphasizes border issues at rallies, often mentioning 'border' many times. However, 20+ is a high threshold for a single rally. Without specific recall, I estimate moderate probability.",
+      "probabilities": {
+        "Yes": 0.4,
+        "No": 0.6
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x394f3dc5bc4896167c842b17d388b0223f3c2ae3ae49c54c823331f0aced132d",
+    "market_slug": "iran-response-to-israel-by-wednesday",
+    "event_slug": "iran-response-to-israel-by-wednesday",
+    "title": "Iran response to Israel by Friday?",
+    "category": "Politics",
+    "close_time": "2024-04-03T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "35495.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran's retaliation for the April 1, 2024 Israeli strike on its Damascus consulate did not occur until April 13, 2024. By April 3-5, no direct response had occurred yet.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel struck Iran's consulate in Damascus on April 1, 2024, killing IRGC commanders including Mohammad Reza Zahedi",
+          "Iran's direct retaliation (Operation True Promise) occurred on April 13, 2024, with drones and missiles, well after April 5"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb94baf3415f7b0c3108f62090c7c982f6c9c21eff24e3299ebf2d3bfaf30b0a7",
+    "market_slug": "south-korea-martial-law-lifted-today",
+    "event_slug": "south-korea-martial-law-lifted-today",
+    "title": "Will South Korean President lift martial law today?",
+    "category": "Politics",
+    "close_time": "2024-12-03T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "496208",
+    "status": "ok",
+    "forecast": {
+      "rationale": "President Yoon Suk-yeol declared martial law late on Dec 3, 2024, but the National Assembly voted to block it within hours, and Yoon announced he would lift it. However, the close time is 12:00 UTC Dec 3, which is 21:00 KST — the formal lifting via cabinet occurred around 04:30 KST Dec 4 (19:30 UTC Dec 3), after close.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Yoon Suk-yeol declared emergency martial law around 22:30 KST on Dec 3, 2024",
+          "National Assembly voted 190-0 to lift martial law; cabinet formally lifted it around 4:30 AM KST Dec 4"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7606862977d12246d16ca6a7f07b12ee71945309da8734ae0e376f5fa98ea854",
+    "market_slug": "will-trump-say-border-30-or-more-times-during-georgia-rally-on-october-28",
+    "event_slug": "what-will-trump-say-during-georgia-rally-oct-28",
+    "title": "Will Trump say \"Border\" 30 or more times during Georgia rally on October 28?",
+    "category": "Politics",
+    "close_time": "2024-10-28T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "45460.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently mentions 'border' at rallies, but hitting 30+ times in a single speech is a high bar. Without specific recall of this rally's word count, I lean slightly against.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x1ece049871ed71da5cc344a1117c6e5095d23ac33b1844e3ee4c9ab4741c3bf3",
+    "market_slug": "iran-response-to-israel-by-april-14",
+    "event_slug": "iran-response-to-israel-by-april-14",
+    "title": "Iran response to Israel by Sunday?",
+    "category": "Politics",
+    "close_time": "2024-04-14T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "25035.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran launched a large drone and missile attack on Israel on the night of April 13-14, 2024, in response to the Israeli strike on the Iranian consulate in Damascus. This occurred before the close time on Sunday April 14.",
+      "probabilities": {
+        "Yes": 0.98,
+        "No": 0.02
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched Operation True Promise on April 13, 2024, firing over 300 drones and missiles at Israel",
+          "This was retaliation for the April 1, 2024 Israeli strike on the Iranian consulate in Damascus that killed IRGC commanders"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x5174263253bf14cd7c72464e3318493cc84b85fbb1cb0da3904a65996cb941ed",
+    "market_slug": "will-taylor-swift-endorse-kamla-harris",
+    "event_slug": "will-taylor-swift-endorse-kamla-harris",
+    "title": "Will Taylor Swift endorse Kamala Harris?",
+    "category": "Politics",
+    "close_time": "2024-11-04T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "492536",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Taylor Swift endorsed Kamala Harris on Instagram immediately after the September 10, 2024 presidential debate, signing the post 'Childless Cat Lady'.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Endorsement posted on Instagram on September 10, 2024 following the Harris-Trump debate",
+          "Post signed 'Childless Cat Lady' in reference to JD Vance's prior comments"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xec8d981e3a67122affddbfe13c84aeaed75cd70e28d7deaed98785f376c2a351",
+    "market_slug": "will-donald-trump-say-border-25-or-more-times-during-his-georgia-speech",
+    "event_slug": "what-will-trump-say-during-georgia-speech",
+    "title": "Will Donald Trump say \"border\" 25 or more times during his Georgia speech?",
+    "category": "Politics",
+    "close_time": "2024-09-24T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "43001.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently emphasizes border issues in campaign speeches, especially in swing states like Georgia. 25 mentions is a high but achievable threshold for a full rally speech focused heavily on immigration.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x21ae58a17e5dca401f90802d044a416fd7f41f6f6d08c6601572e07e0880f84e",
+    "market_slug": "iran-response-to-israel-by-monday",
+    "event_slug": "iran-response-to-israel-by-monday",
+    "title": "Iran response to Israel by Monday?",
+    "category": "Politics",
+    "close_time": "2024-04-08T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "20252.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Iran's retaliation for the April 1 Damascus consulate strike occurred on April 13, 2024, not by April 8. No major direct Iranian military response had occurred by Monday April 8.",
+      "probabilities": {
+        "Yes": 0.04,
+        "No": 0.96
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran's direct retaliatory strike (Operation True Promise) with drones and missiles occurred on April 13-14, 2024",
+          "The Damascus consulate strike that prompted threats was on April 1, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x449a47a83be7a20c0330e3f5aeff2da4d65fa5cda77da97e81660474ee29b1c2",
+    "market_slug": "180-199-mps-vote-to-impeach-yoon",
+    "event_slug": "of-votes-for-impeachment-in-south-korea",
+    "title": "180-199 MPs vote to impeach Yoon?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "469158",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The second impeachment vote on December 14, 2024 passed with 204 votes in favor, which falls in the 200-219 range, not 180-199.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "On December 14, 2024, the National Assembly impeached President Yoon Suk-yeol with 204 votes in favor",
+          "First impeachment attempt on December 7 failed due to PPP boycott (lacking quorum)",
+          "Total assembly seats: 300; 192 opposition + at least 12 PPP defectors voted yes"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd3f61cf160d2fdcb21d3079f210610a58abfb97fc60e0e49ff1c6f9ca8efc012",
+    "market_slug": "us-evacuates-beirut-embassy-by-august-31",
+    "event_slug": "us-evacuates-beirut-embassy-by-august-31",
+    "title": "U.S. evacuates Beirut Embassy by August 31?",
+    "category": "Politics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "38875.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While tensions were high in Lebanon in August 2024 with potential Israel-Hezbollah escalation, the US Embassy in Beirut was not fully evacuated by August 31, 2024. Non-emergency staff drawdowns occurred but no full evacuation.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US ordered departure of family members and some non-emergency personnel earlier in 2024",
+          "No full embassy evacuation occurred before August 31, 2024 despite regional tensions"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x142f700ff49206ba1cbb23d45a7dfafb8203630aa49a926a00c3e97f4ce8c228",
+    "market_slug": "iran-response-to-israel-by-april-19",
+    "event_slug": "iran-response-to-israel-by-april-19",
+    "title": "Iran response to Israel by April 19?",
+    "category": "Politics",
+    "close_time": "2024-04-19T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "15670.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel struck Iran (Isfahan area) in the early hours of April 19, 2024, but this market is about Iran's response to Israel's prior April 13 attack response — context suggests this resolves Yes given Iran already launched the April 13-14 drone/missile attack. However, if framed as a follow-up response post-Israel's April 19 strike, timing is tight. Most likely Yes given Iran's April 13 attack.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched ~300 drones and missiles at Israel on April 13-14, 2024 in retaliation for the Damascus consulate strike",
+          "Israel reportedly struck near Isfahan, Iran on April 19, 2024"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc835500bd64bff77ed89d071b9fa5830746b584f4a9700f6714c36b10a17ae95",
+    "market_slug": "south-korean-opposition-leader-lee-arrested-by-friday",
+    "event_slug": "south-korean-opposition-leader-lee-arrested-by-friday",
+    "title": "South Korean Dem Party leader arrested by Friday?",
+    "category": "Politics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "229652",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the brief martial law declaration by President Yoon on Dec 3, 2024, there was talk of arresting opposition figures including DP leader Lee Jae-myung, but martial law was lifted within hours and no arrest occurred. By Friday Dec 6, Lee was actively leading impeachment efforts, not arrested.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Yoon Suk-yeol declared martial law late Dec 3, 2024, lifted within ~6 hours after National Assembly vote",
+          "Lee Jae-myung climbed the National Assembly fence and led the vote against martial law; he was not arrested and led impeachment push that week"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xd0be21096143ed343aa309d474d6e93ad2c6eb4f904710c1c7200bcd7db6e097",
+    "market_slug": "netanyahu-adress-us-congress-in-june",
+    "event_slug": "netanyahu-adress-us-congress-in-june",
+    "title": "Netanyahu address to US congress in June?",
+    "category": "Politics",
+    "close_time": "2024-06-30T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "31540.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Netanyahu was invited to address Congress but the address was scheduled for July 24, 2024, not June. The June address did not occur.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Netanyahu's joint address to Congress took place on July 24, 2024",
+          "Speaker Mike Johnson and other leaders invited him in June but the speech was scheduled for late July"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x02e98c813ca25b70ffa6db68163d842ec6400fb934160359773038bec456a87a",
+    "market_slug": "us-strike-against-houthis-by-friday",
+    "event_slug": "us-strike-against-houthis-by-friday",
+    "title": "US strike against Houthis by Friday?",
+    "category": "Politics",
+    "close_time": "2024-01-12T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "16205.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "US and UK launched airstrikes against Houthi targets in Yemen on January 11, 2024 (Thursday night/Friday), in response to Red Sea shipping attacks. This resolves Yes.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "US and UK conducted joint airstrikes on Houthi targets in Yemen on January 11, 2024",
+          "Strikes targeted radar, drone, and missile sites in response to Red Sea attacks on commercial shipping"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xc2704cedf3f9353343a5735c17ed9220d1b39b99186bed58afef4724a1ef2a9a",
+    "market_slug": "macron-out-as-president-in-2024",
+    "event_slug": "macron-out-as-president-in-2024",
+    "title": "Macron out as president of France in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "206359",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Macron remained President of France throughout 2024 despite political turmoil including dissolving the National Assembly and multiple PM changes. He explicitly stated he would not resign.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Macron dissolved the National Assembly in June 2024 after EU election losses",
+          "Macron publicly stated he would serve out his term until 2027 and refused calls to resign",
+          "Michel Barnier's government fell in December 2024 but Macron remained president and appointed Bayrou"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x83308a9b10b04b03456c6185291ceca50167497bab3bdbbd30e07a2de4b95fc6",
+    "market_slug": "george-santos-expelled-in-2023",
+    "event_slug": "george-santos-expelled-in-2023",
+    "title": "George Santos expelled in 2023?",
+    "category": "Politics",
+    "close_time": "2023-12-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "30123.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "George Santos was expelled from the U.S. House of Representatives on December 1, 2023, by a vote of 311-114, becoming the sixth member ever expelled.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Expelled on December 1, 2023 by House vote 311-114",
+          "Sixth member ever expelled from the House; followed damning House Ethics Committee report"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x988438e45765687cc6c5d456abb95931226d454536bfc96ce16980cae6acad3e",
+    "market_slug": "israel-x-iran-peace-deal-in-2024",
+    "event_slug": "israel-x-iran-peace-deal-in-2024",
+    "title": "Israel x Iran peace deal in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "198429",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel and Iran were in active conflict throughout 2024, including direct missile exchanges in April and October. No peace deal was negotiated or signed.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Iran launched direct missile/drone attacks on Israel in April 2024 and October 2024",
+          "Israel conducted retaliatory strikes on Iranian military targets in October 2024",
+          "No diplomatic peace agreement existed between the two states in 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x2d700d9818cad0e6ad595ecd1cb0f1cc398f098ab944527bb033c1817f31d2a7",
+    "market_slug": "assad-public-appearance-before-2025",
+    "event_slug": "assad-public-appearance-before-2025",
+    "title": "Assad public appearance before 2025?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "144764",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Assad fled to Russia in early December 2024 after his regime collapsed. He released a written statement but no public video/audio appearance was made before year-end as far as I recall.",
+      "probabilities": {
+        "Yes": 0.1,
+        "No": 0.9
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Assad regime fell on December 8, 2024 as rebels led by HTS took Damascus",
+          "Assad fled to Moscow and was granted asylum by Russia",
+          "A written statement was published via Telegram around December 16, 2024 but no public video appearance"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x7222faf17c6b889d1c42cc1937cb09aff64b22fa677eb76db33c34e708e2b9ee",
+    "market_slug": "will-netanyahu-meet-with-trump",
+    "event_slug": "will-netanyahu-meet-with-trump",
+    "title": "Will Netanyahu meet with Trump? ",
+    "category": "Politics",
+    "close_time": "2024-07-28T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "22186.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Netanyahu visited the US in late July 2024, addressing Congress on July 24. He met with Trump at Mar-a-Lago on July 26, 2024, before the close time.",
+      "probabilities": {
+        "Yes": 0.97,
+        "No": 0.03
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Netanyahu met Trump at Mar-a-Lago on July 26, 2024",
+          "Netanyahu addressed a joint session of Congress on July 24, 2024 during the same US visit"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0x825979da04e73c1f0df28132de975b19a53b54faf7e672e822aa10c9031c1201",
+    "market_slug": "israel-military-action-against-iraq-before-november",
+    "event_slug": "israel-military-action-against-iraq-before-november",
+    "title": "Israel military action against Iraq before November?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "2.77802e+07",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Israel's military focus in October 2024 was on Gaza, Lebanon (Hezbollah), and Iran directly (Oct 26 strike). No reported Israeli military action against Iraq itself before Nov 1, though Iraqi militias launched drones at Israel.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xdc15443bc77dd777a12bb7501589284742a68f841439e0393c2684af2e566409",
+    "market_slug": "south-korean-peoples-power-party-leader-arrested-by-friday",
+    "event_slug": "south-korean-peoples-power-party-leader-arrested-by-friday",
+    "title": "South Korean People’s Power leader arrested by Friday?",
+    "category": "Politics",
+    "close_time": "2024-12-06T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "108288",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Following the brief martial law declaration by President Yoon, there was political turmoil but the People's Power party leader (Han Dong-hoon) was not arrested. Arrests of party leaders by Friday Dec 6 are highly unlikely.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Han Dong-hoon was the People Power Party leader during the December 2024 martial law crisis",
+          "Yoon's short-lived martial law declaration on Dec 3, 2024 was lifted within hours; Han opposed it but was not arrested"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xb9562403498631638145e360d4d1e6c0b4d6329409fe9a383909efe9eda9a6a0",
+    "market_slug": "ilhan-omar-expelled-from-congress-before-march",
+    "event_slug": "ilhan-omar-expelled-from-congress-before-march",
+    "title": "Ilhan Omar expelled from Congress before March?",
+    "category": "Politics",
+    "close_time": "2024-02-29T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "3359.34",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ilhan Omar was not expelled from Congress. No expulsion resolution succeeded against her.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Omar remained a sitting member of Congress through 2024",
+          "No expulsion vote against Omar succeeded; she was only removed from the Foreign Affairs Committee in early 2023"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0xf55d2f81238a7cca0879dc152c4a5a51566c7a27f5fa4e65f7a04ce2ec039492",
+    "market_slug": "us-military-action-against-iran-before-november",
+    "event_slug": "us-military-action-against-iran-before-november",
+    "title": "U.S. military action against Iran before November?",
+    "category": "Politics",
+    "close_time": "2024-10-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "1.07065e+06",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No direct U.S. military action against Iran occurred before November 2024. Israel struck Iran in October, but the U.S. did not directly attack Iran, though it conducted strikes on Iran-backed militias in Iraq/Syria/Yemen which typically don't count as action against Iran itself.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Israel conducted airstrikes on Iran on October 26, 2024, but US did not directly strike Iran",
+          "US deployed THAAD to Israel and conducted strikes on Houthis but no direct strikes on Iranian territory before November 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x874624e0fd5ba512f78c49988274509bc572fccfcf1c24ed1036cd649419155b",
+    "market_slug": "will-putin-remain-president-of-russia-through-march",
+    "event_slug": "will-putin-remain-president-of-russia-through-march",
+    "title": "Will Putin remain President of Russia through March?",
+    "category": "Politics",
+    "close_time": "2024-03-31T00:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "99623.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Putin won the March 2024 Russian presidential election and remained in power throughout March 2024.",
+      "probabilities": {
+        "Yes": 0.99,
+        "No": 0.01
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Russian presidential election held March 15-17, 2024, with Putin winning around 87% of the vote",
+          "Putin remained in office throughout March 2024 with no interruption"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xad1de3cef1690a938ec3963a0da5c639b8a8dc9242505f6cfc5d2d3acb0e0bb7",
+    "market_slug": "will-trump-post-border-3-or-more-times-on-final-night-of-dnc",
+    "event_slug": "what-will-trump-post-during-final-night-of-dnc",
+    "title": "Will Trump post \"Border\" 3 or more times on final night of DNC?",
+    "category": "Politics",
+    "close_time": "2024-08-22T12:00:00Z",
+    "actual_resolution": "Yes",
+    "volume": "511.67",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Trump frequently posts about the border, especially during DNC counter-programming. On the final DNC night (Aug 22, 2024), he was highly active on Truth Social attacking Harris, with immigration/border being a top theme. Three mentions is a low bar.",
+      "probabilities": {
+        "Yes": 0.82,
+        "No": 0.18
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x2bb0599cb3f3223bd000006dd28fcd901c9920e78e6d31337552c0f8ec9d9a5b",
+    "market_slug": "us-military-action-against-iran-in-2024",
+    "event_slug": "us-military-action-against-iran-in-2024",
+    "title": "U.S. military action against Iran in 2024?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "495157",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No direct U.S. military strikes on Iranian territory occurred in 2024. While tensions were high with Iran-backed proxy conflicts, direct U.S. action against Iran itself did not materialize. Definition ambiguity creates some uncertainty, but typically this resolves No.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xbd45dd5a7501dfb4cf0663def92be0daa0f4eed6e36de0a96b19e944aeb8c62b",
+    "market_slug": "karine-jean-pierre-out-as-press-secretary-by-july-31",
+    "event_slug": "karine-jean-pierre-out-as-press-secretary-by-july-31",
+    "title": "Karine Jean-Pierre out as Press Secretary by July 31?",
+    "category": "Politics",
+    "close_time": "2024-07-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "95022.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Karine Jean-Pierre remained White House Press Secretary throughout July 2024 and continued in the role under Biden until the end of his term.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "KJP continued giving White House press briefings through July 2024",
+          "She remained Press Secretary even after Biden withdrew from the 2024 race on July 21, 2024"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x65e6e0951a9011d9a63083762a7e36599620ef467b612696720247435a0ea89b",
+    "market_slug": "ca-13-election-gray-d-vs-duarte-r",
+    "event_slug": "ca-13-election-gray-d-vs-duarte-r",
+    "title": "CA-13 election: Gray (D) vs. Duarte (R)",
+    "category": "Politics",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Gray",
+    "volume": "580704",
+    "status": "ok",
+    "forecast": {
+      "rationale": "In the 2024 CA-13 race, Democrat Adam Gray narrowly defeated incumbent Republican John Duarte after a lengthy count, by about 187 votes. The market title appears to ask if Gray wins, which resolved Yes.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Adam Gray (D) defeated incumbent John Duarte (R) in California's 13th Congressional District in 2024",
+          "The race was extremely close, decided by approximately 187 votes after weeks of counting"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xe28de23964e2afe5d77e572e82f4fa7cdfdc9ad637883a2259f2c9e7d04b4196",
+    "market_slug": "us-military-action-against-iran-by-august-31",
+    "event_slug": "us-military-action-against-iran-by-august-31",
+    "title": "U.S. military action against Iran by August 31?",
+    "category": "Politics",
+    "close_time": "2024-08-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "313678",
+    "status": "ok",
+    "forecast": {
+      "rationale": "No direct U.S. military action against Iran occurred by August 31, 2024. While tensions were high following the Haniyeh assassination, the U.S. did not strike Iran directly.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x6685f0ad387a4a62760e9986c7b76944332a035e8b84a608f22263c1533d5d05",
+    "market_slug": "who-will-be-asked-the-first-debate-question",
+    "event_slug": "who-will-be-asked-the-first-debate-question",
+    "title": "Who is asked the first debate question?",
+    "category": "Politics",
+    "close_time": "2024-09-10T12:00:00Z",
+    "actual_resolution": "Kamala",
+    "volume": "87628.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "The title is ambiguous without specifying a person. Without a named subject, I can't meaningfully assess. Defaulting to uncertain.",
+      "probabilities": {
+        "Yes": 0.5,
+        "No": 0.5
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0xebcc07c03af9faaf2de5370479db56f674082cf40af87d9177a1ab116c6a1cce",
+    "market_slug": "wa-03-house-race-perez-d-vs-kent-r",
+    "event_slug": "wa-03-house-race-perez-d-vs-kent-r",
+    "title": "WA-03 election: Glusenkamp Perez (D) vs. Kent (R)",
+    "category": "Politics",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Perez",
+    "volume": "283277",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Marie Gluesenkamp Perez defeated Joe Kent in the 2024 WA-03 rematch, narrowly winning re-election.",
+      "probabilities": {
+        "Yes": 0.92,
+        "No": 0.08
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Gluesenkamp Perez won the 2022 WA-03 race against Kent by about 2,600 votes",
+          "In the 2024 rematch she again defeated Kent, by a slightly larger margin"
+        ],
+        "recalled_outcome_if_known": "Yes"
+      }
+    }
+  },
+  {
+    "condition_id": "0xaf483ff45a1c3ee0d943693843509a9033d7f284137d09c3ed83eae2d497d5bd",
+    "market_slug": "will-hamas-allow-idf-to-remain-in-gaza",
+    "event_slug": "will-hamas-allow-idf-to-remain-in-gaza",
+    "title": "Will Hamas allow IDF to remain in Gaza?",
+    "category": "Politics",
+    "close_time": "2024-12-31T12:00:00Z",
+    "actual_resolution": "No",
+    "volume": "146084",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Hamas has consistently demanded full IDF withdrawal as a condition for any ceasefire deal throughout 2024. No agreement was reached by year-end allowing IDF to remain in Gaza.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
+    }
+  },
+  {
+    "condition_id": "0x627b7da775d65752afcc6dcaf63141b0d41bd9b361d5ce6907c907afb4652f89",
+    "market_slug": "will-ronna-mcdaniel-step-down-as-rnc-chair-before-super-tuesday",
+    "event_slug": "will-ronna-mcdaniel-step-down-as-rnc-chair-before-super-tuesday",
+    "title": "Will Ronna Mcdaniel step down as RNC Chair before Super Tuesday?",
+    "category": "Politics",
+    "close_time": "2024-03-05T00:00:00Z",
+    "actual_resolution": "No",
+    "volume": "81831.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "McDaniel announced in February 2024 that she would step down, but her resignation was effective after Super Tuesday, around March 8, 2024. So she did not step down before Super Tuesday.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "McDaniel announced February 26, 2024 she would resign effective March 8, 2024",
+          "Her departure was timed to occur after Super Tuesday (March 5, 2024)"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  },
+  {
+    "condition_id": "0x40e994f2cde8c7ca564c1b54b397a5cbd3a01295d842b1fb34766d45032a9df7",
+    "market_slug": "ia-01-election-bohannan-d-vs-miller-meeks-r",
+    "event_slug": "ia-01-election-bohannan-d-vs-miller-meeks-r",
+    "title": "IA-01 election: Bohannan (D) vs. Miller-Meeks (R)",
+    "category": "Politics",
+    "close_time": "2024-11-05T12:00:00Z",
+    "actual_resolution": "Miller-Meeks",
+    "volume": "90658",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Miller-Meeks won re-election in IA-01 in 2024 by a very narrow margin (under 1%) over Bohannan in a rematch. The market title likely resolves based on Miller-Meeks winning, so 'Yes' for Bohannan would be No.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "Mariannette Miller-Meeks won IA-01 re-election in 2024 in a rematch against Christina Bohannan",
+          "The race was extremely close, decided by less than 1 percentage point, triggering recount discussion"
+        ],
+        "recalled_outcome_if_known": "No"
+      }
+    }
+  }
+]

@@ -30,16 +30,16 @@ import anthropic
 # Config
 # ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).parent
+CONFIG_PATH = BASE_DIR / "recall_config.txt"
 
 _cfg = configparser.ConfigParser(interpolation=None)
 _cfg.read(CONFIG_PATH, encoding="utf-8")
 
-MARKET = _cfg.get("path", "market")
+MARKET = _cfg.get("paths", "market")
 MODEL = _cfg.get("models",          "claude_model",        fallback="claude-sonnet-4-5")
 
 DEFAULT_INPUT  = BASE_DIR / MARKET / "markets.csv"
-DEFAULT_OUTPUT = BASE_DIR / MARKET / "recall" / "claude_" + MODEL + "_1000_recall.json"
-CONFIG_PATH = BASE_DIR / "recall_config.txt"
+DEFAULT_OUTPUT = BASE_DIR / MARKET / "recall" / f"{MODEL}_1000_recall.json"
 
 MAX_TOKENS          = _cfg.getint("hyperparameters", "max_tokens",        fallback=500)
 TEMPERATURE         = _cfg.getfloat("hyperparameters", "temperature",     fallback=0.0)
@@ -131,7 +131,7 @@ def forecast_one(client: anthropic.Anthropic, row: dict) -> dict:
     response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE,
+        #temperature=TEMPERATURE,
         system=[
             {
                 "type": "text",
