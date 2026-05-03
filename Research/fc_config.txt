@@ -13,16 +13,16 @@
 # Leave as UNSET to fall back to the environment instead
 # (e.g. export ANTHROPIC_API_KEY=sk-...).
 ANTHROPIC_API_KEY = ENTER
-OPENAI_API_KEY    = ENTER
+OPENAI_API_KEY    = 
 GEMINI_API_KEY    = ENTER
 
 
 [models]
 # One model identifier per provider.
 # Change these to swap model versions across all three scripts at once.
-claude_model = claude-opus-4-7
+claude_model = 
 openai_model = gpt-5.5
-gemini_model = gemini-3-flash-preview
+gemini_model = 
 
 
 [hyperparameters]
@@ -33,7 +33,7 @@ sleep_between_calls = 0.5
 
 
 [paths]
-market = ClimateMarkets
+market = 
 
 
 [system_prompt]
