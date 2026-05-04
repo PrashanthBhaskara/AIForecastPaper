@@ -24,7 +24,7 @@ import anthropic
 
 MODEL = "claude-haiku-4-5"
 MAX_WORKERS = 4
-API_KEY =   # Set your ANTHROPIC_API_KEY environment variable instead of hardcoding here
+API_KEY =  "ENTER" # Set your ANTHROPIC_API_KEY environment variable instead of hardcoding here
 
 GRADER_SYSTEM = GRADER_SYSTEM = """You are a meticulous fact-checker. You will be given:
 1. A prediction market question and its actual resolution
