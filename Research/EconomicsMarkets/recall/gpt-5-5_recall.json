@@ -3,14 +3,14 @@
     "condition_id": "0x454b493622d78ed6034e877844e5e09d3fc4987580eaff6580ecd0c5fe2e50f8",
     "market_slug": "russian-ruble-110-to-1-usd-by-december-20",
     "event_slug": "russian-ruble-110-to-1-usd-by-december-20",
-    "title": "Russian Ruble ₽110 to $1 USD by December 20?",
+    "title": "Russian Ruble \u20bd110 to $1 USD by December 20?",
     "category": "Economics",
     "close_time": "2024-12-20T12:00:00Z",
     "actual_resolution": "No",
     "volume": "51752.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recognize this exact market resolution. Given ruble volatility and sanctions/FX pressure in 2024, a move to ₽110 per USD by the deadline seemed plausible but not certain.",
+      "rationale": "I don\u2019t recognize this exact market resolution. Given ruble volatility and sanctions/FX pressure in 2024, a move to \u20bd110 per USD by the deadline seemed plausible but not certain.",
       "probabilities": {
         "Yes": 0.55,
         "No": 0.45
@@ -18,7 +18,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -44,7 +45,9 @@
           "NBER did not announce a U.S. recession beginning in 2024.",
           "U.S. real GDP growth remained positive through 2024 overall, with no two-quarter contraction pattern."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -59,7 +62,7 @@
     "volume": "27823.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize the April 2024 CPI release: headline CPI rose 0.3% month over month, not above 0.3% on the reported figure. Therefore the strict “>0.3%” condition was not met.",
+      "rationale": "I recognize the April 2024 CPI release: headline CPI rose 0.3% month over month, not above 0.3% on the reported figure. Therefore the strict \u201c>0.3%\u201d condition was not met.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -71,7 +74,9 @@
           "The report showed all-items CPI up 0.3% month over month in April 2024, after a 0.4% increase in March.",
           "The year-over-year headline CPI rate for April 2024 was 3.4%, and core CPI rose 0.3% month over month."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -98,7 +103,9 @@
           "The U.S. unemployment rate for October 2024 was reported at 4.1%.",
           "Nonfarm payroll employment increased by only about 12,000, affected by hurricanes and the Boeing strike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -125,7 +132,9 @@
           "On August 5, 2024, the S&P 500 fell about 3% and the Nasdaq Composite about 3.4%, well short of the Level 1 circuit-breaker threshold.",
           "No NYSE marketwide circuit breaker halt was reported during August 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -140,7 +149,7 @@
     "volume": "399674",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the ECB’s December 2024 policy decision was a rate cut, not an increase. Therefore the market outcome would be No.",
+      "rationale": "I recall the ECB\u2019s December 2024 policy decision was a rate cut, not an increase. Therefore the market outcome would be No.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -151,7 +160,9 @@
           "On 12 December 2024 the ECB cut the deposit facility rate by 25 basis points from 3.25% to 3.00%.",
           "The main refinancing operations rate was lowered from 3.40% to 3.15%, and the marginal lending facility from 3.65% to 3.40%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -159,14 +170,14 @@
     "condition_id": "0x4c4108ebe701de6084996b27311977d30c67705e001ca7e663825c5f9c5200ea",
     "market_slug": "russian-ruble-120-to-1-usd-in-november",
     "event_slug": "russian-ruble-120-to-1-usd-in-november",
-    "title": "Russian Ruble ₽120 to $1 USD in November?",
+    "title": "Russian Ruble \u20bd120 to $1 USD in November?",
     "category": "Economics",
     "close_time": "2024-11-30T12:00:00Z",
     "actual_resolution": "No",
     "volume": "50655.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recall the exact market resolution. The ruble weakened sharply in late November 2024, but widely reported USD/RUB levels appeared to peak below ₽120 before the close, making No more likely.",
+      "rationale": "I do not recall the exact market resolution. The ruble weakened sharply in late November 2024, but widely reported USD/RUB levels appeared to peak below \u20bd120 before the close, making No more likely.",
       "probabilities": {
         "Yes": 0.18,
         "No": 0.82
@@ -174,7 +185,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -201,7 +213,9 @@
           "Headline CPI was 2.5% year-over-year in August 2024, down from 2.9% in July.",
           "Core CPI was 3.2% year-over-year, while headline monthly CPI rose 0.2%."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -227,7 +241,9 @@
           "The BLS Employment Situation report released on December 6, 2024 reported nonfarm payroll employment increased by 227,000 in November 2024.",
           "The unemployment rate in that report rose to 4.2%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -250,11 +266,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The International Longshoremen’s Association strike began at 12:01 a.m. Eastern on October 1, 2024.",
+          "The International Longshoremen\u2019s Association strike began at 12:01 a.m. Eastern on October 1, 2024.",
           "The strike affected East and Gulf Coast ports from Maine to Texas and involved roughly 45,000 dockworkers.",
           "It was widely described as the first such coastwide ILA strike since 1977."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -277,7 +295,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -300,10 +319,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "ETH’s late-December 2023 highs were around the low-to-mid $2,400s, below $2,500.",
+          "ETH\u2019s late-December 2023 highs were around the low-to-mid $2,400s, below $2,500.",
           "ETH crossed above $2,500 only after year-end, during the January 2024 crypto rally."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "ETH's December 2023 closing price was around $2,282-$2,300, not in the low-to-mid $2,400s as claimed"
+        ]
       }
     }
   },
@@ -329,7 +353,9 @@
           "The U.S. BLS August 2024 CPI release was published on September 11, 2024.",
           "Headline CPI-U rose 2.5% over the 12 months ending August 2024; core CPI was 3.2% year over year."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -356,7 +382,9 @@
           "Nonfarm payroll employment increased by 303,000 in March 2024, above the 200,000 threshold.",
           "The unemployment rate was reported at 3.8% for March 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -382,7 +410,8 @@
           "BRICS invited Saudi Arabia, along with Argentina, Egypt, Ethiopia, Iran and the UAE, at the August 2023 Johannesburg summit to join from Jan. 1, 2024.",
           "Saudi officials later said the kingdom was still studying/considering the invitation; Reuters reported in January 2024 that Saudi Arabia had not yet responded formally."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -397,7 +426,7 @@
     "volume": "32038.4",
     "status": "ok",
     "forecast": {
-      "rationale": "The September 18, 2024 FOMC statement used the word “inflation” well under 15 times, despite noting further progress and the first rate cut. This makes the market very likely to resolve No.",
+      "rationale": "The September 18, 2024 FOMC statement used the word \u201cinflation\u201d well under 15 times, despite noting further progress and the first rate cut. This makes the market very likely to resolve No.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -405,10 +434,11 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The September 18, 2024 FOMC statement announced a 1/2 percentage point cut to a 4.75%–5.00% federal funds target range.",
-          "The statement said inflation had made further progress but remained somewhat elevated, and used “inflation” about 8 times, below the 15+ threshold."
+          "The September 18, 2024 FOMC statement announced a 1/2 percentage point cut to a 4.75%\u20135.00% federal funds target range.",
+          "The statement said inflation had made further progress but remained somewhat elevated, and used \u201cinflation\u201d about 8 times, below the 15+ threshold."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -434,7 +464,9 @@
           "Ether rose above $2,000 in mid-April 2023, reaching roughly $2,100 after the Shanghai/Shapella upgrade.",
           "ETH again traded above $2,000 in November 2023 and was around the mid-$2,000s range in late December 2023 before the close time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -460,7 +492,9 @@
           "The U.S. Bureau of Labor Statistics released September 2024 CPI data on October 10, 2024 at 8:30 a.m. ET.",
           "Headline CPI-U rose 2.4% over the 12 months ending September 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -487,7 +521,9 @@
           "The U.S. unemployment rate for August 2024 was reported at 4.2%, down from 4.3% in July.",
           "Nonfarm payroll employment increased by 142,000 in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -513,7 +549,9 @@
           "The Port of Baltimore was closed after the container ship Dali struck the Francis Scott Key Bridge on March 26, 2024, causing the bridge collapse.",
           "A temporary/limited access channel allowing some commercial vessel traffic opened in late April 2024, before the full 50-foot federal channel was restored in June 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -528,7 +566,7 @@
     "volume": "37985.3",
     "status": "ok",
     "forecast": {
-      "rationale": "The September 18, 2024 FOMC statement used “unemployment” only in the phrase about the unemployment rate moving up but remaining low, far below five mentions.",
+      "rationale": "The September 18, 2024 FOMC statement used \u201cunemployment\u201d only in the phrase about the unemployment rate moving up but remaining low, far below five mentions.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -536,11 +574,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The September 18, 2024 FOMC statement announced a 50 bp cut, lowering the federal funds target range to 4.75%–5.00%.",
+          "The September 18, 2024 FOMC statement announced a 50 bp cut, lowering the federal funds target range to 4.75%\u20135.00%.",
           "The statement said job gains had slowed and the unemployment rate had moved up but remained low.",
-          "The word “unemployment” appeared only once in the statement, not 5+ times."
+          "The word \u201cunemployment\u201d appeared only once in the statement, not 5+ times."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -566,7 +606,9 @@
           "Bitcoin's 2023 rally peaked around the mid-$44,000 range in December 2023, below $50,000.",
           "BTC first traded back above $50,000 in February 2024, not during calendar year 2023."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -593,7 +635,9 @@
           "Headline CPI-U was up 2.6% over the 12 months ending October 2024, after 2.4% in September.",
           "The monthly headline CPI increase was 0.2%, with core CPI at 3.3% year over year."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -608,7 +652,7 @@
     "volume": "16000",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as the June 2024 U.S. Employment Situation release; the headline nonfarm payroll gain was above the 150k–200k range, so the condition was not met.",
+      "rationale": "I recognize this as the June 2024 U.S. Employment Situation release; the headline nonfarm payroll gain was above the 150k\u2013200k range, so the condition was not met.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -620,7 +664,9 @@
           "Headline total nonfarm payroll employment increased by 206,000 in June 2024.",
           "The unemployment rate rose to 4.1% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -636,7 +682,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -661,7 +710,9 @@
           "The FOMC announced a 50 basis point rate cut on September 18, 2024.",
           "The target federal funds range was lowered from 5.25%-5.50% to 4.75%-5.00%, the first cut since 2020."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -676,7 +727,7 @@
     "volume": "98920.6",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall WIF’s spring 2024 rally topped out just below the $5 threshold, so the market should have resolved No. Assigning a small residual chance for exchange/source discrepancies, but the remembered outcome is No.",
+      "rationale": "I recall WIF\u2019s spring 2024 rally topped out just below the $5 threshold, so the market should have resolved No. Assigning a small residual chance for exchange/source discrepancies, but the remembered outcome is No.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -685,9 +736,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "dogwifhat (WIF) made its late-March/early-April 2024 all-time high around $4.8-$4.9, below $5.",
-          "Major crypto price aggregators such as CoinGecko/CoinMarketCap listed WIF’s ATH at roughly $4.83-$4.85 around March 31/April 1, 2024, before the April 30 cutoff."
+          "Major crypto price aggregators such as CoinGecko/CoinMarketCap listed WIF\u2019s ATH at roughly $4.83-$4.85 around March 31/April 1, 2024, before the April 30 cutoff."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -714,7 +767,9 @@
           "Headline CPI-U increased 0.2% seasonally adjusted from July to August 2024.",
           "The 12-month CPI inflation rate fell to 2.5% in August 2024; core CPI rose 0.3% month-over-month."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -741,7 +796,9 @@
           "The unemployment rate was reported at 4.1%, down from 4.2% in August.",
           "Nonfarm payroll employment increased by about 254,000 in September 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -764,10 +821,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Fed made its first 2024 rate cut on September 18, lowering the target range by 50 bps to 4.75%–5.00%.",
+          "The Fed made its first 2024 rate cut on September 18, lowering the target range by 50 bps to 4.75%\u20135.00%.",
           "It cut again by 25 bps on November 7 and by 25 bps on December 18, for three total cuts in 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -793,7 +852,9 @@
           "Bitcoin rose above $44,000 around Dec. 5, 2023, its first time near that level since 2022.",
           "The December 2023 rally was driven largely by spot Bitcoin ETF approval expectations, with BTC later trading in the low-to-mid $40,000s."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -819,7 +880,9 @@
           "The BLS released July 2024 CPI on August 14, 2024, reporting all-items CPI rose 0.2% seasonally adjusted from June to July.",
           "The 12-month headline CPI inflation rate was reported at 2.9% for July 2024, down from 3.0% in June."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -846,7 +909,9 @@
           "Nonfarm payroll employment increased by 272,000 in May 2024, below the 300,000 threshold.",
           "The unemployment rate rose to 4.0% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -872,7 +937,9 @@
           "The first 2024 rate cut occurred at the scheduled September 17-18, 2024 FOMC meeting, when the target range was lowered by 50 bps to 4.75%-5.00%.",
           "Additional 25 bp cuts occurred at scheduled FOMC meetings on November 7, 2024 and December 18, 2024; there was no intermeeting emergency Fed rate cut in 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -887,7 +954,7 @@
     "volume": "369836",
     "status": "ok",
     "forecast": {
-      "rationale": "Argentina did not formally replace the peso with the U.S. dollar or eliminate the central bank in 2024, despite Milei’s campaign pledge. The peso remained the official currency through the market close.",
+      "rationale": "Argentina did not formally replace the peso with the U.S. dollar or eliminate the central bank in 2024, despite Milei\u2019s campaign pledge. The peso remained the official currency through the market close.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -896,9 +963,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Javier Milei took office in December 2023 after campaigning on dollarization, but no formal dollarization law or implementation occurred during 2024.",
-          "The Argentine peso remained Argentina’s official currency through the end of 2024, and the Central Bank of Argentina continued operating."
+          "The Argentine peso remained Argentina\u2019s official currency through the end of 2024, and the Central Bank of Argentina continued operating."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -924,7 +993,9 @@
           "The BLS CPI report released January 11, 2024 reported CPI-U increased 0.3% in December 2023 on a seasonally adjusted basis.",
           "The same report stated CPI rose 3.4% over the 12 months ending December 2023, after a 0.1% monthly increase in November."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -951,7 +1022,9 @@
           "The unemployment rate was reported at 4.2% for August 2024.",
           "Prior months were revised lower, including July 2024 to 89,000 jobs."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -975,10 +1048,12 @@
         "recognized_event": true,
         "evidence_facts": [
           "The September 2024 FOMC meeting concluded on September 18, 2024.",
-          "The Federal Reserve cut the federal funds target range by 50 basis points, from 5.25%–5.50% to 4.75%–5.00%.",
+          "The Federal Reserve cut the federal funds target range by 50 basis points, from 5.25%\u20135.50% to 4.75%\u20135.00%.",
           "It was the first Fed rate cut since 2020, but it was not a 75 basis point cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1001,10 +1076,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "In February 2024, reports said Sam Altman was seeking roughly $5T–$7T for a massive AI chip/semiconductor infrastructure initiative.",
+          "In February 2024, reports said Sam Altman was seeking roughly $5T\u2013$7T for a massive AI chip/semiconductor infrastructure initiative.",
           "By the end of Q1 2024, those reports remained exploratory talks; no public announcement confirmed that Altman had raised more than $1 trillion."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1031,7 +1108,9 @@
           "Headline CPI-U rose 0.4% from February to March 2024 on a seasonally adjusted basis.",
           "The 12-month headline CPI inflation rate was reported at 3.5% for March 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1057,7 +1136,9 @@
           "The BLS Employment Situation report released on October 4, 2024 reported total nonfarm payroll employment increased by 254,000 in September 2024.",
           "The same report listed the unemployment rate at 4.1% for September 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1080,11 +1161,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Fed held the federal funds target range at 5.25%–5.50% at the July 30–31, 2024 FOMC meeting.",
-          "No intermeeting/emergency rate cut was announced in August 2024; the next cut occurred at the September 17–18, 2024 FOMC meeting.",
-          "On September 18, 2024, the Fed cut rates by 50 basis points to a 4.75%–5.00% target range."
+          "The Fed held the federal funds target range at 5.25%\u20135.50% at the July 30\u201331, 2024 FOMC meeting.",
+          "No intermeeting/emergency rate cut was announced in August 2024; the next cut occurred at the September 17\u201318, 2024 FOMC meeting.",
+          "On September 18, 2024, the Fed cut rates by 50 basis points to a 4.75%\u20135.00% target range."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1099,7 +1182,10 @@
     "volume": "20586.6",
     "status": "error",
     "forecast": {
-      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-4RAblkXJTsG41sOba2Ep64aU on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-4RAblkXJTsG41sOba2Ep64aU on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -1125,7 +1211,9 @@
           "Headline CPI-U rose 0.1% seasonally adjusted from October to November 2023, after a 0.0% change in October.",
           "The 12-month headline CPI inflation rate in that release was 3.1%."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1152,7 +1240,9 @@
           "Nonfarm payroll employment increased by only 12,000 in the initial October 2024 estimate, far below 250,000.",
           "The unemployment rate in that report was 4.1%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1175,7 +1265,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1190,7 +1281,7 @@
     "volume": "11823.8",
     "status": "ok",
     "forecast": {
-      "rationale": "Apple had kept the base Pro model near $999 for several generations, and rumors before launch generally pointed to no major starting-price hike. Since $999 is below $1000, I’d assign a high chance to Yes.",
+      "rationale": "Apple had kept the base Pro model near $999 for several generations, and rumors before launch generally pointed to no major starting-price hike. Since $999 is below $1000, I\u2019d assign a high chance to Yes.",
       "probabilities": {
         "Yes": 0.82,
         "No": 0.18
@@ -1198,7 +1289,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1213,7 +1305,7 @@
     "volume": "8076.51",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember the March 2024 CPI release reported headline CPI rose 0.4% month-over-month, not greater than 0.4%. Since the threshold is strictly “>0.4%,” this would resolve No.",
+      "rationale": "I remember the March 2024 CPI release reported headline CPI rose 0.4% month-over-month, not greater than 0.4%. Since the threshold is strictly \u201c>0.4%,\u201d this would resolve No.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -1225,7 +1317,9 @@
           "The report stated CPI-U increased 0.4% in March on a seasonally adjusted basis, the same increase as in February.",
           "The year-over-year all-items CPI increase reported for March 2024 was 3.5% before seasonal adjustment."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1252,7 +1346,9 @@
           "Total nonfarm payroll employment increased by 275,000 in February 2024.",
           "The prior January 2024 payroll gain was initially reported as 353,000 but was later revised down to 229,000."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1275,10 +1371,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC announced its decision on November 7, 2024, after the November 6–7 meeting.",
-          "The Fed lowered the federal funds target range by 25 bps to 4.50%–4.75%, rather than increasing it."
+          "The FOMC announced its decision on November 7, 2024, after the November 6\u20137 meeting.",
+          "The Fed lowered the federal funds target range by 25 bps to 4.50%\u20134.75%, rather than increasing it."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1286,14 +1384,14 @@
     "condition_id": "0x9804a9bcb33e0e92443db277ab2a46de31a5531d3a1c074b8c2748778317c87e",
     "market_slug": "ftx-claims-worth-75-on-the-dollar-by-end-of-q1",
     "event_slug": "ftx-claims-worth-75-on-the-dollar-by-end-of-q1",
-    "title": "FTX claims worth >75¢ on the dollar by end of Q1?",
+    "title": "FTX claims worth >75\u00a2 on the dollar by end of Q1?",
     "category": "Economics",
     "close_time": "2024-03-31T00:00:00Z",
     "actual_resolution": "Yes",
     "volume": "1011.78",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recall the exact market resolution, but FTX creditor claims were reportedly strengthening sharply in early 2024 amid asset recoveries and rising expectations of high repayment. That makes crossing 75¢ by end of Q1 more likely than not.",
+      "rationale": "I don\u2019t recall the exact market resolution, but FTX creditor claims were reportedly strengthening sharply in early 2024 amid asset recoveries and rising expectations of high repayment. That makes crossing 75\u00a2 by end of Q1 more likely than not.",
       "probabilities": {
         "Yes": 0.82,
         "No": 0.18
@@ -1301,7 +1399,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1327,7 +1426,9 @@
           "The BLS CPI report released on February 13, 2024 showed CPI-U rose 0.3% in January 2024 on a seasonally adjusted basis.",
           "The same release reported annual CPI inflation at 3.1% for the 12 months ending January 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1354,7 +1455,9 @@
           "The November 2024 unemployment rate was reported as 4.2%.",
           "Nonfarm payroll employment increased by about 227,000 in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1380,7 +1483,9 @@
           "On September 18, 2024, the FOMC lowered the federal funds target range by 50 basis points, from 5.25%-5.50% to 4.75%-5.00%.",
           "It was the first Fed rate cut since 2020, with Michelle Bowman dissenting in favor of a smaller 25 bp cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1406,7 +1511,9 @@
           "The BLS June 2024 CPI report was released on July 11, 2024 at 8:30 a.m. ET.",
           "Headline CPI-U decreased 0.1% seasonally adjusted from May to June 2024, with 12-month inflation at 3.0%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1433,7 +1540,9 @@
           "Total nonfarm payroll employment increased by 175,000 in April 2024, below the 303k threshold.",
           "The unemployment rate rose to 3.9% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1459,7 +1568,9 @@
           "At the December 17-18, 2024 FOMC meeting, the Fed lowered the federal funds target range by 25 bps to 4.25%-4.50%.",
           "The decision was announced on December 18, 2024, and was not a 75 bps or larger cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1486,7 +1597,9 @@
           "Headline CPI-U rose 2.7% over the 12 months ending November 2024.",
           "Seasonally adjusted headline CPI rose 0.3% month-over-month in November 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1513,7 +1626,9 @@
           "Total nonfarm payroll employment increased by 114,000 in July 2024.",
           "The unemployment rate rose to 4.3% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1536,10 +1651,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC held the target range at 5.25%–5.50% at its January, March, May, June, and July 2024 meetings.",
+          "The FOMC held the target range at 5.25%\u20135.50% at its January, March, May, June, and July 2024 meetings.",
           "The Fed cut rates by 50 bps on September 18, 2024, then by 25 bps on November 7, 2024; there was no 2024 hike before the Dec. 18 close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1565,7 +1682,9 @@
           "BLS released May 2024 CPI on June 12, 2024; headline CPI-U was unchanged at 0.0% month-over-month on a seasonally adjusted basis.",
           "The release reported 3.3% year-over-year headline CPI, with core CPI rising 0.2% month-over-month."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1591,7 +1710,9 @@
           "The July 30-31, 2024 FOMC meeting kept the federal funds target range unchanged at 5.25% to 5.50%.",
           "The FOMC statement was released on July 31, 2024, and did not announce any rate cut; the first cut of the cycle occurred at the September 18, 2024 meeting."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1607,7 +1728,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -1629,10 +1753,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on June 12, 2024, with the federal funds target range left unchanged at 5.25%–5.50%.",
+          "The FOMC meeting concluded on June 12, 2024, with the federal funds target range left unchanged at 5.25%\u20135.50%.",
           "The June 2024 Summary of Economic Projections showed policymakers' median projection moving to only one rate cut in 2024, not an immediate June cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1648,7 +1774,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -1673,7 +1802,9 @@
           "At the May 1, 2024 FOMC meeting, the Fed kept the federal funds target range at 5.25% to 5.50%.",
           "The decision was to hold rates steady, not raise by 25 bps or more; the statement also announced a slowing of Treasury runoff starting in June 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1700,7 +1831,9 @@
           "The Fed kept the target range for the federal funds rate unchanged at 5.25% to 5.50%.",
           "Jerome Powell chaired the post-meeting press conference; the decision was a hold, not a hike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1723,11 +1856,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting was held January 30–31, 2024.",
-          "On January 31, 2024, the Fed kept the target federal funds rate unchanged at 5.25%–5.50%.",
-          "Jerome Powell’s post-meeting remarks indicated a March cut was not the base case."
+          "The FOMC meeting was held January 30\u201331, 2024.",
+          "On January 31, 2024, the Fed kept the target federal funds rate unchanged at 5.25%\u20135.50%.",
+          "Jerome Powell\u2019s post-meeting remarks indicated a March cut was not the base case."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1750,10 +1885,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "At the December 12–13, 2023 FOMC meeting, the Fed left the target federal funds rate range unchanged at 5.25%–5.50%.",
+          "At the December 12\u201313, 2023 FOMC meeting, the Fed left the target federal funds rate range unchanged at 5.25%\u20135.50%.",
           "The decision was announced on December 13, 2023, with Jerome Powell as Fed Chair, and the accompanying dot plot signaled expected rate cuts in 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1780,7 +1917,9 @@
           "The statutory divestment deadline was 270 days later, falling on January 19, 2025, after the market's 2024 close time.",
           "TikTok remained available in the U.S. through December 31, 2024; the widely reported service disruption occurred in January 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1806,7 +1945,9 @@
           "The FOMC raised the target range to 5.25%-5.50% on July 26, 2023, its final hike of the year.",
           "At the December 13, 2023 FOMC meeting, the Fed left the target range unchanged at 5.25%-5.50%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1833,7 +1974,9 @@
           "He posted a large GameStop position on Reddit in early June 2024 and held a widely watched livestream on June 7, 2024.",
           "A securities-fraud class action related to his 2024 GameStop posts was filed and then voluntarily dismissed; I recall no SEC/DOJ charge before year-end."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1860,7 +2003,9 @@
           "Fulton Bank, N.A. assumed substantially all deposits and purchased substantially all assets of Republic First Bank after the failure.",
           "The First National Bank of Lindsay in Oklahoma was also closed on October 18, 2024, before the October 31, 2024 deadline."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1886,7 +2031,9 @@
           "On July 31, 2024, the Bank of Japan raised its short-term policy rate target to around 0.25%, contributing to early-August yen carry-trade turmoil.",
           "In August 2024, BOJ officials, including Deputy Governor Shinichi Uchida, signaled caution on further hikes, but the BOJ did not announce an emergency rate cut before August 31."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1912,7 +2059,8 @@
           "Republic First Bank, doing business as Republic Bank, in Philadelphia, Pennsylvania, was closed by Pennsylvania regulators on April 26, 2024.",
           "The FDIC was appointed receiver and Fulton Bank, N.A. assumed substantially all deposits and purchased substantially all assets."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -1938,7 +2086,9 @@
           "Election Day was November 5, 2024, and no U.S. federal tax on unrealized capital gains had been enacted by the November 4, 2024 close time.",
           "Biden/Harris proposals such as a billionaire minimum tax or unrealized gains tax did not pass Congress before the election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1965,7 +2115,9 @@
           "The FDIC was appointed receiver, and Fulton Bank assumed substantially all deposits and purchased substantially all assets.",
           "This was reported as the first US bank failure of 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1991,7 +2143,9 @@
           "Alexandre de Moraes was a justice of Brazil's Supreme Federal Court, not arrested, during the September 2024 dispute with Elon Musk's X.",
           "Moraes had ordered X suspended in Brazil after it failed to appoint a legal representative, and a Supreme Court panel upheld the suspension in early September 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2017,7 +2171,9 @@
           "Alexandre de Moraes was still serving as a minister of Brazil's Supreme Federal Court (STF) after September 2024.",
           "Impeachment of an STF justice in Brazil would require Senate action, and no such completed impeachment vote/removal occurred in September 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2032,7 +2188,7 @@
     "volume": "35511",
     "status": "ok",
     "forecast": {
-      "rationale": "Freddie Mac’s 30-year fixed mortgage rate stayed above 6% through the pre-election period, with the late-September low still just over the threshold. Thus the market would resolve No.",
+      "rationale": "Freddie Mac\u2019s 30-year fixed mortgage rate stayed above 6% through the pre-election period, with the late-September low still just over the threshold. Thus the market would resolve No.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -2043,7 +2199,9 @@
           "Freddie Mac PMMS showed the 30-year fixed rate at 6.09% on 2024-09-19 and 6.08% on 2024-09-26, the apparent pre-election lows.",
           "The rate rose again in October, reaching about 6.72% on 2024-10-31, before the 2024 U.S. election on 2024-11-05."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2069,7 +2227,9 @@
           "Freddie Mac's weekly 30-year fixed mortgage rate was about 6.08% on September 26, 2024, its pre-election low, not below 5%.",
           "The rate was about 6.72% on October 31, 2024, ahead of the November 5, 2024 U.S. election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2096,7 +2256,12 @@
           "The MPC vote was 8-1 to keep rates unchanged, with Swati Dhingra voting for a further 0.25 percentage point cut.",
           "The previous meeting on 1 August 2024 had cut Bank Rate from 5.25% to 5.00%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The MPC meeting ended on 18 September 2024, not 19 September 2024 (19 September was the announcement date)"
+        ]
       }
     }
   },
@@ -2119,10 +2284,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "In August 2024, X sued the World Federation of Advertisers, its GARM initiative, and advertisers including Unilever and Mars over an alleged advertising boycott after Elon Musk’s Twitter acquisition.",
+          "In August 2024, X sued the World Federation of Advertisers, its GARM initiative, and advertisers including Unilever and Mars over an alleged advertising boycott after Elon Musk\u2019s Twitter acquisition.",
           "In October 2024, X dropped Unilever from the lawsuit after saying it had reached an agreement with the company, while the broader case against other defendants continued."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2148,7 +2315,12 @@
           "The FOMC raised the federal funds target range by 25 bps on July 26, 2023, to 5.25%-5.50%.",
           "The Fed left rates unchanged at the September 20, November 1, and December 13, 2023 FOMC meetings."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The FOMC raised the federal funds target range on July 26, 2023 (announcement date), with the hike becoming effective July 27, 2023. The LLM stated \"July 26, 2023\" for the hike date, though this refers to the announcement date, not the effective date."
+        ]
       }
     }
   },
@@ -2163,7 +2335,7 @@
     "volume": "37979",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the Port of Baltimore’s main shipping channel was fully restored in June 2024, well before August. Therefore the market asking whether reopening would be in August or later resolves No.",
+      "rationale": "I recall the Port of Baltimore\u2019s main shipping channel was fully restored in June 2024, well before August. Therefore the market asking whether reopening would be in August or later resolves No.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -2174,7 +2346,9 @@
           "The Port of Baltimore was blocked after the Francis Scott Key Bridge collapsed on March 26, 2024, when the container ship Dali struck a bridge pier.",
           "Authorities announced the Fort McHenry Federal Channel was fully reopened to its original 700-foot width and 50-foot depth around June 10, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2201,7 +2375,9 @@
           "US nonfarm payroll employment increased by 227,000 in November 2024, above the 100k-150k range.",
           "The unemployment rate in that report was 4.2%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2228,7 +2404,9 @@
           "Headline CPI rose 2.7% over the 12 months ending November 2024, above 2.5%.",
           "The monthly all-items CPI increase for November 2024 was 0.3% seasonally adjusted."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2243,7 +2421,7 @@
     "volume": "237073",
     "status": "ok",
     "forecast": {
-      "rationale": "The ECB’s December 2024 policy decision was a standard 25 bps cut, not a decrease greater than 50 bps. Therefore the condition in the market title was not met.",
+      "rationale": "The ECB\u2019s December 2024 policy decision was a standard 25 bps cut, not a decrease greater than 50 bps. Therefore the condition in the market title was not met.",
       "probabilities": {
         "Yes": 0.001,
         "No": 0.999
@@ -2254,7 +2432,9 @@
           "On 12 December 2024, the ECB cut its key interest rates by 25 basis points.",
           "The deposit facility rate was reduced from 3.25% to 3.00%; the main refinancing operations rate and marginal lending facility rate were also cut by 25 bps."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2280,7 +2460,9 @@
           "BLS reported nonfarm payroll employment increased by 303,000 in March 2024.",
           "The March 2024 jobs report was released on April 5, 2024, with unemployment at 3.8%."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2295,7 +2477,7 @@
     "volume": "159395",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recall the exact market resolution. Given post-election tariff-policy questions were likely prominent at the December 2024 FOMC press conference, Powell had a fairly high chance of saying the word at least five times.",
+      "rationale": "I don\u2019t recall the exact market resolution. Given post-election tariff-policy questions were likely prominent at the December 2024 FOMC press conference, Powell had a fairly high chance of saying the word at least five times.",
       "probabilities": {
         "Yes": 0.82,
         "No": 0.18
@@ -2303,7 +2485,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2329,7 +2512,9 @@
           "The BLS reported total nonfarm payroll employment increased by 206,000 in June 2024.",
           "The June 2024 unemployment rate was reported at 4.1%, with the release published on July 5, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2356,7 +2541,8 @@
           "On November 7, 2024, the FOMC cut by 25 bps to 4.50%-4.75%.",
           "On December 18, 2024, the FOMC cut by another 25 bps to 4.25%-4.50%, making three cuts in 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -2383,7 +2569,9 @@
           "Total nonfarm payroll employment increased by 272,000 in May 2024.",
           "The unemployment rate rose to 4.0% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2409,7 +2597,9 @@
           "On September 18, 2024, the FOMC cut the federal funds target range by 50 bps from 5.25%-5.50% to 4.75%-5.00%.",
           "On November 7, 2024, the FOMC cut rates another 25 bps to a 4.50%-4.75% target range, before the 2024-12-18 00:00 UTC close time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2436,7 +2626,9 @@
           "Total nonfarm payroll employment increased by 254,000 in September 2024.",
           "The unemployment rate was reported at 4.1%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2462,7 +2654,9 @@
           "On September 18, 2024, the FOMC lowered the federal funds target range by 50 basis points, from 5.25%-5.50% to 4.75%-5.00%.",
           "The decision was the first rate cut of the cycle; Governor Michelle Bowman dissented in favor of a smaller 25 bp cut, not a hike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2489,7 +2683,9 @@
           "Headline total nonfarm payroll employment increased by 142,000 in August 2024.",
           "The unemployment rate fell to 4.2% in that report."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2515,7 +2711,9 @@
           "On November 7, 2024, the FOMC lowered the federal funds target range by 25 basis points.",
           "The target range after the decision was 4.50% to 4.75%, following the September 2024 50 bp cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2541,7 +2739,9 @@
           "The BLS Employment Situation report released on November 1, 2024 reported nonfarm payroll employment increased by 12,000 in October 2024.",
           "The unemployment rate was 4.1%, and the weak payroll number was affected by hurricanes and the Boeing strike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2567,7 +2767,9 @@
           "At the December 17-18, 2024 FOMC meeting, the Fed lowered the federal funds target range by 25 bps to 4.25%-4.50%.",
           "The decision was announced on December 18, 2024, and was a cut rather than an increase; Beth Hammack dissented, preferring no change."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2593,7 +2795,9 @@
           "The U.S. Bureau of Labor Statistics reported the November 2024 unemployment rate as 4.2%.",
           "The same report, released on December 6, 2024, reported nonfarm payroll employment increased by 227,000."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2608,7 +2812,7 @@
     "volume": "752276",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the July 30–31, 2024 FOMC decision: the Fed left rates unchanged, so there was no 25+ bp increase. Therefore the market would resolve No.",
+      "rationale": "I recall the July 30\u201331, 2024 FOMC decision: the Fed left rates unchanged, so there was no 25+ bp increase. Therefore the market would resolve No.",
       "probabilities": {
         "Yes": 0.001,
         "No": 0.999
@@ -2616,10 +2820,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "At the July 31, 2024 FOMC meeting, the Federal Reserve held the federal funds target range unchanged at 5.25%–5.50%.",
-          "Jerome Powell’s post-meeting remarks indicated a September rate cut could be possible if inflation data continued to improve, rather than announcing any hike."
+          "At the July 31, 2024 FOMC meeting, the Federal Reserve held the federal funds target range unchanged at 5.25%\u20135.50%.",
+          "Jerome Powell\u2019s post-meeting remarks indicated a September rate cut could be possible if inflation data continued to improve, rather than announcing any hike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2646,7 +2852,9 @@
           "Total nonfarm payroll employment increased by 275,000 in February 2024.",
           "The unemployment rate rose to 3.9%, and prior months were revised down by a combined 167,000 jobs."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2669,10 +2877,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on June 12, 2024, with the federal funds target range held at 5.25%–5.50%.",
+          "The FOMC meeting concluded on June 12, 2024, with the federal funds target range held at 5.25%\u20135.50%.",
           "The June 2024 statement and Powell press conference indicated no rate hike; the updated projections showed policymakers still considering future cuts rather than an increase."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2695,11 +2905,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting was held April 30–May 1, 2024, with the decision announced on May 1, 2024.",
-          "The Fed kept the federal funds target range unchanged at 5.25%–5.50%.",
+          "The FOMC meeting was held April 30\u2013May 1, 2024, with the decision announced on May 1, 2024.",
+          "The Fed kept the federal funds target range unchanged at 5.25%\u20135.50%.",
           "This was another hold in the tightening cycle, with Jerome Powell giving the post-meeting press conference."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2726,7 +2938,9 @@
           "The target range for the federal funds rate was held at 5.25% to 5.50%, unchanged from the prior meeting.",
           "The decision was widely described as a hold/no change, with no rate hike or cut at that meeting."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2752,7 +2966,9 @@
           "The BLS Employment Situation report released on May 3, 2024 reported total nonfarm payroll employment increased by 175,000 in April 2024.",
           "The April 2024 unemployment rate was reported at 3.9%, with job gains notably below prior months but still above 150k."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2767,7 +2983,7 @@
     "volume": "27152.2",
     "status": "ok",
     "forecast": {
-      "rationale": "The December 2023 FOMC decision held rates steady, with no 25 bp hike. The target range remained 5.25%–5.50%.",
+      "rationale": "The December 2023 FOMC decision held rates steady, with no 25 bp hike. The target range remained 5.25%\u20135.50%.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2775,10 +2991,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on December 13, 2023, and the Federal Reserve left the federal funds target range unchanged at 5.25%–5.50%.",
+          "The FOMC meeting concluded on December 13, 2023, and the Federal Reserve left the federal funds target range unchanged at 5.25%\u20135.50%.",
           "The decision was widely described as a pause, accompanied by projections indicating possible rate cuts in 2024 rather than another hike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2805,7 +3023,9 @@
           "Nonfarm payroll employment increased by 114,000 in July 2024, well below 300,000.",
           "The unemployment rate rose to 4.3% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2820,7 +3040,7 @@
     "volume": "13148.3",
     "status": "ok",
     "forecast": {
-      "rationale": "The January 2024 FOMC decision kept rates unchanged rather than raising by 25 bps. The federal funds target range remained 5.25%–5.50%.",
+      "rationale": "The January 2024 FOMC decision kept rates unchanged rather than raising by 25 bps. The federal funds target range remained 5.25%\u20135.50%.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2828,10 +3048,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting concluded on January 31, 2024, with the target federal funds rate held at 5.25%–5.50%.",
+          "The FOMC meeting concluded on January 31, 2024, with the target federal funds rate held at 5.25%\u20135.50%.",
           "The post-meeting statement said the Committee did not expect to reduce rates until it had greater confidence inflation was moving sustainably toward 2%, but it did not announce a hike."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2846,7 +3068,7 @@
     "volume": "17770.3",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember the post–Key Bridge collapse reopening: the main federal channel was fully restored in June, before the market close. Thus the condition was met.",
+      "rationale": "I remember the post\u2013Key Bridge collapse reopening: the main federal channel was fully restored in June, before the market close. Thus the condition was met.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -2854,10 +3076,11 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Francis Scott Key Bridge collapsed on March 26, 2024 after being struck by the container ship Dali, blocking the Port of Baltimore’s main channel.",
+          "The Francis Scott Key Bridge collapsed on March 26, 2024 after being struck by the container ship Dali, blocking the Port of Baltimore\u2019s main channel.",
           "On June 10, 2024, officials announced the Fort McHenry Federal Channel had been restored to its full 700-foot width and 50-foot depth, allowing normal two-way commercial vessel traffic."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -2884,7 +3107,9 @@
           "Headline CPI rose 2.7% year-over-year in November 2024, up from 2.6% in October.",
           "The same report showed CPI up 0.3% month-over-month and core CPI at 3.3% year-over-year."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2899,7 +3124,7 @@
     "volume": "4205.83",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the May 2024 US Employment Situation release: payroll growth was well above the 150–200k range, so the condition was not met.",
+      "rationale": "I recall the May 2024 US Employment Situation release: payroll growth was well above the 150\u2013200k range, so the condition was not met.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -2910,7 +3135,9 @@
           "The BLS reported total nonfarm payroll employment increased by 272,000 in May 2024.",
           "The same report showed the unemployment rate rose to 4.0% and was released on June 7, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2925,7 +3152,7 @@
     "volume": "203800",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the ECB cut rates at its December 12, 2024 Governing Council meeting, so the “no change” condition was not met.",
+      "rationale": "I recall the ECB cut rates at its December 12, 2024 Governing Council meeting, so the \u201cno change\u201d condition was not met.",
       "probabilities": {
         "Yes": 0.001,
         "No": 0.999
@@ -2936,7 +3163,9 @@
           "On 12 December 2024 the ECB announced a 25 basis point cut to its three key policy rates.",
           "The deposit facility rate was lowered to 3.00%, with the main refinancing rate at 3.15% and marginal lending facility at 3.40%, effective 18 December 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2951,7 +3180,7 @@
     "volume": "39353",
     "status": "ok",
     "forecast": {
-      "rationale": "The September 2024 BLS jobs report was well above the 100k–150k range, so the market would resolve No.",
+      "rationale": "The September 2024 BLS jobs report was well above the 100k\u2013150k range, so the market would resolve No.",
       "probabilities": {
         "Yes": 0.001,
         "No": 0.999
@@ -2963,7 +3192,9 @@
           "Total nonfarm payroll employment increased by 254,000 in September 2024.",
           "The unemployment rate was reported at 4.1% for September 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2986,10 +3217,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Dec. 18, 2024 FOMC meeting ended with a 25 bp rate cut to a 4.25%–4.50% target range, followed by Jerome Powell’s press conference.",
-          "In the Q&A, Powell was asked about the incoming Trump administration’s policies and discussed uncertainty around tariffs, including what might be tariffed, countries involved, timing, and effects on inflation forecasts."
+          "The Dec. 18, 2024 FOMC meeting ended with a 25 bp rate cut to a 4.25%\u20134.50% target range, followed by Jerome Powell\u2019s press conference.",
+          "In the Q&A, Powell was asked about the incoming Trump administration\u2019s policies and discussed uncertainty around tariffs, including what might be tariffed, countries involved, timing, and effects on inflation forecasts."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3015,7 +3248,9 @@
           "The BLS Employment Situation report released on September 6, 2024 reported total nonfarm payroll employment increased by 142,000 in August 2024.",
           "The unemployment rate in that report was 4.2%, and prior months' payroll gains were revised downward."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3038,11 +3273,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The first 2024 Fed rate cut occurred on September 18, 2024, a 50 bp cut to a 4.75%–5.00% target range.",
-          "The Fed then cut 25 bp on November 7, 2024, and 25 bp on December 18, 2024, ending the year at 4.25%–4.50%.",
+          "The first 2024 Fed rate cut occurred on September 18, 2024, a 50 bp cut to a 4.75%\u20135.00% target range.",
+          "The Fed then cut 25 bp on November 7, 2024, and 25 bp on December 18, 2024, ending the year at 4.25%\u20134.50%.",
           "There were no Fed rate cuts at the January, March, May, June, or July 2024 FOMC meetings."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -3069,7 +3305,9 @@
           "The unemployment rate was reported at 4.2% for November 2024.",
           "Nonfarm payroll employment increased by 227,000 in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3095,7 +3333,9 @@
           "On September 18, 2024, the FOMC cut the federal funds target range by 50 basis points.",
           "The target range was lowered from 5.25%-5.50% to 4.75%-5.00%, the first Fed rate cut since 2020."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3121,7 +3361,9 @@
           "On September 18, 2024, the FOMC lowered the federal funds target range by 50 basis points, from 5.25%-5.50% to 4.75%-5.00%.",
           "It was the first Fed rate cut since 2020, with Michelle Bowman dissenting in favor of a smaller 25 bp cut."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3147,7 +3389,9 @@
           "At the December 17-18, 2024 FOMC meeting, the Fed lowered the federal funds target range by 25 basis points to 4.25%-4.50%.",
           "The decision was announced on December 18, 2024, followed by Chair Jerome Powell's press conference; it was not a 50 bp reduction."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3162,7 +3406,7 @@
     "volume": "7.99521e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the November 2024 FOMC decision: the Fed cut rates by 25 bps, so there was not “no change” after the meeting.",
+      "rationale": "I recall the November 2024 FOMC decision: the Fed cut rates by 25 bps, so there was not \u201cno change\u201d after the meeting.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3170,10 +3414,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting was held November 6–7, 2024, with the policy decision released on November 7.",
-          "The Federal Reserve lowered the federal funds target range by 25 basis points to 4.50%–4.75%."
+          "The FOMC meeting was held November 6\u20137, 2024, with the policy decision released on November 7.",
+          "The Federal Reserve lowered the federal funds target range by 25 basis points to 4.50%\u20134.75%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3188,7 +3434,7 @@
     "volume": "530060",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the June 11–12, 2024 FOMC meeting held the federal funds target range unchanged at 5.25%–5.50%. Therefore this market resolved Yes.",
+      "rationale": "I recall the June 11\u201312, 2024 FOMC meeting held the federal funds target range unchanged at 5.25%\u20135.50%. Therefore this market resolved Yes.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3196,11 +3442,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC meeting occurred on June 11–12, 2024.",
-          "The Fed kept the federal funds target range unchanged at 5.25%–5.50% after that meeting.",
+          "The FOMC meeting occurred on June 11\u201312, 2024.",
+          "The Fed kept the federal funds target range unchanged at 5.25%\u20135.50% after that meeting.",
           "The post-meeting statement was released on June 12, 2024, with no rate hike or cut announced."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3226,7 +3474,9 @@
           "The BLS Employment Situation report released on December 6, 2024 reported total nonfarm payroll employment increased by 227,000 in November 2024.",
           "The unemployment rate in that report was 4.2%, and the payroll gain was a rebound from a weak October affected by strikes and hurricanes."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3249,10 +3499,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "At the July 30–31, 2024 FOMC meeting, the target federal funds rate range was held at 5.25%–5.50%.",
-          "The Federal Reserve's first 2024 rate cut occurred at the September 17–18, 2024 meeting, when it cut 50 bps to 4.75%–5.00%."
+          "At the July 30\u201331, 2024 FOMC meeting, the target federal funds rate range was held at 5.25%\u20135.50%.",
+          "The Federal Reserve's first 2024 rate cut occurred at the September 17\u201318, 2024 meeting, when it cut 50 bps to 4.75%\u20135.00%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3276,10 +3528,12 @@
         "recognized_event": true,
         "evidence_facts": [
           "The BLS Employment Situation report for March 2024 was released on April 5, 2024.",
-          "Total nonfarm payroll employment increased by 303,000 in March 2024, above the 200k–275k band.",
+          "Total nonfarm payroll employment increased by 303,000 in March 2024, above the 200k\u2013275k band.",
           "The unemployment rate was reported at 3.8% for March 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3303,9 +3557,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "At the May 1, 2024 FOMC decision, the Federal Reserve held the federal funds target range at 5.25% to 5.50%.",
-          "There was no 25 bps decrease after the May 2024 meeting; Chair Jerome Powell’s press conference followed an unchanged-rate decision."
+          "There was no 25 bps decrease after the May 2024 meeting; Chair Jerome Powell\u2019s press conference followed an unchanged-rate decision."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3320,7 +3576,7 @@
     "volume": "8447.88",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as the June 2024 U.S. jobs report market; the reported payroll gain was within the 200k–250k range.",
+      "rationale": "I recognize this as the June 2024 U.S. jobs report market; the reported payroll gain was within the 200k\u2013250k range.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3331,7 +3587,9 @@
           "The BLS Employment Situation report released on July 5, 2024 reported nonfarm payroll employment increased by 206,000 in June 2024.",
           "The unemployment rate rose to 4.1% in that report, and prior months' payroll gains were revised downward."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3358,7 +3616,9 @@
           "Nonfarm payroll employment increased by only 12,000 in October 2024, with the unemployment rate at 4.1%.",
           "The weak payroll figure was affected by hurricanes and the Boeing strike."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3385,7 +3645,9 @@
           "Nonfarm payroll employment increased by 275,000 in February 2024, below the 300k-353k range.",
           "The unemployment rate rose to 3.9% in that report, and January payrolls were revised down sharply from 353,000."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3412,7 +3674,9 @@
           "Total nonfarm payroll employment increased by 175,000 in April 2024.",
           "The unemployment rate rose to 3.9% in that report."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3439,7 +3703,9 @@
           "The Federal Reserve kept the federal funds target range unchanged at 5.25% to 5.50%.",
           "There was no 50+ basis point decrease announced after that meeting."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3454,7 +3720,7 @@
     "volume": "5611.63",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the July 2024 BLS jobs report showed payroll growth within the stated 100k–150k band, so this market resolved Yes.",
+      "rationale": "I recall the July 2024 BLS jobs report showed payroll growth within the stated 100k\u2013150k band, so this market resolved Yes.",
       "probabilities": {
         "Yes": 0.995,
         "No": 0.005
@@ -3466,7 +3732,9 @@
           "Total nonfarm payroll employment increased by 114,000 in July 2024.",
           "The unemployment rate rose to 4.3% in that report."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3492,7 +3760,9 @@
           "At the January 30-31, 2024 FOMC meeting, the Fed left the federal funds target range unchanged at 5.25% to 5.50%.",
           "The decision was announced on January 31, 2024, with Jerome Powell indicating the committee needed greater confidence inflation was moving sustainably toward 2% before cutting rates."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3507,7 +3777,7 @@
     "volume": "10009",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember the port’s full federal navigation channel was not restored until June, after the May 31 close. Limited temporary channels operated earlier, but the commonly cited full reopening occurred in June.",
+      "rationale": "I remember the port\u2019s full federal navigation channel was not restored until June, after the May 31 close. Limited temporary channels operated earlier, but the commonly cited full reopening occurred in June.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -3519,7 +3789,9 @@
           "The full 700-foot-wide, 50-foot-deep Fort McHenry Federal Channel was reopened to commercial traffic on June 10, 2024, after the May 31 close time.",
           "The Dali was refloated and moved away from the collapse site in May, but full channel restoration came later."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3545,7 +3817,9 @@
           "The U.S. BLS released November 2024 CPI data on December 11, 2024.",
           "Headline CPI-U rose 0.3% month-over-month seasonally adjusted and 2.7% over the prior 12 months."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3560,7 +3834,7 @@
     "volume": "4050.22",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember the May 2024 U.S. jobs report: nonfarm payrolls rose by 272,000, which is within the 250,000–300,000 range. Therefore the market would resolve Yes.",
+      "rationale": "I remember the May 2024 U.S. jobs report: nonfarm payrolls rose by 272,000, which is within the 250,000\u2013300,000 range. Therefore the market would resolve Yes.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -3572,7 +3846,9 @@
           "Nonfarm payroll employment increased by 272,000 in May 2024.",
           "The unemployment rate rose to 4.0% in the same report."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3599,7 +3875,9 @@
           "The deposit facility rate was lowered from 3.25% to 3.00%, with changes taking effect on December 18, 2024.",
           "The main refinancing operations rate and marginal lending facility rate were set at 3.15% and 3.40%, respectively."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3614,7 +3892,7 @@
     "volume": "36290",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize the September 2024 U.S. jobs report: nonfarm payrolls were well above the 150k–200k band, so the market would resolve No.",
+      "rationale": "I recognize the September 2024 U.S. jobs report: nonfarm payrolls were well above the 150k\u2013200k band, so the market would resolve No.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -3625,7 +3903,9 @@
           "The BLS Employment Situation report released on October 4, 2024 reported September 2024 total nonfarm payroll employment increased by 254,000.",
           "The unemployment rate was reported at 4.1%, and prior months' payroll figures were revised upward."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3640,7 +3920,7 @@
     "volume": "138907",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recall the exact resolved count. December FOMC discussions likely emphasized inflation after updated projections, but 40 mentions is a moderately high threshold.",
+      "rationale": "I don\u2019t recall the exact resolved count. December FOMC discussions likely emphasized inflation after updated projections, but 40 mentions is a moderately high threshold.",
       "probabilities": {
         "Yes": 0.68,
         "No": 0.32
@@ -3648,7 +3928,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3675,7 +3956,9 @@
           "The unemployment rate in that report was 4.2%, down from 4.3% in July 2024.",
           "The report was released Friday, September 6, 2024 at 8:30 a.m. Eastern time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3702,7 +3985,9 @@
           "Additional 25 basis point cuts occurred at the November 7, 2024 and December 18, 2024 FOMC meetings.",
           "By year-end 2024 there were three Fed rate-cut actions, not five."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3728,7 +4013,9 @@
           "The BLS Employment Situation report for November 2024 was released on December 6, 2024.",
           "The reported U.S. unemployment rate for November 2024 was 4.2%, with nonfarm payroll employment increasing by about 227,000."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3751,10 +4038,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The FOMC kept the federal funds target range at 5.25%–5.50% at its January 31, 2024 meeting.",
-          "The FOMC again held rates at 5.25%–5.50% on March 20, 2024; no rate cut occurred before the market close deadline."
+          "The FOMC kept the federal funds target range at 5.25%\u20135.50% at its January 31, 2024 meeting.",
+          "The FOMC again held rates at 5.25%\u20135.50% on March 20, 2024; no rate cut occurred before the market close deadline."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3769,7 +4058,7 @@
     "volume": "7723.17",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the July 5, 2024 BLS Employment Situation report for June 2024 showed payroll gains below the 250k–300k range, so the market resolved No.",
+      "rationale": "I recall the July 5, 2024 BLS Employment Situation report for June 2024 showed payroll gains below the 250k\u2013300k range, so the market resolved No.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -3780,7 +4069,9 @@
           "The BLS reported total nonfarm payroll employment increased by 206,000 in June 2024.",
           "The June 2024 Employment Situation report was released on July 5, 2024, and unemployment rose to 4.1%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3806,7 +4097,9 @@
           "At the November 6-7, 2024 FOMC meeting, the Fed lowered the federal funds target range by 25 basis points.",
           "The new target range announced on November 7, 2024 was 4.50% to 4.75%, down from 4.75% to 5.00%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3829,10 +4122,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "On December 18, 2024, the FOMC lowered the federal funds target range by 25 basis points to 4.25%–4.50%.",
+          "On December 18, 2024, the FOMC lowered the federal funds target range by 25 basis points to 4.25%\u20134.50%.",
           "Cleveland Fed President Beth Hammack dissented, preferring to leave rates unchanged."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3858,7 +4153,9 @@
           "At the September 17-18, 2024 FOMC meeting, the Fed lowered the federal funds target range by 50 basis points, from 5.25%-5.50% to 4.75%-5.00%.",
           "The decision was announced on September 18, 2024, with Michelle Bowman dissenting in favor of a smaller 25 bps cut."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3884,7 +4181,9 @@
           "On July 31, 2024, the FOMC maintained the federal funds target range at 5.25% to 5.50%.",
           "This was the July 30-31, 2024 FOMC meeting, with the statement released after the meeting and no rate cut or hike announced."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   }

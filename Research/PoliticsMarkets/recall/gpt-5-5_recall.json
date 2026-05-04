@@ -21,7 +21,8 @@
           "On 2024-10-01, Iran launched a large ballistic missile attack against Israel, widely reported as about 180 missiles.",
           "The attack followed Iran's April 13-14, 2024 drone-and-missile strike on Israel, making it another direct Iranian strike in 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -47,7 +48,9 @@
           "By March 31, 2024, Saudi Arabia and Israel had not signed a formal peace or normalization agreement.",
           "After the October 7, 2023 Hamas attack and ensuing Gaza war, Saudi officials tied normalization to steps toward Palestinian statehood and a ceasefire."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -70,7 +73,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -85,7 +89,7 @@
     "volume": "1.77028e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the October 2024 escalation: Iran’s direct missile attack occurred on October 1, and Israel later struck Iran, but there was no further direct Iranian strike on Israel before the October 31 close.",
+      "rationale": "I recall the October 2024 escalation: Iran\u2019s direct missile attack occurred on October 1, and Israel later struck Iran, but there was no further direct Iranian strike on Israel before the October 31 close.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -96,7 +100,9 @@
           "Iran launched roughly 180 ballistic missiles at Israel on October 1, 2024.",
           "Israel retaliated with strikes on Iranian military targets on October 26, 2024, but Iran did not carry out another direct strike on Israel before October 31, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -122,7 +128,8 @@
           "Yahya Sinwar was killed by Israeli forces in Rafah, Gaza, on October 16, 2024; his death was publicly confirmed on October 17, 2024.",
           "Benjamin Netanyahu remained prime minister of Israel after Sinwar's death and through the October 31, 2024 close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -148,7 +155,9 @@
           "The SAVE Act, H.R. 8281 in the 118th Congress, passed the U.S. House on July 10, 2024 by a 221-198 vote.",
           "It did not pass the Senate and was not signed by President Biden before the Nov. 4, 2024 market close / Nov. 5 election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -174,7 +183,8 @@
           "On October 1, 2024, Iran launched a large ballistic missile attack against Israel.",
           "The attack involved roughly 180 missiles, with impacts/interceptions reported across Israel and targets including Israeli military sites."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -197,7 +207,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -223,7 +234,9 @@
           "The House passed a stopgap government funding bill on Friday, December 20, 2024, before the 12:01 a.m. shutdown deadline.",
           "The House vote was widely reported as 366-34, and the bill funded the government into March 2025 while including disaster and farm aid."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -239,7 +252,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -253,7 +269,7 @@
     "volume": "732532",
     "status": "ok",
     "forecast": {
-      "rationale": "Netanyahu remained Israel’s prime minister past the October 31, 2024 deadline. I recall no resignation, removal, or replacement of his government before that date.",
+      "rationale": "Netanyahu remained Israel\u2019s prime minister past the October 31, 2024 deadline. I recall no resignation, removal, or replacement of his government before that date.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -264,7 +280,9 @@
           "Benjamin Netanyahu was still serving as Prime Minister of Israel on October 31, 2024.",
           "No successor prime minister took office before the UTC close time; his wartime coalition government continued beyond that date."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -280,7 +298,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": "{\"rationale\":\"By the specified close time on Dec. 19, 2024, Congress had not passed the stopgap funding bill. The eventual continuing resolution passed after that deadline.\",\"probabilities\":{\"Yes\":0.01,\"No\":0.99},\"recall_assessment\":{\"recognized_event\":true,\"evidence_facts\":[\"A Trump-backed House funding/debt-limit plan failed on Dec. 19, 2024, by a 174-235 vote.\",\"A stripped-down continuing resolution passed the"
+      "raw_response": "{\"rationale\":\"By the specified close time on Dec. 19, 2024, Congress had not passed the stopgap funding bill. The eventual continuing resolution passed after that deadline.\",\"probabilities\":{\"Yes\":0.01,\"No\":0.99},\"recall_assessment\":{\"recognized_event\":true,\"evidence_facts\":[\"A Trump-backed House funding/debt-limit plan failed on Dec. 19, 2024, by a 174-235 vote.\",\"A stripped-down continuing resolution passed the",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -305,7 +326,9 @@
           "Hamas political leader Ismail Haniyeh was killed in Tehran on July 31, 2024, prompting Iranian threats of retaliation against Israel.",
           "No direct Iranian military attack on Israel occurred by Aug. 12, 2024; Iran's later large missile attack was on Oct. 1, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -328,7 +351,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -354,7 +378,9 @@
           "A bipartisan Senate national-security supplemental with border provisions was released on Feb. 4, 2024, negotiated by senators including James Lankford, Chris Murphy, and Kyrsten Sinema.",
           "On Feb. 7, 2024, the Senate failed to advance the border-plus-foreign-aid package in a 49-50 procedural vote, short of the 60 votes needed."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -369,7 +395,7 @@
     "volume": "788895",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize the real-world deadline context: Iran threatened retaliation after Israel’s late-October strikes, but no new Iranian strike on Israel occurred before the Nov. 8 cutoff. Therefore the market would resolve No.",
+      "rationale": "I recognize the real-world deadline context: Iran threatened retaliation after Israel\u2019s late-October strikes, but no new Iranian strike on Israel occurred before the Nov. 8 cutoff. Therefore the market would resolve No.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -377,10 +403,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Israel carried out airstrikes on Iran on October 26, 2024, after Iran’s October 1 ballistic-missile attack on Israel.",
+          "Israel carried out airstrikes on Iran on October 26, 2024, after Iran\u2019s October 1 ballistic-missile attack on Israel.",
           "Despite Iranian threats and media reports of possible retaliation, there was no confirmed Iranian missile/drone strike on Israel before 2024-11-08 12:00 UTC."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -406,7 +434,9 @@
           "Benjamin Netanyahu was still Israel's prime minister on December 31, 2024.",
           "No successor prime minister or new Israeli government replacing Netanyahu was sworn in during 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -432,7 +462,9 @@
           "The bipartisan continuing-resolution package collapsed on Dec. 18, 2024 after opposition from Donald Trump and Elon Musk, before Congress had passed it.",
           "As of Dec. 19, 2024 at 12:00 UTC / 7:00 a.m. ET, neither chamber had completed passage of a funding bill; the shutdown deadline was still ahead on Dec. 20."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -447,7 +479,7 @@
     "volume": "467982",
     "status": "ok",
     "forecast": {
-      "rationale": "Iran’s direct military response to Israel occurred after the deadline, on October 1, 2024. Thus the condition “before October” was not met by the stated close time.",
+      "rationale": "Iran\u2019s direct military response to Israel occurred after the deadline, on October 1, 2024. Thus the condition \u201cbefore October\u201d was not met by the stated close time.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -458,7 +490,9 @@
           "Iran launched a large ballistic missile attack on Israel on October 1, 2024, after the September 30 deadline.",
           "The attack involved roughly 180 ballistic missiles and was described as retaliation for Israeli actions including the killing of Hassan Nasrallah and IRGC commander Abbas Nilforoushan."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -484,7 +518,9 @@
           "Benjamin Netanyahu remained Prime Minister of Israel after June 30, 2024.",
           "Benny Gantz left the emergency war cabinet in June 2024, and Netanyahu dissolved that war cabinet, but this did not remove Netanyahu as prime minister."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -510,7 +546,9 @@
           "The House passed a stopgap funding bill on December 20, 2024, after an earlier bipartisan plan collapsed amid Trump/Musk objections.",
           "The Senate approved the measure shortly after midnight on December 21, 2024, and it funded the government through March 14, 2025, with disaster and farm aid included."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -533,7 +571,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -559,7 +598,12 @@
           "Julie Su became Acting U.S. Secretary of Labor in March 2023 after Marty Walsh departed to lead the NHL Players' Association.",
           "President Biden nominated Su for Labor Secretary in 2023, but the Senate did not confirm her by late December 2023; her nomination stalled amid lack of sufficient Senate support."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Marty Walsh resigned and left office on March 11, 2023, not in February 2023."
+        ]
       }
     }
   },
@@ -575,7 +619,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -600,7 +647,9 @@
           "On October 1, 2024, Iran launched a large ballistic missile attack against Israel, widely reported as roughly 180 missiles.",
           "The attack triggered sirens across Israel and came before the October 31, 2024 close time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -615,7 +664,7 @@
     "volume": "56542.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recall the exact resolved word-count market. Based on Trump’s late-campaign rally rhetoric, “border” was likely mentioned often, but 25+ is a fairly high threshold.",
+      "rationale": "I do not recall the exact resolved word-count market. Based on Trump\u2019s late-campaign rally rhetoric, \u201cborder\u201d was likely mentioned often, but 25+ is a fairly high threshold.",
       "probabilities": {
         "Yes": 0.42,
         "No": 0.58
@@ -623,7 +672,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -649,7 +699,9 @@
           "The initial December 2024 continuing-resolution package drew criticism for effectively allowing members of Congress their first pay increase since 2009, raising the $174,000 salary via an automatic COLA.",
           "After the Musk/Trump backlash, House Republicans released replacement funding text on Dec. 19, 2024 that stripped out many add-ons from the earlier bipartisan bill, including the congressional pay-raise language."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -664,7 +716,7 @@
     "volume": "273697",
     "status": "ok",
     "forecast": {
-      "rationale": "Iran had vowed retaliation after Haniyeh’s killing, but no direct Iranian military response occurred before the Aug. 9 deadline. The eventual major Iranian missile attack came later, not by this market’s close.",
+      "rationale": "Iran had vowed retaliation after Haniyeh\u2019s killing, but no direct Iranian military response occurred before the Aug. 9 deadline. The eventual major Iranian missile attack came later, not by this market\u2019s close.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -673,9 +725,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "The market followed the July 31, 2024 assassination of Hamas leader Ismail Haniyeh in Tehran, after which Iran threatened retaliation against Israel.",
-          "No direct Iranian military strike on Israel occurred before 2024-08-09 12:00 UTC; Iran’s large ballistic-missile attack on Israel occurred later on October 1, 2024."
+          "No direct Iranian military strike on Israel occurred before 2024-08-09 12:00 UTC; Iran\u2019s large ballistic-missile attack on Israel occurred later on October 1, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -701,7 +755,9 @@
           "Vivek Ramaswamy suspended/dropped out of the 2024 Republican presidential race on January 15, 2024.",
           "He made the announcement after finishing fourth in the Iowa caucuses and endorsed Donald Trump."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -728,7 +784,9 @@
           "President Joe Biden signed the package into law on April 24, 2024.",
           "The law required ByteDance to divest TikTok within about 270 days or face a U.S. app-store/hosting ban."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -754,7 +812,9 @@
           "Before July 2024, NATO officials publicly maintained that the alliance was not sending combat troops to fight in Ukraine.",
           "France and some European leaders discussed possible troop/trainer roles in 2024, but no NATO/EU member officially deployed forces to fight Russian troops in Ukraine by the close date."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -780,7 +840,9 @@
           "Mahmoud Abbas has served as President of the State of Palestine/Palestinian Authority since 2005 after Yasser Arafat's death and the 2005 election.",
           "Throughout late 2023, including during the Israel-Hamas war, Abbas remained the PA president based in Ramallah; no successor assumed the presidency by 2023-12-31."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -806,7 +868,9 @@
           "The Senate Homeland Security and Governmental Affairs Committee advanced a congressional stock-trading ban proposal in July 2024, but it did not become law by August 31, 2024.",
           "No bill banning members of Congress from stock trading had passed both the House and Senate and been signed by President Biden before the market deadline."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -822,7 +886,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -847,7 +914,9 @@
           "Donald Trump announced Senator JD Vance of Ohio as his vice-presidential pick on July 15, 2024, the first day of the Republican National Convention in Milwaukee.",
           "The Republican ticket formally became Donald Trump and JD Vance; Tim Scott remained a supporter/surrogate but was not the VP nominee."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -873,7 +942,9 @@
           "President Joe Biden vetoed H.J.Res.109 on May 31, 2024, a Congressional Review Act resolution to overturn the SEC's Staff Accounting Bulletin No. 121.",
           "The resolution targeted SAB 121, which directed companies safeguarding crypto assets to record related obligations on their balance sheets; it had passed the Senate 60-38 in May 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -896,7 +967,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -922,7 +994,9 @@
           "In early January 2024, unsealed Jeffrey Epstein-related court documents mentioned Bill Clinton, prompting speculation online.",
           "No reputable news report, court record, or law-enforcement announcement indicated Bill Clinton was arrested before 2024-01-10T00:00:00Z."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -948,7 +1022,9 @@
           "Rep. Nancy Mace introduced a measure in November 2024 targeting transgender bathroom access in the U.S. Capitol shortly after Sarah McBride was elected to Congress.",
           "House Speaker Mike Johnson subsequently announced a House-side policy restricting single-sex facilities by biological sex, rather than Congress passing Mace's bill in 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -971,7 +1047,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -997,7 +1074,9 @@
           "Mahmoud Abbas had held the Palestinian presidency since 2005 and was still referred to as Palestinian Authority President in January 2024.",
           "U.S. Secretary of State Antony Blinken met Abbas in Ramallah on January 10, 2024, with Abbas acting in that role."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1020,7 +1099,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1035,7 +1115,7 @@
     "volume": "87822.7",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recognize this exact market resolution from memory. Given Iran often signals retaliation but delays or uses proxies, a direct qualifying military response by the deadline seems less likely than no qualifying response.",
+      "rationale": "I don\u2019t recognize this exact market resolution from memory. Given Iran often signals retaliation but delays or uses proxies, a direct qualifying military response by the deadline seems less likely than no qualifying response.",
       "probabilities": {
         "Yes": 0.22,
         "No": 0.78
@@ -1043,7 +1123,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1066,7 +1147,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1092,7 +1174,9 @@
           "Bashar al-Assad left Syria on or around December 8, 2024, as opposition forces entered Damascus.",
           "Russia announced Assad had resigned and left Syria; he was later reported to be in Moscow with asylum."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1107,7 +1191,7 @@
     "volume": "76060.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recall this exact market, but Iran’s widely reported direct military retaliation against Israel came later, in October 2024, not before the Sep. 2 deadline. Thus No is much more likely.",
+      "rationale": "I do not recall this exact market, but Iran\u2019s widely reported direct military retaliation against Israel came later, in October 2024, not before the Sep. 2 deadline. Thus No is much more likely.",
       "probabilities": {
         "Yes": 0.03,
         "No": 0.97
@@ -1115,7 +1199,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1138,11 +1223,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hassan Nasrallah was killed in an Israeli airstrike on Hezbollah’s underground headquarters in the Dahiyeh suburb of Beirut on September 27, 2024.",
-          "Hezbollah publicly confirmed Nasrallah’s death on September 28, 2024, more than a month before October 31.",
-          "Naim Qassem was later announced as Hezbollah’s new secretary-general on October 29, 2024."
+          "Hassan Nasrallah was killed in an Israeli airstrike on Hezbollah\u2019s underground headquarters in the Dahiyeh suburb of Beirut on September 27, 2024.",
+          "Hezbollah publicly confirmed Nasrallah\u2019s death on September 28, 2024, more than a month before October 31.",
+          "Naim Qassem was later announced as Hezbollah\u2019s new secretary-general on October 29, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1166,9 +1253,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Pavel Durov was arrested at Paris-Le Bourget Airport in late August 2024 in connection with a French investigation into Telegram.",
-          "He was released on bail of about €5 million and placed under judicial supervision, including a ban on leaving France and regular police check-ins."
+          "He was released on bail of about \u20ac5 million and placed under judicial supervision, including a ban on leaving France and regular police check-ins."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1191,10 +1280,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Iran’s major direct missile/drone attacks on Israel in 2024 occurred on April 13–14 and October 1, not November 5.",
+          "Iran\u2019s major direct missile/drone attacks on Israel in 2024 occurred on April 13\u201314 and October 1, not November 5.",
           "Israel struck Iranian targets on October 26, 2024, prompting threats of retaliation, but no Iranian strike on Israel was reported before 12:00 UTC on November 5."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1209,7 +1300,7 @@
     "volume": "630014",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember Barnier’s short-lived premiership ended in December 2024 after his government lost a no-confidence vote. Since he was replaced before the Dec. 31 close, the market resolves Yes.",
+      "rationale": "I remember Barnier\u2019s short-lived premiership ended in December 2024 after his government lost a no-confidence vote. Since he was replaced before the Dec. 31 close, the market resolves Yes.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -1218,10 +1309,12 @@
         "recognized_event": true,
         "evidence_facts": [
           "Michel Barnier was appointed prime minister by Emmanuel Macron on 5 September 2024.",
-          "On 4 December 2024, the French National Assembly passed a no-confidence motion against Barnier’s government over the budget.",
-          "François Bayrou was appointed prime minister on 13 December 2024, replacing Barnier."
+          "On 4 December 2024, the French National Assembly passed a no-confidence motion against Barnier\u2019s government over the budget.",
+          "Fran\u00e7ois Bayrou was appointed prime minister on 13 December 2024, replacing Barnier."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1247,7 +1340,9 @@
           "Mike Johnson was elected Speaker of the U.S. House on October 25, 2023 after Kevin McCarthy's ouster.",
           "Mike Johnson remained Speaker as of April 1, 2024; Donald Trump was not elected to or serving in that role."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1273,7 +1368,8 @@
           "On April 19, 2024, explosions near Isfahan were widely reported as an Israeli strike, but the IAEA stated there was no damage to Iranian nuclear sites.",
           "On October 26, 2024, Israel said it struck Iranian military targets such as missile and air-defense sites, while reports noted it avoided nuclear and oil facilities."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -1288,7 +1384,7 @@
     "volume": "523308",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize the political episode: despite intense pressure after Chrystia Freeland’s resignation, Trudeau did not resign by the Dec. 20, 2024 close. His resignation announcement came later.",
+      "rationale": "I recognize the political episode: despite intense pressure after Chrystia Freeland\u2019s resignation, Trudeau did not resign by the Dec. 20, 2024 close. His resignation announcement came later.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1296,10 +1392,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Chrystia Freeland resigned as Canada’s finance minister and deputy prime minister on December 16, 2024, triggering calls for Justin Trudeau to step down.",
+          "Chrystia Freeland resigned as Canada\u2019s finance minister and deputy prime minister on December 16, 2024, triggering calls for Justin Trudeau to step down.",
           "Justin Trudeau remained prime minister and Liberal leader through Friday, December 20, 2024; he announced his intention to resign later, on January 6, 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1314,7 +1412,7 @@
     "volume": "571328",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall Sanders formally backing Harris after initially holding off following Biden’s withdrawal. This occurred well before the Aug. 18 close time, so the market should resolve Yes.",
+      "rationale": "I recall Sanders formally backing Harris after initially holding off following Biden\u2019s withdrawal. This occurred well before the Aug. 18 close time, so the market should resolve Yes.",
       "probabilities": {
         "Yes": 0.98,
         "No": 0.02
@@ -1325,7 +1423,8 @@
           "Joe Biden exited the 2024 presidential race on July 21, 2024, and Kamala Harris rapidly became the Democratic frontrunner/nominee.",
           "Bernie Sanders publicly endorsed Kamala Harris in late July 2024, after several days of withholding an immediate endorsement while pressing for working-class policy commitments."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -1340,7 +1439,7 @@
     "volume": "3.26566e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember Israel carried out direct airstrikes inside Iran on Oct. 26, 2024, before the market close, in retaliation for Iran’s Oct. 1 missile attack. That satisfies the title condition.",
+      "rationale": "I remember Israel carried out direct airstrikes inside Iran on Oct. 26, 2024, before the market close, in retaliation for Iran\u2019s Oct. 1 missile attack. That satisfies the title condition.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -1349,9 +1448,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "On Oct. 26, 2024, Israel struck military targets inside Iran, including air-defense and missile-related sites around Tehran and other provinces.",
-          "The strikes followed Iran’s Oct. 1, 2024 ballistic missile attack on Israel and were publicly announced by the IDF as completed the same day."
+          "The strikes followed Iran\u2019s Oct. 1, 2024 ballistic missile attack on Israel and were publicly announced by the IDF as completed the same day."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1366,7 +1467,7 @@
     "volume": "432953",
     "status": "ok",
     "forecast": {
-      "rationale": "Trudeau was not out before the 2024 close; he remained Canada’s prime minister and Liberal leader through year-end. His resignation announcement came after the deadline, in January 2025.",
+      "rationale": "Trudeau was not out before the 2024 close; he remained Canada\u2019s prime minister and Liberal leader through year-end. His resignation announcement came after the deadline, in January 2025.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -1377,7 +1478,9 @@
           "Justin Trudeau announced on January 6, 2025 that he would resign as Liberal Party leader and prime minister after a successor was chosen.",
           "He was still prime minister on December 31, 2024; Mark Carney did not succeed him until March 14, 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1403,7 +1506,9 @@
           "California SB 1047 was the Safe and Secure Innovation for Frontier Artificial Intelligence Models Act, authored by state Sen. Scott Wiener.",
           "Governor Gavin Newsom vetoed SB 1047 on September 29, 2024, after it had passed the California Legislature."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1429,7 +1534,8 @@
           "On 26 October 2024, Israel launched airstrikes on military targets inside Iran, commonly reported as retaliation for Iran's 1 October ballistic-missile attack on Israel.",
           "The strikes targeted Iranian air-defense and missile-related sites in areas including Tehran, Khuzestan, and Ilam provinces; Iran acknowledged military personnel were killed."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -1444,7 +1550,7 @@
     "volume": "140677",
     "status": "ok",
     "forecast": {
-      "rationale": "Nasrallah was still Hezbollah’s secretary-general at the end of August 2024; his death occurred later in September. Thus the condition was met by the close time.",
+      "rationale": "Nasrallah was still Hezbollah\u2019s secretary-general at the end of August 2024; his death occurred later in September. Thus the condition was met by the close time.",
       "probabilities": {
         "Yes": 0.999,
         "No": 0.001
@@ -1453,9 +1559,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Hassan Nasrallah remained Hezbollah secretary-general through August 31, 2024.",
-          "Hezbollah announced Nasrallah was killed in an Israeli airstrike on Beirut’s southern suburbs on September 27, 2024, after this market’s close time."
+          "Hezbollah announced Nasrallah was killed in an Israeli airstrike on Beirut\u2019s southern suburbs on September 27, 2024, after this market\u2019s close time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1481,7 +1589,8 @@
           "In March 2024, Congress passed a six-bill appropriations package covering departments including Agriculture, Commerce-Justice-Science, Energy-Water, Interior-Environment, Military Construction-VA, and Transportation-HUD.",
           "The Senate approved the package on Friday, March 8, 2024, and President Biden signed it on March 9, averting a partial government shutdown."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -1496,7 +1605,7 @@
     "volume": "1.29345e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Israel’s widely reported retaliatory strikes on Iran began after the listed close time, not before noon UTC on Oct. 25. Therefore the condition was not met by the market deadline.",
+      "rationale": "Israel\u2019s widely reported retaliatory strikes on Iran began after the listed close time, not before noon UTC on Oct. 25. Therefore the condition was not met by the market deadline.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -1504,10 +1613,11 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Israel’s retaliatory airstrikes on Iran were reported overnight Oct. 25–26, 2024, with explosions near Tehran after the Oct. 25 12:00 UTC close time.",
-          "The operation followed Iran’s Oct. 1, 2024 ballistic missile attack on Israel and was later described as limited strikes on Iranian military targets."
+          "Israel\u2019s retaliatory airstrikes on Iran were reported overnight Oct. 25\u201326, 2024, with explosions near Tehran after the Oct. 25 12:00 UTC close time.",
+          "The operation followed Iran\u2019s Oct. 1, 2024 ballistic missile attack on Israel and was later described as limited strikes on Iranian military targets."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -1533,7 +1643,9 @@
           "The July 26, 2023 House Oversight UAP hearing included David Grusch's allegations, but it did not produce an official U.S. confirmation of aliens.",
           "NASA's September 14, 2023 UAP report stated there was no conclusive evidence that UAP observations were extraterrestrial in origin."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1560,7 +1672,9 @@
           "President Biden signed the stopgap funding bill on November 16, 2023, before the funding deadline, extending funding into January and February 2024.",
           "No federal government shutdown occurred over the November 17-19, 2023 deadline period."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1586,7 +1700,9 @@
           "Iran launched a large ballistic-missile attack on Israel on October 1, 2024, prompting Israeli vows of retaliation.",
           "Israel's direct retaliatory airstrikes on Iran occurred on October 26, 2024, targeting military sites, after this market's October 11 12:00 UTC close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1612,7 +1728,9 @@
           "Keir Starmer was appointed UK Prime Minister on 5 July 2024 after Labour won the 4 July 2024 general election.",
           "He remained Prime Minister through 30 September 2024 and into October 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1628,7 +1746,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -1653,7 +1774,9 @@
           "On October 26, 2024, Israel carried out airstrikes on Iranian military targets in retaliation for Iran's October 1 ballistic missile attack on Israel.",
           "In April 2024, after Iran's April 13 drone and missile attack, Israel reportedly struck near Isfahan, Iran, where air defenses and military/nuclear-related facilities were in the area."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1668,7 +1791,7 @@
     "volume": "92585.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Jean-Luc Mélenchon was not appointed Prime Minister before the 2024 close; other politicians held or received the post during the relevant period.",
+      "rationale": "Jean-Luc M\u00e9lenchon was not appointed Prime Minister before the 2024 close; other politicians held or received the post during the relevant period.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1677,9 +1800,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Emmanuel Macron appointed Michel Barnier as Prime Minister of France on 5 September 2024, after the snap legislative election period.",
-          "After Barnier’s government fell in December 2024, Macron appointed François Bayrou as Prime Minister on 13 December 2024, not Jean-Luc Mélenchon."
+          "After Barnier\u2019s government fell in December 2024, Macron appointed Fran\u00e7ois Bayrou as Prime Minister on 13 December 2024, not Jean-Luc M\u00e9lenchon."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1694,7 +1819,7 @@
     "volume": "206367",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recall the exact market resolution. Based on the period’s Lebanon/Israel-Hezbollah tensions, partial staff drawdowns or citizen departure advisories were plausible, but a full U.S. Embassy Beirut evacuation by Oct. 31 was less likely.",
+      "rationale": "I do not recall the exact market resolution. Based on the period\u2019s Lebanon/Israel-Hezbollah tensions, partial staff drawdowns or citizen departure advisories were plausible, but a full U.S. Embassy Beirut evacuation by Oct. 31 was less likely.",
       "probabilities": {
         "Yes": 0.22,
         "No": 0.78
@@ -1702,7 +1827,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1728,7 +1854,9 @@
           "Iran launched a large ballistic-missile attack on Israel on October 1, 2024, prompting expectations of Israeli retaliation.",
           "Israel's direct military response against targets in Iran occurred overnight October 25-26, 2024, after this market's October 18 close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1755,7 +1883,9 @@
           "After the October 26, 2024 Georgian parliamentary election, Georgian Dream continued in power and parliament approved a new government led by Kobakhidze in late November 2024.",
           "Kobakhidze was still serving as prime minister at the end of December 2024 amid protests and the disputed presidential transition."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1771,7 +1901,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -1785,7 +1918,7 @@
     "volume": "817457",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall Israel’s October 2024 retaliation against Iran avoided oil infrastructure, focusing on military and air-defense targets. Thus the market condition was not met by the close time.",
+      "rationale": "I recall Israel\u2019s October 2024 retaliation against Iran avoided oil infrastructure, focusing on military and air-defense targets. Thus the market condition was not met by the close time.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -1793,11 +1926,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Israel carried out retaliatory airstrikes on Iran on October 26, 2024 after Iran’s October 1 missile attack.",
+          "Israel carried out retaliatory airstrikes on Iran on October 26, 2024 after Iran\u2019s October 1 missile attack.",
           "Reports described targets as military sites, air-defense systems, and missile-related facilities; oil and nuclear facilities were not struck.",
-          "U.S. and Israeli messaging at the time emphasized that Iran’s energy infrastructure was avoided."
+          "U.S. and Israeli messaging at the time emphasized that Iran\u2019s energy infrastructure was avoided."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1820,7 +1955,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1847,7 +1983,9 @@
           "The House elected Rep. Mike Johnson as Speaker on October 25, 2023, by a 220-209 vote.",
           "Donald Trump was never elected Speaker before the December 31, 2023 close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1862,7 +2000,7 @@
     "volume": "396468",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the relevant October 2024 sequence: Iran attacked Israel on Oct. 1, but Israel’s direct military retaliation against Iran occurred weeks later. Therefore the market should have resolved No by the Oct. 4 deadline.",
+      "rationale": "I recall the relevant October 2024 sequence: Iran attacked Israel on Oct. 1, but Israel\u2019s direct military retaliation against Iran occurred weeks later. Therefore the market should have resolved No by the Oct. 4 deadline.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -1871,9 +2009,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Iran launched a large ballistic missile attack on Israel on October 1, 2024, prompting expectations of an Israeli response.",
-          "Israel’s direct retaliatory strikes on Iranian military targets occurred on October 26, 2024, after the October 4 12:00 UTC close time."
+          "Israel\u2019s direct retaliatory strikes on Iranian military targets occurred on October 26, 2024, after the October 4 12:00 UTC close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1889,7 +2029,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -1914,7 +2057,9 @@
           "Mike Johnson was the Speaker of the U.S. House on July 1, 2024, having been elected Speaker on October 25, 2023.",
           "Donald Trump did not hold the office of Speaker of the House at any point before the July 1, 2024 close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1940,7 +2085,9 @@
           "On April 19, 2024, explosions were reported near Isfahan, Iran, and U.S. officials told media Israel had carried out a retaliatory strike.",
           "The action followed Iran's April 13-14, 2024 drone and missile attack on Israel; the reported Israeli strike occurred before 2024-04-19 12:00 UTC."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1966,7 +2113,9 @@
           "Kamala Harris lost the 2024 U.S. presidential election to Donald Trump; Trump became president-elect in November 2024.",
           "Joe Biden remained U.S. president through December 20, 2024, and Harris remained vice president rather than being inaugurated as president."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1992,7 +2141,9 @@
           "On Jan. 18, 2024, the House and Senate passed a continuing resolution to extend government funding deadlines into March 2024.",
           "President Joe Biden signed the stopgap funding bill on Jan. 19, 2024, preventing a partial government shutdown."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2018,7 +2169,9 @@
           "Israel conducted direct airstrikes on Iranian military targets on October 26, 2024, before the November window.",
           "No subsequent Israeli strike inside Iran occurred during November 2024 before the November 30, 2024 close; the next major direct Israel-Iran strike episode was in 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2033,7 +2186,7 @@
     "volume": "8.43663e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Yoon was impeached and suspended in December 2024, but he was not formally removed from the presidency until the Constitutional Court ruling in 2025. Under a strict reading of “out as president” by the 2024 close, this resolves No.",
+      "rationale": "Yoon was impeached and suspended in December 2024, but he was not formally removed from the presidency until the Constitutional Court ruling in 2025. Under a strict reading of \u201cout as president\u201d by the 2024 close, this resolves No.",
       "probabilities": {
         "Yes": 0.08,
         "No": 0.92
@@ -2041,11 +2194,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "South Korea’s National Assembly passed an impeachment motion against President Yoon Suk Yeol on 2024-12-14 after his brief martial-law declaration on 2024-12-03/04.",
-          "After the impeachment vote, Yoon’s presidential powers were suspended and Prime Minister Han Duck-soo became acting president, but Yoon was not formally removed from office in 2024.",
-          "The Constitutional Court did not uphold Yoon’s impeachment and remove him until 2025."
+          "South Korea\u2019s National Assembly passed an impeachment motion against President Yoon Suk Yeol on 2024-12-14 after his brief martial-law declaration on 2024-12-03/04.",
+          "After the impeachment vote, Yoon\u2019s presidential powers were suspended and Prime Minister Han Duck-soo became acting president, but Yoon was not formally removed from office in 2024.",
+          "The Constitutional Court did not uphold Yoon\u2019s impeachment and remove him until 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2071,7 +2226,9 @@
           "Mike Johnson was elected U.S. House Speaker on October 25, 2023 after Kevin McCarthy's removal.",
           "Donald Trump was not elected Speaker of the House and did not hold the speakership by March 1, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2094,10 +2251,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Iran launched a large drone and missile attack on Israel overnight April 13–14, 2024, with most projectiles intercepted by Israel and partners.",
+          "Iran launched a large drone and missile attack on Israel overnight April 13\u201314, 2024, with most projectiles intercepted by Israel and partners.",
           "Israel's widely reported direct retaliatory strike near Isfahan, Iran occurred on April 19, 2024, after the market close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2112,7 +2271,7 @@
     "volume": "7.5779e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Assad’s government collapsed before the end of 2024, so he did not remain president through the year. The market would resolve No based on the December 2024 fall of Damascus and his flight from Syria.",
+      "rationale": "Assad\u2019s government collapsed before the end of 2024, so he did not remain president through the year. The market would resolve No based on the December 2024 fall of Damascus and his flight from Syria.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -2120,10 +2279,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Damascus fell to rebel forces on December 8, 2024, ending Bashar al-Assad’s rule in Syria.",
-          "Assad fled Syria and was reported to have been granted asylum in Russia after the regime’s collapse."
+          "Damascus fell to rebel forces on December 8, 2024, ending Bashar al-Assad\u2019s rule in Syria.",
+          "Assad fled Syria and was reported to have been granted asylum in Russia after the regime\u2019s collapse."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2150,7 +2311,9 @@
           "The suspect was identified as Ryan Wesley Routh; he fled and was later arrested on I-95 after law enforcement recovered a rifle, backpack, and other items near the golf course.",
           "The FBI publicly said it was investigating the incident as an apparent attempted assassination of Donald Trump."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2165,7 +2328,7 @@
     "volume": "242109",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall no Israeli military strike or other overt military action inside Iran during August 2024; the major direct Israel-Iran escalation came later in October. The August period was dominated by threats after Haniyeh’s July 31 killing in Tehran, not a new Israeli attack on Iran.",
+      "rationale": "I recall no Israeli military strike or other overt military action inside Iran during August 2024; the major direct Israel-Iran escalation came later in October. The August period was dominated by threats after Haniyeh\u2019s July 31 killing in Tehran, not a new Israeli attack on Iran.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2174,9 +2337,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Ismail Haniyeh was killed in Tehran on July 31, 2024, just before August, prompting Iranian threats of retaliation.",
-          "Israel’s widely reported retaliatory strikes on Iranian targets occurred later, on October 26, 2024, after Iran’s October 1 missile attack on Israel."
+          "Israel\u2019s widely reported retaliatory strikes on Iranian targets occurred later, on October 26, 2024, after Iran\u2019s October 1 missile attack on Israel."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2191,7 +2356,7 @@
     "volume": "5.39288e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recognize the exact market, and the title appears to omit the candidate/subject. Around Sep. 6, 2024, Trump was generally a slight Polymarket favorite over Harris, so a generic/unspecified Yes condition is highly uncertain.",
+      "rationale": "I don\u2019t recognize the exact market, and the title appears to omit the candidate/subject. Around Sep. 6, 2024, Trump was generally a slight Polymarket favorite over Harris, so a generic/unspecified Yes condition is highly uncertain.",
       "probabilities": {
         "Yes": 0.5,
         "No": 0.5
@@ -2199,7 +2364,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2214,7 +2380,7 @@
     "volume": "85776.9",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recall the resolved count for this specific market. Trump frequently emphasized immigration in 2024 rallies, and a long rally speech could plausibly include “border” 15+ times, though the threshold is high enough to leave uncertainty.",
+      "rationale": "I do not recall the resolved count for this specific market. Trump frequently emphasized immigration in 2024 rallies, and a long rally speech could plausibly include \u201cborder\u201d 15+ times, though the threshold is high enough to leave uncertainty.",
       "probabilities": {
         "Yes": 0.66,
         "No": 0.34
@@ -2222,7 +2388,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2245,7 +2412,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2272,7 +2440,9 @@
           "No articles of impeachment against Joe Biden were passed by the U.S. House before that date.",
           "The House Republican impeachment inquiry into Biden did not culminate in an impeachment vote before the election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2295,7 +2465,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2321,7 +2492,8 @@
           "Israel launched airstrikes on Iranian military targets overnight Oct. 25-26, 2024, before the U.S. election date.",
           "The strikes were described as retaliation for Iran's Oct. 1, 2024 ballistic missile attack on Israel and targeted facilities including air-defense and missile-related sites."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -2347,7 +2519,9 @@
           "Joe Biden remained the 46th U.S. president after withdrawing from the 2024 race on July 21, 2024 and endorsing Kamala Harris.",
           "Kamala Harris was still vice president on July 26, 2024; she was not sworn in as president before that date."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2362,7 +2536,7 @@
     "volume": "67807.2",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recall the exact market resolution or a verified transcript count. Trump frequently emphasizes immigration in Georgia campaign remarks, but saying “border” 20+ times is a relatively high threshold.",
+      "rationale": "I don\u2019t recall the exact market resolution or a verified transcript count. Trump frequently emphasizes immigration in Georgia campaign remarks, but saying \u201cborder\u201d 20+ times is a relatively high threshold.",
       "probabilities": {
         "Yes": 0.42,
         "No": 0.58
@@ -2370,7 +2544,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2396,7 +2571,9 @@
           "On October 26, 2024, Israel carried out retaliatory airstrikes in Iran after Iran's October 1 missile attack, but reports described targets as air-defense systems and missile/drone production or launch-related sites, not oil facilities.",
           "U.S. and Israeli reporting around the strike emphasized that oil and nuclear facilities were not hit; major Iranian oil assets such as Kharg Island or refineries were not struck in that operation."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2422,7 +2599,9 @@
           "On July 21, 2024, Joe Biden announced he would end his reelection campaign and endorsed Kamala Harris, but he did not resign as president.",
           "Biden remained president past August 31, 2024, and continued serving until the next inauguration on January 20, 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2445,7 +2624,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2468,7 +2648,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2483,7 +2664,7 @@
     "volume": "3.82943e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "I remember this market-resolving event: South Korea’s National Assembly voted to impeach President Yoon Suk Yeol in December 2024, before the close time.",
+      "rationale": "I remember this market-resolving event: South Korea\u2019s National Assembly voted to impeach President Yoon Suk Yeol in December 2024, before the close time.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -2491,11 +2672,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "On December 14, 2024, South Korea’s National Assembly passed an impeachment motion against President Yoon Suk Yeol.",
+          "On December 14, 2024, South Korea\u2019s National Assembly passed an impeachment motion against President Yoon Suk Yeol.",
           "The vote was 204 in favor, exceeding the 200 votes required in the 300-seat Assembly; Yoon was suspended from office pending Constitutional Court review.",
-          "The impeachment followed Yoon’s brief declaration of martial law on December 3, 2024, which was lifted after parliamentary opposition."
+          "The impeachment followed Yoon\u2019s brief declaration of martial law on December 3, 2024, which was lifted after parliamentary opposition."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2521,7 +2704,9 @@
           "No House expulsion vote removing Matt Gaetz occurred before April 30, 2024.",
           "Gaetz remained the U.S. Representative for Florida's 1st district past May 2024 and resigned only later, in November 2024, after being nominated for attorney general."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2547,7 +2732,9 @@
           "In February 2024, the U.S. circulated a UN Security Council draft resolution supporting a temporary ceasefire in Gaza as soon as practicable, linked to release of hostages and humanitarian access.",
           "On February 26, 2024, President Biden publicly said he hoped a Gaza ceasefire could begin by the following Monday, before March."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2574,7 +2761,9 @@
           "Putin was inaugurated for another presidential term at the Kremlin on May 7, 2024.",
           "He was still President of Russia on December 31, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2598,9 +2787,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Mike Johnson was still Speaker of the U.S. House on April 30, 2024.",
-          "Marjorie Taylor Greene’s motion to vacate was brought to a vote after the deadline, on May 8, 2024, and was tabled 359-43."
+          "Marjorie Taylor Greene\u2019s motion to vacate was brought to a vote after the deadline, on May 8, 2024, and was tabled 359-43."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2623,7 +2814,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2650,7 +2842,9 @@
           "The first impeachment vote was held on Dec. 7, 2024, after this market's Dec. 6 12:00 UTC close, and failed due to a ruling-party boycott/lack of quorum.",
           "Yoon was eventually impeached by the National Assembly on Dec. 14, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2673,7 +2867,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2696,7 +2891,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2722,7 +2918,9 @@
           "Joe Biden was inaugurated as the 46th President of the United States on January 20, 2021.",
           "He remained in office throughout June 1, 2023; Kamala Harris was Vice President and did not succeed him before that date."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2749,7 +2947,8 @@
           "Rafah was opened on Oct. 21, 2023 for humanitarian aid trucks into Gaza, not for Palestinian refugees entering Egypt.",
           "The first limited evacuations of foreign passport holders and wounded Palestinians through Rafah occurred on Nov. 1, 2023, after the listed UTC close time."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -2764,7 +2963,7 @@
     "volume": "54905.5",
     "status": "ok",
     "forecast": {
-      "rationale": "Iran’s direct retaliatory attack on Israel occurred after this market’s Friday noon UTC close, so the condition was not met by the deadline.",
+      "rationale": "Iran\u2019s direct retaliatory attack on Israel occurred after this market\u2019s Friday noon UTC close, so the condition was not met by the deadline.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2772,10 +2971,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Iran’s large drone and missile attack on Israel began on April 13, 2024, after the April 12 12:00 UTC close time.",
-          "The attack was in response to the April 1, 2024 strike on Iran’s consular building in Damascus and was widely reported as occurring overnight April 13–14."
+          "Iran\u2019s large drone and missile attack on Israel began on April 13, 2024, after the April 12 12:00 UTC close time.",
+          "The attack was in response to the April 1, 2024 strike on Iran\u2019s consular building in Damascus and was widely reported as occurring overnight April 13\u201314."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2801,7 +3002,9 @@
           "The South Carolina Republican primary was held on February 24, 2024, with Donald Trump defeating Nikki Haley by roughly 60% to 40%.",
           "Haley did not suspend her campaign until March 6, 2024, after Super Tuesday contests."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2816,7 +3019,10 @@
     "volume": "57639.3",
     "status": "error",
     "forecast": {
-      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -2838,7 +3044,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2864,7 +3071,9 @@
           "Vladimir Putin was Russia's president throughout 2023, including during the June 2023 Wagner Group mutiny led by Yevgeny Prigozhin.",
           "Putin remained in office at year-end 2023 and publicly announced on December 8, 2023 that he would run in the March 2024 Russian presidential election."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2879,7 +3088,7 @@
     "volume": "48083.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recall this exact market resolution. Trump frequently emphasized immigration and the border in 2024 rallies, making 20 mentions plausible but not certain for a single North Carolina speech.",
+      "rationale": "I don\u2019t recall this exact market resolution. Trump frequently emphasized immigration and the border in 2024 rallies, making 20 mentions plausible but not certain for a single North Carolina speech.",
       "probabilities": {
         "Yes": 0.65,
         "No": 0.35
@@ -2887,7 +3096,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2911,9 +3121,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Israel struck an Iranian diplomatic/consular compound in Damascus on April 1, 2024, killing senior IRGC commander Mohammad Reza Zahedi.",
-          "Iran’s direct retaliation against Israel occurred on April 13–14, 2024, when it launched hundreds of drones and missiles, well after the early-April Friday deadline."
+          "Iran\u2019s direct retaliation against Israel occurred on April 13\u201314, 2024, when it launched hundreds of drones and missiles, well after the early-April Friday deadline."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2936,10 +3148,11 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "South Korean President Yoon Suk Yeol declared emergency martial law late on Dec. 3, 2024 in South Korea, around 10:25–10:30 PM KST.",
+          "South Korean President Yoon Suk Yeol declared emergency martial law late on Dec. 3, 2024 in South Korea, around 10:25\u201310:30 PM KST.",
           "The National Assembly voted to demand lifting martial law in the early hours of Dec. 4 KST, and Yoon announced he would lift it after a Cabinet meeting around 4:30 AM KST Dec. 4, which was still Dec. 3 UTC."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   },
@@ -2954,7 +3167,7 @@
     "volume": "45460.8",
     "status": "ok",
     "forecast": {
-      "rationale": "I don’t recognize the exact market resolution. Trump frequently emphasized immigration in late-campaign rallies, but 30 mentions of “Border” is a fairly high threshold for a Georgia rally speech.",
+      "rationale": "I don\u2019t recognize the exact market resolution. Trump frequently emphasized immigration in late-campaign rallies, but 30 mentions of \u201cBorder\u201d is a fairly high threshold for a Georgia rally speech.",
       "probabilities": {
         "Yes": 0.35,
         "No": 0.65
@@ -2962,7 +3175,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2989,7 +3203,9 @@
           "The attack followed the April 1, 2024 strike on Iran's consulate compound in Damascus that killed IRGC officers.",
           "Reports described roughly 300 projectiles, with Israel and partners intercepting most of them."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3015,7 +3231,9 @@
           "Taylor Swift endorsed Kamala Harris and Tim Walz in an Instagram post on September 10, 2024, shortly after the Harris-Trump debate.",
           "The post was signed 'Taylor Swift, Childless Cat Lady' and included a photo of Swift with her cat Benjamin Button."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3030,7 +3248,7 @@
     "volume": "43001.1",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not remember the exact market resolution. Since the Georgia speech was likely economy-focused and 25 mentions of “border” is a high threshold, I lean No despite Trump often emphasizing immigration.",
+      "rationale": "I do not remember the exact market resolution. Since the Georgia speech was likely economy-focused and 25 mentions of \u201cborder\u201d is a high threshold, I lean No despite Trump often emphasizing immigration.",
       "probabilities": {
         "Yes": 0.25,
         "No": 0.75
@@ -3038,7 +3256,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3053,7 +3272,7 @@
     "volume": "20252.8",
     "status": "ok",
     "forecast": {
-      "rationale": "Iran’s direct retaliation occurred overnight April 13–14, after the April 8 close. Before the close, there were threats and preparations but no qualifying response/attack.",
+      "rationale": "Iran\u2019s direct retaliation occurred overnight April 13\u201314, after the April 8 close. Before the close, there were threats and preparations but no qualifying response/attack.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -3061,11 +3280,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The triggering incident was Israel’s April 1, 2024 strike on Iran’s diplomatic compound/consulate area in Damascus, killing senior IRGC commander Mohammad Reza Zahedi.",
-          "Iran launched its major retaliation, often described as Operation True Promise, overnight April 13–14, 2024, using drones and missiles against Israel.",
+          "The triggering incident was Israel\u2019s April 1, 2024 strike on Iran\u2019s diplomatic compound/consulate area in Damascus, killing senior IRGC commander Mohammad Reza Zahedi.",
+          "Iran launched its major retaliation, often described as Operation True Promise, overnight April 13\u201314, 2024, using drones and missiles against Israel.",
           "The market close time was April 8, 2024 12:00 UTC, several days before that retaliation."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3091,7 +3312,9 @@
           "South Korea's National Assembly passed the impeachment motion against President Yoon Suk Yeol on December 14, 2024.",
           "The recorded vote was 204 in favor, 85 against, with 3 abstentions and 8 invalid ballots."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3114,7 +3337,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3137,11 +3361,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "On the night of April 13–14, 2024, Iran launched a large drone and missile attack on Israel, called Operation True Promise.",
+          "On the night of April 13\u201314, 2024, Iran launched a large drone and missile attack on Israel, called Operation True Promise.",
           "The attack was in retaliation for the April 1, 2024 strike on Iran's consular building in Damascus that killed senior IRGC officers.",
           "The response occurred several days before the April 19, 2024 12:00 UTC close time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3156,7 +3382,7 @@
     "volume": "229652",
     "status": "ok",
     "forecast": {
-      "rationale": "I recall the market context from South Korea’s Dec. 2024 martial-law crisis: opposition leader Lee Jae-myung was not arrested before the Friday deadline. The condition therefore resolved No.",
+      "rationale": "I recall the market context from South Korea\u2019s Dec. 2024 martial-law crisis: opposition leader Lee Jae-myung was not arrested before the Friday deadline. The condition therefore resolved No.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -3164,10 +3390,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Democratic Party leader was Lee Jae-myung during President Yoon Suk Yeol’s Dec. 3, 2024 martial-law declaration.",
+          "The Democratic Party leader was Lee Jae-myung during President Yoon Suk Yeol\u2019s Dec. 3, 2024 martial-law declaration.",
           "Lee Jae-myung remained publicly active after the National Assembly voted to block martial law; there was no arrest of him by 2024-12-06 12:00 UTC."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3191,9 +3419,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Benjamin Netanyahu addressed a joint meeting of the U.S. Congress on July 24, 2024, not in June.",
-          "The address was arranged by congressional leaders including House Speaker Mike Johnson and became Netanyahu’s fourth address to a joint meeting of Congress."
+          "The address was arranged by congressional leaders including House Speaker Mike Johnson and became Netanyahu\u2019s fourth address to a joint meeting of Congress."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3220,7 +3450,9 @@
           "CENTCOM described the strikes as occurring around 2:30 a.m. Jan. 12 Yemen time, which is about 23:30 UTC on Jan. 11, before the 2024-01-12 00:00 UTC close.",
           "Targets reportedly included Houthi radar sites, air-defense systems, and missile/drone launch and storage locations."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3244,9 +3476,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Emmanuel Macron dissolved the National Assembly on June 9, 2024 and snap legislative elections were held June 30 and July 7, but he stayed president.",
-          "Macron appointed Michel Barnier prime minister on September 5, 2024 and François Bayrou on December 13, 2024, while remaining head of state."
+          "Macron appointed Michel Barnier prime minister on September 5, 2024 and Fran\u00e7ois Bayrou on December 13, 2024, while remaining head of state."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3273,7 +3507,9 @@
           "The expulsion vote was 311-114, exceeding the required two-thirds threshold.",
           "He became only the sixth member ever expelled from the House, following a House Ethics Committee report."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3300,7 +3536,9 @@
           "Israel and Iran also exchanged direct strikes later in 2024, including Iran's October 1 ballistic missile attack on Israel.",
           "There was no announced peace treaty, diplomatic recognition, or normalization agreement between Israel and Iran by December 31, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3327,7 +3565,9 @@
           "Russia stated that Assad and his family had arrived in Moscow and been granted asylum after he left Syria.",
           "A written statement attributed to Assad was released on December 16, 2024, but it was not a public appearance, photo, or video."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3353,7 +3593,9 @@
           "Benjamin Netanyahu met Donald Trump at Mar-a-Lago in Palm Beach, Florida, on Friday, July 26, 2024.",
           "The meeting followed Netanyahu's July 24, 2024 address to the U.S. Congress and meetings with President Biden and Vice President Harris."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3376,7 +3618,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3384,7 +3627,7 @@
     "condition_id": "0xdc15443bc77dd777a12bb7501589284742a68f841439e0393c2684af2e566409",
     "market_slug": "south-korean-peoples-power-party-leader-arrested-by-friday",
     "event_slug": "south-korean-peoples-power-party-leader-arrested-by-friday",
-    "title": "South Korean People’s Power leader arrested by Friday?",
+    "title": "South Korean People\u2019s Power leader arrested by Friday?",
     "category": "Politics",
     "close_time": "2024-12-06T12:00:00Z",
     "actual_resolution": "No",
@@ -3399,7 +3642,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3425,7 +3669,9 @@
           "Ilhan Omar was removed from the House Foreign Affairs Committee in February 2023, but that was not an expulsion from Congress.",
           "She continued serving as the U.S. Representative for Minnesota's 5th congressional district past February 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3448,7 +3694,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3463,7 +3710,7 @@
     "volume": "99623.6",
     "status": "ok",
     "forecast": {
-      "rationale": "Putin was still serving as Russia’s president throughout March 2024; no transfer of office occurred before the March 31 close.",
+      "rationale": "Putin was still serving as Russia\u2019s president throughout March 2024; no transfer of office occurred before the March 31 close.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -3472,9 +3719,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Vladimir Putin remained the incumbent President of Russia through March 31, 2024.",
-          "Russia held its presidential election on March 15–17, 2024, which Putin won; his next inauguration occurred later, on May 7, 2024."
+          "Russia held its presidential election on March 15\u201317, 2024, which Putin won; his next inauguration occurred later, on May 7, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3489,7 +3738,7 @@
     "volume": "511.67",
     "status": "ok",
     "forecast": {
-      "rationale": "I do not recall the exact market resolution. Reasoning from Trump’s frequent immigration messaging during the DNC, multiple posts mentioning “Border” on the final night seemed more likely than not.",
+      "rationale": "I do not recall the exact market resolution. Reasoning from Trump\u2019s frequent immigration messaging during the DNC, multiple posts mentioning \u201cBorder\u201d on the final night seemed more likely than not.",
       "probabilities": {
         "Yes": 0.68,
         "No": 0.32
@@ -3497,7 +3746,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3513,7 +3763,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": ""
+      "raw_response": "",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -3538,7 +3791,9 @@
           "Karine Jean-Pierre continued serving as White House Press Secretary after July 31, 2024 and remained in the role into the final months of the Biden administration.",
           "In October 2024, the White House announced she was being elevated to senior adviser while also continuing as press secretary."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3554,7 +3809,10 @@
     "status": "ok",
     "forecast": {
       "error": "Failed to parse JSON",
-      "raw_response": "{\"rationale\":\"I recognize this"
+      "raw_response": "{\"rationale\":\"I recognize this",
+      "recall_assessment": {
+        "recall_score": null
+      }
     }
   },
   {
@@ -3576,7 +3834,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3591,7 +3850,7 @@
     "volume": "87628.4",
     "status": "ok",
     "forecast": {
-      "rationale": "I recognize this as referring to the Sept. 10, 2024 Harris–Trump debate; the first substantive question was directed to Kamala Harris. Because the binary condition is underspecified in the title, I assign high but not absolute probability to Yes.",
+      "rationale": "I recognize this as referring to the Sept. 10, 2024 Harris\u2013Trump debate; the first substantive question was directed to Kamala Harris. Because the binary condition is underspecified in the title, I assign high but not absolute probability to Yes.",
       "probabilities": {
         "Yes": 0.85,
         "No": 0.15
@@ -3602,7 +3861,8 @@
           "The debate was the ABC News presidential debate on September 10, 2024, held at the National Constitution Center in Philadelphia.",
           "Moderators David Muir and Linsey Davis opened the debate; the first question was directed to Vice President Kamala Harris, asking whether Americans were better off than four years earlier."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -3628,7 +3888,8 @@
           "The race was a 2024 rematch in Washington's 3rd congressional district between incumbent Democrat Marie Gluesenkamp Perez and Republican Joe Kent.",
           "Gluesenkamp Perez won re-election after first flipping the seat in 2022, defeating Kent again in the 2024 general election."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.0
       }
     }
   },
@@ -3651,7 +3912,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3677,7 +3939,9 @@
           "Ronna McDaniel announced on February 26, 2024 that she would step down as RNC chair after Super Tuesday.",
           "Her resignation was effective March 8, 2024, when the RNC selected Michael Whatley as chair and Lara Trump as co-chair."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3703,7 +3967,8 @@
           "The race was Iowa's 1st Congressional District in 2024, a rematch between Democrat Christina Bohannan and Republican incumbent Mariannette Miller-Meeks.",
           "Miller-Meeks was reported as the winner by a very narrow margin, roughly around 800 votes, after the post-election count/recount process."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.0
       }
     }
   }

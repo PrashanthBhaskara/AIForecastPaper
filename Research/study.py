@@ -326,6 +326,5 @@ def main():
         fn = fs["brier_n"] if fs else 0
         print(f"{model:<30}  {rb:>14}  {fb:>14}  {rn:>9}  {fn:>10}")
 
-
 if __name__ == "__main__":
     main()
