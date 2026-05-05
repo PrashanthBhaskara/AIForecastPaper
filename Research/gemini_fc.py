@@ -22,6 +22,7 @@ import json
 import os
 import re
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -49,6 +50,17 @@ _SYSTEM_PROMPT_FALLBACK = (
     "Return JSON only; no extra text."
 )
 SYSTEM_PROMPT = _cfg.get("system_prompt", "prompt", fallback=_SYSTEM_PROMPT_FALLBACK).strip()
+
+
+class GeminiResponseError(ValueError):
+    def __init__(self, message: str, raw_response: str, diagnostics: dict[str, Any]):
+        super().__init__(message)
+        self.raw_response = raw_response
+        self.diagnostics = diagnostics
+
+
+class GeminiResponseRetriesExhausted(RuntimeError):
+    pass
 
 
 def fetch_market_price(market_slug: str) -> dict | None:
@@ -102,8 +114,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--max-retries",
         type=int,
-        default=2,
-        help="Retry attempts on parse/validation failure (each bumps temperature). Default: 2",
+        default=-1,
+        help="Retry attempts on parse/validation failure; -1 retries until valid JSON. Default: -1",
     )
     parser.add_argument(
         "--dry-run",
@@ -200,9 +212,11 @@ def response_schema(outcomes: list[str]) -> dict[str, Any]:
                 "type": "object",
                 "properties": probability_properties,
                 "required": list(outcomes),
+                "additionalProperties": False,
             },
         },
         "required": ["rationale", "probabilities"],
+        "additionalProperties": False,
     }
 
 
@@ -291,9 +305,104 @@ def response_output_text(response: Any) -> str:
     return "".join(pieces)
 
 
+def jsonable_value(value: Any) -> Any:
+    if value is None or isinstance(value, (str, int, float, bool)):
+        return value
+    if isinstance(value, list):
+        return [jsonable_value(item) for item in value]
+    if isinstance(value, tuple):
+        return [jsonable_value(item) for item in value]
+    if isinstance(value, dict):
+        return {str(key): jsonable_value(item) for key, item in value.items()}
+    if hasattr(value, "model_dump"):
+        try:
+            return jsonable_value(value.model_dump(mode="json"))
+        except Exception:
+            pass
+    enum_value = getattr(value, "value", None)
+    if isinstance(enum_value, (str, int, float, bool)):
+        return enum_value
+    return str(value)
+
+
+def response_diagnostics(response: Any) -> dict[str, Any]:
+    candidates = []
+    for candidate in getattr(response, "candidates", None) or []:
+        content = getattr(candidate, "content", None)
+        parts = []
+        for part in getattr(content, "parts", None) or []:
+            part_text = getattr(part, "text", None)
+            parts.append(
+                {
+                    "has_text": isinstance(part_text, str),
+                    "text_length": len(part_text) if isinstance(part_text, str) else None,
+                    "text_preview": part_text[:500] if isinstance(part_text, str) else None,
+                }
+            )
+        candidates.append(
+            {
+                "finish_reason": jsonable_value(getattr(candidate, "finish_reason", None)),
+                "finish_message": jsonable_value(getattr(candidate, "finish_message", None)),
+                "safety_ratings": jsonable_value(getattr(candidate, "safety_ratings", None)),
+                "parts": parts,
+            }
+        )
+    text = getattr(response, "text", None)
+    return {
+        "response_text_present": isinstance(text, str),
+        "response_text_length": len(text) if isinstance(text, str) else None,
+        "candidate_count": len(candidates),
+        "candidates": candidates,
+    }
+
+
+def append_debug_event(
+    debug_path: Path | None,
+    *,
+    row: dict[str, str],
+    model: str,
+    attempt: int,
+    temperature: float,
+    exc: Exception,
+) -> None:
+    if debug_path is None:
+        return
+    event: dict[str, Any] = {
+        "logged_at": datetime.now(timezone.utc).isoformat(),
+        "model": model,
+        "attempt": attempt,
+        "temperature": temperature,
+        "error_type": type(exc).__name__,
+        "error": str(exc),
+        "condition_id": row.get("condition_id", ""),
+        "market_slug": row.get("market_slug", ""),
+        "event_slug": row.get("event_slug", ""),
+        "title": row.get("title", ""),
+        "category": row.get("category") or row.get("domain", ""),
+    }
+    if isinstance(exc, GeminiResponseError):
+        event["raw_response"] = exc.raw_response
+        event["response_diagnostics"] = exc.diagnostics
+
+    debug_path.parent.mkdir(parents=True, exist_ok=True)
+    with debug_path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(event, ensure_ascii=False) + "\n")
+
+
 def is_retryable_503_error(exc: Exception) -> bool:
     message = str(exc).upper()
-    return "503" in message and "UNAVAILABLE" in message
+    return "503" in message
+
+
+def is_resource_exhausted_429_error(exc: Exception) -> bool:
+    message = str(exc).upper()
+    return "429" in message and "RESOURCE" in message and "EXHAUST" in message
+
+
+def retry_temperature(base_temperature: float, attempt: int, step: float, ceiling: float = 1.0) -> float:
+    if attempt == 0:
+        return base_temperature
+    return min(max(base_temperature + step * attempt, step), ceiling)
 
 
 def thinking_config_for_model(genai_types: Any, model: str) -> Any | None:
@@ -307,7 +416,7 @@ def thinking_config_for_model(genai_types: Any, model: str) -> Any | None:
     if normalized.startswith("gemini-2.5"):
         if "flash" in normalized:
             return genai_types.ThinkingConfig(thinking_budget=0)
-        return None
+        return genai_types.ThinkingConfig(thinking_budget=128)
 
     return genai_types.ThinkingConfig(thinking_budget=0)
 
@@ -326,7 +435,7 @@ def _attempt_forecast(
         temperature=temperature,
         max_output_tokens=max_output_tokens,
         response_mime_type="application/json",
-        response_schema=response_schema(outcomes),
+        response_json_schema=response_schema(outcomes),
     )
     thinking_config = thinking_config_for_model(genai_types, model)
     if thinking_config is not None:
@@ -342,8 +451,11 @@ def _attempt_forecast(
     raw_text = response_output_text(response)
     parsed = parse_json_response(raw_text)
     if "error" in parsed:
-        raise ValueError(parsed["error"])
-    return validate_forecast_payload(parsed, outcomes)
+        raise GeminiResponseError(parsed["error"], raw_text, response_diagnostics(response))
+    try:
+        return validate_forecast_payload(parsed, outcomes)
+    except ValueError as exc:
+        raise GeminiResponseError(str(exc), raw_text, response_diagnostics(response)) from exc
 
 
 def forecast_one(
@@ -353,19 +465,17 @@ def forecast_one(
     model: str,
     max_output_tokens: int,
     temperature: float,
-    max_retries: int = 2,
+    max_retries: int = -1,
     retry_temperature_step: float = 0.3,
+    debug_path: Path | None = None,
 ) -> dict[str, Any]:
     outcomes = infer_outcomes(row)
     user_prompt = build_user_prompt(row, outcomes)
 
     last_err: Exception | None = None
-    attempts = max_retries + 1
-    for attempt in range(attempts):
-        attempt_temp = temperature if attempt == 0 else max(
-            temperature + retry_temperature_step * attempt,
-            retry_temperature_step,
-        )
+    attempt = 0
+    while True:
+        attempt_temp = retry_temperature(temperature, attempt, retry_temperature_step)
         while True:
             try:
                 return _attempt_forecast(
@@ -379,24 +489,35 @@ def forecast_one(
                 )
             except Exception as exc:
                 if is_retryable_503_error(exc):
-                    print("  503 UNAVAILABLE from Gemini; retrying in 5.0s")
+                    print("  503 from Gemini; retrying in 5.0s")
                     time.sleep(5.0)
                     continue
                 if isinstance(exc, ValueError):
+                    append_debug_event(
+                        debug_path,
+                        row=row,
+                        model=model,
+                        attempt=attempt,
+                        temperature=attempt_temp,
+                        exc=exc,
+                    )
                     last_err = exc
-                    if attempt < attempts - 1:
-                        next_temp = max(
-                            temperature + retry_temperature_step * (attempt + 1),
-                            retry_temperature_step,
-                        )
-                        print(
-                            f"  retry {attempt + 1}/{max_retries} at temp={next_temp:.2f} "
-                            f"after parse/validation failure: {str(exc)[:80]}"
-                        )
+                    if max_retries >= 0 and attempt >= max_retries:
+                        attempts = max_retries + 1
+                        raise GeminiResponseRetriesExhausted(
+                            f"all {attempts} attempts failed; last error: {last_err}"
+                        ) from exc
+                    next_attempt = attempt + 1
+                    next_temp = retry_temperature(temperature, next_attempt, retry_temperature_step)
+                    retry_label = f"{next_attempt}/unlimited" if max_retries < 0 else f"{next_attempt}/{max_retries}"
+                    print(
+                        f"  retry {retry_label} at temp={next_temp:.2f} "
+                        f"after parse/validation failure: {str(exc)[:80]}"
+                    )
+                    time.sleep(1.0)
+                    attempt = next_attempt
                     break
                 raise
-
-    raise RuntimeError(f"all {attempts} attempts failed; last error: {last_err}")
 
 
 def validate_args(args: argparse.Namespace) -> None:
@@ -406,8 +527,8 @@ def validate_args(args: argparse.Namespace) -> None:
         raise SystemExit("--max-output-tokens must be positive")
     if args.sleep_between_calls < 0:
         raise SystemExit("--sleep-between-calls must be zero or positive")
-    if args.max_retries < 0:
-        raise SystemExit("--max-retries must be zero or positive")
+    if args.max_retries < -1:
+        raise SystemExit("--max-retries must be -1, zero, or positive")
 
 
 def main() -> None:
@@ -431,10 +552,11 @@ def main() -> None:
     print(f"Input:   {input_path}  ({len(markets)} rows)")
     print(f"Output:  {output_path}")
     print(f"Model:   {args.model}")
-    print(f"Market:  {MARKET}")
+    print(f"Market:  {input_path.parent.name if input_path.parent != BASE_DIR else MARKET}")
     print(f"Mode:    {'dry-run' if args.dry_run else 'live'}\n")
 
     results, done_ids = load_existing_results(output_path)
+    debug_path = output_path.parent / "debug" / f"{output_path.stem}_debug.jsonl"
     if done_ids:
         print(f"Resuming — {len(done_ids)} markets already done.\n")
 
@@ -476,9 +598,17 @@ def main() -> None:
                 max_output_tokens=args.max_output_tokens,
                 temperature=args.temperature,
                 max_retries=args.max_retries,
+                debug_path=debug_path,
             )
             status = "ok"
         except Exception as exc:
+            if is_resource_exhausted_429_error(exc):
+                print("  429 RESOURCE_EXHAUSTED from Gemini; stopping without saving this row.")
+                raise SystemExit(2) from exc
+            if isinstance(exc, GeminiResponseRetriesExhausted):
+                print("  Parse/validation retries exhausted; stopping without saving this row.")
+                print(f"  Debug log: {debug_path}")
+                raise SystemExit(3) from exc
             print(f"  ERROR: {exc}")
             forecast = {"error": str(exc)}
             status = "error"

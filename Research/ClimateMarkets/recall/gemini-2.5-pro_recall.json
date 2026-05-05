@@ -10,16 +10,17 @@
     "volume": "48285.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Intense seismic activity and magma intrusion led to the evacuation of Grindavík in early November 2023, but the actual volcanic eruption did not begin until December 18, 2023, well after the November 15 deadline.",
+      "rationale": "I recall the significant seismic activity and magma intrusion near Grindavík, Iceland, in November 2023. The town was evacuated due to the high risk of an eruption. However, the actual eruption did not begin until December 18, 2023, after this market's closing date.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Grindavík was evacuated on November 10, 2023 due to a magma intrusion.",
-          "The volcanic eruption on the Reykjanes peninsula officially started on December 18, 2023."
+          "A significant seismic swarm began on the Reykjanes Peninsula in late October and early November 2023.",
+          "The town of Grindavík was evacuated on November 10, 2023, due to the formation of a large magma dike beneath the area.",
+          "The eruption eventually occurred on December 18, 2023, north of Grindavík at the Sundhnúkur crater row."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -36,18 +37,15 @@
     "volume": "604511",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX successfully caught the Super Heavy booster using the 'chopstick' arms on the launch tower during Starship Flight 5 on October 13, 2024, well before the November 18 deadline.",
+      "rationale": "SpaceX has stated the goal of catching the Super Heavy booster with the launch tower's 'chopsticks' arms. While they have successfully soft-landed the booster in the ocean, a tower catch is a significant step up in complexity and risk. It's unlikely to be attempted and perfected by November 2024.",
       "probabilities": {
-        "Yes": 1.0,
-        "No": 0.0
+        "Yes": 0.25,
+        "No": 0.75
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "SpaceX's Starship Flight 5 took place on October 13, 2024.",
-          "The Super Heavy booster was successfully caught by the Mechazilla 'chopstick' arms at Starbase, Texas."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -62,10 +60,10 @@
     "volume": "595329",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperature anomalies have consistently exceeded 1.20°C in recent months across major datasets like Copernicus and NOAA, making a drop below this threshold unlikely for November 2024.",
+      "rationale": "This event has not yet occurred. Forecasting is based on recent climate data and trends. Recent years have seen global temperatures consistently push new records, making it less likely that the November 2024 anomaly will be below the relatively high threshold of 1.20°C.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.45,
+        "No": 0.55
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -85,18 +83,15 @@
     "volume": "3.61894e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season concluded with 18 named storms, which is not less than 16.",
+      "rationale": "Major forecasting agencies like NOAA and CSU predict a very active 2024 Atlantic hurricane season, citing record warm ocean temperatures and a likely La Niña. Forecasts range from 17 to 25 named storms, making less than 16 storms highly improbable.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.15,
+        "No": 0.85
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season had exactly 18 named storms.",
-          "The last named storm of the season was Sara."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -111,10 +106,10 @@
     "volume": "9.46687e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperature anomalies for 2024 are projected to be well above 1.3°C, likely exceeding 1.4°C or 1.5°C relative to pre-industrial levels. A narrow 0.02°C band between 1.22°C and 1.24°C is highly unlikely to capture the final annual average.",
+      "rationale": "The year 2023 was the warmest on record, at around 1.45°C above pre-industrial levels. With a strong El Niño carrying over into early 2024, this year is also projected to be exceptionally warm. This makes an anomaly below 1.24°C unlikely.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -134,7 +129,7 @@
     "volume": "71412.1",
     "status": "ok",
     "forecast": {
-      "rationale": "Intense seismic activity and magma intrusion led to the evacuation of Grindavík in November 2023, but the actual volcanic eruption did not begin until December 18, 2023.",
+      "rationale": "I recall this event. Intense seismic activity and magma intrusion began in the Reykjanes Peninsula in late October and early November 2023, leading to the evacuation of Grindavík. However, the eruption did not occur until December 18, 2023, after this market's closing date.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -142,8 +137,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Grindavík was evacuated in November 2023 due to a massive magma dike formation.",
-          "The surface eruption on the Reykjanes peninsula officially began on December 18, 2023, missing the November 30 deadline."
+          "An intense earthquake swarm began on the Reykjanes Peninsula around October 25, 2023.",
+          "The town of Grindavík was evacuated on November 10, 2023, due to the threat of an eruption from a magma dike forming beneath it.",
+          "The eruption eventually occurred on December 18, 2023, north of Grindavík in the Sundhnúkur crater row."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -158,9 +154,18 @@
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "286410",
-    "status": "error",
+    "status": "ok",
     "forecast": {
-      "error": "all 3 attempts failed; last error: Failed to parse JSON"
+      "rationale": "SpaceX is accelerating its Starship launch cadence, with three flights already in 2024. Given their rapid iteration and stated goals, achieving two more successful flights to space this year is plausible, but technical delays or failures could easily push the fifth launch into 2025.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      },
+      "recall_assessment": {
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
+      }
     }
   },
   {
@@ -174,10 +179,10 @@
     "volume": "453420",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperatures in 2024 have consistently remained at record or near-record highs, often exceeding 1.40°C above pre-industrial levels, making it highly probable that October 2024 will also exceed this threshold.",
+      "rationale": "This event has not yet occurred. Based on recent trends and data from sources like Copernicus (C3S), monthly temperature anomalies have frequently exceeded 1.5°C since mid-2023. Given the ongoing El Niño effects and general warming, it is highly likely October 2024 will continue this trend.",
       "probabilities": {
-        "Yes": 0.75,
-        "No": 0.25
+        "Yes": 0.85,
+        "No": 0.15
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -197,7 +202,7 @@
     "volume": "559640",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024, as a Category 3 hurricane, having weakened from its peak intensity over the Gulf of Mexico.",
+      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida, on October 9, 2024. At landfall, it was a strong Category 3 hurricane, not a Category 5. It had previously reached Category 5 strength over the Gulf of Mexico but weakened before hitting the coast.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -205,8 +210,10 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024.",
-          "It made landfall as a Category 3 hurricane, not Category 5."
+          "Hurricane Milton made landfall on the evening of October 9, 2024.",
+          "Landfall occurred south of Sarasota, near Siesta Key, Florida.",
+          "At landfall, Milton was a Category 3 hurricane with winds of approximately 120 mph (195 km/h).",
+          "Milton had previously been a Category 5 hurricane over the Gulf of Mexico."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -223,10 +230,10 @@
     "volume": "618869",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature anomaly range of 1.30-1.34°C is very narrow. Given the natural variability in monthly global temperatures and recent trends, the probability of falling exactly within this specific 0.05°C window is relatively low.",
+      "rationale": "This event has not yet occurred. The temperature increase for December 2024 is a future event. Forecasting a specific 0.05°C range is difficult, making 'No' the more probable outcome. Recent trends suggest continued warming, but natural variability makes this narrow band unlikely.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -246,7 +253,7 @@
     "volume": "10561.8",
     "status": "ok",
     "forecast": {
-      "rationale": "A volcanic eruption occurred on the Reykjanes Peninsula in Iceland on December 18, 2023, following weeks of intense seismic activity and the evacuation of Grindavík.",
+      "rationale": "I recall this event. A volcanic eruption began on the Reykjanes Peninsula on December 18, 2023, following weeks of intense seismic activity and the evacuation of the town of Grindavík. This event occurred before the December 31 deadline, so the outcome is certain.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -254,8 +261,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "An eruption began on December 18, 2023, on the Reykjanes Peninsula.",
-          "The town of Grindavík was evacuated prior to the eruption due to intense seismic activity."
+          "The eruption occurred on the Reykjanes Peninsula near the evacuated town of Grindavík.",
+          "The eruption began on the evening of December 18, 2023.",
+          "The event was preceded by a period of intense seismic activity, often referred to as a 'seismic swarm', which started in late October 2023."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -272,10 +280,10 @@
     "volume": "194611",
     "status": "ok",
     "forecast": {
-      "rationale": "As of mid-2024, the number of confirmed human cases of H5N1 bird flu in the U.S. remains very low, primarily linked to dairy and poultry workers. Reaching 100+ cases before 2025 would require a significant escalation or human-to-human transmission, which is currently considered unlikely but possible.",
+      "rationale": "The current outbreak of H5N1 in cattle has led to only a few human cases, all with mild symptoms and direct exposure to infected animals. While the virus is widespread in livestock, human-to-human transmission has not been observed, making a jump to 100+ cases highly unlikely.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.02,
+        "No": 0.98
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -295,18 +303,15 @@
     "volume": "94831.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season was highly active, producing 18 named storms, which easily exceeds the threshold of 14.",
+      "rationale": "Major forecasting agencies like NOAA and CSU predict a hyperactive 2024 Atlantic hurricane season. Factors include record-warm Atlantic sea surface temperatures and a developing La Niña, both of which favor storm formation. These forecasts strongly suggest the number of named storms will exceed 14.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.85,
+        "No": 0.15
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season had 18 named storms.",
-          "Notable storms included Beryl, Debby, Francine, Helene, and Milton."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -321,7 +326,7 @@
     "volume": "353862",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was confirmed as the warmest year on record, with major agencies like NOAA reporting a global surface temperature anomaly of 1.18°C above the 20th-century average, which is greater than 1.13.",
+      "rationale": "I recall that 2023 was a record-breaking year for global temperatures, driven by El Niño and long-term warming trends. Major climate monitoring agencies confirmed the final anomaly was significantly higher than the 1.13°C threshold, making this a near certainty.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -329,8 +334,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was officially declared the hottest year on record by multiple climate agencies.",
-          "NOAA reported the 2023 global surface temperature anomaly was 1.18°C above the 20th-century average."
+          "The Copernicus Climate Change Service (C3S) reported that 2023 had a global average temperature of 1.48°C above the 1850-1900 pre-industrial level.",
+          "NASA's GISTEMP analysis concluded that 2023 was about 1.2°C (2.1°F) above the 1951-1980 average, and even higher relative to the pre-industrial baseline.",
+          "The World Meteorological Organization (WMO) also confirmed 2023 as the warmest year on record by a large margin."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -347,16 +353,17 @@
     "volume": "4166.62",
     "status": "ok",
     "forecast": {
-      "rationale": "Intense seismic activity and the evacuation of Grindavík occurred in early November 2023, but the actual volcanic eruption on the Reykjanes peninsula did not begin until December 18, 2023.",
+      "rationale": "I recall the seismic swarm and magma intrusion near Grindavík, Iceland, in November 2023. While an eruption was considered highly likely and led to evacuations, the actual eruption did not begin until December 18, 2023, after this market's closing date.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Grindavík was evacuated around November 10-11, 2023 due to magma intrusion.",
-          "The actual eruption on the Reykjanes peninsula started on December 18, 2023, well after the November 17 deadline."
+          "An intense earthquake swarm began on the Reykjanes Peninsula around October 25, 2023.",
+          "The town of Grindavík was evacuated on November 10, 2023, due to the risk of an eruption from a magma dike forming beneath it.",
+          "The eruption eventually occurred on December 18, 2023, north of Grindavík in the Sundhnúkur crater row."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -373,18 +380,15 @@
     "volume": "95434.2",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX Starship Flight 6 was originally targeted for November 18, 2024, but was delayed and successfully launched on November 19, 2024.",
+      "rationale": "SpaceX is targeting a late July/early August launch for IFT-5. Given their recent cadence of roughly 2-3 months between flights, a launch by mid-November is highly probable, assuming no major anomalies with IFT-5 or IFT-6. Regulatory approvals remain a potential source of delay.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.75,
+        "No": 0.25
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "SpaceX Starship Flight 6 launched on November 19, 2024.",
-          "The launch was delayed by one day from its initial November 18 target."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -399,7 +403,7 @@
     "volume": "91223.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2023 Atlantic Hurricane Season was notably active and concluded with exactly 20 named storms, exceeding the threshold of 19.",
+      "rationale": "The 2023 Atlantic hurricane season was very active, exceeding initial forecasts. By the end of the season, there were 20 named storms, which is above the threshold of 19 specified in the question.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -407,8 +411,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The 2023 Atlantic Hurricane Season officially ended on November 30, 2023.",
-          "The season produced a total of 20 named storms, making it the fourth most active season on record."
+          "The 2023 Atlantic hurricane season officially ran from June 1 to November 30, 2023.",
+          "The season produced 20 named storms, starting with an unnamed subtropical storm in January and ending with Tropical Storm Tammy.",
+          "This total of 20 storms made it the fourth most active season on record since 1950."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -425,16 +430,17 @@
     "volume": "190128",
     "status": "ok",
     "forecast": {
-      "rationale": "Copernicus Climate Change Service confirmed that May 2024 was the warmest May on record globally, marking the 12th consecutive month of record-high global temperatures.",
+      "rationale": "I recall this event. May 2024 was confirmed as the 12th consecutive month to set a new global temperature record for the respective month. This was widely reported by major climate monitoring agencies like Copernicus Climate Change Service (C3S).",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported May 2024 as the warmest May on record globally.",
-          "May 2024 marked the 12th consecutive month of record-breaking global temperatures."
+          "The Copernicus Climate Change Service (C3S) reported on June 5, 2024, that May 2024 was the warmest May on record globally.",
+          "The global average surface air temperature for May 2024 was 0.65°C above the 1991-2020 average for May.",
+          "This marked the 12th consecutive month of record-breaking global temperatures."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -451,10 +457,10 @@
     "volume": "286208",
     "status": "ok",
     "forecast": {
-      "rationale": "Megaquakes (typically magnitude 8.0+) are extremely rare events globally. The baseline probability of one occurring in any specific month is very low.",
+      "rationale": "A \"megaquake\" (typically magnitude 8.0+) is a statistically rare event. While seismically active regions exist, predicting the exact timing of such an earthquake is impossible. The probability of one occurring in any specific month, like December 2024, is extremely low based on historical data.",
       "probabilities": {
-        "Yes": 0.02,
-        "No": 0.98
+        "Yes": 0.005,
+        "No": 0.995
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -474,10 +480,10 @@
     "volume": "69692.4",
     "status": "ok",
     "forecast": {
-      "rationale": "As of mid-November 2024, the number of confirmed human cases of H5N1 bird flu in the US was well below 100 (around 50-60). It is highly unlikely to reach 100+ by November 22.",
+      "rationale": "This event is in the future (November 2024), so its outcome is unknown. Forecasting H5N1 human cases is highly speculative. While cases are currently rare, a small outbreak could quickly surpass 100 cases, but sustained human-to-human transmission remains the key uncertainty.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.15,
+        "No": 0.85
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -497,16 +503,17 @@
     "volume": "41115.3",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024, as a Category 4 hurricane with maximum sustained winds of 140 mph, not Category 3.",
+      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024. At landfall, the National Hurricane Center reported its intensity as a powerful Category 4 hurricane, not a Category 3. Therefore, this event has already resolved as No.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.0,
+        "No": 1.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
           "Hurricane Helene made landfall on September 26, 2024.",
-          "It made landfall in Florida's Big Bend region as a Category 4 hurricane with 140 mph winds."
+          "Landfall occurred in the Big Bend region of Florida, near Perry.",
+          "At landfall, Helene was a Category 4 hurricane with sustained winds of approximately 140 mph (220 km/h)."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -523,18 +530,15 @@
     "volume": "114342",
     "status": "ok",
     "forecast": {
-      "rationale": "According to the Copernicus Climate Change Service (C3S) and NOAA, June 2024 was the hottest June on record globally, continuing a 13-month streak of record-breaking global temperatures.",
+      "rationale": "Given the ongoing global warming trend and the record-breaking temperatures seen in recent months, including May 2024 being the 12th consecutive month to set a new global temperature record, it is highly probable that June 2024 will continue this pattern.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.85,
+        "No": 0.15
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Copernicus Climate Change Service (C3S) confirmed June 2024 was the hottest June on record globally.",
-          "June 2024 marked the 13th consecutive month of record-high global temperatures."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -549,18 +553,15 @@
     "volume": "89555.1",
     "status": "ok",
     "forecast": {
-      "rationale": "There were no recorded megaquakes (typically defined as magnitude 8.0 or higher) during September 2024.",
+      "rationale": "A \"megaquake\" (typically magnitude 8.0+) is a statistically rare event. While seismically active regions exist, predicting the exact timing of such an earthquake is currently impossible. The probability of one occurring in any specific month is extremely low based on historical data.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "No magnitude 8.0+ earthquakes were recorded globally in September 2024.",
-          "USGS earthquake data confirms the absence of any megaquake during this period."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -575,18 +576,20 @@
     "volume": "23050.2",
     "status": "ok",
     "forecast": {
-      "rationale": "The Boeing Starliner astronauts, Suni Williams and Butch Wilmore, experienced significant delays due to thruster issues and helium leaks. They did not depart the ISS by July 21, 2024, and NASA later decided to return the Starliner uncrewed.",
+      "rationale": "The Boeing Starliner's return has been repeatedly delayed due to helium leaks and thruster issues. NASA and Boeing are taking a cautious approach, and the earliest potential undocking date is now July 6, with further delays possible. This makes a departure by July 21 uncertain.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.65,
+        "No": 0.35
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Astronauts Suni Williams and Butch Wilmore launched on the Boeing Starliner Crew Flight Test in June 2024.",
-          "Their return was delayed well past July 2024 due to thruster anomalies and helium leaks, and the Starliner eventually returned uncrewed in September 2024."
+          "The Boeing Starliner Crew Flight Test (CFT) mission launched on June 5, 2024.",
+          "The astronauts on board are Butch Wilmore and Suni Williams.",
+          "The mission has experienced multiple delays for its return to Earth due to issues with five RCS thrusters and five helium leaks.",
+          "The return was initially scheduled for June 14, then pushed to June 26, and is now indefinitely delayed, with a potential undocking no earlier than July 6."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -601,18 +604,20 @@
     "volume": "28670.4",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Beryl made landfall near Matagorda, Texas, on July 8, 2024, as a Category 1 hurricane. Since it hit the US and was a named tropical cyclone, it satisfies the condition of hitting the US.",
+      "rationale": "Hurricane Beryl made landfall in Mexico's Yucatan Peninsula on July 5, 2024, and again on the Mexican mainland on July 8. It weakened significantly over land and did not make landfall in the US as a tropical storm before the close time.",
       "probabilities": {
-        "Yes": 0.9,
-        "No": 0.1
+        "Yes": 0.0,
+        "No": 1.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Beryl made landfall near Matagorda, Texas on July 8, 2024.",
-          "It made landfall as a Category 1 hurricane."
+          "Hurricane Beryl was the first Category 5 Atlantic hurricane of the 2024 season.",
+          "It made its first landfall on Mexico's Yucatan Peninsula near Tulum on July 5, 2024.",
+          "After crossing the Yucatan, it re-emerged into the Gulf of Mexico and made a second landfall in Tamaulipas, Mexico, on July 8, 2024.",
+          "The storm dissipated over Mexico and did not make landfall in the United States as a tropical storm."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -627,16 +632,17 @@
     "volume": "98020.4",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 continued a streak of record-breaking global temperatures, with anomalies significantly exceeding the 1.20-1.25°C range, typically reported around 1.58°C above pre-industrial levels by Copernicus.",
+      "rationale": "I recall that April 2024 was an exceptionally warm month, continuing a trend of record-breaking global temperatures. The Copernicus Climate Change Service (C3S) reported the final anomaly, which fell outside the specified narrow range.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 was the 11th consecutive month of record-high global temperatures.",
-          "Copernicus Climate Change Service reported April 2024 was 1.58°C warmer than the pre-industrial estimate."
+          "The Copernicus Climate Change Service (C3S) is the primary data source for these monthly global temperature anomaly reports.",
+          "April 2024 was the 11th consecutive month to be the warmest on record for its respective month of the year.",
+          "The final reported global average surface air temperature anomaly for April 2024 was +1.58°C above the 1850-1900 pre-industrial average."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -653,18 +659,15 @@
     "volume": "81650.7",
     "status": "ok",
     "forecast": {
-      "rationale": "While a magnitude 7.1 earthquake in Japan in early August 2024 triggered a 'megaquake advisory', no actual megaquake (typically magnitude 8.0+) occurred during the month.",
+      "rationale": "A \"megaquake\" (typically magnitude 8.0+) is a statistically rare event. While seismically active regions exist, predicting such an event within a specific month is currently impossible. The background probability for any given month is extremely low, making 'No' the overwhelmingly likely outcome.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.001,
+        "No": 0.999
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "A magnitude 7.1 earthquake struck off Miyazaki Prefecture, Japan on August 8, 2024.",
-          "The Japan Meteorological Agency issued its first-ever 'megaquake advisory' following the quake, but no megaquake actually occurred in August 2024."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -679,19 +682,20 @@
     "volume": "21010.3",
     "status": "ok",
     "forecast": {
-      "rationale": "The Boeing Starliner astronauts, Suni Williams and Butch Wilmore, were delayed on the ISS due to thruster issues and helium leaks. They did not depart by July 4, 2024, and Starliner eventually returned uncrewed in September.",
+      "rationale": "The Boeing Starliner mission with astronauts Butch Wilmore and Suni Williams has faced multiple delays. Given the ongoing technical issues, including helium leaks and thruster problems, a departure by July 4th is highly unlikely. NASA and Boeing are prioritizing safety over schedule.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Boeing Starliner Crew Flight Test launched on June 5, 2024 with astronauts Suni Williams and Butch Wilmore.",
-          "Due to thruster anomalies and helium leaks, their return was repeatedly delayed past July 4, 2024.",
-          "Starliner eventually returned uncrewed in September 2024, with the astronauts slated to return on a SpaceX Crew Dragon in 2025."
+          "The Boeing Starliner Crew Flight Test (CFT) mission launched on June 5, 2024, carrying NASA astronauts Barry \"Butch\" Wilmore and Sunita \"Suni\" Williams.",
+          "The mission docked with the International Space Station (ISS) on June 6, 2024.",
+          "The return has been repeatedly delayed due to issues with five helium leaks and five malfunctioning reaction control system (RCS) thrusters.",
+          "As of late June 2024, NASA and Boeing announced the return would be postponed indefinitely past the original early July target to allow for more data review, with a return now likely in mid-July at the earliest."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -706,18 +710,15 @@
     "volume": "4439.95",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Francine made landfall in Louisiana on September 11, 2024, as a Category 2 hurricane, fulfilling the criteria of hitting the US as a hurricane.",
+      "rationale": "As of mid-2024, there is no tropical cyclone named Francine, nor is one forecast. The name is on the 2024 Atlantic hurricane season list, but it's too early to predict if a storm with this name will form, let alone its track and intensity.",
       "probabilities": {
-        "Yes": 1.0,
-        "No": 0.0
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Hurricane Francine made landfall in Terrebonne Parish, Louisiana on September 11, 2024.",
-          "It struck the US coast as a Category 2 hurricane."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -732,16 +733,17 @@
     "volume": "3.5944e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "The claim of a room-temperature superconductor (LK-99) in mid-2023 was widely investigated by the scientific community. By late 2023, consensus emerged that the material was not a superconductor, but rather its properties were due to impurities like copper sulfide.",
+      "rationale": "The scientific community extensively scrutinized the LK-99 claims in mid-2023. Multiple independent replication attempts failed to reproduce superconductivity, with findings suggesting the observed phenomena were due to impurities like copper sulfide. By the end of 2023, the consensus was that LK-99 was not a room-temperature superconductor.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The material in question, LK-99, was claimed to be a room-temperature superconductor by a South Korean team in July 2023.",
-          "Subsequent replication attempts by major institutions, including the Max Planck Institute, demonstrated that the observed behaviors were due to impurities and it was not a superconductor."
+          "The material in question was a lead-apatite compound dubbed LK-99, first reported by a team from South Korea in July 2023.",
+          "Major research institutions, including the Max Planck Institute for Solid State Research and condensed matter groups at various universities, published findings that refuted the superconductivity claims.",
+          "The consensus by late 2023 was that the observed properties were likely caused by a phase transition in copper(I) sulfide (Cu₂S) impurities within the samples."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -758,18 +760,15 @@
     "volume": "75023.2",
     "status": "ok",
     "forecast": {
-      "rationale": "There were no earthquakes of magnitude 8.0 or higher (typically classified as a megaquake) recorded globally during October 2024.",
+      "rationale": "The term \"megaquake\" is not precisely defined, but generally refers to an earthquake of magnitude 8.0 or greater. While seismically active regions exist, predicting the exact timing of such a large, rare event is impossible. The probability of one occurring in any specific month is extremely low.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "No magnitude 8.0+ earthquakes occurred in October 2024.",
-          "Global seismic records for October 2024 show the largest quakes were well below the megaquake threshold."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -784,16 +783,17 @@
     "volume": "14480",
     "status": "ok",
     "forecast": {
-      "rationale": "Blast, the Ethereum Layer 2 network, successfully launched its mainnet on February 29, 2024, meeting its scheduled timeline without a delay.",
+      "rationale": "I recall this event. The Blast Layer 2 network's mainnet launch was scheduled for the end of February 2024. There were no major announcements of a delay leading up to the date, and the launch proceeded as planned.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Blast is an Ethereum Layer 2 network created by Tieshun Roquerre (Pacman).",
-          "The Blast mainnet officially launched on February 29, 2024, adhering to its planned February release."
+          "Blast is an Ethereum Layer 2 network developed by the team behind the NFT marketplace Blur.",
+          "The mainnet launch was highly anticipated and occurred on February 29, 2024.",
+          "Prior to launch, users had bridged over $2 billion in assets to the network to earn pre-launch yield and points."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -810,16 +810,17 @@
     "volume": "1413",
     "status": "ok",
     "forecast": {
-      "rationale": "The Atlantic hurricane season officially ends on November 30, but November US landfalls are historically rare. In November 2023, no hurricanes made landfall in the United States.",
+      "rationale": "The Atlantic hurricane season officially ends on November 30. While late-season hurricanes are rare, they are not impossible. However, based on historical data and the conditions in November 2023, no hurricane made landfall in the US during that month.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The 2023 Atlantic hurricane season had no US hurricane landfalls in November.",
-          "The last major US impact in 2023 was Hurricane Idalia in August."
+          "The event pertains to the 2023 Atlantic hurricane season, which officially runs from June 1 to November 30.",
+          "No named storms made landfall in the United States during November 2023.",
+          "The last named storm of the 2023 season to form was Tropical Storm Vince, which dissipated on October 31, before the November period began."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -836,18 +837,15 @@
     "volume": "473762",
     "status": "ok",
     "forecast": {
-      "rationale": "August 2024 was exceptionally warm globally, with temperature anomalies well above 1.15°C relative to pre-industrial baselines (Copernicus reported 1.51°C) and 20th-century averages (NOAA reported 1.27°C). Therefore, the increase was not less than 1.15°C.",
+      "rationale": "This event has not yet occurred, so I cannot recall its outcome. The question is ambiguous about the baseline and dataset used for the temperature increase. However, recent trends show significant warming, making a large increase plausible, but natural variability makes prediction difficult.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.5,
+        "No": 0.5
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Copernicus Climate Change Service reported August 2024 was 1.51°C above the pre-industrial level.",
-          "NOAA reported August 2024 was 1.27°C above the 20th-century average."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -862,10 +860,10 @@
     "volume": "63269.5",
     "status": "ok",
     "forecast": {
-      "rationale": "Megaquakes (magnitude 8.0+) are rare, occurring roughly once a year globally. The probability of one happening in any specific month is very low, around 8%.",
+      "rationale": "The term \"megaquake\" typically refers to an earthquake of magnitude 8.0 or greater. While seismically active regions exist, predicting the exact timing of such a large-scale event is currently impossible. The historical frequency of such events makes a specific occurrence in any given month highly improbable.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -885,16 +883,17 @@
     "volume": "14394.4",
     "status": "ok",
     "forecast": {
-      "rationale": "The late 2023 surge in respiratory illnesses in China was attributed to known pathogens like mycoplasma pneumoniae, influenza, and RSV. The WHO monitored the situation but did not declare it a global pandemic by February 1, 2024.",
+      "rationale": "The respiratory illness surge in China, primarily affecting children with known pathogens like mycoplasma pneumoniae, did not escalate to the level of a global pandemic declaration by the WHO or any other major international body by February 1, 2024. The situation was monitored but contained.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "In late 2023, China experienced a surge in respiratory illnesses, primarily affecting children.",
-          "The WHO requested detailed information from China in November 2023 but did not declare a pandemic or PHEIC by February 2024."
+          "The event in question refers to a surge in respiratory illnesses, particularly among children, in northern China in late 2023.",
+          "Chinese authorities and the WHO identified the primary causes as known pathogens like influenza, RSV, adenovirus, and Mycoplasma pneumoniae, not a novel virus.",
+          "The World Health Organization (WHO) requested detailed information from China in November 2023 but did not declare a Public Health Emergency of International Concern (PHEIC) or a pandemic by the February 1, 2024 deadline."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -911,10 +910,10 @@
     "volume": "117216",
     "status": "ok",
     "forecast": {
-      "rationale": "Tsunami flooding in downtown San Francisco is an extremely rare event. There are no current indications or recent historical precedents to suggest this will happen before the close date.",
+      "rationale": "A major tsunami causing flooding in downtown San Francisco is an extremely rare event. It would require a massive undersea earthquake nearby. While geologically possible, the probability of such an event occurring within the next few months is exceptionally low.",
       "probabilities": {
-        "Yes": 0.001,
-        "No": 0.999
+        "Yes": 0.0001,
+        "No": 0.9999
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -934,14 +933,18 @@
     "volume": "421133",
     "status": "ok",
     "forecast": {
-      "rationale": "The claims of room-temperature superconductivity, such as LK-99, have been widely debunked by the scientific community. It is highly improbable that the Meissner effect near room temperature will be confirmed by the end of 2024.",
+      "rationale": "The search for room-temperature superconductors is a major scientific endeavor, but it has been plagued by retractions and non-reproducible results, such as the LK-99 saga. Achieving and confirming the Meissner effect near room temperature by year-end is an extraordinary claim requiring extraordinary evidence, making it highly unlikely.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
+        "recognized_event": true,
+        "evidence_facts": [
+          "This question relates to the ongoing scientific quest for room-temperature superconductivity.",
+          "A prominent recent event was the claim surrounding a material named LK-99 in the summer of 2023, which generated significant excitement but was ultimately not verified by the broader scientific community.",
+          "The Meissner effect, the expulsion of a magnetic field from a superconductor, is a key signature of superconductivity."
+        ],
         "recalled_outcome_if_known": null
       }
     }
@@ -957,16 +960,18 @@
     "volume": "4024.3",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX's 4th Starship flight (Flight 4) launched on June 6, 2024. The Starship upper stage successfully survived re-entry and executed a soft splashdown in the Indian Ocean, despite sustaining some damage to one of its flaps.",
+      "rationale": "I remember this event. The fourth integrated flight test of SpaceX's Starship, known as IFT-4, successfully launched and achieved its primary goal of a soft splashdown in the Indian Ocean, demonstrating survival through atmospheric re-entry.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "SpaceX Starship Flight 4 launched on June 6, 2024.",
-          "The Starship upper stage survived re-entry and made a soft splashdown in the Indian Ocean."
+          "The launch, designated Integrated Flight Test 4 (IFT-4), occurred on June 6, 2024, from Starbase in Boca Chica, Texas.",
+          "The Starship upper stage successfully performed a landing flip maneuver and achieved a soft splashdown in the Indian Ocean, confirming it survived re-entry.",
+          "The Super Heavy booster also successfully performed a soft splashdown in the Gulf of Mexico.",
+          "Damage to one of the Starship's flaps was visible during the re-entry broadcast, but the vehicle maintained control."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -983,18 +988,20 @@
     "volume": "27549.5",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Beryl made landfall near Matagorda, Texas as a Category 1 hurricane early on July 8, 2024, before the 12:00 UTC deadline.",
+      "rationale": "Hurricane Beryl made landfall on the Yucatán Peninsula as a Category 2 hurricane and then again in Mexico as a tropical storm. It did not make landfall in the United States as a hurricane, though its remnants brought heavy rain to Texas.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Beryl made landfall near Matagorda, Texas.",
-          "Landfall occurred around 4:00 AM CDT (09:00 UTC) on July 8, 2024, as a Category 1 hurricane."
+          "Hurricane Beryl was the first major hurricane of the 2024 Atlantic hurricane season.",
+          "It made its first landfall on Mexico's Yucatán Peninsula near Tulum on July 5, 2024, as a Category 2 hurricane.",
+          "After crossing the Gulf of Mexico, it made a second landfall in Mexico's Tamaulipas state on July 8, 2024, as a tropical storm.",
+          "The storm did not make landfall in the United States as a hurricane."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -1009,16 +1016,17 @@
     "volume": "128471",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 continued a streak of record-breaking global temperatures. According to NOAA and Copernicus, the temperature anomalies for May 2024 were significantly higher than 1.03C above their respective baselines.",
+      "rationale": "This event has already resolved. The Copernicus Climate Change Service (C3S) reported that May 2024 was the warmest May on record, with a global average surface air temperature 1.52°C above the 1850-1900 pre-industrial average. This value is significantly higher than 1.03°C.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.0,
+        "No": 1.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "May 2024 was the 12th consecutive month of record-high global temperatures.",
-          "NOAA reported the May 2024 global surface temperature anomaly was 1.18°C above the 20th-century average."
+          "The Copernicus Climate Change Service (C3S) is the source for this data.",
+          "The reported global average surface air temperature for May 2024 was 1.52°C above the 1850-1900 pre-industrial average.",
+          "This marked the 12th consecutive month of record-breaking global temperatures."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1035,16 +1043,17 @@
     "volume": "571.91",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX's 4th Starship flight launched on June 6, 2024, and successfully reached space, completing its planned suborbital trajectory with both stages surviving reentry.",
+      "rationale": "I recognize this event. The fourth integrated flight test of SpaceX's Starship (IFT-4) successfully launched on June 6, 2024. The Starship upper stage reached its planned trajectory in space, achieving a key mission objective before its successful splashdown.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Starship Flight 4 launched on June 6, 2024.",
-          "The vehicle successfully reached space and both the booster and ship made controlled splashdowns."
+          "The launch, known as Integrated Flight Test 4 (IFT-4), occurred on June 6, 2024, from Starbase in Boca Chica, Texas.",
+          "The Starship upper stage successfully reached space and completed a controlled, soft splashdown in the Indian Ocean.",
+          "The Super Heavy booster also performed a successful soft splashdown in the Gulf of Mexico."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1061,18 +1070,15 @@
     "volume": "27212.1",
     "status": "ok",
     "forecast": {
-      "rationale": "President Biden conducted an aerial tour of the storm damage in Asheville, North Carolina, on Wednesday, October 2, 2024, following the devastation of Hurricane Helene.",
+      "rationale": "This is a future event, so I cannot recall its outcome. Presidential travel is planned far in advance and publicly announced. As of now, there are no official reports or schedule announcements indicating a visit to Asheville, NC, by President Biden this week.",
       "probabilities": {
-        "Yes": 0.95,
-        "No": 0.05
+        "Yes": 0.02,
+        "No": 0.98
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Hurricane Helene caused severe damage to Asheville, NC in late September 2024.",
-          "President Biden visited the region and took an aerial tour of Asheville on October 2, 2024."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1087,14 +1093,17 @@
     "volume": "94404.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Reaching 70°F in New York City during December is historically rare, though it has occurred in exceptionally warm years like 2015. Given typical climatology, the probability remains low.",
+      "rationale": "While rare, NYC has recorded temperatures of 70°F or higher in December multiple times in recent years, including 2023 and 2015. Given warming trends, there's a non-trivial chance of this occurring again, though it remains an unusual weather event.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.25,
+        "No": 0.75
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
+        "recognized_event": true,
+        "evidence_facts": [
+          "On December 24, 2015 (Christmas Eve), the temperature in Central Park reached a record high of 72°F.",
+          "More recently, on December 10, 2023, the temperature in Central Park also hit 70°F."
+        ],
         "recalled_outcome_if_known": null
       }
     }
@@ -1110,16 +1119,17 @@
     "volume": "0",
     "status": "ok",
     "forecast": {
-      "rationale": "Blast, the Ethereum Layer 2 network, officially launched its mainnet on February 29, 2024, not February 27.",
+      "rationale": "Blast, an Ethereum Layer 2 network, announced its mainnet launch would be at the end of February. The team confirmed the launch for February 29, 2024, not February 27. Therefore, this event resolved to No.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.0,
+        "No": 1.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Blast is an Ethereum Layer 2 network founded by Tieshun Roquerre (Pacman).",
-          "The Blast mainnet officially launched on February 29, 2024."
+          "Blast is an Ethereum Layer 2 (L2) network developed by the team behind the NFT marketplace Blur.",
+          "The Blast mainnet officially launched on February 29, 2024.",
+          "The project attracted significant attention and over $2 billion in Total Value Locked (TVL) before its mainnet launch."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1136,15 +1146,19 @@
     "volume": "5865",
     "status": "ok",
     "forecast": {
-      "rationale": "Predicting a highly specific snowfall range of 5.5 to 6.5 inches for a single day in NYC is statistically improbable due to the narrow margin.",
+      "rationale": "I recall a significant snowstorm hitting NYC on Tuesday, February 13, 2024. While forecasts varied, the actual amounts recorded were generally lower than the higher-end predictions, making this specific 1-inch range unlikely to have been the final official measurement for the designated location.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "A winter storm impacted New York City on Tuesday, February 13, 2024.",
+          "Official measurements from Central Park recorded 3.2 inches of snow for this event.",
+          "This was the largest single-day snowfall in Central Park in over two years."
+        ],
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -1159,15 +1173,19 @@
     "volume": "72476.8",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperatures in mid-2024 continued to break records, with anomalies consistently exceeding 1.09°C above pre-industrial and 20th-century baselines.",
+      "rationale": "This event has already resolved. The Copernicus Climate Change Service (C3S) reported that June 2024 was the warmest June on record, with a global average surface air temperature 0.77°C above the 1991-2020 average. This value is less than the 1.09°C threshold.",
       "probabilities": {
-        "Yes": 0.2,
-        "No": 0.8
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Copernicus Climate Change Service (C3S) is the primary source for this data.",
+          "The reported global average surface air temperature for June 2024 was 0.77°C above the 1991-2020 average.",
+          "This made June 2024 the 13th consecutive month to set a new global temperature record for that respective month."
+        ],
+        "recalled_outcome_if_known": "Yes"
       }
     }
   },
@@ -1182,10 +1200,10 @@
     "volume": "555925",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature anomaly range of 1.20-1.24°C is quite narrow. Given recent global temperature trends which have often exceeded this range, the probability of falling exactly within this specific 0.05°C window is relatively low.",
+      "rationale": "This event has not yet occurred. Forecasting a precise 0.05°C range for a specific month's global temperature anomaly is extremely difficult. Recent months have seen much higher anomalies, but variability is high. This specific narrow range is unlikely to be hit exactly.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1205,20 +1223,15 @@
     "volume": "262564",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX successfully launched Starship on IFT-3 in March, IFT-4 in June, IFT-5 in October, and IFT-6 in November 2024, all of which reached outer space.",
+      "rationale": "SpaceX has an ambitious launch cadence, but Starship is still in its test phase. While two launches have occurred so far in 2024, achieving two more successful flights to space by year-end is possible but challenging given the required hardware readiness and regulatory approvals.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.45,
+        "No": 0.55
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "IFT-3 launched on March 14, 2024 and reached space.",
-          "IFT-4 launched on June 6, 2024 and reached space.",
-          "IFT-5 launched on October 13, 2024 and reached space.",
-          "IFT-6 launched on November 19, 2024 and reached space."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1233,18 +1246,15 @@
     "volume": "711045",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season concluded with 18 named storms, which is well below the threshold of more than 25.",
+      "rationale": "The 2024 Atlantic hurricane season is forecast to be extremely active. Major forecasting agencies like NOAA and CSU predict a well-above-average number of storms, citing record warm ocean temperatures and a likely La Niña. These conditions strongly favor a high storm count, making over 25 a real possibility.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season ended on November 30, 2024.",
-          "There were exactly 18 named storms during the 2024 season, including notable storms like Beryl, Helene, and Milton."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1259,10 +1269,10 @@
     "volume": "1.85149e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperatures in 2023 already exceeded 1.4°C above pre-industrial levels, and 2024 is expected to be similarly warm or warmer due to the lingering effects of El Niño. Therefore, it is highly unlikely the increase will be less than 1.22°C.",
+      "rationale": "The global temperature anomaly for 2023 was approximately 1.45°C above the 1850-1900 baseline. Given the ongoing El Niño and general warming trend, it is highly improbable that the 2024 anomaly will drop below 1.22°C. Most climate agencies predict 2024 will be even warmer than 2023.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1282,7 +1292,7 @@
     "volume": "95316.5",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature range of 1.35-1.40°C is a very narrow band (0.05°C width). Given the high variability of monthly global temperature anomalies and recent trends often exceeding 1.4°C, the probability of falling exactly within this specific narrow range is low.",
+      "rationale": "This is a forecast for a future event, so I cannot recall its outcome. The question lacks a specific baseline for the temperature increase, making it ambiguous. Assuming it refers to the global mean temperature anomaly relative to a pre-industrial baseline, recent trends suggest continued warming, but predicting a narrow 0.05°C range for a specific month is highly uncertain.",
       "probabilities": {
         "Yes": 0.15,
         "No": 0.85
@@ -1305,7 +1315,7 @@
     "volume": "482582",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024, as a Category 3 hurricane with maximum sustained winds of 120 mph.",
+      "rationale": "Hurricane Milton made landfall on October 9, 2024, near Siesta Key, Florida, as a Category 3 hurricane. Since Category 3 is higher than Category 2, the condition was not met.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1313,8 +1323,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Milton made landfall on October 9, 2024, near Siesta Key, Florida.",
-          "It made landfall as a Category 3 hurricane with 120 mph winds."
+          "Hurricane Milton made landfall on the evening of October 9, 2024.",
+          "Landfall occurred near Siesta Key, Florida.",
+          "At landfall, Milton was a Category 3 hurricane with sustained winds of approximately 120 mph (195 km/h)."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1331,10 +1342,10 @@
     "volume": "545716",
     "status": "ok",
     "forecast": {
-      "rationale": "Recent global temperature anomalies have consistently exceeded 1.20°C above pre-industrial levels, often reaching 1.4°C to 1.6°C in 2023 and 2024. It is highly unlikely that the December 2024 anomaly will drop below 1.20°C.",
+      "rationale": "This event is about a future climate metric. As the event has not yet occurred, its outcome cannot be known from memory. The prediction is based on current climate trends and data from sources like Copernicus, which show a consistent warming trend.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1354,18 +1365,15 @@
     "volume": "67205.8",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season was highly active, with well over 11 named storms forming, including major hurricanes like Beryl, Helene, and Milton.",
+      "rationale": "Forecasts for the 2024 Atlantic hurricane season predict an extremely active season. Factors include record-warm Atlantic sea surface temperatures and a developing La Niña. Major forecasting agencies like NOAA and CSU predict well above the average of 14 named storms, making less than 11 highly unlikely.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season featured many named storms, far exceeding 11.",
-          "Named storms included Alberto, Beryl, Debby, Ernesto, Francine, Helene, Milton, and Rafael, among others."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1380,16 +1388,17 @@
     "volume": "329086",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was officially confirmed as the warmest year on record, with global average temperatures exceeding 1.4°C above pre-industrial levels according to major datasets like Copernicus and WMO, well above the 1.11°C threshold.",
+      "rationale": "I recall that 2023 was a record-breaking year for global temperatures, significantly surpassing previous highs. The final figures from major climate agencies confirmed the anomaly was well above the 1.11°C threshold, driven by El Niño and long-term warming trends.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported 2023 was 1.48°C warmer than the 1850-1900 pre-industrial level.",
-          "WMO confirmed 2023 as the hottest year on record by a huge margin."
+          "The Copernicus Climate Change Service (C3S) reported that 2023 had a global average temperature of 14.98°C, which was 1.48°C above the 1850-1900 pre-industrial level.",
+          "NOAA and NASA also confirmed 2023 as the warmest year on record, with their analyses showing warming of 1.35°C and 1.39°C respectively above the late 19th-century average.",
+          "The World Meteorological Organization (WMO) consolidated these findings, confirming the global average near-surface temperature in 2023 was 1.45 ± 0.12 °C above the pre-industrial baseline."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1406,18 +1415,19 @@
     "volume": "38138.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024, as a Category 4 hurricane with maximum sustained winds of 140 mph.",
+      "rationale": "I recall Hurricane Helene made landfall in late September 2024. It was a powerful and destructive storm, but my memory indicates it made landfall as a Category 3 hurricane, not a Category 4 or stronger, after weakening slightly before hitting the coast.",
       "probabilities": {
-        "Yes": 1.0,
-        "No": 0.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Helene made landfall on September 26, 2024.",
-          "It made landfall in Florida's Big Bend region as a Category 4 hurricane with maximum sustained winds of 140 mph."
+          "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024.",
+          "At landfall, its maximum sustained winds were approximately 120 mph, which corresponds to a strong Category 3 hurricane on the Saffir-Simpson scale.",
+          "The storm caused extensive damage across the Southeastern United States, particularly in Florida, Georgia, and the Carolinas."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -1432,16 +1442,17 @@
     "volume": "97500.6",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 continued the trend of record-breaking global temperatures, with Copernicus reporting it as the warmest April on record, well above the 1.31°C threshold relative to pre-industrial levels.",
+      "rationale": "This event has already resolved. The Copernicus Climate Change Service (C3S) reported that April 2024 was the warmest April on record globally, with a surface air temperature anomaly of +1.58°C above the 1850-1900 pre-industrial average. This value is greater than 1.31°C.",
       "probabilities": {
-        "Yes": 0.95,
-        "No": 0.05
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 was the 11th consecutive month of record-high global temperatures.",
-          "Copernicus Climate Change Service reported April 2024 was 1.58°C warmer than the pre-industrial average."
+          "The Copernicus Climate Change Service (C3S) is the source for this data.",
+          "The reported global average surface air temperature for April 2024 was 1.58°C above the 1850-1900 pre-industrial average.",
+          "This marked the eleventh consecutive month of record-breaking global temperatures."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1456,9 +1467,23 @@
     "close_time": "2023-11-30T00:00:00Z",
     "actual_resolution": "No",
     "volume": "38046.3",
-    "status": "error",
+    "status": "ok",
     "forecast": {
-      "error": "all 3 attempts failed; last error: Failed to parse JSON"
+      "rationale": "The 2023 Atlantic hurricane season was the fourth busiest on record, significantly exceeding initial forecasts. The season concluded with 20 named storms, just shy of the 21 required for this market to resolve 'Yes'.",
+      "probabilities": {
+        "Yes": 0.0,
+        "No": 1.0
+      },
+      "recall_assessment": {
+        "recognized_event": true,
+        "evidence_facts": [
+          "The 2023 Atlantic hurricane season officially ran from June 1 to November 30, 2023.",
+          "The season produced 20 named storms, starting with Tropical Storm Arlene and ending with Tropical Storm Vince.",
+          "This total of 20 storms was the fourth-highest number of named storms in a year since 1950.",
+          "Major hurricanes included Franklin, Idalia, and Lee."
+        ],
+        "recalled_outcome_if_known": "No"
+      }
     }
   },
   {
@@ -1472,18 +1497,15 @@
     "volume": "432073",
     "status": "ok",
     "forecast": {
-      "rationale": "The global temperature anomaly for August 2024 was reported by Copernicus to be 1.51°C above the pre-industrial level, which is significantly higher than the 1.15-1.19°C range.",
+      "rationale": "This is a forecast for a future event, so its outcome is unknown. The question lacks a clear baseline (e.g., pre-industrial, 20th-century average) and data source (e.g., GISTEMP, HadCRUT5), making a precise forecast impossible. Probabilities are based on general climate trends and the narrowness of the specified range.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Copernicus Climate Change Service reported August 2024 was 1.51°C above the 1850-1900 pre-industrial average.",
-          "The anomaly was well above the 1.15-1.19°C range specified in the market."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1498,7 +1520,7 @@
     "volume": "3910",
     "status": "ok",
     "forecast": {
-      "rationale": "Central Park recorded 3.2 inches of snow during the winter storm on Tuesday, February 13, 2024, which falls short of the 4.5 to 5.5 inches range.",
+      "rationale": "I recall a significant snowstorm hitting NYC on Tuesday, February 13, 2024. Official measurements varied, but Central Park recorded 3.2 inches, falling outside the specified 4.5 to 5.5-inch range. Other nearby locations saw higher totals, but the official city reading did not meet the criteria.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1506,8 +1528,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "A major winter storm affected NYC on Tuesday, February 13, 2024.",
-          "Central Park officially recorded 3.2 inches of snowfall for that event."
+          "The snowstorm occurred on Tuesday, February 13, 2024.",
+          "The official measurement for New York City, taken at Central Park, was 3.2 inches of snow.",
+          "This was the largest single-day snowfall for NYC in over two years, breaking a 701-day snowless streak for storms over one inch."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1524,18 +1547,15 @@
     "volume": "89595.8",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 continued the streak of record-breaking global temperatures, with Copernicus reporting an anomaly of 1.52°C above the pre-industrial average, well above the 1.30°C threshold.",
+      "rationale": "The question is ambiguous about the dataset and baseline. Assuming it refers to a common dataset like Copernicus C3S (ERA5) and a 1850-1900 baseline, recent months have consistently exceeded 1.5°C. Therefore, an anomaly above 1.30°C for May 2024 is highly probable.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.95,
+        "No": 0.05
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Copernicus Climate Change Service reported May 2024 was the warmest May on record.",
-          "The global average temperature for May 2024 was 1.52°C above the 1850-1900 pre-industrial average."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1550,10 +1570,10 @@
     "volume": "67838.3",
     "status": "ok",
     "forecast": {
-      "rationale": "June 2024 was a record-warm month globally, with temperature anomalies in major datasets (like ERA5 and NOAA) generally exceeding the 1.09°C to 1.15°C range, making it highly unlikely to fall within this narrow band.",
+      "rationale": "This event has not yet occurred, as the close time is in the future (July 1, 2024). Therefore, the outcome cannot be known from my training data. The forecast is based on recent climate data and trends.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.25,
+        "No": 0.75
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1573,10 +1593,10 @@
     "volume": "464315",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperature anomalies in late 2023 and throughout 2024 have consistently exceeded 1.4°C above pre-industrial levels. Given the ongoing warming trend, November 2024 is highly likely to exceed the 1.39°C threshold.",
+      "rationale": "This event has not yet occurred, so its outcome cannot be known from memory. Based on recent trends and data from sources like Copernicus (C3S), global temperature anomalies have frequently surpassed 1.5°C in late 2023 and early 2024, making a high anomaly in November 2024 plausible.",
       "probabilities": {
-        "Yes": 0.85,
-        "No": 0.15
+        "Yes": 0.65,
+        "No": 0.35
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1596,19 +1616,15 @@
     "volume": "82058.5",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX successfully launched Starship into space multiple times in 2024, including IFT-3 in March, IFT-4 in June, and IFT-5 in October, easily meeting the requirement of three successful launches reaching outer space.",
+      "rationale": "SpaceX has conducted two Starship test flights in 2024 (IFT-3 and IFT-4), both successfully reaching outer space. With plans for more launches and a rapid development pace, a third successful launch is highly probable before year-end, but hardware readiness and regulatory approvals remain key factors.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 0.85,
+        "No": 0.15
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "IFT-3 launched on March 14, 2024, and reached space.",
-          "IFT-4 launched on June 6, 2024, and reached space.",
-          "IFT-5 launched on October 13, 2024, and reached space."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1623,16 +1639,17 @@
     "volume": "384695",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024, as a Category 3 hurricane, not a Category 4.",
+      "rationale": "Hurricane Milton made landfall on the west coast of Florida on October 9, 2024. It was an extremely powerful storm, but it weakened slightly just before landfall, coming ashore as a strong Category 3 hurricane, not a Category 4.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024.",
-          "It made landfall as a Category 3 hurricane with maximum sustained winds of about 120 mph."
+          "Hurricane Milton made landfall near Siesta Key, Florida, on the evening of October 9, 2024.",
+          "At landfall, its maximum sustained winds were approximately 120 mph (195 km/h), which corresponds to a high-end Category 3 hurricane on the Saffir-Simpson scale.",
+          "Prior to landfall, Milton had been a Category 5 hurricane over the Gulf of Mexico."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1649,10 +1666,10 @@
     "volume": "1.73135e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Current climate projections and data for 2024 indicate that the global temperature anomaly is expected to significantly exceed 1.27°C, likely surpassing 1.4°C or even 1.5°C above pre-industrial levels.",
+      "rationale": "The year 2023 was the warmest on record, with a global average temperature of 1.48°C above the pre-industrial baseline. Given the ongoing El Niño and general warming trend, 2024 is expected to be even warmer, likely exceeding 1.5°C, making the narrow 1.25-1.27°C range highly improbable.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.02,
+        "No": 0.98
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1672,10 +1689,10 @@
     "volume": "94761.2",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature anomaly range of 1.23-1.28°C is very narrow. Given the natural variability and the uncertainty in forecasting global monthly temperature anomalies months in advance, the probability of falling exactly within this 0.05°C band is low.",
+      "rationale": "This event has not yet occurred. Predicting a specific, narrow temperature anomaly range for a future month is highly uncertain. Recent trends show significant warming, but monthly variability is high, making this specific 0.05°C window a low-probability target.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1695,7 +1712,7 @@
     "volume": "19830",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024, as a Category 4 hurricane, which is much stronger than Category 1.",
+      "rationale": "I recall Hurricane Helene made landfall in late September 2024 as a powerful Category 4 storm, causing significant damage. Therefore, it did not make landfall at Category 1 or weaker. The event has already resolved.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1703,8 +1720,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Helene made landfall on September 26, 2024.",
-          "It made landfall in Florida's Big Bend region as a Category 4 hurricane."
+          "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024.",
+          "It made landfall as a high-end Category 4 hurricane with sustained winds of approximately 140 mph (220 km/h).",
+          "The storm caused widespread catastrophic damage across Florida, Georgia, and the Carolinas."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1721,10 +1739,10 @@
     "volume": "500998",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature anomaly range of 1.20-1.24°C is extremely narrow. Given the natural variability and recent trends showing higher anomalies, the probability of the December 2024 increase falling exactly within this 0.05°C band is low.",
+      "rationale": "This is a forecast for a future event, so I cannot recall its outcome. The specified range of 1.20-1.24°C is very narrow. While global temperatures are rising, predicting such a precise monthly anomaly for a future date is highly uncertain, making the 'No' outcome far more likely.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.05,
+        "No": 0.95
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1744,7 +1762,7 @@
     "volume": "3410",
     "status": "ok",
     "forecast": {
-      "rationale": "Predicting a narrow 1-inch band of snowfall (6.5 to 7.5 inches) for a specific day is statistically unlikely. Furthermore, the major snowstorm in NYC around this time (Feb 13, 2024) resulted in 3.2 inches in Central Park.",
+      "rationale": "I recall a significant snowstorm hitting NYC on Tuesday, February 13, 2024. Forecasts leading up to the event varied, but many predicted substantial accumulation. The final official measurement at Central Park was less than the lower bound of this market's range.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1752,8 +1770,10 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "A major winter storm affected NYC on Tuesday, February 13, 2024.",
-          "Central Park recorded 3.2 inches of snowfall during this event, falling short of the 6.5 to 7.5 inch range."
+          "The snowstorm occurred on Tuesday, February 13, 2024.",
+          "The official measurement for snowfall at Central Park was 3.2 inches.",
+          "This was the largest single-day snowfall in over two years for NYC.",
+          "The storm caused widespread school closures and travel disruptions."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1770,16 +1790,17 @@
     "volume": "307850",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was officially confirmed as the warmest year on record, with global temperature anomalies significantly exceeding 1.08°C above pre-industrial and 20th-century baselines across major datasets like NOAA and Copernicus.",
+      "rationale": "The year 2023 was confirmed as the warmest on record by a significant margin. Major climate monitoring agencies reported the final global average temperature anomaly well above the 1.08°C threshold, driven by El Niño and long-term warming trends.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "NOAA reported the 2023 global surface temperature anomaly was 1.18°C above the 20th-century average.",
-          "Copernicus (ERA5) reported 2023 was 1.48°C warmer than the 1850-1900 pre-industrial level."
+          "The Copernicus Climate Change Service (C3S) reported that 2023 had a global average temperature of 14.98°C, which is 1.48°C above the 1850-1900 pre-industrial level.",
+          "NASA's analysis concluded that 2023 was about 1.2°C (2.1°F) above the 1951-1980 average, and other agencies like NOAA and the UK Met Office also confirmed 2023 as the hottest year on record with similar figures.",
+          "The World Meteorological Organization (WMO) consolidated data from six leading international datasets, confirming 2023 as the warmest year on record, with the global average near-surface temperature at 1.45 ± 0.12 °C above pre-industrial levels."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1796,16 +1817,17 @@
     "volume": "63629",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 was a record-warm month globally. According to NOAA, the global surface temperature anomaly was 1.32°C above the 20th-century average, which is well above the 1.14°C-1.19°C range.",
+      "rationale": "This event has already resolved. The Copernicus Climate Change Service (C3S) reported that April 2024 was the warmest April on record, with a global average surface air temperature of 15.03°C. This was 0.67°C above the 1991-2020 average and 1.58°C above the 1850-1900 pre-industrial average.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 was the 11th consecutive month of record-high global temperatures.",
-          "NOAA reported the April 2024 global surface temperature anomaly as 1.32°C above the 20th-century average."
+          "The Copernicus Climate Change Service (C3S) is the primary source for this data.",
+          "April 2024's global average surface air temperature was 1.58°C above the 1850-1900 pre-industrial average.",
+          "This made it the 11th consecutive month to be the warmest on record for the respective month of the year."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1822,18 +1844,15 @@
     "volume": "386231",
     "status": "ok",
     "forecast": {
-      "rationale": "August 2024 was exceptionally warm globally, with the Copernicus ERA5 dataset reporting an anomaly of 1.51°C above pre-industrial levels, well above the 1.20-1.24°C range.",
+      "rationale": "This is a forecast for a future event, so I cannot recall its outcome. Based on recent trends and data from sources like Copernicus (C3S), global temperature anomalies have been exceptionally high, often exceeding 1.5°C. The narrow range of 1.20-1.24°C is plausible but less likely than a value outside this specific band.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Copernicus ERA5 reported August 2024 global surface air temperature was 1.51°C above the pre-industrial average.",
-          "August 2024 was the joint-warmest August on record globally."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1848,18 +1867,15 @@
     "volume": "34749",
     "status": "ok",
     "forecast": {
-      "rationale": "June 2024 continued the streak of record-breaking global temperatures, with major climate agencies like Copernicus reporting anomalies well above 1.29°C relative to pre-industrial levels.",
+      "rationale": "This event has not yet occurred, as the close time is in the future (July 1, 2024). Therefore, I cannot recall the outcome. My forecast is based on recent climate data trends showing consistently high temperature anomalies.",
       "probabilities": {
-        "Yes": 0.95,
-        "No": 0.05
+        "Yes": 0.55,
+        "No": 0.45
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "June 2024 was reported by Copernicus as being 1.50°C above the 1850-1900 pre-industrial average.",
-          "It marked the 13th consecutive month of record-high global surface air temperatures."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1874,16 +1890,18 @@
     "volume": "142042",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 continued a streak of record-breaking global temperatures. NOAA reported the May 2024 global surface temperature anomaly was 1.18°C above the 20th-century average, which is higher than the 1.03°C-1.09°C range.",
+      "rationale": "This event has already closed. Based on my training data, the Copernicus Climate Change Service (C3S) reported that May 2024 was the warmest May on record, with a global average surface air temperature 0.65°C above the 1991-2020 average.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "May 2024 was the 12th consecutive month of record-high global temperatures.",
-          "NOAA reported a global surface temperature anomaly of 1.18°C above the 20th-century average for May 2024."
+          "The event asks about the global temperature anomaly for May 2024.",
+          "The Copernicus Climate Change Service (C3S) is a primary source for this data.",
+          "C3S reported the May 2024 global average surface air temperature was 0.65°C above the 1991-2020 average, and 1.52°C above the 1850-1900 pre-industrial average.",
+          "The reported anomaly of 0.65°C (or 1.52°C depending on the baseline) does not fall within the specified range of 1.03°C-1.09°C."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -1900,18 +1918,15 @@
     "volume": "549051",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season concluded with a total of 18 named storms, which falls short of the 21 to 25 range.",
+      "rationale": "Forecasts for the 2024 Atlantic hurricane season are exceptionally high due to record warm sea surface temperatures and a likely La Niña. NOAA predicts 17-25 named storms, with an 85% chance of an above-normal season. This specific range is plausible but narrow.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.35,
+        "No": 0.65
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season ended on November 30, 2024.",
-          "There were exactly 18 named storms during the 2024 season, with the final named storm being Sara."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1926,18 +1941,15 @@
     "volume": "57810",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season was highly active, producing 18 named storms by late November, which exceeds the 11-14 range.",
+      "rationale": "Major forecasting agencies like NOAA and CSU predict a hyperactive 2024 Atlantic hurricane season, with most forecasting well above 20 named storms. This is driven by record-warm Atlantic sea surface temperatures and a developing La Niña. The range of 11-14 is significantly below these expert predictions.",
       "probabilities": {
-        "Yes": 0.0,
-        "No": 1.0
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season had 18 named storms.",
-          "Named storms included Beryl, Debby, Helene, Milton, and Sara."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -1952,10 +1964,10 @@
     "volume": "383210",
     "status": "ok",
     "forecast": {
-      "rationale": "A specific temperature anomaly range of 1.35-1.39°C is quite narrow. Given the variability in monthly global temperature anomalies and the recent trend of record-breaking warmth, the probability of falling exactly within this 0.04°C band is relatively low.",
+      "rationale": "This is a forecast for a future event, so it cannot be recalled. The specified range of 1.35-1.39°C is very narrow. While global temperatures are rising, pinning down a specific month's anomaly to a 0.05°C window is highly uncertain, making 'No' the much more likely outcome.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -1975,7 +1987,7 @@
     "volume": "73965.8",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX's Starship Flight 3 launched on March 14, 2024, and successfully reached outer space, fulfilling the criteria for this market.",
+      "rationale": "SpaceX has already conducted two Starship test flights in 2024 (IFT-3 and IFT-4). IFT-4 on June 6, 2024, successfully reached outer space and achieved most of its key objectives, including a soft splashdown of the Super Heavy booster and Starship. This event has already occurred.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -1983,8 +1995,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Starship Flight 3 launched on March 14, 2024.",
-          "The vehicle successfully reached an apogee well above the 100 km Karman line, entering outer space."
+          "The fourth integrated flight test (IFT-4) of Starship occurred on June 6, 2024.",
+          "The launch took place from Starbase in Boca Chica, Texas.",
+          "The Starship upper stage successfully reached orbital velocity and altitude, completing its ascent burn and coasting in space before a controlled reentry and soft splashdown in the Indian Ocean."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2001,16 +2014,17 @@
     "volume": "246126",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Milton made landfall near Siesta Key, Florida, on October 9, 2024, as a Category 3 hurricane with maximum sustained winds of 120 mph.",
+      "rationale": "Hurricane Milton made landfall on the west coast of Florida on October 9, 2024. It was an extremely powerful Category 5 hurricane at its peak but weakened before landfall. It struck near Siesta Key, Florida, as a strong Category 3 hurricane.",
       "probabilities": {
-        "Yes": 1.0,
-        "No": 0.0
+        "Yes": 0.99,
+        "No": 0.01
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024.",
-          "At the time of landfall, it was classified as a Category 3 hurricane with 120 mph winds."
+          "Hurricane Milton made landfall on the evening of October 9, 2024.",
+          "Landfall occurred near Siesta Key, south of Tampa, Florida.",
+          "At landfall, its maximum sustained winds were approximately 120 mph (195 km/h), which is within the Category 3 range on the Saffir-Simpson scale."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2027,7 +2041,7 @@
     "volume": "939019",
     "status": "ok",
     "forecast": {
-      "rationale": "Given the strong El Niño conditions continuing into early 2024 and the record-breaking temperatures of 2023 (which exceeded 1.4°C), it is highly probable that 2024 will also see a global temperature increase greater than 1.30°C above pre-industrial levels.",
+      "rationale": "2023 was the warmest year on record, exceeding 1.45°C above pre-industrial levels. With a strong El Niño carrying over into early 2024 and the underlying warming trend, it is highly probable that 2024 will also surpass the 1.30°C threshold.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -2050,7 +2064,7 @@
     "volume": "84655",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperatures in 2024 have been exceptionally high, often exceeding 1.5°C above pre-industrial levels. However, without a specified baseline, the exact anomaly is uncertain, though recent months suggest a high likelihood of remaining elevated.",
+      "rationale": "This event has not yet occurred, so its outcome cannot be recalled. Forecasting is based on recent climate data trends, which show a consistent warming pattern. The 1.17°C threshold is a specific value, and recent months have often exceeded similar anomalies, making 'No' more likely.",
       "probabilities": {
         "Yes": 0.4,
         "No": 0.6
@@ -2073,7 +2087,7 @@
     "volume": "17504.6",
     "status": "ok",
     "forecast": {
-      "rationale": "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024, as a Category 4 hurricane, not a Category 2.",
+      "rationale": "I recall Hurricane Helene made landfall in late September 2024. It was an extremely powerful and destructive storm, but it made landfall as a Category 4 hurricane, not a Category 2. Therefore, this event resolved to No.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -2081,8 +2095,9 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Hurricane Helene made landfall on September 26, 2024.",
-          "It made landfall as a Category 4 hurricane in Florida's Big Bend region."
+          "Hurricane Helene made landfall in the Big Bend region of Florida on September 26, 2024.",
+          "At landfall, Helene was a high-end Category 4 hurricane with sustained winds of approximately 140 mph (220 km/h).",
+          "The storm caused catastrophic damage across the Southeastern United States, particularly in Florida, Georgia, and the Carolinas."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2099,10 +2114,10 @@
     "volume": "458426",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature anomaly range of 1.25-1.29°C is very narrow. Given recent global temperature trends which have often exceeded 1.3°C, the probability of falling exactly within this specific 0.05°C window is low.",
+      "rationale": "This is a forecast for a future event. The specified range of 1.25-1.29°C is very narrow. While recent trends show significant warming, pinning down a single month's anomaly to a 0.05°C window is highly uncertain, making 'No' the more probable outcome.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2122,18 +2137,19 @@
     "volume": "2553.69",
     "status": "ok",
     "forecast": {
-      "rationale": "Central Park recorded exactly 3.2 inches of snowfall on Tuesday, February 13, 2024, which is less than the 3.5-inch threshold.",
+      "rationale": "I recall a significant snowstorm hitting the Northeast, including New York City, on Tuesday, February 13, 2024. Forecasts leading up to the event predicted substantial accumulation, and the actual event delivered, exceeding the 3.5-inch threshold by a wide margin.",
       "probabilities": {
-        "Yes": 0.95,
-        "No": 0.05
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "A winter storm affected NYC on Tuesday, February 13, 2024.",
-          "Central Park recorded 3.2 inches of snow during this event."
+          "The snowstorm occurred on Tuesday, February 13, 2024.",
+          "Official measurements from the National Weather Service at Central Park recorded 3.2 inches of snow, but other parts of the city received much more, with LaGuardia Airport reporting 7.3 inches and JFK Airport reporting 5.0 inches.",
+          "The event was notable as it was the largest single-day snowfall in NYC in over two years, breaking a long 'snow drought'."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -2148,16 +2164,17 @@
     "volume": "307567",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was confirmed as the hottest year on record, with global temperature anomalies significantly exceeding 1.05 degrees Celsius above pre-industrial levels across all major datasets.",
+      "rationale": "I recall that 2023 was a record-breaking year for global temperatures, significantly exceeding previous highs. Major climate monitoring agencies confirmed that the annual average temperature anomaly was well above the 1.05°C threshold, making this a certain outcome.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was the warmest year on record globally.",
-          "Global average temperature anomalies for 2023 were widely reported to be around 1.45 to 1.48 degrees Celsius above pre-industrial levels."
+          "The Copernicus Climate Change Service (C3S) reported that 2023 was the warmest year on record, with a global average temperature of 14.98°C.",
+          "This represented a 1.48°C warming above the 1850-1900 pre-industrial level, which is substantially greater than the 1.05°C threshold in the question.",
+          "NASA and NOAA also confirmed 2023 as the warmest year on record in their independent analyses released in January 2024."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2174,16 +2191,17 @@
     "volume": "48763.3",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 continued a streak of record-breaking global temperatures. Major datasets like NOAA and Copernicus reported anomalies higher than the 1.26-1.31°C range (e.g., NOAA at 1.32°C above the 20th-century average).",
+      "rationale": "I recall this event. The Copernicus Climate Change Service (C3S) reported the global average surface air temperature for April 2024. The reported value was outside the specified range, leading to a 'No' resolution.",
       "probabilities": {
-        "Yes": 0.1,
-        "No": 0.9
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 was the 11th consecutive month of record-high global temperatures.",
-          "NOAA reported the April 2024 global surface temperature anomaly as 1.32°C above the 20th-century average."
+          "The Copernicus Climate Change Service (C3S) is the primary data source for these types of climate questions.",
+          "The reported global average surface air temperature for April 2024 was 1.58°C above the 1850-1900 pre-industrial average.",
+          "This value of 1.58°C is significantly higher than the 1.26°C-1.31°C range specified in the question."
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2200,18 +2218,15 @@
     "volume": "213686",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperatures in August 2024 continued to be exceptionally high, with Copernicus reporting the month as 1.51°C above the pre-industrial average, well above the 1.29°C threshold.",
+      "rationale": "The question is ambiguous about the baseline and dataset for the temperature increase. Assuming it refers to the global mean surface temperature anomaly for August 2024 relative to a pre-industrial baseline (e.g., 1850-1900), recent trends and record-breaking temperatures in 2023 make this plausible but not certain.",
       "probabilities": {
-        "Yes": 0.95,
-        "No": 0.05
+        "Yes": 0.45,
+        "No": 0.55
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Copernicus Climate Change Service reported August 2024 global surface air temperature was 1.51°C above the 1850-1900 pre-industrial average.",
-          "August 2024 tied with August 2023 as the warmest August on record globally."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -2226,18 +2241,15 @@
     "volume": "14190.9",
     "status": "ok",
     "forecast": {
-      "rationale": "According to the Copernicus Climate Change Service, June 2024 was 1.50°C above the pre-industrial average, which is significantly higher than the 1.23°C to 1.29°C range.",
+      "rationale": "This event has not yet occurred, as the close time is in the future. Based on recent trends and data from sources like Copernicus (C3S), global temperature anomalies have been exceptionally high, often exceeding 1.5°C. It is unlikely the anomaly will fall into this narrow, lower range.",
       "probabilities": {
-        "Yes": 0.01,
-        "No": 0.99
+        "Yes": 0.15,
+        "No": 0.85
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "June 2024 was the warmest June on record globally.",
-          "The temperature anomaly was 1.50°C above the 1850-1900 pre-industrial average according to Copernicus ERA5 data."
-        ],
-        "recalled_outcome_if_known": "No"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -2252,15 +2264,18 @@
     "volume": "77492.6",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperature anomalies for May 2024 were generally higher than the 1.24°C-1.30°C range in major datasets, with Copernicus reporting 1.52°C above pre-industrial levels.",
+      "rationale": "I recall that May 2024 was an exceptionally warm month, continuing a trend of record-breaking global temperatures. The Copernicus Climate Change Service (C3S) reported the final figure, which fell outside the specified narrow range.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.01,
+        "No": 0.99
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Copernicus Climate Change Service (C3S) reported that May 2024 was the warmest May on record globally.",
+          "The global average surface air temperature for May 2024 was 1.52°C above the 1850–1900 pre-industrial average, which is significantly higher than the 1.24°C-1.30°C range."
+        ],
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -2275,18 +2290,15 @@
     "volume": "364338",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 Atlantic Hurricane Season concluded with exactly 18 named storms, which falls within the 16 to 20 range.",
+      "rationale": "Forecasts for the 2024 Atlantic hurricane season are exceptionally high due to record warm sea surface temperatures and a likely La Niña. Most agencies predict well over 20 named storms, making the 16-20 range less probable than a higher number.",
       "probabilities": {
-        "Yes": 1.0,
-        "No": 0.0
+        "Yes": 0.25,
+        "No": 0.75
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "The 2024 Atlantic Hurricane Season ended on November 30, 2024.",
-          "There were exactly 18 named storms during the season, with the final named storm being Sara."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -2301,10 +2313,10 @@
     "volume": "308546",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified temperature anomaly range of 1.25-1.29°C is very narrow. Given the natural variability and recent trends of global temperatures often exceeding 1.3°C, the probability of falling exactly within this specific 0.05°C band is low.",
+      "rationale": "This event has not yet occurred. Forecasting a specific 0.05°C range for a single month's temperature anomaly is highly uncertain. Recent months have seen much higher anomalies, but variability is high. This specific narrow range is unlikely, making 'No' the probable outcome.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2324,18 +2336,15 @@
     "volume": "57262.4",
     "status": "ok",
     "forecast": {
-      "rationale": "SpaceX successfully launched Starship on Flight 3 in March 2024 and Flight 4 in June 2024, both of which reached outer space.",
+      "rationale": "SpaceX has already achieved one successful Starship launch to space in 2024 (IFT-4). Given their rapid development and testing cadence, and with several more months in the year, a second successful launch is highly probable. Production rates support multiple flight attempts.",
       "probabilities": {
-        "Yes": 1.0,
-        "No": 0.0
+        "Yes": 0.85,
+        "No": 0.15
       },
       "recall_assessment": {
-        "recognized_event": true,
-        "evidence_facts": [
-          "Starship Flight 3 (IFT-3) launched on March 14, 2024, and reached space.",
-          "Starship Flight 4 (IFT-4) launched on June 6, 2024, and reached space."
-        ],
-        "recalled_outcome_if_known": "Yes"
+        "recognized_event": false,
+        "evidence_facts": [],
+        "recalled_outcome_if_known": null
       }
     }
   },
@@ -2350,15 +2359,20 @@
     "volume": "1708",
     "status": "ok",
     "forecast": {
-      "rationale": "The specified range of 3.5 to 4.5 inches is a very narrow band for snowfall prediction. Historically, hitting such a specific 1-inch margin is unlikely, making 'No' the much more probable outcome.",
+      "rationale": "I recall a significant snowstorm hitting NYC on Tuesday, February 13, 2024. Official measurements varied, but Central Park recorded 3.2 inches, just below the specified range. Therefore, the event resolved to No.",
       "probabilities": {
-        "Yes": 0.15,
-        "No": 0.85
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "The snowstorm occurred on Tuesday, February 13, 2024.",
+          "The official measurement for Central Park, a common reference point for NYC snowfall, was 3.2 inches.",
+          "This was the largest single-day snowfall in over two years for New York City.",
+          "The storm caused widespread school closures and travel disruptions."
+        ],
+        "recalled_outcome_if_known": "No"
       }
     }
   },
@@ -2373,10 +2387,10 @@
     "volume": "480839",
     "status": "ok",
     "forecast": {
-      "rationale": "Current climate projections and data for 2024 indicate that the global temperature anomaly is likely to exceed 1.4°C or even 1.5°C above pre-industrial levels, making a narrow range of 1.28°C to 1.30°C highly unlikely.",
+      "rationale": "This is a very narrow range for a complex system. While 2024 is expected to be a very warm year, potentially record-breaking, pinning the annual average to a 0.02°C window is highly uncertain. Most forecasts suggest a value above 1.3°C, making this specific range unlikely.",
       "probabilities": {
-        "Yes": 0.05,
-        "No": 0.95
+        "Yes": 0.1,
+        "No": 0.9
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2396,7 +2410,7 @@
     "volume": "80341.9",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperature anomalies fluctuate, and predicting a specific narrow range of 1.17-1.22°C for October 2024 is highly uncertain without knowing the exact baseline and dataset. Recent months have seen record highs, making this specific narrow band less likely.",
+      "rationale": "This is a forecast for a future event, so I cannot recall the outcome. The question lacks a specified baseline for the temperature increase, making it ambiguous. Assuming a standard pre-industrial baseline, recent trends suggest continued warming, but predicting such a narrow range is highly uncertain.",
       "probabilities": {
         "Yes": 0.15,
         "No": 0.85
@@ -2419,10 +2433,10 @@
     "volume": "421893",
     "status": "ok",
     "forecast": {
-      "rationale": "Global temperature anomalies throughout 2024 have consistently been at record highs, often exceeding 1.4°C or 1.5°C above pre-industrial levels depending on the dataset. Given the ongoing warming trend, a December anomaly greater than 1.34°C is highly probable.",
+      "rationale": "This is a forecast for a future event, so I cannot recall its outcome. The question is ambiguous about the baseline and dataset (e.g., global, specific region?). Assuming it refers to the global mean surface temperature anomaly relative to a pre-industrial baseline, recent trends and El Niño's lingering effects make exceeding this threshold plausible, but not certain.",
       "probabilities": {
-        "Yes": 0.75,
-        "No": 0.25
+        "Yes": 0.45,
+        "No": 0.55
       },
       "recall_assessment": {
         "recognized_event": false,
@@ -2442,16 +2456,17 @@
     "volume": "138175",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was officially confirmed by the WMO and Copernicus as the warmest year on record, with global average temperatures exceeding 1.4°C above pre-industrial levels, well above the 1.15°C threshold.",
+      "rationale": "I recall that 2023 was confirmed as the hottest year on record by a significant margin. Major climate monitoring agencies reported the final global average temperature anomaly well above the 1.15°C threshold, driven by El Niño and long-term warming trends.",
       "probabilities": {
-        "Yes": 0.99,
-        "No": 0.01
+        "Yes": 1.0,
+        "No": 0.0
       },
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported 2023 was 1.48°C warmer than the 1850-1900 pre-industrial level.",
-          "WMO confirmed 2023 as the hottest year on record, with temperatures around 1.45°C above the baseline."
+          "The Copernicus Climate Change Service (C3S) reported that 2023 had a global average temperature of 1.48°C above the 1850-1900 pre-industrial level.",
+          "The World Meteorological Organization (WMO) also confirmed 2023 as the warmest year on record, stating the annual average global temperature was 1.45 ± 0.12 °C above pre-industrial levels.",
+          "NASA and NOAA also confirmed these findings in their independent analyses released in January 2024."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -2468,15 +2483,19 @@
     "volume": "26939.3",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 continued a streak of record-breaking global temperatures, with major datasets like Copernicus and NOAA reporting anomalies well above 1.14C relative to pre-industrial or mid-20th century baselines.",
+      "rationale": "This event has already resolved. The Copernicus Climate Change Service (C3S) reported that April 2024 was the warmest April on record, with a global average surface air temperature 1.58°C above the 1850-1900 pre-industrial average. This value is significantly higher than 1.14°C.",
       "probabilities": {
-        "Yes": 0.1,
-        "No": 0.9
+        "Yes": 0.0,
+        "No": 1.0
       },
       "recall_assessment": {
-        "recognized_event": false,
-        "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recognized_event": true,
+        "evidence_facts": [
+          "The Copernicus Climate Change Service (C3S) reported the data for April 2024 on May 8, 2024.",
+          "The reported global average surface air temperature anomaly for April 2024 was +1.58°C relative to the 1850-1900 pre-industrial average.",
+          "April 2024 was the 11th consecutive month to be the warmest on record for the respective month of the year."
+        ],
+        "recalled_outcome_if_known": "No"
       }
     }
   }
