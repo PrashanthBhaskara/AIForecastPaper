@@ -191,6 +191,7 @@ def process_file(client, path: Path, workers: int):
         recalled = ra.get("recalled_outcome_if_known")
         actual = item.get("actual_resolution")
         if normalize(recalled) is not None and normalize(recalled) != normalize(actual):
+            results[i] = (None, None, [])
             skipped_wrong += 1
             continue
         pending.append((i, item))
@@ -213,23 +214,20 @@ def process_file(client, path: Path, workers: int):
                 score, verdict, errors = None, None, []
                 print(f"  [{idx}] ERROR: {e}")
             results[idx] = (score, verdict, errors)
-            done += 1
+
+            # Write score back immediately so progress survives a quit
             item = items[idx]
+            ra = item.setdefault("forecast", {}).setdefault("recall_assessment", {})
+            ra["recall_score"] = score
+            if verdict is not None:
+                ra["grader_verdict"] = verdict
+            if errors:
+                ra["grader_errors"] = errors
+            path.write_text(json.dumps(items, indent=2))
+
+            done += 1
             title = item.get("title", "")[:60]
             print(f"  [{done}/{total}] score={score}  {title}")
-
-    # Inject recall_score (and grader metadata) back into each item
-    for i, item in enumerate(items):
-        score, verdict, errors = results[i]
-        ra = item.setdefault("forecast", {}).setdefault("recall_assessment", {})
-        ra["recall_score"] = score
-        if verdict is not None:
-            ra["grader_verdict"] = verdict
-        if errors:
-            ra["grader_errors"] = errors
-
-    path.write_text(json.dumps(items, indent=2))
-    print(f"  -> written back to {path}")
 
     # Per-file summary
     scored = [(s, v, e) for s, v, e in results if s is not None]

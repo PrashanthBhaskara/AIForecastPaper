@@ -48,7 +48,12 @@
           "WTI crude peaked around $93-95 in late September 2023",
           "Brent crude peaked near $97 in September 2023 and declined to ~$75-80 by year-end"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Brent crude peaked at $98/b on September 28, 2023, not \"near $97\" as stated"
+        ]
       }
     }
   },
@@ -74,7 +79,12 @@
           "Gold spot closed 2024 near $2,620-$2,640/oz",
           "Gold first crossed $3,000 in March 2025, not 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM states \"The $3,200 level was not reached until 2025\" but provides no evidence or timing for when $3,200 was actually reached; more importantly, it conflates this with \"gold first crossed $3,000 in March 2025\" as if these are equivalent claims about the same milestone, when they reference different price levels."
+        ]
       }
     }
   },
@@ -100,7 +110,12 @@
           "Bitcoin's all-time high in 2024 was approximately $108,000 in December",
           "BTC never traded above $150k in 2024, far short of $250k"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin's peak in December 2024 was approximately $108,000-$108,319 (around December 17), not the vague claim that could be misread as lower. The LLM's statement is technically correct but imprecise; the more significant error is the secondary claim that \"BTC never traded above $150k in 2024\" lacks clear source support, though the core resolution (not hitting $250k) is correct."
+        ]
       }
     }
   },
@@ -126,7 +141,9 @@
           "WTI crude 2023 high was approximately $93-94 in late September 2023",
           "Brent crude 2023 high was approximately $97 in September 2023, never reaching $120"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -152,7 +169,9 @@
           "Gold hit all-time highs around $2,790 in late October 2024 but pulled back",
           "Gold closed 2024 around $2,600-$2,650/oz, well below $3,000"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -178,7 +197,9 @@
           "EIP-4844 went live with the Dencun upgrade on March 13, 2024",
           "Blob base fees remained at minimum (1 wei) for weeks after launch, with median costs far below 0.01 ETH per blob"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -204,7 +225,12 @@
           "Saudi Arabia extended its voluntary 1 million bpd production cut through end of December 2023, announced in September 2023",
           "In November 2023, OPEC+ agreed to additional voluntary cuts extending into Q1 2024, with Saudi maintaining its 1mbpd cut"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 1 million bpd cut was initially announced in July 2023 (not September 2023); September 2023 saw an extension announcement through year-end"
+        ]
       }
     }
   },
@@ -230,7 +256,9 @@
           "Silver spot price closed 2024 near $29 per ounce",
           "Silver's 2024 high was approximately $34-35 in October, far below $40"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -256,7 +284,12 @@
           "ETH 2021 ATH was approximately $4,878 (Nov 2021)",
           "ETH 2024 peak was around $4,000-$4,100 in March 2024, never breaking the 2021 ATH"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 2024 peak of $4,107 occurred in December 2024, not March 2024. March 2024 saw a peak of approximately $4,000."
+        ]
       }
     }
   },
@@ -282,7 +315,9 @@
           "Venezuela's PDVSA production hovered around 800,000-880,000 bpd in late 2023 and Q1 2024",
           "US issued General License 44 in October 2023 providing sanctions relief, but production growth was gradual and did not reach 1M bpd by March 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -308,7 +343,9 @@
           "ETH peaked around $4,000-$4,100 in March 2024 and again late 2024, well below $10k",
           "All-time high prior was ~$4,878 from November 2021"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -360,7 +397,13 @@
           "ETH ATH was ~$4,878 set on Nov 10, 2021",
           "In Q4 2024, ETH peaked around $4,000-$4,100, well below the ATH"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "",
+          "In Q4 2024, Ethereum peaked around $3,900 (specifically $3,908 intraday on December 5), not \"around $4,000\" as stated in the reasoning."
+        ]
       }
     }
   },
@@ -383,7 +426,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -435,7 +479,13 @@
           "ETH 2024 peak was approximately $4,100 in March 2024",
           "ETH all-time high remained around $4,800 from November 2021"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "ETH's 2024 peak was $4,107.00 at the start of January 2024, not approximately $4,100 in March 2024",
+          "The November 2021 all-time high was $4,878, not \"around $4,800\""
+        ]
       }
     }
   },
@@ -461,7 +511,12 @@
           "MicroStrategy announced crossing 400k BTC in December 2024 after a series of large purchases funded by convertible notes and ATM equity offerings",
           "By end of 2024, holdings reached approximately 446,400 BTC"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "MicroStrategy crossed the 400k BTC threshold on December 2, 2024 (early December), not \"mid-to-late December 2024\" as stated."
+        ]
       }
     }
   },
@@ -487,7 +542,9 @@
           "MicroStrategy announced holdings of ~446,400 BTC as of late December 2024",
           "Their final 2024 purchase brought them to roughly 447k BTC, below 500k threshold"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -539,7 +596,9 @@
           "Spot BTC ETFs launched January 11, 2024 in the US",
           "GBTC converted with roughly $28B in existing AUM, pushing combined AUM well above $10B from day one"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -565,7 +624,9 @@
           "SEC approved 19b-4 filings for spot ETH ETFs in May 2024 but S-1 approvals were still pending in early July",
           "Spot Ethereum ETFs actually began trading on July 23, 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -580,7 +641,7 @@
     "volume": "497966",
     "status": "ok",
     "forecast": {
-      "rationale": "ETH ATH was ~$4,878 (Nov 2021) and SOL ATH was ~$260 (Nov 2021). By end of 2024, neither had clearly broken ATH—SOL got close (~$263-264 briefly in Nov 2024) but ETH stayed well below. Ambiguous market structure suggests this resolves No if neither hit a new ATH first before Dec 31.",
+      "rationale": "ETH ATH was ~$4,878 (Nov 2021) and SOL ATH was ~$260 (Nov 2021). By end of 2024, neither had clearly broken ATH\u2014SOL got close (~$263-264 briefly in Nov 2024) but ETH stayed well below. Ambiguous market structure suggests this resolves No if neither hit a new ATH first before Dec 31.",
       "probabilities": {
         "Yes": 0.35,
         "No": 0.65
@@ -588,7 +649,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -614,7 +676,9 @@
           "Bitcoin surged past $55,000 in late February 2024 amid record spot Bitcoin ETF inflows",
           "BTC continued rallying to above $60,000 by end of February 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -641,7 +705,12 @@
           "Driven by inflows to newly approved US spot Bitcoin ETFs",
           "BTC continued rising through February, reaching above $60,000 by month end"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The SEC approved 11 spot Bitcoin ETFs on January 10, 2024, not 10 ETFs"
+        ]
       }
     }
   },
@@ -667,7 +736,9 @@
           "ETH broke above $3,000 around February 20, 2024 amid pre-Dencun upgrade rally",
           "ETH continued higher through end of February 2024, trading in $3,300+ range"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -693,7 +764,9 @@
           "Bitcoin broke its prior 2021 all-time high of ~$69,000 in early March 2024",
           "BTC reached new highs above $70,000 around March 8, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -716,7 +789,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -742,7 +816,9 @@
           "Dencun went live on Ethereum mainnet on March 13, 2024",
           "Pectra was the next scheduled hard fork but was delayed, with testnet activations (Holesky/Sepolia) planned for early 2025 and mainnet later in 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -768,7 +844,9 @@
           "Bitcoin's May 2024 high was approximately $71,500, below $75,000",
           "BTC all-time high prior was ~$73,750 set in March 2024; not exceeded in May"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -794,7 +872,9 @@
           "ETH rose from around $2,300 at start of February 2024 to over $3,000 by end of February 2024",
           "ETH crossed $2,500 in mid-February 2024 amid broader crypto rally"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -817,7 +897,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -843,7 +924,9 @@
           "Bitcoin broke its previous all-time high (~$69,000 from Nov 2021) in March 2024 following spot ETF approvals",
           "Bitcoin surpassed $100,000 for the first time in early December 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -866,7 +949,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -889,7 +973,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -915,7 +1000,9 @@
           "SEC approved spot ETH ETF 19b-4 filings on May 23, 2024",
           "ETH traded above $3,800 in late May 2024 following the ETF approval news"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -967,7 +1054,9 @@
           "Bitcoin crossed $60,000 on February 28, 2024 for the first time since November 2021",
           "Rally driven by spot Bitcoin ETF inflows approved in January 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -990,7 +1079,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1013,7 +1103,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1036,7 +1127,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1062,7 +1154,9 @@
           "Bitcoin reached new all-time high around $69,000 in early March 2024",
           "$70k was first crossed around March 8, 2024, not March 4"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1085,7 +1179,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1108,7 +1203,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1134,7 +1230,9 @@
           "SEC approved spot Bitcoin ETFs on January 10, 2024",
           "BTC was trading around $46,000+ at the time of approval, briefly spiking higher"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1160,7 +1258,9 @@
           "SEC approved spot Ethereum ETF 19b-4 filings on May 23, 2024",
           "ETH price was approximately $3,700-$3,800 on May 24, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1183,7 +1283,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1206,7 +1307,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1232,7 +1334,9 @@
           "Ether futures ETFs (e.g., from ProShares, VanEck, Bitwise) launched on October 2, 2023",
           "Spot Bitcoin ETFs were approved by the SEC on January 10, 2024, after the December 31, 2023 close"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1258,7 +1362,9 @@
           "Bitcoin reached new all-time high around $69,200 on March 5, 2024",
           "Previous ATH was ~$69,000 from November 2021, surpassed amid spot ETF inflows"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1284,7 +1390,9 @@
           "Bitcoin broke its previous ATH (~$69k from Nov 2021) in March 2024, reaching ~$73k",
           "Bitcoin crossed $100,000 for the first time in early December 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1307,7 +1415,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1330,7 +1439,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1356,7 +1466,9 @@
           "Bitcoin peaked around $99,000-$99,800 in late November 2024 but did not breach $100k until December 5, 2024",
           "Post-Trump election victory on Nov 5, 2024 fueled the rally"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1408,7 +1520,12 @@
           "Bitcoin first crossed $100,000 on December 5, 2024",
           "BTC was trading around $99,000-$103,000 in early December 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin first crossed $100,000 on December 4, 2024 (late Wednesday evening), not December 5, 2024"
+        ]
       }
     }
   },
@@ -1434,7 +1551,12 @@
           "Bitcoin first crossed $100,000 on December 5, 2024, not in November",
           "On November 22, 2024, BTC reached an ATH near $99,000-$99,800 but failed to break $100k"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin did not peak around $99k-$99,800 on November 22, 2024. The opening price was $98,453.70 and it closed at $84,661.17, with an earlier November ATH of $91,203.83 (Nov 7-13)."
+        ]
       }
     }
   },
@@ -1460,7 +1582,12 @@
           "Bitcoin crossed $100,000 for the first time on December 5, 2024",
           "In mid-December 2024, BTC traded in the $100K-$104K range"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin first crossed $100,000 on December 4, 2024, not December 5, 2024."
+        ]
       }
     }
   },
@@ -1509,7 +1636,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1535,7 +1663,9 @@
           "USDT market cap exceeded $130B by late 2024",
           "USDC market cap was approximately $40-45B by late 2024, far below USDT"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1558,7 +1688,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1584,7 +1715,9 @@
           "Bitcoin hit an all-time high near $99,500 in late November 2024 but failed to breach $100K",
           "Bitcoin first crossed $100,000 on December 4-5, 2024, after the November 29 close"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1610,7 +1743,13 @@
           "Bitcoin first crossed $90,000 around November 13, 2024 following Trump's election victory",
           "By November 21-22, BTC was approaching $99,000, nearing the $100K milestone"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin first crossed $90,000 on November 11, 2024 (not November 13 following Trump's election)",
+          "Bitcoin's closing price on November 22, 2024 was $84,661.17 (well below $90,000), though the opening was $98,453.70; the claim of \"trading around $97,000-99,000 by November 22\" is misleading as this was intraday and not sustained"
+        ]
       }
     }
   },
@@ -1636,7 +1775,9 @@
           "Ethereum rallied above $3,800 in late November/early December 2024",
           "ETH was trading near $4,000 around December 6, 2024 amid post-election crypto rally"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1659,7 +1800,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1682,7 +1824,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1705,7 +1848,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1728,7 +1872,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1751,7 +1896,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1777,7 +1923,12 @@
           "ETH rallied above $3,000 in early November 2024 after the US election",
           "ETH was trading around $3,100-$3,300 around November 15, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM claimed ETH was trading \"around $3,100-$3,200 range\" on November 15, 2024, but it was actually trading at approximately $3,042 according to available data."
+        ]
       }
     }
   },
@@ -1800,7 +1951,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1826,7 +1978,9 @@
           "ETH's December 2024 high was approximately $4,100, well below $5,000",
           "ETH all-time high remains around $4,891 from November 2021"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1849,7 +2003,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1875,7 +2030,9 @@
           "Bitcoin broke $76,000 in early November 2024 after Trump's election victory",
           "BTC reached approximately $90,000+ around mid-November 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1901,7 +2058,9 @@
           "Bitcoin hit new all-time highs above $75,000-$76,000 in the days following Trump's election victory on Nov 5, 2024",
           "BTC was trading around $76,000+ on November 8, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1927,7 +2086,12 @@
           "Bitcoin crossed $70,000 in late October 2024 ahead of the US election",
           "On Nov 1, 2024 BTC was trading approximately $69,000-$70,000"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin crossed $70,000 on October 28, 2024, not October 29, 2024"
+        ]
       }
     }
   },
@@ -1953,7 +2117,9 @@
           "Tether reported billions in profits in 2024 from US Treasury holdings",
           "USDT maintained its $1 peg throughout 2024 and grew market cap above $100B"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1979,7 +2145,9 @@
           "Bitcoin surpassed its previous all-time high of ~$69,000 in early March 2024",
           "BTC crossed $100,000 for the first time in December 2024 following Trump's election win"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2005,7 +2173,9 @@
           "Bitcoin rallied through mid-October 2024, trading around $67,000-$68,000 by October 18",
           "BTC had broken above $65,000 earlier that week"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2031,7 +2201,9 @@
           "ETH started October 2024 around $2,600 and ranged between roughly $2,350-$2,750 throughout the month",
           "ETH did not breach $3,000 in October 2024; that level was not reclaimed until later"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2054,7 +2226,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2080,7 +2253,9 @@
           "BTC peaked around $66k in late September 2024, well below $70k",
           "BTC did not break $70k again until late October 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2106,7 +2281,9 @@
           "Bitcoin surpassed its previous ATH (~$69,000 from Nov 2021) in early March 2024",
           "BTC reached approximately $73,000+ around March 13-14, 2024, driven by spot ETF inflows"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2129,7 +2306,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2155,7 +2333,9 @@
           "Spot Ether ETFs from issuers like BlackRock, Fidelity, Grayscale began trading on July 23, 2024",
           "SEC approved final S-1 registration statements on July 22, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2178,7 +2358,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2204,7 +2385,9 @@
           "Post-Trump election victory crypto rally pushed ETH from ~$2,400 in early November to above $3,000 by mid-November 2024",
           "Ethereum traded around $3,300-3,400 on November 22, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2219,7 +2402,7 @@
     "volume": "957595",
     "status": "ok",
     "forecast": {
-      "rationale": "The SEC approved 11 spot Bitcoin ETFs on January 10, 2024, including those from BlackRock, Fidelity, and Grayscale. Close time is Jan 10 00:00 UTC, which is before the approval announcement evening of Jan 10 ET. However, the title asks if approval happens 'on Jan 10' which it did, but close time is start of Jan 10 UTC—ambiguous but typically these markets resolved Yes.",
+      "rationale": "The SEC approved 11 spot Bitcoin ETFs on January 10, 2024, including those from BlackRock, Fidelity, and Grayscale. Close time is Jan 10 00:00 UTC, which is before the approval announcement evening of Jan 10 ET. However, the title asks if approval happens 'on Jan 10' which it did, but close time is start of Jan 10 UTC\u2014ambiguous but typically these markets resolved Yes.",
       "probabilities": {
         "Yes": 0.92,
         "No": 0.08
@@ -2231,7 +2414,9 @@
           "Approvals included BlackRock's IBIT, Fidelity's FBTC, and Grayscale's GBTC conversion",
           "Chair Gary Gensler issued statement about the approval"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2257,7 +2442,12 @@
           "SOL surpassed its previous ATH of ~$260 (Nov 2021) in November 2024",
           "Reached approximately $264 around November 22-23, 2024 amid post-election crypto rally"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM states Solana reached an all-time high of approximately $264+ in late November 2024, but this was only surpassing the previous 2021 peak; the true all-time high was approximately $293-295 reached on January 19, 2025"
+        ]
       }
     }
   },
@@ -2280,7 +2470,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2303,7 +2494,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2329,7 +2521,12 @@
           "Bitcoin rallied above $65k in late September 2024 following the Fed's 50bp rate cut on Sept 18",
           "BTC traded in the $65-66k range around Sept 27, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM claims Bitcoin traded in the $65-66k range around September 27, 2024, but available data shows Bitcoin averaged $60,358.52 for September 2024 and closed at $63,329.50 on September 30, indicating prices were likely in the low-$60k range on September 27, not $65-66k."
+        ]
       }
     }
   },
@@ -2352,7 +2549,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2378,7 +2576,9 @@
           "Fed cut rates 50bps on Sept 18, 2024, pushing BTC above $62K",
           "BTC traded around $63K on Sept 20, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2405,7 +2605,9 @@
           "BTC sold off after ETF approval, falling to around $38-39k before recovering to ~$42k by end of January",
           "BTC first crossed $50,000 in mid-February 2024, not January"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2428,7 +2630,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2451,7 +2654,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2503,7 +2707,12 @@
           "Bitcoin rallied to around $65,000-$65,500 in late August 2024 around August 25-26",
           "BTC had been oscillating between $55K-$65K throughout August 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin peaked at $65,000 around August 12, 2024, not around August 25-26 as claimed. On August 26, the price had fallen to $57,000."
+        ]
       }
     }
   },
@@ -2529,7 +2738,9 @@
           "Bitcoin dropped below $56,000 in early September 2024",
           "BTC traded around $53,000-$54,000 on September 6, 2024 following weak jobs report"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2581,7 +2792,12 @@
           "USDC market cap was approximately $40B+ in late 2024",
           "Ethena USDe market cap reached roughly $5-6B at peak in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "USDe reached approximately $9.3 billion market cap by August 2024, not \"roughly $5-6B at peak in 2024\""
+        ]
       }
     }
   },
@@ -2604,7 +2820,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2630,7 +2847,9 @@
           "August 5, 2024 BTC flash crash low was approximately $49,000, not below $45,000",
           "BTC traded between roughly $55k-$65k for most of August 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2653,7 +2872,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2676,7 +2896,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2702,7 +2923,9 @@
           "BTC was trading in the low-to-mid $60Ks in late September 2024 following Fed rate cut",
           "On October 1, 2024, BTC was around $63K before dropping later in the day on Iran-Israel tensions"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2710,7 +2933,7 @@
     "condition_id": "0x71fac8584a9cc732879c9bd0af6efe872bbdd90a4f00918cb96bba6dd39921ef",
     "market_slug": "will-ether-rock-sell-for-over-600k-at-sothebys",
     "event_slug": "will-ether-rock-sell-for-over-600k-at-sothebys",
-    "title": "Will Ether Rock sell for over $600k at Sotheby’s?",
+    "title": "Will Ether Rock sell for over $600k at Sotheby\u2019s?",
     "category": "Commodities",
     "close_time": "2024-02-29T00:00:00Z",
     "actual_resolution": "No",
@@ -2725,7 +2948,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2748,7 +2972,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2774,7 +2999,9 @@
           "BTC fell to ~49k in early August 2024 after Japan carry trade unwind",
           "BTC recovered to around 64-65k by late August but did not reach 70k until October/November 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2797,7 +3024,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2824,7 +3053,13 @@
           "BTC recovered to around $66k-$68k by end of July 2024",
           "Did not break below $50k in July 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin's intraday low in early July 2024 was approximately $56,700 (July 4), not $53,500 as claimed",
+          "Bitcoin recovered to approximately $64,600 by end of July, not $66k-$68k as stated"
+        ]
       }
     }
   },
@@ -2850,7 +3085,9 @@
           "Post-Trump election victory crypto rally in early November 2024",
           "ETH was trading around $2,900+ in the days following Nov 5, 2024 election"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2876,7 +3113,9 @@
           "Bitcoin ATH was ~$73,750 set in March 2024",
           "August 2024 BTC peaked around $65,000, far below ATH; early August saw a drop to ~$49k amid yen carry trade unwind"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2902,7 +3141,9 @@
           "Bitcoin crashed below $50,000 on August 5, 2024 amid global market selloff",
           "BTC was trading in the $55-61K range during August 9, 2024, well below $65K"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2925,7 +3166,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2948,7 +3190,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2974,7 +3217,9 @@
           "Early August 2024 crypto crash on Aug 5 saw ETH drop sharply, briefly hitting around $2,100-$2,300",
           "ETH remained below $3,000 throughout the week of August 5-9, 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2997,7 +3242,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3020,7 +3266,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3046,7 +3293,9 @@
           "Bitcoin hit a new all-time high above $75,000 on Nov 6, 2024 following Trump's election victory",
           "BTC rallied sharply post-election as Trump was seen as crypto-friendly"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3069,7 +3318,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3092,7 +3342,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3118,7 +3369,9 @@
           "ETH was trading in the $2,600-$2,750 range in late August 2024 after recovering from the August 5 crash low near $2,100",
           "Powell's Jackson Hole speech on Aug 23 boosted crypto markets"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3144,7 +3397,12 @@
           "Bitcoin crossed $100k for the first time on December 5, 2024",
           "After hitting ATH around $103-104k, it pulled back below $100k on December 5-6, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin first dipped below $100k on December 5, 2024, not \"December 5-6\" as stated. The closing price on December 5 was $98,877.77, confirmed by StatMuse."
+        ]
       }
     }
   },
@@ -3167,7 +3425,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3193,7 +3452,9 @@
           "BTC reached an ATH around $73,750 on March 14, 2024",
           "BTC did not exceed $80,000 until November 2024 post-election"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3216,7 +3477,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3242,7 +3504,12 @@
           "ETH all-time high was ~$4,891 set in November 2021",
           "In May 2024, spot ETH ETFs were approved and ETH rallied to roughly $3,900 but did not exceed ATH"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The ~$4,000 price peak mentioned occurred in March 2024 (alongside Bitcoin's post-halving surge), not May 2024; by May the price had fallen to around $3,500 after the ETF approval announcement."
+        ]
       }
     }
   },
@@ -3265,7 +3532,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3288,7 +3556,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3314,7 +3583,9 @@
           "ETH ATH of ~$4,878 was set on November 10, 2021",
           "ETH price in August 2024 ranged roughly $2,300-$3,200, far below ATH"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3340,7 +3611,9 @@
           "SEC approved 19b-4 filings for spot Ethereum ETFs on May 23, 2024",
           "Spot Ethereum ETFs began trading on July 23, 2024, including products from BlackRock, Fidelity, and Grayscale"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3363,7 +3636,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3389,7 +3663,12 @@
           "XRP rallied above $2 in December 2024, surpassing SOL in market cap",
           "SOL was trading around $190-210 range in late December 2024 while XRP held strong gains"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "SOL was trading around $237 in early December 2024, not the \"$190-210 range\" stated for late December 2024. SOL prices in late December were higher than the claimed range."
+        ]
       }
     }
   },
@@ -3415,7 +3694,12 @@
           "ETH peaked around $2,700 in mid-January 2024 around the spot Bitcoin ETF approval on Jan 10",
           "ETH did not break $3,000 until late February 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "ETH peaked at $2,619.18 on January 12, 2024, not \"near $2,720\" as stated"
+        ]
       }
     }
   },
@@ -3438,7 +3722,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3464,7 +3749,9 @@
           "BTC's May 2024 low was approximately $56,500 on May 1, 2024",
           "BTC traded between roughly $60k-$71k for most of May 2024 and ended May above $67k"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3490,7 +3777,12 @@
           "FOMC meeting on Dec 18, 2024 caused crypto selloff",
           "Bitcoin dropped from ATH around $108k earlier that week toward $100k"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The FOMC meeting was held December 17-18, 2024, not December 18-19, 2024. The meeting began on Tuesday, December 17 and concluded on Wednesday, December 18."
+        ]
       }
     }
   },
@@ -3513,7 +3805,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3539,7 +3832,9 @@
           "ETH broke above $3,000 in late February 2024 for the first time since 2022",
           "By March 1, 2024, ETH was trading around $3,300-$3,400"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3562,7 +3857,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3588,7 +3884,12 @@
           "Bitcoin's all-time high of ~$73,750 was set in March 2024, not exceeded in June",
           "BTC declined through June 2024, ending the month around $60-62k"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Bitcoin peaked around $68,884 in early June 2024 (June 3), not \"around $71,900\" as stated."
+        ]
       }
     }
   },
@@ -3614,7 +3915,9 @@
           "ETH ATH was approximately $4,878 set in November 2021",
           "In June 2024 ETH price ranged roughly $3,300-$3,900, far below ATH despite spot ETH ETF approval news"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3637,7 +3940,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3660,7 +3964,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3683,7 +3988,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3709,7 +4015,9 @@
           "Bitcoin's all-time high of approximately $73,750 was set on March 14, 2024",
           "In June 2024, Bitcoin traded in the $60,000-$71,000 range, never breaking the March ATH"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3732,7 +4040,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   }
