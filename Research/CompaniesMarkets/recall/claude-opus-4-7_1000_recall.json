@@ -18,7 +18,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -44,7 +46,9 @@
           "Justice Alexandre de Moraes ordered X suspended on August 30, 2024",
           "X was officially unbanned/restored on October 8-9, 2024, after paying fines and naming a legal representative"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -67,7 +71,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -93,7 +98,9 @@
           "Shein filed confidentially for a US IPO in late 2023 but faced regulatory pushback",
           "By mid-2024 Shein was reportedly pivoting toward a London Stock Exchange listing and had not yet IPO'd"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -119,7 +126,12 @@
           "Skydance-Paramount merger talks were ongoing in Q1 2024 but no deal closed",
           "Skydance/Paramount Global merger agreement was announced in July 2024, not Q1"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The specific talks between Paramount and Skydance began on April 2, 2024 (post-Q1), not during Q1 2024"
+        ]
       }
     }
   },
@@ -145,7 +157,9 @@
           "Caroline Ellison was sentenced on September 24, 2024 by Judge Lewis Kaplan in SDNY",
           "She received 24 months (2 years) in prison plus $11 billion forfeiture for her role in FTX/Alameda fraud"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -168,7 +182,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -195,7 +210,9 @@
           "Circle's actual IPO took place in June 2025, well after this market's close",
           "No IPO occurred by end of June 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -221,7 +238,9 @@
           "Adam Neumann's Flow made a bid reportedly worth over $500M to acquire WeWork during bankruptcy",
           "WeWork rejected his bid and exited Chapter 11 in June 2024 with Yardi Systems as majority owner"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -247,7 +266,9 @@
           "Justice Alexandre de Moraes of Brazil's Supreme Court ordered the suspension of X on August 30, 2024",
           "The order followed Musk's refusal to comply with a 24-hour deadline to name a legal representative in Brazil"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -273,7 +294,9 @@
           "BEA advance estimate for Q3 2024 real GDP growth was approximately 2.8% annualized",
           "Released on October 30, 2024, matching the close time"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -299,7 +322,9 @@
           "Kraken was reportedly exploring an IPO with a potential listing in 2025 or later",
           "No S-1 filing or public listing by Kraken occurred in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -325,7 +350,9 @@
           "Altman was fired by OpenAI's board on Nov 17, 2023",
           "On Nov 22, 2023, OpenAI announced Altman would return as CEO with a new board, rather than launching a separate company"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -348,7 +375,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -375,7 +403,9 @@
           "Sam Altman tweeted before the event that it was not GPT-5 and not a search engine",
           "SearchGPT was announced later in July 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -401,7 +431,9 @@
           "Circle confidentially filed S-1 with SEC in January 2024",
           "Circle's IPO ultimately occurred in June 2025 on NYSE under ticker CRCL, not in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -427,7 +459,12 @@
           "WSJ reported in September 2024 that Qualcomm approached Intel about a takeover",
           "By late October 2024, reports indicated Qualcomm had cooled on the deal, with no acquisition announced"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The cooling of Qualcomm's interest in the deal was reported in late November 2024, not by late October 2024"
+        ]
       }
     }
   },
@@ -453,7 +490,9 @@
           "GME peaked around $64 intraday during the May 2024 Roaring Kitty revival, well below the Jan 2021 split-adjusted ATH near $120",
           "Stock declined later in the week of May 13-17, 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -476,7 +515,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -502,7 +542,9 @@
           "Bill Ackman withdrew/postponed the Pershing Square USA closed-end fund IPO in July 2024 after downsizing target from $25B to ~$2B",
           "Ackman had also been pursuing a separate stake sale in Pershing Square Capital Management with plans for a future IPO, which did not occur in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -528,7 +570,9 @@
           "Neumann's Flow made a bid to acquire WeWork out of bankruptcy in early 2024",
           "WeWork rejected/resisted Neumann's bid and remained in Chapter 11 throughout February 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -554,7 +598,9 @@
           "ILA and USMX reached tentative agreement on ~62% wage increase on Oct 3, 2024",
           "Strike suspended until Jan 15, 2025 to negotiate remaining contract issues; workers returned Oct 4, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -578,9 +624,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Pavel Durov was arrested at Le Bourget airport on August 24, 2024",
-          "He was released on €5 million bail around August 28, 2024 with restrictions to stay in France"
+          "He was released on \u20ac5 million bail around August 28, 2024 with restrictions to stay in France"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -606,7 +654,9 @@
           "Kraken had not filed an S-1 publicly by mid-2024",
           "Reports in early 2024 suggested potential IPO in 2025 or later, not by June 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -632,7 +682,12 @@
           "Apple ended 2024 as the largest company by market cap, around $3.8 trillion",
           "Nvidia briefly surpassed Apple/Microsoft mid-2024 but Apple retook the top spot in late 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM claims Apple \"retook the top spot\" in late 2024, but evidence shows Nvidia reclaimed the top position from Apple on November 6, 2024, not the reverse. Apple did not hold the #1 spot through December 31, 2024."
+        ]
       }
     }
   },
@@ -655,7 +710,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -681,7 +737,8 @@
           "CBP reported approximately 176,000 SW border encounters in January 2024 and around 189,000 in February... actually February 2024 SW land border encounters were ~189k vs January ~176k, but total nationwide encounters declined",
           "February has fewer days, and the trend post-December 2023 peak was declining"
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -733,7 +790,12 @@
           "MicroStrategy announced multiple BTC purchases in 2024, including a 27,200 BTC purchase in late November/December 2024",
           "Saylor's '21/21 plan' to raise $42B for Bitcoin acquisitions was launched in 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 27,200 BTC purchase occurred between October 31 and November 10, 2024, not in \"late November/December 2024\""
+        ]
       }
     }
   },
@@ -759,7 +821,9 @@
           "ByteDance filed lawsuit against US over PAFACA law in May 2024",
           "ByteDance publicly stated it would not sell TikTok"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -782,7 +846,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -808,7 +873,9 @@
           "NVIDIA surpassed Apple in market cap in early June 2024, not April",
           "As of late April 2024, Apple was ~$2.6T+ and NVIDIA ~$2.2T"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -834,7 +901,9 @@
           "MicroStrategy made numerous Bitcoin purchases throughout 2024, with holdings exceeding 400,000 BTC by year end",
           "Saylor announced multi-billion dollar BTC purchases nearly weekly in November-December 2024 funded by their $21B at-the-market equity offering"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -857,7 +926,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -880,7 +950,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -906,7 +977,12 @@
           "DJT (Trump Media & Technology Group) began trading on Nasdaq in late March 2024 after merger with DWAC",
           "Stock traded in the $30-50 range through April 2024, with shares outstanding giving market cap of several billion dollars"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM stated DJT had \"roughly 136M+ shares outstanding\" but actual shares outstanding were approximately 276+ million shares, more than double the stated amount. This figure is consistently reported in SEC filings and financial sources for April 2024 and beyond."
+        ]
       }
     }
   },
@@ -932,7 +1008,12 @@
           "MicroStrategy announced multiple Bitcoin purchases in 2024, including a purchase of over 27,000 BTC in late November 2024",
           "Saylor's company rebranded to Strategy and pursued a 21/21 capital plan to buy more BTC"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 27,200 BTC purchase occurred between October 31 and November 10, 2024, not \"late November 2024\""
+        ]
       }
     }
   },
@@ -981,7 +1062,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1004,7 +1086,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1030,7 +1113,12 @@
           "MicroStrategy announced multiple BTC purchases in 2024, including a ~$1.1B purchase in November and additional multi-billion dollar buys in December 2024",
           "Saylor's company surpassed 400,000 BTC holdings by late 2024 via continuous accumulation"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The November purchase was approximately $2.03 billion (27,200 BTC between Oct 31 - Nov 10), not ~$1.1 billion. A larger purchase of ~$5.4 billion also occurred in late November."
+        ]
       }
     }
   },
@@ -1053,7 +1141,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1080,7 +1169,8 @@
           "LockBit demanded $25 million ransom which London Drugs refused to pay",
           "LockBit threatened to leak data and reportedly began releasing it around May 23-24, 2024"
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1106,7 +1196,13 @@
           "DJT shares were trading around $45-50 in mid-May 2024",
           "Approximately 136-137 million shares outstanding, implying market cap around $6-7 billion"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The stock price in mid-May 2024 was significantly lower than the stated $40-50 range; it had declined 75% from the late-March peak of ~$79.38, putting May trading around $19-20 per share, not $40-50",
+          "The shares outstanding figure of 136-137 million appears incorrect for May 2024; based on the ~$8 billion market cap at peak in late March with ~$79 stock price, shares were closer to 100-105 million at that time"
+        ]
       }
     }
   },
@@ -1158,7 +1254,9 @@
           "Tesla annual shareholder meeting on June 13, 2024 ratified the 2018 CEO pay package previously voided by Delaware Chancery Court",
           "Shareholders also approved reincorporation from Delaware to Texas"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1185,7 +1283,9 @@
           "Trump Media had approximately 136 million shares outstanding, implying market cap well above $4B at those prices",
           "On May 31, 2024, DJT closed near $48"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1211,7 +1311,8 @@
           "Keith Gill / Roaring Kitty resumed posting on X around May 12-13, 2024, sparking the GME rally",
           "Most of his posts that week were cryptic movie/video memes without explicit tickers"
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1234,7 +1335,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1260,7 +1362,12 @@
           "GME had approximately 306 million shares outstanding after the May 2024 ATM offering",
           "On June 7, 2024, GME fell ~40% after Roaring Kitty livestream and earnings/share offering news, closing around $28, giving market cap ~$8.5B"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "GME had approximately 351 million shares outstanding as of June 5, 2024, not ~306 million. The 306 million figure was from March 2024."
+        ]
       }
     }
   },
@@ -1286,7 +1393,9 @@
           "Apple was the largest company by market cap at end of Q3 2024 at approximately $3.4-3.5 trillion",
           "NVIDIA briefly became the largest company in June 2024 but lost the top spot before September ended"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1312,7 +1421,12 @@
           "GME all-time high (split-adjusted) was ~$120 set in January 2021",
           "June 2024 GME prices peaked around $30-40 range, far below ATH; the May 2024 Roaring Kitty revival peak was ~$64"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "June 2024 GME peak was approximately $46.55 (closing) on June 6, not the $30-40 range mentioned in the \"Evidence facts\" section, and the $64.83 peak was in May 14, 2024, not June"
+        ]
       }
     }
   },
@@ -1338,7 +1452,12 @@
           "GME meme stock revival began May 13, 2024 after Roaring Kitty (Keith Gill) posted on X",
           "Stock peaked around $64 on May 14 then dropped sharply; by May 17 closed around $22-27"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The revival began with Roaring Kitty's post on May 12, 2024, not May 13. May 13 was when the market first responded at opening. The highest closing price on May 14 was $48.75, not the intraday peak of $64.83."
+        ]
       }
     }
   },
@@ -1361,7 +1480,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1387,7 +1507,9 @@
           "Pavel Durov was arrested at Le Bourget airport on August 24, 2024",
           "France pursued criminal charges against Durov but did not ban Telegram itself"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1414,7 +1536,12 @@
           "DJT stock price on April 5, 2024 was around $40, having declined from highs near $79 in late March",
           "Market cap on April 5 was approximately $5.5 billion, well under $8 billion threshold"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "DJT had approximately 189-190 million shares outstanding post-merger, not ~137 million shares. Official SEC filings show 189,941,870 shares outstanding as of June 25, 2024, which would be even higher on April 5 after additional earnout shares were issued."
+        ]
       }
     }
   },
@@ -1441,7 +1568,9 @@
           "CZ (Changpeng Zhao) stepped down as CEO but exchange continued operating",
           "Binance remained operational throughout 2023 with no insolvency event"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1467,7 +1596,9 @@
           "A fake letter circulated claiming Gmail would shut down on August 1, 2024",
           "Google publicly denied the rumor on its official X account, confirming Gmail is here to stay"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1519,7 +1650,9 @@
           "Altman was fired on November 17, 2023 by OpenAI's board",
           "Board cited lack of consistent candor; he was reinstated within about a week with a new board"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1545,7 +1678,9 @@
           "SEC delayed VanEck and Ark/21Shares spot ETH ETF decisions in March 2024",
           "Spot Ethereum ETF 19b-4 approvals came on May 23, 2024, not March"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1598,7 +1733,9 @@
           "Altman was reinstated as CEO within about a week after employee revolt",
           "Annie Altman's allegations predated the firing and were not cited by the board"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1624,7 +1761,9 @@
           "Brazil's Supreme Court Justice Alexandre de Moraes ordered X suspended on August 30, 2024",
           "No other South American nation imposed a similar ban in September 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1650,7 +1789,9 @@
           "Huobi rebranded to HTX in September 2023 under Justin Sun's influence",
           "HTX suffered a hot wallet hack in November 2023 (~$30M) but continued operations and reimbursed users"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1673,7 +1814,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1696,7 +1838,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1722,7 +1865,9 @@
           "ILA strike at East and Gulf Coast ports began October 1, 2024",
           "Strike suspended late October 3, 2024 after tentative agreement on ~62% wage increase, with master contract extended to January 15, 2025"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1748,7 +1893,9 @@
           "DOJ charged KuCoin and its founders in late March 2024 with violating AML laws",
           "KuCoin experienced significant outflows but continued operations and processed withdrawals normally"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1771,7 +1918,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1798,7 +1946,9 @@
           "New initial board announced with Bret Taylor as chair, Larry Summers, and Adam D'Angelo",
           "Altman's return as permanent CEO was confirmed prior to year-end 2023"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1824,7 +1974,9 @@
           "Google announced layoffs in January 2024 affecting hundreds in hardware (Pixel, Nest, Fitbit), Google Assistant, and ads sales teams",
           "Sundar Pichai sent a memo warning of more cuts throughout 2024; total January cuts were reported to exceed 1000"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1850,7 +2002,9 @@
           "In June 2024, Musk posted on X that Apple devices would be banned at his companies if Apple integrated OpenAI at the OS level, following Apple's WWDC announcement of Apple Intelligence with ChatGPT integration",
           "No reports emerged of an actual implemented ban at Tesla, SpaceX, or xAI"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1876,7 +2030,9 @@
           "ILA strike started October 1, 2024 at East and Gulf coast ports",
           "Strike ended October 3, 2024 after tentative wage deal (~62% raise) with USMX, contract extended to January 15, 2025"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1899,7 +2055,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1922,7 +2079,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1948,7 +2106,9 @@
           "Twitter was rebranded to X in July 2023 under Elon Musk's ownership",
           "No bankruptcy filing occurred in 2023; company continued operations with layoffs and cost cuts"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1974,7 +2134,9 @@
           "Musk filed suit against OpenAI and Sam Altman in San Francisco Superior Court around Feb 29/March 1, 2024",
           "Musk did not withdraw the suit in March; he voluntarily dismissed it in June 2024 before the hearing on OpenAI's motion to dismiss"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2000,7 +2162,9 @@
           "JetBlue-Spirit merger was blocked by federal judge on January 16, 2024",
           "Spirit Airlines filed for Chapter 11 bankruptcy in November 2024, not January"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2026,7 +2190,9 @@
           "Keith Gill posted screenshots showing 5 million GME shares and 120,000 call options in early June 2024",
           "GME stock moved significantly in response to his posts, and he later filed disclosures consistent with the holdings"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2049,7 +2215,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2075,7 +2242,9 @@
           "Facebook and Instagram experienced a major outage on March 5, 2024, logging users out worldwide",
           "Meta stated the cause was a technical issue, not a hack or cyberattack"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2098,7 +2267,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2121,7 +2292,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2147,7 +2319,9 @@
           "WeWork filed for Chapter 11 bankruptcy protection on November 6, 2023 in New Jersey federal court",
           "The company listed liabilities in the range of $10-50 billion"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2173,7 +2347,9 @@
           "US House passed the divestment bill in March 2024",
           "ByteDance publicly opposed selling TikTok; no sale announced by end of March 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2199,7 +2375,9 @@
           "WeWork filed for Chapter 11 bankruptcy on November 6, 2023 in New Jersey",
           "The filing listed liabilities of around $18-19 billion"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2225,7 +2403,9 @@
           "Walmart announced acquisition of Vizio on February 20, 2024",
           "Deal valued at approximately $2.3 billion, $11.50 per share"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2251,7 +2431,9 @@
           "Pichai continued as Alphabet/Google CEO through 2024",
           "He led announcements including Gemini AI model launches in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2300,7 +2482,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2323,7 +2506,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2349,7 +2533,9 @@
           "NVIDIA passed Apple in market cap around June 5, 2024",
           "NVIDIA became the world's largest company by market cap on June 18, 2024, surpassing Microsoft"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2375,7 +2561,9 @@
           "Alaska Airlines Flight 1282 door plug blowout on Jan 5, 2024 led to FAA grounding of 737 MAX 9",
           "FAA approved inspection protocol around Jan 24, 2024, with Alaska and United resuming flights late January, well after Jan 12"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2401,7 +2589,9 @@
           "Zuckerberg continued as Meta CEO throughout 2024",
           "He led major AI and Llama initiatives and the Year of Efficiency follow-ups in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2427,7 +2617,12 @@
           "Delta suffered major disruption from CrowdStrike/Microsoft outage starting July 19, 2024",
           "By July 23-24, daily cancellations had dropped from over 1,000 earlier in the week to several hundred"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "On July 24 specifically, Delta canceled approximately 48-50 flights (not 400-500). The 400-500 figure refers to July 23 (Tuesday). By July 24 (Wednesday), cancellations had dropped dramatically to around 50."
+        ]
       }
     }
   },
@@ -2453,7 +2648,9 @@
           "Emmett Shear was named interim CEO around Nov 19-20, 2023 after Sam Altman's ouster",
           "Sam Altman was reinstated as CEO on Nov 21-22, 2023, ending Shear's brief tenure"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2479,7 +2676,9 @@
           "Sheikh Jassim bin Hamad Al Thani withdrew his bid for Manchester United in October 2023",
           "Sir Jim Ratcliffe's INEOS instead acquired a minority stake (~25%) in the club"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2506,7 +2705,9 @@
           "By July 2024, Apple and Microsoft were the top two by market cap, with NVIDIA around third",
           "NVIDIA stock declined notably in late July 2024 amid tech selloff"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2532,7 +2733,9 @@
           "X tested a $1/year 'Not A Bot' subscription for new users in New Zealand and Philippines in October 2023",
           "Musk mentioned charging all users but no platform-wide fee was implemented by end of 2023"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2558,7 +2761,9 @@
           "Nvidia surpassed Microsoft as the world's most valuable company on June 18, 2024",
           "By June 20-21, Nvidia stock declined and Microsoft retook the top market cap position"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2581,7 +2786,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2607,7 +2813,12 @@
           "Microsoft surpassed Apple as the world's most valuable company in mid-January 2024",
           "Microsoft's market cap was around $3 trillion, ahead of Apple's roughly $2.9 trillion in late January 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Microsoft's market cap was approximately $2.89 trillion (not \"around $3 trillion\") in late January 2024; Apple's was approximately $2.87 trillion (not \"roughly $2.9 trillion\")"
+        ]
       }
     }
   },
@@ -2660,7 +2871,12 @@
           "Richard Teng was appointed as the new CEO of Binance",
           "Binance agreed to a ~$4.3 billion settlement with US authorities"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "CZ pleaded guilty to violating the Bank Secrecy Act, not to money laundering charges per se. The charge was failure to maintain an effective anti-money laundering program under the BSA."
+        ]
       }
     }
   },
@@ -2683,7 +2899,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2698,7 +2915,7 @@
     "volume": "41722.7",
     "status": "ok",
     "forecast": {
-      "rationale": "MrBeast posted a video to X/Twitter as a test of monetization, and reported earnings were significantly higher than $5k—he stated it earned around $250k+ in ad revenue. So the answer is No.",
+      "rationale": "MrBeast posted a video to X/Twitter as a test of monetization, and reported earnings were significantly higher than $5k\u2014he stated it earned around $250k+ in ad revenue. So the answer is No.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -2709,7 +2926,9 @@
           "MrBeast (Jimmy Donaldson) posted a full video to X in January 2024 as a test, which gathered over 150M views",
           "He reported the post made approximately $260,000 in ad revenue, far exceeding $5k"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2736,7 +2955,12 @@
           "The refund required signing a waiver releasing legal claims and excluded lawsuit participants",
           "Coffeezilla and others criticized the plan as inadequate"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The $1.3M refund was announced in January 2023, not January 2024. In January 2024, Paul announced a $2.3M buyback program."
+        ]
       }
     }
   },
@@ -2762,7 +2986,9 @@
           "On June 18, 2024, NVIDIA's market cap reached approximately $3.34 trillion, overtaking Microsoft as the world's most valuable company",
           "NVIDIA's stock surge was driven by AI chip demand following its 10-for-1 stock split in early June 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2788,7 +3014,12 @@
           "Alaska Airlines Flight 1282 (Boeing 737 MAX 9) made an emergency landing in Portland on Jan 5, 2024 after door plug blowout",
           "United Airlines Boeing 737 made emergency landing in March 2024 after losing external panel; multiple other Boeing emergency landings reported in US during Q1 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The United Airlines 737 panel loss in March 2024 was NOT an emergency landing; it was a normal scheduled landing where damage was discovered during post-flight inspection. No emergency was declared."
+        ]
       }
     }
   },
@@ -2814,7 +3045,9 @@
           "Musk filed suit against OpenAI in San Francisco Superior Court in late February 2024",
           "Musk voluntarily withdrew the lawsuit on June 11, 2024, ahead of a scheduled hearing, without a settlement agreement"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2840,7 +3073,12 @@
           "Keith Gill (Roaring Kitty) revealed a large GME position via Reddit screenshot showing ~5 million shares",
           "GME stock surged significantly on June 3, 2024, triggering volatility halts"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The livestream was scheduled for June 7, 2024, not June 3, 2024. June 3 experienced halts due to the June 2 position disclosure, not from a livestream announcement."
+        ]
       }
     }
   },
@@ -2867,7 +3105,9 @@
           "By June 21, 2024 close, Nvidia fell to third behind Microsoft and Apple after a stock pullback",
           "On June 28, 2024, Microsoft was the largest company by market cap"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2890,7 +3130,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2913,7 +3154,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2940,7 +3182,9 @@
           "GameStop stock surged dramatically that week on his return",
           "His Reddit account u/DeepFuckingValue did not post during this period - the return was on Twitter only"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2966,7 +3210,9 @@
           "Sam Altman was reinstated as OpenAI CEO in late November 2023 after being briefly fired by the board",
           "Grok is xAI's chatbot led by Elon Musk, a competitor to OpenAI"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2992,7 +3238,9 @@
           "Roaring Kitty (Keith Gill) hosted a YouTube livestream on June 7, 2024",
           "GME experienced multiple volatility halts during the week of June 3-7, 2024 amid meme stock resurgence"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3018,7 +3266,9 @@
           "Uri Berliner's Free Press essay criticizing NPR's bias was published April 9, 2024",
           "Maher faced scrutiny over old tweets but NPR's board backed her; she did not resign in April"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3044,7 +3294,9 @@
           "TIME announced Taylor Swift as 2023 Person of the Year on December 6, 2023",
           "Biden was not among the finalists selected"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3067,7 +3319,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3145,7 +3398,9 @@
           "Saudi Aramco announced 2023 full-year net income of $121.3 billion in March 2024",
           "This was down ~25% from 2022's record $161 billion profit"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3171,7 +3426,9 @@
           "Yaccarino started as X CEO in June 2023 after leaving NBCUniversal",
           "She remained CEO throughout 2023 and into 2024-2025"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3194,7 +3451,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3220,7 +3478,9 @@
           "Musk completed the $44B Twitter acquisition in October 2022",
           "Twitter was rebranded to X in July 2023 and Musk remained owner through 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3246,7 +3506,12 @@
           "Ben Armstrong was removed from Hit Network/BitBoy Crypto in August 2023 by co-founders including TJ Shedd",
           "Armstrong was arrested in Florida in September 2023 outside Carlos Diaz's home and later launched his own brand rather than regaining BitBoy"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Ben Armstrong was arrested in Gwinnett County, Georgia in September 2023, not Florida"
+        ]
       }
     }
   },
@@ -3272,7 +3537,9 @@
           "Keith Gill (Roaring Kitty) hosted a YouTube livestream on June 7, 2024",
           "He had been posting GME YOLO position updates on Reddit's Superstonk during May-June 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3295,7 +3562,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3321,7 +3589,12 @@
           "Keith Gill (Roaring Kitty) held his first live YouTube stream in years on June 7, 2024 at 12pm ET",
           "Stream started near scheduled time despite some audio/technical glitches; GME stock dropped during the stream"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The stream did not start \"roughly on time at noon ET.\" It commenced at 12:25 p.m. ET, 25 minutes after the scheduled start time."
+        ]
       }
     }
   },
@@ -3344,7 +3617,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3394,7 +3668,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3421,7 +3696,9 @@
           "IPO priced at $34/share, valuing company around $6.4 billion fully diluted",
           "Stock surged on first day of trading but initial IPO valuation was below $10b"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3447,7 +3724,12 @@
           "Apple finished 2024 as the world's largest company by market cap (~$3.8T)",
           "Nvidia briefly surpassed Microsoft and Apple in 2024 but Apple ended the year on top; Microsoft was below both"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Nvidia did not surpass Apple to be #1 on December 31, 2024; Apple was the largest at $3.8T, Nvidia was second at $3.3T, and Microsoft was third at $3.1T on that date."
+        ]
       }
     }
   },
@@ -3473,7 +3755,9 @@
           "Sentenced by Judge Lewis Kaplan in SDNY on September 24, 2024",
           "Received 24 months in prison plus forfeiture of approximately $11 billion"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3496,7 +3780,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3519,7 +3804,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3542,7 +3828,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3568,7 +3855,12 @@
           "DJT had approximately 136 million shares outstanding after the merger",
           "DJT traded in the $45-50 range in mid-May 2024, implying market cap above $6B"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "DJT had approximately 190 million shares outstanding in May 2024, not 136 million shares as stated in the reasoning."
+        ]
       }
     }
   },
@@ -3591,7 +3883,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3614,7 +3907,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3637,7 +3931,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3663,7 +3958,12 @@
           "Microsoft surpassed Apple in market capitalization in mid-January 2024",
           "Microsoft remained ahead of Apple through end of January 2024, both around $3 trillion"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM stated both companies were trading \"around $3 trillion,\" but data shows Microsoft was $2.9T and Apple was $2.8T on January 31, 2024\u2014both significantly below $3 trillion."
+        ]
       }
     }
   },
@@ -3686,7 +3986,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3735,7 +4036,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3762,7 +4064,9 @@
           "Down ~25% from record $161 billion in 2022",
           "Results announced March 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3788,7 +4092,9 @@
           "MrBeast posted a video on X that reached over 150M views",
           "He publicly stated the post earned him over $250,000 in ad revenue from X"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   }

@@ -21,7 +21,9 @@
           "OpenAI released GPT-4o in May 2024 and o1 in late 2024, but no GPT-5",
           "Sam Altman repeatedly indicated GPT-5 would not come in 2024; it was eventually released in 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -44,7 +46,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -67,7 +70,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -93,7 +97,9 @@
           "Butch Wilmore and Suni Williams launched on Boeing Starliner in June 2024 and were stranded due to thruster/helium issues",
           "NASA decided Starliner would return uncrewed and the astronauts would come back on SpaceX Crew-9 in February 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -120,7 +126,9 @@
           "Booster did not attempt chopstick catch, soft-landed in Gulf; Ship reached space and splashed down in Indian Ocean",
           "President-elect Trump attended the launch"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -146,7 +154,9 @@
           "Sora was launched publicly on December 9, 2024 during OpenAI's '12 Days of OpenAI' event",
           "Available to ChatGPT Plus ($20/mo) and Pro ($200/mo) subscribers, with Sora Turbo model"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -169,7 +179,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -195,7 +206,12 @@
           "MrBeast surpassed T-Series as the most-subscribed YouTube channel in June 2024",
           "He reached approximately 270 million subscribers around that time"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "MrBeast had approximately 267 million subscribers when he surpassed T-Series on June 1, 2024, not 270 million. The 270 million milestone was reached by June 3, 2024."
+        ]
       }
     }
   },
@@ -222,7 +238,9 @@
           "NASA announced in late August 2024 that the astronauts would return on SpaceX Crew Dragon in 2025, not Starliner",
           "Starliner returned uncrewed in September 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -248,7 +266,9 @@
           "Intuitive Machines' IM-1 Odysseus lander touched down near the lunar south pole (Malapert A crater) on Feb 22, 2024",
           "Landing occurred around 23:23 UTC on Feb 22, 2024; lander tipped on its side but communicated successfully"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -274,7 +294,9 @@
           "Mira Murati announced departure from OpenAI as CTO in September 2024",
           "Reports indicated she was starting her own AI venture and raising capital, not joining Anthropic"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -300,7 +322,12 @@
           "Elden Ring released the Shadow of the Erdtree expansion in June 2024",
           "The 2024 Steam Awards results were announced on January 2, 2025, with Elden Ring winning Labor of Love"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 2024 Steam Awards results were announced on December 31, 2024, not January 2, 2025. The winners were revealed when Valve updated the Steam Awards 2024 page on December 31."
+        ]
       }
     }
   },
@@ -326,7 +353,9 @@
           "Pavel Durov was arrested in France on August 24, 2024",
           "No EU member state issued a formal ban on Telegram in September 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -352,7 +381,12 @@
           "Musk announced the delay around July 11-12, 2024, pushing the event from August 8 to October 10, 2024",
           "Reason cited was a request for an important design change to the front of the robotaxi"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Musk did not announce the delay on July 11-12; Bloomberg reported it on July 11, but Musk confirmed it on July 15, 2024"
+        ]
       }
     }
   },
@@ -378,7 +412,9 @@
           "Starship Flight 6 launched November 19, 2024 from Boca Chica/Starbase",
           "Donald Trump attended the launch alongside Elon Musk; booster did not catch but soft-landed in Gulf"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -404,7 +440,9 @@
           "Sora announced February 15, 2024 with limited access to red teamers and select artists",
           "Public release of Sora occurred December 9, 2024, well after April"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -427,7 +465,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -450,7 +489,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -473,7 +513,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -499,7 +541,9 @@
           "IFT-2 launched November 18, 2023; IFT-3 launched March 14, 2024",
           "No Starship integrated flight occurred in January or February 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -525,7 +569,9 @@
           "OpenAI announced SearchGPT prototype on July 25, 2024",
           "No dedicated OpenAI web search product existed before March 31, 2024; ChatGPT browsing was a feature, not a standalone search product"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -551,7 +597,9 @@
           "Sony announced PS5 Pro on September 10, 2024",
           "Release date set for November 7, 2024 at $699"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -577,7 +625,9 @@
           "In February 2024, Rep. Mike Turner publicly raised alarms about a Russian anti-satellite nuclear capability under development",
           "No deployment of a nuclear weapon in space by Russia was reported during 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -629,7 +679,9 @@
           "IFT-3 launched on March 14, 2024 from Boca Chica/Starbase, Texas",
           "Starship reached space and completed coast phase before being lost on reentry; Super Heavy booster lost during descent"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -655,7 +707,12 @@
           "Apple announced ChatGPT integration at WWDC June 2024 as part of Apple Intelligence",
           "iOS 18 released September 16, 2024 without Apple Intelligence/ChatGPT features; ChatGPT integration arrived with iOS 18.1 in late October 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "ChatGPT integration was released with iOS 18.2 on December 11, 2024, not iOS 18.1 in late October 2024. iOS 18.1 (released October 28, 2024) did not include ChatGPT integration."
+        ]
       }
     }
   },
@@ -678,7 +735,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -704,7 +762,9 @@
           "In February 2024, Rep. Mike Turner publicized intelligence about a Russian anti-satellite nuclear weapon program",
           "US officials clarified the capability was being developed but not yet deployed in orbit"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -727,7 +787,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -753,7 +814,9 @@
           "IFT-2 launched November 18, 2023 from Starbase, Boca Chica",
           "Achieved hot-staging separation at altitude well above 500m before booster RUD and ship loss later in flight"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -779,7 +842,12 @@
           "OpenAI announced restructuring plans in September/October 2024 with reports Altman could receive ~7% equity",
           "Altman told employees there were no specific plans for him to receive equity and the restructuring was not finalized in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Reports about OpenAI considering giving Altman equity emerged in September 2024, not \"late 2024\""
+        ]
       }
     }
   },
@@ -805,7 +873,9 @@
           "Adin Ross received a permanent ban from Twitch in February 2023",
           "He signed an exclusive streaming deal with Kick.com shortly after"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -831,7 +901,9 @@
           "EU issued preliminary DSA findings against X in July 2024 but no ban",
           "X was banned in Brazil in late August 2024, not the EU"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -857,7 +929,9 @@
           "WHO declared mpox a PHEIC on August 14, 2024 due to clade Ib outbreak in DRC and neighboring countries",
           "It was classified as an emergency, not a pandemic"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -883,7 +957,9 @@
           "SpaceX Starship IFT-4 launched on June 6, 2024 from Boca Chica, Texas",
           "The launch achieved successful soft splashdowns of both Super Heavy booster and Starship"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -906,7 +982,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -929,7 +1006,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -955,7 +1033,9 @@
           "Brazilian Supreme Court Justice Alexandre de Moraes ordered the suspension of X on August 30, 2024",
           "Suspension was due to X failing to appoint a local legal representative; ISPs were ordered to block the platform"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1008,7 +1088,12 @@
           "Reached approximately 234 km altitude, exceeding IFT-2's ~148 km apogee",
           "Vehicle was lost during reentry but achieved orbital insertion velocity"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "IFT-3 reached an actual apogee of approximately 150 km (at engine cutoff), not ~234 km. The 235 km figure was the planned target apogee, not the actual achieved altitude."
+        ]
       }
     }
   },
@@ -1034,7 +1119,9 @@
           "Altman was briefly fired in November 2023 then reinstated within days",
           "He continued leading OpenAI throughout 2024, including the launch of GPT-4o and o1 models"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1061,7 +1148,12 @@
           "Final held at Gocheok Sky Dome in Seoul, South Korea; Faker won Finals MVP",
           "G2 Esports was the only European team to reach knockouts and was eliminated"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Faker did not win Finals MVP at Worlds 2023; Zeus won Finals MVP instead"
+        ]
       }
     }
   },
@@ -1087,7 +1179,9 @@
           "X was suspended in Brazil by order of STF Justice Alexandre de Moraes on August 30, 2024",
           "In April 2024 there was a dispute but no ban was enacted; Musk publicly defied Moraes' orders but X remained accessible"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1139,7 +1233,9 @@
           "IFT-1 launched April 20, 2023 and exploded ~4 minutes in without reaching space",
           "IFT-2 launched November 18, 2023, after the September 30 deadline"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1165,7 +1261,9 @@
           "Musk sued OpenAI in early 2024, refiled in August 2024",
           "OpenAI's countersuit against Musk was filed in April 2025, after the close time"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1188,7 +1286,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1211,7 +1310,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1234,7 +1334,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1257,7 +1359,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1306,7 +1409,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1329,7 +1433,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1352,7 +1457,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1375,7 +1481,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1401,7 +1508,9 @@
           "WSJ reported in late September 2024 that Apple pulled out of OpenAI funding round talks",
           "OpenAI closed $6.6B funding round in October 2024 led by Thrive Capital with Microsoft, Nvidia participating, but not Apple"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1424,7 +1533,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1450,7 +1560,9 @@
           "GPT-4.5 was not released in Q1 2024; OpenAI's main releases around that time were GPT-4 Turbo updates",
           "GPT-4.5 (codename Orion) was actually released in late February 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1477,7 +1589,9 @@
           "White House and FBI stated no threat identified; many sightings were manned aircraft",
           "FAA issued temporary flight restrictions but no drones were shot down"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1504,7 +1618,9 @@
           "GPT-5 was actually announced/released in August 2025",
           "In Q4 2024 OpenAI also launched Sora and ChatGPT Pro, but no GPT-5 announcement"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1527,7 +1643,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1553,7 +1670,9 @@
           "DHS, FBI, FAA, and DoD issued joint statement in mid-December 2024 saying sightings were a mix of lawful drones, manned aircraft, and stars, with no evidence of foreign or adversarial involvement",
           "White House spokesman John Kirby stated there was no national security threat and no foreign nexus"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1579,7 +1698,12 @@
           "California Governor Gavin Newsom declared a state of emergency over H5N1 bird flu on December 18, 2024",
           "No other US state followed with a state of emergency declaration before year-end 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Colorado Governor Jared Polis declared a disaster emergency for bird flu on July 5, 2024, in Weld County, which was before California's December 18, 2024 declaration. The claim that \"no other US state followed with a state of emergency declaration before year-end 2024\" is incorrect."
+        ]
       }
     }
   },
@@ -1605,7 +1729,12 @@
           "AIMO Prize launched in late 2023 with $5M grand prize for open AI achieving IMO gold-medal level",
           "Numina team won the first AIMO progress prize (~$1M) in July 2024, but grand prize was not awarded"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Numina won $131,072 from the first progress prize fund (not ~$1M as implied; the total prize pool was ~$1M, but Numina's share was much smaller)"
+        ]
       }
     }
   },
@@ -1631,7 +1760,9 @@
           "AT&T outage occurred February 22, 2024 affecting tens of thousands of users",
           "AT&T stated it was caused by an incorrect process used while expanding the network, not a cyberattack or solar flare"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1657,7 +1788,9 @@
           "Sentenced September 24, 2024 by Judge Lewis Kaplan in SDNY",
           "Received 24 months (2 years) in prison plus $11 billion forfeiture order"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1680,7 +1813,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1688,7 +1823,7 @@
     "condition_id": "0xd53aaeea5228cc88ae0673c4a39a77734078e88f378d64f0fc3945b420b90aa7",
     "market_slug": "bryan-johnsons-average-nighttime-erection-2h-13m-in-december",
     "event_slug": "bryan-johnsons-average-nighttime-erection-2h-13m-in-december",
-    "title": "Bryan Johnson’s average nighttime erection 2h 12m+ in Dec?",
+    "title": "Bryan Johnson\u2019s average nighttime erection 2h 12m+ in Dec?",
     "category": "Science and Technology",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "Yes",
@@ -1703,7 +1838,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1729,7 +1865,9 @@
           "Pollack announced retirement on May 9, 2024, effective June 30, 2024",
           "She remained president through the spring 2024 semester despite campus controversies over Israel-Gaza protests"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1755,7 +1893,9 @@
           "On January 23, 2024, the Bulletin of the Atomic Scientists announced the Clock would remain at 90 seconds to midnight",
           "This was unchanged from the January 2023 setting"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1781,7 +1921,9 @@
           "CDC announced JN.1 became the dominant US COVID variant in mid-to-late December 2023, estimated around 39-44% of cases",
           "JN.1 surpassed HV.1 as the most common variant per CDC Nowcast around Dec 22, 2023"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1807,7 +1949,12 @@
           "Starliner undocked from ISS and landed at White Sands Space Harbor on September 7, 2024",
           "Butch Wilmore and Suni Williams remained on ISS while Starliner returned uncrewed"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The Starliner landed at 10:01 p.m. MDT on September 6, 2024 (not September 7, 2024 local time), though this is 04:01 UTC on September 7"
+        ]
       }
     }
   },
@@ -1830,7 +1977,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1857,7 +2005,9 @@
           "Israeli Communications Minister Shlomo Karhi opposed the move; an agreement was later reached that Starlink would not operate in Israel/Gaza without Israeli approval",
           "As of late November 2023, Starlink was not actively providing service in Gaza"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1883,7 +2033,9 @@
           "Minouche Shafik resigned as Columbia University President on August 14, 2024",
           "She was still in office during the spring 2024 pro-Palestinian protests and Congressional testimony in April 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1909,7 +2061,9 @@
           "Musk visited Israel on November 27, 2023, touring Kfar Aza with PM Netanyahu",
           "His trip was to Israel-side communities, not Gaza itself"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1932,7 +2086,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1958,7 +2114,8 @@
           "Odysseus (IM-1) by Intuitive Machines landed on the Moon Feb 22, 2024 near Malapert A crater",
           "Lander tipped on its side but continued transmitting data; mission was extended and final signal came around Feb 29, 2024"
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1984,7 +2141,9 @@
           "Neuralink got FDA approval for human trials in May 2023",
           "First human implant announced by Elon Musk on January 29, 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2007,7 +2166,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2030,7 +2190,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2053,7 +2214,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2079,7 +2242,9 @@
           "Altman was fired by OpenAI's board on November 17, 2023",
           "He was reinstated as CEO around November 21-22, 2023 with a new initial board including Bret Taylor and Larry Summers"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2105,7 +2270,9 @@
           "OpenAI Spring Update on May 13, 2024 announced GPT-4o (omni model) with voice and vision capabilities",
           "Sam Altman tweeted prior to the event that they were not announcing a search engine or GPT-5"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2131,7 +2298,9 @@
           "Ilya Sutskever participated in the November 2023 board firing of Sam Altman, then signed letter calling for Altman's return",
           "Sutskever officially announced departure from OpenAI in May 2024, well after Jan 1, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2209,7 +2378,9 @@
           "Altman was ousted by OpenAI board on Nov 17, 2023 and reinstated as CEO around Nov 21-22, 2023",
           "No lawsuit was filed by Altman against OpenAI in 2023; he returned to lead the company"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2235,7 +2406,9 @@
           "Musk dropped his initial state lawsuit in mid-2024 then refiled in federal court in August 2024",
           "In November/December 2024 Musk sought a preliminary injunction to block OpenAI's for-profit conversion, indicating ongoing litigation rather than settlement"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2261,7 +2434,9 @@
           "NYT filed suit against OpenAI and Microsoft in December 2023 in SDNY",
           "Litigation remained ongoing through 2024 with court rulings on motions to dismiss and discovery disputes, no settlement announced"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2287,7 +2462,9 @@
           "Altman was briefly ousted in November 2023 but reinstated within days with a new board",
           "He remained CEO and rejoined the board in March 2024, continuing as CEO through 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2313,7 +2490,9 @@
           "NYT filed suit against OpenAI and Microsoft in late December 2023 in SDNY",
           "OpenAI filed motion to dismiss portions of the suit in February 2024; case remained active through 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2339,7 +2518,9 @@
           "Ilya Sutskever announced departure from OpenAI on May 14, 2024",
           "He founded Safe Superintelligence Inc. (SSI) in June 2024 with Daniel Gross and Daniel Levy"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2365,7 +2546,9 @@
           "In May 2024, Johansson issued a statement saying she was 'shocked, angered' by the Sky voice in GPT-4o, which she felt was eerily similar to hers after she declined Altman's offer",
           "OpenAI paused the Sky voice; Johansson hired legal counsel and sent letters but no lawsuit was filed in May 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2391,7 +2574,9 @@
           "WWDC 2024 keynote held June 10, 2024 announced Apple Intelligence with ChatGPT integration powered by GPT-4o",
           "Craig Federighi presented the OpenAI partnership; Sam Altman was reportedly in attendance"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2417,7 +2602,9 @@
           "NYT filed suit against OpenAI and Microsoft in December 2023 in SDNY for copyright infringement",
           "OpenAI filed motion to dismiss in late February 2024; case continued well beyond March 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2443,7 +2630,9 @@
           "Apple officially announced ChatGPT integration at WWDC on June 10, 2024",
           "By mid-May 2024, only reports/rumors existed; no official announcement"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2469,7 +2658,9 @@
           "OpenAI's structure as of early 2024 remained a nonprofit parent overseeing a capped-profit LP (OpenAI Global, LLC)",
           "Discussions about restructuring to a for-profit entity only became public later in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2495,7 +2686,9 @@
           "Following Altman's reinstatement, the new initial OpenAI board was Bret Taylor (chair), Larry Summers, and Adam D'Angelo",
           "D'Angelo was the only holdover from the prior board that fired Altman"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2518,7 +2711,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2544,7 +2739,9 @@
           "Sora was announced February 15, 2024 as a research preview, not publicly available",
           "Sora was publicly released December 9, 2024, well after June 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2568,9 +2765,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Durov arrested at Le Bourget airport near Paris on August 24, 2024",
-          "Released from custody on August 28, 2024 with €5 million bail and conditions to remain in France"
+          "Released from custody on August 28, 2024 with \u20ac5 million bail and conditions to remain in France"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2594,9 +2793,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "Durov was arrested at Le Bourget airport on August 24, 2024",
-          "He was placed under judicial supervision with bail of €5 million and required to report to police, barred from leaving France"
+          "He was placed under judicial supervision with bail of \u20ac5 million and required to report to police, barred from leaving France"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2622,7 +2823,9 @@
           "Bluesky reported around 20-24 million users by late November 2024",
           "30 million milestone was reached later, around January 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2648,7 +2851,9 @@
           "Grok-2 launched in beta around August 14, 2024 with Flux image generation having minimal restrictions",
           "Reports highlighted Grok generating images of Trump and other political figures with few guardrails, drawing media criticism but no specific Trump ban"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2674,7 +2879,9 @@
           "Google paused Gemini image generation of people around February 22, 2024 following controversy over inaccurate historical depictions",
           "Google said the feature would be re-released after significant testing, which did not happen by end of February"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2700,7 +2907,9 @@
           "Per Bloomberg Billionaires Index and Forbes, Musk was the richest person throughout September 2024 with a lead of roughly $50B over Jeff Bezos",
           "Tesla stock was relatively stable in September 2024, keeping Musk's net worth above $250B"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2726,7 +2935,9 @@
           "Judge Carl Nichols ordered Bannon to surrender by July 1, 2024",
           "Bannon reported to FCI Danbury in Connecticut on July 1, 2024 to serve 4-month contempt of Congress sentence"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2749,7 +2960,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2772,7 +2984,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2795,7 +3008,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2810,7 +3024,7 @@
     "volume": "7625.09",
     "status": "ok",
     "forecast": {
-      "rationale": "While there were significant pro-Palestine protests at universities (Columbia, UCLA, etc.) in April 2024, I don't recall the National Guard specifically being deployed in April—NYPD was used at Columbia, and CHP/LAPD at UCLA. National Guard deployment was discussed but I don't recall it actually occurring in April.",
+      "rationale": "While there were significant pro-Palestine protests at universities (Columbia, UCLA, etc.) in April 2024, I don't recall the National Guard specifically being deployed in April\u2014NYPD was used at Columbia, and CHP/LAPD at UCLA. National Guard deployment was discussed but I don't recall it actually occurring in April.",
       "probabilities": {
         "Yes": 0.08,
         "No": 0.92
@@ -2822,7 +3036,9 @@
           "UCLA encampment violence on April 30/May 1 involved CHP and LAPD, not National Guard",
           "Speaker Mike Johnson suggested National Guard at Columbia but Gov. Hochul did not deploy them"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2837,7 +3053,7 @@
     "volume": "24354.6",
     "status": "ok",
     "forecast": {
-      "rationale": "Starship's second IFT on November 18, 2023 reached space (crossed the Kármán line) before stage separation, with the upper stage reaching ~150 km altitude before being destroyed.",
+      "rationale": "Starship's second IFT on November 18, 2023 reached space (crossed the K\u00e1rm\u00e1n line) before stage separation, with the upper stage reaching ~150 km altitude before being destroyed.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -2846,9 +3062,14 @@
         "recognized_event": true,
         "evidence_facts": [
           "IFT-2 launched November 18, 2023 from Boca Chica/Starbase",
-          "Ship reached approximately 150 km altitude, exceeding the 100 km Kármán line, before being lost"
+          "Ship reached approximately 150 km altitude, exceeding the 100 km K\u00e1rm\u00e1n line, before being lost"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The upper stage reached ~150 km altitude AFTER stage separation, not before. Stage separation occurred at ~74 km at T+2:48, and Ship 25 then continued its burn for over 8 minutes, reaching peak altitude of 149 km."
+        ]
       }
     }
   },
@@ -2871,7 +3092,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2894,7 +3116,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2920,7 +3143,9 @@
           "OpenAI's major 2024 releases were GPT-4o (May 2024), o1 (September/December 2024), and o3 announcement (December 2024), with no GPT-5 announcement",
           "Sam Altman repeatedly indicated GPT-5 was not imminent and the next major model was delayed"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2969,7 +3194,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2992,7 +3218,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3018,7 +3245,9 @@
           "Ilya Sutskever announced his departure from OpenAI on May 14, 2024",
           "He founded Safe Superintelligence Inc. (SSI), announced June 19, 2024, rather than joining xAI"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3044,7 +3273,9 @@
           "PS5 Pro was officially announced September 10, 2024 by Mark Cerny",
           "Released worldwide on November 7, 2024 at $699.99 USD"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3097,7 +3328,9 @@
           "Finals held at Gocheok Sky Dome in Seoul on November 19, 2023",
           "Faker won his fourth World Championship"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3123,7 +3356,9 @@
           "Starship IFT-1 launched April 20, 2023 and exploded at ~39 km altitude, not reaching space",
           "IFT-2, the next Starship launch, did not occur until November 18, 2023, after the close date"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3146,7 +3381,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3169,7 +3405,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3195,7 +3432,9 @@
           "OpenAI did not announce GPT-5 by September 30, 2024",
           "GPT-5 was officially announced/released in August 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3221,7 +3460,9 @@
           "PS5 Pro launched November 7, 2024",
           "Priced at $699 USD, announced by Mark Cerny in September 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3244,7 +3485,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3267,7 +3509,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3293,7 +3536,9 @@
           "Ilya Sutskever announced his departure from OpenAI on May 14, 2024",
           "He founded Safe Superintelligence Inc. (SSI) announced June 19, 2024, rather than joining Google"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3316,7 +3561,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3342,7 +3588,9 @@
           "Final held November 19, 2023 at Gocheok Sky Dome in Seoul",
           "T1 defeated Weibo Gaming 3-0 in the grand final; Faker won his 4th title"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3365,7 +3613,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3380,7 +3629,7 @@
     "volume": "4171.92",
     "status": "ok",
     "forecast": {
-      "rationale": "The April 20, 2023 Starship test flight reached approximately 39 km altitude before exploding, well below the Kármán line (100 km) commonly defined as outer space. It did not reach outer space.",
+      "rationale": "The April 20, 2023 Starship test flight reached approximately 39 km altitude before exploding, well below the K\u00e1rm\u00e1n line (100 km) commonly defined as outer space. It did not reach outer space.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -3389,10 +3638,12 @@
         "recognized_event": true,
         "evidence_facts": [
           "Starship IFT-1 launched April 20, 2023 from Boca Chica/Starbase",
-          "Vehicle reached ~39 km altitude before tumbling and being terminated, far below the 100 km Kármán line",
+          "Vehicle reached ~39 km altitude before tumbling and being terminated, far below the 100 km K\u00e1rm\u00e1n line",
           "Initial April 17 attempt was scrubbed due to frozen valve"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3415,7 +3666,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3438,7 +3690,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3464,7 +3717,9 @@
           "OpenAI announced GPT-4o on May 13, 2024, not GPT-5",
           "GPT-5 was actually announced in August 2025"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3487,7 +3742,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3510,7 +3766,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3533,7 +3790,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3559,7 +3817,9 @@
           "Ilya Sutskever announced departure from OpenAI on May 14, 2024 saying he would share next project later",
           "Safe Superintelligence Inc. (SSI) was announced on June 19, 2024, after the May 31 deadline"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3585,7 +3845,9 @@
           "PS5 Pro was officially announced September 10, 2024",
           "PS5 Pro launched November 7, 2024 at $699"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3608,7 +3870,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3634,7 +3897,9 @@
           "T1 defeated Weibo Gaming 3-0 in the Worlds 2023 final held at Gocheok Sky Dome in Seoul on November 19, 2023",
           "Faker won his 4th World Championship; both finalists were from major regions (LCK and LPL)"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3657,7 +3922,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3680,7 +3946,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3703,7 +3970,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3729,7 +3997,9 @@
           "PS5 Pro was officially announced September 10, 2024",
           "PS5 Pro launched November 7, 2024 at $699"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3755,7 +4025,9 @@
           "Ilya Sutskever announced departure from OpenAI on May 14, 2024",
           "He announced co-founding Safe Superintelligence Inc. (SSI) on June 19, 2024, after the May 31 close"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   }
