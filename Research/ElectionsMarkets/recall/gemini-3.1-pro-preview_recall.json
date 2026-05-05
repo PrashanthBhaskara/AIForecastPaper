@@ -21,7 +21,9 @@
           "Will Stancil ran for Minnesota House District 61A.",
           "Katie Jones won the Democratic primary for that district on August 13, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -44,7 +46,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -52,7 +55,7 @@
     "condition_id": "0x38bc6b9fbc7f22b58a9b83330709e2fbb15ddbed7f2277831c8c3df0ee20475b",
     "market_slug": "will-2-of-votes-go-to-3rd-party-candidates-in-us-election",
     "event_slug": "will-2-of-votes-go-to-3rd-party-candidates-in-us-election",
-    "title": "Will ≥2% of votes go to 3rd Party candidates?",
+    "title": "Will \u22652% of votes go to 3rd Party candidates?",
     "category": "Elections",
     "close_time": "2024-11-05T12:00:00Z",
     "actual_resolution": "Yes",
@@ -96,7 +99,9 @@
           "The Virginia state elections were held on November 7, 2023.",
           "Democrats won majorities in both the Virginia House of Delegates and the Virginia State Senate."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -119,7 +124,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -142,7 +148,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -194,7 +201,9 @@
           "The Georgian parliamentary election was held on October 26, 2024.",
           "Georgian Dream (GD) won approximately 53.9% of the vote, securing 89 out of 150 seats, which is a majority."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -220,7 +229,9 @@
           "Donald Trump won the 2024 election by winning swing states such as Pennsylvania, Michigan, Wisconsin, Nevada, Arizona, Georgia, and North Carolina.",
           "He did not win any states traditionally classified as 'solid blue' (e.g., California, New York, Massachusetts)."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -246,7 +257,9 @@
           "The primary election took place on August 13, 2024.",
           "Ilhan Omar won the primary with approximately 56.2% of the vote, defeating Don Samuels who received about 42.9%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -254,7 +267,7 @@
     "condition_id": "0x8e8984ec3e5914253822f4abb73243dfd97ee3a62779e3517ee2df8e3f5a0a9d",
     "market_slug": "will-dpp-win-a-majority-in-the-2024-taiwanese-general-election",
     "event_slug": "will-dpp-win-a-majority-in-the-2024-taiwanese-general-election",
-    "title": "Will DPP (民進黨) win a majority in the 2024 Taiwanese General Election?",
+    "title": "Will DPP (\u6c11\u9032\u9ee8) win a majority in the 2024 Taiwanese General Election?",
     "category": "Elections",
     "close_time": "2024-01-13T00:00:00Z",
     "actual_resolution": "No",
@@ -273,7 +286,9 @@
           "The DPP won 51 seats in the Legislative Yuan, losing its majority.",
           "The KMT won 52 seats and the TPP won 8 seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -299,7 +314,9 @@
           "The 2024 US Presidential Election took place on November 5, 2024.",
           "Kamala Harris did not win any states traditionally classified as 'solid red'."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -325,7 +342,9 @@
           "The primary election took place on August 6, 2024.",
           "Wesley Bell defeated incumbent Cori Bush in the MO-1 Democratic primary."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -351,7 +370,9 @@
           "Donald Trump won the 2024 US Presidential Election.",
           "Donald Trump also won the national popular vote in 2024, defeating Kamala Harris."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -377,7 +398,9 @@
           "Nikki Haley won the Washington D.C. Republican primary on March 3, 2024.",
           "Nikki Haley won the Vermont Republican primary on Super Tuesday, March 5, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -392,7 +415,7 @@
     "volume": "61154.6",
     "status": "ok",
     "forecast": {
-      "rationale": "In the 2024 French legislative elections, the left-wing New Popular Front (NFP) won the most seats, followed by Ensemble and the National Rally. Les Républicains (LR) finished fourth, winning far fewer seats than the leading blocs.",
+      "rationale": "In the 2024 French legislative elections, the left-wing New Popular Front (NFP) won the most seats, followed by Ensemble and the National Rally. Les R\u00e9publicains (LR) finished fourth, winning far fewer seats than the leading blocs.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -401,9 +424,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "The 2024 French legislative elections concluded on July 7, 2024.",
-          "The New Popular Front (NFP) won the most seats, while Les Républicains (LR) won around 45-60 seats, placing fourth."
+          "The New Popular Front (NFP) won the most seats, while Les R\u00e9publicains (LR) won around 45-60 seats, placing fourth."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -429,7 +454,9 @@
           "Donald Trump won Florida and Texas in 2024, retaining them for the Republicans.",
           "Kamala Harris won Minnesota and New Hampshire in 2024, retaining them for the Democrats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -455,7 +482,9 @@
           "Donald Trump won the 2024 US Presidential Election.",
           "Trump flipped several 2020 Biden states, including Georgia, Pennsylvania, and Wisconsin."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -481,7 +510,9 @@
           "The NY-3 special election took place on February 13, 2024.",
           "Tom Suozzi (D) defeated Mazi Pilip (R) by a margin of roughly 53.9% to 46.1%, an almost 8-point margin."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -507,7 +538,9 @@
           "State elections in Thuringia and Saxony were held on September 1, 2024.",
           "The AfD became the strongest party in Thuringia and the second strongest in Saxony, but other parties refused to form a coalition with them."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -515,7 +548,7 @@
     "condition_id": "0xe32b258020c4663576e22423fb9792932a44fd5986d5081bee13a7c7c684281e",
     "market_slug": "will-10-of-votes-go-to-3rd-party-candidates-in-the-2024-us-presidential-election",
     "event_slug": "will-10-of-votes-go-to-3rd-party-candidates-in-the-2024-us-presidential-election",
-    "title": "Will ≥10% of Votes go to 3rd Party Candidates in the 2024 US Presidential Election?",
+    "title": "Will \u226510% of Votes go to 3rd Party Candidates in the 2024 US Presidential Election?",
     "category": "Elections",
     "close_time": "2024-11-05T00:00:00Z",
     "actual_resolution": "No",
@@ -533,7 +566,9 @@
           "The 2024 US Presidential Election was held on November 5, 2024.",
           "Third-party candidates collectively received less than 3% of the national popular vote, with no single candidate coming close to 10%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -559,7 +594,9 @@
           "Republicans won 53 seats in the 2024 US Senate elections.",
           "Key flips included West Virginia, Ohio, Montana, and Pennsylvania."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -582,7 +619,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -608,7 +646,9 @@
           "Joe Biden announced his withdrawal from the 2024 presidential race on July 21, 2024.",
           "Kamala Harris subsequently secured the Democratic nomination in August 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -634,7 +674,9 @@
           "The Romanian parliamentary election took place on December 1, 2024.",
           "The Social Democratic Party (PSD) secured the highest percentage of votes and the most seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -668,7 +710,7 @@
     "condition_id": "0xd81b9393993ca2d5bad92c88f26559b43aa0e9121eed32f69842c51f035405b9",
     "market_slug": "us-presidential-election-decided-by-less-than-100k-votes",
     "event_slug": "us-presidential-election-decided-by-less-than-100k-votes",
-    "title": "U.S. Presidential election decided by ≤100k votes?",
+    "title": "U.S. Presidential election decided by \u2264100k votes?",
     "category": "Elections",
     "close_time": "2024-11-05T12:00:00Z",
     "actual_resolution": "No",
@@ -683,7 +725,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -709,7 +752,9 @@
           "The 2024 US House elections took place on November 5, 2024.",
           "Republicans won exactly 220 seats, securing a narrow majority over the Democrats' 215 seats."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -735,7 +780,9 @@
           "The 2024 Indian General Election results were declared on June 4, 2024.",
           "The Bharatiya Janata Party (BJP) won exactly 240 seats, which is below the 272 majority mark in the Lok Sabha."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -761,7 +808,9 @@
           "The Nevada Republican primary was held on February 6, 2024.",
           "Nikki Haley received approximately 30% of the vote, losing to 'None of These Candidates' which received over 60%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -788,7 +837,9 @@
           "LSDP won 52 seats, becoming the largest party in the Seimas.",
           "The Homeland Union (TS-LKD) came in second with 28 seats."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -816,7 +867,9 @@
           "The Conservatives won the second most seats (121).",
           "The Liberal Democrats came third with 72 seats."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -842,7 +895,9 @@
           "The 2024 Iowa Republican caucuses were held on January 15, 2024.",
           "Donald Trump won with approximately 51% of the vote, defeating Ron DeSantis and Nikki Haley."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -868,7 +923,9 @@
           "The Icelandic parliamentary election took place on November 30, 2024.",
           "The Social Democratic Alliance won the most seats (15), while the Independence Party won 14 seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -894,7 +951,9 @@
           "The 2024 British Columbia general election was held on October 19, 2024.",
           "The BC NDP won 47 seats, while the BC Conservatives won 44 seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -902,7 +961,7 @@
     "condition_id": "0xce9c35c76317971de53939911b7178f385cec48771c502fd50f23bb6254ebc7f",
     "market_slug": "us-presidential-election-decided-by-less-than-10k-votes",
     "event_slug": "us-presidential-election-decided-by-less-than-10k-votes",
-    "title": "U.S. Presidential election decided by ≤10k votes?",
+    "title": "U.S. Presidential election decided by \u226410k votes?",
     "category": "Elections",
     "close_time": "2024-11-05T12:00:00Z",
     "actual_resolution": "No",
@@ -920,7 +979,9 @@
           "Donald Trump won the 2024 U.S. Presidential election.",
           "The margins in the closest swing states (like Wisconsin and Michigan) were greater than 10,000 votes."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -943,7 +1004,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -969,7 +1031,9 @@
           "The UK General Election was held on July 4, 2024.",
           "The Conservative Party won exactly 121 seats, while the Labour Party won 411 seats."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1021,7 +1085,9 @@
           "The 2024 Sri Lankan parliamentary election was held on November 14, 2024.",
           "The National People's Power (NPP) won 159 out of 225 seats, securing a supermajority."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1048,7 +1114,9 @@
           "The Liberal Democratic Party (LDP) won the most seats with 191.",
           "The Constitutional Democratic Party (CDP) won 148 seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1074,7 +1142,9 @@
           "Donald Trump formally accepted the Republican presidential nomination at the RNC in July 2024.",
           "Joe Biden withdrew from the presidential race on July 21, 2024, and Kamala Harris became the Democratic nominee."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1100,7 +1170,12 @@
           "The 2024 European Parliament elections were held in June 2024.",
           "The EPP remained the largest group in the European Parliament, winning around 189 seats, ahead of the S&D group."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "EPP won 188 seats, not around 189 seats"
+        ]
       }
     }
   },
@@ -1126,7 +1201,9 @@
           "The UK General Election took place on July 4, 2024.",
           "The Conservative Party won exactly 121 seats in the election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1152,7 +1229,9 @@
           "The Ohio Republican Senate Primary took place on March 19, 2024.",
           "Bernie Moreno won the primary, defeating Matt Dolan and Frank LaRose."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1178,7 +1257,9 @@
           "George Santos announced his congressional run on March 7, 2024, during the State of the Union address.",
           "He initially announced a primary challenge against Rep. Nick LaLota in NY-1."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1204,7 +1285,9 @@
           "The UK General Election took place on July 4, 2024.",
           "The Labour Party won 411 seats out of 650, which is less than 525."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1230,7 +1313,12 @@
           "The 2024 US Presidential Election took place on November 5, 2024.",
           "Donald Trump won all seven battleground states with margins large enough to avoid statewide recounts."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Trump won several swing states with narrow margins that were close to or exceeded automatic recount thresholds (e.g., Wisconsin 0.86%, Michigan 1.42%, Pennsylvania 1.7%), rather than \"margins large enough to avoid statewide recounts\""
+        ]
       }
     }
   },
@@ -1256,7 +1344,9 @@
           "The election took place on November 5, 2024.",
           "Republican Dave McCormick defeated Democratic incumbent Bob Casey Jr."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1282,7 +1372,9 @@
           "Donald Trump secured the necessary delegates to become the presumptive nominee in March 2024.",
           "He was officially nominated at the Republican National Convention in Milwaukee in July 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1308,7 +1400,9 @@
           "Jacky Rosen is the incumbent Democratic Senator for Nevada.",
           "The Nevada primary elections were held on June 11, 2024, and Rosen won the Democratic nomination easily."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1334,7 +1428,9 @@
           "Bernie Moreno (R) defeated Sherrod Brown (D) in the 2024 Ohio US Senate election.",
           "The election took place on November 5, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1360,7 +1456,12 @@
           "Joe Biden withdrew from the 2024 presidential race on July 21, 2024.",
           "Kamala Harris became the Democratic Presidential nominee and selected Tim Walz as her VP nominee on August 6, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Kamala Harris became the Democratic Presidential nominee on August 5, 2024, not August 6. She selected Tim Walz as her VP nominee on August 6, 2024 (the day after becoming the presidential nominee)."
+        ]
       }
     }
   },
@@ -1386,7 +1487,9 @@
           "The Nevada Senate Republican Primary was held on June 11, 2024.",
           "Sam Brown won the primary, defeating challengers like Jeff Gunter and Jim Marchant."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1412,7 +1515,9 @@
           "Republican Tim Sheehy defeated Democratic incumbent Jon Tester in the 2024 Montana Senate race.",
           "The election took place on November 5, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1438,7 +1543,9 @@
           "Kamala Harris became the Democratic nominee in August 2024.",
           "Michelle Obama repeatedly stated she had no intention of running for president and did not enter the race."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1464,7 +1571,9 @@
           "The primary was held on June 18, 2024.",
           "The main candidates were Bob Good and John McGuire, with McGuire ultimately winning the primary."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1491,7 +1600,9 @@
           "The Liberal Party won 31 seats, forming a majority government.",
           "Susan Holt became the Premier-designate, defeating incumbent Blaine Higgs."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1517,7 +1628,9 @@
           "Donald Trump announced J.D. Vance as his running mate on July 15, 2024.",
           "J.D. Vance is a male US Senator from Ohio."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1543,7 +1656,9 @@
           "The NY-16 Democratic primary took place on June 25, 2024.",
           "George Latimer defeated incumbent Jamaal Bowman in the primary."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1558,7 +1673,7 @@
     "volume": "154202",
     "status": "ok",
     "forecast": {
-      "rationale": "In the 2024 Irish general election, the three main parties (Fianna Fáil, Fine Gael, and Sinn Féin) dominated the seat count. Fianna Fáil won the most seats, meaning no 'other' minor party won the most seats.",
+      "rationale": "In the 2024 Irish general election, the three main parties (Fianna F\u00e1il, Fine Gael, and Sinn F\u00e9in) dominated the seat count. Fianna F\u00e1il won the most seats, meaning no 'other' minor party won the most seats.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -1567,9 +1682,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "The 2024 Irish general election was held on November 29, 2024.",
-          "Fianna Fáil won the most seats with 48, followed by Sinn Féin with 39 and Fine Gael with 38."
+          "Fianna F\u00e1il won the most seats with 48, followed by Sinn F\u00e9in with 39 and Fine Gael with 38."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1595,7 +1712,9 @@
           "Andy Beshear (Democrat) was the incumbent governor.",
           "Beshear defeated Republican Daniel Cameron in the November 2023 election."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1621,7 +1740,12 @@
           "The Delaware Republican gubernatorial primary was held on September 10, 2024.",
           "Mike Ramone won the primary, defeating Jerry Price and Bobby Starr."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The third opponent defeated was Bobby Williamson, not Bobby Starr"
+        ]
       }
     }
   },
@@ -1647,7 +1771,9 @@
           "The second round of the French legislative election was held on July 7, 2024.",
           "The New Popular Front (NFP) won the most seats, followed by Ensemble, with RN/UXD coming in third."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1673,7 +1799,9 @@
           "The US Supreme Court ruled on March 4, 2024, that states cannot remove federal candidates under the 14th Amendment.",
           "Maine Secretary of State Shenna Bellows subsequently withdrew her ruling that had previously disqualified Trump from the ballot."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1699,7 +1827,9 @@
           "The CA-30 primary was held on March 5, 2024.",
           "Laura Friedman and Alex Balekian were the top two candidates who advanced to the general election."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1725,7 +1855,9 @@
           "The Belgian federal elections took place on June 9, 2024.",
           "N-VA won the most seats with 24, while CD&V won 11 seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1752,7 +1884,9 @@
           "The ruling unanimously overturned the Colorado Supreme Court's decision to remove Trump from the ballot.",
           "The Colorado Republican primary was held on Super Tuesday, March 5, 2024, and Trump appeared on the ballot."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1778,7 +1912,9 @@
           "Donald Trump won the 2024 US Presidential Election.",
           "Donald Trump ran as the candidate for the Republican Party."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1786,14 +1922,14 @@
     "condition_id": "0x539e755aaab9af1bcb2940fdcffb2430556dd5c2f7131b6cd644dca259cec58d",
     "market_slug": "will-spo-win-the-most-seats-in-the-2024-austrian-legislative-election",
     "event_slug": "which-party-wins-the-most-seats-austrian-legislative-election",
-    "title": "Will SPÖ win the most seats in the 2024 Austrian legislative election?",
+    "title": "Will SP\u00d6 win the most seats in the 2024 Austrian legislative election?",
     "category": "Elections",
     "close_time": "2024-09-29T12:00:00Z",
     "actual_resolution": "No",
     "volume": "95996",
     "status": "ok",
     "forecast": {
-      "rationale": "In the 2024 Austrian legislative election held on September 29, the FPÖ won the most seats and the highest vote share, while the SPÖ finished in third place.",
+      "rationale": "In the 2024 Austrian legislative election held on September 29, the FP\u00d6 won the most seats and the highest vote share, while the SP\u00d6 finished in third place.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -1802,9 +1938,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "The 2024 Austrian legislative election was held on September 29, 2024.",
-          "The FPÖ (Freedom Party) won the most seats with about 28.8% of the vote, while the SPÖ finished third with around 21.1%."
+          "The FP\u00d6 (Freedom Party) won the most seats with about 28.8% of the vote, while the SP\u00d6 finished third with around 21.1%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1831,7 +1969,9 @@
           "Ron DeSantis finished second with approximately 21.2% of the vote.",
           "Nikki Haley finished third with approximately 19.1% of the vote."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1857,7 +1997,9 @@
           "Kamala Harris announced Tim Walz as her VP pick on August 6, 2024.",
           "The Harris-Walz ticket was the official Democratic ticket on Election Day, November 5, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1884,7 +2026,9 @@
           "The New Popular Front (NFP) won the most seats, followed by Ensemble, with the National Rally (RN) coming in third.",
           "A majority requires 289 seats out of 577, which the RN did not achieve."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1910,7 +2054,9 @@
           "Rishi Sunak resigned as Conservative leader after the July 2024 UK general election.",
           "Kemi Badenoch was elected as the next Conservative party leader on November 2, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1936,7 +2082,9 @@
           "Donald Trump announced JD Vance as his vice presidential running mate on July 15, 2024.",
           "The Trump-Vance ticket remained intact and was the official Republican ticket on Election Day, November 5, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1962,7 +2110,9 @@
           "The 2024 French legislative elections concluded on July 7, 2024.",
           "The National Rally (RN) and its allies won 143 seats, placing third behind the New Popular Front and Ensemble."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1988,7 +2138,9 @@
           "Nikki Haley won the Vermont Republican primary on Super Tuesday, March 5, 2024.",
           "Vermont was the only state she won on Super Tuesday, though she had previously won Washington D.C."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2014,7 +2166,9 @@
           "Joe Biden withdrew from the 2024 presidential race on July 21, 2024.",
           "Kamala Harris officially accepted the Democratic nomination at the DNC in August 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2040,7 +2194,9 @@
           "By the evening of July 11, 2024, following Biden's NATO press conference, several more House Democrats called for him to drop out.",
           "Representatives such as Jim Himes, Scott Peters, and Eric Sorensen added to the growing list, pushing the total past 15 before the Friday morning deadline."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2092,7 +2248,9 @@
           "The 2024 DNC took place in August 2024 in Chicago.",
           "George W. Bush did not attend or speak at the convention."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2118,7 +2276,9 @@
           "The 2023 Dutch general election was held on November 22, 2023.",
           "The PVV won 37 seats, becoming the largest party, ahead of GL-PvdA (25 seats) and VVD (24 seats)."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2144,7 +2304,9 @@
           "JD Vance was selected as the 2024 Republican VP nominee.",
           "Donald Trump announced his VP pick on July 15, 2024, during the Republican National Convention."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2170,7 +2332,9 @@
           "RFK Jr. suspended his campaign on August 23, 2024.",
           "He endorsed Donald Trump and did not win any electoral votes in the 2024 election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2196,7 +2360,12 @@
           "The South Korean legislative election was held on April 10, 2024.",
           "The Democratic Party of Korea (DPK) and its satellite party won 175 out of 300 seats, securing a clear majority."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM refers to \"its satellite party\" (singular) when the DPK actually had two satellite parties. Together, the DPK and its two satellite parties won 192 seats total, not 175."
+        ]
       }
     }
   },
@@ -2222,7 +2391,9 @@
           "J.D. Vance was selected as the 2024 Republican VP nominee.",
           "Donald Trump announced his VP pick on July 15, 2024, during the Republican National Convention."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2248,7 +2419,9 @@
           "Super Tuesday took place on March 5, 2024.",
           "Nikki Haley suspended her presidential campaign on March 6, 2024, the day after Super Tuesday."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2274,7 +2447,9 @@
           "The 2024 Saskatchewan general election was held on October 28, 2024.",
           "The Saskatchewan Party won a majority government with 34 seats, while the NDP won 27 seats. No third party won any seats."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2300,7 +2475,9 @@
           "The 2024 Democratic National Convention was held in Chicago from August 19 to August 22, 2024.",
           "Hunter Biden was present in the audience during his father's speech but did not speak at the event himself."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2323,7 +2500,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2338,7 +2516,7 @@
     "volume": "25660.5",
     "status": "ok",
     "forecast": {
-      "rationale": "Ekrem İmamoğlu, the incumbent candidate from the CHP, won the Istanbul Mayoral Election on March 31, 2024, defeating the AKP candidate Murat Kurum by a significant margin.",
+      "rationale": "Ekrem \u0130mamo\u011flu, the incumbent candidate from the CHP, won the Istanbul Mayoral Election on March 31, 2024, defeating the AKP candidate Murat Kurum by a significant margin.",
       "probabilities": {
         "Yes": 1.0,
         "No": 0.0
@@ -2347,9 +2525,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "The election took place on March 31, 2024.",
-          "Ekrem İmamoğlu (CHP) won against Murat Kurum (AKP) with approximately 51% of the vote."
+          "Ekrem \u0130mamo\u011flu (CHP) won against Murat Kurum (AKP) with approximately 51% of the vote."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2375,7 +2555,9 @@
           "The Democratic National Committee held a virtual roll call vote to officially nominate the presidential candidate.",
           "The virtual roll call concluded on August 5, 2024, officially making Kamala Harris the nominee before the convention started on August 19, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2401,7 +2583,12 @@
           "The Georgia Democratic Primary was held on March 12, 2024.",
           "Joe Biden won the primary with over 95% of the vote, securing the state's delegates."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Biden won the Georgia Democratic Primary with approximately 93% of the vote (including blank ballots), not \"over 95%\" as stated in the evidence."
+        ]
       }
     }
   },
@@ -2427,7 +2614,9 @@
           "The UK General Election took place on July 4, 2024.",
           "The Liberal Democrats won 72 seats in the election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2453,7 +2642,12 @@
           "Kamala Harris was the Vice Presidential nominee and later the Presidential nominee for the Democratic party in 2024.",
           "Kamala Harris is female, meaning the ticket was not all male."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Harris was the Democratic **Presidential** nominee in 2024, not the Vice Presidential nominee. She selected Tim Walz as her Vice Presidential running mate."
+        ]
       }
     }
   },
@@ -2479,7 +2673,8 @@
           "Kamala Harris lost Wisconsin by approximately 0.9% in the 2024 presidential election.",
           "Kamala Harris lost Georgia by approximately 2.2% in the 2024 presidential election."
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2505,7 +2700,9 @@
           "The second round of the French legislative election was held on July 7, 2024.",
           "Ensemble won 168 seats, coming in second behind the New Popular Front."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2531,7 +2728,9 @@
           "The Brandenburg state election took place on September 22, 2024.",
           "The SPD won the most votes with about 30.9%, while the AfD came in second with about 29.2%."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2554,7 +2753,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2577,7 +2777,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2603,7 +2804,9 @@
           "Kamala Harris selected Tim Walz as her VP running mate on August 6, 2024.",
           "Tim Walz is a white man, serving as the Governor of Minnesota."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2611,7 +2814,7 @@
     "condition_id": "0x9bd1796175817533b3090b51b52352a49fc425ed5b081cb7989c1c330eb5fd99",
     "market_slug": "will-uncommitted-receive-less-than-1-of-the-popular-vote-in-the-2024-democratic-michigan-primary",
     "event_slug": "michigan-democratic-primary-uncommitted-vote-share",
-    "title": "Will ‘Uncommitted’ receive less than 1% of the popular vote in the 2024 Democratic Michigan Primary?",
+    "title": "Will \u2018Uncommitted\u2019 receive less than 1% of the popular vote in the 2024 Democratic Michigan Primary?",
     "category": "Elections",
     "close_time": "2024-02-27T00:00:00Z",
     "actual_resolution": "No",
@@ -2629,7 +2832,9 @@
           "The Michigan Democratic Primary took place on February 27, 2024.",
           "'Uncommitted' received over 100,000 votes, which amounted to approximately 13.2% of the popular vote."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2655,7 +2860,9 @@
           "The 2024 European Parliament elections were held from June 6 to June 9, 2024.",
           "The EPP group won 188 seats in the final official results."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2681,7 +2888,9 @@
           "Kamala Harris became the presumptive Democratic presidential nominee in July 2024.",
           "Tim Walz was announced as the Democratic VP nominee on August 6, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2733,7 +2942,9 @@
           "The 2024 San Francisco Mayoral Election took place on November 5, 2024.",
           "Daniel Lurie won the election, defeating incumbent London Breed, Mark Farrell, Aaron Peskin, and Ahsha Safai."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2785,7 +2996,12 @@
           "The Washington Democratic Primary was held on March 12, 2024.",
           "Joe Biden won the primary overwhelmingly, securing the vast majority of delegates."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Biden did face opposition in the 2024 Democratic primaries from Dean Phillips and Marianne Williamson, though they were relatively minor challengers; the statement \"faced no serious opposition\" is inaccurate."
+        ]
       }
     }
   },
@@ -2811,7 +3027,9 @@
           "The UK General Election took place on July 4, 2024.",
           "Reform UK won exactly 5 seats (including Nigel Farage, Richard Tice, and Lee Anderson)."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2837,7 +3055,12 @@
           "Super Tuesday took place on March 5, 2024.",
           "Trump won Alabama with approximately 83.2% of the vote, a margin of over 70 points, which was higher than his margin in Oklahoma (approx 66 points)."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Oklahoma margin was approximately 34-35 points (Trump over 50%, Haley 15.9%), not 66 points. The 69-point margin was in Alabama, not Oklahoma."
+        ]
       }
     }
   },
@@ -2864,7 +3087,9 @@
           "Kamala Harris received 226 electoral votes.",
           "Trump swept the swing states of PA, MI, WI, NC, GA, AZ, and NV."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2890,7 +3115,9 @@
           "Nigel Farage ran for the Clacton constituency in the July 4, 2024 UK general election.",
           "He won the seat, becoming an MP for the first time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2916,7 +3143,9 @@
           "The UK General Election took place on July 4, 2024.",
           "The Labour Party won the election with a popular vote share of approximately 33.7%."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2942,7 +3171,9 @@
           "Donald Trump won the 2024 election with 312 electoral votes.",
           "Trump won all seven battleground states: AZ, GA, MI, NV, NC, PA, and WI."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2965,7 +3196,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2992,7 +3224,9 @@
           "Melania Trump's office released a statement declining the role on his behalf due to prior commitments.",
           "Barron Trump did not speak at the 2024 Republican National Convention."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3018,7 +3252,9 @@
           "Donald Trump won the 2024 US Presidential Election with 312 electoral votes.",
           "Trump won all seven battleground states, including Nevada, which pushed his total past 306."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3045,7 +3281,9 @@
           "The NDA won a total of 293 seats, falling short of the 300 mark.",
           "The BJP, the leading party of the NDA, won 240 seats."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3071,7 +3309,9 @@
           "The Portuguese legislative election took place on March 10, 2024.",
           "The Democratic Alliance (AD) won the most votes, narrowly beating the Socialist Party (PS)."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3098,7 +3338,9 @@
           "Kamala Harris received 226 electoral votes.",
           "Donald Trump won Pennsylvania, Nevada, Michigan, and Wisconsin."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3124,7 +3366,9 @@
           "By July 19, 2024, approximately 30-35 House Democrats had publicly called for Biden to step aside.",
           "Biden ultimately announced his withdrawal from the race on July 21, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3147,7 +3391,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3173,7 +3418,9 @@
           "Donald Trump won the 2024 election with 312 electoral votes.",
           "Trump won all seven battleground states: AZ, GA, MI, NV, NC, PA, and WI."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3199,7 +3446,9 @@
           "The filing deadline for the 2024 West Virginia gubernatorial election was January 27, 2024.",
           "Joe Manchin did not file to run for governor and publicly stated he would not seek the office."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3251,7 +3500,9 @@
           "Donald Trump won the 2024 election with 312 electoral votes.",
           "Trump won all seven battleground states: AZ, GA, MI, NV, NC, PA, and WI."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3277,7 +3528,9 @@
           "The South African general election was held on May 29, 2024.",
           "The ANC received approximately 40.18% of the national vote, failing to secure a majority of seats in the 400-seat National Assembly."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3303,7 +3556,9 @@
           "Bill Clinton spoke at the DNC on August 21, 2024.",
           "His speech focused on Kamala Harris, Tim Walz, and his own age compared to Donald Trump, without mentioning Monica Lewinsky."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3329,7 +3584,9 @@
           "Donald Trump won the 2024 election with 312 electoral votes to Kamala Harris's 226.",
           "Kamala Harris won the state of Minnesota, preventing Trump from sweeping all the listed swing states."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3356,7 +3613,9 @@
           "The BJP alone won 240 seats, losing its single-party majority.",
           "The election results were declared on June 4, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3382,7 +3641,8 @@
           "RFK Jr. gave a major address on Friday, August 23, 2024, in Phoenix, Arizona.",
           "During the speech, he announced the suspension of his presidential campaign and endorsed Donald Trump."
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3405,7 +3665,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3431,7 +3692,9 @@
           "Jeremy Corbyn ran as an independent candidate in Islington North.",
           "He won the seat in the July 4, 2024 UK general election, defeating Labour's Praful Nargund."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3454,7 +3717,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3480,7 +3744,9 @@
           "Kamala Harris gave a joint interview with Tim Walz to CNN's Dana Bash.",
           "The interview aired on August 29, 2024, well before the September 10 deadline."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3507,7 +3773,9 @@
           "The CNN interview was pre-recorded, not broadcast live.",
           "The presidential debate took place on September 10, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3533,7 +3801,9 @@
           "The Arizona primary election was held on July 30, 2024.",
           "Abraham Hamadeh defeated Blake Masters and Ben Toma in the Republican primary for AZ-08."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3559,7 +3829,9 @@
           "Mark Robinson is the Lieutenant Governor of North Carolina and was the 2024 Republican gubernatorial nominee.",
           "Despite a major scandal breaking in September 2024, he remained married to his wife Yolanda Hill through the November 5, 2024 election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3585,7 +3857,12 @@
           "The MI-12 Democratic primary was held on August 6, 2024.",
           "Incumbent Rashida Tlaib won the primary election."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Ryan Foster was disqualified from the Democratic primary before August 6, 2024, so Rashida Tlaib ran unopposed. She did not defeat Ryan Foster in the primary."
+        ]
       }
     }
   },
@@ -3611,7 +3888,9 @@
           "Lloyd Doggett was the first Democratic House member to call for Biden to drop out on July 2, 2024.",
           "Raul Grijalva became the second Democratic House member to call for Biden to step aside on July 3, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3637,7 +3916,9 @@
           "Hung Cao won the Virginia Republican Senate primary on June 18, 2024.",
           "He defeated several other candidates, including Scott Parkinson and Jonathan Emord, and had the endorsement of Donald Trump."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3663,7 +3944,9 @@
           "The Texas Democratic Senate Primary was held on March 5, 2024.",
           "Colin Allred won the primary outright with over 50% of the vote, defeating Roland Gutierrez and others."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3689,7 +3972,9 @@
           "The WI-3 Democratic primary was held on August 13, 2024.",
           "Rebecca Cooke won the primary, defeating Katrina Shankland."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3715,7 +4000,9 @@
           "The Utah Republican Senate primary was held on June 25, 2024.",
           "John Curtis won the primary, defeating Trent Staggs."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3723,14 +4010,14 @@
     "condition_id": "0xa6a66f6e484a35cdb863b1db3c8329766c49d02d5a9757b3ca3b9ff1645601d0",
     "market_slug": "will-andre-jacque-win-the-wi-8-republican-house-primary",
     "event_slug": "wi-8-republican-primary-winner",
-    "title": "Will André Jacque win the WI-8 Republican House Primary?",
+    "title": "Will Andr\u00e9 Jacque win the WI-8 Republican House Primary?",
     "category": "Elections",
     "close_time": "2024-08-13T12:00:00Z",
     "actual_resolution": "No",
     "volume": "5053.6",
     "status": "ok",
     "forecast": {
-      "rationale": "Tony Wied won the Republican primary for Wisconsin's 8th Congressional District on August 13, 2024, defeating André Jacque and Roger Roth.",
+      "rationale": "Tony Wied won the Republican primary for Wisconsin's 8th Congressional District on August 13, 2024, defeating Andr\u00e9 Jacque and Roger Roth.",
       "probabilities": {
         "Yes": 0.0,
         "No": 1.0
@@ -3739,9 +4026,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "The WI-8 Republican primary was held on August 13, 2024.",
-          "Tony Wied won the primary, defeating André Jacque and Roger Roth."
+          "Tony Wied won the primary, defeating Andr\u00e9 Jacque and Roger Roth."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3767,7 +4056,9 @@
           "Roger Wicker is the incumbent U.S. Senator for Mississippi.",
           "The Mississippi Republican primary was held on March 12, 2024, where Wicker defeated his challengers."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3793,7 +4084,9 @@
           "George Santos was expelled from Congress in late 2023.",
           "He announced a primary challenge against Rep. Nick LaLota in NY-1 but later withdrew from the Republican primary and suspended his campaign."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3819,7 +4112,9 @@
           "The Delaware Democratic primary for Governor was held on September 10, 2024.",
           "Matt Meyer defeated Lt. Gov. Bethany Hall-Long and Collin O'Mara to win the nomination."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3845,7 +4140,9 @@
           "Donald Trump won the popular vote in the 2024 Presidential Election.",
           "Kamala Harris was the Democratic nominee and did not win the popular vote."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3853,14 +4150,14 @@
     "condition_id": "0xe80c03604e9055bfa5ed975f54f0e49b2846048a15e65541a066a8cdc984f139",
     "market_slug": "will-marina-helena-win-the-2024-so-paulo-mayoral-election",
     "event_slug": "so-paulo-mayoral-election-2024",
-    "title": "Will Marina Helena win the 2024 São Paulo mayoral election?",
+    "title": "Will Marina Helena win the 2024 S\u00e3o Paulo mayoral election?",
     "category": "Elections",
     "close_time": "2024-10-06T12:00:00Z",
     "actual_resolution": "No",
     "volume": "1.48499e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "Marina Helena was a candidate for the Novo party in the 2024 São Paulo mayoral election but consistently polled in the low single digits, far behind the frontrunners Ricardo Nunes, Guilherme Boulos, and Pablo Marçal.",
+      "rationale": "Marina Helena was a candidate for the Novo party in the 2024 S\u00e3o Paulo mayoral election but consistently polled in the low single digits, far behind the frontrunners Ricardo Nunes, Guilherme Boulos, and Pablo Mar\u00e7al.",
       "probabilities": {
         "Yes": 0.01,
         "No": 0.99
@@ -3868,10 +4165,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Marina Helena ran as the candidate for the Novo party in the 2024 São Paulo mayoral election.",
+          "Marina Helena ran as the candidate for the Novo party in the 2024 S\u00e3o Paulo mayoral election.",
           "Ricardo Nunes and Guilherme Boulos advanced to the second round of the election, meaning Marina Helena did not win."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   }

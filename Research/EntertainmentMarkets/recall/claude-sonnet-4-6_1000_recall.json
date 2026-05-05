@@ -22,7 +22,9 @@
           "The film won 7 Oscars total, including Best Director (Christopher Nolan) and Best Actor (Cillian Murphy).",
           "The ceremony was held at the Dolby Theatre in Hollywood."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -76,7 +78,9 @@
           "He was the heavy favorite going into the ceremony, having won the BAFTA and SAG Award for the same role",
           "The ceremony took place at the Dolby Theatre in Los Angeles"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -84,7 +88,7 @@
     "condition_id": "0xf3fc8812440a5528fc06230c997e2c8b98141573f5b809f24ee87429f535180f",
     "market_slug": "grammys-2024-will-world-music-radio-by-jon-batiste-win-album-of-the-year",
     "event_slug": "grammys-2024-album-of-the-year",
-    "title": "GRAMMYs 2024: Will ‘World Music Radio’ by Jon Batiste win Album of the Year?",
+    "title": "GRAMMYs 2024: Will \u2018World Music Radio\u2019 by Jon Batiste win Album of the Year?",
     "category": "Entertainment",
     "close_time": "2024-02-02T00:00:00Z",
     "actual_resolution": "No",
@@ -103,7 +107,9 @@
           "Taylor Swift won Album of the Year for 'Midnights', making history with her fourth AOTY win.",
           "Jon Batiste's 'World Music Radio' was nominated but did not win Album of the Year."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -111,14 +117,14 @@
     "condition_id": "0x685e50df26a1f4fe875274d5f7c258ec13d85d64ee76f66c17fbba4c971e12e4",
     "market_slug": "will-the-academy-take-away-will-smiths-oscar-by-april-30",
     "event_slug": "will-the-academy-take-away-will-smiths-oscar-by-april-30",
-    "title": "Will the Academy strip Will Smith’s Oscar by April 30?",
+    "title": "Will the Academy strip Will Smith\u2019s Oscar by April 30?",
     "category": "Entertainment",
     "close_time": "2022-04-30T00:00:00Z",
     "actual_resolution": "No",
     "volume": "36489.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The Academy banned Will Smith from attending Oscars ceremonies for 10 years but did not strip his Oscar. The slap occurred on March 27, 2022, and the Academy's response was announced April 8, 2022 — before the April 30 close date — but they did not revoke the award.",
+      "rationale": "The Academy banned Will Smith from attending Oscars ceremonies for 10 years but did not strip his Oscar. The slap occurred on March 27, 2022, and the Academy's response was announced April 8, 2022 \u2014 before the April 30 close date \u2014 but they did not revoke the award.",
       "probabilities": {
         "Yes": 0.03,
         "No": 0.97
@@ -129,7 +135,9 @@
           "Will Smith slapped Chris Rock at the 94th Academy Awards on March 27, 2022.",
           "On April 8, 2022, the Academy announced a 10-year ban on Will Smith attending any Academy events, but explicitly did not strip his Best Actor Oscar for 'King Richard'."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -137,14 +145,14 @@
     "condition_id": "0xc4b1f4dad76ce987a1068512d0a99d88a2b648c234701c71c955ed87e79c7c01",
     "market_slug": "jay-z-beyonc-divorce-in-2024",
     "event_slug": "jay-z-beyonc-divorce-in-2024",
-    "title": "Jay-Z & Beyoncé divorce in 2024?",
+    "title": "Jay-Z & Beyonc\u00e9 divorce in 2024?",
     "category": "Entertainment",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "18980.8",
     "status": "ok",
     "forecast": {
-      "rationale": "Jay-Z and Beyoncé did not divorce in 2024. Despite rumors and controversies (including allegations in a lawsuit), they remained married through the end of 2024.",
+      "rationale": "Jay-Z and Beyonc\u00e9 did not divorce in 2024. Despite rumors and controversies (including allegations in a lawsuit), they remained married through the end of 2024.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -152,10 +160,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "No divorce filing or announcement was made by Jay-Z or Beyoncé in 2024.",
+          "No divorce filing or announcement was made by Jay-Z or Beyonc\u00e9 in 2024.",
           "They continued to appear together publicly and no legal divorce proceedings were reported through end of 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -181,7 +191,9 @@
           "Dune won 6 Academy Awards at the 94th Oscars ceremony on March 27, 2022, all in technical categories.",
           "The ceremony was held at the Dolby Theatre in Hollywood; CODA won Best Picture but only 3 awards total."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -234,7 +246,9 @@
           "Will Smith won Best Actor at the 94th Academy Awards on March 27, 2022, for his role as Richard Williams in 'King Richard'.",
           "The ceremony is infamous for Will Smith slapping presenter Chris Rock on stage before later winning the award."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -260,7 +274,9 @@
           "Justin and Hailey Bieber remained together throughout April 2024 with no split reported.",
           "Hailey Bieber announced her pregnancy in May 2024, indicating the couple was still together and planning their family."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -283,7 +299,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -306,7 +323,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -333,7 +351,9 @@
           "Her winning role was portraying Tammy Faye Bakker in 'The Eyes of Tammy Faye'.",
           "The ceremony was held at the Dolby Theatre in Hollywood."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -367,7 +387,7 @@
     "condition_id": "0x55f710927a14450e57deee062337c06eb6fbfa6a7d5e059d328b4e8792ecda92",
     "market_slug": "will-black-panther-wakanda-forever-gross-between-180-220-million-domestically-in-its-opening-weekend",
     "event_slug": "how-much-will-black-panther-wakanda-forever-gross-domestically",
-    "title": "Will ‘Black Panther: Wakanda Forever’ gross between $180-$220 million domestically in its opening weekend?",
+    "title": "Will \u2018Black Panther: Wakanda Forever\u2019 gross between $180-$220 million domestically in its opening weekend?",
     "category": "Entertainment",
     "close_time": "2022-11-13T00:00:00Z",
     "actual_resolution": "Yes",
@@ -385,7 +405,9 @@
           "Black Panther: Wakanda Forever opened domestically on November 11, 2022",
           "The film earned approximately $181 million in its opening weekend domestically, placing it within the $180-$220 million range"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -400,7 +422,7 @@
     "volume": "115",
     "status": "ok",
     "forecast": {
-      "rationale": "Ye (Kanye West) released 'Vultures 1' (with Ty Dolla $ign as ¥$ project) in early 2024, but within 2023 he released some singles and the 'Vultures' snippets. However, no full album was officially released in 2023. Some loosies/singles did appear, making this somewhat ambiguous depending on the resolution criteria.",
+      "rationale": "Ye (Kanye West) released 'Vultures 1' (with Ty Dolla $ign as \u00a5$ project) in early 2024, but within 2023 he released some singles and the 'Vultures' snippets. However, no full album was officially released in 2023. Some loosies/singles did appear, making this somewhat ambiguous depending on the resolution criteria.",
       "probabilities": {
         "Yes": 0.55,
         "No": 0.45
@@ -408,7 +430,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -435,7 +458,9 @@
           "He won for his role as Charlie in 'The Whale', directed by Darren Aronofsky",
           "The ceremony was held at the Dolby Theatre in Hollywood"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -461,7 +486,9 @@
           "Hailey Welch became famous as the 'Hawk Tuah Girl' after a viral street interview video in June 2024.",
           "She launched a cryptocurrency token called HAWK in late 2024 which faced controversy and allegations of a pump-and-dump scheme, but no jail time was reported."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -488,7 +515,12 @@
           "The 76th Emmy Awards ceremony took place on September 22, 2024, at Peacock Theater in Los Angeles",
           "He had previously won this award at the 75th Emmys as well, making it a consecutive win"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 76th Emmy Awards took place on September 15, 2024, not September 22, 2024"
+        ]
       }
     }
   },
@@ -511,7 +543,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -538,7 +571,12 @@
           "Baby Reindeer was a Netflix limited series by Richard Gadd that became a massive hit and swept many awards in 2024.",
           "The Emmy ceremony was held on September 22, 2024, after the market close time of September 15, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 76th Emmy Awards ceremony was held on September 15, 2024, not September 22, 2024"
+        ]
       }
     }
   },
@@ -561,7 +599,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -614,7 +653,9 @@
           "He teased an album titled 'I Am Music' throughout 2023-2024 but it did not drop in 2024",
           "No new Playboi Carti studio album was released in 2024 before the close date"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -641,7 +682,9 @@
           "CODA (Apple TV+) won Best Picture, in a major upset over The Power of the Dog which had been the frontrunner.",
           "The Power of the Dog won only one Oscar that night - Best Director for Jane Campion."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -667,7 +710,9 @@
           "JD Vance was selected as Donald Trump's running mate in 2024 and appeared frequently with Usha Vance on the campaign trail",
           "No divorce occurred; Usha Vance was prominently featured at the Republican National Convention in July 2024 and throughout the campaign"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -682,7 +727,7 @@
     "volume": "4511.2",
     "status": "ok",
     "forecast": {
-      "rationale": "Anna Sawai won the Emmy for Outstanding Lead Actress in a Drama Series at the 76th Emmy Awards on September 22, 2024, for her role in Shōgun. This was before the close time of the market.",
+      "rationale": "Anna Sawai won the Emmy for Outstanding Lead Actress in a Drama Series at the 76th Emmy Awards on September 22, 2024, for her role in Sh\u014dgun. This was before the close time of the market.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -691,10 +736,15 @@
         "recognized_event": true,
         "evidence_facts": [
           "Anna Sawai won the Emmy for Outstanding Lead Actress in a Drama Series at the 76th Primetime Emmy Awards in 2024.",
-          "She won for her role as Toda Mariko in the FX series Shōgun.",
+          "She won for her role as Toda Mariko in the FX series Sh\u014dgun.",
           "The 76th Emmy Awards ceremony took place on September 22, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 76th Emmy Awards ceremony took place on September 15, 2024, not September 22, 2024"
+        ]
       }
     }
   },
@@ -702,7 +752,7 @@
     "condition_id": "0xda35bf175c49525f4cc7dc42886c66b290bc3e3b14d8785d7396ed68bec6fbb1",
     "market_slug": "will-kanye-release-vultures-vol-1-by-feb-9",
     "event_slug": "will-kanye-release-vultures-vol-1-by-feb-9",
-    "title": "Will Kanye release ‘Vultures’ Vol. 1 by Feb 9?",
+    "title": "Will Kanye release \u2018Vultures\u2019 Vol. 1 by Feb 9?",
     "category": "Entertainment",
     "close_time": "2024-02-09T00:00:00Z",
     "actual_resolution": "Yes",
@@ -717,7 +767,7 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Vultures Vol. 1 (¥$ album by Ye and Ty Dolla $ign) was released on February 10, 2024",
+          "Vultures Vol. 1 (\u00a5$ album by Ye and Ty Dolla $ign) was released on February 10, 2024",
           "The album had been repeatedly delayed before its eventual release, missing the February 9 deadline by one day"
         ],
         "recalled_outcome_if_known": "No"
@@ -745,9 +795,11 @@
         "evidence_facts": [
           "Anthony Hopkins won Best Actor at the 93rd Academy Awards (2021) for 'The Father,' defeating heavily favored Chadwick Boseman.",
           "Chadwick Boseman was nominated posthumously for his role as Levee in 'Ma Rainey's Black Bottom'; he had passed away in August 2020.",
-          "The ceremony was held on April 25, 2021, at Union Station in Los Angeles — a significant upset as Boseman had won nearly every precursor award."
+          "The ceremony was held on April 25, 2021, at Union Station in Los Angeles \u2014 a significant upset as Boseman had won nearly every precursor award."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -770,7 +822,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -797,7 +850,12 @@
           "Jean Smart was nominated for Best Comedy Actress for her role in Hacks (HBO)",
           "Jean Smart won the Outstanding Lead Actress in a Comedy Series award at the 2024 Emmys for Hacks"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 76th Emmy Awards ceremony was held on September 15, 2024, not September 22, 2024"
+        ]
       }
     }
   },
@@ -838,7 +896,7 @@
     "volume": "7044.95",
     "status": "ok",
     "forecast": {
-      "rationale": "The 93rd Academy Awards were held on April 25, 2021. Nomadland, directed by Chloé Zhao, won Best Picture. The event did occur before/at the close time, so the condition resolves Yes.",
+      "rationale": "The 93rd Academy Awards were held on April 25, 2021. Nomadland, directed by Chlo\u00e9 Zhao, won Best Picture. The event did occur before/at the close time, so the condition resolves Yes.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -847,7 +905,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "Nomadland won Best Picture at the 93rd Academy Awards on April 25, 2021",
-          "Chloé Zhao also won Best Director for Nomadland at the same ceremony",
+          "Chlo\u00e9 Zhao also won Best Director for Nomadland at the same ceremony",
           "The ceremony was held at Union Station in Los Angeles"
         ],
         "recalled_outcome_if_known": "Yes"
@@ -873,7 +931,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -899,7 +958,12 @@
           "Jodie Foster won the Emmy for Lead Actress in a Limited Series at the 76th Emmy Awards for True Detective: Night Country",
           "The 76th Emmy Awards ceremony was held on September 22, 2024, but the close time is September 15 - this may affect resolution timing"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 76th Emmy Awards ceremony was held on September 15, 2024, not September 22, 2024"
+        ]
       }
     }
   },
@@ -926,7 +990,9 @@
           "'What Was I Made For?' by Billie Eilish (from the Barbie soundtrack) won Song of the Year at the 2024 GRAMMYs.",
           "Taylor Swift won Album of the Year for 'Midnights' but 'Anti-Hero' did not win Song of the Year."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -953,7 +1019,9 @@
           "Licorice Pizza, written and directed by Paul Thomas Anderson, was nominated for Best Original Screenplay but lost to Belfast.",
           "The 94th Academy Awards ceremony took place on March 27, 2022 at the Dolby Theatre in Los Angeles."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -961,7 +1029,7 @@
     "condition_id": "0x4c6f44c3b06b2f0b1aa17d11c9577ae8e0ce5935def30fd829a52f76067bd570",
     "market_slug": "will-youtube-take-down-steven-crowders-election-livestream",
     "event_slug": "will-youtube-take-down-steven-crowders-election-livestream",
-    "title": "Will YouTube take down Steven Crowder’s election livestream?",
+    "title": "Will YouTube take down Steven Crowder\u2019s election livestream?",
     "category": "Entertainment",
     "close_time": "2024-11-05T12:00:00Z",
     "actual_resolution": "No",
@@ -976,7 +1044,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -991,7 +1060,7 @@
     "volume": "2.73511e+07",
     "status": "ok",
     "forecast": {
-      "rationale": "Joker: Folie à Deux (2024) was a major box office disappointment, grossing around $200M worldwide against a $200M budget. Inside Out 2, Deadpool & Wolverine, and other 2024 films significantly outperformed it. It was far from the top-grossing film of 2024.",
+      "rationale": "Joker: Folie \u00e0 Deux (2024) was a major box office disappointment, grossing around $200M worldwide against a $200M budget. Inside Out 2, Deadpool & Wolverine, and other 2024 films significantly outperformed it. It was far from the top-grossing film of 2024.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -999,10 +1068,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Joker: Folie à Deux grossed approximately $200 million worldwide, considered a box office bomb given its $200M production budget.",
+          "Joker: Folie \u00e0 Deux grossed approximately $200 million worldwide, considered a box office bomb given its $200M production budget.",
           "Inside Out 2 and Deadpool & Wolverine both grossed over $1 billion worldwide in 2024, far exceeding Joker 2's performance."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1010,7 +1081,7 @@
     "condition_id": "0x49abede64b8f6969f3dbd331fd469716bfa02657f270c160d5a569a5109de8a4",
     "market_slug": "will-kanye-release-vultures-by-friday",
     "event_slug": "will-kanye-release-vultures-by-friday",
-    "title": "Will Kanye release ‘Vultures’ by Friday?",
+    "title": "Will Kanye release \u2018Vultures\u2019 by Friday?",
     "category": "Entertainment",
     "close_time": "2023-12-15T00:00:00Z",
     "actual_resolution": "No",
@@ -1025,10 +1096,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Vultures 1 (¥$ album with Kanye West and Ty Dolla $ign) was repeatedly delayed throughout late 2023",
+          "Vultures 1 (\u00a5$ album with Kanye West and Ty Dolla $ign) was repeatedly delayed throughout late 2023",
           "The album did not release in December 2023; it was eventually released in February 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1055,7 +1128,9 @@
           "It was the first Apple TV+ film to win Best Picture, a historic win for a streaming platform.",
           "The film was directed by Sian Heder and beat favorites including The Power of the Dog (dir. Jane Campion)."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1081,7 +1156,9 @@
           "Jennifer Lopez filed for divorce from Ben Affleck in August 2024, not May 2024.",
           "The couple had married in July 2022, and separation rumors intensified in mid-2024 but no divorce occurred by end of May 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1134,7 +1211,9 @@
           "Playboi Carti's album 'MUSIC' was his long-awaited follow-up to 'Whole Lotta Red' released in December 2020",
           "The album was not released in September 2024; it was delayed multiple times throughout 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1184,7 +1263,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "Both films opened on November 22, 2024 (Thanksgiving weekend), competing directly against each other.",
-          "Wicked earned approximately $114 million domestically in its opening weekend, while Gladiator 2 earned approximately $55-58 million domestically — close to but not quite 2x ratio.",
+          "Wicked earned approximately $114 million domestically in its opening weekend, while Gladiator 2 earned approximately $55-58 million domestically \u2014 close to but not quite 2x ratio.",
           "Globally, Gladiator 2 performed strongly internationally, narrowing any overall gross gap further."
         ],
         "recalled_outcome_if_known": "No"
@@ -1210,10 +1289,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Vultures Vol. 1 (¥$) was released on February 10, 2024",
+          "Vultures Vol. 1 (\u00a5$) was released on February 10, 2024",
           "Vultures Vol. 2 was repeatedly delayed and did not release by early March 2024, eventually coming out much later in 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1240,7 +1321,9 @@
           "This was her second Oscar win for Best Actress, having previously won for 'La La Land' in 2017",
           "The ceremony was held at the Dolby Theatre in Hollywood"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1267,7 +1350,9 @@
           "Dune: Part One opened October 22, 2021 with approximately $40.1 million domestic opening weekend",
           "Dune 2 more than doubled the opening weekend of the original film"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1282,7 +1367,7 @@
     "volume": "18718.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Kanye West (Ye) and Ty Dolla $ign released 'Vultures 1' (¥$) on February 10, 2024, which is before the February 16 deadline. The album was officially released on streaming platforms after multiple delays.",
+      "rationale": "Kanye West (Ye) and Ty Dolla $ign released 'Vultures 1' (\u00a5$) on February 10, 2024, which is before the February 16 deadline. The album was officially released on streaming platforms after multiple delays.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -1293,7 +1378,9 @@
           "Vultures 1 by Ye and Ty Dolla $ign was released on February 10, 2024 on streaming platforms.",
           "The album had been delayed multiple times before its eventual release in early February 2024, just before the deadline."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1320,7 +1407,9 @@
           "The 96th Academy Awards ceremony took place on March 10, 2024, at the Dolby Theatre in Hollywood",
           "Oppenheimer won 7 Oscars total including Best Picture and Best Director"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1343,7 +1432,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1358,7 +1448,7 @@
     "volume": "12721.6",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2024 GRAMMYs Best New Artist was won by Victoria Monét, not Ice Spice. Ice Spice was nominated but did not win the award at the ceremony held on February 4, 2024.",
+      "rationale": "The 2024 GRAMMYs Best New Artist was won by Victoria Mon\u00e9t, not Ice Spice. Ice Spice was nominated but did not win the award at the ceremony held on February 4, 2024.",
       "probabilities": {
         "Yes": 0.03,
         "No": 0.97
@@ -1366,11 +1456,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Victoria Monét won Best New Artist at the 2024 Grammy Awards (66th Grammy Awards).",
+          "Victoria Mon\u00e9t won Best New Artist at the 2024 Grammy Awards (66th Grammy Awards).",
           "Ice Spice was among the nominees for Best New Artist but did not win.",
           "The ceremony was held on February 4, 2024, at the Crypto.com Arena in Los Angeles."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1419,7 +1511,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1442,7 +1535,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1468,7 +1562,9 @@
           "Cillian Murphy won the BAFTA Best Actor award on February 18, 2024 for his role as J. Robert Oppenheimer in Christopher Nolan's Oppenheimer.",
           "The 2024 BAFTA Film Awards ceremony took place at the Royal Festival Hall in London, and Oppenheimer was a dominant film at the ceremony."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1494,7 +1590,9 @@
           "Diddy was arrested in September 2024 on federal sex trafficking and racketeering charges",
           "Hotel surveillance footage of an assault incident was released by CNN, but no sex tape was officially publicly released before November 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1517,7 +1615,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1544,7 +1643,9 @@
           "She won for her role as Mary Lamb in 'The Holdovers'",
           "She had swept the awards season, winning the SAG Award, Golden Globe, BAFTA, and Critics Choice Award prior to the Oscars"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1567,7 +1668,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1590,7 +1692,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1616,7 +1719,9 @@
           "The 96th Academy Awards ceremony was held on March 10, 2024.",
           "The Boy and the Heron directed by Hayao Miyazaki won Best Animated Feature Film at the 96th Oscars, defeating Spider-Man: Across the Spider-Verse."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1642,7 +1747,9 @@
           "The film opened on November 17, 2023 in the United States",
           "It earned approximately $44.6 million in its domestic opening weekend, above the $40 million threshold"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1669,7 +1776,12 @@
           "This broke her own record for most simultaneous top 10 hits by a single artist, with songs like 'Fortnight' feat. Post Malone at #1.",
           "The chart dated April 27, 2024 reflected this historic sweep, well within the close time of April 30."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The chart date was May 4, 2024, not April 27, 2024"
+        ]
       }
     }
   },
@@ -1695,7 +1807,8 @@
           "The 75th Emmy Awards ceremony took place on January 15, 2024, at the Peacock Theater in Los Angeles.",
           "The Bear was nominated in the Comedy category despite many arguing it was more of a drama; it was a major contender but faced strong competition."
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1718,7 +1831,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1741,7 +1855,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1767,7 +1882,9 @@
           "The 75th Emmy Awards ceremony took place on January 15, 2024, at the Peacock Theater in Los Angeles.",
           "Kieran Culkin won Outstanding Lead Actor in a Drama Series for his role as Roman Roy in Succession's final season."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1790,7 +1907,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1813,10 +1931,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Vultures 1 by Kanye West (¥$) was pulled from streaming platforms including Apple Music in early 2024 due to unauthorized samples",
+          "Vultures 1 by Kanye West (\u00a5$) was pulled from streaming platforms including Apple Music in early 2024 due to unauthorized samples",
           "The album was re-uploaded/restored to streaming platforms including Apple Music in March 2024 after sample clearance issues were addressed"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1842,7 +1962,9 @@
           "The song 'What Was I Made For?' was performed by Billie Eilish and written for the Barbie (2023) film.",
           "It won the Oscar for Best Original Song at the 96th Academy Awards on March 10, 2024, beating other nominees including 'I'm Just Ken' also from Barbie."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1868,7 +1990,9 @@
           "Federal agents raided Sean Combs' properties in Los Angeles and Miami in March 2024 as part of a sex trafficking investigation.",
           "Reports emerged about seized evidence including alleged recordings/videos, but official confirmation specifically labeling them 'sex tapes' by April 15 was not clearly documented in public record."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1894,7 +2018,12 @@
           "Spotify Wrapped 2024 named Taylor Swift as the most-streamed artist globally for 2024.",
           "Drake had been top Spotify artist multiple times previously but lost the top spot in 2023 and 2024 to Taylor Swift."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Drake did not hold the top spot in 2022 and lose it to Taylor Swift in 2023; Drake's last annual top artist finish was in 2018, with Bad Bunny topping the list from 2020-2022 before Taylor Swift took over in 2023-2024."
+        ]
       }
     }
   },
@@ -1921,7 +2050,9 @@
           "The screenplay was written by Justine Triet and Arthur Harari",
           "The film was a French production directed by Justine Triet"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1929,14 +2060,14 @@
     "condition_id": "0xe88b88d1f39e2108ad8ee8b8c88fc043d1a21ac25c99b16d915ca82c0ee90ef2",
     "market_slug": "will-joker-folie-deux-gross-between-135-150m-opening-weekend",
     "event_slug": "joker-folie-a-deux-opening-weekend-box-office",
-    "title": "Will 'Joker: Folie à Deux' gross between $135-150m opening weekend?",
+    "title": "Will 'Joker: Folie \u00e0 Deux' gross between $135-150m opening weekend?",
     "category": "Entertainment",
     "close_time": "2024-10-07T12:00:00Z",
     "actual_resolution": "No",
     "volume": "3.12055e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Joker: Folie à Deux opened in early October 2024 and significantly underperformed expectations, grossing approximately $37-40 million domestically in its opening weekend, far below the $135-150m range specified.",
+      "rationale": "Joker: Folie \u00e0 Deux opened in early October 2024 and significantly underperformed expectations, grossing approximately $37-40 million domestically in its opening weekend, far below the $135-150m range specified.",
       "probabilities": {
         "Yes": 0.02,
         "No": 0.98
@@ -1944,10 +2075,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Joker: Folie à Deux opened October 4, 2024 and had a disastrous opening weekend of approximately $37 million domestically",
+          "Joker: Folie \u00e0 Deux opened October 4, 2024 and had a disastrous opening weekend of approximately $37 million domestically",
           "The film was considered a major box office disappointment, earning far less than the original Joker's $96 million opening weekend"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1955,7 +2088,7 @@
     "condition_id": "0xd192dcf13d2237d6d203937b004839719b1d9036140d4a7686401c8e44610053",
     "market_slug": "all-i-want-for-christmas-is-you-1-on-billboard-hot-100-first-week-of-2024",
     "event_slug": "all-i-want-for-christmas-is-you-1-on-billboard-hot-100-first-week-of-2024",
-    "title": "“All I want for Christmas is You” #1 on Billboard Hot 100 first week of 2024?",
+    "title": "\u201cAll I want for Christmas is You\u201d #1 on Billboard Hot 100 first week of 2024?",
     "category": "Entertainment",
     "close_time": "2024-01-06T00:00:00Z",
     "actual_resolution": "No",
@@ -1999,7 +2132,12 @@
           "At the 96th Academy Awards held on March 10, 2024, Best Adapted Screenplay was won by Cord Jefferson for American Fiction.",
           "Poor Things won multiple Oscars including Best Picture, Best Director (Yorgos Lanthimos), and Best Actress (Emma Stone), but not Best Adapted Screenplay."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Poor Things did not win Best Picture; Oppenheimer won Best Picture at the 96th Academy Awards. Poor Things won Best Actress (Emma Stone), Best Director (Yorgos Lanthimos), Best Makeup and Hairstyling, Best Production Design, and Best Costume Design (4 awards total)."
+        ]
       }
     }
   },
@@ -2007,14 +2145,14 @@
     "condition_id": "0x955979be4b0dd8d6b5da7da2f080d2de221e8f2bec18bbceab3fa73ce41735fa",
     "market_slug": "will-joker-folie-deux-gross-between-60-66m-opening-weekend",
     "event_slug": "joker-folie-deux-opening-weekend-box-office-cont",
-    "title": "Will 'Joker: Folie à Deux' gross between $60-66m opening weekend?",
+    "title": "Will 'Joker: Folie \u00e0 Deux' gross between $60-66m opening weekend?",
     "category": "Entertainment",
     "close_time": "2024-10-07T12:00:00Z",
     "actual_resolution": "No",
     "volume": "1.96406e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "Joker: Folie à Deux opened in early October 2024 and significantly underperformed expectations, grossing approximately $37-40 million in its opening weekend domestically, well below the $60-66m range.",
+      "rationale": "Joker: Folie \u00e0 Deux opened in early October 2024 and significantly underperformed expectations, grossing approximately $37-40 million in its opening weekend domestically, well below the $60-66m range.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -2022,10 +2160,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Joker: Folie à Deux opened October 4, 2024 and had a disappointing domestic opening weekend of approximately $37-40 million.",
+          "Joker: Folie \u00e0 Deux opened October 4, 2024 and had a disappointing domestic opening weekend of approximately $37-40 million.",
           "The film was considered a major box office disappointment, far underperforming projections that had been in the $60-70m range before release."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2051,7 +2191,12 @@
           "Taylor Swift's 'The Tortured Poets Department' was released April 19, 2024 and debuted at #1 on the Billboard 200.",
           "The album spent multiple consecutive weeks at #1, surpassing 10 weeks at #1 on the Billboard 200 by late June 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "By the June 29, 2024 close time, The Tortured Poets Department had 9 weeks at #1, not \"well over 10 weeks.\" It reached 10 weeks on the July 6, 2024 chart, which was after the market closed."
+        ]
       }
     }
   },
@@ -2059,7 +2204,7 @@
     "condition_id": "0xafd703a0ec87e098738f506b538fd6ce261286526c8f728742a39717636cf106",
     "market_slug": "grammys-2024-will-kill-bill-by-sza-win-record-of-the-year",
     "event_slug": "grammys-2024-record-of-the-year",
-    "title": "GRAMMYs 2024: Will ‘Kill Bill’ by SZA win Record of the Year?",
+    "title": "GRAMMYs 2024: Will \u2018Kill Bill\u2019 by SZA win Record of the Year?",
     "category": "Entertainment",
     "close_time": "2024-02-02T00:00:00Z",
     "actual_resolution": "No",
@@ -2077,7 +2222,9 @@
           "The 2024 Grammy Awards (66th Grammy Awards) took place on February 4, 2024, at Crypto.com Arena in Los Angeles.",
           "Miley Cyrus won Record of the Year for 'Flowers', beating out nominees including SZA's 'Kill Bill'."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2104,7 +2251,9 @@
           "The film grossed approximately $225 million over the 5-day Thanksgiving holiday weekend, breaking records for animated films",
           "It had one of the biggest Thanksgiving opening weekends in box office history"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2130,7 +2279,9 @@
           "Usher headlined the Super Bowl LVIII halftime show on February 11, 2024 at Allegiant Stadium in Las Vegas.",
           "Usher opened his halftime performance with 'Caught Up', not 'My Way'."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2156,7 +2307,9 @@
           "The Game Awards 2023 ceremony was held on December 7, 2023, at the Peacock Theater in Los Angeles.",
           "Baldur's Gate 3 by Larian Studios won Game of the Year at The Game Awards 2023, defeating nominees including Tears of the Kingdom, Alan Wake 2, and others."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2182,7 +2335,9 @@
           "Moana 2 was released on November 27, 2024 (Thanksgiving week) in the United States",
           "The film had a record-breaking Thanksgiving opening, with the 5-day domestic gross reported around $225 million, making it one of the biggest Thanksgiving openings ever"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2208,7 +2363,14 @@
           "KSI's 'Thick of It' was released in October 2021 and debuted on the Billboard Hot 100",
           "The song reached around position 83 on the Hot 100, making KSI one of the few YouTubers/content creators to achieve this milestone"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "",
+          "The song was released in October 2024, not October 2021. The song was released on 3 October 2024.",
+          "The debut chart position was #84, not \"around position 83\". The song debuted at No. 84 on the Billboard Hot 100."
+        ]
       }
     }
   },
@@ -2234,7 +2396,9 @@
           "Poor Things won Best Costume Design at the 96th Academy Awards ceremony held on March 10, 2024",
           "Costume designer Holly Waddington won the award for her distinctive and fantastical work on the film directed by Yorgos Lanthimos"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2258,10 +2422,12 @@
         "recognized_event": true,
         "evidence_facts": [
           "Nosferatu (2024) directed by Robert Eggers opened on Christmas Day, December 25, 2024",
-          "The film starred Bill Skarsgård as Count Orlok and Lily-Rose Depp, and performed strongly over the Christmas holiday period",
+          "The film starred Bill Skarsg\u00e5rd as Count Orlok and Lily-Rose Depp, and performed strongly over the Christmas holiday period",
           "The 5-day opening (Christmas holiday) was reported to exceed $40 million, well above the $30M threshold"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2342,7 +2508,12 @@
           "The film became the highest-grossing R-rated film of all time, surpassing $1 billion globally, well before Labor Day (September 2, 2024).",
           "Domestic box office alone crossed $600M before Labor Day weekend."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM stated the film surpassed $600M \"well before Labor Day 2024,\" but the film actually crossed $600 million domestically during the Labor Day weekend itself (early September), not well before it."
+        ]
       }
     }
   },
@@ -2368,7 +2539,9 @@
           "Universal Music Group removed its catalog from TikTok around February 1, 2024, when their licensing agreement expired.",
           "The two parties were in a public dispute over royalty rates and AI-related concerns, with no deal announced before March 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2376,14 +2549,14 @@
     "condition_id": "0x99f0d7e214091080e86b9ce01b04e5b8b120b36e36a58fc1fb72ec5172e921d8",
     "market_slug": "emmys-2024-will-shogun-win-best-drama-series",
     "event_slug": "emmys-2024-will-shogun-win-best-drama-series",
-    "title": "Shōgun wins Best Drama Series? - Emmys",
+    "title": "Sh\u014dgun wins Best Drama Series? - Emmys",
     "category": "Entertainment",
     "close_time": "2024-09-15T12:00:00Z",
     "actual_resolution": "Yes",
     "volume": "5663.72",
     "status": "ok",
     "forecast": {
-      "rationale": "Shōgun (FX/Hulu) won Best Drama Series at the 76th Primetime Emmy Awards held on September 22, 2024. However, the close time is September 15, 2024, which is before the ceremony date, so this would not have resolved before close time.",
+      "rationale": "Sh\u014dgun (FX/Hulu) won Best Drama Series at the 76th Primetime Emmy Awards held on September 22, 2024. However, the close time is September 15, 2024, which is before the ceremony date, so this would not have resolved before close time.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -2391,11 +2564,16 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Shōgun won Best Drama Series at the 76th Primetime Emmy Awards on September 22, 2024",
+          "Sh\u014dgun won Best Drama Series at the 76th Primetime Emmy Awards on September 22, 2024",
           "The show swept major Emmy categories including Best Drama Series, Best Actor (Hiroyuki Sanada), and Best Actress (Anna Sawai) in Drama",
           "The Emmy ceremony was held on September 22, 2024, after the market close time of September 15, 2024"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 76th Primetime Emmy Awards ceremony was held on September 15, 2024, not September 22, 2024"
+        ]
       }
     }
   },
@@ -2421,7 +2599,9 @@
           "It Ends with Us opened on August 9, 2024, starring Blake Lively and Justin Baldoni",
           "The film grossed approximately $50 million in its opening weekend domestically, well above the $40m threshold"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2470,7 +2650,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2496,7 +2677,9 @@
           "Transformers One opened in theaters around September 20, 2024",
           "The film's domestic opening weekend was reported at approximately $24-26 million, significantly below $49 million"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2522,7 +2705,9 @@
           "Taylor Swift released 'The Tortured Poets Department' on April 19, 2024, and it debuted with a historic chart performance.",
           "She occupied all top 14 positions on the Billboard Hot 100 the week of its release, breaking records for most simultaneous top entries."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2549,7 +2734,9 @@
           "Astro Bot won Game of the Year at The Game Awards 2024, defeating Black Myth: Wukong and other nominees.",
           "Black Myth: Wukong was developed by Game Science and released in August 2024, making it eligible for GOTY consideration."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2575,7 +2762,9 @@
           "Sonic the Hedgehog 3 was released in December 2024 and had a strong domestic opening weekend.",
           "The film's opening weekend was reported around $60-62 million domestically, placing it within the $56-64M range."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2598,7 +2787,7 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Eminem released 'Houdini' on May 31, 2024 as the lead single from 'The Death of Slim Shady (Coup de Grâce)'",
+          "Eminem released 'Houdini' on May 31, 2024 as the lead single from 'The Death of Slim Shady (Coup de Gr\u00e2ce)'",
           "'Houdini' debuted at #1 on the Billboard Hot 100, giving Eminem his first number-one single in years",
           "The music video featured notable cameos and references to classic Eminem imagery including Slim Shady"
         ],
@@ -2628,7 +2817,9 @@
           "TIME Person of the Year 2023 was Taylor Swift, announced in December 2023",
           "Sam Altman was not selected as TIME Person of the Year for 2023"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2654,7 +2845,9 @@
           "Wicked (2024 film) opened on November 22, 2024 and earned approximately $114 million domestically in its opening weekend",
           "The film starred Cynthia Erivo and Ariana Grande, and was directed by Jon M. Chu, generating significant box office buzz"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2677,7 +2870,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2704,7 +2898,9 @@
           "Han Kang was recognized for 'her intense poetic prose that confronts historical traumas and exposes the fragility of human life'.",
           "The prize was announced by the Swedish Academy in Stockholm on October 10, 2024."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2730,7 +2926,9 @@
           "Beetlejuice Beetlejuice opened the weekend of September 6-8, 2024 and earned approximately $111 million domestically in its opening weekend.",
           "The film starred Michael Keaton and Winona Ryder reprising their roles, directed by Tim Burton, and was one of the biggest openings of that September."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2756,7 +2954,12 @@
           "Taylor Swift's 'The Tortured Poets Department' was released on April 19, 2024.",
           "Anthony Fantano (theneedledrop) gave the album a 5/10 in his review, describing it as bloated and underwhelming."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Fantano gave The Tortured Poets Department a 1.5/10 rating, not 5/10"
+        ]
       }
     }
   },
@@ -2779,7 +2982,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2805,7 +3009,9 @@
           "Venom: The Last Dance opened domestically to approximately $51 million in its opening weekend (October 25-27, 2024)",
           "The film starred Tom Hardy and was the third and final Venom solo film; it did not reach $70m domestically in its opening weekend"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2828,7 +3034,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2855,7 +3062,9 @@
           "The film grossed approximately $82.5 million domestically in its opening weekend, but over $178 million worldwide",
           "The question closes March 1, 2024 - the opening weekend would be March 1-3, 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2908,7 +3117,9 @@
           "Terrifier 3 opened on October 11, 2024 and had an opening weekend of approximately $18.4 million domestically",
           "The film significantly outperformed expectations given the franchise's prior installments, making it a breakout horror hit"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2931,7 +3142,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2980,7 +3192,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3007,7 +3220,12 @@
           "The film set a record for the biggest R-rated opening weekend ever, surpassing the previous record held by Deadpool 2.",
           "Global opening weekend was approximately $438 million total worldwide."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The previous R-rated opening weekend record was held by the first Deadpool ($132 million), not Deadpool 2 ($125 million). Deadpool 2 had the second-highest R-rated opening, making it the third-biggest after Deadpool & Wolverine's record-shattering $211 million opening."
+        ]
       }
     }
   },
@@ -3033,7 +3251,9 @@
           "Taylor Swift and Travis Kelce began dating in 2023 and continued their relationship through 2024",
           "No engagement announcement was made public by Taylor Swift or Travis Kelce during 2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3059,7 +3279,9 @@
           "The Wild Robot (DreamWorks Animation) opened on September 27, 2024",
           "It grossed approximately $35 million in its opening weekend, significantly outperforming the $24m threshold"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3085,7 +3307,12 @@
           "Taylor Swift and Travis Kelce started dating in summer 2023 and Swift attended multiple Kansas City Chiefs games in 2023-2024.",
           "They were publicly together throughout 2024, including at Super Bowl LVIII in February 2024 where the Chiefs won, and continued appearing together at events through late 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Taylor Swift and Travis Kelce began dating in late July/August 2023, not \"mid-2023.\" Sources indicate they started hanging out after his July 26 podcast episode and were publicly together by September 2023."
+        ]
       }
     }
   },
@@ -3111,7 +3338,8 @@
           "Smile 2 was released in October 2024, starring Naomi Scott",
           "The original Smile (2022) opened to approximately $22 million domestically; Smile 2 was tracking similarly or slightly higher"
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3134,7 +3362,7 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Switzerland's Nemo won Eurovision 2024 with the song 'The Code' at the grand final held on May 11, 2024 in Malmö, Sweden.",
+          "Switzerland's Nemo won Eurovision 2024 with the song 'The Code' at the grand final held on May 11, 2024 in Malm\u00f6, Sweden.",
           "The close time for this market is May 8, 2024, which is before the Eurovision 2024 final on May 11, 2024, so the condition could not have been met before close."
         ],
         "recalled_outcome_if_known": "No"
@@ -3161,7 +3389,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "Beetlejuice Beetlejuice opened on September 6, 2024 and earned around $110 million in its domestic opening weekend.",
-          "It broke the record for biggest September opening weekend, surpassing 'It' (2017) which had held the previous record with ~$123 million — actually Beetlejuice Beetlejuice earned approximately $110M domestic but was still the biggest September opener at that point.",
+          "It broke the record for biggest September opening weekend, surpassing 'It' (2017) which had held the previous record with ~$123 million \u2014 actually Beetlejuice Beetlejuice earned approximately $110M domestic but was still the biggest September opener at that point.",
           "The film starred Michael Keaton, Winona Ryder, and Jenna Ortega, directed by Tim Burton."
         ],
         "recalled_outcome_if_known": "Yes"
@@ -3190,7 +3418,9 @@
           "The market was created during the intense Drake vs. Kendrick Lamar rap beef in spring 2024",
           "No arrest of Drake occurred during or around May 2024; the conflict remained a music/social media dispute"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3216,7 +3446,9 @@
           "Kraven the Hunter opened on December 13, 2024 and had a very disappointing opening weekend of approximately $11 million domestically.",
           "The film starred Aaron Taylor-Johnson and was part of Sony's Spider-Man Universe; it was considered a major box office bomb."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3243,7 +3475,9 @@
           "He faced federal charges including sex trafficking and racketeering conspiracy, and was held without bail.",
           "There were earlier reports he had traveled to the Caribbean, but he returned and did not flee before arrest."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3295,7 +3529,9 @@
           "Taylor Swift attended Super Bowl LVIII at Allegiant Stadium in Las Vegas on February 11, 2024.",
           "She was there to support her boyfriend Travis Kelce of the Kansas City Chiefs, who defeated the San Francisco 49ers."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3321,7 +3557,12 @@
           "Red One starring Dwayne Johnson and Chris Evans opened in theaters on November 15, 2024",
           "The film grossed approximately $34 million in its opening weekend domestically, significantly above $18 million"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Red One's opening weekend was $32.1 million domestically, not \"approximately $34-35 million\" as stated. (Though it still comfortably exceeded the $18m threshold.)"
+        ]
       }
     }
   },
@@ -3348,7 +3589,9 @@
           "Multiple bail requests were denied by federal judges, citing him as a flight risk with significant resources to flee and potential danger to witnesses/community.",
           "He was held at MDC Brooklyn without bail through the end of September 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3371,11 +3614,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Alien: Romulus opened on August 16, 2024, directed by Fede Álvarez",
+          "Alien: Romulus opened on August 16, 2024, directed by Fede \u00c1lvarez",
           "The film grossed approximately $41.5 million domestically in its opening weekend, but worldwide opening was around $100 million+",
           "The question likely refers to domestic US opening weekend gross"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3398,7 +3643,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3424,7 +3670,9 @@
           "Ghostbusters: Frozen Empire opened on March 22, 2024 in the US.",
           "The film earned approximately $45 million in its domestic opening weekend, well above the $35m threshold."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3450,7 +3698,9 @@
           "Sean 'Diddy' Combs was arrested on September 16, 2024 on federal indictment including sex trafficking, racketeering conspiracy, and transportation to engage in prostitution.",
           "He was denied bail and held in federal detention; the initial indictment was the primary set of charges as of late September 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3477,7 +3727,9 @@
           "The film starred Paul Mescal and Pedro Pascal, directed by Ridley Scott",
           "Domestic opening weekend was reported around $55.5 million, below the $75m threshold"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3503,7 +3755,12 @@
           "Attorney Tony Buzbee filed civil lawsuits alleging sexual misconduct involving Jay-Z (Shawn Carter) in late 2024, connected to a Sean Combs-related case.",
           "The accuser in the case against Jay-Z later recanted her allegations, and Jay-Z publicly denied the claims; no criminal charges were filed."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The accuser did not recant her allegations. She dropped the lawsuit but maintained in sworn statements that she stood by her core claims, while acknowledging some inconsistencies in details."
+        ]
       }
     }
   },
@@ -3529,7 +3786,9 @@
           "Wish opened on November 22, 2023 (Thanksgiving week) and earned approximately $31.7 million over the 5-day holiday weekend domestically.",
           "The film was considered a box office disappointment for Disney, significantly underperforming expectations for the studio's 100th anniversary film."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3555,7 +3814,9 @@
           "Sean 'Diddy' Combs was arrested on September 16, 2024, well after the April 30, 2024 close time.",
           "In early 2024, Diddy faced civil lawsuits (including from Cassie Ventura settled in 2023, and others in 2024) but had not been criminally arrested by April 30, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3581,7 +3842,9 @@
           "Civil War (2024), directed by Alex Garland and distributed by A24, opened on April 12, 2024.",
           "The film grossed approximately $25.7 million in its opening weekend in North America, surpassing the $23m threshold."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3604,7 +3867,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3630,7 +3895,9 @@
           "Kung Fu Panda 4 opened the weekend of March 8-10, 2024 in the United States.",
           "The film earned approximately $58 million in its opening weekend domestically, significantly surpassing the $36m threshold."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3656,7 +3923,9 @@
           "The Drake vs. Kendrick Lamar rap beef escalated dramatically in May 2024 with diss tracks like 'Not Like Us' and 'The Heart Part 6'.",
           "No arrest of Drake occurred during or around this period; the conflict remained a music/social media dispute."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3682,7 +3951,12 @@
           "Dune: Part Two was released on March 1, 2024, directed by Denis Villeneuve.",
           "The film received widespread critical acclaim with a Rotten Tomatoes score around 90-93% at launch, with critics praising its visuals, performances, and epic scale."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The Rotten Tomatoes Tomatometer score for Dune: Part Two is 97% (not \"approximately 90-93%\" as claimed). The film achieved a near-perfect 97% score based on critical reviews."
+        ]
       }
     }
   },
@@ -3708,7 +3982,9 @@
           "Meek Mill publicly denied rumors and allegations that he had sexual relations with Diddy, calling them false.",
           "The allegations were part of broader speculation following lawsuits against Sean Combs, but Meek Mill was not a named party in confirmed accounts."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3788,7 +4064,9 @@
           "The film earned approximately $80 million domestically in its opening weekend, with some estimates putting it slightly above that threshold around $80-82 million domestic.",
           "The global opening weekend was reported at approximately $195 million worldwide."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3811,7 +4089,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -3837,7 +4116,9 @@
           "Inside Out 2 opened on June 14, 2024 and earned approximately $154 million in its opening weekend domestically.",
           "It broke records as one of the highest-grossing animated film openings of all time, far surpassing the $90 million threshold."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -3852,7 +4133,7 @@
     "volume": "18613.1",
     "status": "ok",
     "forecast": {
-      "rationale": "Vultures 2 (¥$) was highly anticipated with multiple missed release dates. The album had been repeatedly delayed throughout 2024. By August 2024, it had not been officially released despite numerous promises.",
+      "rationale": "Vultures 2 (\u00a5$) was highly anticipated with multiple missed release dates. The album had been repeatedly delayed throughout 2024. By August 2024, it had not been officially released despite numerous promises.",
       "probabilities": {
         "Yes": 0.15,
         "No": 0.85
@@ -3863,7 +4144,9 @@
           "Vultures 2 had multiple missed release dates in 2024, with Kanye and Ty Dolla $ign repeatedly promising and delaying the album",
           "The album was not released by the early August 2024 timeframe; it had a pattern of being announced and then delayed"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   }

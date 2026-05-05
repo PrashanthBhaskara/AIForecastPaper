@@ -10,7 +10,7 @@
     "volume": "48285.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Iceland experienced significant volcanic activity in late 2023 on the Reykjanes Peninsula. There were eruptions near Grindavík in November 2023, with seismic activity and eventual eruption occurring around that timeframe.",
+      "rationale": "Iceland experienced significant volcanic activity in late 2023 on the Reykjanes Peninsula. There were eruptions near Grindav\u00edk in November 2023, with seismic activity and eventual eruption occurring around that timeframe.",
       "probabilities": {
         "Yes": 0.85,
         "No": 0.15
@@ -18,8 +18,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "The Reykjanes Peninsula in Iceland experienced intense seismic swarms in November 2023, leading to evacuation of Grindavík town around November 10-11, 2023.",
-          "A volcanic eruption occurred on the Reykjanes Peninsula in Iceland in mid-November 2023, after a magma intrusion was detected under Grindavík."
+          "The Reykjanes Peninsula in Iceland experienced intense seismic swarms in November 2023, leading to evacuation of Grindav\u00edk town around November 10-11, 2023.",
+          "A volcanic eruption occurred on the Reykjanes Peninsula in Iceland in mid-November 2023, after a magma intrusion was detected under Grindav\u00edk."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -55,14 +55,14 @@
     "condition_id": "0xc0b0c6d7795453a6c2da700496583354384f012b79c53e98bc2d7fa91586348e",
     "market_slug": "will-the-november-2024-temperature-increase-be-less-than-1pt20c",
     "event_slug": "november-2024-temperature-increase-c",
-    "title": "Will the November 2024 temperature increase be less than 1.20°C?",
+    "title": "Will the November 2024 temperature increase be less than 1.20\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-11-30T12:00:00Z",
     "actual_resolution": "No",
     "volume": "595329",
     "status": "ok",
     "forecast": {
-      "rationale": "November 2024 global temperature anomaly was reported by Copernicus/ERA5 at approximately 1.62°C above pre-industrial baseline, continuing the streak of extremely warm months in 2024. This exceeds 1.20°C, so the condition is not met.",
+      "rationale": "November 2024 global temperature anomaly was reported by Copernicus/ERA5 at approximately 1.62\u00b0C above pre-industrial baseline, continuing the streak of extremely warm months in 2024. This exceeds 1.20\u00b0C, so the condition is not met.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -70,10 +70,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported November 2024 as approximately 1.62°C above pre-industrial (1850-1900) baseline",
-          "2024 was a record-breaking year with nearly every month exceeding 1.5°C above pre-industrial levels, making a reading below 1.20°C extremely unlikely"
+          "Copernicus Climate Change Service reported November 2024 as approximately 1.62\u00b0C above pre-industrial (1850-1900) baseline",
+          "2024 was a record-breaking year with nearly every month exceeding 1.5\u00b0C above pre-industrial levels, making a reading below 1.20\u00b0C extremely unlikely"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -100,7 +102,9 @@
           "Notable storms included Hurricane Helene (which caused catastrophic flooding in the southeastern US, especially western North Carolina) and Hurricane Milton (which struck Florida in October 2024).",
           "The season was well above average and NOAA had predicted an extremely active season due to record warm Atlantic sea surface temperatures."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -108,14 +112,14 @@
     "condition_id": "0x43905da101b102a1867fcb36b15b41b29282b568202f079152933e021cc2b8cf",
     "market_slug": "global-heat-increase-between-1pt22c-and-1pt24c-for-2024",
     "event_slug": "global-heat-increase-2024",
-    "title": "Global heat increase between 1.22°C and 1.24°C for 2024?",
+    "title": "Global heat increase between 1.22\u00b0C and 1.24\u00b0C for 2024?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "9.46687e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "2024 was confirmed as the hottest year on record. Multiple sources reported global average temperature anomaly around 1.54°C above pre-industrial levels (Copernicus/ERA5), far above the 1.22-1.24°C range specified. The narrow band of 1.22-1.24°C was well below the actual 2024 figure.",
+      "rationale": "2024 was confirmed as the hottest year on record. Multiple sources reported global average temperature anomaly around 1.54\u00b0C above pre-industrial levels (Copernicus/ERA5), far above the 1.22-1.24\u00b0C range specified. The narrow band of 1.22-1.24\u00b0C was well below the actual 2024 figure.",
       "probabilities": {
         "Yes": 0.03,
         "No": 0.97
@@ -123,10 +127,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2024 was confirmed as the hottest year on record by Copernicus Climate Change Service, with global mean temperature anomaly approximately 1.54°C above pre-industrial baseline.",
-          "NASA and NOAA also reported 2024 anomalies well above 1.24°C, making the 1.22-1.24°C range far too low to match the actual outcome."
+          "2024 was confirmed as the hottest year on record by Copernicus Climate Change Service, with global mean temperature anomaly approximately 1.54\u00b0C above pre-industrial baseline.",
+          "NASA and NOAA also reported 2024 anomalies well above 1.24\u00b0C, making the 1.22-1.24\u00b0C range far too low to match the actual outcome."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The LLM stated Copernicus/ERA5 reported \"around 1.54\u00b0C\" but the official Copernicus figure is 1.60\u00b0C above the 1850-1900 pre-industrial baseline. The 1.54\u00b0C figure comes from Climate Central using a different baseline (1881-1910)."
+        ]
       }
     }
   },
@@ -141,7 +150,7 @@
     "volume": "71412.1",
     "status": "ok",
     "forecast": {
-      "rationale": "Iceland experienced significant volcanic activity in late 2023, with eruptions on the Reykjanes Peninsula. A notable eruption occurred in November 2023 near Grindavík, which would resolve this Yes.",
+      "rationale": "Iceland experienced significant volcanic activity in late 2023, with eruptions on the Reykjanes Peninsula. A notable eruption occurred in November 2023 near Grindav\u00edk, which would resolve this Yes.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -149,8 +158,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "A volcanic eruption occurred on the Reykjanes Peninsula in Iceland in November 2023, near the town of Grindavík.",
-          "The eruption followed weeks of intense seismic activity and ground deformation, leading to evacuation of Grindavík residents in November 2023."
+          "A volcanic eruption occurred on the Reykjanes Peninsula in Iceland in November 2023, near the town of Grindav\u00edk.",
+          "The eruption followed weeks of intense seismic activity and ground deformation, leading to evacuation of Grindav\u00edk residents in November 2023."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -175,10 +184,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "SpaceX conducted IFT-3 in March 2024, IFT-4 in June 2024, IFT-5 in October 2024, and IFT-6 in November 2024 — four integrated flight tests total in 2024.",
+          "SpaceX conducted IFT-3 in March 2024, IFT-4 in June 2024, IFT-5 in October 2024, and IFT-6 in November 2024 \u2014 four integrated flight tests total in 2024.",
           "IFT-4 was the first to successfully reach space and achieve a controlled splashdown of the booster; subsequent flights also reached space, but total count was around 3-4 reaching outer space, not five."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "IFT-3 (not IFT-4) was the first Starship flight to reach space; IFT-3 crossed the 100 km boundary on March 14, 2024. IFT-4 was the first to achieve controlled splashdowns of both stages."
+        ]
       }
     }
   },
@@ -186,14 +200,14 @@
     "condition_id": "0xcfade890130c9156602dbc9589af4277b2480b674488e0b74534c14da057f7bb",
     "market_slug": "will-the-october-2024-temperature-increase-be-greater-than-1pt40c",
     "event_slug": "october-2024-temperature-increase-c",
-    "title": "Will the October 2024 temperature increase be greater than 1.40°C?",
+    "title": "Will the October 2024 temperature increase be greater than 1.40\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-10-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "453420",
     "status": "ok",
     "forecast": {
-      "rationale": "October 2024 was part of a record-warm streak. Global temperatures in 2024 were consistently well above 1.5°C anomaly for many months. October 2024 likely recorded an anomaly above 1.40°C given the sustained El Niño and background warming trend throughout 2024.",
+      "rationale": "October 2024 was part of a record-warm streak. Global temperatures in 2024 were consistently well above 1.5\u00b0C anomaly for many months. October 2024 likely recorded an anomaly above 1.40\u00b0C given the sustained El Ni\u00f1o and background warming trend throughout 2024.",
       "probabilities": {
         "Yes": 0.85,
         "No": 0.15
@@ -201,8 +215,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2024 was the hottest year on record, with most months exceeding 1.5°C above pre-industrial levels",
-          "October 2024 global temperature anomaly was reported at approximately 1.65°C above pre-industrial baseline by Copernicus Climate Change Service"
+          "2024 was the hottest year on record, with most months exceeding 1.5\u00b0C above pre-industrial levels",
+          "October 2024 global temperature anomaly was reported at approximately 1.65\u00b0C above pre-industrial baseline by Copernicus Climate Change Service"
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -231,7 +245,9 @@
           "Milton made landfall as a Category 3 hurricane, not Category 5, despite having been a powerful Category 5 storm earlier over the Gulf of Mexico.",
           "Milton rapidly intensified to Category 5 with winds near 180 mph over the Gulf but weakened before hitting Florida's west coast."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -239,14 +255,14 @@
     "condition_id": "0x4221fc378c148f0320a06d636d1335418207c23df410a54f98897b02c9cb7a21",
     "market_slug": "will-the-december-2024-temperature-increase-be-between-1pt30-1pt34c",
     "event_slug": "december-2024-temperature-increase-c",
-    "title": "Will the December 2024 temperature increase be between 1.30-1.34°C?",
+    "title": "Will the December 2024 temperature increase be between 1.30-1.34\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "618869",
     "status": "ok",
     "forecast": {
-      "rationale": "December 2024 global temperature anomaly data from Copernicus/ERA5 showed 2024 was an exceptionally warm year. December 2024 was reported at approximately 1.60°C above pre-industrial baseline, well above the 1.30-1.34°C range in question.",
+      "rationale": "December 2024 global temperature anomaly data from Copernicus/ERA5 showed 2024 was an exceptionally warm year. December 2024 was reported at approximately 1.60\u00b0C above pre-industrial baseline, well above the 1.30-1.34\u00b0C range in question.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -254,10 +270,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "December 2024 global temperature anomaly was reported by Copernicus Climate Change Service at approximately 1.60°C above pre-industrial levels",
-          "2024 was the first calendar year to exceed 1.5°C above pre-industrial average on an annual basis, with monthly anomalies generally well above 1.34°C throughout the year"
+          "December 2024 global temperature anomaly was reported by Copernicus Climate Change Service at approximately 1.60\u00b0C above pre-industrial levels",
+          "2024 was the first calendar year to exceed 1.5\u00b0C above pre-industrial average on an annual basis, with monthly anomalies generally well above 1.34\u00b0C throughout the year"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "December 2024 global temperature anomaly was 1.69\u00b0C above pre-industrial levels, not \"approximately 1.60\u00b0C\""
+        ]
       }
     }
   },
@@ -272,7 +293,7 @@
     "volume": "10561.8",
     "status": "ok",
     "forecast": {
-      "rationale": "Iceland experienced significant volcanic activity in 2023, with eruptions on the Reykjanes Peninsula. The Litli-Hrútur eruption occurred in July 2023, and further eruptions followed later in the year near Grindavík in December 2023.",
+      "rationale": "Iceland experienced significant volcanic activity in 2023, with eruptions on the Reykjanes Peninsula. The Litli-Hr\u00fatur eruption occurred in July 2023, and further eruptions followed later in the year near Grindav\u00edk in December 2023.",
       "probabilities": {
         "Yes": 0.98,
         "No": 0.02
@@ -280,11 +301,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Litli-Hrútur eruption on the Reykjanes Peninsula began in July 2023",
-          "A new eruption occurred near Grindavík in December 2023, forcing evacuation of the town",
+          "Litli-Hr\u00fatur eruption on the Reykjanes Peninsula began in July 2023",
+          "A new eruption occurred near Grindav\u00edk in December 2023, forcing evacuation of the town",
           "Multiple eruption events on Reykjanes Peninsula throughout 2023"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -311,7 +334,8 @@
           "By late 2024, the U.S. had reported approximately 60+ human H5N1 cases, primarily linked to dairy cattle exposure",
           "Cases accelerated in late 2024 but the 100-case threshold was uncertain as of the close date"
         ],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -338,7 +362,9 @@
           "Notable storms included Hurricane Helene (which caused catastrophic flooding in the Carolinas) and Hurricane Milton (which struck Florida in October 2024).",
           "The season was declared one of the most active in recent history, with multiple major hurricanes (Category 3+)."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -353,7 +379,7 @@
     "volume": "353862",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was a record-breaking year for global temperatures, with the annual average anomaly reaching approximately 1.45°C above pre-industrial levels according to multiple datasets (ERA5/Copernicus). This clearly exceeds the 1.13°C threshold.",
+      "rationale": "2023 was a record-breaking year for global temperatures, with the annual average anomaly reaching approximately 1.45\u00b0C above pre-industrial levels according to multiple datasets (ERA5/Copernicus). This clearly exceeds the 1.13\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.97,
         "No": 0.03
@@ -361,10 +387,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was confirmed as the hottest year on record, with global mean temperature approximately 1.45°C above pre-industrial baseline according to Copernicus Climate Change Service/ERA5.",
-          "Every month of 2023 set monthly temperature records, and the annual anomaly far exceeded the 1.13°C threshold referenced in the question."
+          "2023 was confirmed as the hottest year on record, with global mean temperature approximately 1.45\u00b0C above pre-industrial baseline according to Copernicus Climate Change Service/ERA5.",
+          "Every month of 2023 set monthly temperature records, and the annual anomaly far exceeded the 1.13\u00b0C threshold referenced in the question."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The claim \"Every month of 2023 set monthly temperature records\" is incorrect. Only months from June to December 2023 set new monthly records; January through May did not."
+        ]
       }
     }
   },
@@ -379,7 +410,7 @@
     "volume": "4166.62",
     "status": "ok",
     "forecast": {
-      "rationale": "Iceland experienced significant volcanic activity on the Reykjanes Peninsula in late 2023. A major eruption occurred near Grindavík in mid-November 2023, after weeks of intense seismic activity and evacuation of the town.",
+      "rationale": "Iceland experienced significant volcanic activity on the Reykjanes Peninsula in late 2023. A major eruption occurred near Grindav\u00edk in mid-November 2023, after weeks of intense seismic activity and evacuation of the town.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -387,8 +418,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Grindavík, a town on the Reykjanes Peninsula, was evacuated in early November 2023 due to intense seismic swarms and ground deformation indicating magma intrusion.",
-          "A volcanic eruption occurred on the Reykjanes Peninsula in November 2023, with fissures opening near Grindavík, though the major eruption that directly threatened the town came in December 2023."
+          "Grindav\u00edk, a town on the Reykjanes Peninsula, was evacuated in early November 2023 due to intense seismic swarms and ground deformation indicating magma intrusion.",
+          "A volcanic eruption occurred on the Reykjanes Peninsula in November 2023, with fissures opening near Grindav\u00edk, though the major eruption that directly threatened the town came in December 2023."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -416,7 +447,12 @@
           "Starship Flight 6 launched on November 19, 2024, one day after the close time of this market.",
           "The launch occurred from Starbase in Boca Chica, Texas, and successfully caught the Super Heavy booster with the mechazilla arms."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Flight 6's Super Heavy booster was not successfully caught by Mechazilla. An automated health check triggered an abort, and the booster instead splashed down in the Gulf of Mexico."
+        ]
       }
     }
   },
@@ -431,7 +467,7 @@
     "volume": "91223.7",
     "status": "ok",
     "forecast": {
-      "rationale": "The 2023 Atlantic Hurricane Season was notably active, producing 20 named storms total, which exceeded the threshold of 19. This was an above-normal season driven by warm Atlantic SSTs despite El Niño.",
+      "rationale": "The 2023 Atlantic Hurricane Season was notably active, producing 20 named storms total, which exceeded the threshold of 19. This was an above-normal season driven by warm Atlantic SSTs despite El Ni\u00f1o.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -440,10 +476,15 @@
         "recognized_event": true,
         "evidence_facts": [
           "The 2023 Atlantic Hurricane Season produced 20 named storms, exceeding the 19-storm threshold.",
-          "The season was notably active with 7 hurricanes and 3 major hurricanes, despite El Niño conditions that typically suppress activity.",
+          "The season was notably active with 7 hurricanes and 3 major hurricanes, despite El Ni\u00f1o conditions that typically suppress activity.",
           "Notable storms included Hurricane Idalia, Lee (which reached Category 5), and Otis (which devastated Acapulco as a Category 5)."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Hurricane Otis was an Eastern Pacific hurricane in 2023, not an Atlantic hurricane; it should not be listed among notable Atlantic storms of the 2023 season."
+        ]
       }
     }
   },
@@ -466,10 +507,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "May 2024 was confirmed as the hottest May on record by Copernicus Climate Change Service, with global average temperature approximately 1.52°C above pre-industrial levels.",
+          "May 2024 was confirmed as the hottest May on record by Copernicus Climate Change Service, with global average temperature approximately 1.52\u00b0C above pre-industrial levels.",
           "It was the 12th consecutive month of record-breaking global temperatures, continuing a streak that began in June 2023."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -492,7 +535,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -518,7 +562,9 @@
           "US H5N1 human cases in 2024 were primarily dairy farm workers and were being tracked by CDC",
           "By late November 2024, cumulative US human H5N1 cases were approximately 50-60, well below 100"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -544,7 +590,9 @@
           "Hurricane Helene made landfall near Perry, Florida on September 26-27, 2024 as a Category 4 hurricane with winds of approximately 140 mph.",
           "Helene caused catastrophic damage across the southeastern United States, particularly in western North Carolina, making it one of the deadliest hurricanes in US history."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -567,11 +615,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service confirmed June 2024 was the hottest June ever recorded, with global average surface air temperature of approximately 16.66°C, about 1.5°C above pre-industrial levels.",
+          "Copernicus Climate Change Service confirmed June 2024 was the hottest June ever recorded, with global average surface air temperature of approximately 16.66\u00b0C, about 1.5\u00b0C above pre-industrial levels.",
           "It was the 13th consecutive month of record-breaking global temperatures, continuing a streak that began in June 2023.",
           "NOAA also confirmed June 2024 as the warmest June in their 175-year record."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -594,7 +644,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -621,7 +672,9 @@
           "Starliner experienced helium leaks and thruster failures, causing NASA to delay the return well beyond July 21, 2024.",
           "They eventually returned to Earth on SpaceX Crew Dragon in early 2025, not on Starliner."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -647,7 +700,9 @@
           "Hurricane Beryl made landfall on the Texas coast near Matagorda Bay on July 8, 2024 as a Category 1 hurricane with winds around 80 mph.",
           "Beryl struck Texas as a hurricane, not a tropical storm, so the condition of hitting as a tropical storm was not met."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -655,14 +710,14 @@
     "condition_id": "0x7fe1c5da1d0b1adac75a6b185a8ac59849ce20bfd2019ed7d45ef65a08a64c5c",
     "market_slug": "will-april-2024-show-an-increase-between-1pt20c-1pt25c",
     "event_slug": "how-hot-will-april-2024-be",
-    "title": "Will April 2024 show an increase between 1.20°C-1.25°C?",
+    "title": "Will April 2024 show an increase between 1.20\u00b0C-1.25\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-05-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "98020.4",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 was an exceptionally warm month. I recall that April 2024 had a global average temperature anomaly of approximately 1.58°C above pre-industrial levels (ERA5/Copernicus data), making it the 11th consecutive month of record warmth. This would be well above the 1.20-1.25°C range.",
+      "rationale": "April 2024 was an exceptionally warm month. I recall that April 2024 had a global average temperature anomaly of approximately 1.58\u00b0C above pre-industrial levels (ERA5/Copernicus data), making it the 11th consecutive month of record warmth. This would be well above the 1.20-1.25\u00b0C range.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -670,10 +725,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 recorded a global average temperature anomaly of approximately 1.58°C above pre-industrial baseline according to Copernicus Climate Change Service (ERA5).",
-          "April 2024 was the 11th consecutive month of record-breaking global temperatures, far exceeding the 1.20-1.25°C range."
+          "April 2024 recorded a global average temperature anomaly of approximately 1.58\u00b0C above pre-industrial baseline according to Copernicus Climate Change Service (ERA5).",
+          "April 2024 was the 11th consecutive month of record-breaking global temperatures, far exceeding the 1.20-1.25\u00b0C range."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -696,7 +753,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -722,7 +780,9 @@
           "Butch Wilmore and Suni Williams docked at ISS on Boeing Starliner in early June 2024 but experienced helium leaks and thruster failures.",
           "NASA repeatedly delayed the return, and by July 4, 2024 the astronauts had not departed; they ultimately returned on SpaceX Crew Dragon in early 2025."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -748,7 +808,12 @@
           "Hurricane Francine made landfall in Louisiana on September 11, 2024 as a Category 2 hurricane",
           "Francine struck near Morgan City/Terrebonne Bay area in Louisiana with winds around 100 mph"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Maximum sustained winds at landfall were 105 mph, not \"around 100 mph\""
+        ]
       }
     }
   },
@@ -775,7 +840,9 @@
           "Multiple independent replication attempts (including groups in China, USA, Europe) failed to confirm superconductivity; the partial levitation was attributed to ferromagnetism/diamagnetism, not superconductivity.",
           "By August-September 2023, scientific consensus solidly concluded LK-99 is not a room-temperature superconductor."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -798,7 +865,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -821,7 +889,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -847,7 +916,9 @@
           "The 2023 Atlantic hurricane season saw no US hurricane landfalls in November.",
           "Late November 2023 had no significant tropical systems making US landfall as hurricanes."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -855,14 +926,14 @@
     "condition_id": "0xbfe1f4ddd4769cbabdca18d3bbf2fc4dddfcd90d7d4c34b06fcb25d6e4bbf4ac",
     "market_slug": "august-temperature-increase-by-less-than-1pt15c",
     "event_slug": "august-2024-temperature-increase-c",
-    "title": "August temperature increase by less than 1.15°C?",
+    "title": "August temperature increase by less than 1.15\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-08-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "473762",
     "status": "ok",
     "forecast": {
-      "rationale": "August 2024 global temperature anomaly data: August 2024 was reported as extremely warm, with Copernicus Climate Change Service reporting August 2024 anomaly around 1.51°C above pre-industrial baseline, well above 1.15°C threshold. This would resolve No.",
+      "rationale": "August 2024 global temperature anomaly data: August 2024 was reported as extremely warm, with Copernicus Climate Change Service reporting August 2024 anomaly around 1.51\u00b0C above pre-industrial baseline, well above 1.15\u00b0C threshold. This would resolve No.",
       "probabilities": {
         "Yes": 0.08,
         "No": 0.92
@@ -870,10 +941,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported August 2024 global average temperature was approximately 1.51°C above the pre-industrial (1850-1900) baseline",
+          "Copernicus Climate Change Service reported August 2024 global average temperature was approximately 1.51\u00b0C above the pre-industrial (1850-1900) baseline",
           "August 2024 was the 13th consecutive month with record-breaking global temperatures, continuing the streak from 2023-2024"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "August 2024 was not the 13th consecutive month with record-breaking global temperatures; it was part of a 15-month streak of record-hot monthly temperatures spanning June 2023 through August 2024, or alternatively, it came after a 13-month streak that ended in June 2024. The \"13th month\" reference in the LLM's reasoning conflates this with a different metric (months exceeding 1.5\u00b0C above pre-industrial levels in a particular 14-month period)."
+        ]
       }
     }
   },
@@ -896,7 +972,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -923,7 +1000,9 @@
           "WHO monitored the situation but determined it was seasonal respiratory illness activity, not a novel pathogen requiring pandemic declaration.",
           "No global pandemic was declared by WHO for this event before February 1, 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -946,7 +1025,9 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -969,7 +1050,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -995,7 +1077,9 @@
           "IFT-4 launched on June 6, 2024 from Boca Chica, Texas",
           "Starship upper stage successfully survived reentry and splashed down in the Indian Ocean, and Super Heavy booster also survived reentry and splashed down in the Gulf of Mexico"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1021,7 +1105,9 @@
           "Hurricane Beryl made landfall near Matagorda Bay, Texas on July 8, 2024 as a Category 1 hurricane.",
           "Beryl made landfall in the early morning hours of July 8, 2024 (around 4 AM local time / ~09:00 UTC), before the 12:00 UTC close time."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1036,7 +1122,7 @@
     "volume": "128471",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 was an exceptionally warm month globally. ERA5 data showed May 2024 had an anomaly of approximately 1.52°C above the pre-industrial baseline, making it the warmest May on record. This is well above the 1.03°C threshold, so the condition 'less than 1.03C' was not met.",
+      "rationale": "May 2024 was an exceptionally warm month globally. ERA5 data showed May 2024 had an anomaly of approximately 1.52\u00b0C above the pre-industrial baseline, making it the warmest May on record. This is well above the 1.03\u00b0C threshold, so the condition 'less than 1.03C' was not met.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -1044,10 +1130,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "May 2024 recorded a global average temperature anomaly of approximately 1.52°C above the pre-industrial baseline according to Copernicus/ERA5 data.",
-          "May 2024 was the 12th consecutive month of record-breaking global temperatures, far exceeding the 1.03°C threshold."
+          "May 2024 recorded a global average temperature anomaly of approximately 1.52\u00b0C above the pre-industrial baseline according to Copernicus/ERA5 data.",
+          "May 2024 was the 12th consecutive month of record-breaking global temperatures, far exceeding the 1.03\u00b0C threshold."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1073,7 +1161,12 @@
           "IFT-4 launched on June 6, 2024 from Boca Chica, Texas (Starbase)",
           "Starship reached space and successfully reentered the atmosphere, with both stages achieving mission objectives including controlled splashdowns"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The Super Heavy booster (B11) did not reach space on IFT-4; only the Starship upper stage reached space altitude. The booster executed its landing burn and splashed down at lower altitudes after completing its boostback burn."
+        ]
       }
     }
   },
@@ -1108,14 +1201,14 @@
     "condition_id": "0x7716068dbaff8bf09bfcf73376063fe0ec974cc19dc4751a650426989a56d6cb",
     "market_slug": "70f-in-nyc-in-december",
     "event_slug": "70f-in-nyc-in-december",
-    "title": "70°F in NYC in December?",
+    "title": "70\u00b0F in NYC in December?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "94404.7",
     "status": "ok",
     "forecast": {
-      "rationale": "Reaching 70°F in NYC in December is rare but not impossible. Historical records show it has occurred a handful of times. With climate trends, the probability is low but non-negligible, roughly 10-15% in any given year.",
+      "rationale": "Reaching 70\u00b0F in NYC in December is rare but not impossible. Historical records show it has occurred a handful of times. With climate trends, the probability is low but non-negligible, roughly 10-15% in any given year.",
       "probabilities": {
         "Yes": 0.12,
         "No": 0.88
@@ -1123,7 +1216,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1146,7 +1240,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1169,7 +1264,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1177,14 +1273,14 @@
     "condition_id": "0xd0598cd28ae6aef98f3a55f4eaa10791bc3b3a1121b46de022fbd6d7965702e1",
     "market_slug": "will-june-2024-have-a-temperature-increase-of-less-than-1pt09c",
     "event_slug": "june-2024-temperature-increase-c",
-    "title": "Will June 2024 have a temperature increase of less than 1.09°C?",
+    "title": "Will June 2024 have a temperature increase of less than 1.09\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-07-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "72476.8",
     "status": "ok",
     "forecast": {
-      "rationale": "June 2024 was reported as the 13th consecutive month of record global temperatures. The ERA5/Copernicus data showed June 2024 had an anomaly of approximately 1.50°C above pre-industrial levels, well above the 1.09°C threshold, so the condition would not be met.",
+      "rationale": "June 2024 was reported as the 13th consecutive month of record global temperatures. The ERA5/Copernicus data showed June 2024 had an anomaly of approximately 1.50\u00b0C above pre-industrial levels, well above the 1.09\u00b0C threshold, so the condition would not be met.",
       "probabilities": {
         "Yes": 0.07,
         "No": 0.93
@@ -1192,10 +1288,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "June 2024 was recorded as the hottest June on record by Copernicus Climate Change Service with an anomaly of ~1.50°C above the pre-industrial baseline.",
+          "June 2024 was recorded as the hottest June on record by Copernicus Climate Change Service with an anomaly of ~1.50\u00b0C above the pre-industrial baseline.",
           "It was part of a streak of 13 consecutive months of record-breaking global temperatures ending mid-2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1203,14 +1301,14 @@
     "condition_id": "0x3189e493d87b09525eced3aaae9bb48a9460cef9aa7e6b1c4ed3c4c2df8ffe6a",
     "market_slug": "will-the-november-2024-temperature-increase-be-between-1pt20-1pt24c",
     "event_slug": "november-2024-temperature-increase-c",
-    "title": "Will the November 2024 temperature increase be between 1.20-1.24°C?",
+    "title": "Will the November 2024 temperature increase be between 1.20-1.24\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-11-30T12:00:00Z",
     "actual_resolution": "No",
     "volume": "555925",
     "status": "ok",
     "forecast": {
-      "rationale": "November 2024 global temperature anomaly data from ERA5/Copernicus shows it was an extremely warm month. The anomaly was reported around 1.62°C above pre-industrial levels, well above the 1.20-1.24°C range specified.",
+      "rationale": "November 2024 global temperature anomaly data from ERA5/Copernicus shows it was an extremely warm month. The anomaly was reported around 1.62\u00b0C above pre-industrial levels, well above the 1.20-1.24\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -1218,10 +1316,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "November 2024 was reported by Copernicus Climate Change Service as approximately 1.62°C above pre-industrial baseline",
-          "2024 was the first year to exceed 1.5°C annual average, with monthly anomalies consistently very high throughout the year"
+          "November 2024 was reported by Copernicus Climate Change Service as approximately 1.62\u00b0C above pre-industrial baseline",
+          "2024 was the first year to exceed 1.5\u00b0C annual average, with monthly anomalies consistently very high throughout the year"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1247,7 +1347,9 @@
           "IFT-3 launched March 14, 2024; IFT-4 launched June 6, 2024; IFT-5 launched October 13, 2024; IFT-6 launched November 19, 2024",
           "All four integrated flight tests in 2024 reached space, with IFT-5 notably catching the Super Heavy booster with the mechazilla arms and IFT-4 achieving successful splashdowns"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1273,7 +1375,12 @@
           "The 2024 Atlantic hurricane season was one of the most active on record, with 18 named storms being a commonly cited figure, not exceeding 25.",
           "The season included notable storms like Helene and Milton, but the total named storm count did not reach 25."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The 2024 Atlantic hurricane season had exactly 18 named storms as the final count, not approximately 18-20 after late-season activity. The 18 named storms was the total for the entire season, not an intermediate figure that increased."
+        ]
       }
     }
   },
@@ -1281,14 +1388,14 @@
     "condition_id": "0x16a920cf5afde2c3c2488e18c028d938d054e420e05b5516e30c6c64de0f1247",
     "market_slug": "global-heat-increase-less-than-1pt22c-for-2024",
     "event_slug": "global-heat-increase-2024",
-    "title": "Global heat increase less than 1.22°C for 2024?",
+    "title": "Global heat increase less than 1.22\u00b0C for 2024?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "1.85149e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "2024 was reported as the hottest year on record, with global average temperatures approximately 1.5°C above pre-industrial levels. The annual anomaly exceeded 1.22°C, making the condition 'less than 1.22°C' false.",
+      "rationale": "2024 was reported as the hottest year on record, with global average temperatures approximately 1.5\u00b0C above pre-industrial levels. The annual anomaly exceeded 1.22\u00b0C, making the condition 'less than 1.22\u00b0C' false.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1296,10 +1403,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2024 was confirmed as the hottest year on record, with global mean temperature anomaly around 1.45-1.55°C above pre-industrial baseline.",
-          "Copernicus Climate Change Service reported 2024 as the first calendar year to exceed 1.5°C above pre-industrial levels on an annual average basis."
+          "2024 was confirmed as the hottest year on record, with global mean temperature anomaly around 1.45-1.55\u00b0C above pre-industrial baseline.",
+          "Copernicus Climate Change Service reported 2024 as the first calendar year to exceed 1.5\u00b0C above pre-industrial levels on an annual average basis."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1307,14 +1416,14 @@
     "condition_id": "0x9c9b3923bac52ec0fb09a8257ba86552890660ccaa9082a7462b882f82762d9a",
     "market_slug": "will-the-october-2024-temperature-increase-be-between-1pt35-1pt40c",
     "event_slug": "october-2024-temperature-increase-c",
-    "title": "Will the October 2024 temperature increase be between 1.35-1.40°C?",
+    "title": "Will the October 2024 temperature increase be between 1.35-1.40\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-10-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "95316.5",
     "status": "ok",
     "forecast": {
-      "rationale": "October 2024 global temperature anomaly data from Copernicus/ERA5 showed it was one of the warmest Octobers on record. The anomaly was reported around 1.65°C above pre-industrial levels, well above the 1.35-1.40°C range specified.",
+      "rationale": "October 2024 global temperature anomaly data from Copernicus/ERA5 showed it was one of the warmest Octobers on record. The anomaly was reported around 1.65\u00b0C above pre-industrial levels, well above the 1.35-1.40\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1322,10 +1431,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "October 2024 was reported by Copernicus Climate Change Service as having a global mean temperature anomaly of approximately 1.65°C above pre-industrial baseline",
-          "2024 was tracking as the hottest year on record, with monthly anomalies consistently exceeding 1.5°C throughout the year"
+          "October 2024 was reported by Copernicus Climate Change Service as having a global mean temperature anomaly of approximately 1.65\u00b0C above pre-industrial baseline",
+          "2024 was tracking as the hottest year on record, with monthly anomalies consistently exceeding 1.5\u00b0C throughout the year"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "2024 did not have monthly anomalies consistently exceeding 1.5\u00b0C throughout the year; May through September had anomalies between 1.48-1.54\u00b0C, mostly below or barely at the 1.5\u00b0C threshold."
+        ]
       }
     }
   },
@@ -1351,7 +1465,9 @@
           "Hurricane Milton made landfall near Siesta Key, Florida on October 9, 2024 as a Category 3 hurricane.",
           "Milton had peak intensity as a Category 5 storm over the Gulf of Mexico before weakening, but retained Category 3 status at landfall with winds near 120 mph."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1359,14 +1475,14 @@
     "condition_id": "0x980b1b2c0ac1bb550dbec7df22ea3fd0d21159886e59f86ce56bc415dd9cf182",
     "market_slug": "will-the-december-2024-temperature-increase-be-less-than-1pt20c",
     "event_slug": "december-2024-temperature-increase-c",
-    "title": "Will the December 2024 temperature increase be less than 1.20°C?",
+    "title": "Will the December 2024 temperature increase be less than 1.20\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "545716",
     "status": "ok",
     "forecast": {
-      "rationale": "December 2024 global temperature anomaly data: 2024 was an exceptionally warm year with many months exceeding 1.5°C above pre-industrial levels. December 2024 was likely also very warm, potentially above 1.20°C, given the persistent warmth throughout 2024 driven by El Niño conditions.",
+      "rationale": "December 2024 global temperature anomaly data: 2024 was an exceptionally warm year with many months exceeding 1.5\u00b0C above pre-industrial levels. December 2024 was likely also very warm, potentially above 1.20\u00b0C, given the persistent warmth throughout 2024 driven by El Ni\u00f1o conditions.",
       "probabilities": {
         "Yes": 0.2,
         "No": 0.8
@@ -1374,7 +1490,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1401,7 +1518,12 @@
           "Major hurricanes Helene and Milton both made landfall in the US in 2024, contributing to an above-average season.",
           "NOAA had predicted an extremely active 2024 season due to record warm sea surface temperatures."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "Hurricane Milton made landfall as a Category 3 storm, not a major hurricane (major hurricanes are Category 3 or higher at landfall, but Milton weakened from Category 5 to Category 3 before landfall)"
+        ]
       }
     }
   },
@@ -1416,7 +1538,7 @@
     "volume": "329086",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was a record-breaking year for global temperatures, with the annual average anomaly reaching approximately 1.45°C above pre-industrial levels according to Copernicus/ERA5 data, well above the 1.11°C threshold. This was driven by El Niño and long-term warming trends.",
+      "rationale": "2023 was a record-breaking year for global temperatures, with the annual average anomaly reaching approximately 1.45\u00b0C above pre-industrial levels according to Copernicus/ERA5 data, well above the 1.11\u00b0C threshold. This was driven by El Ni\u00f1o and long-term warming trends.",
       "probabilities": {
         "Yes": 0.98,
         "No": 0.02
@@ -1424,10 +1546,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was confirmed as the hottest year on record, with global mean temperature approximately 1.45°C above pre-industrial baseline according to Copernicus Climate Change Service.",
-          "Every month from June through December 2023 set monthly temperature records, and the annual anomaly far exceeded 1.11°C above pre-industrial levels."
+          "2023 was confirmed as the hottest year on record, with global mean temperature approximately 1.45\u00b0C above pre-industrial baseline according to Copernicus Climate Change Service.",
+          "Every month from June through December 2023 set monthly temperature records, and the annual anomaly far exceeded 1.11\u00b0C above pre-industrial levels."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1454,7 +1578,9 @@
           "Helene had maximum sustained winds of approximately 140 mph at landfall, qualifying as a strong Category 4 storm.",
           "Helene caused catastrophic flooding across the Southeast, particularly in western North Carolina and Asheville area."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1462,14 +1588,14 @@
     "condition_id": "0x808fc2450113e86e89787be4bcd033ad198c656fe4d18bd7f48a4443f72acd8c",
     "market_slug": "will-april-2024-show-an-increase-of-greater-than-1pt31c",
     "event_slug": "how-hot-will-april-2024-be",
-    "title": "Will April 2024 show an increase of greater than 1.31°C?",
+    "title": "Will April 2024 show an increase of greater than 1.31\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-05-01T12:00:00Z",
     "actual_resolution": "Yes",
     "volume": "97500.6",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 was during an El Niño period with record-breaking global temperatures. The global average temperature anomaly for April 2024 was reported at approximately 1.58°C above pre-industrial levels, exceeding the 1.31°C threshold.",
+      "rationale": "April 2024 was during an El Ni\u00f1o period with record-breaking global temperatures. The global average temperature anomaly for April 2024 was reported at approximately 1.58\u00b0C above pre-industrial levels, exceeding the 1.31\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.97,
         "No": 0.03
@@ -1477,10 +1603,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 recorded a global mean temperature anomaly of approximately 1.58°C above pre-industrial baseline, according to Copernicus Climate Change Service data.",
-          "April 2024 was the 11th consecutive month of record-breaking global temperatures, driven by the ongoing El Niño event and long-term climate change."
+          "April 2024 recorded a global mean temperature anomaly of approximately 1.58\u00b0C above pre-industrial baseline, according to Copernicus Climate Change Service data.",
+          "April 2024 was the 11th consecutive month of record-breaking global temperatures, driven by the ongoing El Ni\u00f1o event and long-term climate change."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1507,7 +1635,12 @@
           "The season was above average but fell just short of 21 named storms threshold",
           "Notable storms included Lee (Category 5), Idalia, and Franklin during the 2023 season"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The last storm of the 2023 season was Hurricane Tammy (dissipated October 28), not Tropical Storm Vince. Vince was never officially named in 2023; only 20 of the 21 designated names were used."
+        ]
       }
     }
   },
@@ -1515,14 +1648,14 @@
     "condition_id": "0x2d21171331eb7efcf6b2339c1e4e56ce176803a49bd1efc007834c61cd6b735a",
     "market_slug": "august-temperature-increase-by-between-1pt15-1pt19c",
     "event_slug": "august-2024-temperature-increase-c",
-    "title": "August temperature increase by between 1.15-1.19°C?",
+    "title": "August temperature increase by between 1.15-1.19\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-08-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "432073",
     "status": "ok",
     "forecast": {
-      "rationale": "This refers to global average temperature anomaly for August 2024. August 2024 was exceptionally warm; global temperature anomalies were around 1.5°C above pre-industrial levels. The 1.15-1.19°C range appears too low for August 2024 given the record-breaking heat observed that year.",
+      "rationale": "This refers to global average temperature anomaly for August 2024. August 2024 was exceptionally warm; global temperature anomalies were around 1.5\u00b0C above pre-industrial levels. The 1.15-1.19\u00b0C range appears too low for August 2024 given the record-breaking heat observed that year.",
       "probabilities": {
         "Yes": 0.07,
         "No": 0.93
@@ -1530,10 +1663,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "August 2024 was one of the hottest months on record, with global temperature anomalies well above 1.5°C relative to pre-industrial baselines according to Copernicus Climate Change Service.",
-          "The year 2024 saw consecutive months of record-breaking heat, with anomalies consistently exceeding 1.4-1.5°C, making the 1.15-1.19°C range unlikely for August 2024."
+          "August 2024 was one of the hottest months on record, with global temperature anomalies well above 1.5\u00b0C relative to pre-industrial baselines according to Copernicus Climate Change Service.",
+          "The year 2024 saw consecutive months of record-breaking heat, with anomalies consistently exceeding 1.4-1.5\u00b0C, making the 1.15-1.19\u00b0C range unlikely for August 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1556,7 +1691,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1571,7 +1707,7 @@
     "volume": "89595.8",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 was one of the hottest months on record. Global average temperatures in early 2024 were running well above 1.5°C above pre-industrial levels, and May 2024 specifically was reported as exceeding 1.5°C anomaly, well above the 1.30°C threshold.",
+      "rationale": "May 2024 was one of the hottest months on record. Global average temperatures in early 2024 were running well above 1.5\u00b0C above pre-industrial levels, and May 2024 specifically was reported as exceeding 1.5\u00b0C anomaly, well above the 1.30\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -1580,7 +1716,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "May 2024 was reported as the 12th consecutive month of record-breaking global temperatures.",
-          "Copernicus Climate Change Service reported May 2024 global average temperature anomaly at approximately 1.52°C above pre-industrial baseline, well exceeding 1.30°C."
+          "Copernicus Climate Change Service reported May 2024 global average temperature anomaly at approximately 1.52\u00b0C above pre-industrial baseline, well exceeding 1.30\u00b0C."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1590,14 +1726,14 @@
     "condition_id": "0xaa30423bb63967ac86033ff5920f06691e99acbea7b4aee24272c52a127e7b9b",
     "market_slug": "will-june-2024-have-a-temperature-increase-of-between-1pt09c-and-1pt15c",
     "event_slug": "june-2024-temperature-increase-c",
-    "title": "Will June 2024 have a temperature increase of between 1.09°C and 1.15°C?",
+    "title": "Will June 2024 have a temperature increase of between 1.09\u00b0C and 1.15\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-07-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "67838.3",
     "status": "ok",
     "forecast": {
-      "rationale": "June 2024 was reported as the hottest June on record, with a global mean temperature anomaly of approximately 1.5°C above pre-industrial levels, well above the 1.09-1.15°C range specified. The anomaly was significantly higher than this narrow band.",
+      "rationale": "June 2024 was reported as the hottest June on record, with a global mean temperature anomaly of approximately 1.5\u00b0C above pre-industrial levels, well above the 1.09-1.15\u00b0C range specified. The anomaly was significantly higher than this narrow band.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1606,9 +1742,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "June 2024 was the 13th consecutive month of record-breaking global temperatures",
-          "Copernicus Climate Change Service reported June 2024 global average temperature was approximately 1.50°C above pre-industrial baseline, far exceeding the 1.09-1.15°C range"
+          "Copernicus Climate Change Service reported June 2024 global average temperature was approximately 1.50\u00b0C above pre-industrial baseline, far exceeding the 1.09-1.15\u00b0C range"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1616,14 +1754,14 @@
     "condition_id": "0xaf26a1f6b41e1642b3422d3134e536cbcebd99f4cd989c2722f56ab22449b77f",
     "market_slug": "will-the-november-2024-temperature-increase-be-greater-than-1pt39c",
     "event_slug": "november-2024-temperature-increase-c",
-    "title": "Will the November 2024 temperature increase be greater than 1.39°C?",
+    "title": "Will the November 2024 temperature increase be greater than 1.39\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-11-30T12:00:00Z",
     "actual_resolution": "No",
     "volume": "464315",
     "status": "ok",
     "forecast": {
-      "rationale": "November 2024 global temperature anomaly data: 2024 has been an exceptionally warm year with many months exceeding 1.5°C above pre-industrial levels. November 2024 was reported as approximately 1.62°C above pre-industrial baseline, well above the 1.39°C threshold.",
+      "rationale": "November 2024 global temperature anomaly data: 2024 has been an exceptionally warm year with many months exceeding 1.5\u00b0C above pre-industrial levels. November 2024 was reported as approximately 1.62\u00b0C above pre-industrial baseline, well above the 1.39\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.93,
         "No": 0.07
@@ -1631,8 +1769,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "November 2024 global mean temperature anomaly was reported at approximately 1.62°C above pre-industrial levels by Copernicus Climate Change Service",
-          "2024 was the first calendar year to exceed 1.5°C average warming, with most months in 2024 showing anomalies well above 1.39°C"
+          "November 2024 global mean temperature anomaly was reported at approximately 1.62\u00b0C above pre-industrial levels by Copernicus Climate Change Service",
+          "2024 was the first calendar year to exceed 1.5\u00b0C average warming, with most months in 2024 showing anomalies well above 1.39\u00b0C"
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1689,7 +1827,12 @@
           "Milton made landfall as a Category 3 hurricane with winds around 120 mph, having weakened from its peak Category 5 intensity",
           "Milton had been one of the strongest Atlantic hurricanes on record at its peak, but eyewall replacement cycles and wind shear weakened it before landfall"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "The landfall wind speed was 115 mph, not 120 mph; 120 mph was the wind speed before landfall on October 9."
+        ]
       }
     }
   },
@@ -1697,14 +1840,14 @@
     "condition_id": "0xc5e47c2e972c8359159e83136275d5570e2339f0b6b05bd341146167b9420c81",
     "market_slug": "global-heat-increase-between-1pt25c-and-1pt27c-for-2024",
     "event_slug": "global-heat-increase-2024",
-    "title": "Global heat increase between 1.25°C and 1.27°C for 2024?",
+    "title": "Global heat increase between 1.25\u00b0C and 1.27\u00b0C for 2024?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "1.73135e+06",
     "status": "ok",
     "forecast": {
-      "rationale": "2024 was the hottest year on record. Copernicus Climate Change Service reported 2024 global average temperature was approximately 1.60°C above pre-industrial levels, well above the 1.25-1.27°C range specified.",
+      "rationale": "2024 was the hottest year on record. Copernicus Climate Change Service reported 2024 global average temperature was approximately 1.60\u00b0C above pre-industrial levels, well above the 1.25-1.27\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -1712,10 +1855,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported 2024 as the first calendar year to exceed 1.5°C above pre-industrial levels",
-          "The global mean temperature anomaly for 2024 was approximately 1.60°C above the pre-industrial baseline, far exceeding the 1.25-1.27°C range"
+          "Copernicus Climate Change Service reported 2024 as the first calendar year to exceed 1.5\u00b0C above pre-industrial levels",
+          "The global mean temperature anomaly for 2024 was approximately 1.60\u00b0C above the pre-industrial baseline, far exceeding the 1.25-1.27\u00b0C range"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1723,14 +1868,14 @@
     "condition_id": "0xc7220901f4240c463dc30055759c5b986a47180cc8a1d2512f54606b7fe8fbca",
     "market_slug": "will-the-october-2024-temperature-increase-be-between-1pt23-1pt28c",
     "event_slug": "october-2024-temperature-increase-c",
-    "title": "Will the October 2024 temperature increase be between 1.23-1.28°C?",
+    "title": "Will the October 2024 temperature increase be between 1.23-1.28\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-10-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "94761.2",
     "status": "ok",
     "forecast": {
-      "rationale": "October 2024 global temperature anomaly data from ERA5/Copernicus. October 2024 was reported as approximately 1.65°C above pre-industrial levels, well above the 1.23-1.28°C range specified. The range is too narrow and too low given the elevated 2024 temperatures.",
+      "rationale": "October 2024 global temperature anomaly data from ERA5/Copernicus. October 2024 was reported as approximately 1.65\u00b0C above pre-industrial levels, well above the 1.23-1.28\u00b0C range specified. The range is too narrow and too low given the elevated 2024 temperatures.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -1738,10 +1883,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "October 2024 global mean temperature anomaly was approximately 1.65°C above pre-industrial baseline according to Copernicus Climate Change Service reports",
-          "2024 was the hottest year on record with monthly anomalies consistently well above 1.5°C throughout the year"
+          "October 2024 global mean temperature anomaly was approximately 1.65\u00b0C above pre-industrial baseline according to Copernicus Climate Change Service reports",
+          "2024 was the hottest year on record with monthly anomalies consistently well above 1.5\u00b0C throughout the year"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1768,7 +1915,9 @@
           "Helene had maximum sustained winds of approximately 140 mph at landfall, well above Category 1 threshold.",
           "Helene caused catastrophic flooding and damage across the southeastern US, particularly in western North Carolina."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1776,14 +1925,14 @@
     "condition_id": "0x95aa184e6468861d7438bc0a80b43a3db1628ea86baa8dd7c6cdbf5089891912",
     "market_slug": "will-the-december-2024-temperature-increase-be-between-1pt20-1pt24c",
     "event_slug": "december-2024-temperature-increase-c",
-    "title": "Will the December 2024 temperature increase be between 1.20-1.24°C?",
+    "title": "Will the December 2024 temperature increase be between 1.20-1.24\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "500998",
     "status": "ok",
     "forecast": {
-      "rationale": "December 2024 global temperature anomaly is a specific narrow range. Given 2024 was an exceptionally warm year with El Niño influence, December 2024 likely had elevated anomalies. The range 1.20-1.24°C is plausible but narrow (~0.05°C window), making it one of several possible bins.",
+      "rationale": "December 2024 global temperature anomaly is a specific narrow range. Given 2024 was an exceptionally warm year with El Ni\u00f1o influence, December 2024 likely had elevated anomalies. The range 1.20-1.24\u00b0C is plausible but narrow (~0.05\u00b0C window), making it one of several possible bins.",
       "probabilities": {
         "Yes": 0.12,
         "No": 0.88
@@ -1791,7 +1940,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1814,7 +1964,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -1829,7 +1980,7 @@
     "volume": "307850",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was a record-breaking year for global temperatures, with the annual average warming reaching approximately 1.45°C above pre-industrial levels according to major climate agencies like Copernicus/ERA5 and WMO. This clearly exceeds the 1.08°C threshold.",
+      "rationale": "2023 was a record-breaking year for global temperatures, with the annual average warming reaching approximately 1.45\u00b0C above pre-industrial levels according to major climate agencies like Copernicus/ERA5 and WMO. This clearly exceeds the 1.08\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.98,
         "No": 0.02
@@ -1837,11 +1988,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was confirmed as the hottest year on record, with global mean temperature approximately 1.45°C above pre-industrial baseline according to Copernicus Climate Change Service.",
-          "Every month from June through December 2023 set monthly temperature records, driving the annual average well above 1.08°C anomaly.",
+          "2023 was confirmed as the hottest year on record, with global mean temperature approximately 1.45\u00b0C above pre-industrial baseline according to Copernicus Climate Change Service.",
+          "Every month from June through December 2023 set monthly temperature records, driving the annual average well above 1.08\u00b0C anomaly.",
           "WMO and NASA also confirmed 2023 as the warmest year in recorded history, surpassing previous records by a significant margin."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1849,14 +2002,14 @@
     "condition_id": "0x0b566f7c936578ed6bccdeacf85919ae01d6e4186081a53b895dd70d95522867",
     "market_slug": "will-april-2024-show-an-increase-between-1pt14c-1pt19c",
     "event_slug": "how-hot-will-april-2024-be",
-    "title": "Will April 2024 show an increase between 1.14°C-1.19°C?",
+    "title": "Will April 2024 show an increase between 1.14\u00b0C-1.19\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-05-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "63629",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 was an exceptionally warm month. I recall that April 2024 had a global average temperature anomaly of approximately 1.58°C above pre-industrial levels (ERA5/Copernicus data), making it far above the 1.14°C-1.19°C range specified.",
+      "rationale": "April 2024 was an exceptionally warm month. I recall that April 2024 had a global average temperature anomaly of approximately 1.58\u00b0C above pre-industrial levels (ERA5/Copernicus data), making it far above the 1.14\u00b0C-1.19\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -1864,10 +2017,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 recorded a global mean temperature anomaly of approximately 1.58°C above the pre-industrial baseline according to Copernicus Climate Change Service (ERA5).",
-          "April 2024 was the 11th consecutive month to set a global temperature record, with anomalies well above 1.5°C, far exceeding the 1.14-1.19°C range."
+          "April 2024 recorded a global mean temperature anomaly of approximately 1.58\u00b0C above the pre-industrial baseline according to Copernicus Climate Change Service (ERA5).",
+          "April 2024 was the 11th consecutive month to set a global temperature record, with anomalies well above 1.5\u00b0C, far exceeding the 1.14-1.19\u00b0C range."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1875,14 +2030,14 @@
     "condition_id": "0xed117d5ff1bee649915bf6032010d03de49c8641d4893b8349c9a543abd09b3a",
     "market_slug": "august-temperature-increase-by-between-1pt20-1pt24c",
     "event_slug": "august-2024-temperature-increase-c",
-    "title": "August temperature increase by between 1.20-1.24°C?",
+    "title": "August temperature increase by between 1.20-1.24\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-08-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "386231",
     "status": "ok",
     "forecast": {
-      "rationale": "August 2024 global temperature anomaly. Copernicus Climate Change Service reported August 2024 was approximately 1.51°C above the pre-industrial baseline, which is outside the 1.20-1.24°C range specified.",
+      "rationale": "August 2024 global temperature anomaly. Copernicus Climate Change Service reported August 2024 was approximately 1.51\u00b0C above the pre-industrial baseline, which is outside the 1.20-1.24\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -1890,10 +2045,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported August 2024 global average temperature was approximately 1.51°C above the pre-industrial (1850-1900) baseline.",
+          "Copernicus Climate Change Service reported August 2024 global average temperature was approximately 1.51\u00b0C above the pre-industrial (1850-1900) baseline.",
           "August 2024 was reported as the warmest August on record, continuing a streak of record-breaking monthly temperatures through 2024."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1901,14 +2058,14 @@
     "condition_id": "0x6c824accbc5b6541cc5d8e1011cc92e945aa573eb70c758541dda07acc4e6216",
     "market_slug": "will-june-2024-have-a-temperature-increase-of-greater-than-1pt29c",
     "event_slug": "june-2024-temperature-increase-c",
-    "title": "Will June 2024 have a temperature increase of greater than 1.29°C?",
+    "title": "Will June 2024 have a temperature increase of greater than 1.29\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-07-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "34749",
     "status": "ok",
     "forecast": {
-      "rationale": "June 2024 was reported as the 13th consecutive month of record-breaking global temperatures. The anomaly for June 2024 was approximately 1.5°C above pre-industrial levels, well above the 1.29°C threshold.",
+      "rationale": "June 2024 was reported as the 13th consecutive month of record-breaking global temperatures. The anomaly for June 2024 was approximately 1.5\u00b0C above pre-industrial levels, well above the 1.29\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.95,
         "No": 0.05
@@ -1917,7 +2074,7 @@
         "recognized_event": true,
         "evidence_facts": [
           "June 2024 was the 13th consecutive month setting a global temperature record according to Copernicus Climate Change Service.",
-          "The global average temperature anomaly for June 2024 was reported at approximately 1.50°C above pre-industrial baseline, exceeding 1.29°C."
+          "The global average temperature anomaly for June 2024 was reported at approximately 1.50\u00b0C above pre-industrial baseline, exceeding 1.29\u00b0C."
         ],
         "recalled_outcome_if_known": "Yes"
       }
@@ -1927,14 +2084,14 @@
     "condition_id": "0x1a660c73a5f7c6b036bc9b9cd580b2da33f6b678ab45a07aefaa783456b44a78",
     "market_slug": "will-may-2024-show-an-increase-between-1pt03c-1pt09c",
     "event_slug": "may-2024-temperature-increase-c",
-    "title": "Will May 2024 show an increase between 1.03°C-1.09°C",
+    "title": "Will May 2024 show an increase between 1.03\u00b0C-1.09\u00b0C",
     "category": "Climate and Weather",
     "close_time": "2024-06-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "142042",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 was an exceptionally warm month. Global temperature anomalies in early 2024 were very high due to El Niño. May 2024 recorded approximately 1.52°C above pre-industrial levels (ERA5/Copernicus data), well above the 1.03-1.09°C range specified.",
+      "rationale": "May 2024 was an exceptionally warm month. Global temperature anomalies in early 2024 were very high due to El Ni\u00f1o. May 2024 recorded approximately 1.52\u00b0C above pre-industrial levels (ERA5/Copernicus data), well above the 1.03-1.09\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -1942,10 +2099,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "May 2024 was reported by Copernicus Climate Change Service as approximately 1.52°C above the pre-industrial baseline, making it the warmest May on record.",
-          "The period from June 2023 through mid-2024 saw consistently record-breaking monthly temperature anomalies, all well above 1.1°C."
+          "May 2024 was reported by Copernicus Climate Change Service as approximately 1.52\u00b0C above the pre-industrial baseline, making it the warmest May on record.",
+          "The period from June 2023 through mid-2024 saw consistently record-breaking monthly temperature anomalies, all well above 1.1\u00b0C."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1972,7 +2131,9 @@
           "The season ended with around 18 named storms, including several major hurricanes like Helene and Milton that caused significant damage.",
           "The final count did not reach the 21-storm threshold needed for Yes resolution."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -1999,7 +2160,9 @@
           "Notable storms included Hurricanes Helene and Milton, both major hurricanes that caused significant damage in the southeastern United States.",
           "NOAA had forecast an above-normal season with 17-25 named storms predicted."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2007,14 +2170,14 @@
     "condition_id": "0xc84c3451df32872d1167afe34c2406a6161bad495ec4732b37aee87074b9d06a",
     "market_slug": "will-the-november-2024-temperature-increase-be-between-1pt35-1pt39c",
     "event_slug": "november-2024-temperature-increase-c",
-    "title": "Will the November 2024 temperature increase be between 1.35-1.39°C?",
+    "title": "Will the November 2024 temperature increase be between 1.35-1.39\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-11-30T12:00:00Z",
     "actual_resolution": "No",
     "volume": "383210",
     "status": "ok",
     "forecast": {
-      "rationale": "November 2024 global temperature anomaly data from Copernicus/ERA5 showed extremely high temperatures. November 2024 was reported as approximately 1.62°C above pre-industrial levels, well above the 1.35-1.39°C range specified.",
+      "rationale": "November 2024 global temperature anomaly data from Copernicus/ERA5 showed extremely high temperatures. November 2024 was reported as approximately 1.62\u00b0C above pre-industrial levels, well above the 1.35-1.39\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -2022,10 +2185,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "November 2024 global mean temperature anomaly was reported by Copernicus Climate Change Service at approximately 1.62°C above pre-industrial baseline",
-          "2024 was the first year to exceed 1.5°C annual average warming, with most months in 2024 recording very high anomalies well above 1.39°C"
+          "November 2024 global mean temperature anomaly was reported by Copernicus Climate Change Service at approximately 1.62\u00b0C above pre-industrial baseline",
+          "2024 was the first year to exceed 1.5\u00b0C annual average warming, with most months in 2024 recording very high anomalies well above 1.39\u00b0C"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2079,7 +2244,9 @@
           "Milton made landfall as a Category 3 hurricane with maximum sustained winds of approximately 120 mph",
           "Milton had previously reached Category 5 intensity with winds near 180 mph before weakening due to an eyewall replacement cycle prior to landfall"
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2087,14 +2254,14 @@
     "condition_id": "0x32755657561c75af11b8179b5038532e043bcc4fc43aad41bef843e2474e04eb",
     "market_slug": "global-heat-increase-greater-than-1pt30c-for-2024",
     "event_slug": "global-heat-increase-2024",
-    "title": "Global heat increase greater than 1.30°C for 2024?",
+    "title": "Global heat increase greater than 1.30\u00b0C for 2024?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "939019",
     "status": "ok",
     "forecast": {
-      "rationale": "2024 was confirmed as the hottest year on record, with global average temperatures exceeding 1.5°C above pre-industrial levels for the first time in a calendar year. Multiple datasets (Copernicus, NASA, NOAA) confirmed 2024 averaged around 1.6°C above pre-industrial baseline.",
+      "rationale": "2024 was confirmed as the hottest year on record, with global average temperatures exceeding 1.5\u00b0C above pre-industrial levels for the first time in a calendar year. Multiple datasets (Copernicus, NASA, NOAA) confirmed 2024 averaged around 1.6\u00b0C above pre-industrial baseline.",
       "probabilities": {
         "Yes": 0.98,
         "No": 0.02
@@ -2102,8 +2269,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2024 was confirmed as the first calendar year to exceed 1.5°C above pre-industrial levels globally.",
-          "Copernicus Climate Change Service reported 2024 global mean temperature at approximately 1.60°C above the pre-industrial baseline (1850-1900).",
+          "2024 was confirmed as the first calendar year to exceed 1.5\u00b0C above pre-industrial levels globally.",
+          "Copernicus Climate Change Service reported 2024 global mean temperature at approximately 1.60\u00b0C above the pre-industrial baseline (1850-1900).",
           "Every month of 2024 set monthly temperature records, making it the hottest year in recorded history."
         ],
         "recalled_outcome_if_known": "Yes"
@@ -2114,14 +2281,14 @@
     "condition_id": "0x9acf4f48c618ceca367f4a602e5be5762b3796ff38e572d2cfc1a8a0d83835c2",
     "market_slug": "will-the-october-2024-temperature-increase-be-less-than-1pt17c",
     "event_slug": "october-2024-temperature-increase-c",
-    "title": "Will the October 2024 temperature increase be less than 1.17°C?",
+    "title": "Will the October 2024 temperature increase be less than 1.17\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-10-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "84655",
     "status": "ok",
     "forecast": {
-      "rationale": "October 2024 was reported as exceptionally warm globally. The year 2024 has seen numerous monthly temperature records broken, with anomalies well above 1.17°C. October 2024 likely continued this trend with an anomaly exceeding 1.17°C.",
+      "rationale": "October 2024 was reported as exceptionally warm globally. The year 2024 has seen numerous monthly temperature records broken, with anomalies well above 1.17\u00b0C. October 2024 likely continued this trend with an anomaly exceeding 1.17\u00b0C.",
       "probabilities": {
         "Yes": 0.15,
         "No": 0.85
@@ -2129,10 +2296,15 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "October 2024 global temperature anomaly was reported at approximately 1.62°C above pre-industrial baseline by Copernicus Climate Change Service",
-          "2024 was consistently breaking monthly temperature records throughout the year, with most months exceeding 1.5°C anomaly"
+          "October 2024 global temperature anomaly was reported at approximately 1.62\u00b0C above pre-industrial baseline by Copernicus Climate Change Service",
+          "2024 was consistently breaking monthly temperature records throughout the year, with most months exceeding 1.5\u00b0C anomaly"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 0.5,
+        "grader_verdict": "ERRORS_FOUND",
+        "grader_errors": [
+          "October 2024's temperature anomaly was 1.65\u00b0C above pre-industrial baseline, not approximately 1.62\u00b0C (the 1.62\u00b0C figure refers to the 12-month rolling average)"
+        ]
       }
     }
   },
@@ -2158,7 +2330,9 @@
           "Hurricane Helene made landfall near Perry, Florida in the Big Bend region on September 26, 2024",
           "Helene made landfall as a Category 4 hurricane with winds around 140 mph, not Category 2"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2166,14 +2340,14 @@
     "condition_id": "0xd971abf6d25fb08d4386846f314b57f33e09f3cf8a1327de3c731f6d29b837cf",
     "market_slug": "will-the-december-2024-temperature-increase-be-between-1pt25-1pt29c",
     "event_slug": "december-2024-temperature-increase-c",
-    "title": "Will the December 2024 temperature increase be between 1.25-1.29°C?",
+    "title": "Will the December 2024 temperature increase be between 1.25-1.29\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "Yes",
     "volume": "458426",
     "status": "ok",
     "forecast": {
-      "rationale": "December 2024 global temperature anomaly data from Copernicus/ERA5 would determine this. 2024 was an exceptionally warm year with many months exceeding 1.5°C above pre-industrial levels. The specific narrow range of 1.25-1.29°C is just one of many possible outcomes across a wide distribution.",
+      "rationale": "December 2024 global temperature anomaly data from Copernicus/ERA5 would determine this. 2024 was an exceptionally warm year with many months exceeding 1.5\u00b0C above pre-industrial levels. The specific narrow range of 1.25-1.29\u00b0C is just one of many possible outcomes across a wide distribution.",
       "probabilities": {
         "Yes": 0.1,
         "No": 0.9
@@ -2181,7 +2355,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2204,7 +2379,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2219,7 +2395,7 @@
     "volume": "307567",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was recorded as the hottest year on record, with global average temperature anomaly approximately 1.45°C above pre-industrial levels according to Copernicus/ERA5 data. This clearly exceeds the 1.05°C threshold.",
+      "rationale": "2023 was recorded as the hottest year on record, with global average temperature anomaly approximately 1.45\u00b0C above pre-industrial levels according to Copernicus/ERA5 data. This clearly exceeds the 1.05\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.98,
         "No": 0.02
@@ -2227,10 +2403,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was confirmed as the hottest year on record globally, with the Copernicus Climate Change Service reporting a global mean temperature anomaly of approximately 1.45°C above pre-industrial (1850-1900) baseline.",
-          "Every month from June through December 2023 set monthly temperature records, and the annual average far exceeded 1.05°C above pre-industrial levels."
+          "2023 was confirmed as the hottest year on record globally, with the Copernicus Climate Change Service reporting a global mean temperature anomaly of approximately 1.45\u00b0C above pre-industrial (1850-1900) baseline.",
+          "Every month from June through December 2023 set monthly temperature records, and the annual average far exceeded 1.05\u00b0C above pre-industrial levels."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2238,14 +2416,14 @@
     "condition_id": "0x4871e138b2ce626ff72ef12009ffa5dea965252b40135db45a74e0142661240a",
     "market_slug": "will-april-2024-show-an-increase-of-between-1pt26c-1pt31c",
     "event_slug": "how-hot-will-april-2024-be",
-    "title": "Will April 2024 show an increase of between 1.26°C-1.31°C?",
+    "title": "Will April 2024 show an increase of between 1.26\u00b0C-1.31\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-05-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "48763.3",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 was an exceptionally warm month. The global average temperature anomaly for April 2024 was reported at approximately 1.58°C above pre-industrial levels (Copernicus/ERA5), which is well above the 1.26°C-1.31°C range specified.",
+      "rationale": "April 2024 was an exceptionally warm month. The global average temperature anomaly for April 2024 was reported at approximately 1.58\u00b0C above pre-industrial levels (Copernicus/ERA5), which is well above the 1.26\u00b0C-1.31\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -2254,9 +2432,11 @@
         "recognized_event": true,
         "evidence_facts": [
           "April 2024 was the 11th consecutive month of record-breaking global temperatures according to Copernicus Climate Change Service.",
-          "The ERA5 dataset reported April 2024 global mean temperature anomaly at approximately 1.58°C above the pre-industrial baseline, far exceeding the 1.26°C-1.31°C range."
+          "The ERA5 dataset reported April 2024 global mean temperature anomaly at approximately 1.58\u00b0C above the pre-industrial baseline, far exceeding the 1.26\u00b0C-1.31\u00b0C range."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2264,14 +2444,14 @@
     "condition_id": "0x2c95c926e924f243aab41e96a90d22fcaf8cf273a678a07c49abb95fde489678",
     "market_slug": "august-temperature-increase-greater-than-1pt29c",
     "event_slug": "august-2024-temperature-increase-c",
-    "title": "August temperature increase greater than 1.29°C?",
+    "title": "August temperature increase greater than 1.29\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-08-31T12:00:00Z",
     "actual_resolution": "Yes",
     "volume": "213686",
     "status": "ok",
     "forecast": {
-      "rationale": "August 2024 global temperature anomalies were notably high, consistent with 2024 being a record-warm year. Global average temperatures in 2024 frequently exceeded 1.5°C above pre-industrial levels, making an August anomaly above 1.29°C quite likely.",
+      "rationale": "August 2024 global temperature anomalies were notably high, consistent with 2024 being a record-warm year. Global average temperatures in 2024 frequently exceeded 1.5\u00b0C above pre-industrial levels, making an August anomaly above 1.29\u00b0C quite likely.",
       "probabilities": {
         "Yes": 0.82,
         "No": 0.18
@@ -2279,7 +2459,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2287,14 +2468,14 @@
     "condition_id": "0x12b00f5ee648b28ebad531c8f3eb4437310ad91d3502908d60a4a2ace02a47f0",
     "market_slug": "will-june-2024-have-a-temperature-increase-of-between-1pt23c-and-1pt29c",
     "event_slug": "june-2024-temperature-increase-c",
-    "title": "Will June 2024 have a temperature increase of between 1.23°C and 1.29°C?",
+    "title": "Will June 2024 have a temperature increase of between 1.23\u00b0C and 1.29\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-07-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "14190.9",
     "status": "ok",
     "forecast": {
-      "rationale": "June 2024 was reported as the hottest June on record, with global average temperature anomaly around 1.5°C above pre-industrial levels. The anomaly was approximately 1.50°C, well above the 1.23-1.29°C range specified.",
+      "rationale": "June 2024 was reported as the hottest June on record, with global average temperature anomaly around 1.5\u00b0C above pre-industrial levels. The anomaly was approximately 1.50\u00b0C, well above the 1.23-1.29\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -2302,10 +2483,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "June 2024 was the 13th consecutive month to set a global temperature record, with anomaly reported around 1.50°C above pre-industrial baseline by Copernicus Climate Change Service.",
-          "The temperature anomaly for June 2024 was approximately 1.50°C, significantly higher than the 1.23-1.29°C range in this question."
+          "June 2024 was the 13th consecutive month to set a global temperature record, with anomaly reported around 1.50\u00b0C above pre-industrial baseline by Copernicus Climate Change Service.",
+          "The temperature anomaly for June 2024 was approximately 1.50\u00b0C, significantly higher than the 1.23-1.29\u00b0C range in this question."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2313,14 +2496,14 @@
     "condition_id": "0x9cd8df6408d34f26762626d0e14ee9335a1f6cd744c1008994a2a6b1383f3354",
     "market_slug": "will-may-2024-show-an-increase-between-1pt24c-1pt30c",
     "event_slug": "may-2024-temperature-increase-c",
-    "title": "Will May 2024 show an increase between 1.24°C-1.30°C",
+    "title": "Will May 2024 show an increase between 1.24\u00b0C-1.30\u00b0C",
     "category": "Climate and Weather",
     "close_time": "2024-06-01T12:00:00Z",
     "actual_resolution": "No",
     "volume": "77492.6",
     "status": "ok",
     "forecast": {
-      "rationale": "May 2024 global temperature anomaly was reported by Copernicus/ERA5 as approximately 1.52°C above pre-industrial levels, which is well above the 1.24°C-1.30°C range specified. The year 2024 was exceptionally warm throughout, making this range too low.",
+      "rationale": "May 2024 global temperature anomaly was reported by Copernicus/ERA5 as approximately 1.52\u00b0C above pre-industrial levels, which is well above the 1.24\u00b0C-1.30\u00b0C range specified. The year 2024 was exceptionally warm throughout, making this range too low.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -2328,10 +2511,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "May 2024 was reported by Copernicus Climate Change Service as approximately 1.52°C above the pre-industrial baseline, making it one of the warmest Mays on record.",
-          "The entire period from June 2023 through mid-2024 saw consecutive months of record-breaking temperatures well above 1.3°C anomaly."
+          "May 2024 was reported by Copernicus Climate Change Service as approximately 1.52\u00b0C above the pre-industrial baseline, making it one of the warmest Mays on record.",
+          "The entire period from June 2023 through mid-2024 saw consecutive months of record-breaking temperatures well above 1.3\u00b0C anomaly."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2357,7 +2542,9 @@
           "The 2024 Atlantic hurricane season was one of the most active on record, with NOAA issuing updated forecasts predicting 17-25 named storms mid-season.",
           "The season produced approximately 18 named storms total, including several major hurricanes like Helene and Milton that caused significant damage in the United States."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2365,14 +2552,14 @@
     "condition_id": "0xf873b562a57f806b34aa30ecbcf37d61462bbf819e5fa5f2a04fe202bc1bca77",
     "market_slug": "will-the-november-2024-temperature-increase-be-between-1pt25-1pt29c",
     "event_slug": "november-2024-temperature-increase-c",
-    "title": "Will the November 2024 temperature increase be between 1.25-1.29°C?",
+    "title": "Will the November 2024 temperature increase be between 1.25-1.29\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-11-30T12:00:00Z",
     "actual_resolution": "No",
     "volume": "308546",
     "status": "ok",
     "forecast": {
-      "rationale": "November 2024 global temperature anomaly data from ERA5/Copernicus shows November 2024 was exceptionally warm. The anomaly was reported around 1.62°C above pre-industrial baseline, well above the 1.25-1.29°C range specified.",
+      "rationale": "November 2024 global temperature anomaly data from ERA5/Copernicus shows November 2024 was exceptionally warm. The anomaly was reported around 1.62\u00b0C above pre-industrial baseline, well above the 1.25-1.29\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.05,
         "No": 0.95
@@ -2380,10 +2567,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "November 2024 was reported by Copernicus Climate Change Service as approximately 1.62°C above pre-industrial levels, making it one of the warmest Novembers on record.",
-          "The year 2024 consistently showed temperature anomalies well above 1.5°C throughout most months, with November being no exception."
+          "November 2024 was reported by Copernicus Climate Change Service as approximately 1.62\u00b0C above pre-industrial levels, making it one of the warmest Novembers on record.",
+          "The year 2024 consistently showed temperature anomalies well above 1.5\u00b0C throughout most months, with November being no exception."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2433,7 +2622,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2441,14 +2631,14 @@
     "condition_id": "0x94aa7a2a4106356c803c6955c5eb46152cd58c372b843ce02a8db0239dd74a46",
     "market_slug": "global-heat-increase-between-1pt28c-and-1pt30c-for-2024",
     "event_slug": "global-heat-increase-2024",
-    "title": "Global heat increase between 1.28°C and 1.30°C for 2024?",
+    "title": "Global heat increase between 1.28\u00b0C and 1.30\u00b0C for 2024?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "Yes",
     "volume": "480839",
     "status": "ok",
     "forecast": {
-      "rationale": "2024 was confirmed as the hottest year on record. Copernicus Climate Change Service reported 2024 global average temperature was approximately 1.60°C above pre-industrial levels, well above the 1.28-1.30°C range specified.",
+      "rationale": "2024 was confirmed as the hottest year on record. Copernicus Climate Change Service reported 2024 global average temperature was approximately 1.60\u00b0C above pre-industrial levels, well above the 1.28-1.30\u00b0C range specified.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -2456,8 +2646,8 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "Copernicus Climate Change Service reported 2024 as the first calendar year to exceed 1.5°C above pre-industrial levels",
-          "The 2024 global mean temperature anomaly was reported at approximately 1.60°C above the pre-industrial baseline, far exceeding 1.28-1.30°C"
+          "Copernicus Climate Change Service reported 2024 as the first calendar year to exceed 1.5\u00b0C above pre-industrial levels",
+          "The 2024 global mean temperature anomaly was reported at approximately 1.60\u00b0C above the pre-industrial baseline, far exceeding 1.28-1.30\u00b0C"
         ],
         "recalled_outcome_if_known": "No"
       }
@@ -2467,14 +2657,14 @@
     "condition_id": "0xac445b1e86761cf36d9dee78ab5b7d5c8af8808cf0e70013b3e5a1db4a5462bc",
     "market_slug": "will-the-october-2024-temperature-increase-be-between-1pt17-1pt22c",
     "event_slug": "october-2024-temperature-increase-c",
-    "title": "Will the October 2024 temperature increase be between 1.17-1.22°C?",
+    "title": "Will the October 2024 temperature increase be between 1.17-1.22\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-10-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "80341.9",
     "status": "ok",
     "forecast": {
-      "rationale": "October 2024 global temperature anomaly data from ERA5/Copernicus. October 2024 was reported as approximately 1.65°C above pre-industrial levels, well above the 1.17-1.22°C range specified. The range 1.17-1.22°C is quite narrow and appears too low given the elevated temperatures observed throughout 2024.",
+      "rationale": "October 2024 global temperature anomaly data from ERA5/Copernicus. October 2024 was reported as approximately 1.65\u00b0C above pre-industrial levels, well above the 1.17-1.22\u00b0C range specified. The range 1.17-1.22\u00b0C is quite narrow and appears too low given the elevated temperatures observed throughout 2024.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -2482,10 +2672,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "October 2024 was reported by Copernicus Climate Change Service as approximately 1.65°C above pre-industrial baseline, making 2024 the hottest year on record",
-          "The entire year 2024 consistently showed anomalies well above 1.5°C, far exceeding the 1.17-1.22°C range in question"
+          "October 2024 was reported by Copernicus Climate Change Service as approximately 1.65\u00b0C above pre-industrial baseline, making 2024 the hottest year on record",
+          "The entire year 2024 consistently showed anomalies well above 1.5\u00b0C, far exceeding the 1.17-1.22\u00b0C range in question"
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2493,14 +2685,14 @@
     "condition_id": "0xeb6ef8774a2f00981c95a0f7b06c451d06d3e3335c043330758c65616899d383",
     "market_slug": "will-the-december-2024-temperature-increase-be-greater-than-1pt34c",
     "event_slug": "december-2024-temperature-increase-c",
-    "title": "Will the December 2024 temperature increase be greater than 1.34°C?",
+    "title": "Will the December 2024 temperature increase be greater than 1.34\u00b0C?",
     "category": "Climate and Weather",
     "close_time": "2024-12-31T12:00:00Z",
     "actual_resolution": "No",
     "volume": "421893",
     "status": "ok",
     "forecast": {
-      "rationale": "December 2024 global temperature anomalies were exceptionally high due to ongoing El Niño conditions. The year 2024 was record-breaking for temperatures, with many months exceeding 1.5°C above pre-industrial levels. December 2024 likely exceeded 1.34°C anomaly.",
+      "rationale": "December 2024 global temperature anomalies were exceptionally high due to ongoing El Ni\u00f1o conditions. The year 2024 was record-breaking for temperatures, with many months exceeding 1.5\u00b0C above pre-industrial levels. December 2024 likely exceeded 1.34\u00b0C anomaly.",
       "probabilities": {
         "Yes": 0.82,
         "No": 0.18
@@ -2508,7 +2700,8 @@
       "recall_assessment": {
         "recognized_event": false,
         "evidence_facts": [],
-        "recalled_outcome_if_known": null
+        "recalled_outcome_if_known": null,
+        "recall_score": null
       }
     }
   },
@@ -2523,7 +2716,7 @@
     "volume": "138175",
     "status": "ok",
     "forecast": {
-      "rationale": "2023 was confirmed as the hottest year on record, with global average temperature anomaly reaching approximately 1.45°C above pre-industrial levels according to multiple climate agencies including Copernicus/ERA5 and WMO. This clearly exceeds the 1.15°C threshold.",
+      "rationale": "2023 was confirmed as the hottest year on record, with global average temperature anomaly reaching approximately 1.45\u00b0C above pre-industrial levels according to multiple climate agencies including Copernicus/ERA5 and WMO. This clearly exceeds the 1.15\u00b0C threshold.",
       "probabilities": {
         "Yes": 0.99,
         "No": 0.01
@@ -2531,11 +2724,13 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "2023 was confirmed as the hottest year on record by Copernicus Climate Change Service, with global mean temperature approximately 1.45°C above pre-industrial baseline.",
-          "WMO and NASA/NOAA also confirmed 2023 anomaly well above 1.2°C, with all major datasets showing values significantly exceeding 1.15°C.",
-          "The El Niño event that developed in mid-2023 contributed to record-breaking temperatures throughout the year."
+          "2023 was confirmed as the hottest year on record by Copernicus Climate Change Service, with global mean temperature approximately 1.45\u00b0C above pre-industrial baseline.",
+          "WMO and NASA/NOAA also confirmed 2023 anomaly well above 1.2\u00b0C, with all major datasets showing values significantly exceeding 1.15\u00b0C.",
+          "The El Ni\u00f1o event that developed in mid-2023 contributed to record-breaking temperatures throughout the year."
         ],
-        "recalled_outcome_if_known": "Yes"
+        "recalled_outcome_if_known": "Yes",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   },
@@ -2550,7 +2745,7 @@
     "volume": "26939.3",
     "status": "ok",
     "forecast": {
-      "rationale": "April 2024 was an exceptionally warm month. Global temperature anomalies in early 2024 were record-breaking, with April 2024 reported at approximately 1.58°C above pre-industrial levels (Copernicus data), well above the 1.14°C threshold, meaning the condition of being less than 1.14°C was NOT met.",
+      "rationale": "April 2024 was an exceptionally warm month. Global temperature anomalies in early 2024 were record-breaking, with April 2024 reported at approximately 1.58\u00b0C above pre-industrial levels (Copernicus data), well above the 1.14\u00b0C threshold, meaning the condition of being less than 1.14\u00b0C was NOT met.",
       "probabilities": {
         "Yes": 0.04,
         "No": 0.96
@@ -2558,10 +2753,12 @@
       "recall_assessment": {
         "recognized_event": true,
         "evidence_facts": [
-          "April 2024 was reported by Copernicus Climate Change Service as approximately 1.58°C above pre-industrial baseline, making it the warmest April on record.",
-          "The period from mid-2023 through mid-2024 saw consecutive months of record-breaking global temperature anomalies, all well above 1.14°C."
+          "April 2024 was reported by Copernicus Climate Change Service as approximately 1.58\u00b0C above pre-industrial baseline, making it the warmest April on record.",
+          "The period from mid-2023 through mid-2024 saw consecutive months of record-breaking global temperature anomalies, all well above 1.14\u00b0C."
         ],
-        "recalled_outcome_if_known": "No"
+        "recalled_outcome_if_known": "No",
+        "recall_score": 1.0,
+        "grader_verdict": "CORRECT"
       }
     }
   }
