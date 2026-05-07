@@ -102,6 +102,7 @@ def load_recall_records() -> list:
                     "model":              model,
                     "domain":             domain,
                     "condition_id":       item.get("condition_id", ""),
+                    "question_text":      item.get("title", ""),
                     "actual_resolution":  item.get("actual_resolution"),
                     "recall_score":       ra.get("recall_score"),
                     "p_yes":              p_yes,
@@ -109,6 +110,121 @@ def load_recall_records() -> list:
                     "grader_verdict":     ra.get("grader_verdict"),
                 })
     return records
+
+
+def build_recall_df(records: list) -> pd.DataFrame:
+    """
+    One row per (model, market) with recall_score.
+    Keeps only graded rows (recall_score is not None).
+    market_id = condition_id.
+    """
+    rows = [
+        {
+            "market_id":     r["condition_id"],
+            "domain":        r["domain"],
+            "question_text": r.get("question_text", ""),
+            "model":         r["model"],
+            "recall_score":  r["recall_score"] if r["recall_score"] is not None else 0.0,
+        }
+        for r in records
+        if any(rr["recall_score"] is not None
+               for rr in records
+               if rr["model"] == r["model"] and rr["domain"] == r["domain"])
+    ]
+    return pd.DataFrame(rows)
+
+
+def load_forecast_records() -> list:
+    """
+    Load forecast JSON files (domain/forecast/*.json).
+    These are open/future markets: no actual_resolution, but have market_price.
+    Brier proxy = (p_yes - market_price)^2.
+    Returns one dict per market-model pair.
+    """
+    records = []
+    for domain in DOMAINS:
+        fc_dir = RESEARCH_DIR / domain / "forecast"
+        for path in sorted(fc_dir.glob("*.json")):
+            model = path.stem.replace("_fc", "")
+            try:
+                items = json.loads(path.read_text())
+            except Exception as e:
+                print(f"[WARN] {path}: {e}")
+                continue
+            for item in items:
+                fc = item.get("forecast") or {}
+                probs = fc.get("probabilities") or {}
+                mp = item.get("market_price") or {}
+                p_yes = probs.get("Yes")
+                market_price = mp.get("Yes")
+                if p_yes is None or market_price is None:
+                    continue
+                records.append({
+                    "model":         model,
+                    "domain":        domain,
+                    "condition_id":  item.get("condition_id", ""),
+                    "question_text": item.get("title", ""),
+                    "forecast_prob": float(p_yes),
+                    "market_price":  float(market_price),
+                    "brier_score":   (float(p_yes) - float(market_price)) ** 2,
+                    "source":        "forecast",
+                })
+    return records
+
+
+def build_forecast_df(recall_records: list, fc_records: list | None = None) -> pd.DataFrame:
+    """
+    One row per (model, market) with brier_score + forecast_prob.
+
+    Sources:
+      recall_records  — from load_recall_records(); Brier = (p_yes - outcome)^2
+      fc_records      — from load_forecast_records(); Brier = (p_yes - market_price)^2
+
+    Deduplicated by (model, condition_id): recall-sourced rows take priority.
+    """
+    rows = []
+
+    # Recall-file rows (actual outcomes known)
+    for r in recall_records:
+        p = r["p_yes"]
+        actual = r["actual_resolution"]
+        if p is None or actual not in ("Yes", "No"):
+            continue
+        outcome = 1.0 if actual == "Yes" else 0.0
+        rows.append({
+            "market_id":     r["condition_id"],
+            "domain":        r["domain"],
+            "question_text": r.get("question_text", ""),
+            "model":         r["model"],
+            "forecast_prob": float(p),
+            "outcome":       outcome,
+            "market_price":  float("nan"),
+            "brier_score":   (float(p) - outcome) ** 2,
+            "source":        "recall",
+        })
+
+    seen = {(r["model"], r["market_id"]) for r in rows}
+
+    # Forecast-file rows (Brier against market consensus price)
+    if fc_records:
+        for r in fc_records:
+            key = (r["model"], r["condition_id"])
+            if key in seen:
+                continue
+            rows.append({
+                "market_id":     r["condition_id"],
+                "domain":        r["domain"],
+                "question_text": r["question_text"],
+                "model":         r["model"],
+                "forecast_prob": r["forecast_prob"],
+                "outcome":       float("nan"),
+                "market_price":  r["market_price"],
+                "brier_score":   r["brier_score"],
+                "source":        "forecast",
+            })
+            seen.add(key)
+
+    return pd.DataFrame(rows)
 
 
 def binary_entropy(p: float) -> float:

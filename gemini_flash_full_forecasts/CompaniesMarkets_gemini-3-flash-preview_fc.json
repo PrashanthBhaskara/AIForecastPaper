@@ -3144,5 +3144,1790 @@
       "Yes": 0.135,
       "No": 0.865
     }
+  },
+  {
+    "condition_id": "0x7844ad013088564a11d5d4d3b1766c57ad936a55247f0ae1efe28180d7285af3",
+    "market_slug": "openai-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "OpenAI IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "220761",
+    "status": "ok",
+    "forecast": {
+      "rationale": "OpenAI's current non-profit governance structure and massive private funding rounds, including a recent $6.6 billion raise, reduce the immediate pressure for an IPO. While a transition to a for-profit model is underway, the complexity of this restructuring and the company's focus on AGI development suggest a longer timeline for public listing beyond 2026.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    },
+    "market_price": {
+      "Yes": 0.3,
+      "No": 0.7
+    }
+  },
+  {
+    "condition_id": "0x62ef6cd583a7301458da4823519fb5b2dc7d236eaa052cccafbec7326a48a02d",
+    "market_slug": "brex-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Brex IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "203937",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Brex has recently focused on path-to-profitability and internal restructuring, with leadership indicating they have a multi-year runway and no immediate pressure to go public. While a 2026 IPO is possible if market conditions for fintech improve significantly, the company's current focus on enterprise spend management suggests a more cautious timeline.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    },
+    "market_price": {
+      "Yes": 0.017,
+      "No": 0.983
+    }
+  },
+  {
+    "condition_id": "0x48d4aedd222137a244d94e4d1696a526d3638d4ec297e52f703b575982b766fe",
+    "market_slug": "celonis-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Celonis IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "202788",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Celonis is a highly valued decacorn with strong fundamentals and a clear path to profitability, making it a prime IPO candidate. While the current market for tech IPOs remains cautious, the three-year window until 2027 provides ample time for a favorable market window to open for a company of its scale.",
+      "probabilities": {
+        "Yes": 0.75,
+        "No": 0.25
+      }
+    },
+    "market_price": {
+      "Yes": 0.095,
+      "No": 0.905
+    }
+  },
+  {
+    "condition_id": "0x6522024c060166830e53a48b0db1cab9296601a8539ab005124db5e4bf50a303",
+    "market_slug": "anthropic-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Anthropic IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "191897",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Anthropic currently benefits from massive private funding rounds and strategic partnerships with Amazon and Google, reducing the immediate need for public capital. Given the current regulatory scrutiny on AI and the company's focus on safety research over rapid commercial scaling, a 2027 or later timeline for an IPO is more probable than a near-term listing.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.66,
+      "No": 0.34
+    }
+  },
+  {
+    "condition_id": "0x76d92e422d9a4c1d9ceeea7445fa709df9df03e45b6372623abec7254caee3a9",
+    "market_slug": "applied-intuition-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Applied Intuition IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "190091",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Applied Intuition is a highly valued unicorn with strong revenue growth and significant recent funding, making it a prime IPO candidate. However, the current macroeconomic environment and the company's ability to remain private while scaling suggest a balanced likelihood of waiting until 2027 or later.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      }
+    },
+    "market_price": {
+      "Yes": 0.225,
+      "No": 0.775
+    }
+  },
+  {
+    "condition_id": "0xb4eafb92f9038d98b9d457cea6ba034a1d362d60e68766749accbc9bc8b73172",
+    "market_slug": "fannie-mae-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Fannie Mae IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "160121",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While the incoming Trump administration and FHFA leadership are expected to prioritize the privatization of Fannie Mae, the legal and financial complexities of restructuring the senior preferred stock and ending the conservatorship are significant. Given the multi-year timeline required for regulatory approval and capital building, a public offering before the end of 2026 is possible but faces substantial execution risks.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    },
+    "market_price": {
+      "Yes": 0.115,
+      "No": 0.885
+    }
+  },
+  {
+    "condition_id": "0x579100804f34edc384d933b88ff8f403aa79bafd5018bb26f0a89285e1ddff29",
+    "market_slug": "mistral-ai-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Mistral AI IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "147942",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Mistral AI currently benefits from significant private funding and strategic partnerships with tech giants like Microsoft, reducing the immediate pressure for an IPO. Given the typical 5-7 year maturation cycle for high-growth AI startups and the current preference for staying private longer to avoid public market scrutiny, a 2027 timeline is possible but remains less likely than a later exit.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.15,
+      "No": 0.85
+    }
+  },
+  {
+    "condition_id": "0x9dd67d7d61b5d2e04f6458d63bd169894ef918dc34e6cdb778707d7e5d47a38f",
+    "market_slug": "ramp-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Ramp IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "142141",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ramp has shown strong growth and recently raised capital at a $7.65 billion valuation, positioning it well for a public debut. However, the current IPO market remains cautious and the company has not yet signaled an immediate timeline, making a 2025 or 2026 window plausible but not guaranteed.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      }
+    },
+    "market_price": {
+      "Yes": 0.105,
+      "No": 0.895
+    }
+  },
+  {
+    "condition_id": "0x898dadf08cabb75a000ffa5ff913b937c5610d8709c22f0263bd06d03be4a9f7",
+    "market_slug": "ripple-labs-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Ripple Labs IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "137618",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ripple's ongoing legal battle with the SEC and the need for regulatory clarity remain significant hurdles for an IPO. While leadership has expressed interest, the company's strong cash position and the current volatile crypto regulatory environment in the US suggest a cautious timeline that may extend beyond 2026.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.08,
+      "No": 0.92
+    }
+  },
+  {
+    "condition_id": "0xa11a18282162d613febe1860f9545fadd826ea6425ae9858ce03cc38c97cb8c6",
+    "market_slug": "vanta-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Vanta IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "123619",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Vanta has shown strong growth and reached a $2.45 billion valuation in mid-2024, positioning it well for an IPO within the next two years. While the IPO market remains selective, the company's focus on automated compliance aligns with high-demand enterprise software trends, making a 2025 or 2026 debut highly plausible.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      }
+    },
+    "market_price": {
+      "Yes": 0.08,
+      "No": 0.92
+    }
+  },
+  {
+    "condition_id": "0xd21614c016c4a911cbc8856dac53f5af6fdf222b9c82531e31aa9f9f9bf4f2a9",
+    "market_slug": "deel-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Deel IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "120953",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Deel is currently highly profitable with over $500 million in ARR and has expressed a desire to be IPO-ready by 2025 or 2026. Given the current recovery of the IPO market and the company's strong financial position, a public listing before 2027 is highly probable.",
+      "probabilities": {
+        "Yes": 0.75,
+        "No": 0.25
+      }
+    },
+    "market_price": {
+      "Yes": 0.17,
+      "No": 0.83
+    }
+  },
+  {
+    "condition_id": "0x52bf4b9cb5a6dad476017a330a6116f8c3c51ac8fe3d5c0852ae70f5db4adf6f",
+    "market_slug": "rippling-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Rippling IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "111575",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Rippling has shown strong growth and recently raised capital at a $13.5 billion valuation, suggesting it is on a path toward liquidity. While the CEO has expressed no immediate rush to go public, the 2026 timeframe provides a sufficient window for market conditions to stabilize and for the company to execute an IPO.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      }
+    },
+    "market_price": {
+      "Yes": 0.125,
+      "No": 0.875
+    }
+  },
+  {
+    "condition_id": "0x8f3d3d55b93ccd4dcccd6d96474c94c022787b89d35f494e24ff154122981934",
+    "market_slug": "anysphere-cursor-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Anysphere (Cursor) IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "94676.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Anysphere is currently in a high-growth phase with significant venture capital backing, but the typical timeline from seed/Series A to IPO is usually 7-10 years. Given the company's current stage and the volatile IPO market, a public listing before 2027 is highly unlikely compared to further private funding rounds or an acquisition.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.0665,
+      "No": 0.9335
+    }
+  },
+  {
+    "condition_id": "0xd6487ff71f26b698891f9b5aa361a4f8037d324b2b98327faa5675cca91f4eb7",
+    "market_slug": "shein-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "SHEIN IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "77849.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SHEIN has been actively pursuing an IPO for several years and is currently working through regulatory hurdles in both China and the UK. Given the company's massive valuation and the pressure from investors for liquidity, a public listing before 2027 is highly probable despite geopolitical complexities.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      }
+    },
+    "market_price": {
+      "Yes": 0.1665,
+      "No": 0.8335
+    }
+  },
+  {
+    "condition_id": "0x425b8f0d06004d1795a875be8f5db8836fd57cdb8711b9b3c0605225ad46e20b",
+    "market_slug": "epic-games-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Epic Games IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "70913.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Epic Games CEO Tim Sweeney has indicated that the company is not currently in a rush to go public, focusing instead on building the 'metaverse' and resolving legal disputes. While the company is well-capitalized and has a high valuation, the current market environment and the company's long-term strategic goals suggest a private status is likely to be maintained through 2026.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.0825,
+      "No": 0.9175
+    }
+  },
+  {
+    "condition_id": "0xf9bca72722283ce24659c7d9071173f26c022114d4cc438218f3d2be27731c3d",
+    "market_slug": "remote-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Remote IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "53638.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Remote has achieved a high valuation and significant scale in the global HR tech space, making it a prime IPO candidate. However, current market conditions and the company's focus on sustainable growth suggest they may wait for a more favorable economic window, making a 2026 or 2027 debut plausible but not guaranteed.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      }
+    },
+    "market_price": {
+      "Yes": 0.285,
+      "No": 0.715
+    }
+  },
+  {
+    "condition_id": "0xad60a9f27513fb278bb1df4e7fdb0ee2f8c30059d673d2c2c6a74abea639c69a",
+    "market_slug": "revolut-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Revolut IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "52935.2",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Revolut has recently achieved a $45 billion valuation and reached sustained profitability, signaling strong IPO readiness. While the CEO has expressed no immediate rush, the 2026 timeframe provides a sufficient window for market conditions to stabilize and for the company to execute its public listing strategy.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      }
+    },
+    "market_price": {
+      "Yes": 0.07,
+      "No": 0.93
+    }
+  },
+  {
+    "condition_id": "0xd66c74de2646dbb88918cf92a1e30913aba3dd9ec389702167064dfefa4ca836",
+    "market_slug": "waymo-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Waymo IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "47814.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Alphabet currently maintains a strong cash position and has recently committed an additional $5 billion to Waymo, suggesting private funding remains the priority over public markets. While Waymo is a leader in autonomous driving, the regulatory environment and path to profitability remain complex, making a 2027 or later IPO more likely than one in the next two years.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.045,
+      "No": 0.955
+    }
+  },
+  {
+    "condition_id": "0x65e6bbe77f4cfd65fa6c4dc1eb496cc93d0eaef678596c8c8de189a2b07abd90",
+    "market_slug": "glean-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Glean IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "43928.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Glean is currently experiencing rapid growth and high valuation in the AI sector, but the typical timeline for a late-stage startup to reach an IPO often exceeds two years. Given the current cautious IPO market and the company's recent private funding rounds, a 2027 or later debut is statistically more probable than a 2026 listing.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.13,
+      "No": 0.87
+    }
+  },
+  {
+    "condition_id": "0xfbf56eba19e9b5b07f46c08af3ac75e72556e4ce47e24267eba9ad114d966e48",
+    "market_slug": "canva-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Canva IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "29086.9",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Canva has reached significant scale with over $2 billion in annual revenue and has been actively facilitating secondary share sales to provide liquidity, which often precedes an IPO. While the company remains profitable and patient, the 2025-2026 window is widely considered the most likely timeframe for their public debut to satisfy long-term investors.",
+      "probabilities": {
+        "Yes": 0.75,
+        "No": 0.25
+      }
+    },
+    "market_price": {
+      "Yes": 0.11,
+      "No": 0.89
+    }
+  },
+  {
+    "condition_id": "0xce76a9d7a778beb2907c288a2df477e68abc4366d97b5a192d46cefdd8b392cb",
+    "market_slug": "anduril-industries-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "Anduril Industries IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "28711.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Anduril recently raised $1.5 billion at a $14 billion valuation and has a strong cash position, reducing the immediate need for public markets. While the company is scaling rapidly, leadership has expressed a preference for staying private to focus on long-term R&D without quarterly earnings pressure.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.11,
+      "No": 0.89
+    }
+  },
+  {
+    "condition_id": "0x764a4dc971a411fba015667e921945fe029ef9d27fb87d1ff74d0c312fabd33c",
+    "market_slug": "bytedance-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "ByteDance IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "8990.93",
+    "status": "ok",
+    "forecast": {
+      "rationale": "ByteDance faces significant regulatory hurdles in both the US and China, including the potential TikTok ban and strict Chinese data security laws, which complicate any public listing. While the company is highly profitable and under pressure from investors for liquidity, the current geopolitical climate makes a successful IPO before 2027 unlikely.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.13,
+      "No": 0.87
+    }
+  },
+  {
+    "condition_id": "0x56ff1e38b448b30e29e1e05c30d4e6c63b8af6ffaee1226d49ec6b1cdf9bd1e6",
+    "market_slug": "whoop-ipo-before-2027",
+    "event_slug": "ipos-before-2027",
+    "title": "WHOOP IPO before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "123.104",
+    "status": "ok",
+    "forecast": {
+      "rationale": "WHOOP has reached a high valuation and achieved profitability, making it a strong IPO candidate; however, the current macroeconomic environment and lack of immediate pressure to go public suggest a cautious timeline. While an IPO by 2027 is plausible, the company may opt for a private sale or remain private longer to further scale its enterprise and apparel divisions.",
+      "probabilities": {
+        "Yes": 0.55,
+        "No": 0.45
+      }
+    },
+    "market_price": {
+      "Yes": 0.235,
+      "No": 0.765
+    }
+  },
+  {
+    "condition_id": "0x8880cafadc71125e18f7c8c768475d589df7b7ca514270fc37656aa0a8dbfbd1",
+    "market_slug": "will-openai-be-acquired-before-2027-859",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will OpenAI be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "606845",
+    "status": "ok",
+    "forecast": {
+      "rationale": "OpenAI's current valuation exceeds $150 billion, making it too expensive for most potential buyers and likely to face severe antitrust scrutiny. Furthermore, its non-profit governance structure and mission-driven focus prioritize independence over acquisition by a larger tech conglomerate.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    },
+    "market_price": {
+      "Yes": 0.092,
+      "No": 0.908
+    }
+  },
+  {
+    "condition_id": "0xc48e0a230f5214509fcd5bc76f233d44b33ef5f4ad1af2af1e3fd906be01ce98",
+    "market_slug": "will-ubisoft-be-acquired-before-2027-175",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Ubisoft be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "584896",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Ubisoft is currently facing significant financial pressure and internal restructuring, making it a prime target for acquisition by larger tech or gaming firms. However, the Guillemot family's historical resistance to hostile takeovers and their partnership with Tencent provide a defensive buffer that may prevent a full sale before 2027.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    },
+    "market_price": {
+      "Yes": 0.195,
+      "No": 0.805
+    }
+  },
+  {
+    "condition_id": "0x638cad4278cb693a44655a76ee46535814473b2a3201e5e68b85c096fe54a786",
+    "market_slug": "will-pizza-hut-be-acquired-before-2027-514",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Pizza Hut be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "562233",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Pizza Hut is a core brand of Yum! Brands, which operates a highly integrated multi-brand model that provides significant scale and cost efficiencies. There are currently no strategic indications or activist pressures suggesting a divestiture or acquisition of the brand, making a standalone sale unlikely before 2027.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.32,
+      "No": 0.68
+    }
+  },
+  {
+    "condition_id": "0x5c5ab21c4e4d357ad5fa41a3cff0261728b29099f1a2bf86b40185a339d8e7e6",
+    "market_slug": "will-zoom-video-communications-be-acquired-before-2027-486",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Zoom Video Communications be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "371659",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Zoom has a strong market position and significant cash reserves, making it more likely to be an acquirer than a target. Additionally, its high valuation and the regulatory scrutiny surrounding large tech acquisitions make a buyout by a major competitor unlikely before 2027.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.157,
+      "No": 0.843
+    }
+  },
+  {
+    "condition_id": "0x2f2564e2ebcd2e1b2936ab6d27d20a425e3f058fc83a6b5645e2886f1aeffa00",
+    "market_slug": "will-anthropic-be-acquired-before-2027-142",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Anthropic be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "93196.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Anthropic's high valuation, strong commitment to safety-focused independence, and strategic partnerships with Amazon and Google make a full acquisition unlikely. Furthermore, regulatory scrutiny on Big Tech acquisitions in the AI sector creates significant antitrust hurdles for any potential buyer.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.08,
+      "No": 0.92
+    }
+  },
+  {
+    "condition_id": "0x8329bdd734ac55ee38848a6730c8cf80a604441164038d60e6e0c2acb034986c",
+    "market_slug": "will-snapchat-be-acquired-before-2027-286",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Snapchat be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "87958.6",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Snap Inc. CEO Evan Spiegel has historically maintained a strong desire for independence and holds significant voting control, making a hostile takeover impossible. While the company faces competitive pressures, its current valuation and the regulatory scrutiny surrounding big tech acquisitions make a multi-billion dollar buyout unlikely in the next two years.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.219,
+      "No": 0.781
+    }
+  },
+  {
+    "condition_id": "0xb8e9e1c93dbc5e2af5bcf4d857ea73a204196303e2bbd9be7955c27d55d7fc56",
+    "market_slug": "will-caesars-entertainment-inc-be-acquired-before-2027",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Caesars Entertainment, Inc. be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "37653.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Caesars Entertainment has a significant debt load and a large enterprise value, making a full acquisition financially complex and unlikely in the current high-interest rate environment. While activist investors are present, the company is more likely to pursue asset sales or strategic divestitures rather than a complete buyout before 2027.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.8,
+      "No": 0.2
+    }
+  },
+  {
+    "condition_id": "0xd12e33a12a1a0b38d9e5048825fc78ffd740cc46fefc3a4c8693783d0bc764e0",
+    "market_slug": "will-paypal-be-acquired-before-2027",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will PayPal be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "27616.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "PayPal has a massive market capitalization exceeding $60 billion, making it an extremely expensive target for most potential buyers. Furthermore, regulatory scrutiny on large-scale fintech mergers is currently high, and the company is focused on a standalone turnaround strategy under new leadership.",
+      "probabilities": {
+        "Yes": 0.12,
+        "No": 0.88
+      }
+    },
+    "market_price": {
+      "Yes": 0.19,
+      "No": 0.81
+    }
+  },
+  {
+    "condition_id": "0x8c245b393de03e7e166113b31db74108cce54b386dbc6e4524d813b47db91c66",
+    "market_slug": "will-cursor-be-acquired-before-2027",
+    "event_slug": "which-companies-will-be-acquired-before-2027",
+    "title": "Will Cursor be acquired before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "20927.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Cursor (Anysphere) recently raised significant funding at a high valuation, giving them a long runway to remain independent. While their rapid growth makes them an attractive target for giants like Microsoft or Google, the current regulatory environment and the founders' likely desire to build a standalone platform suggest they will remain independent through 2026.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.75,
+      "No": 0.25
+    }
+  },
+  {
+    "condition_id": "0x2a7eaf49150dd8eb4ac5901eebb9fdce52a84093e3c7336213c4c8aaa1e70dd5",
+    "market_slug": "will-spacexs-market-cap-be-between-700b-and-800b-at-market-close-on-ipo-day",
+    "event_slug": "spacex-ipo-closing-market-cap-lowest-strikes",
+    "title": "Will SpaceX's market cap be between $700B and $800B at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "276271",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX is currently valued at approximately $210B-$250B in private markets; reaching a $700B-$800B valuation by 2027 would require nearly tripling its value and a successful IPO timing. While Starlink growth is significant, such a massive valuation jump within this timeframe is statistically less likely than other valuation ranges or the company remaining private.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.0015,
+      "No": 0.9985
+    }
+  },
+  {
+    "condition_id": "0x41ac836a825fc356c6003e736e25015c07871c04f8fbdb9a57f635acab77c1c8",
+    "market_slug": "will-spacexs-market-cap-be-between-600b-and-700b-at-market-close-on-ipo-day",
+    "event_slug": "spacex-ipo-closing-market-cap-lowest-strikes",
+    "title": "Will SpaceX's market cap be between $600B and $700B at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "244344",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX is currently valued at approximately $210B-$250B in private markets, and while its growth is rapid due to Starlink and Starship, reaching a $600B-$700B valuation by 2027 requires a massive tripling of value and a specific IPO timing that is not yet confirmed. The narrow valuation window of $100B makes a 'No' outcome more statistically likely than hitting that specific range exactly.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.0015,
+      "No": 0.9985
+    }
+  },
+  {
+    "condition_id": "0xa7d8fc08e52e2850f7cc0e28b17b56ec89d84b4aee2c3f8fad1bf8dae1449d88",
+    "market_slug": "will-bank-of-america-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-433",
+    "event_slug": "lead-bank-in-spacexs-ipo-836",
+    "title": "Will Bank of America or any of its underwriting affiliates serve as the lead underwriter in SpaceX’s initial public offering?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "69533.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX remains a private company with no immediate plans for an IPO, as Elon Musk prioritizes long-term Mars objectives over short-term market pressures. While Bank of America is a major player, the likelihood of an IPO occurring before the 2027 deadline is low, and the selection of a specific lead underwriter is speculative.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.1845,
+      "No": 0.8155
+    }
+  },
+  {
+    "condition_id": "0x46d416bf1d1248df0d711f806df13504db457e46c62c6108c2e7b6c599f88d76",
+    "market_slug": "will-barclays-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-115",
+    "event_slug": "lead-bank-in-spacexs-ipo-836",
+    "title": "Will Barclays or any of its underwriting affiliates serve as the lead underwriter in SpaceX’s initial public offering?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "66247.3",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX remains a private company with no immediate plans for an IPO, as Elon Musk prioritizes long-term Mars objectives over public market pressures. While Barclays is a major global investment bank, the likelihood of an IPO occurring before the end of 2027 is low, and the selection of any specific lead underwriter remains speculative.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.002,
+      "No": 0.998
+    }
+  },
+  {
+    "condition_id": "0xfa928bde6b984b65611fd3a9fde594ae7daafc38572121f6dcc4ac4aaba03df8",
+    "market_slug": "will-spacexs-market-cap-be-less-than-1pt0t-at-market-close-on-ipo-day-281",
+    "event_slug": "spacex-ipo-closing-market-cap-higher-strikes",
+    "title": "Will SpaceX's market cap be less than $1.0T at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "61331.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX's most recent private valuation is approximately $210 billion, requiring a nearly 5x increase to reach $1 trillion. While growth in Starlink and Starship is significant, achieving a trillion-dollar valuation by 2027 remains a high threshold that few companies have crossed, making a sub-$1T IPO more probable.",
+      "probabilities": {
+        "Yes": 0.85,
+        "No": 0.15
+      }
+    },
+    "market_price": {
+      "Yes": 0.0555,
+      "No": 0.9445
+    }
+  },
+  {
+    "condition_id": "0xbad86ba21807056824d037b1f9a6051aa235a29722b2f3694409f97ca6c20328",
+    "market_slug": "will-wells-fargo-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-174",
+    "event_slug": "lead-bank-in-spacexs-ipo-836",
+    "title": "Will Wells Fargo or any of its underwriting affiliates serve as the lead underwriter in SpaceX’s initial public offering?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "58765.8",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX remains a private company with no immediate plans for an IPO, and Elon Musk has historically favored banks like Morgan Stanley or Goldman Sachs for major financing. While Wells Fargo is a major player, it is rarely the primary lead for high-profile tech/aerospace IPOs compared to its top-tier competitors.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.002,
+      "No": 0.998
+    }
+  },
+  {
+    "condition_id": "0x582532c6acae7f86917143c3dcfb584819a95398d3eadb26c1944764537b0e20",
+    "market_slug": "will-spacexs-market-cap-be-between-1pt0t-and-1pt2t-at-market-close-on-ipo-day-437",
+    "event_slug": "spacex-ipo-closing-market-cap-higher-strikes",
+    "title": "Will SpaceX's market cap be between $1.0T and $1.2T at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "40850.5",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX is currently valued at approximately $210 billion in private markets, requiring a nearly 5x increase to reach $1 trillion. While Starship and Starlink have high growth potential, achieving a trillion-dollar valuation by 2027 and timing an IPO to land specifically in the $1.0T-$1.2T range is statistically unlikely.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.024,
+      "No": 0.976
+    }
+  },
+  {
+    "condition_id": "0xca8322796d748070cf8c9847443526cc2452a0787ff1c5810a41b5adbaf206f6",
+    "market_slug": "will-anthropics-market-cap-be-between-200b-and-300b-at-market-close-on-ipo-day-by-december-31-2027",
+    "event_slug": "anthropic-ipo-closing-market-cap-119",
+    "title": "Will Anthropic’s market cap be between $200B and $300B at market close on IPO day by December 31, 2027?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "8100.54",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While Anthropic is a leader in AI, a $200B-$300B valuation would require a massive increase from its current ~$40B valuation and a highly favorable IPO environment. Given the historical rarity of such high-valuation IPOs and the uncertainty of the 2027 market, the probability of landing in this specific high range is low.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.0035,
+      "No": 0.9965
+    }
+  },
+  {
+    "condition_id": "0xf545b92fa65432e916ccda728d49d2df4015f6c4236e0a4ea75fb7ad2ce4073f",
+    "market_slug": "will-stravas-market-cap-be-between-5b-and-7b-at-market-close-on-ipo-day",
+    "event_slug": "strava-ipo-closing-market-cap",
+    "title": "Will Strava’s market cap be between $5B and $7B at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "798.761",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Strava's last private valuation was approximately $1.5 billion in 2020, and while it has grown significantly, hitting a specific $5B-$7B range requires precise timing and market conditions. Given the volatility of tech IPOs and the narrowness of the target window, the probability of landing exactly in that range is statistically low.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    },
+    "market_price": {
+      "Yes": 0.0425,
+      "No": 0.9575
+    }
+  },
+  {
+    "condition_id": "0xf2be324a36eaa0c5419ea587163f6522979236df6bf8e8ea074db69108730fc9",
+    "market_slug": "will-stravas-market-cap-be-less-than-2b-at-market-close-on-ipo-day",
+    "event_slug": "strava-ipo-closing-market-cap",
+    "title": "Will Strava’s market cap be less than $2B at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "763.705",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Strava's last private valuation was approximately $1.5 billion in 2020, and with its significant user growth and subscription revenue increases since then, it is highly likely to exceed a $2 billion valuation upon going public. Market trends for high-engagement fitness platforms generally support a valuation multiple that would place the company well above this threshold.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    },
+    "market_price": {
+      "Yes": 0.195,
+      "No": 0.805
+    }
+  },
+  {
+    "condition_id": "0x49b3dd36fa4c46ea7e7e6b2c1bfa4c499987688b2ee2c03d94f16b1a78cbd320",
+    "market_slug": "will-strava-not-ipo-by-december-31-2027",
+    "event_slug": "strava-ipo-closing-market-cap",
+    "title": "Will Strava not IPO by December 31, 2027?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "506.264",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Strava has reached profitability and significant scale, but the current IPO market remains cautious and the company has not signaled an immediate intent to go public. Given the three-year window, while an IPO is plausible, the flexibility of private funding and the specific phrasing of the question favoring the 'not IPO' outcome makes 'Yes' slightly more probable.",
+      "probabilities": {
+        "Yes": 0.65,
+        "No": 0.35
+      }
+    },
+    "market_price": {
+      "Yes": 0.1,
+      "No": 0.9
+    }
+  },
+  {
+    "condition_id": "0x94f5db837b2d95d30fde488e64f5582b9e6ec0554a0d79a5e1715f3c3e42584f",
+    "market_slug": "will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day-by-december-31-2027-861",
+    "event_slug": "openai-ipo-closing-market-cap-554",
+    "title": "Will OpenAI’s market cap be less than $500B at market close on IPO day by December 31, 2027?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "96.6833",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While OpenAI is currently valued at approximately $157 billion, reaching a $500 billion market cap by 2027 would require a massive 3x growth in a competitive AI landscape. While possible given their lead, historical IPO trends and the high bar of a half-trillion dollar valuation make it more likely they remain below this threshold at the time of their initial public offering.",
+      "probabilities": {
+        "Yes": 0.75,
+        "No": 0.25
+      }
+    },
+    "market_price": {
+      "Yes": 0.14,
+      "No": 0.86
+    }
+  },
+  {
+    "condition_id": "0x0bf4f152a3fc577a25076856b5187128e448763909c65de29a0f4503caf0d9c9",
+    "market_slug": "will-perplexitys-market-cap-be-between-60b-and-80b-at-market-close-on-ipo-day",
+    "event_slug": "perplexity-ipo-closing-market-cap",
+    "title": "Will Perplexity’s market cap be between $40B and $50B at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Perplexity is currently valued at approximately $9 billion following its latest funding rounds. While growth is rapid, reaching a $40B-$50B valuation by 2027 requires a specific and narrow outcome, whereas the 'No' outcome covers all other valuations and the possibility of not going public by the deadline.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.0725,
+      "No": 0.9275
+    }
+  },
+  {
+    "condition_id": "0x6152ba5b635d471cb2f55d255658392c0d8d36b99bef56f8d691252bff08540c",
+    "market_slug": "will-perplexitys-market-cap-be-between-40b-and-60b-at-market-close-on-ipo-day",
+    "event_slug": "perplexity-ipo-closing-market-cap",
+    "title": "Will Perplexity’s market cap be between $30B and $40B at market close on IPO day?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Perplexity is currently valued at approximately $9 billion following its latest funding rounds. While growth is rapid, reaching a $30B-$40B valuation by 2027 requires a specific IPO timing and market conditions that narrow the probability of hitting this exact range versus falling above or below it.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.059,
+      "No": 0.941
+    }
+  },
+  {
+    "condition_id": "0x90e31c6c510cd523a45c6de9771ee47ed7e5a8a24585ca7abf9ea20f9f357e5d",
+    "market_slug": "will-soundhound-ai-announce-bankruptcy-before-2027-744-881-571",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will SoundHound AI announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "1806.17",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SoundHound AI has significantly improved its balance sheet through recent capital raises and has seen strong revenue growth driven by AI demand. While the company is still working toward profitability, its current cash runway and lack of immediate debt maturity make a bankruptcy filing before 2027 unlikely.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.085,
+      "No": 0.915
+    }
+  },
+  {
+    "condition_id": "0x28c2427adaa725c391ba431f2dc88c91e06c91cd0ab59a6fc6e5a756c6f48f97",
+    "market_slug": "will-workhorse-announce-bankruptcy-before-2027-596-468-177-494-196-581",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will Workhorse announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "131.12",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Workhorse Group faces severe financial distress, including consistent net losses, dwindling cash reserves, and a low stock price that risks delisting. While they are attempting to pivot and raise capital through debt or equity, their high burn rate and lack of significant revenue make a bankruptcy filing or restructuring highly probable before 2027.",
+      "probabilities": {
+        "Yes": 0.75,
+        "No": 0.25
+      }
+    },
+    "market_price": {
+      "Yes": 0.535,
+      "No": 0.465
+    }
+  },
+  {
+    "condition_id": "0xfb037f25bd5c9a5854438de4aba47636d5d98930cef104ca1f2d3840f00c1a37",
+    "market_slug": "will-lucid-announce-bankruptcy-before-2027-732-585-695",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will Lucid announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "94.7293",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Lucid is heavily backed by Saudi Arabia's Public Investment Fund (PIF), which has consistently provided multi-billion dollar capital injections to sustain operations. While the company faces significant cash burn and production challenges, the strategic importance to Saudi Arabia's Vision 2030 makes a bankruptcy filing unlikely before 2027.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    },
+    "market_price": {
+      "Yes": 0.465,
+      "No": 0.535
+    }
+  },
+  {
+    "condition_id": "0x1153d31ded5fc1376b76f6bef55541eea123808af3a2a4235e4e912ed455dc40",
+    "market_slug": "will-jetblue-airways-announce-bankruptcy-before-2027-219-161-939",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will JetBlue Airways announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "JetBlue faces significant financial headwinds following the blocked Spirit merger and ongoing engine issues, but it maintains a decent liquidity position and is implementing a 'JetForward' turnaround plan. While the risk of restructuring exists if profitability does not return by 2026, a full bankruptcy filing remains less likely than a successful operational pivot or debt refinancing.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    },
+    "market_price": {
+      "Yes": 0.51,
+      "No": 0.49
+    }
+  },
+  {
+    "condition_id": "0x26e8d0bee0a23b92a89f1ce45ae5585ce78d845b526eed5da4eecbe855cc7083",
+    "market_slug": "will-perplexity-ai-announce-bankruptcy-before-2027-513-763-545",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will Perplexity AI announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Perplexity AI has secured significant venture capital funding and maintains a strong market position in the AI search space. While the company faces legal challenges from publishers, its high valuation and revenue growth make a bankruptcy filing within the next two years highly unlikely.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.39,
+      "No": 0.61
+    }
+  },
+  {
+    "condition_id": "0x90ec7b973fe26d67cc057a0a27ead8f7bc3a206f477a7b65fc82a0dbcc0ac96b",
+    "market_slug": "will-c3ai-announce-bankruptcy-before-2027-272-269-675-414-351-737",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will C3.ai announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "C3.ai maintains a strong cash position with over $700 million in cash and equivalents and no significant debt, providing a substantial runway. While the company is currently loss-making, its pivot to a consumption-based model and the growing demand for enterprise AI software make a bankruptcy filing within the next two years highly unlikely.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    },
+    "market_price": {
+      "Yes": 0.22,
+      "No": 0.78
+    }
+  },
+  {
+    "condition_id": "0xb40d75cef495ea643cb075b2a37f96abe3e1c208afbbe6b5e08feb667814191f",
+    "market_slug": "will-xerox-announce-bankruptcy-before-2027-511-298-531",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will Xerox announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Xerox faces significant headwinds from the decline in traditional printing, but it maintains a manageable debt maturity profile and is undergoing a major 'Reinvention' restructuring to cut costs. While its credit rating is speculative, the company remains cash-flow positive and has sufficient liquidity to avoid bankruptcy within the next two years.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.195,
+      "No": 0.805
+    }
+  },
+  {
+    "condition_id": "0xe33fc14e23f7a6fd771119e9136a1b3ff198aa2f2ca2a1c458ba0c92f19a1885",
+    "market_slug": "will-rivian-announce-bankruptcy-before-2027-396-969-235",
+    "event_slug": "which-companies-announce-bankruptcy-before-2027",
+    "title": "Will Rivian announce bankruptcy before 2027?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Rivian maintains a significant cash runway of approximately $7.8 billion as of late 2024 and has secured a strategic joint venture with Volkswagen worth up to $5 billion. While the company faces high burn rates and production challenges, these capital injections and cost-cutting measures significantly reduce the immediate risk of bankruptcy before 2027.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.47,
+      "No": 0.53
+    }
+  },
+  {
+    "condition_id": "0x55a5a4b50b7947482e95af8f638fa0b8d9a46740c5cd04c6799443e83565176a",
+    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-december-31-291",
+    "event_slug": "largest-company-end-of-december-2026",
+    "title": "Will Apple be the largest company in the world by market cap on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "182490",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Apple currently maintains a leading position in market capitalization, but faces intense competition from NVIDIA and Microsoft, particularly regarding AI-driven growth. Given the long timeframe until the end of 2026, market volatility and shifts in technology leadership make it slightly more probable that a competitor will hold the top spot.",
+      "probabilities": {
+        "Yes": 0.45,
+        "No": 0.55
+      }
+    },
+    "market_price": {
+      "Yes": 0.08,
+      "No": 0.92
+    }
+  },
+  {
+    "condition_id": "0x83f44cfb8c848cfb995d2f37e25baaffdfd502ffaa35c74cbe277c82a6ae7b99",
+    "market_slug": "will-mark-zuckerberg-be-richest-person-on-december-31-366",
+    "event_slug": "richest-person-on-december-31-2026",
+    "title": "Will Mark Zuckerberg be richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "120133",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While Mark Zuckerberg's wealth has surged due to Meta's performance, he currently trails Elon Musk and Jeff Bezos by significant margins. Given the volatility of tech stocks and the historical dominance of Musk and Arnault, it is statistically unlikely for him to maintain the top spot through the end of 2026.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.015,
+      "No": 0.985
+    }
+  },
+  {
+    "condition_id": "0xca5e7321fd8fabb9c70edd53674120064f687a4790de8a2c46fca144f9c8caae",
+    "market_slug": "will-warren-buffett-be-richest-person-on-december-31-579",
+    "event_slug": "richest-person-on-december-31-2026",
+    "title": "Will Warren Buffett be richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "82874.7",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Warren Buffett currently ranks significantly behind leaders like Elon Musk and Jeff Bezos, with a net worth gap often exceeding $100 billion. Given his commitment to philanthropy through the Bill & Melinda Gates Foundation and his conservative investment strategy compared to high-growth tech billionaires, it is highly improbable he will reclaim the top spot by late 2026.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    },
+    "market_price": {
+      "Yes": 0.0135,
+      "No": 0.9865
+    }
+  },
+  {
+    "condition_id": "0xb6a7fc8b3a3c7428a29976ef7e30748cbdc4776ad76c7098cadfaceb681441ef",
+    "market_slug": "will-sergey-brin-be-richest-person-on-december-31",
+    "event_slug": "richest-person-on-december-31-2026",
+    "title": "Will Sergey Brin be richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "75032.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Sergey Brin's net worth, while substantial, consistently trails behind leaders like Elon Musk, Jeff Bezos, and Bernard Arnault by tens of billions of dollars. Given the diversified portfolios and growth trajectories of current top-tier billionaires, it is highly improbable for Brin to bridge this gap by the end of 2026.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    },
+    "market_price": {
+      "Yes": 0.013,
+      "No": 0.987
+    }
+  },
+  {
+    "condition_id": "0xe9eb11a4b76b9374c6d35a4613e95ba24869901d5311c62013a8b54d460c98db",
+    "market_slug": "will-larry-ellison-be-richest-person-on-december-31-367",
+    "event_slug": "richest-person-on-december-31-2026",
+    "title": "Will Larry Ellison be richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "50277.1",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While Larry Ellison's wealth has surged due to Oracle's AI-driven growth, he consistently trails Elon Musk and Jeff Bezos in net worth. Maintaining the top spot through the end of 2026 would require sustained outperformance of Oracle relative to Tesla and Amazon, which is statistically less probable than Musk or Bezos reclaiming or holding the lead.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.014,
+      "No": 0.986
+    }
+  },
+  {
+    "condition_id": "0x88cfcef8cd6ccfe509f6211e4c34f0b0e963833025e8bb14ae87bca2d3fcb23f",
+    "market_slug": "will-sergey-brin-be-3rd-richest-person-on-december-31",
+    "event_slug": "3rd-richest-person-on-december-31",
+    "title": "Will Sergey Brin be 3rd richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "274.62",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Sergey Brin currently ranks outside the top 5 globally, trailing significantly behind leaders like Elon Musk, Jeff Bezos, and Mark Zuckerberg. For Brin to reach 3rd place by late 2026, Alphabet would need massive relative outperformance compared to other tech giants, which is statistically unlikely given current wealth gaps.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.355,
+      "No": 0.645
+    }
+  },
+  {
+    "condition_id": "0x6f87a9ce2b5e45a22317fd7809894d287925abd2f8d843e7cb75641435c7feba",
+    "market_slug": "will-jeff-bezos-be-3rd-richest-person-on-december-31",
+    "event_slug": "3rd-richest-person-on-december-31",
+    "title": "Will Jeff Bezos be 3rd richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "259.533",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Jeff Bezos currently fluctuates between the 2nd and 3rd positions on global wealth indices, primarily driven by Amazon stock performance. Given the volatility of tech valuations and the rise of competitors like Elon Musk and Mark Zuckerberg, there is a significant chance he occupies the 3rd spot, though maintaining exactly that rank on a specific future date is subject to high variance.",
+      "probabilities": {
+        "Yes": 0.35,
+        "No": 0.65
+      }
+    },
+    "market_price": {
+      "Yes": 0.355,
+      "No": 0.645
+    }
+  },
+  {
+    "condition_id": "0xb188fc35bbd00ad03717cceb0c289cb89a2cf71aedb68a05e028610289e73c28",
+    "market_slug": "will-elon-musk-be-3rd-richest-person-on-december-31",
+    "event_slug": "3rd-richest-person-on-december-31",
+    "title": "Will Elon Musk be 3rd richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "245.243",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Elon Musk's net worth is highly volatile and tied to Tesla's stock performance and SpaceX's valuation, making a specific rank on a specific future date statistically unlikely. Current trends and competition from other billionaires like Jeff Bezos and Mark Zuckerberg suggest he is more likely to be ranked 1st, 2nd, or lower than exactly 3rd.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.26,
+      "No": 0.74
+    }
+  },
+  {
+    "condition_id": "0xcc1e4603342d8ada7e7fca9fcc198b0fcd2a5e33d59896968a300e5ccf7e59b1",
+    "market_slug": "will-bernard-arnault-be-3rd-richest-person-on-december-31",
+    "event_slug": "3rd-richest-person-on-december-31",
+    "title": "Will Bernard Arnault be 3rd richest person on December 31?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "236.91",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bernard Arnault's net worth is highly volatile and tied to LVMH stock performance, which faces headwinds in key markets like China. He currently competes closely with Elon Musk, Jeff Bezos, and Mark Zuckerberg, making a specific ranking on a distant date statistically unlikely to hold.",
+      "probabilities": {
+        "Yes": 0.25,
+        "No": 0.75
+      }
+    },
+    "market_price": {
+      "Yes": 0.27,
+      "No": 0.73
+    }
+  },
+  {
+    "condition_id": "0xd4d841659e8b1fe050980ec9b7deae31accc10e529082fe9468ef9699d11aec2",
+    "market_slug": "spacex-ipo-closing-market-cap-above-1pt8t",
+    "event_slug": "spacex-ipo-closing-market-cap-above",
+    "title": "SpaceX IPO closing market cap above $1.8T?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "52453.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While SpaceX is currently valued at approximately $210 billion and dominates the launch market, reaching a $1.8 trillion valuation by 2027 would require nearly 9x growth in three years. This would necessitate Starlink achieving massive global scale and Starship becoming fully operational and highly profitable, which is unlikely within this aggressive timeframe.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.725,
+      "No": 0.275
+    }
+  },
+  {
+    "condition_id": "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805",
+    "market_slug": "spacex-ipo-closing-market-cap-above-2pt2t",
+    "event_slug": "spacex-ipo-closing-market-cap-above",
+    "title": "SpaceX IPO closing market cap above $2.2T?",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "27500.4",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While SpaceX is currently valued at approximately $210 billion and dominates the launch market, reaching a $2.2 trillion valuation by 2027 would require a tenfold increase in value. This would necessitate Starlink achieving massive global scale and Starship becoming fully operational and highly profitable within a very tight three-year window, which is historically unlikely for a capital-intensive aerospace firm.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.42,
+      "No": 0.58
+    }
+  },
+  {
+    "condition_id": "0x80790ec7853b6618e72217d126b1e32f5d5b78f09c71aabed9eeac8de147164d",
+    "market_slug": "will-spacexs-initial-public-offering-occur-in-september-2026-et",
+    "event_slug": "in-which-month-will-spacex-ipo",
+    "title": "Will SpaceX’s initial public offering occur in September 2026 (ET)?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "8884.55",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Elon Musk has consistently stated that SpaceX will not go public until it has a regular, predictable flight cadence to Mars, which is unlikely by 2026. Furthermore, the company's massive private valuation and Starlink's potential spin-off provide sufficient capital without the regulatory burdens of an IPO.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    },
+    "market_price": {
+      "Yes": 0.0265,
+      "No": 0.9735
+    }
+  },
+  {
+    "condition_id": "0x3d0a1dd98a0256533dcade554951b121c9c77c7d99bb4033431e3a5f68060a9f",
+    "market_slug": "will-spacexs-initial-public-offering-occur-in-october-2026-et",
+    "event_slug": "in-which-month-will-spacex-ipo",
+    "title": "Will SpaceX’s initial public offering occur in October 2026 (ET)?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "8438.26",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Elon Musk has consistently stated that SpaceX will not go public until it has a regular, predictable flight cadence to Mars, which is unlikely to be achieved by 2026. Furthermore, the company generates significant cash flow from Starlink and private funding, reducing the immediate financial pressure for an IPO in the near term.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.012,
+      "No": 0.988
+    }
+  },
+  {
+    "condition_id": "0x62ba17e89836a5386924dd22b504c3755cc03e9e9e63f77060ed73f0d74da93c",
+    "market_slug": "will-spacexs-initial-public-offering-occur-in-august-2026-et",
+    "event_slug": "in-which-month-will-spacex-ipo",
+    "title": "Will SpaceX’s initial public offering occur in August 2026 (ET)?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "7536.42",
+    "status": "ok",
+    "forecast": {
+      "rationale": "SpaceX remains highly profitable and capital-efficient as a private entity, with Elon Musk repeatedly stating that an IPO for the main company is unlikely until Mars transport is routine. While a Starlink spinoff is possible, a full SpaceX IPO by August 2026 is statistically improbable given current corporate strategy and funding status.",
+      "probabilities": {
+        "Yes": 0.08,
+        "No": 0.92
+      }
+    },
+    "market_price": {
+      "Yes": 0.189,
+      "No": 0.811
+    }
+  },
+  {
+    "condition_id": "0x10f2bd57854f7330295268b3073180c0f4ede6f63b2fd15b4a7abe4c86b1e553",
+    "market_slug": "will-spacexs-initial-public-offering-occur-in-december-2026-et",
+    "event_slug": "in-which-month-will-spacex-ipo",
+    "title": "Will SpaceX’s initial public offering occur in December 2026 (ET)?",
+    "category": "Companies",
+    "close_time": "2026-12-31T00:00:00Z",
+    "volume": "5511.12",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Elon Musk has consistently stated that SpaceX will not go public until the Starship program is routine and Mars missions are underway, which is unlikely to be fully realized by 2026. Furthermore, the company's strong private valuation and cash flow from Starlink reduce the immediate financial pressure for an IPO in the near term.",
+      "probabilities": {
+        "Yes": 0.15,
+        "No": 0.85
+      }
+    },
+    "market_price": {
+      "Yes": 0.027,
+      "No": 0.973
+    }
+  },
+  {
+    "condition_id": "0xb9e2717954d6144df1865e3b051e406d259f1016719c0004abb10efe95b2ab1f",
+    "market_slug": "will-goldman-sachs-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Goldman Sachs fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "50",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Goldman Sachs is a Global Systemically Important Bank (G-SIB) with robust capital ratios and significant regulatory oversight designed to prevent failure. While market volatility exists, the probability of a total collapse without government intervention or acquisition is historically and structurally very low.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    },
+    "market_price": {
+      "Yes": 0.0645,
+      "No": 0.9355
+    }
+  },
+  {
+    "condition_id": "0x760d22dda96a9be16e46dcba06887d67713e61a09402fa6d86d5c43ebabbfe66",
+    "market_slug": "will-ubs-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will UBS fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "45.9669",
+    "status": "ok",
+    "forecast": {
+      "rationale": "UBS is currently well-capitalized with a strong CET1 ratio and has successfully integrated much of Credit Suisse, significantly reducing systemic risk. Given its status as a Global Systemically Important Bank (G-SIB) and the Swiss government's implicit backing, a total failure within this timeframe is highly improbable.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    },
+    "market_price": {
+      "Yes": 0.109,
+      "No": 0.891
+    }
+  },
+  {
+    "condition_id": "0x351de05f53559ed9c2fe5038f062db1e4a20cc245f7441cc4340f1501d0d4898",
+    "market_slug": "will-bank-of-america-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Bank of America fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "32.9726",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bank of America is a Global Systemically Important Bank (G-SIB) with robust capital ratios and significant regulatory oversight. Given its 'too big to fail' status and the current stability of the U.S. banking sector, a total failure by the end of 2026 is extremely unlikely.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    },
+    "market_price": {
+      "Yes": 0.028,
+      "No": 0.972
+    }
+  },
+  {
+    "condition_id": "0x0914b2643c0ac593fa57f899e7622bfe12de2c354192daf48c0d6635232e6310",
+    "market_slug": "will-santander-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Santander fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "30.3395",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Banco Santander is a Global Systemically Important Bank (G-SIB) with strong capital ratios and significant geographic diversification, making a total failure highly unlikely. Current regulatory frameworks and stress tests indicate high resilience against systemic shocks through 2026.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    },
+    "market_price": {
+      "Yes": 0.069,
+      "No": 0.931
+    }
+  },
+  {
+    "condition_id": "0xbeb364147de6b77c7fc25e46ecf2f329ca999c17af2fbb9283867a752bb93405",
+    "market_slug": "will-rbc-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will RBC fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "27",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Royal Bank of Canada (RBC) is a Global Systemically Important Bank (G-SIB) with strong capitalization, high liquidity ratios, and a dominant market position in Canada. Given the stringent regulatory oversight and the historical stability of the Canadian banking system, a total failure within this timeframe is highly improbable.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    },
+    "market_price": {
+      "Yes": 0.074,
+      "No": 0.926
+    }
+  },
+  {
+    "condition_id": "0x6eb62d7fd9000a2a7d629957df250849bf38a86f97d6ae539b57367f7d367f8f",
+    "market_slug": "will-bny-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will BNY fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "26.54",
+    "status": "ok",
+    "forecast": {
+      "rationale": "BNY (The Bank of New York Mellon) is a Systemically Important Financial Institution (SIFI) with a robust capital position and a specialized business model focused on asset servicing and management. Given its high credit ratings and the extreme level of regulatory oversight and government support intended to prevent the failure of such institutions, a total failure by 2026 is highly improbable.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    },
+    "market_price": {
+      "Yes": 0.067,
+      "No": 0.933
+    }
+  },
+  {
+    "condition_id": "0x30b2deb9b9d10ada7c448e49e23486c072d22256076bc910a62fe3147fffdad1",
+    "market_slug": "will-bmo-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will BMO fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "6.04165",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bank of Montreal (BMO) is a highly regulated, Systemically Important Bank in Canada with strong capital ratios and a long history of stability. The Canadian banking regulatory environment is exceptionally conservative, making a total failure within a two-year timeframe highly improbable.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    },
+    "market_price": {
+      "Yes": 0.457,
+      "No": 0.543
+    }
+  },
+  {
+    "condition_id": "0xfa88530a5b880684cb581d6ce9bfc43916e0f4c0a627b7e072d76e0c46548019",
+    "market_slug": "will-us-bank-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will US Bank fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "1.49254",
+    "status": "ok",
+    "forecast": {
+      "rationale": "U.S. Bank (U.S. Bancorp) is a Systemically Important Financial Institution (SIFI) with a strong capital position and diversified revenue streams. While the banking sector faces risks from interest rate volatility and commercial real estate, the probability of a top-tier national bank failing without a rescue or acquisition is historically very low.",
+      "probabilities": {
+        "Yes": 0.03,
+        "No": 0.97
+      }
+    },
+    "market_price": {
+      "Yes": 0.0745,
+      "No": 0.9255
+    }
+  },
+  {
+    "condition_id": "0x62e5489cac5d0ed7f551af1f76bcf708e9ebe135d4788fbd783eb24274124112",
+    "market_slug": "will-jpmorgan-chase-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will JPMorgan Chase fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "JPMorgan Chase is the largest bank in the United States with a fortress balance sheet and significant regulatory oversight as a Systemically Important Financial Institution. Given its strong capital position and the likelihood of government intervention to prevent a collapse of this magnitude, a total failure within this timeframe is extremely improbable.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    },
+    "market_price": {
+      "Yes": 0.07,
+      "No": 0.93
+    }
+  },
+  {
+    "condition_id": "0x823ec3696d3231996425f818d75d6d42b5e128ccba56fedbb82e07b87bbe7ac1",
+    "market_slug": "will-wells-fargo-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Wells Fargo fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Wells Fargo is a Global Systemically Important Bank (G-SIB) with a robust capital position and significant regulatory oversight, making a total failure highly unlikely. While it has faced historical regulatory challenges and asset caps, its 'too big to fail' status implies government intervention or acquisition would occur before a complete failure.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    },
+    "market_price": {
+      "Yes": 0.04,
+      "No": 0.96
+    }
+  },
+  {
+    "condition_id": "0x9451a6563a2fdad999d3971d5c93257763ed75e0f22fee0e235ae5547ed9fe7b",
+    "market_slug": "will-scotiabank-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Scotiabank fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Scotiabank is one of Canada's 'Big Five' banks, characterized by high capital ratios, strong regulatory oversight from OSFI, and a 'too big to fail' status that implies government intervention in extreme scenarios. Historical data shows no major Canadian bank has failed in nearly a century, making a total failure by 2026 highly improbable.",
+      "probabilities": {
+        "Yes": 0.005,
+        "No": 0.995
+      }
+    },
+    "market_price": {
+      "Yes": 0.2055,
+      "No": 0.7945
+    }
+  },
+  {
+    "condition_id": "0xc7799659bdd3f217bb7fa3c5139780fe3a1f2a2868c54744423af2ce8fb213f3",
+    "market_slug": "will-citigroup-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Citigroup fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Citigroup is a Global Systemically Important Bank (G-SIB) with significant capital buffers and access to Federal Reserve liquidity, making an outright failure highly improbable. While it faces ongoing restructuring and regulatory hurdles, the 'too big to fail' framework and current stress test performances suggest a very low risk of insolvency or liquidation by 2026.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    },
+    "market_price": {
+      "Yes": 0.08,
+      "No": 0.92
+    }
+  },
+  {
+    "condition_id": "0xecee7ddba60422c1b7b46cfeac8b07605b4c9b813fd2dd79f0f3a1aace4f0fa6",
+    "market_slug": "will-morgan-stanley-fail-by-end-of-2026",
+    "event_slug": "which-banks-will-fail-by-end-of-2026",
+    "title": "Will Morgan Stanley fail by end of 2026?",
+    "category": "Companies",
+    "close_time": "2026-12-31T23:55:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Morgan Stanley is a Global Systemically Important Bank (G-SIB) with robust capital ratios and significant regulatory oversight, making a total failure highly improbable. Even in severe economic downturns, the institution's diversified revenue streams and 'too big to fail' status provide a strong safety net against insolvency.",
+      "probabilities": {
+        "Yes": 0.01,
+        "No": 0.99
+      }
+    },
+    "market_price": {
+      "Yes": 0.07,
+      "No": 0.93
+    }
+  },
+  {
+    "condition_id": "0x3f4b9f2f79e5664cacdf4afacde6c45e59a9e4abedf7b8d10bf5f07307f9566f",
+    "market_slug": "spacex-ipo-closing-market-cap-above-3t",
+    "event_slug": "spacex-ipo-closing-market-cap-above",
+    "title": "SpaceX IPO closing market cap above $3T",
+    "category": "Companies",
+    "close_time": "2027-12-31T00:00:00Z",
+    "volume": "423882",
+    "status": "ok",
+    "forecast": {
+      "rationale": "While SpaceX is currently valued at approximately $210 billion and dominates the launch market, reaching a $3 trillion valuation by 2027 would require a 14-fold increase in value. This would necessitate Starlink achieving near-total global market dominance and Starship becoming a fully operational, high-frequency commercial success within a very tight three-year window.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    },
+    "market_price": {
+      "Yes": 0.115,
+      "No": 0.885
+    }
+  },
+  {
+    "condition_id": "0x215ba9d9517f73c74bc1c7048467878ba64966cb8e615dc14b6fd3beb89acac2",
+    "market_slug": "will-lebron-james-buy-the-seattle-seahawks-193",
+    "event_slug": "who-will-buy-the-seattle-seahawks-814",
+    "title": "Will LeBron James buy the Seattle Seahawks?",
+    "category": "Companies",
+    "close_time": "2026-09-10T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "LeBron James has expressed interest in NBA ownership, specifically in Las Vegas, rather than the NFL. Furthermore, the Seahawks are currently held by the Paul G. Allen Trust, and while a sale is expected eventually, there is no indication James is a primary suitor or possesses the liquid capital required for a majority NFL stake by 2026.",
+      "probabilities": {
+        "Yes": 0.02,
+        "No": 0.98
+      }
+    },
+    "market_price": {
+      "Yes": 0.095,
+      "No": 0.905
+    }
+  },
+  {
+    "condition_id": "0xa8fe17056960ffb0a81ccec93a12f06fcbccda8c6d1986568fb195b51d57806e",
+    "market_slug": "will-bill-gates-buy-the-seattle-seahawks-477",
+    "event_slug": "who-will-buy-the-seattle-seahawks-814",
+    "title": "Will Bill Gates buy the Seattle Seahawks?",
+    "category": "Companies",
+    "close_time": "2026-09-10T00:00:00Z",
+    "volume": "",
+    "status": "ok",
+    "forecast": {
+      "rationale": "Bill Gates has shown no public interest in sports ownership and is currently focused on philanthropy through his foundation. The Seahawks are expected to be sold eventually due to Paul Allen's estate requirements, but Gates is not a rumored suitor compared to other local billionaires like Jeff Bezos.",
+      "probabilities": {
+        "Yes": 0.05,
+        "No": 0.95
+      }
+    },
+    "market_price": {
+      "Yes": 0.195,
+      "No": 0.805
+    }
   }
 ]

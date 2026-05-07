@@ -1,0 +1,60 @@
+======================================================================
+HEADLINE: brier ~ R_local_medium + C(domain) + C(source)
+N=2800  R²=0.014  adj-R²=0.010
+
+  Parameter                                          Coef        SE        p  sig
+  ----------------------------------------------------------------------------
+  Intercept                                       -0.0215    0.0773   0.7807  
+  C(domain)[T.CommoditiesMarkets]                 -0.0006    0.0204   0.9773  
+  C(domain)[T.CompaniesMarkets]                    0.0475    0.0348   0.1726  
+  C(domain)[T.EconomicsMarkets]                   -0.0780    0.0349   0.0255  *
+  C(domain)[T.ElectionsMarkets]                   -0.1195    0.0430   0.0054  **
+  C(domain)[T.EntertainmentMarkets]               -0.0912    0.0494   0.0646  
+  C(domain)[T.FinancialsMarkets]                  -0.0311    0.0203   0.1261  
+  C(domain)[T.PoliticsMarkets]                    -0.0667    0.0215   0.0019  **
+  C(domain)[T.ScienceTechnologyMarkets]            0.0677    0.0361   0.0603  
+  R_local_medium                                   0.2018    0.1415   0.1539   <--
+
+  A 1-unit increase in R_local_medium is not significantly associated with 0.2018 higher Brier (p=0.1539).
+
+======================================================================
+MULTI-RESOLUTION: tight + medium + broad
+N=2800  R²=0.190  adj-R²=0.186
+
+  Parameter                                          Coef        SE        p  sig
+  ----------------------------------------------------------------------------
+  Intercept                                      -19.7022    1.8054   0.0000  ***
+  C(domain)[T.CommoditiesMarkets]                  4.1963    0.3892   0.0000  ***
+  C(domain)[T.CompaniesMarkets]                   -0.8377    0.1093   0.0000  ***
+  C(domain)[T.EconomicsMarkets]                  -14.4379    1.2950   0.0000  ***
+  C(domain)[T.ElectionsMarkets]                  -10.2158    0.9231   0.0000  ***
+  C(domain)[T.EntertainmentMarkets]               -8.0565    0.7395   0.0000  ***
+  C(domain)[T.FinancialsMarkets]                   0.3420    0.0547   0.0000  ***
+  C(domain)[T.PoliticsMarkets]                    -4.1509    0.3816   0.0000  ***
+  C(domain)[T.ScienceTechnologyMarkets]           -1.7533    0.1827   0.0000  ***
+  R_local_tight                                    0.0555    0.1193   0.6417   <--
+  R_local_medium                                  -0.3515    0.2850   0.2173   <--
+  R_local_broad                                   39.5707    3.5145   0.0000  *** <--
+
+  A 1-unit increase in R_local_tight is not significantly associated with 0.0555 higher Brier (p=0.6417).
+
+======================================================================
+DECOMPOSITION: share_correct + share_approx + share_wrong
+N=2800  R²=0.013  adj-R²=0.009
+
+  Parameter                                          Coef        SE        p  sig
+  ----------------------------------------------------------------------------
+  Intercept                                     1615355931877.7920       nan      nan  
+  C(domain)[T.CommoditiesMarkets]                  0.0012       nan      nan  
+  C(domain)[T.CompaniesMarkets]                    0.0387 6536.9223   1.0000  
+  C(domain)[T.EconomicsMarkets]                   -0.0689       nan      nan  
+  C(domain)[T.ElectionsMarkets]                   -0.1106       nan      nan  
+  C(domain)[T.EntertainmentMarkets]               -0.0815       nan      nan  
+  C(domain)[T.FinancialsMarkets]                  -0.0246       nan      nan  
+  C(domain)[T.PoliticsMarkets]                    -0.0597       nan      nan  
+  C(domain)[T.ScienceTechnologyMarkets]            0.0598       nan      nan  
+  share_correct                                 -1615355931877.6340 1390897256431784960.0000   1.0000   <--
+  share_approx                                  -1615355931877.7168 1062832601379946368.0000   1.0000   <--
+  share_wrong                                   -1615355931877.7988       nan      nan   <--
+
+  A 1-unit increase in share_correct is not significantly associated with 1615355931877.6340 lower Brier (p=1.0000).
